@@ -994,7 +994,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Abaddon - Complete
+    { //Abaddon - Missing Lore
         id: 100606512,
         name: "Abaddon",
         attribute: "Dark",
@@ -1075,10 +1075,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "A mad knight spoken of in Demon legend. Records from just before the start of the Great War speak of a masked knight attacking Demon settlements. The Demon military moved to dispatch the criminal, but the killings ended before they were able to ascertain his whereabouts. Rumors began to spread that the mad knight was a new military weapon or just a conspiracy made up by other races. One thing was certain: he was far stronger than your average Demon.",
-                evo4: "A mad knight spoken of in Demon legend. Just as old rumors began to fade, another incident had happened. The masked knight attacked the Demon army. Though thrown into chaos, the military beat back the knight with the help of a knight of their own, who described the attacker as a threat, certainly not a Demon, and questionably a living thing. Soon afterward, the masked knight vanished once more.",
-                evo5: "A mad knight spoken of in Demon legend. Rumors of the masked knight died down after the tumult of the Great War had begun, but he woudl appear once more at the war's end. After falling into a trap, the Demon platoon was about to meet its end. Then suddenly, the knight appeared and annihilated the encroaching Gods. The Demons rejoiced, but the knight soon turned his sword on them, and in a ghostly voice, his armor said it would devour all their souls.",
-                evoawk: "A masked knight spoken of in Demon legend. After countless massacres during the Great War, he had become known as the mad knight. Even those who had survived the bloodshed were engulfed in the insanity of his presence. No one knows where he is now, but if the words of his armor ring true, he will continue to plague the battlefield in search of souls to devour."
+                evo3: "Missing Lore Information, please contact site owner",
+                evo4: "A mechanical lifeform from another world. EDEN worked with the fairies he met to find some was to save his world, but unfortunately stumbled into Demon territory. To protect the fairies, he disabled the limiters on his functions, unleashing his original power in the process. Though the demons were defeated, he had exhausted his energy far faster than expected. His time remaining grew shorter by the moment.",
+                evo5: "With his functions close to ceasing, the worried fairies gave EDEN some of their secret medicine, which also happened to be the substance he was searching for to save his world. Thanking him for being their friend, the fairies gave him all of their medicine. With the last of his power, he transformed for the long-distance jump back to his world. Even now, the legend of these fairies who saved the metal traveler from another world persists.",
+                evoawk: "Missing Lore Information, please contact site owner"
             }
     },
     { //Ragna - Missing Evolution, TW Image
@@ -1522,23 +1522,23 @@ const UnitInformation = [
             {
                 evo23: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark1.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
                     mat2amt: 5
                 },
                 evo34: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
                     mat2amt: 5
                 },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
                     mat2amt: 5
                 },
                 evo5awk:
@@ -1547,15 +1547,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
-                    mat3amt: 3,
-                    hover3: "RagsherumPhantom",
-                    mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat4amt: 4,
-                    hover4: "Oldeus",
-                    mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
-                    mat5amt: 2,
-                    hover5: "Flogassa"
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
                 }
             },
         lore: 
@@ -1989,7 +1989,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Fen (Earth) - Missing Lore, TW Image
+    { //Fen (Earth) - Missing TW Image
         id: 101056311,
         name: "Fen (Earth)",
         attribute: "Earth",
@@ -2080,9 +2080,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Mising Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "Head of General Staff in Gramenia, and member of the Demon Suppression Corps. Fen is a tactical genius, and trusted more than the president of his own country, but his tendency to vocalise harsh opinions has earned him many enemies. His talents made him head of General Staff by his 29th birthday, but the sweeping reforms he later made to the military drew the ire of the top brass. He proposed the Corps and joined it of his own volition.",
+                evo5: "The Gramenian head of General Staff who worked to defeat the Demonic threat. After the destruction of the Demon Suppression Corps, Fen returned to Gramenia and acted to protect his position, drawing harsh criticism from his opponents. Knowing the threats that the Demons pose, however, forced Fen to do everything to retain his position. When someone who understands the situation appears, he'll finally have the freedom to command as he sees fit.",
+                evoawk: "The current head of General Staff for Gramenia became a skilled commander despite his underprivileged childhood. Having already changed his whole life to achieve power and status, this stern man once again begins to change when he meets an adventurer who offers the same words he heard in his childhood. Now, his enemies defeated and the strength he sought in hand, he begins little by little to gain control over the power sleeping within him, for his own sake and for those who count on him."
             }
     },
     { //Zeorg (Light) - MIssing Stats, Lore, Slots, Evolution, True Weapon, TW Image
@@ -2659,7 +2659,7 @@ const UnitInformation = [
                 evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
-    { //Gilliam - Missing Lore, Evolution, TW Image
+    { //Gilliam - Missing TW Image
         id: 101126311,
         name: "Gilliam",
         attribute: "Earth",
@@ -2707,42 +2707,24 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_Gilliam45.png",
+                    mat3amt: 20
                 },
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragGilliam.png",
+                    mat3amt: 1,
+                    hover3: "Gilliam",
                 }
             },
         trueweapon: 
@@ -2760,10 +2742,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A blacksmith who runs a weapons shop in the town of Reigrad. His expertise is known throughout nearby kingdoms, and though many would-be blacksmiths have begged to apprentice under him, only three have met his rigid standards. This means he can't take massive military orders like other blacksmiths, instead tailoring his work to individuals. He's also extremely picky about materials, and will fight monsters to get what he wants. He's drinking buddies with Ganan.",
+                evo5: "Though originally a highborn child of Bamint, Gilliam decided he didn't want to live according to his parents' whims and left the house at age 16 to travel the world. After falling in love with a certain blacksmith and demanding to become their apprentice, he heard tales of the legendary weapons used by the 3 Blade Masters. He set off on a yourney to amass materials to forge an even greater weapon, and the trail lef him to set up shop in Reigrad.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Liese (Light) - Missing TW Image
@@ -3225,7 +3206,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Selia (Regular) - Missing Lore
+    { //Selia (Regular) - Complete
         id: 101186212,
         name: "Selia",
         attribute: "Water",
@@ -3302,10 +3283,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "One of the six witches in "Grimm Stella", a coven of witches written about in ancient histories, Selia is a master of powerful ice magic, and possesses a reckless personality that sees curiosity guiding her every action. Oblivious to her surroundings, once she sets her mind to something, it's almost certainly going to cause some serious damage. She caused countless incidents prior to the Great War, receiving the nickname "Trouble Witch".",
+                evo5: "Selia travelled the world, eventually encountering a soldier whose life she had inadvertently saved. Bored of his pleas to kill him, she suddenly realised she had a plan. "He can definitely kill you," she said, pointing at the archer who conveniently walked by. In moments, the dragon soldier and archer began to fight. Happy that her plan had succeeded, she strolled off to observe the furious battle raging on Thaumazein Plain at the peak of summer.",
+                evoawk: "The fierce battle ended before the eyes of distant watcher Selia. However, the massive flames of the warriors' final clash spread in a great wildfire, threatening to consume the entire wilderness. Selia saw this, and used her Absolute Zero sorcery. The plains were frozen solid, and the rampaging flames died out. This disaster became known as the Thaumazein Winter, when the grain belt was buried in snow. The truth of what happened is recorded nowhere, but she surely doesn't mind."
             }
     },
     { //Ashe Toto - Complete
@@ -4473,7 +4453,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Shadie - Missing Lore
+    { //Shadie - Complete
         id: 101346212,
         name: "Shadie",
         attribute: "Water",
@@ -4544,9 +4524,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A girl of Gods who is after a musketeer. Having no relatives, Shadie was brought up in the woods by a wizard. She grew up cheerfully by her kind foster father but felt bored at times. However, getting involved in a battle between a musketeer and fire dragon, her life changed completely. She fell in love with the musketeer who risked his life to save hers. Believing that he was her soul mate, she decides to follow him.",
+                evo5: "A girl of Gods who is after a musketeer. The moment she realised her lifesaver was a magical beast hunter, she became one too. Learning how to use whips by her own, she defeated magical beasts one after another. This was only to get closer to the musketeer, but her skills became more powerful by battling beasts. Finally, she found her soulmate... but there was a woman of Beasts next to him.",
+                evoawk: "Shadie's questions about the woman the musketeer was with were interrupted by a fire dragon's attack. With her true power awakened by this disruption to her journey to true love, Shadie and the musketeer prevailed over the dragon. However, the musketter nearly faced his demise after the battle, enveloped by the cursed flames unleashed by his overloaded firearm. In the end, what saved the musketeer from his fate and dispelled the gun's curse was Shadie, who embraced him with open arms even as the dark fire threatened to swallow him whole."
             }
     },
     { //Rhiotis - Missing Lore
@@ -4921,7 +4901,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
+                evo4: "A Beast mercenary who fought many battles after the Ancient War. She was a war orphan, but she had a happy childhood in the Principality of Bamint. Aspiring to become famous, she fought the fiercest battles with her fire and became known as "Lion Fire Lione". She accomplished many missions together with her step-brother Elmessio, but once they accidentally became aware of a secret. In order to prevent the unforgivable plan, the two decided by their own decision to assassinate the key man involved in this plan.",
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
@@ -20332,7 +20312,7 @@ const UnitInformation = [
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
-    }            
+    }
 ];
 
 export function getUnits() {
