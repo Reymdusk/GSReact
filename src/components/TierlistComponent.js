@@ -407,7 +407,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
         return (
             <center>
                 <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px", margin: "0px"}}>
-                    <a href={`/units/${unit.name}/stats`} style={{textDecoration: "none"}}>
+                    <a href={`/units/${unit.name}/`} style={{textDecoration: "none"}}>
                         <img src={unit.image.thumb5} style={thumbnailSize} object-fit="cover" alt={unit.name} />
                         <br />
                         <p style={{paddingTop: "0px", marginTop: "0px", marginBottom: "0px", color: "#aaabb8", fontSize: `${fontSizing}`, width: "75px", display: "inline-block"}}>{unit.name}</p>
