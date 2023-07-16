@@ -434,7 +434,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                 </center>
             )
         }
-        if(unit.name === "Luahn") {
+        /* if(unit.name === "Luahn") {
             return (
                 <center>
                     <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px", margin: "0px"}}>
@@ -448,7 +448,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                     </Card>
                 </center>
             )
-        }
+        } */
 
         return (
             <center>
