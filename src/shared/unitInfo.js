@@ -16938,7 +16938,7 @@ const UnitInformation = [
     { //Luahn - Complete, Review done
         id: 103046512,
         name: "Luahn",
-        rank: "A+",
+        rank: "A",
         twrequire: "favorable",
         attribute: "Dark",
         type: "God",
