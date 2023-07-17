@@ -4058,7 +4058,7 @@ const EquipInformation = [
         id: 101431,
         name: `Netherblade Rodgalos`,
         location: `General Equip Banner`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
