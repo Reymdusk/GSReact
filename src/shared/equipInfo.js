@@ -32061,12 +32061,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 5000% Fire DMG (MAG). For 10s, increase own Fire DMG by 40%. When used for the first time, increase own Arts gauge by 50.`,
+                skill: `40s CT - 5000% Fire DMG (Magic). For 10s, increase own Fire DMG by 40%. When used for the first time, increase own Arts gauge by 50.`,
                 break: `500`
             },
         passive: 
             {
-                ability1: `MAG RES 5% UP.`
+                ability1: `MAG resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -40199,6 +40199,255 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `ATK 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //画眉丸のマスク - JP Complete
+        id: 152631,
+        name: `画眉丸のマスク`,
+        translate: `Gabimaru's Mask`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Event Equip: Hell's Paradise`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152631.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts gauge by 15. Additionally if user is Fire, increase all allies' DMG resistance by 10% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `DEF 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //極『画眉丸のマスク』 - JP Complete
+        id: 152641,
+        name: `極『画眉丸のマスク』`,
+        translate: `Gabimaru's Mask EV`,
+        location: `Craftable - Using Hell's Paradise collab materials`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_152641.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152641.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+            skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts gauge by 15. Additionally if user is Fire, increase all allies' DMG resistance by 10% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `DEF 5% UP.`,
+                ability2: [`DMG 10% UP against Gods.`, `DMG 10% UP against Demons.`, `Fire resistance 5% UP.`, `Water resistance 5% UP.`, `Heal own HP by 4/s.`, `When HP is 90% or more, Skill CT speed 10% UP.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //画眉丸の服 - JP Complete
+        id: 152651,
+        name: `画眉丸の服`,
+        translate: `Gabimaru's Clothes`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Fire DMG (Physical). Increase own Physical DMG by 60% for 10s. Additionally if user is Fire, increase own Freeze/Paralysis resistance by 100% for 10s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //画眉丸の足袋 - JP Complete
+        id: 152661,
+        name: `画眉丸の足袋`,
+        translate: `Gabimaru's Tabi`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 5000% Fire DMG (Magic). Increase own ATK by 80% for 8s. Additionally, increase own Arts gauge by 80 when used for the first time.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //佐切の刀 - JP Complete
+        id: 152671,
+        name: `佐切の刀`,
+        translate: `Sagiri's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 7000% Earth DMG (Physical). If enemy is Human, reduce enemies' DMG resistance by 50% for 10s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //佐切の服 - JP Complete
+        id: 152681,
+        name: `佐切の服`,
+        translate: `Sagiri's Clothes`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4500% Earth DMG (Physical). Reduce enemies' Physical resistance and Evasion rate by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //佐切の篭手 - JP Complete
+        id: 152691,
+        name: `佐切の篭手`,
+        translate: `Sagiri's Gauntlets`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152691.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts gauge by 20. Increase all allies' Earth resistance by 15% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //佐切の髪飾り - JP Complete
+        id: 152701,
+        name: `佐切の髪飾り`,
+        translate: `Sagiri's Hair Ornament`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `25s CT - Increase all allies' Magic resistance by 20%, and Poison resistance and Disease resistance by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     }

@@ -2967,7 +2967,7 @@ const UnitInformation = [
                         hover3: `Mavroskia`
                     },
                     passive: {
-                        ability1: `Increase all Dark allies' Arts gauge by 2/s (Does not stack with Abilities of the same name). `
+                        ability1: `Increase all Dark allies' Arts gauge by 2/s (Does not stack with Abilities of the same name).`
                     }
                 },
             },
@@ -4479,7 +4479,7 @@ const UnitInformation = [
                         hover3: `Oldeus`
                     },
                     passive: {
-                        ability1: `Increase all Demon allies' Arts gauge by 2/s (No Duplication). `,
+                        ability1: `Increase all Demon allies' Arts gauge by 2/s (No Duplication).`,
                         ability2: ``
                     }
                 },
@@ -16426,7 +16426,7 @@ const UnitInformation = [
                 skill: `Offers a near negligible amount of survivability to the team.`,
                 arts: `Bringing a plentiful amount of Support Cestina can offer to the team with this art as well as its relatively low cost makes this a great addition to any team that needs ArtGen and Defensive Measures.`,
                 truearts: `Offering substantial buffs/debuffs allows for both Cestina and her allies to inflict major amounts of damage during its duration. Enabling Cestina to perform as a competent DPS or Nuker when her Arts buffs are unnecessary.`,
-                crossarts: `While the high multiplier combined with the plethora of buffs this dual arts can bring seems quite potent, it’s a mere layer cake with a bitter inside. In spite of their limitations, the high cost of performing it as well as Cestina and Radak’s low synergy makes it so that this Dual Art seldom seize use. `,
+                crossarts: `While the high multiplier combined with the plethora of buffs this dual arts can bring seems quite potent, it’s a mere layer cake with a bitter inside. In spite of their limitations, the high cost of performing it as well as Cestina and Radak’s low synergy makes it so that this Dual Art seldom seize use.`,
                 ability1: `A nice Buff to the team’s survivability.`,
                 ability2: `A substantial DMG Buff for Cestina to further improve her DPS capabilities against Giant Bosses.`,
                 ability3: `Even though you’d never want a Unit to be near death, the flexibility this ability offers is very welcome, whether it to be used for it’s incredible Arts DMG boost for some strong Burst or a load instant arts allowing Cestina to pull out her barrier as fast as possible to prevent Ally/Unit deaths.`,
@@ -16525,7 +16525,7 @@ const UnitInformation = [
         review:
             {
                 skill: `Adds a good amount of self-sufficiency to his kit allowing him to build arts faster.`,
-                arts: `A very useful part of his kit that further enables his team through boosts in survivability and damage output. The Arts refund allows for greater uptime on the buff and debuff, especially with external Arts Gen support. `,
+                arts: `A very useful part of his kit that further enables his team through boosts in survivability and damage output. The Arts refund allows for greater uptime on the buff and debuff, especially with external Arts Gen support.`,
                 truearts: `A decent DMG buff/debuff that has a greater effect in mono Fire teams; however due to the effect being geared towards mono Fire and his slots not being optimal this will never see much use.`,
                 crossarts: `Despite its enormous multiplier, DMG boost, and arts buff, you will rarely see this used due to its large arts consumption as well as Cestina's and Radak's low compatibility.`,
                 ability1: `Increases his self sufficiency and damage output if Cestina is on the team. Do note that this ability will rarely be active due to their lack of synergy.`,
@@ -16536,7 +16536,7 @@ const UnitInformation = [
                     ability1: ``,
                     ability2: ``
                 },
-                overall: `Despite a lot of perks to his kit, Radak is held back by both his conditional buffs and team limitations. He will mainly act as a debuffer since he struggles as a DPS with his relatively low damage output and is unable to find a place in nuke teams due to his lackluster slots. His Cross Arts with Cestina offers some use, but due to the many conditions for its activation it will rarely be seen. Despite these limitations, he can definitely hold his own and has use in certain areas of content. `,
+                overall: `Despite a lot of perks to his kit, Radak is held back by both his conditional buffs and team limitations. He will mainly act as a debuffer since he struggles as a DPS with his relatively low damage output and is unable to find a place in nuke teams due to his lackluster slots. His Cross Arts with Cestina offers some use, but due to the many conditions for its activation it will rarely be seen. Despite these limitations, he can definitely hold his own and has use in certain areas of content.`,
                 lastupdated: `July 21, 2020`,
                 author: `The True Pepe`
             }
@@ -19245,7 +19245,7 @@ const UnitInformation = [
             {
                 skill: `This really won't be the most consequential skill, especially with how unreliable depending on the enemy to miss can be.`,
                 arts: `Quite a nice offensive buff with a long enough duration that if Hart is supported enough, Hart should be able to loop this without too much difficulty with his extremely loaded True Arts. If you ever find yourself an opening to do so, this can serve as a nice foil to his more support-oriented True Arts.`,
-                truearts: `Well... those are some... very high buff values for two of the most important buffs to have in the game. Despite the short duration, Hart's True Arts more than makes up for it in sheer potency, offering perhaps the highest heal over time buff in the game on top of arts generation near the best-in-class, especially when combined with the additional generation for humans. Even with no other humans on your team, this still better allows Hart to loop his own True Arts buffs, which will be your number one priority if you're playing him. `,
+                truearts: `Well... those are some... very high buff values for two of the most important buffs to have in the game. Despite the short duration, Hart's True Arts more than makes up for it in sheer potency, offering perhaps the highest heal over time buff in the game on top of arts generation near the best-in-class, especially when combined with the additional generation for humans. Even with no other humans on your team, this still better allows Hart to loop his own True Arts buffs, which will be your number one priority if you're playing him.`,
                 ability1: `As if his True Arts wasn't loaded enough already, this all-around boost just makes everyone tankier as well as giving a slight offensive edge, not to mention making his healing even more effective than it already is.`,
                 ability2: `As Cross Battles aren't the most heavily-used feature at the time of writing, this buff won't impact the vast majority of content. Still, the 6 arts per second it provides for 30 seconds serves as a very large boost if you find yourself in a situation where this actually applies.`,
                 ability3: `A fairly-sized buff, which will, at the very least, increase Hart's own damage and can surely help out alongside any other Earth Party members.`,
@@ -20128,7 +20128,7 @@ const UnitInformation = [
                 ability3: `A nice boost when dealing with giant bosses to further increase her damage output.`,
                 trueweapon: {
                     skill: `Another artsgen equipment for general usage. On top of it, it increases own stats by 30% if Water unit. Which works well with Summer Juno's passive.`,
-                    ability1: `As if the duration wasn't long enough already. This will enable Summer Juno to stack at least one more True Art. `,
+                    ability1: `As if the duration wasn't long enough already. This will enable Summer Juno to stack at least one more True Art.`,
                     ability2: `It's a nice bonus, but nothing too noticeable.`
                 },
                 overall: `As if Summer Juno wasn't already strong enough. With her buffs she is now capable of dealing even more damage than before. Furthermore, she has amazing self sufficiency with her passives and damage buffs for the team especially for magic/water teams. That being said, she’s one of the best magic dps units, and a common unit in magic and/or water nuking comps. The damage buffs she provides aren't a joke either as the duration of the buffs with her True Weapon will allow her to keep up 5-6 stacks on average with enough support. She is ultimately a luxury gift for any box, so don't go overboard and save your money.`,
@@ -20233,7 +20233,7 @@ const UnitInformation = [
                     ability1: `While this is an amazing passive, the active does leave a lot to be desired for supporting the team.`,
                     ability2: `As with any Near-death passive, this should be considered useless.`
                 },
-                overall: `Summer Leone used to be a pretty mediocre unit, having her Artsgen completely overlapped by Hart and Norn. Now she can stack with them! Her True Arts duration and multiplier were also buffed, increasing her damage output and buff durations aswell. Mono Earth still remains as a relatively slow and safe team, but welcomes this addition to the list. `,
+                overall: `Summer Leone used to be a pretty mediocre unit, having her Artsgen completely overlapped by Hart and Norn. Now she can stack with them! Her True Arts duration and multiplier were also buffed, increasing her damage output and buff durations aswell. Mono Earth still remains as a relatively slow and safe team, but welcomes this addition to the list.`,
                 lastupdated: `December 1, 2022`,
                 author: `Gian`
             }
@@ -20523,7 +20523,7 @@ const UnitInformation = [
                     ability1: `The main reason you would want her True Weapon, helping with her lack of innate self sustainability.`,
                     ability2: `Small, but something is better than nothing.`
                 },
-                overall: `Water Priscilla is an interesting unit. No, I don't mean the accuracy related buffs in her kit despite being blind. Technically speaking, she's a very solid unit with good slotting, high arts/s and offensive support for physical and/or water. Unfortunately, she belongs in Type B, which means that she is overriden by the more dominant Hart and Juno. She's not exactly a "meta' option, but she's far from a bad unit. `,
+                overall: `Water Priscilla is an interesting unit. No, I don't mean the accuracy related buffs in her kit despite being blind. Technically speaking, she's a very solid unit with good slotting, high arts/s and offensive support for physical and/or water. Unfortunately, she belongs in Type B, which means that she is overriden by the more dominant Hart and Juno. She's not exactly a "meta' option, but she's far from a bad unit.`,
                 lastupdated: `October 14, 2022`,
                 author: `Senshi`
             }
@@ -21080,7 +21080,7 @@ const UnitInformation = [
                     ability1: `More damage buff for Stellar Wing Cestina by applying passively 50% ATK, and self sufficient artgen of 1aps, which pairs well with her Unit passive. Makes it a total of 3aps`,
                     ability2: `A great passive to help Stellar Wing Cestina survivability by providing 1200 heal with every use of the Super Equipment, which can be increased furthermore with Equipment CT Recovery buff.`
                 },
-                overall: `Stellar Wing Cestina is one of the best Healers which rivals Hart as a Top Healer and being able to match Hart healing by her own. On top of that, she is an amazing buff and debuff unit, which is able to deal fairly decent DPS by herself with all the debuffs she applies from using her True Art and Super Equipment together. In addition, with the low Equipment CT of the Super Equipment she's also able to help your team with getting Arts thanks to the generation of BE. `,
+                overall: `Stellar Wing Cestina is one of the best Healers which rivals Hart as a Top Healer and being able to match Hart healing by her own. On top of that, she is an amazing buff and debuff unit, which is able to deal fairly decent DPS by herself with all the debuffs she applies from using her True Art and Super Equipment together. In addition, with the low Equipment CT of the Super Equipment she's also able to help your team with getting Arts thanks to the generation of BE.`,
                 lastupdated: `March 14, 2023`,
                 author: `Alice`
             }
@@ -21658,7 +21658,7 @@ const UnitInformation = [
                 ability2: `Increases Sakuya’s Damage output furthermore by activating True Third Eye when God/Spirit Enemy is present.`,
                 ability3: `A nice 10% accuracy buff, which isn’t too noticeable. It can help a little bit, if the enemy has evasion up buff.`,
                 trueweapon: {
-                    skill: `A decent damage buff with a decent uptime, which is also able to decrease Enemies’ Earth Res. `,
+                    skill: `A decent damage buff with a decent uptime, which is also able to decrease Enemies’ Earth Res.`,
                     ability1: `A nice Skill CT Recover buff that allows Sakuya to plant Kunais faster, and increase her Damage output furthermore.`,
                     ability2: `A nice 10% Evasion buff, if the boss doesn’t have accuracy up.`
                 },
@@ -21877,7 +21877,7 @@ const UnitInformation = [
                 arts: `26000% Earth DMG (PHY). For 20s, increase Allies' accuracy and Equipment CT REC by 40%`,
                 artsbreak: 1300,
                 truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.
-                            Note: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen. `,
+                            Note: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen.`,
                 trueartsbreak: 2600,
                 superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during True Arts. For 40s, increase own ATK by 100%.`,
                 superartsbreak: 1800
@@ -21886,7 +21886,7 @@ const UnitInformation = [
             {
                 ability1: `When self is Leader, at the start of a Quest, increase Allies' DMG RES by 30% for 45s. Does not stack with Abilities of the same name.`,
                 ability2: `At the start of a Quest, increase Allies' Arts by 50. Does not stack with Abilities of the same name.`,
-                ability3: `Increase Allies' DMG to Enemies with 50% or less HP by 30%. Does not stack with Abilities of the same name. `
+                ability3: `Increase Allies' DMG to Enemies with 50% or less HP by 30%. Does not stack with Abilities of the same name.`
             }, 
         evolution: 
             {
@@ -22396,7 +22396,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: `Skill CT when Near-Death 20% UP. `,
+                ability1: `Skill CT when Near-Death 20% UP.`,
                 ability2: `When own HP is 50% or above, increase all allies' MAG RES by 20%. Does not stack with Abilities of the same name.`,
                 ability3: `Increase Demon allies' stats by 10%. Does not stack with Abilities of the same name.`
             }, 
@@ -23225,7 +23225,7 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
                 trueartsbreak: 1700,
-                superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%). `,
+                superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).`,
                 superartsbreak: 2500
             },
         passive: 
@@ -26071,7 +26071,7 @@ const UnitInformation = [
                 ability3: `A nice Resistance buff, if the boss can inflict Freeze. Although 100% would be appreciated, it is better than nothing.`,
                 ability4: `A nice Resistance buff, if the boss can inflict Seal. Although 100% would be appreciated, it is better than nothing.`,
                 trueweapon: {
-                    skill: `A nice damage buffing equipment with a rather small side buff for water allies. `,
+                    skill: `A nice damage buffing equipment with a rather small side buff for water allies.`,
                     ability1: `A nice little damage buff to Emilia’s Damage output. With the side effect of using her NA to reduce the Enemy’s Freeze Resistance by 30% which pairs well with her True Arts to inflict Ultimate Freeze, if you are able to use her True Art in the duration of 15s after Debuff is applied.`,
                     ability2: `It's a nice bonus, but nothing too noticeable.`,
                     ability3: `The rest are all equally useless but definitely avoid the Increase Critical Hit Chance by 15% + Decrease Equip CT REC by 10% as it has a negative effect.`
@@ -26496,7 +26496,7 @@ const UnitInformation = [
                     ability1: ``,
                     ability2: ``
                 },
-                overall: `Santa Rimuru was already one of the best magic nuke supports, as well as a solid sustain unit against giant bosses. His buffs strengthen slightly his own damage output with higher multipliers, but the most relevant buff overall is his NA artgen that increases to 25 teamwide arts, which will improve his role in sustain. `,
+                overall: `Santa Rimuru was already one of the best magic nuke supports, as well as a solid sustain unit against giant bosses. His buffs strengthen slightly his own damage output with higher multipliers, but the most relevant buff overall is his NA artgen that increases to 25 teamwide arts, which will improve his role in sustain.`,
                 lastupdated: `January 24, 2023`,
                 author: `Zanster`
             }
@@ -28971,7 +28971,7 @@ const UnitInformation = [
             {
                 ability1: `When HP is above 80%, increase own Arts by 5/s.`,
                 ability2: `Increase MAG RES by 20%.`,
-                ability3: `Increase Allies' Critical Rate by 20%. `
+                ability3: `Increase Allies' Critical Rate by 20%.`
             }, 
         evolution: 
             {
@@ -29089,7 +29089,7 @@ const UnitInformation = [
                     ability1: ``,
                     ability2: ``
                 },
-                overall: `Narberal is a very interesting unit. She has decent utility with her NA and TA, and her TA and SA provide great damage buffs. However, she's very finnicky due to a mixture of her Demon Race restrictions and odd TA restrictions. Her TA buffs are great for selfish damage dealers or heavy hitting nukers, and if you are using a group of heavy hitting magic units, her Magic resistance down buffs will be of immense benefit to your damage output. But despite being pretty good, she pales slightly in comparison to other units due to her passives and skill falling short in general utility, and her lack of self sustainability. A decent unit to pick up, But certainly not worth a pity what with more valuble units expected in the future. `,
+                overall: `Narberal is a very interesting unit. She has decent utility with her NA and TA, and her TA and SA provide great damage buffs. However, she's very finnicky due to a mixture of her Demon Race restrictions and odd TA restrictions. Her TA buffs are great for selfish damage dealers or heavy hitting nukers, and if you are using a group of heavy hitting magic units, her Magic resistance down buffs will be of immense benefit to your damage output. But despite being pretty good, she pales slightly in comparison to other units due to her passives and skill falling short in general utility, and her lack of self sustainability. A decent unit to pick up, But certainly not worth a pity what with more valuble units expected in the future.`,
                 lastupdated: `June 9, 2023`,
                 author: `Pula`
             }
@@ -29142,8 +29142,8 @@ const UnitInformation = [
                 ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 90%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against Dark Enemies by 20%.`,
                 ability3: `Increase own accuracy by 30%.`,
-                ability4: `Increase Unit EXP by 20% (When Illya's SP Illustration is owned).`,
-                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Illya's SP Illustration is owned).`
+                ability4: `Increase Unit EXP by 20% (When Illya's SP. Art is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Illya's SP. Art is owned).`
             }, 
         trueweapon: //If no TW, may delete this section
             {
@@ -29188,7 +29188,7 @@ const UnitInformation = [
                 ability5: `Even if it’s just 10 Artgen at the start of the quest. It doesn’t hurt to get more free artgen.`,
                 trueweapon: {
                     skill: `A huge Magic damage buff to increase Illyasviel damage output furthermore, if the health is over 80%, otherwise an appreciated heal of 20% of her MAX HP, which pairs well with her Super Art very well.`,
-                    ability1: `A nice damage buff and stat boost, just by equipping her True Weapon. `,
+                    ability1: `A nice damage buff and stat boost, just by equipping her True Weapon.`,
                     ability2: `More free damage by increasing her ATK by 5%.`
                 },
                 overall: `Illyasviel von Einzbern is an awesome Ascended unit by offering both Artsgen & Crit Rate to the party while increasing her own DMG Output with a large multiplier on Super Arts. Due to the flexibility of being an Artsgen character she’s incredibly easy to slot into a party as there is no real demerit of doing so for most stages. Her roles consist of Artsgen + DPS, one can infer that she’s extremely good in nuking due to her large burst of damage on Super Arts.`,
@@ -29245,8 +29245,8 @@ const UnitInformation = [
                 ability1: `Each time Arts inflicts Burn on an Enemy, permanently increase Allies' DMG by 30% (up to 300%).`,
                 ability2: `Increase own MAG RES by 15%.`,
                 ability3: `Increase own Equipment CT REC by 15%.`,
-                ability4: `Increase Unit EXP by 20% (When Rin & Luvia's SP Illustration is owned).`,
-                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Rin & Luvia's SP Illustration is owned).`
+                ability4: `Increase Unit EXP by 20% (When Rin & Luvia's SP. Art is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Rin & Luvia's SP. Art is owned).`
             }, 
         trueweapon: //If no TW, may delete this section
             {
@@ -29349,11 +29349,11 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: `For first 120s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%. `,
+                ability1: `For first 120s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%.`,
                 ability2: `Paralysis RES 100% UP.`,
                 ability3: `DMG 20% UP against enemies below 30% HP.`,
-                ability4: `Increase Unit EXP by 20% (When Miyu's SP Illustration is owned).`,
-                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Miyu's SP Illustration is owned).`
+                ability4: `Increase Unit EXP by 20% (When Miyu's SP. Art is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Miyu's SP. Art is owned).`
             }, 
         evolution: 
             {
@@ -29436,8 +29436,8 @@ const UnitInformation = [
                 ability1: `During Unlimited Blade Works; Every 8s, deal 10000% Water DMG (PHY) to enemies. Increase own Para/Freeze Res by 100% & Increase all Allies' DMG Res by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `DMG to Dark Enemies 35% UP.`,
                 ability3: `DMG to Light Enemies 35% UP.`,
-                ability4: `Increase Unit EXP by 20% (When Shirou's SP Illustration is owned).`,
-                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Shirou's SP Illustration is owned).`
+                ability4: `Increase Unit EXP by 20% (When Shirou's SP. Art is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Shirou's SP. Art is owned).`
             }, 
         evolution: 
             {
@@ -29516,8 +29516,8 @@ const UnitInformation = [
                 ability1: `Class Card Archer: When a Boss is Broken, Increase allies' Arts by 200. (Does not stack with Abilities of the same name.)`,
                 ability2: `Burn RES 70% UP`,
                 ability3: `Additional Attack Master: Increases all allies' DMG to Broken Enemies by 50%`,
-                ability4: `Unit EXP UP 20% UP. (When Chloe Illustration is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chloe Illustration is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Chloe's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chloe's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -29588,7 +29588,7 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `64000% Dark DMG (PHY). For 30s, Increase own DMG by 100% & Reduce enemies' Dark RES by 70%.`,
                 trueartsbreak: 1500,
-                superarts: `170000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%. `,
+                superarts: `170000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%.`,
                 superartsbreak: 2200
             },
         passive: 
@@ -29596,8 +29596,8 @@ const UnitInformation = [
                 ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%. Decrease own Accuracy by 30% if affected by Status Ailments`,
                 ability2: `Poison RES 40% Up`,
                 ability3: `Increase own ATK by 25% when HP is above 90%.`,
-                ability4: `Unit EXP UP 20% UP. (When Saber Alter Illustration is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saber Alter Illustration is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Saber Alter's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saber Alter's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -29628,7 +29628,277 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
+    },
+    { //Gabimaru - Missing Lore (JP)
+        id: 107797112,
+        name: `Gabimaru`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107796112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107797112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107796112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107797112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 6998,
+                hpplus: 1322,
+                atk: 3916,
+                atkplus: 676,
+                def: 3181,
+                defplus: 656
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2000% Fire DMG (PHY). Increase own Arts by 30. If ownself is not inflicted with a Status ailment, increase own Arts by 60 instead.`,
+                skillbreak: 500,
+                arts: `20000% Fire DMG (PHY). 100% chance to inflict Burn for 20s + Increase own Arts by 50.`,
+                artsbreak: 700,
+                truearts: `65000% Fire DMG (PHY). For 30s, increase Allies' Critical Rate by 100% and Fire Allies' DMG by 150%.`,
+                trueartsbreak: 1200,
+                superarts: `180000% Fire DMG (PHY). For the duration of this Super Arts, increase own Critical Rate by 100% and Super Critical Rate by 30%.`,
+                superartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: `When own HP is 90% or higher, increase own Super Critical Rate by 30%.`,
+                ability2: `Increase own Evasion by 15%.`,
+                ability3: `Increase own Poison RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Gabimaru's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Gabimaru's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Sagiri - Missing Lore (JP)
+        id: 107807312,
+        name: `Sagiri`,
+        attribute: `Earth`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107806312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107807312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107806312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107807312.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7638,
+                hpplus: 1322,
+                atk: 3172,
+                atkplus: 614,
+                def: 3077,
+                defplus: 585
+            },
+        skillset: 
+            {
+                skill: `13s CT - 1700% Earth DMG (PHY). For 20s, increase own DMG by 20% (stackable).`,
+                skillbreak: 500,
+                arts: `16000% Earth DMG (PHY). For 20s, increase Allies' PHY DMG and Break PWR by 75%.`,
+                artsbreak: 1800,
+                truearts: `50000% Earth DMG (PHY). Increase Allies' Arts by 20. For 30s, increase Allies' Arts by 3/s and increase Allies' PHY RES by 30%.`,
+                trueartsbreak: 2500,
+                superarts: `150000% Earth DMG (PHY). For 30s, reduce Enemies' Earth RES by 120%.`,
+                superartsbreak: 4200
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or higher, increase own accuracy by 100%. When own HP is 50% or higher, increase own Arts by 6/s.`,
+                ability2: `Increase own DMG against Human enemies by 50%.`,
+                ability3: `Increase own Blind RES by 60%.`,
+                ability4: `Unit EXP UP 20% UP. (When Sagiri's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sagiri's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
+                    mat3amt: 100,
+                    hover3: "Smogdragon Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    /*
+    { //Yuzuriha - Missing Lore (JP)
+        id: 107817512,
+        name: `Yuzuriha`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107816512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107817512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107816512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107817512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/LB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/LB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/LB.png",
+                slot32type: "/db/Mines/thumbnail/LB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: ``,
+                skillbreak: ,
+                arts: ``,
+                artsbreak: ,
+                truearts: ``,
+                trueartsbreak: ,
+                superarts: ``,
+                superartsbreak: 
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                ability4: `Unit EXP UP 20% UP. (When Yuzuriha's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Yuzuriha's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Sinful Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Chobei - Missing Lore (JP)
+        id: 107827412,
+        name: `Chobei`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107826412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107827412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107826412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107827412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/LB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/LB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/LB.png",
+                slot32type: "/db/Mines/thumbnail/LB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: ``,
+                skillbreak: ,
+                arts: ``,
+                artsbreak: ,
+                truearts: ``,
+                trueartsbreak: ,
+                superarts: ``,
+                superartsbreak: 
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                ability4: `Unit EXP UP 20% UP. (When Chobei's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chobei's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglit Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
     }
+    */
 ];
 
 export function getUnits() {
