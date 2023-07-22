@@ -2,11 +2,32 @@ const NewsArticles = [
     {
         id: 0,
         new: "new",
-        title: "Changelogs - Updated July 14, 2023",
+        title: "Changelogs - Updated July 21, 2023",
         category: "Site News",
-        date: "July 14, 2023",
+        date: "July 21, 2023",
         preview: "/chara_face_1200_1.png",
         article:`
+            <h3>Changelog - July 21, 2023</h3>
+            <p>Hey Summoners, we have yet another Collab on Japan. This time it is for Hell's Paradise</p>
+            <br/>
+            <p><b>Here are today's additions:</b></p>
+            <br/><br/>
+            <p>Following Units have been added:</p>
+            <a href="https://www.grandsummoners.info/units/Gabimaru"><img src="/db/Units/Thumbnail/unit_thumbnail_107797112.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Sagiri"><img src="/db/Units/Thumbnail/unit_thumbnail_107807312.png" /></a>
+            <br/><br/>
+            <p>Following Equips have been added:</p>
+            <a href="https://www.grandsummoners.info/equips/画眉丸の服"><img src="/db/Equipment/Thumbnail/item_thumbnail_152651.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/佐切の刀"><img src="/db/Equipment/Thumbnail/item_thumbnail_152671.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/佐切の服"><img src="/db/Equipment/Thumbnail/item_thumbnail_152681.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/画眉丸の足袋"><img src="/db/Equipment/Thumbnail/item_thumbnail_152661.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/佐切の髪飾り"><img src="/db/Equipment/Thumbnail/item_thumbnail_152701.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/佐切の篭手"><img src="/db/Equipment/Thumbnail/item_thumbnail_152691.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/画眉丸のマスク"><img src="/db/Equipment/Thumbnail/item_thumbnail_152631.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/極『画眉丸のマスク』"><img src="/db/Equipment/Thumbnail/item_thumbnail_152641.png" /></a>
+            <br/>
+            <p>That's all for today. Until next time!</p>
+            <p>Thanks, <br/> GSOD Staff</p>
             <h3>Changelog - July 14, 2023</h3>
             <p>Hey Summoners, Fate Collab has released on Global. And with that, we are updating the collaboration info to Global names.</p>
             <p>I'm sure some of you have noticed we haven't put the SP illustrations yet. No worries they are coming.</p>
