@@ -29104,8 +29104,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107736412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107737412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_773_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107736412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107737412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107737412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_773_1.png"
             },
         slots: 
             {
@@ -29207,8 +29209,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107766112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107767112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_776_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107766112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107767112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107767112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_776_1.png"
             },
         slots: 
             {
@@ -29314,8 +29318,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107746512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107747512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_774_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107746512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107747512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107747512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_774_1.png"
             },
         slots: 
             {
@@ -29394,8 +29400,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107776212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107777212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_777_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107776212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107777212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107777212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_777_1.png"
             },
         slots: 
             {
@@ -29478,8 +29486,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_107756112detail_.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107757112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_775_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107756112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107757112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107757112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_775_1.png"
             },
         slots: 
             {
@@ -29558,8 +29568,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107786512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107787512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_778_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107786512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107787512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107787512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_778_1.png"
             },
         slots: 
             {
@@ -29638,8 +29650,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107796112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107797112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_779_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107796112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107797112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107797112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_779_1.png"
             },
         slots: 
             {
@@ -29705,8 +29719,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107806312.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107807312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_780_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107806312.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107807312.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107807312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_780_1.png"
             },
         slots: 
             {
