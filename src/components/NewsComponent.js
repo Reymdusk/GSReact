@@ -1,115 +1,192 @@
 import React from 'react';
-import { Container, Row, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
+import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
 import { getNews } from '../shared/news/news';
 import { Link } from 'react-router-dom';
-import TwitterContainer from './TwitterComponent';
 
 export default function News () {
     //Obtain Articles
     const newsTopics = getNews();
 
+    //First Article
+    const theNews = newsTopics[0];
+    const newUnits = theNews.article.new?.units
+    const newEquips = theNews.article.new?.equips
+    const globalUnits = theNews.article.globalUpdate?.units
+    const globalEquips = theNews.article.globalUpdate?.equips
+
     //innerHTML usually unsafe, but there's no user-submitted content so no javascript injections
     //TODO: Create unique links for each article, then make a new component that displays the full article. Also limit card size to make a preview-like design
+
+    /**
+     * 1) key = index
+     * 2) Index 1 = Row for most recent news
+     * 3) Else, cardgroup
+     */
     return (
         <Container style={{marginTop: "5rem"}}>
             <Row>
                 <Card style={{backgroundColor: "#292930", padding: "0" }}>
                     <CardHeader style={{padding: "1rem"}}>
-                        <h1><center><strong>Site News</strong></center></h1>
+                        <h1><center><strong>Changelogs</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor: "#292930", color: "#e7f9fc"}}>
-                    <CardBody style={{padding: "0px", height: "100%"}}>
-                        <Row>
-                            <CardGroup style={{padding: "0px"}}>
-                                {newsTopics.map(theNews => {
-                                        if(theNews.new){
-                                            return (
-                                                <React.Fragment key={theNews.id}>
-                                                    <Card style={{maxWidth: "1000rem", width: "100%", height: "500px", maxHeight: "700px" ,backgroundColor: "#292930", color: "#e7f9fc", padding: "0px", margin: "0px"}}>
-                                                        <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0px", height: "80px"}}>
-                                                            <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#292930"}} key={theNews.id}><center><h2>{theNews.title}</h2></center></Link>
-                                                        </CardHeader>
-                                                        <CardBody style={{marginTop: "30px"}}>
-                                                            <center>
-                                                                <img src={theNews.preview} alt="Preview" style={{maxWidth: "200px", width: "auto", height: "auto", maxHeight: "400px"}} /><br/><br/>
-                                                                <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#aaabb8"}} key={theNews.id}>
-                                                                    <button style={{backgroundColor: "#22bbff", color: "#292930", maxWidth: "200px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</button>
-                                                                </Link>
-                                                            </center>
-                                                        </CardBody>
-                                                    </Card>
-                                                </React.Fragment>
-                                            )
-                                        }
-                                        return null
-                                    })}
-                                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", height: "500px", width: "100%", padding: "0px", margin: "0px"}}>
-                                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0", height: "80px"}}><h2 style={{paddingTop: "15px"}}><center>Twitter Feed</center></h2></CardHeader>
-                                    <CardBody style={{marginTop: "15px", height: "300px"}}>
-                                        <center>
-                                            <TwitterContainer />
-                                        </center>
-                                    </CardBody>
-                                </Card>
-                            </CardGroup>
-                        </Row>
-                        
-                    </CardBody>
-                </Card>
-                </Row>
-                <Row>
-                    <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
-                        <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", width: "100%", padding: "0px", margin: "0px"}}><center><h2>Discord</h2></center></CardHeader>
-                        <CardBody style={{width :"100%", margin: "10px"}}>
-                            <center>
-                                Visit the Grand Summoners Official Discord for older news and Unit Reviews!
-                                <br />
-                                <a href="https://discord.gg/grandsummoners" id="discordLink">Click Here</a>
-                            </center>
-                        </CardBody>
-                    </Card>
-                </Row>
+                <RenderNewest newUnits={newUnits} newEquips={newEquips} globalUnits={globalUnits} globalEquips={globalEquips} intro={theNews.article.intro} date={theNews.date} />
+            </Row>
+            <Row>
+                <CardGroup style={{marginTop: "4em"}}>
+                    {
+                        newsTopics.map((theNews, i) => {
+                            if(i !== 0) {
+                                return (
+                                    <React.Fragment key={i}>
+                                        <Col>
+                                        <Link to={`/news/${theNews.date}`} style={{textDectoration: "none"}}>
+                                            <Card style={{ backgroundColor: "#25274d", color: "#aaabb8", marginBottom: "1em"}}>
+                                                <center>
+                                                    <h3>{theNews.date}</h3>
+                                                </center>
+                                            </Card>
+                                        </Link>
+                                        </Col>
+                                    </React.Fragment>
+                                )
+                            }
+                            return null
+                        })
+                    }
+                </CardGroup>
+            </Row>
         </Container>
     )
 }
 
-/**
- * Old News 
- * 
- * <TwitterTimelineEmbed
-                                            sourceType="profile"
-                                            screenName="GRDSMN_GLOBAL"
-                                            theme="dark"
-                                            noHeader="true"
-                                            noFooter="true" 
-                                            autoHeight 
-                                            />
+const RenderIntro = ({ intro }) => {
+    return (
+        <>
+            <p>{intro}</p>
+            <br/>
+            <br/>
+            <h2><b>Here are Today's Additions</b></h2>
+            <br/><br/>
+        </>
+    )
+}
 
- * <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
-                                <CardBody>
-                                <CardGroup>
-                                    {newsTopics.map(theNews => {
+const RenderUnit = ({unitname, unitid}) => {
+    //Display Unit's name in URL, and Display Image of Unit
 
-                                    if(!theNews.new){
+    return (
+        <a href={`https://www.grandsummoners.info/units/${unitname}`}>
+            <img src={`/db/Units/Thumbnail/unit_thumbnail_${unitid}.png`} style={{maxHeight: "100px"}} alt={unitname}/>
+        </a>
+    )
+}
+
+const RenderEquip = ({equipname, equipid}) => {
+    //Display Equip's name in URL, Display Image of Equip
+
+    return (
+        <a href={`https://www.grandsummoners.info/equips/${equipname}`}>
+            <img src={`/db/Equipment/Thumbnail/item_thumbnail_${equipid}.png`} style={{maxHeight: "100px"}} alt={equipname}/>
+        </a>
+    )
+}
+
+const RenderNewest = ({ newUnits, newEquips, globalUnits, globalEquips, intro, date }) => {
+    return (
+        <Card style={{ backgroundColor: "#292930", color: "#e7f9fc", padding: "0px", margin: "0px"}}>
+            <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", paddingTop: "1em", paddingBottom: "1em", height: "80px"}}>
+                <center><h1>{date}</h1></center>
+            </CardHeader>
+            <CardBody style={{ marginTop: "30px", overflowY: "scroll", height: "700px" }}>
+                <center>
+                {
+                    <>
+                        <RenderIntro intro={intro} />
+                        {/*Checks if any NEW units, then renders*/}
+                        {
+                            newUnits?.length > 0 ? 
+                            <>
+                                <h3 style={{marginBottom: "1em"}}>The Following Unit(s) have been Added: </h3>
+                                {
+                                    newUnits.map(([unitname, unitid]) => {
                                         return (
-                                            <React.Fragment key={theNews.id}>
-                                                <Col>
-                                                    <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                        <Card style={{height: "auto", backgroundColor: "#25274d", color: "#aaabb8", marginBottom: "1rem"}}>
-                                                                <p style={{float: "left", fontSize: "20px", marginLeft: "1rem"}}><strong>[{theNews.category}]</strong> <span style={{float:"right", fontSize: "14px", marginRight: "2rem"}}>{theNews.date}</span></p>
-                                                                <p style={{marginTop: "1rem"}}><center><h3>{theNews.title}</h3></center></p>
-                                                                <center><p style={{backgroundColor: "#29648a", color: "#aaabb8", maxWidth: "150px", float: "right", marginTop: "3rem", marginRight: "1rem", width: "100%", height: "auto"}}>Read More</p></center>
-                                                        </Card>
-                                                    </Link>
-                                                </Col>
+                                            <React.Fragment key={unitid}>
+                                                <RenderUnit unitname={unitname} unitid={unitid} />
                                             </React.Fragment>
                                         )
                                     }
-                                    })}
-                                </CardGroup>
-                                </CardBody>
-                            </Card>
- */
+                                    )
+                                }
+                                
+                            </>
+                            :
+                            null
+                        }
+
+                        {/*Checks if any NEW equips, then renders*/}
+                        {
+                            newEquips?.length > 0 ? 
+                            <div style={{ marginTop: "4em"}}>
+                                <h3 style={{marginBottom: "1em"}}>The Following Equip(s) have been Added: </h3>
+                                {
+                                    newEquips.map(([equipname, equipid]) => {
+                                        return (
+                                            <React.Fragment key={equipid}>
+                                                <RenderEquip equipname={equipname} equipid={equipid} />
+                                            </React.Fragment>
+                                        )
+                                        })
+                                }
+                            </div>
+                            :
+                            null
+                        }
+                        {/*Checks if any GLOBAL units were released, then renders*/}
+                        {
+                            globalUnits?.length > 0 ? 
+                            <>
+                                <h3 style={{marginBottom: "1em"}}>The Following Unit(s) have been Added to Global Filters: </h3>
+                                {
+                                    globalUnits.map(([unitname, unitid]) => {
+                                        return (
+                                            <React.Fragment key={unitid}>
+                                                <RenderUnit unitname={unitname} unitid={unitid} />
+                                            </React.Fragment>
+                                        )
+                                    }
+                                    )
+                                }
+                                
+                            </>
+                            :
+                            null
+                        }
+
+                        {/*Checks if any GLOBAL equips, then renders*/}
+                        {
+                            globalEquips?.length > 0 ? 
+                            <div style={{ marginTop: "4em"}}>
+                                <h3 style={{marginBottom: "1em"}}>The Following Equip(s) have been Added to Global Filters: </h3>
+                                {
+                                    globalEquips.map(([equipname, equipid]) => {
+                                        return (
+                                            <React.Fragment key={equipid}>
+                                                <RenderEquip equipname={equipname} equipid={equipid} />
+                                            </React.Fragment>
+                                        )
+                                        })
+                                }
+                            </div>
+                            :
+                            null
+                        }
+                    </>
+                }
+                </center>
+            </CardBody>
+        </Card>
+    )
+}
