@@ -212,10 +212,51 @@ function RenderPassives({ unitPassive, isReview, unitReview }) {
 }
 
 function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
+    //Hook for Special Illustration
+    const [specialShift, setSpecialShift] = useState('1')
+
+    //Toggle Tab for Illustration
+    const spToggle = tab => {
+        if(specialShift !== tab) setSpecialShift(tab)
+    }
+    
     if (unitImage.detailsuper) {
         return (
             <>
-                <RenderDetail detail={unitImage.detailsuper} />
+            {
+                unitImage.thumbspecial
+                ?
+                <>
+                    
+                    <TabContent activeTab={specialShift}>
+                        <TabPane tabId="1">
+                            <RenderDetail detail={unitImage.detailsuper} />
+                        </TabPane>
+                        <TabPane tabId="2">
+                            <RenderDetail detail={unitImage.detailspecial} />
+                        </TabPane>
+                    </TabContent>
+                    <p style={{marginTop: "2em"}}>This unit has a Special Illustration. <br/>You may toggle between the Super Artwork and the Special Artwork</p>
+                    <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"20rem"}}>
+                    <NavItem>
+                        <NavLink className={classnames({ active: specialShift === '1' })}
+                            onClick={() => {spToggle('1')}} >
+                                <Media src={unitImage.thumbsuper} object-fit="cover" id="unitName" style={{width: "75px" }}/>
+                        </NavLink> 
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className={classnames({ active: specialShift === '2' })}
+                            onClick={() => {spToggle('2')}} >
+                                <Media src={unitImage.thumbspecial} object-fit="cover" id="unitName" style={{width: "75px" }}/>
+                        </NavLink>
+                    </NavItem>
+                    </Nav>
+                </>
+                :
+                <>
+                    <RenderDetail detail={unitImage.detailsuper} />
+                </>
+            }
                 <h1><strong>{unitName}</strong></h1>
                 <p><i>{unitAtt} , {unitType}</i></p>
             </>
