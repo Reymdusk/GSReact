@@ -39767,7 +39767,7 @@ const EquipInformation = [
 { //Magical Sapphire - Missing Lore
         id: 152451,
         name: `Magical Sapphire`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
