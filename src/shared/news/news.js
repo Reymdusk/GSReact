@@ -32,6 +32,38 @@ const NewsArticles = [
                 equips: []
             }
         }
+    },
+    {
+        id: 1,
+        date: `July 27, 2023`,
+        article: 
+        {
+            intro: `Hiya Summoners, Part 2 of the Fate/PRISMA☆ILLYA Collab has been officially released on the Global version, so you know what that means!`,
+            new: 
+                {
+                    units: [],
+                    equips: []
+                },
+            globalUpdate:
+            {
+                units: 
+                    [
+                        [`Miyu`, 107747512], 
+                        [`Shirou Emiya`, 107777212]
+                    ],
+                    equips: 
+                    [
+                        [`True 'Magical Sapphire'`, 152431],
+                        [`True 'Rho Aias'`, 152441],
+                        [`Magical Sapphire`, 152451],
+                        [`Gáe Bolg`, 152461],
+                        [`Miyu's Rider Dress`, 152471],
+                        [`Rho Aias`, 152481],
+                        [`Shirou Emiya's Outfit`, 152491],
+                        [`Miyu's Costume`, 152501]
+                    ]
+            }
+        }
     }
 ]
 

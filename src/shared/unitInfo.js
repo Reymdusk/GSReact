@@ -29309,7 +29309,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Miyu - Missing Lore (JP)
+    { //Miyu - Missing Lore
         id: 107747512,
         name: `Miyu`,
         attribute: `Dark`,
@@ -29387,11 +29387,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Shirou Emiya - Missing Lore (JP)
+    { //Shirou Emiya - Missing Lore
         id: 107777212,
         name: `Shirou Emiya`,
         attribute: `Water`,
@@ -29467,14 +29467,14 @@ const UnitInformation = [
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: `When Equipped by Emiya Shirou, At Start of Quest, Increase own Arts by 100. Own Skill CT REC UP by 20%.`,
+                        ability1: `When Equipped by Shirou Emiya, At Start of Quest, Increase own Arts by 100. Own Skill CT REC UP by 20%.`,
                         ability2: `Increase own Heal Recovery by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Chloe Fate - Missing Lore (JP)

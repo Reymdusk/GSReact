@@ -39702,12 +39702,11 @@ const EquipInformation = [
             },
         lore: `The outfit Illya wears when she transforms into a magical girl. According to Magical Ruby, she gains Magic Barrier, Physical Defense, Healing Factor, and Enhanced Physical Ability and other A-rank passives.`
     },
-    { //真『マジカルサファイア』 (Miyu TW) - JP Complete
+    { //True 'Magical Sapphire' - Missing Lore
         id: 152431,
-        name: `真『マジカルサファイア』`,
-        translate: `True 'Magical Sapphire'`,
+        name: `True 'Magical Sapphire'`,
         type: `/db/Mines/thumbnail/magLB.png`,
-        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
+        location: `Crossover True Equip: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39732,14 +39731,13 @@ const EquipInformation = [
                 ability1: `When equipped by Miyu, increase DMG by 60% against Non-Giant Bosses. Does not stack with Abilities of the same name.`,
                 ability2: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『熾天覆う七つの円環』 (Shirou TW) - JP Complete
+{ //True 'Rho Aias' - Missing Lore
         id: 152441,
-        name: `真『熾天覆う七つの円環』`,
-        translate: `True 'Rho Aias'`,
+        name: `True 'Rho Aias'`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
+        location: `Crossover True Equip: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39761,15 +39759,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Equipped by Emiya Shirou, At Start of Quest, Increase own Arts by 100 and increase own Skill CT REC by 20%.`,
+                ability1: `When Equipped by Shirou Emiya, At Start of Quest, Increase own Arts by 100 and increase own Skill CT REC by 20%.`,
                 ability2: `Increase own Heal Recovery by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //マジカルサファイア - JP Complete
+{ //Magical Sapphire - Missing Lore
         id: 152451,
-        name: `マジカルサファイア`,
-        translate: `Magical Sapphire`,
+        name: `Magical Sapphire`,
         type: `/db/Mines/thumbnail/LB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -39795,12 +39792,12 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //刺し穿つ死棘の槍 - JP Complete
+{ //Gáe Bolg - Missing Lore
         id: 152461,
-        name: `刺し穿つ死棘の槍`,
-        translate: `Spear of Impaling Barbed Death`,
+        name: `Gáe Bolg`,
+        translate: `Gae Bolg`,
         type: `/db/Mines/thumbnail/magLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -39826,12 +39823,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //美遊の服(ライダーver.) - JP Complete
+{ //Miyu's Rider Dress - Missing Lore
         id: 152471,
-        name: `美遊の服(ライダーver.)`,
-        translate: `Miyu's Clothes (Rider ver.)`,
+        name:  `Miyu's Rider Dress`,
         type: `/db/Mines/thumbnail/defLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
@@ -39857,12 +39853,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //熾天覆う七つの円環 - JP Complete
+{ //Rho Aias - Missing Lore
         id: 152481,
-        name: `熾天覆う七つの円環`,
-        translate: `Rho Aias`,
+        name: `Rho Aias`,
         type: `/db/Mines/thumbnail/defLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -39888,12 +39883,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //衛宮士郎の服 - JP Complete
+{ //Shirou Emiya's Outfit - Missing Lore
         id: 152491,
-        name: `衛宮士郎の服`,
-        translate: `Emiya's Clothes`,
+        name: `Shirou Emiya's Outfit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -39919,12 +39913,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //美遊の服 - JP Complete
+{ //Miyu's Costume - Missing Lore
         id: 152501,
-        name: `美遊の服`,
-        translate: `Miyu's Clothes`,
+        name: `Miyu's Costume`,
         type: `/db/Mines/thumbnail/magLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -39950,7 +39943,7 @@ const EquipInformation = [
             {
                 ability1: `DMG against Light enemies 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『干将・莫耶』 - JP Complete
         id: 152511,
