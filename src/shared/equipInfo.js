@@ -29306,6 +29306,7 @@ const EquipInformation = [
         id: 110671,
         name: `Yokai Sickle "Bloody Mikazuki" Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Fire Summoner's Road`,
         star: 6,
         image: 
             {
@@ -30484,10 +30485,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //氷霊鎖『ドーンストライブ』レプリカ (SR Equip)  - JP Complete
+{ //Glacial Flail 'Dawn Devastator' Replica  - Missing Lore
         id: 111071,
-        name: `氷霊鎖『ドーンストライブ』レプリカ`,
+        name: `Glacial Flail 'Dawn Devastator' Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Water Summoner's Road`,
         star: 6,
         image: 
             {
@@ -30511,12 +30513,13 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //氷霊鎖『ドーンストライブ』アレンジ (SR Equip)  - JP Complete
+{ //Glacial Flail "Dawn Devastator" Custom - Missing Lore
         id: 111081,
-        name: `氷霊鎖『ドーンストライブ』アレンジ`,
+        name: `Glacial Flail "Dawn Devastator" Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Water Summoner's Road`,
         star: 6,
         image: 
             {
@@ -30540,7 +30543,7 @@ const EquipInformation = [
             {
                 ability1: `Increase all allies’ Skill CT speed by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //ミランダのアオハルバッグ (VMiranda Farmable) - JP Complete
         id: 111091,

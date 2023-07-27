@@ -10,7 +10,8 @@ const NewsArticles = [
         date: `July 27, 2023`,
         article: 
         {
-            intro: `Hiya Summoners, Part 2 of the Fate/PRISMA☆ILLYA Collab has been officially released on the Global version, so you know what that means!`,
+            intro: `Hiya Summoners, Part 2 of the Fate/PRISMA☆ILLYA Collab has been officially released on the Global version, so you know what that means!
+            Moreover, we have a new Summoner's Road stage being released on the Global version with 2 new 6☆ equips.`,
             new: 
                 {
                     units: [],
@@ -32,7 +33,9 @@ const NewsArticles = [
                         [`Miyu's Rider Dress`, 152471],
                         [`Rho Aias`, 152481],
                         [`Shirou Emiya's Outfit`, 152491],
-                        [`Miyu's Costume`, 152501]
+                        [`Miyu's Costume`, 152501],
+                        [`Glacial Flail 'Dawn Devastator' Replica`, 111071],
+                        [`Glacial Flail 'Dawn Devastator' Custom`, 111081]
                     ]
             }
         }
