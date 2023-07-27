@@ -29389,6 +29389,28 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A rather strong skill all things considered, while instant artgen would be preferred anything is appreciated`,
+                arts: `A solid debuff with a decent timer, although it will likely not be used often due to better options in her kit.`,
+                truearts: `While the ATK up sounds nice paper due to how atk scaling actually work it's not as impactful as it seems. The accuracy itself is nice if the boss has evasion, since it's currently the highest amount on Global while also being on a unit who can do good damage.`,
+                superarts: `It goes without saying that 200% dmg up to all human allies is slightly strong, even more so since a large amount of meta units are human, and that amount will only increase over time. The defense ignore is nothing to joke about either, given the increase in bosses who negate critical hits, defense ignore has become a nice option to help increase your damage`,
+                ability1: `Lots of artgen = very good. Big DMG up = brain happy. With how long the artgen passive lasts most bosses should be long dead before the 2 minute timer is up. Keeping your own HP above 80% shouldn't be too hard if you have a competent team with a healer.
+                `,
+                ability2: `The passive is nice to have if you're ever up against a boss that inflicts paralyze to your team.`,
+                ability3: `I mean, more dmg up is always nice, sadly she already has 400% dmg up, so increasing that to 420% doesn't do much other than make 14 year olds giggle`,
+                ability4: `Level up a little faster`,
+                ability5: `Eh, it's something`,
+                trueweapon: {
+                    skill: `The ATK up isn't too impactful since she can already get 150% from her TA, but the extra res down is always nice.
+                    `,
+                    ability1: `The extra dmg up to non giant bosses isn't too impactful, mostly doing something when clearing prestage before the boss of a quest.`,
+                    ability2: `Small dmg res which you'll never notice.`
+                },
+                overall: `It goes without saying, Miyu is by far the best defense ignore option currently in global and one of if not the best overall dps units. While other units such as shalltear might be able to outdamage her one for one, Miyu's 200% dmg up to all human allies more than makes up for the minor difference in her own damage. The 10 aps given to Miyu by her passive for the first 120 seconds allows her to cycle True Arts and Super Arts without too much trouble. As per all the other fate units, the special artwork should only be bought if you own the unit and heavily prefer the special artwork to the regular version.`,
+                lastupdated: `July 26, 2023`,
+                author: `Zanster`
             }
     },
     { //Shirou Emiya - Missing Lore
@@ -29475,6 +29497,27 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            }    ,
+        review:
+            {
+                skill: `ArtsGen on skill with a relatively short CT, tremendously useful for self-sustainability. 60 arts during Unlimited Blade Works is substantial.`,
+                arts: `A teamwide shield with a total of 60k damage negated coupled with 30% teamwide physical resistance. The 10s duration is a bit low, but this gets extended to 20s while in UBW mode. Normally, you should not be dying with this up, barring exceptional circumstances.`,
+                truearts: `Huge physical resistance debuff to help your other physical units hit much harder. In UBW mode, Shirou’s multiplier also becomes respectable, thereby helping him contribute to damage output.`,
+                superarts: `First use makes Shirou enter UBW mode, which is similar to Magia Drive or Third Eye but costs 300 arts instead of 200 (though well worth it). Subsequent uses result in a high-multiplier arts with substantial ATK and DMG buffs. However, note that this does not make Shirou a main DPS, as he still gets outdamaged by most other units. This can help deliver a finishing blow to the enemy, but it should not distract Shirou from his main objectives which are to 1) keep the team alive, and 2) support the team’s damage output.`,
+                ability1: `This passive is a good part of what makes Shirou so good, because the DMG RES buff not only lasts a full 3 minutes, but it also stacks with other units’ DMG RES buffs (e.g. Sanstone TA, Emperor Isliid TA, Fitoria NA, etc.). That means that you can maintain 60% teamwide DMG RES only from unit arts without the need to use a single defense equip. On top of that, Shirou gains paralysis and freeze resistance, which will enable him to keep doing his job, and as if this were not enough already, the devs decided to also give him periodic chip damage which, while not significant, is still a nice added touch.
+                `,
+                ability2: `Marginally useful passive against dark enemies, but not enough to really matter in the grand scheme of things.`,
+                ability3: `Also small DMG buff against light enemies. See above.`,
+                ability4: `Somewhat useful for reaching level 120 faster, but nothing too spectacular.`,
+                ability5: `Another marginal benefit, but reaching UBW faster is always useful.`,
+                trueweapon: {
+                    skill: `Mediocre defense equip off-unit with a low-duration sizable DMG RES buff and a fairly low CT. On Shirou, the duration doubles to 20s (57% uptime), making his True Weapon one of the best general defense equips in the game. Note that you need at least 75% EQCT buff to make TW Rho Aias full-uptime.`,
+                    ability1: `100 arts on start of the quest, which helps reach UBW faster, along with a skill CT buff which will help with artgen from skill.`,
+                    ability2: `A small healing buff that is mostly inconsequential.`
+                },
+                overall: `The prize of the Prisma Illya collab, Shirou combines some of the best teamwide mitigation currently available to outstanding damage support. When he is on a team, the chances of dying decrease dramatically (with proper gameplay), making him a mainstay for most hard content. Although he is capable of DPS with a crit buffer, it is not his main role, and being too greedy with his SA might result in not being capable of keeping up with his defensive role.`,
+                lastupdated: `July 26, 2023`,
+                author: `MOB of Metal`
             }
     },
     { //Chloe Fate - Missing Lore (JP)
