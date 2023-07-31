@@ -29822,7 +29822,6 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    /*
     { //Yuzuriha - Missing Lore (JP)
         id: 107817512,
         name: `Yuzuriha`,
@@ -29847,29 +29846,29 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7810,
+                hpplus: 1470,
+                atk: 2635,
+                atkplus: 552,
+                def: 3300,
+                defplus: 578
             },
         skillset: 
             {
-                skill: ``,
-                skillbreak: ,
-                arts: ``,
-                artsbreak: ,
-                truearts: ``,
-                trueartsbreak: ,
-                superarts: ``,
-                superartsbreak: 
+                skill: `10s CT - 1800% Dark DMG (PHY). Heal own HP by 40% and increase own Arts gauge by 20.`,
+                skillbreak: 600,
+                arts: `15000% Dark DMG (PHY). For 25s, increase own Max HP by 60% and redirect 40% of Allies' DMG taken to self. `,
+                artsbreak: 1000,
+                truearts: `52000% Dark DMG (PHY). For 25s, reduce enemies' Dark RES by 80% and increase Arts gauge of all allies unaffected by status ailments by 4/s.`,
+                trueartsbreak: 1600,
+                superarts: `140000% Dark DMG (PHY). For 20s, reduce enemies' PHY RES based on how high this unit's HP is when Super Arts is activated (MAX: 200%).`,
+                superartsbreak: 2000
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``,
-                ability3: ``,
+                ability1: `When self is Leader, increase Human allies' DMG by 50%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Paralysis RES by 100%.`,
+                ability3: `Increase own PHY RES by 30%.`,
                 ability4: `Unit EXP UP 20% UP. (When Yuzuriha's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Yuzuriha's SP. Art is owned)`
             }, 
@@ -29914,29 +29913,29 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7755,
+                hpplus: 1460,
+                atk: 3530,
+                atkplus: 664,
+                def: 2886,
+                defplus: 552
             },
         skillset: 
             {
-                skill: ``,
-                skillbreak: ,
-                arts: ``,
-                artsbreak: ,
-                truearts: ``,
-                trueartsbreak: ,
-                superarts: ``,
-                superartsbreak: 
+                skill: `13s CT - 2500% Light DMG (PHY). For 7s, increase own ATK by 30%.`,
+                skillbreak: 1000,
+                arts: `20000% Light DMG (PHY). For 25s, reduce enemies' Break RES by 40%. `,
+                artsbreak: 2000,
+                truearts: `55000% Light DMG (PHY). For 65s, increase own Arts gauge by 1/s and own Break Power by 30% (Stackable).`,
+                trueartsbreak: 4200,
+                superarts: `160000% Light DMG (PHY). For 65s, increase own DMG by 60% and own Arts gauge by 2/s (Stackable).`,
+                superartsbreak: 4500
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``,
-                ability3: ``,
+                ability1: `When own HP is 80% or higher, ignore 100% of enemies' DEF. Increase own Arts gauge by 100 at the Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against God enemies by 70%.`,
+                ability3: `Increase own DMG against Demon enemies by 70%.`,
                 ability4: `Unit EXP UP 20% UP. (When Chobei's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chobei's SP. Art is owned)`
             }, 
@@ -29957,7 +29956,6 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     }
-    */
 ];
 
 export function getUnits() {
