@@ -40446,6 +40446,255 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `Currently unreleased in Global.`
+    },
+    { //杠の苦無 - JP Complete
+        id: 152711,
+        name: `杠の苦無`,
+        translate: `Yuzuriha's Kunai`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Dark DMG (PHY). For 15s, increase all stats by 20%. If user is Human, increase all stats by 30% instead.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //杠の簪 - JP Complete
+        id: 152721,
+        name: `杠の簪`,
+        translate: `Yuzuriha's Hairpin`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152721.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts gauge by 30. For 60s, increase own PHY DMG by 25% (Stackable).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //杠の竹筒- JP Complete
+        id: 152731,
+        name: `杠の竹筒`,
+        translate: `Yuzuriha's Bamboo Tubes`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 4500% Dark DMG (PHY). For 20s, increase own PHY DMG by 50% and HP Recovery Amount by 30%. `,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //杠の服- JP Complete
+        id: 152741,
+        name: `杠の服`,
+        translate: `Yuzuriha's Bamboo Tubes`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152741.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - For 10s, increase all allies' Arts gauge by 2/s and all Human allies' Break Power by 60%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //弔兵衛の斧- JP Complete
+        id: 152751,
+        name: `弔兵衛の斧`,
+        translate: `Chobei's Axe`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 12000% Light DMG (PHY). For 15s, increase own PHY DMG by 100% and reduce enemies' Light RES by 25%.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //弔兵衛の服 - JP Complete
+        id: 152761,
+        name: `弔兵衛の服`,
+        translate: `Chobei's Clothes`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - For 30s, reduce all allies' DMG taken from Gods by 30%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //弔兵衛の首飾り - JP Complete
+        id: 152771,
+        name: `弔兵衛の首飾り`,
+        translate: `Chobei's Necklace`,
+        location: `Crossover Equip Summon: Hell's Paradise`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Light DMG (PHY). For 8s, increase own Light DMG by 50%. When used for the first time, increase own Arts gauge by 50.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Skill DMG 10% UP`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //極『弔兵衛の首飾り』 - JP Complete
+        id: 152781,
+        name: `極『弔兵衛の首飾り』`,
+        translate: `Chobei's Necklace EV`,
+        location: `Craftable - Using Hell's Paradise collab materials`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_152781.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+            skillset:  
+            {
+                skill: `45s CT - 6000% Light DMG (PHY). For 8s, increase own Light DMG by 50%. When used for the first time, increase own Arts gauge by 50.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Skill DMG 10% UP`,
+                ability2: [`DMG 10% UP against Gods.`, `DMG 5% UP against Dark enemies`, `BE Output 5% UP`, `HP Recovery Amount 5% UP`, `DEF 5% UP`, `At the Start of Quest, increase own Arts gauge by 10 (No Duplication)`]
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 
