@@ -1,10 +1,43 @@
 /**
  * [[`unit or equip name`, ID]]
  * 
- * Put newest at top!!
  */
 
 const NewsArticles = [
+    {
+        id: 0,
+        date: `July 21, 2023`,
+        article: 
+        {
+            intro: `Hey Summoners, we have yet another Collab on Japan. This time it is for Hell's Paradise.
+                    Additionally, we revamped the Changelogs to be a bit cleaner. We also removed the Twitter because of the API changes.
+                    The previous changelogs from before today's date will be removed, but in the future, any older changelogs will appear below the newest log.`,
+            new: 
+                {
+                    units: 
+                    [
+                        [`Gabimaru`, 107797112], 
+                        [`Sagiri`, 107807312]
+                    ],
+                    equips: 
+                    [
+                        [`画眉丸の服`, 152651],
+                        [`佐切の刀`, 152671],
+                        [`佐切の服`, 152681],
+                        [`画眉丸の足袋`, 152661],
+                        [`佐切の髪飾り`, 152701],
+                        [`佐切の篭手`, 152691],
+                        [`画眉丸のマスク`, 152631],
+                        [`極『画眉丸のマスク`, 152641]
+                    ]
+                },
+            globalUpdate:
+            {
+                units: [],
+                equips: []
+            }
+        }
+    },
     {
         id: 1,
         date: `July 27, 2023`,
@@ -41,40 +74,42 @@ const NewsArticles = [
         }
     },
     {
-        id: 0,
-        date: `July 21, 2023`,
+        id: 2,
+        date: `July 31, 2023`,
         article: 
         {
-            intro: `Hey Summoners, we have yet another Collab on Japan. This time it is for Hell's Paradise.
-                    Additionally, we revamped the Changelogs to be a bit cleaner. We also removed the Twitter because of the API changes.
-                    The previous changelogs from before today's date will be removed, but in the future, any older changelogs will appear below the newest log.`,
+            intro: `Hey Summoners, Part 2 of the Hell's Paradise Collab has been officially released on the Japanese version!
+            We have a couple more units added to our database, and tons of equips.`,
             new: 
                 {
                     units: 
                     [
-                        [`Gabimaru`, 107797112], 
-                        [`Sagiri`, 107807312]
+                        [`Yuzuriha`, 107817512],
+                        [`Chobei`, 107827412]
                     ],
                     equips: 
                     [
-                        [`画眉丸の服`, 152651],
-                        [`佐切の刀`, 152671],
-                        [`佐切の服`, 152681],
-                        [`画眉丸の足袋`, 152661],
-                        [`佐切の髪飾り`, 152701],
-                        [`佐切の篭手`, 152691],
-                        [`画眉丸のマスク`, 152631],
-                        [`極『画眉丸のマスク`, 152641]
+                        [`杠の苦無`, 152711],
+                        [`杠の簪`, 152721],
+                        [`杠の竹筒`, 152731],
+                        [`杠の服`, 152741],
+                        [`弔兵衛の斧`, 152751],
+                        [`弔兵衛の服`, 152761],
+                        [`弔兵衛の首飾り`, 152771],
+                        [`極『弔兵衛の首飾り』`, 152781]
                     ]
                 },
             globalUpdate:
             {
-                units: [],
-                equips: []
+                units: 
+                    [
+                    ],
+                    equips: 
+                    [
+                    ]
             }
         }
     },
-    
 ]
 
 export function getNews() {
