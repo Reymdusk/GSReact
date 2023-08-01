@@ -29831,18 +29831,20 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107816512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107817512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_781_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107816512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107817512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107817512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_781_1.png"
             },
         slots: 
             {
                 slot1: 6,
-                slot1type: "/db/Mines/thumbnail/LB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/LB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/LB.png",
-                slot32type: "/db/Mines/thumbnail/LB.png"
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
@@ -29898,18 +29900,20 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_107826412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107827412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_782_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107826412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107827412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107827412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_782_1.png"
             },
         slots: 
             {
                 slot1: 6,
-                slot1type: "/db/Mines/thumbnail/LB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/LB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/LB.png",
-                slot32type: "/db/Mines/thumbnail/LB.png"
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
@@ -29924,7 +29928,7 @@ const UnitInformation = [
             {
                 skill: `13s CT - 2500% Light DMG (PHY). For 7s, increase own ATK by 30%.`,
                 skillbreak: 1000,
-                arts: `20000% Light DMG (PHY). For 25s, reduce enemies' Break RES by 40%. `,
+                arts: `20000% Light DMG (PHY). For 25s, reduce enemies' Break RES by 40%.`,
                 artsbreak: 2000,
                 truearts: `55000% Light DMG (PHY). For 65s, increase own Arts gauge by 1/s and own Break Power by 30% (Stackable).`,
                 trueartsbreak: 4200,
