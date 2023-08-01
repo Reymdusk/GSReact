@@ -78,7 +78,7 @@ const NewsArticles = [
         date: `July 31, 2023`,
         article: 
         {
-            intro: `Hey Summoners, Part 2 of the Hell's Paradise Collab has been officially released on the Japanese version!
+            intro: `Hey Summoners, Part 2 of the Hell's Paradise Collab has been officially released on the Japanese version, alongside the 16th Floor of Elemental Ruins!
             We have a couple more units added to our database, and tons of equips.`,
             new: 
                 {
@@ -89,6 +89,9 @@ const NewsArticles = [
                     ],
                     equips: 
                     [
+                        [`キルモンソード`, 111641],
+                        [`デフモンシールド`, 111651],
+                        [`タフモンロッド`, 111661],
                         [`杠の苦無`, 152711],
                         [`杠の簪`, 152721],
                         [`杠の竹筒`, 152731],
@@ -101,12 +104,8 @@ const NewsArticles = [
                 },
             globalUpdate:
             {
-                units: 
-                    [
-                    ],
-                    equips: 
-                    [
-                    ]
+                units: [],
+                equips: []
             }
         }
     },

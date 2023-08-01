@@ -32163,6 +32163,96 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //キルモンソード - JP Complete
+        id: 111641,
+        name: `キルモンソード`,
+        translate: `Kilmon Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Fire DMG (Physical). Increase own Arts DMG by 30% for 8s. If user is Fire, increase own Arts DMG by 50% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Tasmon's Courage: When allies have all 3 Tasmon Equipment equipped, increase user's CRI DMG by 70%. (Only Once)`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //デフモンシールド - JP Complete
+        id: 111651,
+        name: `デフモンシールド`,
+        translate: `Defmon Shield`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Physical resistance by 20% for 15s. If user is Water, increase all allies' Physical resistance by 30% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Tasmon's Bond: When allies have all 3 Tasmon Equipment equipped, increase user's CRI resistance by 40%. (Only Once)`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //タフモンロッド - JP Complete
+        id: 111661,
+        name: `タフモンロッド`,
+        translate: `Tufmod Rod`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 5000% Earth DMG (Magic). Reduce enemy's Magic resistance by 20% for 8s. If user is Earth, reduce enemies' Magic resistance by 40% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Tasmon's Wisdom: When allies have all 3 Tasmon Equipment equipped, increase user's Arts by 2/s. (Only Once)`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -40469,7 +40559,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Dark DMG (PHY). For 15s, increase all stats by 20%. If user is Human, increase all stats by 30% instead.`,
+                skill: `45s CT - 7000% Dark DMG (Physical). Increase all stats by 20% for 15s. If user is Human, increase all stats by 30% instead.`,
                 break: 300
             },
         passive: 
@@ -40500,7 +40590,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Increase all allies' Arts gauge by 30. For 60s, increase own PHY DMG by 25% (Stackable).`,
+                skill: `35s CT - Increase all allies' Arts gauge by 30. Increase own Physical DMG by 25% for 60s (Stackable).`,
                 break: 0
             },
         passive: 
@@ -40531,7 +40621,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 4500% Dark DMG (PHY). For 20s, increase own PHY DMG by 50% and HP Recovery Amount by 30%. `,
+                skill: `40s CT - 4500% Dark DMG (Physical). Increase own Physical DMG by 50% and HP Recovery Amount by 30% for 20s.`,
                 break: 700
             },
         passive: 
@@ -40562,7 +40652,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - For 10s, increase all allies' Arts gauge by 2/s and all Human allies' Break Power by 60%.`,
+                skill: `40s CT - Increase all allies' Arts gauge by 2/s and all Human allies' Break Power by 60% for 10s.`,
                 break: 0
             },
         passive: 
@@ -40593,7 +40683,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 12000% Light DMG (PHY). For 15s, increase own PHY DMG by 100% and reduce enemies' Light RES by 25%.`,
+                skill: `70s CT - 12000% Light DMG (Physical). Increase own Physical DMG by 100% and reduce enemies' Light resistance by 25% for 15s.`,
                 break: 800
             },
         passive: 
@@ -40624,7 +40714,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - For 30s, reduce all allies' DMG taken from Gods by 30%.`,
+                skill: `50s CT - Reduce all allies' DMG taken from Gods by 30% for 30s.`,
                 break: 0
             },
         passive: 
@@ -40655,7 +40745,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 6000% Light DMG (PHY). For 8s, increase own Light DMG by 50%. When used for the first time, increase own Arts gauge by 50.`,
+                skill: `45s CT - 6000% Light DMG (Physical). Increase own Light DMG by 50% for 8s. When used for the first time, increase own Arts gauge by 50.`,
                 break: 400
             },
         passive: 
@@ -40686,7 +40776,7 @@ const EquipInformation = [
             },
             skillset:  
             {
-                skill: `45s CT - 6000% Light DMG (PHY). For 8s, increase own Light DMG by 50%. When used for the first time, increase own Arts gauge by 50.`,
+                skill: `45s CT - 6000% Light DMG (Physical). Increase own Light DMG by 50% for 8s. When used for the first time, increase own Arts gauge by 50.`,
                 break: 400
             },
         passive: 
