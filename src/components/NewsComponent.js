@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function News () {
     //Obtain Articles
-    const newsTopics = getNews();
+    const newsTopics = getNews().sort((a, b) => b.id - a.id);
 
     //First Article
     const theNews = newsTopics[0];
