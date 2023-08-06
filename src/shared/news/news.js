@@ -32,10 +32,10 @@ const NewsArticles = [
                     ]
                 },
             globalUpdate:
-            {
-                units: [],
-                equips: []
-            }
+                {
+                    units: [],
+                    equips: []
+                }
         }
     },
     {
@@ -51,7 +51,7 @@ const NewsArticles = [
                     equips: []
                 },
             globalUpdate:
-            {
+                {
                 units: 
                     [
                         [`Miyu`, 107747512], 
@@ -70,7 +70,7 @@ const NewsArticles = [
                         [`Glacial Flail 'Dawn Devastator' Replica`, 111071],
                         [`Glacial Flail 'Dawn Devastator' Custom`, 111081]
                     ]
-            }
+                }
         }
     },
     {
@@ -103,12 +103,44 @@ const NewsArticles = [
                     ]
                 },
             globalUpdate:
-            {
-                units: [],
-                equips: []
-            }
+                {
+                    units: [],
+                    equips: []
+                }
         }
     },
+    {
+        id: 3,
+        date: `August 8, 2023`,
+        article: 
+        {
+            intro: `Hey Summoners, Part 3 of the Fate/PRISMA☆ILLYA Collab has been officially released on the Global version, so more juicy units and equips have been updated with the Global tag!`,
+            new: 
+                {
+                    units: 
+                    [],
+                    equips: 
+                    []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Chloe (Fate)`, 107757112],
+                        [`Saber Alter`, 107787512]
+                    ],
+                    equips: [
+                        [`True 'Kanshou & Bakuya'`, 152511],
+                        [`True 'Excalibur Morgan'`, 152521],
+                        [`Kanshou & Bakuya`, 152531],
+                        [`Fake Nine Lives`, 152541],
+                        [`Chloe's Outfit`, 152551],
+                        [`Excalibur Morgan`, 152561],
+                        [`Saber Alter's Armor`, 152571],
+                        [`Caladbolg III`, 152581]
+                    ]
+                }
+        }
+    }
 ]
 
 export function getNews() {

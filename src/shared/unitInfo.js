@@ -29520,7 +29520,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Chloe Fate - Missing Lore (JP)
+    { //Chloe Fate - Missing Lore (GL)
         id: 107757112,
         name: `Chloe (Fate)`,
         attribute: `Fire`,
@@ -29592,17 +29592,17 @@ const UnitInformation = [
                 skillbreak: 4000,
                 passive: 
                     {
-                        ability1: `When equipped by Chloe, increase own BREAK PWR by 40% & auto-fills Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Chloe (Fate), increase own BREAK PWR by 40% & auto-fills Arts by 2/s. Does not stack with Abilities of the same name.`,
                         ability2: `PHY RES 5% Up`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Saber Alter - Missing Lore (JP)
+    { //Saber Alter - Missing Lore (GL)
         id: 107787512,
         name: `Saber Alter`,
         attribute: `Dark`,
@@ -29680,8 +29680,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Gabimaru - Missing Lore (JP)
