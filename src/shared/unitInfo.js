@@ -5361,7 +5361,7 @@ const UnitInformation = [
                 evoawk: "Surrounded by a throng of Magibeast, the Giant brothers and their Spirit companion find themselves vastly outnumbered. Against the older brother's demands to save themselves, the younger brother stands and fights alongside him. With a face of certainty and uncharacteristic defiance, the younger brother asserts, 'I'm not leaving my only brother behind.' And with that declaration, they face the Demon horde, side by side."
             }
     },
-    { //Riffili - Missing Lore
+    { //Riffili - Missing Lore (JP)
         id: 101336512,
         name: "Riffili",
         attribute: "Dark",
@@ -6531,7 +6531,7 @@ const UnitInformation = [
                 evoawk: "'Spare the women and children...' This dignified swordsman never wavered in his principles. Perhaps it was this conviction, that let him remain true even when he was under attack, that helped the little girl's heart within the rampaging Giant of Ruin to win out. Although the swordsman could not win, he perhaps found some satisfaction in fighting a worthy adversary. The swordsman had a smile throughout the battle, and when the girl's frenzy abated, he held out his hand and took her on his journey."
             }
     },
-    { //Yumi - Missing Lore
+    { //Yumi - Missing Lore (JP)
         id: 101616212,
         name: "Yumi",
         attribute: "Water",
@@ -7719,7 +7719,7 @@ const UnitInformation = [
                 evoawk: "Before Gran Brave knew it, his student had left him, climbing the ranks to become an unparalleled imperial knight through battles with many powerful foes. Gran Brave quietly prepared to rest on his laurels, occasionally looking down on his student's growth while still taking pride in the pupil's achievements as if they were those of the master. Not many tales are told of Gran Brave the mentor, but those of Gran Brave the warrior will live on forever in legend. Clyde of the 3 Blade Maseters once said that the only warrior who ever surpassed him was his master."
             }
     },
-    { //Kazlaser - Missing Lore
+    { //Kazlaser - Missing Lore (JP)
         id: 101765411,
         name: "Kazlaser",
         attribute: "Light",
@@ -13170,7 +13170,7 @@ const UnitInformation = [
                 evoawk: "A neighboring country of Humans faced crisis, but her father refused to offer aid. Enraged, she came to the realization that only personal action would guarantee change, so she left on a journey to help those in need. Her first accomplishment was joining the cause of a warrior family in battling Dragons, and she felt a true sense of purpose both during and after the feat. It also gave assurance the brighter future she created would vindicate her."
             }
     },
-    { //Kurt - Missing Lore
+    { //Kurt - Missing Lore (JP)
         id: 102586112,
         name: "Kurt",
         attribute: "Fire",
@@ -13447,7 +13447,7 @@ const UnitInformation = [
                 evoawk: "There are a plethora of documents describing how Lygor continued to do nasty things as a mage all across the land, even after he lost the power to drain negative emotions as magic from his seperate dimension by one of his former prisoners. He is spoken even in modern day as a legendary mage who brought misfortune wherever he went. It's unknown how he was unable to restore his powers, but his name remains in the records of a laboratory that is said to have been visited by those who had lost their magic. It can be assumed that there was an accomplice that assisted in his reawakening."
             }
     },
-    { //Tia - Missing Lore
+    { //Tia - Missing Lore (JP)
         id: 102626212,
         name: "Tia",
         attribute: "Water",
@@ -13593,7 +13593,7 @@ const UnitInformation = [
                 evoawk: "She was shocked when Luda and Tear surpassed her expertly calculated predictions. Their incredible strength of will in the face of crisis piqued her interest, and she decided to join their journey. Her talent and inquisitiveness hindered as much as it helped, even casting them across the dimensional rift at times, yet those very ordeals would make for a series of thrilling adventure tales."
             }
     },
-    { //Kush - Missing Lore
+    { //Kush - Missing Lore (JP)
         id: 102646412,
         name: "Kush",
         attribute: "Light",
@@ -13675,7 +13675,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Rebol - Missing Lore
+    { //Rebol - Missing Lore (JP)
         id: 102656512,
         name: "Rebol",
         attribute: "Dark",
@@ -14155,7 +14155,7 @@ const UnitInformation = [
                 evoawk: "While travelling, Honoka was confronted by one of the few Demons left alive after the slaughter by the Setsuga clan. With a malevolent cry, the Demon moved to strike Honoka, who was too stunned by the truth of her clan's actions to raise her sword. Honoka's bodyguard rushed in to protect her and took the Demon's blade in his back. When Honoka saw her bodyguard fulfill his duty right before her, she wiped away her tears and raised her blade again. She had her own duties to fulfill."
             }
     },
-    { //Io - Missing Lore
+    { //Io - Missing Lore (JP)
         id: 102716412,
         name: "Io",
         attribute: "Light",
@@ -14540,7 +14540,7 @@ const UnitInformation = [
                 evoawk: "Like Fen, Kane was able to open the door to new possibilities in regards to combat at the end of the treacherous journey. \"A genius isn't choosy about his weapon!\" The only reason Fen didn't retort when Kane sang his own praises was most likely because he truly recognized his prowess as a warrior. Kane attempted to carry the sword and use it in his duties as an official as well, but gave up after learning that more people than he expected found out about his role as a bodyguard in the escort mission."
             }
     },
-    { //Sybil - Missing Lore
+    { //Sybil - Missing Lore (JP)
         id: 102776512,
         name: "Sybil",
         attribute: "Dark",
@@ -14603,7 +14603,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Sai - Missing Lore
+    { //Sai - Missing Lore (JP)
         id: 102786212,
         name: "Sai",
         attribute: "Water",
@@ -14866,7 +14866,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Barossa - Missing Lore
+    { //Barossa - Missing Lore (JP)
         id: 102816512,
         name: "Barossa",
         attribute: "Dark",
@@ -19563,7 +19563,7 @@ const UnitInformation = [
                 author: `Jeffers`
             }
     },
-    { //Vultee (Earth) - Missing Lore (GLB), Review done
+    { //Vultee (Earth) - Review done
         id: 103316312,
         name: "Vultee (Earth)",
         rank: "S",
@@ -19642,7 +19642,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
+                evo5: "He lost everything he held dear: a warm home, a close friend, a sunny sweetheart. He blamed his own weakness for being unable to cling to the hope, the forgiveness, the confidence and the tenacity that could have made a difference. He let lies and self-deceit cloud his vision, depriving him of freedom only found in the truth.",
                 evoawk: "Carrying a turret in one hand, he has become an agent of pure destruction. His aggression runs counter to claims that he only harms his targets. Anyone who knows of his past might interpret that as him purposefully keeping others out of harm's way, but it is impossible to know for sure."
             },
         review:
@@ -21569,7 +21569,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Sakuya - Missing Lore, Review done
+    { // Sakuya - Review done
         id: 103516312,
         name: "Sakuya",
         attribute: "Earth",
@@ -21646,8 +21646,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "A shinobi from Imari Village. Although considered a child prodigy for how quickly she learned techniques, she stayed humble throughout her training to become an expert. Her role is Mizuki the Twelfth's retainer, but she finds both his radical mindset concerning and his charismatic confidence assuring.",
+                evoawk: `Holds the rare title "Kasumi", bestowed to those of elusive as mist. She is the descendant of one who sealed a powerful Yoma, and that talent runs thick in her blood. The strong ties with Kirisame's clan ensure their hierarchies are closely entwined even today. However, new feelings awakened by the changing world put her devotion to Imari Village and the shinobi as a whole to the test.`
             },
         review:
             {
@@ -22120,7 +22120,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Kirisame - Missing Lore
+    { // Kirisame - Missing Lore (JP)
         id: 103527112,
         name: "Kirisame",
         attribute: "Fire",
@@ -22198,7 +22198,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Hakurou - Missing Lore
+    { // Hakurou - Missing Lore (JP)
         id: 103566311,
         name: "Hakurou",
         attribute: "Earth",
@@ -22274,7 +22274,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Sword Demon Berwick - Missing Lore
+    { // Sword Demon Berwick - Missing Lore (JP)
         id: 103636112,
         name: "Sword Demon Berwick",
         attribute: "Fire",
@@ -22430,7 +22430,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Hazuki - Missing Lore
+    { // Hazuki - Missing Lore (JP)
         id: 103547412,
         name: "Hazuki",
         attribute: "Light",
@@ -22508,7 +22508,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Star God Liza - Missing Lore
+    { // Star God Liza - Missing Lore (JP)
         id: 103647412,
         name: "Star God Liza",
         attribute: "Light",
@@ -22586,7 +22586,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Blazing Flower Mira - Missing Lore
+    { // Blazing Flower Mira - Missing Lore (JP)
         id: 103657112,
         name: "Blazing Flower Mira",
         attribute: "Fire",
@@ -22664,7 +22664,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Long - Missing Lore
+    { // Long - Missing Lore (JP)
         id: 103557212,
         name: "Long",
         attribute: "Water",
@@ -22742,7 +22742,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Miranda (Valentines) - Missing Lore
+    { // Miranda (Valentines) - Missing Lore (JP)
         id: 103667412,
         name: "Miranda (Valentines)",
         attribute: "Light",
@@ -22807,7 +22807,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Priscilla (Valentines) - Missing Lore
+    { // Priscilla (Valentines) - Missing Lore (JP)
         id: 103677112,
         name: "Priscilla (Valentines)",
         attribute: "Fire",
@@ -22872,7 +22872,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Aristela Orbis - Missing Lore
+    { // Aristela Orbis - Missing Lore (JP)
         id: 103687212,
         name: "Aristela Orbis",
         attribute: "Water",
@@ -22950,7 +22950,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Demon King Vox - Missing Lore
+    { // Demon King Vox - Missing Lore (JP)
         id: 103697512,
         name: "Demon King Vox",
         translate: "Vox (Dark)",
@@ -23029,7 +23029,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Jay - Missing Lore
+    { // Jay - Missing Lore (JP)
         id: 103707212,
         name: "Jay",
         translate: "Jay",
@@ -23316,7 +23316,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Zinogre Armor Rayas - Missing Lore
+    { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
         attribute: "Light",
@@ -23384,7 +23384,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Mizutsune Armor Roy - Missing Lore
+    { //Mizutsune Armor Roy - Missing Lore (JP)
         id: 107016212,
         name: "Mizutsune Armor Roy",
         attribute: "Water",
@@ -23459,7 +23459,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Rathian Armor Iris - Missing Lore
+    { //Rathian Armor Iris - Missing Lore (JP)
         id: 107026412,
         name: "Rathian Armor Iris",
         attribute: "Light",
@@ -23526,7 +23526,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Teostra Armor Ganan - Missing Lore
+    { //Teostra Armor Ganan - Missing Lore (JP)
         id: 107036112,
         name: "Teostra Armor Ganan",
         attribute: "Fire",
@@ -23593,7 +23593,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Kirin Armor Liese - Missing Lore
+    { //Kirin Armor Liese - Missing Lore (JP)
         id: 107046412,
         name: "Kirin Armor Liese",
         attribute: "Light",
@@ -23661,7 +23661,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Felyne Armor Sophie - Missing Lore
+    { //Felyne Armor Sophie - Missing Lore (JP)
         id: 107056112,
         name: "Felyne Armor Sophie",
         attribute: "Fire",
@@ -23729,7 +23729,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Palico (Using English name) - Missing Lore
+    { //Palico (Using English name) - Missing Lore (JP)
         id: 107066112,
         name: "Rathalos Armor Palico",
         attribute: "Fire",
@@ -28674,7 +28674,7 @@ const UnitInformation = [
                 author: `Jeffers`
             }
     },
-    { // Strength - Missing Lore (GLB), Review done
+    { // Strength - Missing Lore (GL), Review done
         id: 107686112,
         name: "Strength",
         attribute: "Fire",
@@ -28840,7 +28840,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Shalltear - Missing Lore (GL), Review done
+    { // Shalltear - Review done
         id: 107717412,
         name: "Shalltear",
         attribute: "Light",
@@ -29198,7 +29198,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Rin & Luvia - Missing Lore (JP)
+    { // Rin & Luvia - Review Done
         id: 107767112,
         name: "Rin & Luvia",
         attribute: "Fire",
@@ -29309,7 +29309,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Miyu - Missing Lore
+    { //Miyu - Review Done
         id: 107747512,
         name: `Miyu`,
         attribute: `Dark`,
@@ -29387,8 +29387,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A perfect elementary school student who is skilled in studying, art, cooking, sports, and everything else. After making a contract with a Kaleidostick, she became Magical Sapphire. She gathers the Class Cards in the place of the Kaleidostick's owner Luvia while also working as her maid.",
+                evosuper: "Originated from a parallel world where she was known as the God Child, born with the ability to make anyone's wish come true. She was sent to Illya's world by her older brother in an effort to keep her safe."
             },
         review:
             {
@@ -29413,7 +29413,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Shirou Emiya - Missing Lore
+    { //Shirou Emiya - Review Done
         id: 107777212,
         name: `Shirou Emiya`,
         attribute: `Water`,
@@ -29495,9 +29495,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
-            }    ,
+                evoawk: "Adoptive brother to Miyu. Also without any living relatives, he helped her survive a mysterious accident and raised her like a sister. He also shares a striking resemblance to Illya's adoptive brother.",
+                evosuper: "Miyu's adoptive brother. He shares the same name with the brother of a parallel world's Illya. Possessing incredible combat abilities, he risked his life to save Miyu. However, he was left with no choice in the end but to send her to another world."
+            },
         review:
             {
                 skill: `ArtsGen on skill with a relatively short CT, tremendously useful for self-sustainability. 60 arts during Unlimited Blade Works is substantial.`,
