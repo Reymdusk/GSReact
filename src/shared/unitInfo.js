@@ -21471,7 +21471,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Thetis (Light) - Missing Lore, Review done
+    { //Thetis (Light) - Review done
         id: 103586412,
         name: "Thetis (Light)",
         attribute: "Light",
@@ -21548,8 +21548,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "Formerly defended Granadia as a member of Juno's Templars. Despite his mild manner, he is a veteran of many fierce battles. The determination to reclaim what he valued most convinced him to set aside his trademark shield. After the Great Seal was destroyed, his search for Riviera took him to Gramenia, where Kane appointed him as a provisional commander for his outstanding talent.",
+                evoawk: "A Demon martial artist personally hired by President Kane. His astounding physical strength and battle sense has been further refined. Whiel searching for the missing Gramenian soldiesrs, he encountered Riviera (in) a state of insanity from the Crimson Blood. He saved her from that madness by revealing his long-hidden feelings for her."
             },
         review:
             {
