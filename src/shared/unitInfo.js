@@ -21450,8 +21450,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "A Demon bounty hunter once feared as the "Brutal War Axe". Her untamed life was changed when she formed a pact with Juno and bonded with the other Templars. However, the years in Granadia brought considerable regret and suffering. Unable to withstand any more, she reluctantly decided to part.",
-                evoawk: "A Demon soldier who fought for Granadia in Juno's Templars. After the Great Seal was destroyed, she began to feel Leone's presence, and the trail led her to a dusky forest. However, as her search continued, she lost her mind and turned into a raging berserker. Only the voice of her friend Thetis restored her senses and stilled her scythe."
+                evo5: `A Demon bounty hunter once feared as the "Brutal War Axe". Her untamed life was changed when she formed a pact with Juno and bonded with the other Templars. However, the years in Granadia brought considerable regret and suffering. Unable to withstand any more, she reluctantly decided to part.`,
+                evoawk: `A Demon soldier who fought for Granadia in Juno's Templars. After the Great Seal was destroyed, she began to feel Leone's presence, and the trail led her to a dusky forest. However, as her search continued, she lost her mind and turned into a raging berserker. Only the voice of her friend Thetis restored her senses and stilled her scythe.`
             },
         review:
             {
