@@ -21373,7 +21373,7 @@ const UnitInformation = [
                 evoawk: "His name is legendary among the shinobi's long history. Instead of free will, loyalty and duty led him to attain their ideal form. None know his true origins, but the tales describe how the struggle between the shinobi around the time of Ugetsu's defeat caused a marked change in him. What he witnessed then may have granted his existence new meaning."
             }
     },
-    { //Riviera (Dark) - Missing Lore, Review done
+    { //Riviera (Dark) - Review done
         id: 103576512,
         name: "Riviera (Dark)",
         attribute: "Dark",
@@ -21450,8 +21450,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "A Demon bounty hunter once feared as the "Brutal War Axe". Her untamed life was changed when she formed a pact with Juno and bonded with the other Templars. However, the years in Granadia brought considerable regret and suffering. Unable to withstand any more, she reluctantly decided to part.",
+                evoawk: "A Demon soldier who fought for Granadia in Juno's Templars. After the Great Seal was destroyed, she began to feel Leone's presence, and the trail led her to a dusky forest. However, as her search continued, she lost her mind and turned into a raging berserker. Only the voice of her friend Thetis restored her senses and stilled her scythe."
             },
         review:
             {
