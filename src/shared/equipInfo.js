@@ -40038,10 +40038,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『干将・莫耶』 - JP Complete
+{ //True 'Kanshou & Bakuya' - Missing Lore
         id: 152511,
-        name: `真『干将・莫耶』`,
-        translate: `True 'Kanshou & Bakuya'`,
+        name: `True 'Kanshou & Bakuya'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -40065,15 +40064,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Chloe, increase own Break Power by 40% & auto-fills Arts gauge by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Chloe (Fate), increase own Break Power by 40% & auto-fills Arts gauge by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Physical resistance 5% Up.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『エクスカリバー・モルガン』 - JP Complete
+{ //True 'Excalibur Morgan' - Missing Lore
         id: 152521,
-        name: `真『エクスカリバー・モルガン』`,
-        translate: `True 'Excalibur Morgan'`,
+        name: `True 'Excalibur Morgan'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -40100,12 +40098,11 @@ const EquipInformation = [
                 ability1: `When equipped by Saber Alter, Increase own CRI DMG by 80%. Does not stack with Abilities of the same name.`,
                 ability2: `Magic resistance 5% Up.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //干将・莫耶 - JP Complete
+{ //Kanshou & Bakuya - Missing Lore
         id: 152531,
-        name: `干将・莫耶`,
-        translate: `Kanshou & Bakuya`,
+        name: `Kanshou & Bakuya`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -40131,12 +40128,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //偽・射殺す百頭 - JP Complete
+{ //Fake Nine Lives - Missing Lore
         id: 152541,
-        name: `偽・射殺す百頭`,
-        translate: `Fake Nine Heads`,
+        name: `Fake Nine Lives`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -40162,12 +40158,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //クロエの服 - JP Complete
+{ //Chloe's Outfit - Missing Lore
         id: 152551,
-        name: `クロエの服`,
-        translate: `Chloe's Clothes`,
+        name: `Chloe's Outfit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
@@ -40193,12 +40188,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //エクスカリバー・モルガン - JP Complete
+{ //Excalibur Morgan - Missing Lore
         id: 152561,
-        name: `エクスカリバー・モルガン`,
-        translate: `Excalibur Morgan`,
+        name: `Excalibur Morgan`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -40224,12 +40218,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //黒化英霊セイバーの鎧 - JP Complete
+{ //Saber Alter's Armor - Missing Lore
         id: 152571,
-        name: `黒化英霊セイバーの鎧`,
-        translate: `Saber Alter's Armor`,
+        name: `Saber Alter's Armor`,
         type: `/db/Mines/thumbnail/defLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -40248,19 +40241,18 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all Allies' Dark resistance by 30% & Heal all Allies' HP for 100 HP for 20s.`,
+                skill: `30s CT - Increase all Allies' Dark resistance by 30% & Heal all Allies' HP by 100 for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //偽・偽・螺旋剣 - JP Complete
+{ //Caladbolg III - Missing Lore
         id: 152581,
-        name: `偽・偽・螺旋剣`,
-        translate: `Fake-Fake Spiral Sword (Caladbolg III)`,
+        name: `Caladbolg III`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
@@ -40286,7 +40278,7 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //画眉丸のマスク - JP Complete
         id: 152631,

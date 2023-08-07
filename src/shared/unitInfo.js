@@ -21373,7 +21373,7 @@ const UnitInformation = [
                 evoawk: "His name is legendary among the shinobi's long history. Instead of free will, loyalty and duty led him to attain their ideal form. None know his true origins, but the tales describe how the struggle between the shinobi around the time of Ugetsu's defeat caused a marked change in him. What he witnessed then may have granted his existence new meaning."
             }
     },
-    { //Riviera (Dark) - Missing Lore, Review done
+    { //Riviera (Dark) - Review done
         id: 103576512,
         name: "Riviera (Dark)",
         attribute: "Dark",
@@ -21450,8 +21450,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "A Demon bounty hunter once feared as the "Brutal War Axe". Her untamed life was changed when she formed a pact with Juno and bonded with the other Templars. However, the years in Granadia brought considerable regret and suffering. Unable to withstand any more, she reluctantly decided to part.",
+                evoawk: "A Demon soldier who fought for Granadia in Juno's Templars. After the Great Seal was destroyed, she began to feel Leone's presence, and the trail led her to a dusky forest. However, as her search continued, she lost her mind and turned into a raging berserker. Only the voice of her friend Thetis restored her senses and stilled her scythe."
             },
         review:
             {
@@ -21471,7 +21471,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Thetis (Light) - Missing Lore, Review done
+    { //Thetis (Light) - Review done
         id: 103586412,
         name: "Thetis (Light)",
         attribute: "Light",
@@ -21548,8 +21548,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "Formerly defended Granadia as a member of Juno's Templars. Despite his mild manner, he is a veteran of many fierce battles. The determination to reclaim what he valued most convinced him to set aside his trademark shield. After the Great Seal was destroyed, his search for Riviera took him to Gramenia, where Kane appointed him as a provisional commander for his outstanding talent.",
+                evoawk: "A Demon martial artist personally hired by President Kane. His astounding physical strength and battle sense has been further refined. Whiel searching for the missing Gramenian soldiesrs, he encountered Riviera (in) a state of insanity from the Crimson Blood. He saved her from that madness by revealing his long-hidden feelings for her."
             },
         review:
             {
@@ -29520,7 +29520,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Chloe Fate - Missing Lore (JP)
+    { //Chloe Fate - Missing Lore (GL)
         id: 107757112,
         name: `Chloe (Fate)`,
         attribute: `Fire`,
@@ -29592,17 +29592,17 @@ const UnitInformation = [
                 skillbreak: 4000,
                 passive: 
                     {
-                        ability1: `When equipped by Chloe, increase own BREAK PWR by 40% & auto-fills Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Chloe (Fate), increase own BREAK PWR by 40% & auto-fills Arts by 2/s. Does not stack with Abilities of the same name.`,
                         ability2: `PHY RES 5% Up`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Saber Alter - Missing Lore (JP)
+    { //Saber Alter - Missing Lore (GL)
         id: 107787512,
         name: `Saber Alter`,
         attribute: `Dark`,
@@ -29680,8 +29680,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Gabimaru - Missing Lore (JP)
