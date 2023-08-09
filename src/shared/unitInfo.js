@@ -29600,6 +29600,26 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `It doesn't affect your performance too much, but it’s still appreciated as a niche to help deal damage to enemies with evasion`,
+                arts: `A very good Break Resistance debuff of 40% with a long uptime. Allows Chloe and the rest of the team to break the boss much faster, and allows her to alternate between both her Arts and True Arts while having the Break resistance debuff always active.`,
+                truearts: `Another amazing True Art for the role as a breaker. This allows Chloe and your whole party to break the boss very quickly, especially if you have applied the Break resistance debuff from her Arts beforehand. On top of that, Chloe is able to generate noticeable Arts to your whole team as well as an added bonus.`,
+                superarts: `With a great damage multiplier and a 100% Fire Res debuff, Chloe, as well as the team, is able to do some good damage especially if your team is fire-oriented. Otherwise in most situations, you would use Chloe’s Arts and True Art more often.`,
+                ability1: `A very cool passive especially for an unit like Chloe! Coupled with the ability to break through enemies fast, you’ll find the 200 teamwide Arts extremely useful for the team to dish out some amazing damage using Arts, True Arts  or Super Arts right before the boss breaks and right after.`,
+                ability2: `A high Burn Resistance passive, which is appreciated. It’s more on the niche side, so it won’t see much use generally.`,
+                ability3: `Another great Passive out of her Kit, which increases the team’s overall damage output when the Boss is broken.`,
+                ability4: `Just helping by leveling your Ascended units to 120. Afterwards it has no use. It’s appreciated to have.`,
+                ability5: `Even if it’s just 10 Artgen at the start of the quest. It doesn’t hurt to get more free artgen.`,
+                trueweapon: {
+                    skill: `A very nice burst artgen right at the start with a high break value, which is helpful to get Chloe started with using her Arts.`,
+                    ability1: `A good break power buff of 40%, which allows Chloe to achieve a total of 110% Break Power up alongside her True Art. As a bonus, she passively gains 2 Arts/s as well. `,
+                    ability2: `Free damage resistance against physical bosses, but with how low it is, it is barely noticeable but still appreciated.`
+                },
+                overall: `Chloe is an amazing breaker and support unit, achieving a whopping 110% Break Power buff by simply equipping her True Weapon and using her True Art. Her Arts inflicting a significant 40% Break resistance debuff helps Chloe and her team with breaking bosses even more, solidifying her place as an amazing Breaker. Moreover, she also offers Arts Gen for the whole party, which stacks with most other units as she is Type E. And to top it all off, her unique passive increases all allies’ Arts gauge by 200 during Boss’ Break to allow them to dish out big damage..While Break is somewhat niche, with newer content leaning more into Breaking bosses, Chloe is definitely a great unit to have!`,
+                lastupdated: `August 8, 2023`,
+                author: `Alice`
             }
     },
     { //Saber Alter - Missing Lore (GL)
@@ -29682,6 +29702,26 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Large amount of artsgen on skill with a fairly short cooldown time. Since Saber should always be critting, that’s 80 arts per use`,
+                arts: `A standard pseudo heal. great to have, especially to keep her HP topped up to fulfill her crit rate requirement.`,
+                truearts: `Huge self damage buff paired with a very sizable Dark Res down debuff, and on top of that, it has a decent multiplier (For non-Ascendable units of course).`,
+                superarts: `Enormous multiplier paired with high super crit rate. This along with her True Arts, and by virtue of being a Dark Human unit is what makes Saber Alter the uncontested Best DPS and even Nuker on Global.`,
+                ability1: `100% passive crit rate, pretty much a given with most good DPS units. The HP condition isn’t very intrusive either, so you shouldn’t have any issue maintaining it. However, the same can't be said for the status ailment condition. In any stages where this might be an issue, it might be a good idea to bring consistent cleanse or a replacement for the lost accuracy. Or just put Karks to negate the issue entirely.`,
+                ability2: `Not very useful in the grand scheme of things. 40% extra resistance is cool, but niche and unnecessary in 99% of cases.`,
+                ability3: `High HP requirement for a very small buff. It’s helped somewhat by Saber’s high base ATK, but it’s still a rather minor damage buff.`,
+                ability4: `Helps you level past 90 a bit faster, but otherwise it’s nothing special.`,
+                ability5: `A very small arts buff, but appreciated nonetheless.`,
+                trueweapon: {
+                    skill: `It’s her bis for nuking, but when it isn’t on Saber it’s completely overshadowed by other buffing equipment like Simon TW and Bushido Master.`,
+                    ability1: `On Saber Alter, This equip is pretty much the same in terms of buffing in nukes as Simon’s TW is on him. It's great for said nuking, and amazing for sustain since the larger buff is on her passive, hugely buffing her crit and super crit damage. Due to how much of a damage buff it provides, it's definitely worth picking up for her.`,
+                    ability2: `The buff itself is useless since Saber isn’t a tank, and it’s so small that even if she were, it would still be for the most part, inconsequential.`
+                },
+                overall: `Saber Alter is the worst unit in the Fate collab. This isn't because she’s bad at what she does-- She’s likely the best DPS and Nuker on Global. Rather, it’s because outside of her pseudo-heal on NA, she contributes nothing to the team besides damage, which makes her for the most part, replaceable by any other dps unit. This effectively means that any team that clears a mission with her on it can already three-man the mission anyway, albeit while taking longer. With content becoming increasingly difficult, this means that it’s going to be harder to use units that only do one thing and more important to have units that can fill multiple roles at once, which unfortunately, Saber doesn't do. She’s still amazing for nukes, and anything that doesn’t directly counter her will still be shredded. But just keep in mind that your pities should be saved for units that can fulfill multiple roles well, allowing for more flexibility in endgame content.`,
+                lastupdated: `August 8, 2023`,
+                author: `Pula`
             }
     },
     { //Gabimaru - Missing Lore (JP)
