@@ -12609,7 +12609,7 @@ const UnitInformation = [
     { //Vox - Complete
         id: 102516212,
         name: "Vox",
-        rank: "S",
+        rank: "A+",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -18605,7 +18605,7 @@ const UnitInformation = [
     { //Batiste - Complete
         id: 103216512,
         name: "Batiste",
-        rank: "A+",
+        rank: "A",
         twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
@@ -29314,6 +29314,7 @@ const UnitInformation = [
         name: `Miyu`,
         attribute: `Dark`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107746512.png",
@@ -29418,6 +29419,7 @@ const UnitInformation = [
         name: `Shirou Emiya`,
         attribute: `Water`,
         type: `Human`,
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107776212.png",
@@ -29525,6 +29527,7 @@ const UnitInformation = [
         name: `Chloe (Fate)`,
         attribute: `Fire`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_107756112detail_.png",
@@ -29627,6 +29630,7 @@ const UnitInformation = [
         name: `Saber Alter`,
         attribute: `Dark`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107786512.png",
