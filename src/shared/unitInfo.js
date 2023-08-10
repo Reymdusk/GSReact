@@ -29522,7 +29522,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Chloe Fate - Missing Lore (GL)
+    { //Chloe Fate - Review Done
         id: 107757112,
         name: `Chloe (Fate)`,
         attribute: `Fire`,
@@ -29530,7 +29530,7 @@ const UnitInformation = [
         rank: `S`,
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_107756112detail_.png",
+                detailawk: "/db/Units/Detail/unit_detail_107756112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_107757112.png",
                 detailspecial: "/db/Units/Special/Detail/unit_sp_detail_775_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107756112.png",
@@ -29591,7 +29591,7 @@ const UnitInformation = [
                 name: `Kanshou & Bakuya`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152511.png",
-                skill: `55s CT - 4000% Fire DMG (PHY). When used for the first time, increase own arts gauge by 50.`,
+                skill: `55s CT - 4000% Fire DMG (PHY). When used for the first time, increase own Arts gauge by 50.`,
                 skillbreak: 4000,
                 passive: 
                     {
@@ -29601,8 +29601,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Identical to Illya except for her tanned skin and mischievous nature. She causes a lot of trouble at school stealing kisses from the girls. The others have a hard time telling if she is friend or foe at times.",
+                evosuper: `Nicknamed "Kuro". Her true identity is a power sealed within Illya given physical form. After a fierce battle, the two make up. She receives magical energy through kissing.`
             },
         review:
             {
@@ -29620,12 +29620,12 @@ const UnitInformation = [
                     ability1: `A good break power buff of 40%, which allows Chloe to achieve a total of 110% Break Power up alongside her True Art. As a bonus, she passively gains 2 Arts/s as well. `,
                     ability2: `Free damage resistance against physical bosses, but with how low it is, it is barely noticeable but still appreciated.`
                 },
-                overall: `Chloe is an amazing breaker and support unit, achieving a whopping 110% Break Power buff by simply equipping her True Weapon and using her True Art. Her Arts inflicting a significant 40% Break resistance debuff helps Chloe and her team with breaking bosses even more, solidifying her place as an amazing Breaker. Moreover, she also offers Arts Gen for the whole party, which stacks with most other units as she is Type E. And to top it all off, her unique passive increases all allies’ Arts gauge by 200 during Boss’ Break to allow them to dish out big damage..While Break is somewhat niche, with newer content leaning more into Breaking bosses, Chloe is definitely a great unit to have!`,
+                overall: `Chloe is an amazing breaker and support unit, achieving a whopping 110% Break Power buff by simply equipping her True Weapon and using her True Art. Her Arts inflicting a significant 40% Break resistance debuff helps Chloe and her team with breaking bosses even more, solidifying her place as an amazing Breaker. Moreover, she also offers Arts Gen for the whole party, which stacks with most other units as she is Type E. And to top it all off, her unique passive increases all allies’ Arts gauge by 200 during Boss’ Break to allow them to dish out big damage. While Break is somewhat niche, with newer content leaning more into Breaking bosses, Chloe is definitely a great unit to have!`,
                 lastupdated: `August 8, 2023`,
                 author: `Alice`
             }
     },
-    { //Saber Alter - Missing Lore (GL)
+    { //Saber Alter - Review done
         id: 107787512,
         name: `Saber Alter`,
         attribute: `Dark`,
@@ -29661,7 +29661,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `11s CT - 3000% Dark DMG (PHY). Increase own arts by 50. If this Skill crits, increase Arts by an additional 30.`,
+                skill: `11s CT - 3000% Dark DMG (PHY). Increase own Arts by 50. If this Skill crits, increase Arts by an additional 30.`,
                 skillbreak: 500,
                 arts: `26000% Dark DMG (PHY). For 20s, increase all allies' STATS by 30%.`,
                 artsbreak: 1000,
@@ -29704,8 +29704,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A manifestation of the Heroic Spirit contained in the Saber Class Card. Illya and her friends struggled against her overwhelming strength.",
+                evosuper: "The Heroic Spirit of the Saber Class Card. Her true identity is famed historic figure Artoria Pendragon. Her Noble Phantasm is Excalibur, the sword of promised victory, said to be the strongest of all holy blades."
             },
         review:
             {

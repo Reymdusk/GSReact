@@ -40271,7 +40271,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 2500% Fire DMG (Physical). Increases all allies' Arts gauge by 10. If user is Fire, increase all allies' Arts gauge by 20 instead.`,
+                skill: `40s CT - 2500% Fire DMG (Physical). Increases all allies' Arts gauge by 10. If user is Human, increase all allies' Arts gauge by 20 instead.`,
                 break: 300
             },
         passive: 
