@@ -20072,13 +20072,28 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "20000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
                 artsbreak: 1300,
-                truearts: "75000% Water DMG (MAG). For 50s, increase Allies' MAG DMG by 40% and Water Allies' DMG by 40% (stackable).",
+                truearts: "75000% Water DMG (MAG). For 50s, increase Allies' MAG DMG and Water Allies' DMG by 40% (stackable).",
+                trueartsbreak: 2200
+            },
+        skillsetJP: 
+            {
+                skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
+                skillbreak: 800,
+                arts: "24000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
+                artsbreak: 1300,
+                truearts: "82000% Water DMG (MAG). For 60s, increase Allies' MAG DMG and Water Allies' DMG by 50% (stackable).",
                 trueartsbreak: 2200
             },
         passive: 
             {
                 ability1: "When HP is Above 80%, increase own Arts by 3/s.",
                 ability2: "Increase own Arts by 3/s if unafflicted by Status Ailments.",
+                ability3: "Increase DMG to Giant Bosses by 30%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "When HP is Above 80%, increase own Arts by 3/s.",
+                ability2: "Increase own Arts by 5/s if unafflicted by Status Ailments.",
                 ability3: "Increase DMG to Giant Bosses by 30%."
             }, 
         evolution: 
@@ -20174,6 +20189,15 @@ const UnitInformation = [
                 arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' DMG by 50%. Increase Earth Allies' next True Arts' DMG by 200% instead.",
                 artsbreak: 1000,
                 truearts: "58000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 3/s.",
+                trueartsbreak: 2200
+            },
+        skillsetJP: 
+            {
+                skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 30.",
+                skillbreak: 500,
+                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 150%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 300% instead.",
+                artsbreak: 1000,
+                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.",
                 trueartsbreak: 2200
             },
         passive: 
@@ -21707,6 +21731,15 @@ const UnitInformation = [
                 truearts: "[Current HP x 20]% Fire DMG (PHY).",
                 trueartsbreak: 1200
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
+                skillbreak: 300,
+                arts: "20000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
+                artsbreak: 1000,
+                truearts: "[Current HP x 25]% Fire DMG (PHY).",
+                trueartsbreak: 1200
+            },
         passive: 
             {
                 ability1: "Increase own ATK by 15% when HP is above 90%.",
@@ -21728,6 +21761,19 @@ const UnitInformation = [
                     mat4amt: 2,
                     hover4: "Degilmagna"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Ces' Sandy Blossom",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111761.png",
+                skill: "35s CT - For 12s, increase all allies' Arts gauge by 2/s and Fire allies' Max HP by 20%.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Summer Cestina, increase own Arts gauge by 2/s and all stats by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 5%."
+                    }
             },
         lore: 
             {   
@@ -21793,6 +21839,15 @@ const UnitInformation = [
                 truearts: "36000% Water DMG (MAG). For 15s, increase Allies' MAG and Critical DMG by 100%.",
                 trueartsbreak: 1300
             },
+        skillsetJP: 
+            {
+                skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1000.",
+                skillbreak: 200,
+                arts: "16000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 20% (Stackable)",
+                artsbreak: 2200,
+                truearts: "47000% Water DMG (MAG). For 30s, increase Allies' MAG and Critical DMG by 100%.",
+                trueartsbreak: 1300
+            },
         passive: 
             {
                 ability1: "At the start of a Quest, increase own Arts by 100. When HP is above 80%, increase own Critical Rate by 100%.",
@@ -21814,6 +21869,19 @@ const UnitInformation = [
                     mat4amt: 2,
                     hover4: "Palamicia"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Liza's Mature Look",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111761.png",
+                skill: "45s CT - 4500% Water DMG (PHY). For 15s, increase own Water DMG by 40%. If user is God, increase own Water DMG by 60% instead.",
+                skillbreak: 400,
+                passive: 
+                    {
+                        ability1: "When equipped by Summer Liza, increase own Arts gauge by 2/s and Heal Amount by 50% (excluding Lifesteal). Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Fire RES by 5%."
+                    }
             },
         lore: 
             {   

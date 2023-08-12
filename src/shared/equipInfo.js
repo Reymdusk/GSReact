@@ -32253,6 +32253,98 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //絶凍靴『フロストペイン』 - JP Complete
+        id: 111671,
+        name: `絶凍靴『フロストペイン』`,
+        translate: `Frost Boots 'Frost Pain'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - For 120s, reduce own DMG resistance by 15% (Stackable). For 20s, increase all allies' Water resistance by 30% & Freeze resistance by 100%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Max HP 10% Up.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『シスのパッションフリル』 - JP Complete
+        id: 111761,
+        name: `真『シスのパッションフリル』`,
+        translate: `True 'Ces Sandy Blossom'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111761.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts gauge by 2/s and Fire allies' Max HP by 20% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Cestina, increase own Arts gauge by 2/s and all stats by 30% (Only once).`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『リザ姉の背伸びバンドゥ』 - JP Complete
+        id: 111771,
+        name: `真『リザ姉の背伸びバンドゥ』`,
+        translate: `True 'Liza's Mature Look'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4500% Water DMG (Physical). Increase own Water DMG by 40% for 15s. If user is God, increase own Water DMG by 60% instead.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Liza, increase own Arts gauge by 2/s and Heal Amount by 50% (excluding Lifesteal) (Only once).`,
+                ability2: `Increase own Fire resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

@@ -140,6 +140,35 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 4,
+        date: `August 13, 2023`,
+        article: 
+        {
+            intro: `JPGS Summer is back, and various Summer units have been buffed! Moreover, Elite Stiria has made its grand appearance in Mines there too.`,
+            new: 
+                {
+                    units: 
+                    [
+                        [`Summer Juno`, 103376212],
+                        [`Summer Leone`, 103386312],
+                        [`Summer Cestina`, 103596112],
+                        [`Summer Liza`, 103606212]
+                    ],
+                    equips: 
+                    [
+                        [`絶凍靴『フロストペイン』`, 111671],
+                        [`真『シスのパッションフリル』`, 111761],
+                        [`真『リザ姉の背伸びバンドゥ』`, 111771]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: []
+                }
+        }
     }
 ]
 
