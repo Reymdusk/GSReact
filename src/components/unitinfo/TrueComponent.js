@@ -38,9 +38,9 @@ export function RenderTrue({unitTrue, trueReview = false}) {
     return (
         <>
             <Container style={{marginTop: "1rem"}}>
-            { tw ? 
+            { (tw || jp) ? 
                 <>
-                    { tw.true1 ? 
+                    { tw?.true1 ? 
                         <>
                             <Nav pills justified>
                                 <NavItem>
@@ -103,8 +103,19 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                         : 
                         <>
                             <center>
-                                <RenderImage detail={tw.detail} />
-                                <RenderName name={tw.name} slot={tw.slot} />
+                                {
+                                    tw?.detail ? 
+                                    <RenderImage detail={tw.detail} />
+                                    :
+                                    <RenderImage detail={jp.detail} />
+                                }
+                                {
+                                    tw?.name ?
+                                    <RenderName name={tw.name} slot={tw.slot} />
+                                    :
+                                    <RenderName name={jp.name} slot={jp.slot} />
+                                }
+                                
                             </center>
                             {
                                 jp ? 
@@ -126,7 +137,14 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                                     </Nav>
                                     <TabContent activeTab={serverTab} >
                                         <TabPane tabId="1">
-                                            <RenderAll skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} trueReview={trueReview.trueweapon} />
+                                            {
+                                                tw ? <RenderAll skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} trueReview={trueReview.trueweapon} /> 
+                                                : 
+                                                <>
+                                                    <center><h2>This unit is released in Global, but only Japan version currently has True Weapon</h2></center>
+                                                </>
+                                            }
+                                            
                                         </TabPane>
                                         <TabPane tabId="2">
                                             <RenderAll skill={jp.skill} skillbreak={jp.skillbreak} passive={jp.passive} trueReview={trueReview.trueweapon} />
