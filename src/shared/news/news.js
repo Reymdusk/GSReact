@@ -169,6 +169,39 @@ const NewsArticles = [
                     equips: []
                 }
         }
+    },
+    {
+        id: 5,
+        date: `August 18, 2023`,
+        article: 
+        {
+            intro: `Aye~! It's Pirate season in JPGS. Along with a variety of new Summer equipment, the brand new Summer Riviera has been released! Additionally, a new Ultra Relic and 2 new Summoner's Road equipment have also been introduced!`,
+            new: 
+                {
+                    units: 
+                    [
+                        [`Summer Riviera`, 103747112]
+                    ],
+                    equips: 
+                    [
+                        [`リヴィエラのヨーソローマント`, 111681],
+                        [`ロゼッタインナー(スリム用)`, 111691],
+                        [`さいきょー！ロゼッタアーム`, 111701],
+                        [`レオーネのチャーミンググリーン`, 111711],
+                        [`レオーネのエンジェルサンダル`, 111721],
+                        [`リヴィエラのアンガーアンカー`, 111731],
+                        [`リヴィエラ・ダイナマイト`, 111741],
+                        [`封天鞭『スパインズ・ゴア』レプリカ`, 111781],
+                        [`封天鞭『スパインズ・ゴア』アレンジ`, 111791],
+                        [`Ultra Relic 'Frozen Twin Swords'`, 140141]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: []
+                }
+        }
     }
 ]
 

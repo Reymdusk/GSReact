@@ -22996,7 +22996,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 220,
-                    hover2: "Water Summoner's Road Orbs"
+                    hover2: "Frostsprite Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -23154,7 +23154,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 220,
-                    hover2: "Water Summoner's Road Orbs"
+                    hover2: "Frostsprite Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -23375,7 +23375,72 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 220,
-                    hover2: "Water Summoner's Road Orbs"
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Summer Riviera - Missing Lore (JP)
+        id: 103747112,
+        name: `Summer Riviera`,
+        attribute: `Fire`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103747112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103747112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103747112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103747112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7590,
+                hpplus: 1430,
+                atk: 4087,
+                atkplus: 704,
+                def: 2643,
+                defplus: 553
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3200% Fire DMG (PHY). For 3s, increase all Allies' Arts by 8/s.`,
+                skillbreak: 700,
+                arts: `25000% Fire DMG (PHY). For 20s, increase Equipment CT REC of own PHY Equipment and own ATK by 50%.`,
+                artsbreak: 1500,
+                truearts: `68000% Fire DMG (PHY). For 25s, Allies ignore 100% of Enemies' DEF + reduce Enemies' Fire RES by 70%.`,
+                trueartsbreak: 2000,
+                superarts: `160000% Fire DMG (PHY). During Super Arts, increase own DMG by 100% for each Ally above 90% HP (up to 400%).`,
+                superartsbreak: 2700
+            },
+        passive: 
+            {
+                ability1: `When Summer Riviera is near death, recover Allies' HP by 100% HP + For 20s, Allies gain a DMG barrier that negates 5000 DMG. Can only occur once per Quest.`,
+                ability2: `Increase DMG to Water Enemies by 30%.`,
+                ability3: `Increase Freeze RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flametail Soulgem"
                 }
             },
         lore: 

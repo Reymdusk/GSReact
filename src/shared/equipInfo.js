@@ -32283,6 +32283,216 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //リヴィエラのヨーソローマント - JP Complete
+        id: 111681,
+        name: `リヴィエラのヨーソローマント`,
+        translate: `Riviera's Yosoro Mantle`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase target's Fire RES and PHY RES by 20% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `DEF 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ロゼッタインナー(スリム用) - JP Complete
+        id: 111691,
+        name: `ロゼッタインナー(スリム用)`,
+        translate: `Rosetta's Innerwear (Slim)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111691.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts gauge by 3/s and all Dark allies' Skill CT Speed by 50% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //さいきょー！ロゼッタアーム - JP Complete
+        id: 111701,
+        name: `さいきょー！ロゼッタアーム`,
+        translate: `Maximum! Rosetta Arm`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111701.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 1000% Non-Elemental DMG (MAG). Heal all allies' HP by 170/s and increase all Demon allies' stats by 30% for 13s.`,
+                break: 200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //レオーネのチャーミンググリーン - JP Complete
+        id: 111711,
+        name: `レオーネのチャーミンググリーン`,
+        translate: `Leone's Charming Green`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111711.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase all allies' Arts gauge by 2/s and all Demon allies' DMG by 60% for 10s. Additionally, increase all allies' Arts gauge by 30 (First time only).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //レオーネのエンジェルサンダル - JP Complete
+        id: 111721,
+        name: `レオーネのエンジェルサンダル`,
+        translate: `Leone's Angel Sandals`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3800% Earth DMG (MAG). When CRI, increase own Arts gauge by 50 (1 HIT only). Increase own MAG DMG by 60% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //リヴィエラのアンガーアンカー - JP Complete
+        id: 111731,
+        name: `リヴィエラのアンガーアンカー`,
+        translate: `Riviera's Anger Anchor`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 13500% Fire DMG (PHY). Increase own ATK by 100% for 10s. If user is Demon, increase own ATK by 160% instead.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //リヴィエラ・ダイナマイト - JP Complete
+        id: 111741,
+        name: `リヴィエラ・ダイナマイト`,
+        translate: `Riviera's Dynamite Attack`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8500% Fire DMG (PHY). Reduce enemies' Fire RES and Evasion rate by 30% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //真『シスのパッションフリル』 - JP Complete
         id: 111761,
         name: `真『シスのパッションフリル』`,
@@ -32342,6 +32552,66 @@ const EquipInformation = [
             {
                 ability1: `When equipped by Summer Liza, increase own Arts gauge by 2/s and Heal Amount by 50% (excluding Lifesteal) (Only once).`,
                 ability2: `Increase own Fire resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //封天鞭『スパインズ・ゴア』レプリカ - JP Complete
+        id: 111781,
+        name: `封天鞭『スパインズ・ゴア』レプリカ`,
+        translate: `Sealed Whip 'Spines Gore' Replica`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 9900% Dark DMG (PHY). Reduce enemies' Dark RES by 40% for 7s. If user is Dark, reduce enemies' Dark RES by 70% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `DEF 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //封天鞭『スパインズ・ゴア』アレンジ - JP Complete
+        id: 111791,
+        name: `封天鞭『スパインズ・ゴア』アレンジ`,
+        translate: `Sealed Whip 'Spines Gore' Custom`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 12000% Dark DMG (PHY). Reduce enemies' Dark RES by 30% for 15s. If user is Dark, reduce enemies' Dark RES by 60% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increases all allies' Skill CT Speed by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -32719,6 +32989,35 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `For 93.7s, increase own Disease resistance by 15.0% and every 14.9s, increase all allies' Arts gauge by 7. (At Passive Lv.101)`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Ultra Relic 'Frozen Twin Swords' - JP Complete
+        id: 140141,
+        name: `Ultra Relic 'Frozen Twin Swords'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_140140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_140141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_140140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_140141.png`
+            },
+        stats:
+            {
+                hp: `X`,
+                atk: `X`,
+                def: `X`
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Water DMG (MAG). Increase own ATK by 50% for 15s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase own MAG DMG by 25% UP. For 165.5s after start of quest, Increase all Allies' Water DMG by 20%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
