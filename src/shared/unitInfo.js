@@ -23391,9 +23391,9 @@ const UnitInformation = [
         type: `Demon`,
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_detail_103747112.png",
+                detailawk: "/db/Units/Detail/unit_detail_103746112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103747112.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103747112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103746112.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103747112.png"
             },
         slots: 
