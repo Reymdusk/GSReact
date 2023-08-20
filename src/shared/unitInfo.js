@@ -12724,10 +12724,8 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - 2200% Dark DMG (PHY).",
-                magiaskill:  "During Magia Drive: 2200% Dark DMG (PHY). For 8s, reduce Enemies' Break RES by 25% + Increase own Arts by 20.",
-                skillbreak1: 2400,
-                skillbreak2: 3400,
+                skill: "12s CT - 2200% Dark DMG (PHY). During Magia Drive: For 8s, reduce Enemies' Break RES by 25% + Increase own Arts by 20 & Skill's Break Power by 1000.",
+                skillbreak: 2400,
                 arts: "18000% Dark DMG (PHY). For 10s, reduce Enemies' DMG RES by 30%, reduce DMG RES of Enemies in Break by 30%.",
                 artsbreak: 3500,
                 truearts: "For 120s, enter Magia Drive. During Magia Drive: 38000% Dark DMG (PHY). Increase own True Arts' Break PWR by 5% of own True Arts' DMG dealt.",
@@ -21873,8 +21871,8 @@ const UnitInformation = [
         trueweaponJP: //If no TW, may delete this section
             {
                 name: "Liza's Mature Look",
-                slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "/db/Equipment/Detail/item_detail_111761.png",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111771.png",
                 skill: "45s CT - 4500% Water DMG (PHY). For 15s, increase own Water DMG by 40%. If user is God, increase own Water DMG by 60% instead.",
                 skillbreak: 400,
                 passive: 
