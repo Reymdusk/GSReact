@@ -29658,6 +29658,7 @@ const UnitInformation = [
     { //Chloe Fate - Review Done
         id: 107757112,
         name: `Chloe (Fate)`,
+        twrequire: "favorable",
         attribute: `Fire`,
         type: `Human`,
         rank: `S`,
