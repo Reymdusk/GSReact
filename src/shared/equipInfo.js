@@ -29149,10 +29149,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『迦楼羅 (Kirisame TW) - JP Complete
+{ //True 'Garuda' - Missing Lore
         id: 110621,
-        name: `真『迦楼羅』`,
-        translate: `True 'Karura'`,
+        name: `True 'Garuda'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -29179,12 +29178,11 @@ const EquipInformation = [
                 ability1: `When equipped by Kirisame, increase own Paralyze & Freeze Resistance by 100% and Increase Third Eye duration by 60s (Only once).`,
                 ability2: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //明王刀『迦楼羅』 (Kirisame Farmable) - JP Complete
+{ //Kingblade 'Garuda' - Missing Lore
         id: 110631,
-        name: `明王刀『迦楼羅』`,
-        translate: `'Karura'`,
+        name: `Kingblade 'Garuda'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -29209,11 +29207,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //忍衣『爆守』 (Kirisame Farmable) - JP Complete
+{ //Shinobi Shoes 'Sunika' - Missing Lore
         id: 110641,
-        name: `忍衣『爆守』`,
+        name: `Shinobi Shoes 'Sunika'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -29238,13 +29236,12 @@ const EquipInformation = [
             {
                 ability1: `Burn Time Reduction & Burn Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『天涙切』 (Hakurou TW) - JP Complete
+{ //True 'Tenrui-Giri' - Missing Lore
         id: 110651,
-        name: `真『天涙切』`,
-        translate: `True 'Celestial Tears'`,
-        location: `Hakurou Stage Clear Reward`,
+        name: `True 'Tenrui-Giri'`,
+        location: `Hakuro Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29267,14 +29264,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Equipped by Hakurou, increase own Arts DMG by 30% (Only once).`,
+                ability1: `When Equipped by Hakuro, increase own Arts DMG by 40% (Only once).`,
                 ability2: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Yokai Sickle "Bloody Mikazuki" Replica (SR Equip) - Missing Lore
         id: 110661,
-        name: `Yokai Sickle "Bloody Mikazuki" Replica`,
+        name: `Yokai Sickle 'Bloody Mikazuki' Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         location: `Fire Summoner's Road`,
@@ -29304,7 +29301,7 @@ const EquipInformation = [
     },
 { //Yokai Sickle "Bloody Mikazuki" Custom - Missing Lore
         id: 110671,
-        name: `Yokai Sickle "Bloody Mikazuki" Custom`,
+        name: `Yokai Sickle 'Bloody Mikazuki' Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Fire Summoner's Road`,
         star: 6,
@@ -29332,9 +29329,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //忍僧具『豊穣』 (Hakurou Farmable) - JP Complete
+{ //Shinobi Guard 'Hojo' - Missing Lore
         id: 110681,
-        name: `忍僧具『豊穣』`,
+        name: `Shinobi Guard 'Hojo'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -29359,12 +29356,11 @@ const EquipInformation = [
             {
                 ability1: `Hellfire resistance 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //臥竜戟『天涙切』 (Hakurou Farmable) - JP Complete
+{ //Hidden Dragon 'Tenrui-Giri' - Missing Lore
         id: 110691,
-        name: `臥竜戟『天涙切』`,
-        translate: `'Celestial Tears'`,
+        name: `Hidden Dragon 'Tenrui-Giri'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29389,7 +29385,7 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //マリカのハイカラメイド (PSS Halloween Equip) - JP Complete
         id: 110701,
@@ -31501,10 +31497,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //剣聖の証【紅】 - JP Complete
+    { //Sword God's Proof - Missing Lore
         id: 111421,
-        name: `剣聖の証【紅】`,
-        translate: `Sword Saint's Proof [Red]`,
+        name: `Sword God's Proof`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31529,12 +31524,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //剣聖の証【蒼】 - JP Complete
+    { //Frozen Empress' Proof - Missing Lore
         id: 111431,
-        name: `剣聖の証【蒼】`,
-        translate: `Sword Saint's Proof [Blue]`,
+        name: `Frozen Empress' Proof`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31559,12 +31553,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //剣聖の証【翠】 - JP Complete
+    { //Sword Emperor's Proof - Missing Lore
         id: 111441,
-        name: `剣聖の証【翠】`,
-        translate: `Sword Saint's Proof [Green]`,
+        name: `Sword Emperor's Proof`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -31589,7 +31582,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //剣聖の証【翠】(Stiria Mines Equip) - JP Complete
         id: 111451,

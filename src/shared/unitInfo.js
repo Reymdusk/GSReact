@@ -155,7 +155,7 @@
  */
 
 const UnitInformation = [
-    { //Clyde - Complete (+ JP version), Dream Evo Complete
+    { //Clyde - Complete
         id: 100016111,
         name: "Clyde",
         rank: "F",
@@ -176,15 +176,6 @@ const UnitInformation = [
                 detail5: "/db/Units/Detail/unit_detail_100015111.png"
             },
         skillset: 
-            {
-                skill: "7s CT - 2000% Fire DMG (PHY).",
-                skillbreak: 1500,
-                arts: "10000% Fire DMG (PHY). Chance to inflict Burn.",
-                artsbreak: 2200,
-                truearts: "22000% Fire DMG (PHY). Chance to inflict Burn. Increase Allies' Arts by 20. ",
-                trueartsbreak: 4800
-            },
-        skillsetJP: 
             {
                 skill: "6s CT - 2000% Fire DMG (PHY). Increase own Arts gauge by 10.",
                 skillbreak: 1500,
@@ -208,15 +199,6 @@ const UnitInformation = [
                 defplus: 330
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 3,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -259,7 +241,7 @@ const UnitInformation = [
                     hover3: "Degilmagna"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -282,7 +264,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `God's Soulgem`,
+                        hover2: `Eternaglit Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -315,7 +297,7 @@ const UnitInformation = [
                 evoawk: "Although being one of the 3 Blade Masters, he suddenly disappeared from history. It is not clear of this life after the Ancient War. There are several rumors about him such as, helping others during the harsh times after war, death and life battle with his master, or being killed by the emperor of Isliid due to his riot against him. However, one thing is common, he had enormous power even after the war and bright fire in his eyes."
             }
     },
-    { //Corsair - Complete (+ JP version), Dream Evo Complete
+    { //Corsair - Complete
         id: 100026211,
         name: "Corsair",
         rank: "F",
@@ -345,14 +327,6 @@ const UnitInformation = [
                 defplus: 340
             },
         slots: {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 3,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -361,15 +335,6 @@ const UnitInformation = [
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         skillset: 
-            {
-                skill: "8s CT - 1800% Water DMG (PHY).",
-                skillbreak: 1300,
-                arts: "10340% Water DMG (MAG).",
-                artsbreak: 2400,
-                truearts: "23200% Water DMG (MAG). High chance to inflict Freeze. Increase all Ally Arts Gauge by 20.",
-                trueartsbreak: 4800
-            },
-        skillsetJP: 
             {
                 skill: "6s CT - 1800% Water DMG (PHY). 10% chance to inflict Freeze.",
                 skillbreak: 1300,
@@ -417,7 +382,7 @@ const UnitInformation = [
                     hover3: "Freydal"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -474,7 +439,7 @@ const UnitInformation = [
                 evoawk: "Although being one of the 3 Blade Masters, it is said that she created the reason for the royal family to fall. After the Ancient War, she was ordered to guard the prince of Bamint who was going to attend the 5 Kings Conference and even proposed. However, she declined the offer, and left the country. Her father did not criticize her for this. She is said to have fought with the other Blade Masters or have lived to bring up her adopted child. Her sword skills were the best during her last years."
             }
     },
-    { //Arth - Complete (+ JP version), Dream Evo Complete
+    { //Arth - Complete
         id: 100036311,
         name: "Arth",
         rank: "F",
@@ -494,15 +459,6 @@ const UnitInformation = [
                 detail5: "/db/Units/Detail/unit_detail_100035311.png"
             },
         skillset: 
-            {
-                skill: "7s CT - 1900% Earth DMG (PHY).",
-                skillbreak: 2100,
-                arts: "9900% Earth DMG (PHY).",
-                artsbreak: 3000,
-                truearts: "21500% Earth DMG (PHY). Increase all Allies' Arts Gauge by 20.",
-                trueartsbreak: 9300
-            },
-        skillsetJP: 
             {
                 skill: "6s CT - 1900% Earth DMG (PHY).",
                 skillbreak: 2100,
@@ -527,21 +483,13 @@ const UnitInformation = [
             },
         slots: 
             {
-            slot1: 5,
-            slot1type: "/db/Mines/thumbnail/physLB.png",
-            slot2: 5,
-            slot2type: "/db/Mines/thumbnail/magLB.png",
-            slot3: 3,
-            slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: {
             slot1: 6,
             slot1type: "/db/Mines/thumbnail/physLB.png",
             slot2: 5,
             slot2type: "/db/Mines/thumbnail/magLB.png",
             slot3: 4,
             slot3type: "/db/Mines/thumbnail/defLB.png"
-        },
+            },
         evolution: 
             {
                 evo23: 
@@ -576,7 +524,7 @@ const UnitInformation = [
                     hover3: "Elpneumas"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -749,7 +697,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        hover2: `God's Soulgem`,
+                        hover2: `Eternaglit Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragFosradius.png`,
                         mat3amt: 2,
@@ -931,7 +879,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        hover2: `God's Soulgem`,
+                        hover2: `Eternaglit Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
@@ -2291,7 +2239,7 @@ const UnitInformation = [
                 evo5: "A divine girl who has the power to break down the barriers surrounding Gods. Though Iris was unaware she possessed such a rare power, she was discovered by a Demon and held as a research subject for anti-God weaponry. Profound in their cruelty, Iris lost her memories as a result of the experiments, but eventually managed to escape. Her encounter with a young man awakened her true power further.",
             }
     },
-    { //Roy (Water) - Complete, Dream Evo Complete
+    { //Roy (Water) - Complete
         id: 101036211,
         name: "Roy (Water)",
         rank: "F",
@@ -2307,15 +2255,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101036211.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -2337,27 +2276,12 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2150% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Skill by 50% and Break PWR of this Skill by 70%.",
                 skillbreak: 2000,
-                arts: "15500% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Arts by 100% and Break PWR of this Arts by 150%.",
-                artsbreak: 3200,
-                truearts: "30800% Water DMG (PHY). High chance to inflict Ultimate Freeze.",
-                trueartsbreak: 5600
-            },
-        skillsetJP: 
-            {
-                skill: "8s CT - 2150% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Skill by 50% and Break PWR of this Skill by 70%.",
-                skillbreak: 2000,
                 arts: "18000% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Arts by 100% and Break Power of this Arts by 200%.",
                 artsbreak: 3500,
                 truearts: "45000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze.",
                 trueartsbreak: 6000
-            },    
-        passive: 
-            {
-                ability1: "Increase Rayas' DMG by 30%.",
-                ability2: "Increase Allies' DMG RES by 15%.",
-                ability3: "When near-death, heal 60 HP/s."
             },
-        passiveJP: 
+        passive: 
             {
                 ability1: "Increase Rayas' DMG by 50%.",
                 ability2: "Increase Allies' DMG RES by 20%.",
@@ -2391,7 +2315,7 @@ const UnitInformation = [
                     hover5: "Freydal"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -2946,7 +2870,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
-                        hover2: `Smogdragon`,
+                        hover2: `Smogdragon Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragGoldola.png`,
                         mat3amt: 2,
                         hover3: `Goldola`
@@ -3489,7 +3413,7 @@ const UnitInformation = [
                 evoawk: "A skilled craftsman of Reigrad. Mesmerized by the art of smithing from a young age, he honed his craft diligently. The color of the fire, the sound of forging steel, the weight of the sledgehammer in his hands are constantly changing phenomena that, even after many years of disciplined practice, never extinguish his passion. His legacy is an inspiration not only for other blacksmiths but for artists of all kinds."
             }
     },
-    { //Liese (Light) - Complete, Dream Evo Complete
+    { //Liese (Light) - Complete
         id: 101136411,
         name: "Liese (Light)",
         rank: "F",
@@ -3505,15 +3429,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101136411.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/healLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/healLB.png",
@@ -3532,15 +3447,6 @@ const UnitInformation = [
                 defplus: 392
             },
         skillset: 
-            {
-                skill: "Recover Mode: 5s CT - Heal Allies' HP by 300. Attack Mode: 5s CT - 1800% Light DMG (MAG).",
-                skillbreak: 1700, //how do i write this??? cause liese skill has two modes, one has 0 break the other has 1700
-                arts: "Recover Mode: Heal Allies' HP by 2000, cure Allies' Status Ailments (except Faint). Attack Mode: 15500% Light DMG (MAG). High chance to inflict Paralysis.",
-                artsbreak: 3450, //same comment for skill
-                truearts: "28800% Light DMG (MAG). High chance to inflict Paralysis. Recover Allies' HP by 5000, revive fallen Allies with 30% HP (only able to revive fallen Allies once every 60s).",
-                trueartsbreak: 4450
-            },
-        skillsetJP: 
             {
                 skill: "Recover Mode: 5s CT - Heal Allies' HP by 500. Attack Mode: 5s CT - 1800% Light DMG (MAG).",
                 skillbreak: 1700, //how do i write this??? cause liese skill has two modes, one has 0 break the other has 1700
@@ -3583,7 +3489,7 @@ const UnitInformation = [
                     hover5: "Code-XTF"
                 }
             },
-        dreamJP: {
+        dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -3606,7 +3512,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `God's Soulgem`,
+                        hover2: `Eternaglit Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -4357,7 +4263,7 @@ const UnitInformation = [
                 evoawk: "Duran encountered the crazed swordsman who was terrorizing the northern towns. From how the warrior wielded his sword with abandon, he knew the weapon had possessed him. After a heated confrontation, the knight suffered near-fatal injuries but not a single innocent was harmed. Ever since, the legend of Duran and his shield spread across the land."
             }
     },
-    { //Zenon - Complete, Dream Evo Complete
+    { //Zenon - Complete
         id: 101216512,
         name: "Zenon",
         rank: "B+",
@@ -4373,15 +4279,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101216512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -4400,15 +4297,6 @@ const UnitInformation = [
                 defplus: 384
             },
         skillset: 
-            {
-                skill: "10s CT - 1550% Dark DMG (MAG). During this Skill, increase own BE generation by 50%.",
-                skillbreak: 1350,
-                arts: "8800% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts + For 10s, increase Allies' Arts by 3/s.",
-                artsbreak: 2100,
-                truearts: "25500% Dark DMG (MAG). Consume 25% of own HP, increase Allies' Arts by 40 + For 10s, increase Allies' MAG DMG by 30%.",
-                trueartsbreak: 4400
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1600% Dark DMG (MAG). During this Skill, increase own BE generation by 60%.",
                 skillbreak: 1350,
@@ -4450,7 +4338,7 @@ const UnitInformation = [
                     hover5: "Code-XTF"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -22186,7 +22074,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Kirisame - Missing Lore (JP)
+    { // Kirisame - Missing Lore (GL)
         id: 103527112,
         name: "Kirisame",
         attribute: "Fire",
@@ -22247,7 +22135,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Karura`,
+                name: `Garuda`,
                 slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110621.png",
                 skill: `40s CT - 3000% Fire DMG (PHY). For 10s, increase own Fire DMG by 30% and DMG RES by 20%.`,
@@ -22260,13 +22148,13 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { // Hakurou - Missing Lore (JP)
+    { // Hakuro - Missing Lore (GL)
         id: 103566311,
-        name: "Hakurou",
+        name: "Hakuro",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -22323,21 +22211,21 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Celestial Tears",
+                name: "Tenrui-Giri",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110651.png",
                 skill: "65s CT - 8000% Earth DMG (MAG). For 10s, reduce Enemies' Blind RES and Evasion rate by 30%.",
                 skillbreak: 600,
                 passive: 
                     {
-                        ability1: "When Equipped by Hakurou, increase own Arts DMG by 30%.",
+                        ability1: "When Equipped by Hakuro, increase own Arts DMG by 40%.",
                         ability2: "Increase DEF by 5%."
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
     { // Sword Demon Berwick - Missing Lore (JP)

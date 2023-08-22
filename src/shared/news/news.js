@@ -202,6 +202,43 @@ const NewsArticles = [
                     equips: []
                 }
         }
+    },
+    {
+        id: 6,
+        date: `August 24, 2023`,
+        article: 
+        {
+            intro: `Wow, this is quite the update. Not only has Dream Awakening been introduced to Global for the first few units, Act 3 of the New Legend of the Forbidden Ninja Scroll saga begins and introduces the next Ascended unit, Kirisame! Moreover, prepare to face the new Ultra Luck Trial Event of Hakuro...`,
+            new: 
+                {
+                    units: [],
+                    equips: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Clyde`, 100016111],
+                        [`Corsair`, 100026211],
+                        [`Arth`, 100036311],
+                        [`Roy`, 101036211],
+                        [`Liese`, 101136411],
+                        [`Zenon`, 101216512],
+                        [`Kirisame`, 103527112],
+                        [`Hakuro`, 103566311]
+                    ],
+                    equips: [
+                        [`Sword God's Proof`, 111421],
+                        [`Frozen Empress' Proof`, 111431],
+                        [`Sword Emperor's Proof`, 111441],
+                        [`True 'Garuda'`, 110621],
+                        [`Kingblade 'Garuda'`, 110631],
+                        [`Shinobi Shoes 'Sunika'`, 110641],
+                        [`True 'Tenrui-Giri'`, 110651],
+                        [`Hidden Dragon 'Tenrui-Giri'`, 110691],
+                        [`Shinobi Guard 'Hojo'`, 110681]
+                    ]
+                }
+        }
     }
 ]
 
