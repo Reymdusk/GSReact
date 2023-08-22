@@ -212,17 +212,12 @@ const NewsArticles = [
             new: 
                 {
                     units: [],
-                    equips: []
+                    equips: [],
+                    dream: []
                 },
             globalUpdate:
                 {
                     units: [
-                        [`Clyde`, 100016111],
-                        [`Corsair`, 100026211],
-                        [`Arth`, 100036311],
-                        [`Roy`, 101036211],
-                        [`Liese`, 101136411],
-                        [`Zenon`, 101216512],
                         [`Kirisame`, 103527112],
                         [`Hakuro`, 103566311]
                     ],
@@ -236,6 +231,14 @@ const NewsArticles = [
                         [`True 'Tenrui-Giri'`, 110651],
                         [`Hidden Dragon 'Tenrui-Giri'`, 110691],
                         [`Shinobi Guard 'Hojo'`, 110681]
+                    ],
+                    dream: [
+                        [`Clyde`, 100016111],
+                        [`Corsair`, 100026211],
+                        [`Arth`, 100036311],
+                        [`Roy`, 101036211],
+                        [`Liese`, 101136411],
+                        [`Zenon`, 101216512],
                     ]
                 }
         }
