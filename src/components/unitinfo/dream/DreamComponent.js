@@ -47,23 +47,23 @@ const Tabs = ({ dream }) => {
             <Nav pills justified style={{ marginTop: "2em" , marginBottom: "2em", maxWidth: "20em"}}>
                 {
                     dream.fire && 
-                    <TabLinks type="FIRE" currentTab={currentTab} toggle={toggle} tabNum={1} />
+                    <TabLinks type="CRIMSON" currentTab={currentTab} toggle={toggle} tabNum={1} />
                 }
                 {
                     dream.water && 
-                    <TabLinks type="WATER" currentTab={currentTab} toggle={toggle} tabNum={2} />
+                    <TabLinks type="AQUEOUS" currentTab={currentTab} toggle={toggle} tabNum={2} />
                 }
                 {
                     dream.earth && 
-                    <TabLinks type="EARTH" currentTab={currentTab} toggle={toggle} tabNum={3} />
+                    <TabLinks type="VERDANT" currentTab={currentTab} toggle={toggle} tabNum={3} />
                 }
                 {
                     dream.light && 
-                    <TabLinks type="LIGHT" currentTab={currentTab} toggle={toggle} tabNum={4} />
+                    <TabLinks type="LUMINOUS" currentTab={currentTab} toggle={toggle} tabNum={4} />
                 }
                 {
                     dream.dark && 
-                    <TabLinks type="DARK" currentTab={currentTab} toggle={toggle} tabNum={5} />
+                    <TabLinks type="SPECTRAL" currentTab={currentTab} toggle={toggle} tabNum={5} />
                 }
             </Nav>
             <TabContent activeTab={currentTab}>
@@ -97,7 +97,7 @@ const TabLinks = ({ type, currentTab, toggle, tabNum }) => {
         <NavItem>
             <NavLink className={classnames({ active: currentTab === tabNum })}
                 onClick={() => toggle(tabNum)}>
-                    {type}
+                    <span style={{userSelect: "none"}}>{type}</span>
             </NavLink>
         </NavItem>
     )

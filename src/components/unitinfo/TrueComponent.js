@@ -125,13 +125,13 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                                         <NavItem>
                                         <NavLink className={classnames({ active: serverTab === '1' })}
                                             onClick={() => {serverToggle('1')}} >
-                                                Global
+                                                <span style={{userSelect: "none"}}>Global</span>
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
                                             <NavLink className={classnames({ active: serverTab === '2' })}
                                                         onClick={() => {serverToggle('2')}} >
-                                                Japan
+                                                <span style={{userSelect: "none"}}>Japan</span>
                                             </NavLink>
                                         </NavItem>
                                     </Nav>
