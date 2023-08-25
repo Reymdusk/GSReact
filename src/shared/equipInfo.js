@@ -32297,7 +32297,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase target's Fire RES and PHY RES by 20% for 10s.`,
+                skill: `40s CT - Increase target's Fire resistance and Physical resistance by 20% for 10s.`,
                 break: 0
             },
         passive: 
@@ -32357,7 +32357,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 1000% Non-Elemental DMG (MAG). Heal all allies' HP by 170/s and increase all Demon allies' stats by 30% for 13s.`,
+                skill: `50s CT - 1000% Non-Elemental DMG (Magic). Heal all allies' HP by 170/s and increase all Demon allies' stats by 30% for 13s.`,
                 break: 200
             },
         passive: 
@@ -32417,7 +32417,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 3800% Earth DMG (MAG). When CRI, increase own Arts gauge by 50 (1 HIT only). Increase own MAG DMG by 60% for 10s.`,
+                skill: `40s CT - 3800% Earth DMG (Magic). When CRI, increase own Arts gauge by 50 (1 HIT only). Increase own Magic DMG by 60% for 10s.`,
                 break: 300
             },
         passive: 
@@ -32447,7 +32447,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 13500% Fire DMG (PHY). Increase own ATK by 100% for 10s. If user is Demon, increase own ATK by 160% instead.`,
+                skill: `80s CT - 13500% Fire DMG (Physical). Increase own ATK by 100% for 10s. If user is Demon, increase own ATK by 160% instead.`,
                 break: 1000
             },
         passive: 
@@ -32477,12 +32477,42 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8500% Fire DMG (PHY). Reduce enemies' Fire RES and Evasion rate by 30% for 10s.`,
+                skill: `50s CT - 8500% Fire DMG (Physical). Reduce enemies' Fire resistance and Evasion rate by 30% for 10s.`,
                 break: 800
             },
         passive: 
             {
                 ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //GO！グレート・ガナルディア号 - JP Complete
+        id: 111751,
+        name: `GO！グレート・ガナルディア号`,
+        translate: `GO! Great Gramenia`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4000% Dark DMG (Magic). If enemy is a God, reduce enemies' Dark resistance by 25% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `MAX HP 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -32569,7 +32599,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 9900% Dark DMG (PHY). Reduce enemies' Dark RES by 40% for 7s. If user is Dark, reduce enemies' Dark RES by 70% instead.`,
+                skill: `40s CT - 9900% Dark DMG (Physical). Reduce enemies' Dark resistance by 40% for 7s. If user is Dark, reduce enemies' Dark resistance by 70% instead.`,
                 break: 800
             },
         passive: 
@@ -32599,7 +32629,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 12000% Dark DMG (PHY). Reduce enemies' Dark RES by 30% for 15s. If user is Dark, reduce enemies' Dark RES by 60% instead.`,
+                skill: `40s CT - 12000% Dark DMG (Physical). Reduce enemies' Dark resistance by 30% for 15s. If user is Dark, reduce enemies' Dark resistance by 60% instead.`,
                 break: 800
             },
         passive: 
@@ -33005,12 +33035,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 8000% Water DMG (MAG). Increase own ATK by 50% for 15s.`,
+                skill: `45s CT - 8000% Water DMG (Magic). Increase own ATK by 50% for 15s.`,
                 break: 600
             },
         passive: 
             {
-                ability1: `Increase own MAG DMG by 25% UP. For 165.5s after start of quest, Increase all Allies' Water DMG by 20%. (At Passive Lv.101)`
+                ability1: `Increase own Magic DMG by 25% UP. For 165.5s after start of quest, Increase all Allies' Water DMG by 20%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },

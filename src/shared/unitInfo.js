@@ -1356,7 +1356,7 @@ const UnitInformation = [
                 evoawk: "A divine tree from another world with the overwhelming power to create, dominate and destroy life. After quelling the horros that have plagued the continent, this divine tree suddenly vanished with a white flash to spend eternity somewhere far far away in an unknown land. This divine tree has many beings living upon its exuberant treetops, including the seeds thought to have been destroyed ages ago. When the divine tree annihilated all that life that dwelled in this realm, as if being wished upon the stars, it is thought that such destruction sparked new life to be brought forth."
             }
     },
-    { //Eden - Complete
+    { //Eden - Complete + JP Dream
         id: 100596412,
         name: "Eden",
         rank: "B-",
@@ -1382,6 +1382,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6930,
@@ -1398,6 +1407,15 @@ const UnitInformation = [
                 arts: "7000% Light DMG (PHY). For 25s, all allies gain a DMG Barrier that negates 3000 DMG",
                 artsbreak: 1400,
                 truearts: "For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]. If Wave Armor is at Max Level: 35000% Light DMG (PHY). For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]",
+                trueartsbreak: 1800
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1400% Light DMG (MAG). Chance to inflict Seal",
+                skillbreak: 900,
+                arts: "12000% Light DMG (PHY). For 25s, Allies gain a DMG barrier that negates 4000 DMG.",
+                artsbreak: 1400,
+                truearts: "For 30s, Allies gain a DMG barrier that negates 4000 DMG. Additionally, increase strength of Barrier by [2000 × Level of Wave Armor]. If Wave Armor is at Max Level: 50000% Light DMG (PHY). For 30s, Allies gain a DMG barrier that negates 4000 DMG. Additionally, increase strength of Barrier by [2000 × Level of Wave Armor].",
                 trueartsbreak: 1800
             },
         passive: 
@@ -1445,6 +1463,40 @@ const UnitInformation = [
                     hover3: "Fosradius"
                 }
             },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts gauge by 2/s.`,
+                        ability2: `Increase own BE Output by 10%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFosradius.png`,
+                        mat3amt: 2,
+                        hover3: `Fosradius`
+                    },
+                    passive: {
+                        ability1: `Increase own BREAK Power by 60% against Dark enemies.`,
+                        ability2: `Increase all allies' Accuracy rate by 20%.`
+                    }
+            }
+        },
         lore: 
             {   
                 evo3: "A mechanical lifeform created in another world. After a long journey. EDEN finally arrived in the depths of a lush. green forest. Beginning its investigation of this new world, he soon detected the presence of unknown lifeforms, who turned out to be the small fairies of the forest. Confirming their lack of hostility. Eden introduced itself and explained his goal: to save his world from utter annihilation.",
@@ -1646,7 +1698,7 @@ const UnitInformation = [
                 evoawk: "A knight of the Gods whose name lives on only as a word of hope. Hailed as a savior in the Ancient War, he was in truth a brave protector of the weak and warrior for justice. And yet, for non-Humans, he was a figure of fear whose name is spoken even today in hushed tones. Today in Raktehelm, none alive know that the mantra of Ragna, spoken in times of deepest distress, is his true name."
             }
     },
-    { //Yomi - Complete
+    { //Yomi - Complete + JP DreamEvo
         id: 100626212,
         name: "Yomi",
         rank: "C",
@@ -1672,6 +1724,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 6708,
@@ -1689,6 +1750,15 @@ const UnitInformation = [
                 artsbreak: 2000,
                 truearts: "28000% Water DMG (PHY). If this True Arts hits a Broken Enemy, increase own Arts by 100 (only once per True Arts activation) + For 10s, increase own Critical Rate by 100%.",
                 trueartsbreak: 3600 
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2000% Water DMG (PHY). Increase own Arts gauge by 30.",
+                skillbreak: 1700,
+                arts: "20000% Water DMG (PHY). For 20s, increase all Allies' ATK by 50% and Water allies' ATK by an additional 50%.",
+                artsbreak: 2000,
+                truearts: "55000% Water DMG (PHY). If this True Arts hits a Broken Enemy, increase own Arts by 100 (only once per True Arts activation) + For 10s, increase own Critical Rate by 100%.",
+                trueartsbreak: 3600
             },
         passive: 
             {
@@ -1729,6 +1799,56 @@ const UnitInformation = [
                     hover5: "Freydal"
                 }
             },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        hover2: `Frostsprite Soulgem`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/fragPalamicia.png`,
+                        mat3amt: 2,
+                        hover3: `Palamicia`
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 80%.`,
+                        ability2: `Increase own Arts gauge by 1/s.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragGoldola.png`,
+                        mat3amt: 2,
+                        hover3: `Goldola`
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Giant Bosses by 60%.`,
+                        ability2: `Increase own Poison RES by 100%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
+                        mat3amt: 2,
+                        hover3: `Mavroskia`
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Break Power by 20%.`,
+                        ability2: `Increase own BE Output by 10%.`
+                    }
+            }
+        },
         lore: 
             {   
                 evo3: "An otherworldly swordswoman summoned to Raktehelm by the Gods at the end of the great war. Though Human in appearance, her strength was greater than the average God and she slew countless Demons. Though nothing is written about what she fought for, rumor suggests that she made a deal with the Gods: in return for her power, the Gods used their strength to defeat a country invading Yomi's homeland.",
@@ -1737,7 +1857,7 @@ const UnitInformation = [
                 evoawk: "A mysterious swordswoman summoned from another world. She once valued loyalty above all, but eventually, she came to doubt her God masters as much as the Demons. Ironically, the more she doubted, the sharper her blade cut. But soon, she will find that this power she sought to defend her home will bring even greater tragedy and hatred. And so she sets out on a journey to discover how to destroy forever her true enemy; War."
             }
     },
-    { //Vaid - Complete
+    { //Vaid - Complete + JP DreamEvo
         id: 100636312,
         name: "Vaid",
         rank: "F",
@@ -1763,6 +1883,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 8409,
@@ -1779,6 +1908,15 @@ const UnitInformation = [
                 arts: "12000% Earth DMG (PHY). For 20s, increase Earth Allies' Break PWR by 25%.",
                 artsbreak: 2500,
                 truearts: "18000% Earth DMG (PHY). Increase own Arts by 80. When used against Enemies in BREAK, increase Earth Allies' Arts by 20 + For 12s, increase Allies' DMG by 80%.",
+                trueartsbreak: 6000
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1600% Earth DMG (PHY). For 9s, reduce Enemies' PHY RES by 10%, chance of reducing Enemies' Break RES by 15%.",
+                skillbreak: 1600,
+                arts: "14000% Earth DMG (PHY). For 20s, increase Earth Allies' Break Power by 35%.",
+                artsbreak: 2500,
+                truearts: "20000% Earth DMG (PHY). Increase own Arts by 80. When used against Enemies in BREAK, increase Earth Allies' Arts by 20 + For 20s, increase Allies' DMG by 100%.",
                 trueartsbreak: 6000
             },
         passive: 
@@ -1817,6 +1955,56 @@ const UnitInformation = [
                     hover3: "Elpneumas",
                 }
             },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `When enemies' HP is 30% or less, increase own DMG by 120%.`,
+                        ability2: `Reduce own Water RES by 20%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
+                        mat3amt: 2,
+                        hover3: `Tonetaurus`
+                    },
+                    passive: {
+                        ability1: `Increase all Machine allies' Arts gauge by 2/s.`,
+                        ability2: `Increase own Break Power by 16%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
+                        mat3amt: 2,
+                        hover3: `Wilkes`
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Max HP by 10%.`,
+                        ability2: `Increase all allies' MAG RES by 10%.`
+                    }
+            }
+        },
         lore: 
             {   
                 evo3: "A Machine weapon that fought during the Ancient War. Vaid absorbs the countless spirits that float in the atmosphere to provide energy for flight and weapons. The main body is the small module in the centre which controls the other, larger body, but mysteries about its construction abound. The name 'Vaid' refers to the apparatus as a whole.",
@@ -22193,7 +22381,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "When Third Eye is activated, for 40s, reduce Enemies' MAG RES by 40%. When in Third Eye or True Third Eye, increase own Arts by 2/s.",
+                ability1: "When Third Eye is activated, for 40s, reduce Enemies' MAG RES by 50%. When in Third Eye or True Third Eye, increase own Arts by 2/s.",
                 ability2: "When activating Third Eye, if enemy is Demon or Beast Boss, activate True Third Eye instead. During True Third Eye, increase DMG to Demon and Beast Enemies by 200%."
             }, 
         evolution: 
@@ -23327,6 +23515,71 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
                     hover2: "Flametail Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Summer Rosetta - Missing Lore (JP)
+        id: 103757512,
+        name: `Summer Rosetta`,
+        attribute: `Dark`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103756512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103757512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103756512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103757512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7987,
+                hpplus: 1470,
+                atk: 3487,
+                atkplus: 670,
+                def: 2599,
+                defplus: 502
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2300% Dark DMG (MAG). Increase own Arts by 20. If own HP is above 80%, increase own Arts by 40 instead.`,
+                skillbreak: 700,
+                arts: `18000% Dark DMG (MAG). For 20s, increase Allies' stats by 30%.`,
+                artsbreak: 1200,
+                truearts: `50000% Dark DMG (MAG). For 25s, reduce Enemies' MAG RES by 80% and increase >50% HP Allies' Arts gauge by 4/s.`,
+                trueartsbreak: 1800,
+                superarts: `130000% Dark DMG (MAG). For 20s, increase Dark Allies' DMG by 150% and Demon Allies' DMG by 150%.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When unafflicted with any Status ailment, increase Allies' Heal Equip CT REC by 30% and Heal Amount by 60% (Excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [2% × own ATK/100].`,
+                ability3: `Increase Paralysis RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
                 }
             },
         lore: 
