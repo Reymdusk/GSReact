@@ -1356,9 +1356,9 @@ const UnitInformation = [
                 evoawk: "A divine tree from another world with the overwhelming power to create, dominate and destroy life. After quelling the horros that have plagued the continent, this divine tree suddenly vanished with a white flash to spend eternity somewhere far far away in an unknown land. This divine tree has many beings living upon its exuberant treetops, including the seeds thought to have been destroyed ages ago. When the divine tree annihilated all that life that dwelled in this realm, as if being wished upon the stars, it is thought that such destruction sparked new life to be brought forth."
             }
     },
-    { //Eden - Complete + JP Dream
+    { //EDEN-typeΩ - Complete + JP Dream
         id: 100596412,
-        name: "Eden",
+        name: "EDEN-typeΩ",
         rank: "B-",
         attribute: "Light",
         type: "Machine",
@@ -22262,7 +22262,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Kirisame - Missing Lore (GL)
+    { // Kirisame - Complete
         id: 103527112,
         name: "Kirisame",
         attribute: "Fire",
@@ -22336,8 +22336,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A shinobi from Imari Village. He was always causing mischief in his younger age, but he also formed a close friendship with Mizuki, giving the leader a valuable emotional outlet. There is nothing he hates more than running away, so he avoids practicing escape arts to focus on hand-to-hand combat whenever possible.",
+                evosuper: `Granted the title "Guren" for possessing the strength of flame itself. Being the descendant of a Yoma-sealing shinobi helped, but that achievement was earned with his ferocious spirit and righteous will. His style contradicts the clam judgement the shinobi are known for, but Sakuya's support lets him burn bright in battle.`
             }
     },
     { // Hakuro - Missing Lore (GL)
@@ -22412,7 +22412,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
+                evo5: "The oldest surviving shinobi of Imari Village, having served the Mizuki household for three generations. His life has been dedicated to protecting the clan's secret history and their patriotic duty. That resolve also lets him perceive changes, no matter how slight, which the passing ages bring to his home.",
                 evoawk: "Missing Lore."
             }
     },
