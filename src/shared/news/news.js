@@ -208,11 +208,16 @@ const NewsArticles = [
         date: `August 24, 2023`,
         article: 
         {
-            intro: `Wow, this is quite the update. Not only has Dream Awakening been introduced to Global for the first few units, Act 3 of the New Legend of the Forbidden Ninja Scroll saga begins and introduces the next Ascended unit, Kirisame! Moreover, prepare to face the new Ultra Luck Trial Event of Hakuro...\n\nMeanwhile, on the JP side, Summer Rosetta makes her grand debut, alongside her new farmable equipment. Moreover, 3 new Dream Awakening units have been released as well!`,
+            intro: `Wow, this is quite the update. Not only has Dream Awakening been introduced to Global for the first few units, 
+            Act 3 of the New Legend of the Forbidden Ninja Scroll saga begins and introduces the next Ascended unit, Kirisame! 
+            Moreover, prepare to face the new Ultra Luck Trial Event of Hakuro...
+            
+            Meanwhile, on the JP side, Summer Rosetta makes her grand debut, alongside her new farmable equipment. 
+            Moreover, 3 new Dream Awakening units have been released as well!`,
             new: 
                 {
-                    units: [`Summer Rosetta`, 103757512],
-                    equips: [`GO！グレート・ガナルディア号`, 111751],
+                    units: [[`Summer Rosetta`, 103757512]],
+                    equips: [[`GO！グレート・ガナルディア号`, 111751]],
                     dream: [
                         [`EDEN-typeΩ`, 100596412],
                         [`Yomi`, 100626212],
