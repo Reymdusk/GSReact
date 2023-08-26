@@ -13059,7 +13059,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `120s CT - 6000% Water DMG (Physical). Summon Gem Blessing: Increases all allies' Water DMG by 60% for 30s (Only once).`,
+                skill: `120s CT - 8000% Water DMG (Physical). Summon Gem Blessing: Increases all allies' Water DMG by 60% for 35s (Only once).`,
                 break: 2000
             },
         passive: 
@@ -13089,7 +13089,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `120s CT - 6000% Fire DMG (Magic). Summon Gem Blessing: Increases all allies' Fire DMG by 60% for 30s (Only once).`,
+                skill: `120s CT - 8000% Fire DMG (Magic). Summon Gem Blessing: Increases all allies' Fire DMG by 60% for 35s (Only once).`,
                 break: 1200
             },
         passive: 
