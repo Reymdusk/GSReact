@@ -29951,9 +29951,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //猛き焔の女神像 (Elemental Ruins F15 Equip) - JP Complete
+{ //Red Flame Idol - Missing Lore
         id: 110891,
-        name: `猛き焔の女神像`,
+        name: `Red Flame Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -29978,11 +29978,11 @@ const EquipInformation = [
             {
                 ability1: `Status Ailment resistance 20% DOWN.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //清き雫の女神像 (Elemental Ruins F15 Equip) - JP Complete
+{ //Green Leaf Idol - JP Complete
         id: 110901,
-        name: `清き雫の女神像`,
+        name: `Green Leaf Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30007,11 +30007,11 @@ const EquipInformation = [
             {
                 ability1: `Status Ailment resistance 20% DOWN.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //昏き森の女神像 (Elemental Ruins F15 Equip) - JP Complete
+{ //Blue Drop Idol - JP Complete
         id: 110911,
-        name: `昏き森の女神像`,
+        name: `Blue Drop Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30036,7 +30036,7 @@ const EquipInformation = [
             {
                 ability1: `Status Ailment resistance 20% DOWN.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //天真爛漫シャルサンタ (PSS Xmas Equip) - JP Complete
         id: 110921,

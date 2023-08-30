@@ -251,6 +251,30 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 7,
+        date: `September 1, 2023`,
+        article: 
+        {
+            intro: `A rather small update this time, but still important to note nonetheless!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Red Flame Idol`, 110891],
+                        [`Green Leaf Idol`, 110901],
+                        [`Blue Drop Idol`, 110911]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
