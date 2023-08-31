@@ -257,11 +257,17 @@ const NewsArticles = [
         date: `September 1, 2023`,
         article: 
         {
-            intro: `A rather small update this time, but still important to note nonetheless!`,
+            intro: `Small update for Global, but Japan has released another unit with a new event story`,
             new: 
                 {
-                    units: [],
-                    equips: [],
+                    units: [
+                        [`Canary`, 103717212]
+                    ],
+                    equips: [
+                        [`真『影斬り』`, 111801],
+                        [`影斬り`, 111811],
+                        [`ブルージャケット(カナリア仕様) `, 111821]
+                    ],
                     dream: []
                 },
             globalUpdate:
