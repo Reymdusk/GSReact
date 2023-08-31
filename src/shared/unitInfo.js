@@ -23250,6 +23250,88 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Canary - Missing Lore (JP)
+        id: 103717212,
+        name: `Canary`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103716212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103717212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103716212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103717212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7269,
+                hpplus: 1342,
+                atk: 3430,
+                atkplus: 659,
+                def: 3221,
+                defplus: 610
+            },
+        skillset: 
+            {
+                skill: `12s CT - 1800% Current Element DMG (PHY). Increase own Arts by [(Maximum Arts - Current Amount of Arts)/2] (up to 150).`,
+                skillbreak: 500,
+                arts: `15000% Current Element DMG (PHY). Changes own Element in the order of (Water -> Earth -> Fire -> Water...) [Starts Quest as Water Element].
+                For 30s, Increase own DMG by 50% & Arts by 3/s.`,
+                artsbreak: 1000,
+                truearts: `60000% Current Element DMG (PHY).
+                If own element is Water: 100% Chance to inflict Disease for 25s.
+                If own element is Earth: 100% Chance to inflict Poison for 25s.
+                If own element is Fire: 100% Chance to inflict Burn for 25s.`,
+                trueartsbreak: 2000,
+                superarts: `130000% Current Element DMG (PHY). For 30s, reduce enemies' PHY RES by 100%. (Stackable)`,
+                superartsbreak: 2600
+            },
+        passive: 
+            {
+                ability1: `Impact Quake: Increase own DMG by 100% against enemies with Status Ailment. When own HP is above 80% increase own Equipment CT by 20%.`,
+                ability2: `Increase own Status RES by 100% (Except Faint).`,
+                ability3: `Increase own DEF Ignore by 15%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `KAGEGIRI`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111801.png",
+                skill: `20s CT - 4000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If User is Human; increase own arts by 10. `,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Canary, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY Evasion by 5%`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Luana - Missing Lore (JP)
         id: 103337412,
         name: `Luana`,
