@@ -32638,6 +32638,100 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『影斬り』- JP Complete
+        id: 111801,
+        name: `真『影斬り』`,
+        translate: `True "KAGEGIRI" Shadow Slasher Slicer`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 4000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If User is Human; increase own arts by 10. `,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Canary, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own PHY Evasion by 5%`
+            },
+        lore: `Currently unreleased in Global`
+    },
+    { //影斬り - JP Complete
+        id: 111811,
+        name: `影斬り`,
+        translate: `KAGEGIRI Shadow Slasher Slicer`,
+        location: `Limited Event - Blue Jacket Part 2`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - 3000% Water DMG (PHY). For 10s, increase own DMG agaisnt weak-element enemies by 30%. If user is Human, Increase by 50% instead.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Increase own Skill DMG by 20%,`
+            },
+        lore: `Currently unreleased in Global`
+    },
+    { //ブルージャケット(カナリア仕様) - JP Complete
+        id: 111821,
+        name: `ブルージャケット(カナリア仕様) `,
+        translate: `Blue Jacket (Canary Custom)`,
+        location: `Limited Event - Blue Jacket Part 2`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - For 10s, increase allies' Fire RES by 30%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Hellfire RES by 10%.`
+            },
+        lore: `Currently unreleased in Global`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
