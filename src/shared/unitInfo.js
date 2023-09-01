@@ -23283,24 +23283,24 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 1800% Current Element DMG (PHY). Increase own Arts by [(Maximum Arts - Current Amount of Arts)/2] (up to 150).`,
+                skill: `12s CT - 1800% Current Element DMG (PHY). Increase own Arts gauge by [(Maximum Arts gauge - Current Arts gauge)/2] (up to 150).`,
                 skillbreak: 500,
                 arts: `15000% Current Element DMG (PHY). Changes own Element in the order of (Water -> Earth -> Fire -> Water...) [Starts Quest as Water Element].
-                For 30s, Increase own DMG by 50% & Arts by 3/s.`,
+                For 30s, increase own DMG by 50% & Arts gauge by 3/s.`,
                 artsbreak: 1000,
-                truearts: `60000% Current Element DMG (PHY).
-                If own element is Water: 100% Chance to inflict Disease for 25s.
-                If own element is Earth: 100% Chance to inflict Poison for 25s.
+                truearts: `60000% Current Element DMG (PHY).\n
+                If own element is Water: 100% Chance to inflict Disease for 25s.\n
+                If own element is Earth: 100% Chance to inflict Poison for 25s.\n
                 If own element is Fire: 100% Chance to inflict Burn for 25s.`,
                 trueartsbreak: 2000,
-                superarts: `130000% Current Element DMG (PHY). For 30s, reduce enemies' PHY RES by 100%. (Stackable)`,
+                superarts: `130000% Current Element DMG (PHY). For 30s, reduce enemies' PHY RES by 100% (Stackable).`,
                 superartsbreak: 2600
             },
         passive: 
             {
-                ability1: `Impact Quake: Increase own DMG by 100% against enemies with Status Ailment. When own HP is above 80% increase own Equipment CT by 20%.`,
+                ability1: `Impact Quake: Increase own DMG by 100% against enemies with Status Ailment. When own HP is 80% or above, increase own Equipment CT Speed by 20%.`,
                 ability2: `Increase own Status RES by 100% (Except Faint).`,
-                ability3: `Increase own DEF Ignore by 15%.`
+                ability3: `Ignore Enemies' DEF by 15%.`
             }, 
         evolution: 
             {
@@ -23318,7 +23318,7 @@ const UnitInformation = [
                 name: `KAGEGIRI`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111801.png",
-                skill: `20s CT - 4000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If User is Human; increase own arts by 10. `,
+                skill: `20s CT - 4000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If user is Human, increase own Arts gauge by 10. `,
                 skillbreak: 500,
                 passive: 
                     {

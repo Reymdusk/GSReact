@@ -32641,7 +32641,7 @@ const EquipInformation = [
     { //真『影斬り』- JP Complete
         id: 111801,
         name: `真『影斬り』`,
-        translate: `True "KAGEGIRI" Shadow Slasher Slicer`,
+        translate: `True 'KAGEGIRI'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -32660,13 +32660,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 4000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If User is Human; increase own arts by 10. `,
+                skill: `20s CT - 4000% Water DMG (Physical). Reduce enemies' Physical resistance by 30% for 10s. If user is Human, increase own Arts gauge by 10. `,
                 break: 500
             },
         passive: 
             {
                 ability1: `When equipped by Canary, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own PHY Evasion by 5%`
+                ability2: `Increase own Physical Evasion by 5%`
             },
         lore: `Currently unreleased in Global`
     },
@@ -32692,7 +32692,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - 3000% Water DMG (PHY). For 10s, increase own DMG agaisnt weak-element enemies by 30%. If user is Human, Increase by 50% instead.`,
+                skill: `30s CT - 3000% Water DMG (Physical). Increase own DMG agaisnt weak-element enemies by 30% for 10s. If user is Human, increase own DMG agaisnt weak-element enemies by 50% instead.`,
                 break: 400
             },
         passive: 
@@ -32703,7 +32703,7 @@ const EquipInformation = [
     },
     { //ブルージャケット(カナリア仕様) - JP Complete
         id: 111821,
-        name: `ブルージャケット(カナリア仕様) `,
+        name: `ブルージャケット(カナリア仕様)`,
         translate: `Blue Jacket (Canary Custom)`,
         location: `Limited Event - Blue Jacket Part 2`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -32723,12 +32723,74 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - For 10s, increase allies' Fire RES by 30%.`,
+                skill: `40s CT - Increase all allies' Fire resistance by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: `Increase own Hellfire RES by 10%.`
+                ability1: `Increase own Hellfire resistance by 10%.`
+            },
+        lore: `Currently unreleased in Global`
+    },
+    { //ゴルネコクラウン - JP Complete
+        id: 111831,
+        name: `ゴルネコクラウン`,
+        translate: `Golcat's Crown`,
+        location: `Dark Elemental Ruins F16 Stage Clear Reward`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111831.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' HP by 200/s for 10s. If user is Light, heal all allies' Poison and Burn.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Metallic Tiara (Light Ruins F16 equip) is equipped on the party, increase own Heal Amount by 60% (No duplication).`
+            },
+        lore: `Currently unreleased in Global`
+    },
+    { //メタチキティアラ - JP Complete
+        id: 111841,
+        name: `メタチキティアラ`,
+        translate: `Metallic Tiara`,
+        location: `Light Elemental Ruins F16 Stage Clear Reward`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111841.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - For Increase all allies' Arts gauge by 2/s for 10s. If user is Dark, increase all allies' Arts gauge by 3/s instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Golcat's Crown (Dark Ruins F16 equip) is equipped on the party, increase own CRI rate by 100% (No duplication).`
             },
         lore: `Currently unreleased in Global`
     },

@@ -257,7 +257,7 @@ const NewsArticles = [
         date: `September 1, 2023`,
         article: 
         {
-            intro: `Small update for Global, but Japan has released another unit with a new event story`,
+            intro: `Small update for Global with new Elemental Ruins equips, while Japan has released another unit with a new event story and some new Elemental Ruins equips.`,
             new: 
                 {
                     units: [
@@ -266,7 +266,9 @@ const NewsArticles = [
                     equips: [
                         [`真『影斬り』`, 111801],
                         [`影斬り`, 111811],
-                        [`ブルージャケット(カナリア仕様) `, 111821]
+                        [`ブルージャケット(カナリア仕様) `, 111821],
+                        [`ゴルネコクラウン`, 111831],
+                        [`メタチキティアラ`, 111841]
                     ],
                     dream: []
                 },
