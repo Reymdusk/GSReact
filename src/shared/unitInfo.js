@@ -23649,7 +23649,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: `When unafflicted with any Status ailment, increase Allies' Heal Equip CT REC by 30% and Heal Amount by 60% (Excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability1: `When unafflicted with any Status ailment, increase Allies' Heal Equip's CT Speed by 30% and Heal Equip's Heal Amount by 60% (Excluding Lifesteal). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [2% × own ATK/100].`,
                 ability3: `Increase Paralysis RES by 80%.`
             }, 
