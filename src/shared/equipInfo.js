@@ -29980,9 +29980,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Green Leaf Idol - JP Complete
+{ //Blue Drop Idol - JP Complete
         id: 110901,
-        name: `Green Leaf Idol`,
+        name: `Blue Drop Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30000,7 +30000,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 1200% Earth DMG (Magic). If user is Earth, reduce enemy's Magic resistance by 20% for 8s.`,
+                skill: `45s CT - 1200% Water DMG (Magic). If user is Water, reduce enemy's Magic resistance by 20% for 8s.`,
                 break: 500
             },
         passive: 
@@ -30009,9 +30009,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Blue Drop Idol - JP Complete
+{ //Green Leaf Idol - JP Complete
         id: 110911,
-        name: `Blue Drop Idol`,
+        name: `Green Leaf Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30029,7 +30029,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 1200% Water DMG (Magic). If user is Water, reduce enemy's Magic resistance by 20% for 8s.`,
+                skill: `45s CT - 1200% Earth DMG (Magic). If user is Earth, reduce enemy's Magic resistance by 20% for 8s.`,
                 break: 500
             },
         passive: 
