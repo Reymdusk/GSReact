@@ -22000,8 +22000,8 @@ const UnitInformation = [
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/defLB.png",
-                slot32type: "/db/Mines/thumbnail/suppLB.png"
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
@@ -22014,12 +22014,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2300% Earth DMG (PHY). Increase own Arts by 50`,
+                skill: `12s CT - 2300% Earth DMG (PHY). Increase own Arts by 50.`,
                 skillbreak: 300,
-                arts: `26000% Earth DMG (PHY). For 20s, increase Allies' accuracy and Equipment CT REC by 40%`,
+                arts: `26000% Earth DMG (PHY). For 20s, increase Allies' accuracy and Equipment CT REC by 40%.`,
                 artsbreak: 1300,
-                truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.
-                            Note: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen.`,
+                truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.`,
                 trueartsbreak: 2600,
                 superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during True Arts. For 40s, increase own ATK by 100%.`,
                 superartsbreak: 1800
