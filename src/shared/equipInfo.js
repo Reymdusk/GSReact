@@ -13574,7 +13574,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - All allies' Arts gauge 20 UP. If Light or Dark unit, increases own Arts DMG by 15% for 6s.`,
+                skill: `45s CT - All allies' Arts gauge 20 UP. If Light or Dark unit, increases own Arts DMG by 20% for 8s.`,
                 break: 0
             },
         passive: 
@@ -13604,7 +13604,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 5800% Dark DMG (Physical). Lifesteal by 5% of DMG. Increases all allies' Accuracy rate by 20% for 8s.`,
+                skill: `50s CT - 5800% Dark DMG (Physical). Lifesteal by 5% of DMG. Increases all allies' Accuracy rate by 20% for 10s.`,
                 break: 900
             },
         passive: 
@@ -25579,10 +25579,9 @@ const EquipInformation = [
             },
         lore: `Juno's personal Diever Boat. From the moment she saw it on display, its hydrodynamic form and cute eyes stole her heart. All of the latest features are installed, allowing for realistic Diever movement that instantly responds to its driver. Those who watched her tear through the waves found her greater-than-usual exuberance charming.`
     },
-{ //ギミー・アリア (Elizabeth's Farmable) - JP Complete
+{ //Selfish Aria - Missing Lore
         id: 109401,
-        name: `ギミー・アリア`,
-        translate: `'Selfish Aria'`,
+        name: `Selfish Aria`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25607,11 +25606,11 @@ const EquipInformation = [
             {
                 ability1: `Burn Time Reduction & Burn Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //リズ・キュリオ (Elizabeth's Farmable) - JP Complete
+{ //Liz's Curio - Missing Lore
         id: 109411,
-        name: `リズ・キュリオ`,
+        name: `Liz's Curio`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -25629,14 +25628,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Heals Target's HP by 2000. If Target's HP is below 50%, heal target's HP by 4000 instead.`,
+                skill: `40s CT - Heals Target's HP by 2000. If target's HP is below 50%, heal target's HP by 4000 instead.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `Poison Time Reduction & Poison Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Selfish Aria' - Missing Lore
         id: 109421,

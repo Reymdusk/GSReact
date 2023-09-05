@@ -283,6 +283,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 8,
+        date: `September 7, 2023`,
+        article: 
+        {
+            intro: `Crest Burst has finally made its grand appearance on the Global version, along with a brand new saga "Grim Stella & Great 6 Witches"! Moreover, we get some slight buffs to Daki's farmable equips too.`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Selfish Aria`, 109401],
+                        [`Liz's Curio`, 109411],
+                        [`Sorcerer's Treasured Robe 'Caligula'`, 105241],
+                        [`Demon Twin-Blade 'Deino'`, 105251]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
