@@ -179,9 +179,9 @@ const UnitInformation = [
             {
                 skill: "6s CT - 2000% Fire DMG (PHY). Increase own Arts gauge by 10.",
                 skillbreak: 1500,
-                arts: "15000% Fire DMG (PHY). 50% chance to inflict Burn.",
+                arts: "15000% Fire DMG (PHY). 50% chance to inflict Burn for 10s.",
                 artsbreak: 2200,
-                truearts: "45000% Fire DMG (PHY). 100% chance to inflict Burn. Increase Allies' Arts by 20.",
+                truearts: "45000% Fire DMG (PHY). 100% chance to inflict Burn for 15s. Increase Allies' Arts by 20.",
                 trueartsbreak: 4800
             },
         passive: 
@@ -336,11 +336,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "6s CT - 1800% Water DMG (PHY). 10% chance to inflict Freeze.",
+                skill: "6s CT - 1800% Water DMG (PHY). 10% chance to inflict Freeze for 2s.",
                 skillbreak: 1300,
                 arts: "14000% Water DMG (MAG).",
                 artsbreak: 2400,
-                truearts: "35000% Water DMG (MAG). 100% chance to inflict Freeze. Increase all Allies' Arts Gauge by 20.",
+                truearts: "35000% Water DMG (MAG). 100% chance to inflict Freeze for 5s. Increase all Allies' Arts Gauge by 20.",
                 trueartsbreak: 4800
             },
         passive: 
@@ -957,7 +957,7 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: "3000% Fire DMG (PHY). Chance (25%) of inflicting Burn.",
+                skill: "3000% Fire DMG (PHY). 25% chance to inflict Burn for 6s.",
                 skillbreak: 900,
                 arts: "35000% Fire DMG (MAG). Additionally, when under Light Dream Path, for 20s, reduce enemies' Burn RES by 20%.",
                 artsbreak: 1700,
@@ -1126,7 +1126,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Water DMG (PHY). Chance to inflict Freeze.",
+                skill: "8s CT - 1800% Water DMG (PHY). 10% chance to inflict Freeze for 2s.",
                 skillbreak: 2050,
                 arts: "12600% Water DMG (MAG). For 15s, increase all Water Ally DMG RES by 10%",
                 artsbreak: 3100,
@@ -1402,11 +1402,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1400% Light DMG (MAG). Chance to inflict Seal",
+                skill: "10s CT - 1400% Light DMG (MAG). 10% chance to inflict Seal for 4s.",
                 skillbreak: 900,
-                arts: "7000% Light DMG (PHY). For 25s, all allies gain a DMG Barrier that negates 3000 DMG",
+                arts: "7000% Light DMG (PHY). For 25s, all allies gain a DMG Barrier that negates 3000 DMG.",
                 artsbreak: 1400,
-                truearts: "For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]. If Wave Armor is at Max Level: 35000% Light DMG (PHY). For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]",
+                truearts: "For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]. If Wave Armor is at Max Level: 35000% Light DMG (PHY). For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor].",
                 trueartsbreak: 1800
             },
         skillsetJP: 
@@ -1542,7 +1542,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Dark DMG (MAG). Chance to inflict Blind.",
+                skill: "8s CT - 1800% Dark DMG (MAG). 10% chance to inflict Blind for 5s.",
                 skillbreak: 650,
                 arts: "11000% Dark DMG (MAG). For 15s, reduce all Enemy ATK by 30%",
                 artsbreak: 1600,
@@ -1630,7 +1630,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Fire DMG (PHY). Chance to inflict Burn.",
+                skill: "8s CT - 1800% Fire DMG (PHY). 10% chance to inflict Burn for 5s.",
                 skillbreak: 2500,
                 arts: "12000% Fire DMG (PHY). For 10s, increase Allies' DMG by 20%, Fire Allies' DMG by 30%.",
                 artsbreak: 3000,
@@ -2050,9 +2050,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 1600% Light DMG (PHY). Chance to inflict Paralysis.",
+                skill: "9s CT - 1600% Light DMG (PHY). 10% chance to inflict Paralysis for 3s.",
                 skillbreak: 1100,
-                arts: "12000% Light DMG (PHY). High chance to inflict Paralysis + For 15s, increase Light Allies' Break PWR by 30%.",
+                arts: "12000% Light DMG (PHY). 80% chance to inflict Paralysis for 3s + For 15s, increase Light Allies' Break PWR by 30%.",
                 artsbreak: 1600,
                 truearts: "27000% Light DMG (PHY). Increase own Arts by 60 + For 20s, reduce Enemies' Paralysis RES by 50%.",
                 trueartsbreak: 2900
@@ -2466,7 +2466,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "18000% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Arts by 100% and Break Power of this Arts by 200%.",
                 artsbreak: 3500,
-                truearts: "45000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze.",
+                truearts: "45000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 6s.",
                 trueartsbreak: 6000
             },
         passive: 
@@ -2603,7 +2603,7 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2100% Fire DMG (PHY). Increase this Skill's Break PWR by 50% against Burned Enemies + For 8s, reduce Enemies' Burn RES by 30%.",
                 skillbreak: 1750,
-                arts: "15500% Fire DMG (PHY). High chance to inflict Burn + Increase this Arts' Break PWR and Critical Rate by 50% against Burned Enemies.",
+                arts: "15500% Fire DMG (PHY). 80% chance to inflict Burn for 10s + Increase this Arts' Break PWR and Critical Rate by 50% against Burned Enemies.",
                 artsbreak: 3000,
                 truearts: "25500% Fire DMG (PHY). Increase this True Arts' DMG and Break PWR and Critical Rate by 100% against Burned Enemies.",
                 trueartsbreak: 5000
@@ -2855,9 +2855,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2500% Light DMG (PHY). Heal own HP by 100.",
                 skillbreak: 1000,
-                arts: "13800% Light DMG (PHY). Chance to inflict Faint.",
+                arts: "13800% Light DMG (PHY). 70% chance to inflict Faint for 5s.",
                 artsbreak: 1990,
-                truearts: "24900% Light DMG (PHY). High chance to inflict Faint. Increase own Arts by 50.",
+                truearts: "24900% Light DMG (PHY). 100% chance to inflict Faint for 5s. Increase own Arts by 50.",
                 trueartsbreak: 2850
             },
         skillsetJP: 
@@ -3003,7 +3003,7 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2200% Dark DMG (MAG). Heal self by 2% of own max HP.",
                 skillbreak: 1000,
-                arts: "13800% Dark DMG (MAG). Chance to inflict Blind. During Arts, stop Enemy actions. Refresh Skill CT for Allies + For 4s, increase Allies' BE generation by 50%.",
+                arts: "13800% Dark DMG (MAG). 60% chance to inflict Blind for 11s. During Arts, stop Enemy actions. Refresh Skill CT for Allies + For 4s, increase Allies' BE generation by 50%.",
                 artsbreak: 2000,
                 truearts: "28400% Dark DMG (MAG). During True Arts, stop Enemy actions. Steals 20 of Enemies' Arts + For 10s, increase Allies' MAG DMG by 50%.",
                 trueartsbreak: 3500
@@ -3140,9 +3140,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 3000% Dark DMG (PHY). Increase own Arts by 9.",
                 skillbreak: 1200,
-                arts: "18500% Dark DMG (PHY). Consumes 20% of own HP. Chance to inflict Faint.",
+                arts: "18500% Dark DMG (PHY). Consumes 20% of own HP. 50% chance to inflict Faint for 5s.",
                 artsbreak: 1900,
-                truearts: "30050% Dark DMG (PHY). High chance to inflict Faint. Consumes 30% of own HP + For 25s, gain a DMG barrier that negates 3000 DMG to self.",
+                truearts: "30050% Dark DMG (PHY). 100% chance to inflict Faint for 5s. Consumes 30% of own HP + For 25s, gain a DMG barrier that negates 3000 DMG to self.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -3346,7 +3346,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1600% Dark DMG (PHY). High chance to inflict Disease.",
+                skill: "8s CT - 1600% Dark DMG (PHY). 100% chance to inflict Disease for 8s.",
                 skillbreak: 900,
                 arts: "9999% Dark DMG (MAG). If attack hits, recover Allies' HP by 2000 (only once per Arts activation) + For 7s, increase Dark Allies' DMG by 44%.",
                 artsbreak: 1666,
@@ -3638,9 +3638,9 @@ const UnitInformation = [
             {
                 skill: "Recover Mode: 5s CT - Heal Allies' HP by 500. Attack Mode: 5s CT - 1800% Light DMG (MAG).",
                 skillbreak: 1700, //how do i write this??? cause liese skill has two modes, one has 0 break the other has 1700
-                arts: "Recover Mode: Heal Allies' HP by 3000, cure Allies' Status Ailments (except Faint). Attack Mode: 16000% Light DMG (MAG). 80% chance to inflict Paralysis.",
+                arts: "Recover Mode: Heal Allies' HP by 3000, cure Allies' Status Ailments (except Faint). Attack Mode: 16000% Light DMG (MAG). 80% chance to inflict Paralysis for 2s.",
                 artsbreak: 3500, //same comment for skill
-                truearts: "32000% Light DMG (MAG). 80% chance to inflict Paralysis. Recover Allies' HP by 6000, revive fallen Allies with 30% HP (only able to revive fallen Allies once every 60s).",
+                truearts: "32000% Light DMG (MAG). 80% chance to inflict Paralysis for 6s. Recover Allies' HP by 6000, revive fallen Allies with 30% HP (only able to revive fallen Allies once every 60s).",
                 trueartsbreak: 4500
             },
         passive: 
@@ -3782,7 +3782,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2800% Water DMG (PHY). Chance to inflict Freeze.",
+                skill: "10s CT - 2800% Water DMG (PHY). 15% chance to inflict Freeze for 2s.",
                 skillbreak: 1800,
                 arts: "14000% Water DMG (PHY). For 10s, increase Allies' Water DMG to Enemies in Break by 70%.",
                 artsbreak: 2750,
@@ -3892,7 +3892,7 @@ const UnitInformation = [
                 skillbreak: 2500,
                 arts: "10000% Fire DMG (PHY). For 10s, increase Allies' Skill CT REC by 50%. Fire Allies' Skill CT REC is increased by 100% instead.",
                 artsbreak: 2900,
-                truearts: "27000% Fire DMG (PHY). High chance to inflict Burn. If Enemy was Burned by own True Arts or was already Burned when own True Arts was activated, for 10s, reduce Enemies' Fire RES by 50%.",
+                truearts: "27000% Fire DMG (PHY). 80% chance to inflict Burn for 11s. If Enemy was Burned by own True Arts or was already Burned when own True Arts was activated, for 10s, reduce Enemies' Fire RES by 50%.",
                 trueartsbreak: 3000
             },
         passive: 
@@ -4079,7 +4079,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 2200% Fire DMG (PHY). Chance to inflict Burn.",
+                skill: "8s CT - 2200% Fire DMG (PHY). 15% chance to inflict Burn for 4s.",
                 skillbreak: 1800,
                 arts: "16000% Fire DMG (PHY). Increase Arts by 30 + For 10s, increase Allies' DMG to Enemies in BREAK by 100%.",
                 artsbreak: 2600,
@@ -4201,9 +4201,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 1700% Water DMG (MAG). Chance to reduce Enemies' DMG by 20% + For 8s, reduce Enemies' Freeze RES by 15%.",
                 skillbreak: 1350,
-                arts: "12800% Water DMG (MAG). High chance to inflict Freeze. Cleanse Allies' and Enemies' Burn.",
+                arts: "12800% Water DMG (MAG). 80% chance to inflict Freeze for 6s. Cleanse Allies' and Enemies' Burn.",
                 artsbreak: 2100,
-                truearts: "25000% Water DMG (MAG). High chance to inflict Freeze. Cleanse Allies' and Enemies' Burn + For 8s, reduce Enemies' Water RES by 20%.",
+                truearts: "25000% Water DMG (MAG). 100% chance to inflict Freeze for 8s. Cleanse Allies' and Enemies' Burn + For 8s, reduce Enemies' Water RES by 20%.",
                 trueartsbreak: 3800
             },
         passive: 
@@ -4617,7 +4617,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2000% Fire DMG (MAG). If a Burning enemy is present, deal 3000% Fire DMG (MAG) instead.",
                 skillbreak: 1000,
-                arts: "14000% Fire DMG (MAG). Chance to inflict Burn, Burn self + For 20s, increase own Critical Rate by 100% while Burned.",
+                arts: "14000% Fire DMG (MAG). 70% chance to inflict Burn for 15s, Burn self + For 20s, increase own Critical Rate by 100% while Burned.",
                 artsbreak: 1800,
                 truearts: "33000% Fire DMG (MAG). For 15s, reduce Burned Enemies' DMG RES by 25% and increase own DMG by 100% while Burned.",
                 trueartsbreak: 2000
@@ -4770,9 +4770,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2280% Earth DMG (PHY). Chance to inflict Paralysis. Increase own Arts by 3.",
+                skill: "9s CT - 2280% Earth DMG (PHY). 25% chance to inflict Paralysis for 3s. Increase own Arts by 3.",
                 skillbreak: 1250,
-                arts: "16000% Earth DMG (PHY). High chance to inflict Poison. Increase DMG of Poison based on Enemies' HP (up to 2000 DMG).",
+                arts: "16000% Earth DMG (PHY). 100% chance to inflict Poison for 15s. Increase DMG of Poison based on Enemies' HP (up to 2000 DMG).",
                 artsbreak: 2100,
                 truearts: "20200% Earth DMG (PHY). Heal own HP by 3% of DMG dealt by own True Arts + For 20s, reduce Enemies' Paralysis and Poison RES by 35%.",
                 trueartsbreak: 3750
@@ -4854,9 +4854,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 1800% Dark DMG (MAG). Chance to inflict Blind.",
+                skill: "9s CT - 1800% Dark DMG (MAG). 15% chance to inflict Blind for 8s.",
                 skillbreak: 2000,
-                arts: "13000% Dark DMG (MAG). High chance to inflict Blind + For 20s, reduce Enemies' ATK and DEF by 30%.",
+                arts: "13000% Dark DMG (MAG). 80% chance to inflict Blind for 8s + For 20s, reduce Enemies' ATK and DEF by 30%.",
                 artsbreak: 2600,
                 truearts: "30000% Dark DMG (MAG). For 13s, increase Dark Allies' Arts by 2/s, and Demon Allies' DMG by 30%.",
                 trueartsbreak: 2800
@@ -5082,11 +5082,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 2200% Dark DMG (MAG). Chance to inflict Blind. Increase own Arts by 10.",
+                skill: "8s CT - 2200% Dark DMG (MAG). 50% chance to inflict Blind for 8s. Increase own Arts by 10.",
                 skillbreak: 850,
                 arts: "13500% Dark DMG (MAG). For 8s, increase Dark Allies' Evasion and DMG by 30%.",
                 artsbreak: 1900,
-                truearts: "30000% Dark DMG (MAG). High chance to inflict Blind. If Enemy was Blinded by this True Arts, for 15s, reduce DMG RES of that Enemy by 40%.",
+                truearts: "30000% Dark DMG (MAG). 100% chance to inflict Blind for 8s. If Enemy was Blinded by this True Arts, for 15s, reduce DMG RES of that Enemy by 40%.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -5318,7 +5318,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 2300% Light DMG (PHY). Chance to inflict Paralysis.",
+                skill: "8s CT - 2300% Light DMG (PHY). 15% chance to inflict Paralysis for 4s.",
                 skillbreak: 2100,
                 arts: "12000% Light DMG (PHY). For 20s, increase Allies' DMG by 30%, increase Light Allies' DMG by 20%.",
                 artsbreak: 3400,
@@ -5859,7 +5859,7 @@ const UnitInformation = [
                 arts: "13000% Water and Earth DMG (MAG). Increase DMG of this Arts to Fire and Water Enemies by 60%, and swap Blessing of Midori Modes.",
                 artsbreak: 2300,
                 truearts1: "When in Water Mode: 35000% Water DMG (MAG). For 12s, increase own Critical Rate by 100%, increase Water Allies' DMG by 50%. ",
-                truearts2: "When in Earth Mode: 28000% Earth DMG (MAG). Chance to inflict Disease.",
+                truearts2: "When in Earth Mode: 28000% Earth DMG (MAG). 50% chance to inflict Disease for 8s.",
                 trueartsbreak1: 2300,
                 trueartsbreak2: 3000
             },
@@ -6092,7 +6092,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1550% Earth DMG (PHY). Chance to inflict Poison.",
+                skill: "8s CT - 1550% Earth DMG (PHY). 30% chance to inflict Poison for 8s.",
                 skillbreak: 1200,
                 arts: "13800% Earth DMG (PHY). For 9s, reduce Enemies' Poison, Blind and Paralysis RES by 30%.",
                 artsbreak: 2800,
@@ -6261,7 +6261,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 1600% Fire DMG (MAG). Chance to inflict Burn.",
+                skill: "9s CT - 1600% Fire DMG (MAG). 50% chance to inflict Burn for 5s.",
                 skillbreak: 1000,
                 arts: "9000% Fire DMG (MAG). For 10s, increase Allies' Status RES (except Faint) by 100%.",
                 artsbreak: 2600,
@@ -6345,7 +6345,7 @@ const UnitInformation = [
             {
                 skill: "12s CT - 2500% Light DMG (MAG). For 5s, reduce Enemies' DEF by 30%.",
                 skillbreak: 1300,
-                arts: "14000% Light DMG (MAG). 60% chance to inflict Paralysis.",
+                arts: "14000% Light DMG (MAG). 50% chance to inflict Paralysis for 4s.",
                 artsbreak: 1500,
                 truearts: "N/A",
                 trueartsbreak: 0
@@ -6718,9 +6718,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 800% Earth DMG (MAG). 70% chance to inflict Poison.",
+                skill: "8s CT - 800% Earth DMG (MAG). 70% chance to inflict Poison for 8s.",
                 skillbreak: 500,
-                arts: "14000% Earth DMG (MAG). 100% chance to inflict Paralysis against Poisoned Enemies.",
+                arts: "14000% Earth DMG (MAG). 100% chance to inflict Paralysis against Poisoned Enemies for 6s.",
                 artsbreak: 1450,
                 truearts: "30000% Earth DMG (MAG) For 15s, reduce Enemies' Poison and MAG RES by 35%.",
                 trueartsbreak: 1600
@@ -7047,7 +7047,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1700% Fire DMG (PHY). Chance to inflict Burn.",
+                skill: "8s CT - 1700% Fire DMG (PHY). 60% chance to inflict Burn for 10s.",
                 skillbreak: 1300,
                 arts: "12400% Fire DMG (PHY). For 25s, Allies gain a DMG barrier that negates 3800 DMG.",
                 artsbreak: 2400,
@@ -7144,7 +7144,7 @@ const UnitInformation = [
                 skillbreak: 2100,
                 arts: "15500% Light DMG (PHY). For 15s, when the Boss' Break Bar is 70% or less, increase own Break PWR by 70%.",
                 artsbreak: 4000,
-                truearts: "34000% Light DMG (PHY). High chance to inflict Faint. For 20s, reduce Enemies' Break Bar by 10% of total Break Bar each time they are hit by own Skill.",
+                truearts: "34000% Light DMG (PHY). 100% chance to inflict Faint for 5s. For 20s, reduce Enemies' Break Bar by 10% of total Break Bar each time they are hit by own Skill.",
                 trueartsbreak: 8500
             },
         passive: 
@@ -7323,7 +7323,7 @@ const UnitInformation = [
         passive: 
             {
                 ability1: "Increase Allies' evasion by 10%.",
-                ability2: "All attacks have a chance to inflict Blind (except equipment).",
+                ability2: "All attacks have a 4% chance to inflict Blind (except equipment) for 8s.",
                 ability3: "Increase DMG to Human Enemies by 80%."
             }, 
         evolution: 
@@ -7739,9 +7739,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "5s CT - 1600% Fire DMG (PHY). Chance to inflict Burn.",
+                skill: "5s CT - 1600% Fire DMG (PHY). 50% chance to inflict Burn for 8s.",
                 skillbreak: 1000,
-                arts: "13500% Fire DMG (PHY). High chance to inflict Burn. For 15s, increase own Skill CT REC by 150%.",
+                arts: "13500% Fire DMG (PHY). 80% chance to inflict Burn for 8s. For 15s, increase own Skill CT REC by 150%.",
                 artsbreak: 3600,
                 truearts: "40000% Fire DMG (PHY). For 30s, increase own Skill DMG by 300% and Critical DMG by 100%.",
                 trueartsbreak: 4000
@@ -8041,9 +8041,9 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2600% Fire DMG (PHY). Increase Paralysis and Freeze RES by 100% during Skill.",
                 skillbreak: 1700,
-                arts: "12000% Fire DMG (PHY). Chance to inflict Burn. For 10s, increase own Skill CT REC by 60%.",
+                arts: "12000% Fire DMG (PHY). 50% chance to inflict Burn for 10s. For 10s, increase own Skill CT REC by 60%.",
                 artsbreak: 2300,
-                truearts: "20900% Fire DMG (PHY). High chance to inflict Burn. Reset own Hit Count to 0 and increase Allies' Arts by the amount of Hit Count lost.",
+                truearts: "20900% Fire DMG (PHY). 100% chance to inflict Burn for 15s. Reset own Hit Count to 0 and increase Allies' Arts by the amount of Hit Count lost.",
                 trueartsbreak: 3300
             },
         passive: 
@@ -8345,9 +8345,9 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2000% Dark DMG (MAG). Heal own HP by 4% of DMG dealt by this Skill.",
                 skillbreak: 1200,
-                arts: "13000% Dark DMG (MAG). Chance to inflict Nightmare. For 6s, increase Allies' BE generation by 70%.",
+                arts: "13000% Dark DMG (MAG). 40% chance to inflict Nightmare for 12s. For 6s, increase Allies' BE generation by 70%.",
                 artsbreak: 2100,
-                truearts: "24600% Dark DMG (MAG). 100% chance to inflict Nightmare + For 15s, reduce Enemies' MAG RES by 20%. If Enemy is afflicted by Nightmare by own True Arts, for 15s, reduce that Enemy's Dark RES by 20%.",
+                truearts: "24600% Dark DMG (MAG). 100% chance to inflict Nightmare for 12s + For 15s, reduce Enemies' MAG RES by 20%. If Enemy is afflicted by Nightmare by own True Arts, for 15s, reduce that Enemy's Dark RES by 20%.",
                 trueartsbreak: 2700
             },
         passive: 
@@ -8429,9 +8429,9 @@ const UnitInformation = [
             {
                 skill: "5s CT - 2300% Fire DMG (PHY). Heal self by 2% of own max HP.",
                 skillbreak: 900,
-                arts: "15500% Fire DMG (PHY). High chance to inflict Burn.",
+                arts: "15500% Fire DMG (PHY). 80% chance to inflict Burn for 15s.",
                 artsbreak: 2500,
-                truearts: "28800% Fire DMG (PHY). High chance to inflict Burn. Increase Fire Allies' stats by 20%, and own stats by 20%.",
+                truearts: "28800% Fire DMG (PHY). 100% chance to inflict Burn for 20s. Increase Fire Allies' stats by 20%, and own stats by 20%.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -8995,9 +8995,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 1600% Fire DMG (PHY). For 6s, reduce Enemies' Burn RES by 20%.",
                 skillbreak: 800,
-                arts: "7600% Fire DMG (PHY). High chance to inflict Burn. For 7s, increase Allies' Poison RES by 80%.",
+                arts: "7600% Fire DMG (PHY). 100% chance to inflict Burn for 12s. For 7s, increase Allies' Poison RES by 80%.",
                 artsbreak: 1600,
-                truearts: "20000% Fire DMG (PHY). High chance to inflict Burn. Reduce Enemies' Arts by 30.",
+                truearts: "20000% Fire DMG (PHY). 100% chance to inflict Burn for 18s. Reduce Enemies' Arts by 30.",
                 trueartsbreak: 2600
             },
         passive: 
@@ -9057,7 +9057,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2200% Water DMG (PHY). Chance to inflict Freeze.",
+                skill: "9s CT - 2200% Water DMG (PHY). 15% chance to inflict Freeze for 2s.",
                 skillbreak: 1400,
                 arts: "15800% Water DMG (PHY). If own Arts hits a Enemy in BREAK, increase own Arts by 100.",
                 artsbreak: 2600,
@@ -9734,7 +9734,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "15000% Earth DMG (PHY). Permanently increase own Break PWR by 40% (up to 120%).",
                 artsbreak: 3200,
-                truearts: "25000% Earth DMG (PHY). High chance of inflicting Faint. For 20s, reduce Enemies' Break RES by 40%.",
+                truearts: "25000% Earth DMG (PHY). 100% chance to inflict Faint for 5s. For 20s, reduce Enemies' Break RES by 40%.",
                 trueartsbreak: 6000
             },
         passive: 
@@ -9800,9 +9800,9 @@ const UnitInformation = [
             {
                 skill: "7s CT - 1900% Light DMG (PHY). Increase own Arts by 8.",
                 skillbreak: 1800,
-                arts: "14200% Light DMG (PHY). High chance to transform Enemies into a Chest. Increase Allies' BE generation by 50% against Enemies transformed by this Arts.",
+                arts: "14200% Light DMG (PHY). 60% chance to transform Enemies into a Chest for 5s. Increase Allies' BE generation by 50% against Enemies transformed by this Arts.",
                 artsbreak: 2500,
-                truearts: "28000% Light DMG (PHY). High chance to transform Enemies into a Chest. Increase Allies' Arts by 20. Increase Allies' BE generation by 80% against Enemies transformed by this True Arts.",
+                truearts: "28000% Light DMG (PHY). 100% chance to transform Enemies into a Chest for 7s. Increase Allies' Arts by 20. Increase Allies' BE generation by 80% against Enemies transformed by this True Arts.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -9955,7 +9955,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "5s CT - 2000% Dark DMG (PHY). Chance to inflict Blind. Increase own Arts by 3.",
+                skill: "5s CT - 2000% Dark DMG (PHY). 60% chance to inflict Blind for 9s. Increase own Arts by 3.",
                 skillbreak: 800,
                 arts: "19000% Dark DMG (PHY). For 13s, reduce Enemies' Blind RES by 35%.",
                 artsbreak: 2300,
@@ -10041,7 +10041,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1800% Earth DMG (MAG). For 10s, reduce Enemies' Status RES by 20%.",
                 skillbreak: 2000,
-                arts: "14000% Earth DMG (MAG). High chance to inflict Paralysis. For 6s, increase own DMG to Paralyzed Enemies by 100%.",
+                arts: "14000% Earth DMG (MAG). 80% chance to inflict Paralysis for 6s. For 6s, increase own DMG to Paralyzed Enemies by 100%.",
                 artsbreak: 2800,
                 truearts: "32600% Earth DMG (MAG). Increase Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s. For 30s, increase own stats by 50%.",
                 trueartsbreak: 5000
@@ -10202,7 +10202,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1850% Earth DMG (PHY). For 5s, increase own Arts by 1/s.",
                 skillbreak: 900,
-                arts: "16200% Earth DMG (MAG). High chance to inflict Paralysis.",
+                arts: "16200% Earth DMG (MAG). 80% chance to inflict Paralysis for 3s.",
                 artsbreak: 2400,
                 truearts: "22600% Earth DMG (PHY). 50% chance to increase own Arts by 200 (can only occur up to 3 consecutive times).",
                 trueartsbreak: 3200
@@ -10517,7 +10517,7 @@ const UnitInformation = [
                 skillbreak: 2500,
                 arts: "16000% Water DMG (PHY). Increase Break PWR of this Arts by 250% during Enemy Arts. For 25s, reduce Enemies' Break RES by 20%.",
                 artsbreak: 4000,
-                truearts: "50000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze. For 20s, increase Status RES (except Faint) by 100% for self.",
+                truearts: "50000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 10s. For 20s, increase Status RES (except Faint) by 100% for self.",
                 trueartsbreak: 8500
             },
         passive: 
@@ -10744,7 +10744,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "6s CT - Enter Counterattack Mode for 2s. Counterattack: 1800% Light DMG (MAG). High chance to inflict Poison.",
+                skill: "6s CT - Enter Counterattack Mode for 2s. Counterattack: 1800% Light DMG (MAG). 100% chance to inflict Poison for 10s.",
                 skillbreak: 1000,
                 arts: "10000% Light DMG (MAG). Enter Counterattack Mode for 4s + For 8s, increase own Arts DMG by 50%. Counterattack: For 12s, reduce Enemies' DEF by 100%.",
                 artsbreak: 2500,
@@ -11215,11 +11215,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2000% Water DMG (PHY). Chance to inflict Freeze.",
+                skill: "9s CT - 2000% Water DMG (PHY). 30% chance to inflict Freeze for 3s.",
                 skillbreak: 1000,
-                arts: "17000% Water DMG (MAG). High chance to inflict Ultimate Freeze.",
+                arts: "17000% Water DMG (MAG). 80% chance to inflict Ultimate Freeze for 10s.",
                 artsbreak: 2200,
-                truearts: "28000% Dark DMG (MAG). High chance to inflict Disease. For 20s, increase own Arts by 5/s.",
+                truearts: "28000% Dark DMG (MAG). 100% chance to inflict Disease for 12s. For 20s, increase own Arts by 5/s.",
                 trueartsbreak: 5000
             },
         passive: 
@@ -12032,11 +12032,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1600% Fire DMG (PHY). Chance to inflict Faint.",
+                skill: "8s CT - 1600% Fire DMG (PHY). 10% chance to inflict Faint for 5s.",
                 skillbreak: 1600,
                 arts: "8600% Fire DMG (PHY). For 15s, increase Allies' MAG RES by 50%.",
                 artsbreak: 2100,
-                truearts: "18500% Fire DMG (MAG). High chance to inflict Burn. For 12s, increase Allies' PHY DMG by 50%. For 8s, reduce own DEF by 30%.",
+                truearts: "18500% Fire DMG (MAG). 100% chance to inflict Burn for 15s. For 12s, increase Allies' PHY DMG by 50%. For 8s, reduce own DEF by 30%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -12240,7 +12240,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2000% Dark DMG (MAG). Permanently increase own ATK and Break PWR by 6% (max 60% increase).",
                 skillbreak: 1500,
-                arts: "15500% Dark DMG (MAG). High chance to inflict Blind. For 12s, reduce Enemies' Break RES by 30%.",
+                arts: "15500% Dark DMG (MAG). 80% chance to inflict Blind for 12s. For 12s, reduce Enemies' Break RES by 30%.",
                 artsbreak: 3500,
                 truearts: "31200% Dark DMG (MAG). For 12s, increase Allies' DMG to Enemies in BREAK by 150%.",
                 trueartsbreak: 5200
@@ -12322,7 +12322,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: "9800% Water DMG (MAG). For 8s, increase Allies' DMG by 20% and Water Allies' DMG by 30%.",
                 artsbreak: 2200,
-                truearts: "25000% Water DMG (MAG). High chance of inflicting Freeze. For 8s, increase DMG against Frozen Enemies by 80%.",
+                truearts: "25000% Water DMG (MAG). 100% chance of inflicting Freeze for 8s. For 8s, increase DMG against Frozen Enemies by 80%.",
                 trueartsbreak: 4500
             },
         passive: 
@@ -12462,7 +12462,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 2200% Fire DMG (MAG). Chance to inflict Burn.",
+                skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
                 skillbreak: 1000,
                 arts: "14400% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.",
                 artsbreak: 2100,
@@ -12883,7 +12883,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "7s CT - 1900% Water DMG (PHY). Chance to inflict Freeze.",
+                skill: "7s CT - 1900% Water DMG (PHY). 20% chance to inflict Freeze for 3s.",
                 skillbreak: 800,
                 arts: "15000% Water DMG (PHY). During Arts, stop Enemy actions + For 10s, reduce Enemies' Water RES and Freeze RES by 30%.",
                 artsbreak: 2100,
@@ -13062,7 +13062,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1300% Water DMG (MAG). For 4s, increase Allies' Fire RES by 10%.",
                 skillbreak: 600,
-                arts: "14000% Water DMG (MAG). High chance to inflict Freeze. If Enemy was Frozen by this Arts, for 10s, reduce their MAG RES by 35%.",
+                arts: "14000% Water DMG (MAG). 70% chance to inflict Freeze for 4s. If Enemy was Frozen by this Arts, for 10s, reduce their MAG RES by 35%.",
                 artsbreak: 1500,
                 truearts: "33000% Water DMG (MAG). For 10s, increase Allies' Arts by 2/s, increase DMG to Fire Enemies by 50%.",
                 trueartsbreak: 2700
@@ -13201,7 +13201,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "18000% Light DMG (PHY). For 12s, increase accuracy by 50%.",
                 artsbreak: 2000,
-                truearts: "32000% Light DMG (PHY). High chance to inflict Paralysis. For 15s, increase Allies' PHY DMG by 50%, increase Light Allies' ATK by 20%.",
+                truearts: "32000% Light DMG (PHY). 100% chance to inflict Paralysis for 5s. For 15s, increase Allies' PHY DMG by 50%, increase Light Allies' ATK by 20%.",
                 trueartsbreak: 3600
             },
         passive: 
@@ -13355,9 +13355,9 @@ const UnitInformation = [
             {
                 skill: "16s CT - 4000% Earth DMG (PHY). Increase own Arts by 10.",
                 skillbreak: 600,
-                arts: "13300% Earth DMG (PHY). Chance to inflict Disease. For 10s, reduce Enemies' PHY RES by 30%.",
+                arts: "13300% Earth DMG (PHY). 60% chance to inflict Disease for 10s. For 10s, reduce Enemies' PHY RES by 30%.",
                 artsbreak: 1100,
-                truearts: "30000% Earth DMG (PHY). High chance to inflict Poison. For 15s, increase Allies' Earth DMG by 50%.",
+                truearts: "30000% Earth DMG (PHY). 90% chance to inflict Poison for 20s. For 15s, increase Allies' Earth DMG by 50%.",
                 trueartsbreak: 2000
             },
         passive: 
@@ -13557,7 +13557,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "15000% Water DMG (MAG). For 10s, reduce Enemies' MAG RES by 40%.",
                 artsbreak: 1700,
-                truearts: "31000% Water DMG (MAG). High chance to inflict Freeze. If Enemy was Frozen by own True Arts or was already Frozen when own True Arts was activated, increase own Arts by 200 (can occur up to 3 times consecutively).",
+                truearts: "31000% Water DMG (MAG). 40% chance to inflict Freeze for 3s. If Enemy was Frozen by own True Arts or was already Frozen when own True Arts was activated, increase own Arts by 200 (can occur up to 3 times consecutively).",
                 trueartsbreak: 3200
             },
         passive: 
@@ -13952,7 +13952,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1400% Water DMG (MAG). For 5s, reduce Enemies' evasion by 10%.",
                 skillbreak: 700,
-                arts: "8000% Water DMG (MAG). Chance to inflict Paralysis. During Magia Drive: 8000% Water DMG (MAG). Chance to inflict Paralysis. Increase the duration of own Magia Drive by 30s.",
+                arts: "8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. During Magia Drive: 8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. Increase the duration of own Magia Drive by 30s.",
                 artsbreak: 1700,
                 truearts: "For 50s, enter Magia Drive. During Magia Drive: 30000% Water DMG (MAG). For 15s, reduce Enemies' Water and MAG RES by 35%. For 25s, increase Allies' (except self) Arts by 4/s.",
                 trueartsbreak: 2800
@@ -14409,7 +14409,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "17000% Water DMG (PHY). For 20s, reduce Enemies' Water and Freeze RES by 20%.",
                 artsbreak: 4200,
-                truearts: "35000% Water DMG (PHY). High chance to inflict Freeze. For 10s, increase Allies' Break PWR by 50%.",
+                truearts: "35000% Water DMG (PHY). 80% chance to inflict Freeze for 10s. For 10s, increase Allies' Break PWR by 50%.",
                 trueartsbreak: 8000
             },
         passive: 
@@ -14490,7 +14490,7 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "13000% Dark DMG (MAG). Increases DMG of this Arts by magnitude of accuracy buffs on self.",
                 artsbreak: 1700,
-                truearts: "31000% Dark DMG (MAG). High chance to inflict Blind. Increase Dark Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s, increase Allies' accuracy by 30%.",
+                truearts: "31000% Dark DMG (MAG). 80% chance to inflict Blind for 10s. Increase Dark Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s, increase Allies' accuracy by 30%.",
                 trueartsbreak: 3300
             },
         passive: 
@@ -14569,7 +14569,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2400% Dark DMG (PHY). For 3s, increase own Evasion by 20%.",
                 skillbreak: 700,
-                arts: "17700% Dark DMG (PHY). Chance to inflict Faint + For 15s, reduce Enemies' DMG RES by 20%.",
+                arts: "17700% Dark DMG (PHY). 60% chance to inflict Faint for 3s + For 15s, reduce Enemies' DMG RES by 20%.",
                 artsbreak: 1900,
                 truearts: "43000% Dark DMG (PHY). Increase Allies' DMG by 15% (max. 4 stacks (60% DMG increase)) + For 20s, increase Dark Allies' ATK by 100%.",
                 trueartsbreak: 3800
@@ -14646,7 +14646,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 2500% Dark DMG (PHY). Chance to inflict Blind.",
+                skill: "8s CT - 2500% Dark DMG (PHY). 30% chance to inflict Blind for 15s.",
                 skillbreak: 1000,
                 arts: "20800% Dark DMG (PHY). Increase own Arts by [20 × # of Enemies killed by this Arts].",
                 artsbreak: 1900,
@@ -14879,7 +14879,7 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2000% Light DMG (PHY). Increase own Arts by 15.",
                 skillbreak: 1200,
-                arts: "18000% Light DMG (PHY). Chance to inflict Paralysis. If Paralysis is inflicted by this Art, increase own Arts by 50.",
+                arts: "18000% Light DMG (PHY). 50% chance to inflict Paralysis for 4s. If Paralysis is inflicted by this Art, increase own Arts by 50.",
                 artsbreak: 2500,
                 truearts: "41800% Light DMG (PHY). Heal self by 3% of this True Arts' Critical DMG dealt.",
                 trueartsbreak: 4000
@@ -15054,7 +15054,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2400% Water DMG (PHY). Increase DMG of this Skill by 100% against non-Boss Enemies.",
                 skillbreak: 800,
-                arts: "20000% Water DMG (PHY). Chance to inflict Freeze. Increase own Arts by 20.",
+                arts: "20000% Water DMG (PHY). 50% chance to inflict Freeze for 3s. Increase own Arts by 20.",
                 artsbreak: 1500,
                 truearts: "For 90s, enter Third Eye. During Third Eye: 50000% Water DMG (PHY). Increase own Arts by 50.",
                 trueartsbreak: 3100
@@ -15216,7 +15216,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1600% Light DMG (MAG). Chance to inflict Burn on first usage, Poison on second usage, Blind on third usage, and repeat",
+                skill: "10s CT - 1600% Light DMG (MAG). For 8s, 50% chance to inflict Burn on first usage, Poison on second usage, Blind on third usage, and repeat",
                 skillbreak: 300,
                 arts: "14000% Light DMG (PHY). Increase DMG of this Arts against Enemies with Status Ailments by 35%. During Third Eye: 14000% Light DMG (PHY). Increase DMG of this Arts against Enemies with Status Ailments by 35%. Increase own Arts by 50.",
                 artsbreak: 1100,
@@ -15299,7 +15299,7 @@ const UnitInformation = [
             {
                 skill: "12s CT - 3300% Dark DMG (PHY). For 6s, reduce Enemies' Faint RES by 30%.",
                 skillbreak: 1000,
-                arts: "18000% Dark DMG (PHY). 80% chance of inflicting Faint + For 10s, reduce Enemies' DMG RES by 25%, if an Enemy was Fainted by this Arts, reduce that Enemy's DMG RES by 50% instead.",
+                arts: "18000% Dark DMG (PHY). 80% chance to inflict Faint for 3s + For 10s, reduce Enemies' DMG RES by 25%, if an Enemy was Fainted by this Arts, reduce that Enemy's DMG RES by 50% instead.",
                 artsbreak: 2200,
                 truearts: "For 100s, enter Third Eye. During Third Eye: 56000% Dark DMG (PHY). For 10s, increase Allies' PHY DMG by 50% + increase own DMG by 50% until Third Eye ends (stackable).",
                 trueartsbreak: 4000
@@ -15543,7 +15543,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1700% Earth DMG (PHY). Increase own Arts by 10.",
                 skillbreak: 600,
-                arts: "16400% Earth DMG (PHY). High chance to inflict Poison.",
+                arts: "16400% Earth DMG (PHY). 80% chance to inflict Poison for 15s.",
                 artsbreak: 1000,
                 truearts: "For 150s, enter Third Eye. During Third Eye: 34000% Earth DMG (PHY). For 20s, increase Allies' Water RES by 30% and Freeze RES by 100%.",
                 trueartsbreak: 2200
@@ -15622,7 +15622,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - 4400% Dark DMG (MAG). Chance to inflict Blind.",
+                skill: "12s CT - 4400% Dark DMG (MAG). 60% chance to inflict Blind for 12s.",
                 skillbreak: 600,
                 arts: "16000% Dark DMG (MAG). For 35s, reduce Enemies' ATK, PHY RES, and Blind RES by 10% (stackable). For 15s, increase Dark Allies' Arts by 2/s.",
                 artsbreak: 1300,
@@ -17249,7 +17249,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "11s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. Chance to inflict Burn.",
+                skill: "11s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. 50% chance to inflict Burn for 7s.",
                 skillbreak: 600,
                 arts: "18000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 15s, reduce Enemies' Burn RES by 50%.",
                 artsbreak: 1000,
@@ -19120,7 +19120,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "11s CT - 1800% Earth DMG (PHY). 50% chance of inflicting Poison.",
+                skill: "11s CT - 1800% Earth DMG (PHY). 50% chance of inflicting Poison for 10s.",
                 skillbreak: 600,
                 arts: "15000% Earth DMG (PHY). For 60s, reduce Enemies' Poison RES by 50%.",
                 artsbreak: 1000,
@@ -19128,15 +19128,15 @@ const UnitInformation = [
                 trueartsbreak: 0,
                 revelation: 
                     {
-                        skill1: "12s CT - 10000% Earth DMG (PHY). For 15s, reduce Enemies' Earth RES by 50%",
+                        skill1: "12s CT - 10000% Earth DMG (PHY). For 15s, reduce Enemies' Earth RES by 50%.",
                         skill1break: 1200,
-                        skill2: "14s CT - 20000% Earth DMG (PHY). For 15s, reduce Enemies' PHY RES by 50%",
+                        skill2: "14s CT - 20000% Earth DMG (PHY). For 15s, reduce Enemies' PHY RES by 50%.",
                         skill2break: 1500,
-                        skill3: "36000% Earth DMG (PHY). 100% Chance of Inflicting Poison",
+                        skill3: "36000% Earth DMG (PHY). 100% Chance of Inflicting Poison for 10s.",
                         skill3break: 1000,
-                        megaskill: "10s CT - 8000% Earth DMG (PHY). Increase Allies' (Except Self) Arts Gauge by 30",
+                        megaskill: "10s CT - 8000% Earth DMG (PHY). Increase Allies' (Except Self) Arts Gauge by 30.",
                         megaskillbreak: 1000,
-                        megaarts: "100000% Earth DMG (PHY). For 15s, reduce Enemies' DMG RES by 50%",
+                        megaarts: "100000% Earth DMG (PHY). For 15s, reduce Enemies' DMG RES by 50%.",
                         megaartsbreak: 2000
                     }
             },
@@ -20373,7 +20373,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "12000% Fire DMG (MAG). For 15s, Increase Allies' maximum HP by 20% and reduce Enemies' Burn, Poison and Disease RES by 50%.",
                 artsbreak: 800,
-                truearts: "32000% Fire DMG (MAG). 60% chance to Inflict Disease. For 15s, reduce Enemies' DMG RES by 50%, and reduce MAG RES of Enemies inflicted with Disease by this True Arts by 50%.",
+                truearts: "32000% Fire DMG (MAG). 60% chance to Inflict Disease for 15s. For 15s, reduce Enemies' DMG RES by 50%, and reduce MAG RES of Enemies inflicted with Disease by this True Arts by 50%.",
                 trueartsbreak: 1000
             },
         passive: 
@@ -20811,9 +20811,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1500% Water DMG (MAG). 30% chance to inflict Freeze.",
+                skill: "10s CT - 1500% Water DMG (MAG). 30% chance to inflict Freeze for 2s.",
                 skillbreak: 700,
-                arts: "13000% Water DMG (MAG). 80% chance to inflict Freeze. Increase Allies' Arts by 20 + Cleanse Allies' and Enemies' Burn.",
+                arts: "13000% Water DMG (MAG). 80% chance to inflict Freeze for 6s. Increase Allies' Arts by 20 + Cleanse Allies' and Enemies' Burn.",
                 artsbreak: 1300,
                 truearts: "55000% Water DMG (MAG). For 20s, reduce Enemies' Critical RES by 100%, Freeze RES and Water RES by 50%.",
                 trueartsbreak: 1700
@@ -21220,7 +21220,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "17000% Fire DMG (PHY). For 15s, increase Allies' max HP by 30% and Fire Allies' ATK by 50%.",
                 artsbreak: 1800,
-                truearts: "50000% Fire DMG (PHY). 80% chance of inflicting Faint. For 18s, increase Allies' Arts DMG by 100%. For Allies unafflicted by Status Ailments, increase Arts DMG by 150% instead.",
+                truearts: "50000% Fire DMG (PHY). 80% chance of inflicting Faint for 3s. For 18s, increase Allies' Arts DMG by 100%. For Allies unafflicted by Status Ailments, increase Arts DMG by 150% instead.",
                 trueartsbreak: 1800
             },
         passive: 
@@ -21429,7 +21429,7 @@ const UnitInformation = [
             {
                 skill: "13s CT - 2000% Dark DMG (PHY). Cure own Blind.",
                 skillbreak: 900,
-                arts: "15000% Dark DMG (PHY). 60% chance to inflict Paralysis. During True Third Eye: Further increase own Arts by 30. ",
+                arts: "15000% Dark DMG (PHY). 60% chance to inflict Paralysis for 4s. During True Third Eye: Further increase own Arts by 30. ",
                 artsbreak: 1200,
                 truearts: "For 120s, enter Third Eye. During Third Eye: 40000% Dark DMG (PHY). For 20s, increase Allies' Dark DMG by 100%.",
                 trueartsbreak: 1900
@@ -22196,11 +22196,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "13s CT - 1800% Light DMG (MAG). 40% chance to inflict Paralysis.",
+                skill: "13s CT - 1800% Light DMG (MAG). 40% chance to inflict Paralysis for 2s.",
                 skillbreak: 300,
                 arts: "18000% Light DMG (MAG). For 15s, reduce Enemies' Paralysis and MAG RES by 30%.",
                 artsbreak: 800,
-                truearts: "80000% Light DMG (MAG). 100% chance to inflict Paralysis. For 20s, increase own Critical Rate by 100%. ",
+                truearts: "80000% Light DMG (MAG). 100% chance to inflict Paralysis for 4s. For 20s, increase own Critical Rate by 100%. ",
                 trueartsbreak: 1200
             },
         passive: 
@@ -22296,7 +22296,7 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2200% Fire DMG (PHY). Increase own Arts by 30. For 8s, reduce Enemies' Burn RES by 30%.`,
                 skillbreak: 700,
-                arts: `18000% Fire DMG (PHY). 70% chance to inflict Burn.`,
+                arts: `18000% Fire DMG (PHY). 70% chance to inflict Burn for 10s.`,
                 artsbreak: 1200,
                 truearts: `For 180s, enter Third Eye. During Third Eye/True Third Eye: 52000% Fire DMG (PHY). For 25s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 35000 DMG to self.`,
                 trueartsbreak: 1800,
@@ -22373,7 +22373,7 @@ const UnitInformation = [
             {
                 skill: "12s CT - 1800% Earth DMG (MAG). Cures own Poison & Burn. If this skill cures Poison/Burn, increase own Arts by 50.",
                 skillbreak: 500,
-                arts: "17000% Earth DMG (MAG). 50% chance of inflicting Blind.",
+                arts: "17000% Earth DMG (MAG). 50% chance of inflicting Blind for 10s.",
                 artsbreak: 1000,
                 truearts: "For 120s, enter Third Eye. During Third Eye/True Third Eye: 42000% Earth DMG (MAG). For 20s, increase Earth Allies' DMG by 100%.",
                 trueartsbreak: 2100
@@ -22840,7 +22840,7 @@ const UnitInformation = [
             {
                 skill: `10s CT - 2500% Water DMG (PHY). Increase own Arts by 30.`,
                 skillbreak: 600,
-                arts: `27000% Water DMG (PHY). 80% chance to inflict Disease if enemy is Bleeding.`,
+                arts: `27000% Water DMG (PHY). 80% chance to inflict Disease for 10s if enemy is Bleeding.`,
                 artsbreak: 1000,
                 truearts: `80000% Water DMG (PHY). 100% chance to inflict Bleed. If the enemy is already Bleeding, increase its Bleed level by 1 (MAX: 3).`,
                 trueartsbreak: 1800,
@@ -22920,7 +22920,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
                 artsbreak: 600,
-                truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison. For 25s, Allies ignore 100% of Enemies' DEF.`,
+                truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison for 20s. For 25s, Allies ignore 100% of Enemies' DEF.`,
                 trueartsbreak: 1500,
                 superarts: `144444% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 80%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 160% instead.`,
                 superartsbreak: 1600
@@ -23773,7 +23773,7 @@ const UnitInformation = [
                 skillbreak: 1550,
                 arts: "13550% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Arts by 50% and Break PWR of this Arts by 70%.",
                 artsbreak: 3200,
-                truearts: "27550% Water DMG (PHY). High chance to inflict Ultimate Freeze.",
+                truearts: "27550% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 6s.",
                 trueartsbreak: 5600
             },
         passive: 
@@ -23980,9 +23980,9 @@ const UnitInformation = [
             {
                 skill: "7s CT - Attack mode: 1800% Light DMG (MAG). Recovery mode: Heal Allies' HP by 250.",
                 skillbreak: 1700,
-                arts: "Attack mode: 10500% Light DMG (MAG). High chance to inflict Paralysis. Recovery mode: Heal Allies' HP by 2000.",
+                arts: "Attack mode: 10500% Light DMG (MAG). 80% chance to inflict Paralysis for 2s. Recovery mode: Heal Allies' HP by 2000.",
                 artsbreak: 3450,
-                truearts: "15500% Light DMG (MAG). High chance to inflict Paralysis. Heal Allies' HP by 5000, Revive fallen Allies with 30% HP (Only able to revive fallen Allies once every 120s).",
+                truearts: "15500% Light DMG (MAG). 89% chance to inflict Paralysis for 6s. Heal Allies' HP by 5000, Revive fallen Allies with 30% HP (Only able to revive fallen Allies once every 120s).",
                 trueartsbreak: 4450
             },
         passive: 
@@ -24248,7 +24248,7 @@ const UnitInformation = [
             {
                 skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 5.",
                 skillbreak: 1400,
-                arts: "15000% Dark DMG (MAG). High chance to inflict Burn + For 10s, increase own Arts by 3/s.",
+                arts: "15000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
                 artsbreak: 2800,
                 truearts: "30000% Dark DMG (MAG). For 10s, reduce own Movement Speed by 15%, increase Allies' (except self) Skill CT REC by 100%.",
                 trueartsbreak: 3500
@@ -24315,7 +24315,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "17000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 25%.",
                 artsbreak: 4200,
-                truearts: "32000% Earth DMG (MAG). High chance to inflict Paralysis. For 8s, increase all Allies' Break PWR by 50%.",
+                truearts: "32000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 8s, increase all Allies' Break PWR by 50%.",
                 trueartsbreak: 8000
             },
         passive: 
@@ -24445,7 +24445,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "17000% Fire DMG (PHY). For 12s, reduce Enemies' ATK by 60%.",
                 artsbreak: 2500,
-                truearts: "40000% Fire DMG (PHY). High chance to inflict Faint. For 20s, increase own Critical DMG by 150% + If Enemy was Fainted by this True Arts, reduce that Enemy's Arts by 20.",
+                truearts: "40000% Fire DMG (PHY). 100% chance to inflict Faint for 5s. For 20s, increase own Critical DMG by 150% + If Enemy was Fainted by this True Arts, reduce that Enemy's Arts by 20.",
                 trueartsbreak: 3200
             },
         passive: 
@@ -24506,7 +24506,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 1700% Light DMG (PHY). Chance to inflict Poison.",
+                skill: "9s CT - 1700% Light DMG (PHY). 60% chance to inflict Poison for 8s.",
                 skillbreak: 1500,
                 arts: "Heal all Allies' HP by 25%, increase Allies' Arts by 25 + For 12s, increase Allies' DEF by 100%.",
                 artsbreak: 0,
@@ -24638,7 +24638,7 @@ const UnitInformation = [
             {
                 skill: "7s CT - 1500% Water DMG (MAG).",
                 skillbreak: 800,
-                arts: "10800% Water DMG (PHY). Low chance to inflict Paralysis.",
+                arts: "10800% Water DMG (PHY). 70% chance to inflict Paralysis for 3s.",
                 artsbreak: 2000,
                 truearts: "25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 20%.",
                 trueartsbreak: 3600
@@ -24925,7 +24925,7 @@ const UnitInformation = [
                 skillbreak: 900,                
                 arts: "15500% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50%, increase own DMG by 30%.",
                 artsbreak: 1800,                
-                truearts: "42000% Fire DMG (MAG). High chance to inflict Burn + If this True Arts inflicts Burn, for 15s, reduce Burnt Enemies' MAG RES by 70%.",
+                truearts: "42000% Fire DMG (MAG). 100% chance to inflict Burn for 16s + If this True Arts inflicts Burn, for 15s, reduce Burnt Enemies' MAG RES by 70%.",
                 trueartsbreak: 3900
             },
         passive: 
@@ -25103,7 +25103,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - Heals all Allies' HP by 700.",
                 skillbreak: 0,
-                arts: "8800% Light DMG (MAG). High chance of inflicting Blind. Increase Allies' Arts by 30.",
+                arts: "8800% Light DMG (MAG). 80% chance of inflicting Blind for 15s. Increase Allies' Arts by 30.",
                 artsbreak: 1200,
                 truearts: "For 45s, Allies gain a DMG barrier that negates 8000 DMG, increase own Skill CT REC and Healing Output by 100%.",
                 trueartsbreak: 0
@@ -25191,7 +25191,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1800% Earth DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
                 skillbreak: 800,
-                arts: "20000% Earth DMG (PHY). Chance of inflicting Faint. If Enemy was Fainted by this Arts, for 10s, reduce that Enemy's PHY RES by 40%.",
+                arts: "20000% Earth DMG (PHY). 60% chance of inflicting Faint for 3s. If Enemy was Fainted by this Arts, for 10s, reduce that Enemy's PHY RES by 40%.",
                 artsbreak: 2200,
                 truearts: "42000% Earth DMG (PHY). For 20s, increase Allies' Critical Rate by 100% and evasion by 20%.",
                 trueartsbreak: 3500
@@ -25335,7 +25335,7 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Movement Speed by 10%.",
                 skillbreak: 1000,
-                arts: "14000% Water DMG (MAG). Chance to inflict Faint. Increase Allies' BE generation by 80% for 10s.",
+                arts: "14000% Water DMG (MAG). 60% chance to inflict Faint for 3s. Increase Allies' BE generation by 80% for 10s.",
                 artsbreak: 2000,
                 truearts: "30000% Water DMG (MAG). For 15s, increase Allies' MAG DMG by 120%.",
                 trueartsbreak: 2400
@@ -25534,7 +25534,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "For 20s, increase Allies' DMG by 25%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 11000 DMG to self. 0 BREAK",
                 artsbreak: 0,
-                truearts: "High chance to inflict Faint. If at least 1 enemy is inflicted with Faint: 55000% Dark DMG (PHY). This attack ignores 100% of enemy DEF. If no enemies are inflicted with Faint: On hit, heal self by 60% + Increase own Arts by 100 (this deals no BREAK to the enemy as well).",
+                truearts: "80% chance to inflict Faint for 7s. If at least 1 enemy is inflicted with Faint: 55000% Dark DMG (PHY). This attack ignores 100% of enemy DEF. If no enemies are inflicted with Faint: On hit, heal self by 60% + Increase own Arts by 100 (this deals no BREAK to the enemy as well).",
                 trueartsbreak: 4000
             },
         passive: 
@@ -26165,7 +26165,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "12000% Earth DMG (MAG). For 16s, increase Allies' Arts by 2/s and Critical DMG by 30%.",
                 artsbreak: 1000,
-                truearts: "40000% Earth DMG (MAG). High chance to inflict Poison, high chance to inflict Disease + For 25s, reduce Enemies' Earth RES by 35%.",
+                truearts: "40000% Earth DMG (MAG). 80% chance to inflict Poison for 25s and 80% chance to inflict Disease for 25s. For 25s, reduce Enemies' Earth RES by 35%.",
                 trueartsbreak: 1300
             },
         passive: 
@@ -26368,11 +26368,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1600% Water DMG (MAG). 20% chance to inflict Freeze. If this Skill inflicts Freeze, increase own Arts by 30.",
+                skill: "10s CT - 1600% Water DMG (MAG). 20% chance to inflict Freeze for 2s. If this Skill inflicts Freeze, increase own Arts by 30.",
                 skillbreak: 500,                
                 arts: "14000% Water DMG (MAG). Increase Allies' Arts by 20. For 15s, increase Allies' DMG RES by 25%.",
                 artsbreak: 1000,
-                truearts: "50000% Water DMG (MAG). 80% chance to inflict Ultimate Freeze. If this True Arts inflicts Ultimate Freeze on an Enemy, for 10s, reduce that Enemy's Water RES by 80%.",
+                truearts: "50000% Water DMG (MAG). 80% chance to inflict Ultimate Freeze for 10s. If this True Arts inflicts Ultimate Freeze on an Enemy, for 10s, reduce that Enemy's Water RES by 80%.",
                 trueartsbreak: 2100
             },
         passive: 
@@ -26695,7 +26695,7 @@ const UnitInformation = [
                 skillbreak: 0,                
                 arts: "15000% Dark DMG (MAG). For 20s, reduce Enemies' Status RES by 45%.",
                 artsbreak: 900,                
-                truearts: "55000% Dark DMG (MAG). 80% chance to inflict Faint. For 15s, reduce Enemies' Dark RES and MAG RES by 45%.",
+                truearts: "55000% Dark DMG (MAG). 80% chance to inflict Faint for 7s. For 15s, reduce Enemies' Dark RES and MAG RES by 45%.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -27690,7 +27690,7 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "20000% Fire DMG (MAG). Increase Allies' (Except Self) Arts by 20. For 20s, reduce Enemies' Burn RES by 50%.",
                 artsbreak: 1200,
-                truearts: "70000% Fire DMG (MAG). 100% chance to inflict Burn. For 20s, reduce Enemies' MAG RES by 50% + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' Fire RES by 50%.",
+                truearts: "70000% Fire DMG (MAG). 100% chance to inflict Burn for 15s. For 20s, reduce Enemies' MAG RES by 50% + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' Fire RES by 50%.",
                 trueartsbreak: 2400
             },
         skillsetJP: 
@@ -27777,7 +27777,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2000% Fire and Earth DMG (MAG). 50% chance to Inflict Burn.",
+                skill: "10s CT - 2000% Fire and Earth DMG (MAG). 50% chance to Inflict Burn for 8s.",
                 skillbreak: 800,
                 arts: "16000% Earth DMG (MAG) For 15s, reduce Enemies' MAG RES and evasion by 30%.",
                 artsbreak: 1400,
@@ -28051,7 +28051,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "22000% Fire DMG (PHY). For 20s, increase own ATK by 100% and reduce Enemies' Burn RES by 50%.",
                 artsbreak: 1100,
-                truearts: "68000% Fire DMG (PHY). 100% chance of inflicting Burn. For 15s, Allies ignore 100% of Enemies' DEF.",
+                truearts: "68000% Fire DMG (PHY). 100% chance to inflict Burn for 15s. For 15s, Allies ignore 100% of Enemies' DEF.",
                 trueartsbreak: 1800
             },
         passive: 
@@ -28568,7 +28568,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1800% Dark DMG (PHY). Increase own Arts by 30. 30% chance of inflicting Faint against non-boss Enemies.",
+                skill: "10s CT - 1800% Dark DMG (PHY). Increase own Arts by 30. 30% chance of inflicting Faint against non-boss Enemies for 5s.",
                 skillbreak: 500,
                 arts: "21000% Dark DMG (PHY). For 15s, increase Human Allies' DMG by 70%.",
                 artsbreak: 1000,
@@ -29313,7 +29313,7 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2500% Dark DMG (MAG). For 10s, reduce enemies' MAG RES by 20%.`,
                 skillbreak: 400,
-                arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
+                arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn for 15s. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
                 artsbreak: 900,
                 truearts: `50000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.`,
                 trueartsbreak: 1200,
@@ -29590,7 +29590,7 @@ const UnitInformation = [
             {
                 skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
                 skillbreak: 1000,
-                arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
+                arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn for 20s. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
                 artsbreak: 1800,
                 truearts: `50000% Fire DMG (MAG). For 25s, reduce Enemies' DMG RES by 70% & Burn RES by 50%.`,
                 trueartsbreak: 2500,
