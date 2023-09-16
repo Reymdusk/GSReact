@@ -41346,6 +41346,526 @@ const EquipInformation = [
                 ability2: [`DMG 10% UP against Gods.`, `DMG 5% UP against Dark enemies`, `BE Output 5% UP`, `HP Recovery Amount 5% UP`, `DEF 5% UP`, `At the Start of Quest, increase own Arts gauge by 10 (No Duplication)`]
             },
         lore: `Currently unreleased in Global.`
+    },
+    { //真『リムルの剣』 - JP Complete
+        id: 152791,
+        name: `真『リムルの剣』`,
+        translate: `True 'Rimuru's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Water DMG (Physical). Reduce enemies' Water resistance by 40% for 8s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Rimuru, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『ミリムのネックレス』 - JP Complete
+        id: 152801,
+        name: `真『ミリムのネックレス』`,
+        translate: `True 'Milim's Necklace'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Fire DMG (Magic). Reduce enemies' Fire resistance by 40% for 8s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Milim, increase own Break Power and ATK by 50%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『ベニマルの剣』 - JP Complete
+        id: 152811,
+        name: `真『ベニマルの剣』`,
+        translate: `True 'Benimaru's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Fire DMG (Physical). Reduce enemies' Fire resistance by 40% for 8s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Benimaru, increase own Accuracy by 50% and own Arts at the start of quest by 100. Does not stack with Abilities of the same name.`,
+                ability2: `Increase ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『リムルのサンタ服』 - JP Complete
+        id: 152821,
+        name: `真『リムルのサンタ服』`,
+        translate: `True 'Rimuru's Santa Suit'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152821.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase Allies' Arts by 15. Increase Allies' DMG by 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Santa Rimuru, the Arts generation and DMG buff of this Equip's Skill is doubled. Does not stack with Abilities of the same name.`,
+                ability2: `Increase Max HP by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ミリムのサンタ服』 - JP Complete
+        id: 152831,
+        name: `真『ミリムのサンタ服』`,
+        translate: `True 'Milim's Santa Coat'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152831.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal the lowest HP Ally's HP by 15%. Heal all Allies' HP by 4%/s for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Santa Milim, double the Healing Amount of this equipment's Skill. Does not stack with Abilities of the same name.`,
+                ability2: `Increase Max HP by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『シオンのサンタ服』 - JP Complete
+        id: 152841,
+        name: `真『シオンのサンタ服』`,
+        translate: `True 'Shion's Santa Dress'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `25s CT - Increase Allies' DMG resistance by 15% for 12s. Increase <50% HP Allies' DMG resistance by 25% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Santa Shion, doubles the DMG resistance buff of this Equip's Skill. Does not stack with Abilities of the same name.`,
+                ability2: `Increase Max HP by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『リムルの羽織』 - JP Complete
+        id: 152851,
+        name: `真『リムルの羽織』`,
+        translate: `True 'Rimuru's Haori'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152851.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increase all allies' Arts gauge by 4/s and Dark DMG by 40% (stackable) for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by New Year Rimuru, increase own DMG by 40%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『ミリムの着物』 - JP Complete
+        id: 152861,
+        name: `真『ミリムの着物』`,
+        translate: `True 'Milim's Kimono'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 5000% Light DMG (Physical). Increase DMG to Giant Bosses by 70% for 12s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by New Year Milim, increase Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『魔王リムルの服』 - JP Complete
+        id: 152871,
+        name: `真『魔王リムルの服』`,
+        translate: `True 'Demon Lord Rimuru's Clothes'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152871.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase Target's Arts by 40. Increase all allies' Arts by 4/s for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Demon Lord Rimuru, increase own ATK by 70% & Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Skill DMG by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『ミリムの鎧』 - JP Complete
+        id: 152881,
+        name: `真『ミリムの鎧』`,
+        translate: `True 'Milim's Armor'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Fire DMG (Magic). Increase own Fire DMG by 50% for 15s. If user is Demon, increase own Fire DMG by 80% instead.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `When equipped by Milim: Battle Mode, increase own Status resistance (except Faint) by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『ディアブロの服』 - JP Complete
+        id: 152891,
+        name: `真『ディアブロの服』`,
+        translate: `True 'Diablo's Clothes'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all Allies' DMG resistance by 30% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Diablo, reduce the amount of HP required for his Seducer Passive Ability to 80% HP or higher instead. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //魔王リムルの服 - JP Complete
+        id: 152901,
+        name: `魔王リムルの服`,
+        translate: `Demon Lord Rimuru's Clothes`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152901.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts gauge by 30. Additionally if user is Dark, increase all allies' Max HP by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ミリムの鎧 - JP Complete
+        id: 152911,
+        name: `ミリムの鎧`,
+        translate: `Milim's Armor`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 5000% Fire DMG (Magic). Reduce enemies' Fire resistance by 30% for 10s. If user is Human or Demon, reduce enemies' Fire resistance by 60% instead.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ディアブロの服 - JP Complete
+        id: 152921,
+        name: `ディアブロの服`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Physical resistance by 30% for 20s. If user is Demon, increase all allies' Physical resistance by 45% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //魔剣「天魔」 - JP Complete
+        id: 152931,
+        name: `魔剣「天魔」`,
+        translate: `Magic Sword 'Tenma'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 5000% Fire DMG (Physical). Increase own Physical DMG by 60% for 15s. When used for the first time, increase own Arts gauge by 80.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ソウエイの剣 - JP Complete
+        id: 152941,
+        name: `ソウエイの剣`,
+        translate: `Souei's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 3000% Water DMG (Physical). Reduce enemies' Water resistance by 20% (stackable) for 20s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ハクロウの剣 - JP Complete
+        id: 152951,
+        name: `ハクロウの剣`,
+        translate: `Hakurou's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Earth DMG (Physical). Reduce enemies' Earth resistance by 40% for 12s. Additionally if user is Earth, increase own Accuracy rate by 40% for 12s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 

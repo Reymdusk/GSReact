@@ -308,6 +308,57 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 9,
+        date: `September 16, 2023`,
+        article: 
+        {
+            intro: `Major update om JP! Tensura is back, and with it, brand new units and equips, and Buffs + True Weapons + Dream Awakening to pre-existing units!`,
+            new: 
+                {
+                    units: [
+                        [`Demon Lord Rimuru`, 107837512],
+                        [`Milim: Battle Mode`, 107847112],
+                        [`Diablo`, 107857512]
+                    ],
+                    equips: [
+                        [`真『リムルの剣』`, 152791],
+                        [`真『ミリムのネックレス』`, 152801],
+                        [`真『ベニマルの剣』`, 152811],
+                        [`真『リムルのサンタ服』`, 152821],
+                        [`真『ミリムのサンタ服』`, 152831],
+                        [`真『シオンのサンタ服』`, 152841],
+                        [`真『リムルの羽織』`, 152851],
+                        [`真『ミリムの着物』`, 152861],
+                        [`真『魔王リムルの服』`, 152871],
+                        [`真『ミリムの鎧』`, 152881],
+                        [`真『ディアブロの服』`, 152891],
+                        [`魔王リムルの服`, 152901],
+                        [`ミリムの鎧`, 152911],
+                        [`ディアブロの服`, 152921],
+                        [`魔剣「天魔」`, 152931],
+                        [`ソウエイの剣`, 152941],
+                        [`ハクロウの剣`, 152951],
+                    ],
+                    dream: [
+                        [`Rimuru (Human form)`, 107156212],
+                        [`Milim`, 107166112],
+                        [`Benimaru`, 107176112],
+                        [`Santa Rimuru`, 107396212],
+                        [`Santa Milim`, 107406112],
+                        [`Santa Shion`, 107416512],
+                        [`New Years Rimuru`, 107426512],
+                        [`New Years Milim`, 107436412]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
