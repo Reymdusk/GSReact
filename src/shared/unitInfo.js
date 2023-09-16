@@ -24676,6 +24676,15 @@ const UnitInformation = [
                 truearts: "25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 20%.",
                 trueartsbreak: 3600
             },
+        skillsetJP: 
+            {
+                skill: "7s CT - 1500% Water DMG (MAG). Increase own Arts by 20.",
+                skillbreak: 800,
+                arts: "15000% Water DMG (PHY). 80% chance to inflict Paralysis for 3s.",
+                artsbreak: 2000,
+                truearts: "35000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 30%.",
+                trueartsbreak: 3600
+            },
         passive: 
             {
                 ability1: "Increase Player EXP gained on Quests by 10%. Does not stack with Abilities of the same name.",
