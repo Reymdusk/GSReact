@@ -314,7 +314,7 @@ const NewsArticles = [
         date: `September 16, 2023`,
         article: 
         {
-            intro: `Major update om JP! Tensura is back, and with it, brand new units and equips, and Buffs + True Weapons + Dream Awakening to pre-existing units!`,
+            intro: `Major update on JP! Tensura is back, and with it, brand new units and equips, and Buffs + True Weapons + Dream Awakening to pre-existing units!`,
             new: 
                 {
                     units: [
