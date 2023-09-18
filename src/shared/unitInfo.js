@@ -24776,6 +24776,15 @@ const UnitInformation = [
                 truearts: "40000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
                 trueartsbreak: 3700
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
+                skillbreak: 1200,
+                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 15s, increase Allies' Status RES (except Faint) by 100%.",
+                artsbreak: 0,
+                truearts: "42000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
+                trueartsbreak: 3700
+            },
         passive: 
             {
                 ability1: "Increase Fire RES by 30%.",
@@ -25094,7 +25103,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
                 skillbreak: 900,
-                arts: "23000% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50% and own DMG by 50%.",                
+                arts: "23000% Fire DMG (MAG). For 20s, increase all Allies' Skill CT REC by 50% and DMG by 50%.",                
                 artsbreak: 1800,
                 truearts: "62000% Fire DMG (MAG). 100% chance to inflict Burn for 16s + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 120%.",
                 trueartsbreak: 3900
