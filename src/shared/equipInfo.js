@@ -32793,6 +32793,67 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global`
     },
+    { //現忍足『守弐韋袈』 - JP Complete
+        id: 111851,
+        name: `現忍足『守弐韋袈』`,
+        translate: `Current Ninja Footwear 'Moriniike'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4000% Water DMG (PHY). For 10s, if enemy is a Demon, reduce enemies' Water RES by 25%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase Max HP by 5%.`
+            },
+        lore: `Currently unreleased in Global`
+    },
+    { //ツヴァイトシーザ - JP Complete
+        id: 111861,
+        name: `ツヴァイトシーザ`,
+        translate: `Zweit Ceaser`,
+        location: `Cyber-Z Raid Boss Drop`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111861.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `55s CT - 5000% Water DMG (PHY). For 10s, increase own Water DMG by 40%.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When own HP is 90% or above, increase own Break Power by 20%.`
+            },
+        lore: `Currently unreleased in Global`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -40849,10 +40910,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //画眉丸のマスク - JP Complete
+    { //Gabimaru's Mask - Missing Lore
         id: 152631,
-        name: `画眉丸のマスク`,
-        translate: `Gabimaru's Mask`,
+        name: `Gabimaru's Mask`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Crossover Event Equip: Hell's Paradise`,
         star: 4,
@@ -40878,12 +40938,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『画眉丸のマスク』 - JP Complete
+    { //Gabimaru's Mask EV - Missing Lore
         id: 152641,
-        name: `極『画眉丸のマスク』`,
-        translate: `Gabimaru's Mask EV`,
+        name: `Gabimaru's Mask EV`,
         location: `Craftable - Using Hell's Paradise collab materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -40910,12 +40969,11 @@ const EquipInformation = [
                 ability1: `DEF 5% UP.`,
                 ability2: [`DMG 10% UP against Gods.`, `DMG 10% UP against Demons.`, `Fire resistance 5% UP.`, `Water resistance 5% UP.`, `Heal own HP by 4/s.`, `When HP is 90% or more, Skill CT speed 10% UP.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //画眉丸の服 - JP Complete
+    { //Gabimaru's Gi - Missing Lore
         id: 152651,
-        name: `画眉丸の服`,
-        translate: `Gabimaru's Clothes`,
+        name: `Gabimaru's Gi`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         star: 5,
@@ -40941,12 +40999,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //画眉丸の足袋 - JP Complete
+    { //Gabimaru's Tabi - Missing Lore
         id: 152661,
-        name: `画眉丸の足袋`,
-        translate: `Gabimaru's Tabi`,
+        name: `Gabimaru's Tabi`,
         type: `/db/Mines/thumbnail/magLB.png`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         star: 5,
@@ -40972,12 +41029,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //佐切の刀 - JP Complete
+    { //Sagiri's Katana - Missing Lore
         id: 152671,
-        name: `佐切の刀`,
-        translate: `Sagiri's Sword`,
+        name: `Sagiri's Katana`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         star: 5,
@@ -41003,12 +41059,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //佐切の服 - JP Complete
+    { //Sagiri's Reifuku - Missing Lore
         id: 152681,
-        name: `佐切の服`,
-        translate: `Sagiri's Clothes`,
+        name: `Sagiri's Reifuku`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         star: 5,
@@ -41034,12 +41089,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //佐切の篭手 - JP Complete
+    { //Sagiri's Kote - Missing Lore
         id: 152691,
-        name: `佐切の篭手`,
-        translate: `Sagiri's Gauntlets`,
+        name: `Sagiri's Kote`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         star: 4,
@@ -41065,12 +41119,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //佐切の髪飾り - JP Complete
+    { //Sagiri's Kamikazari - Missing Lore
         id: 152701,
-        name: `佐切の髪飾り`,
-        translate: `Sagiri's Hair Ornament`,
+        name: `Sagiri's Kamikazari`,
         type: `/db/Mines/thumbnail/defLB.png`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         star: 4,
@@ -41096,7 +41149,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //杠の苦無 - JP Complete
         id: 152711,

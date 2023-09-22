@@ -359,6 +359,50 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 10,
+        date: `September 22, 2023`,
+        article: 
+        {
+            intro: `Ninjas get a fresh set of buffs as well as Dream Awakenings on JP, along with some new equips. Meanwhile on the GL side, Hell's Paradise makes its grand debut with brand new units and equips!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`現忍足『守弐韋袈』`, 111851],
+                        [`ツヴァイトシーザ`, 111861]
+                    ],
+                    dream: [
+                        [`Mizuki`, 102826212],
+                        [`Ginzo`, 102836512],
+                        [`Shiki`, 102846412],
+                        [`Shuri`, 102856512],
+                        [`Amane`, 102866412],
+                        [`Kisaragi`, 102876112],
+                        [`Saku`, 102886312],
+                        [`Tamae`, 102896112]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Gabimaru`, 107797112],
+                        [`Sagiri`, 107807312]
+                    ],
+                    equips: [
+                        [`Gabimaru's Mask`, 152631],
+                        [`Gabimaru's Mask EV`, 152641],
+                        [`Gabimaru's Gi`, 152651],
+                        [`Gabimaru's Tabi`, 152661],
+                        [`Sagiri's Katana`, 152671],
+                        [`Sagiri's Reifuku`, 152681],
+                        [`Sagiri's Kote`, 152691],
+                        [`Sagiri's Kamikazari`, 152701]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
