@@ -89,6 +89,7 @@
             skill: ``,
             arts: ``,
             truearts: ``,
+            superarts: ``,
             ability1: ``,
             ability2: ``,
             ability3: ``,
@@ -98,7 +99,7 @@
                 ability2: ``
             },
             overall: ``,
-            lastupdated: `December 31, 2022`,
+            lastupdated: `December 31, 2023`,
             author: `Zanster`
         }
 
@@ -22812,7 +22813,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Hakuro - Missing Lore (GL)
+    { // Hakuro - Missing Lore (GL), Review done
         id: 103566311,
         name: "Hakuro",
         rank: "B+",
@@ -22888,6 +22889,22 @@ const UnitInformation = [
             {   
                 evo5: "The oldest surviving shinobi of Imari Village, having served the Mizuki household for three generations. His life has been dedicated to protecting the clan's secret history and their patriotic duty. That resolve also lets him perceive changes, no matter how slight, which the passing ages bring to his home.",
                 evoawk: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A skill that will often be useless due how rare status ailments are in quests, it is not to say that it is bad whenever applicable however.`,
+                arts: `A chance to blind the enemy. It’s appreciated when needed, but it won’t see much use over his True Arts`,
+                truearts: `A decent multiplier and a Good teamwide Earth Damage buff of 100%, Hakuro and your Earth units in your team will do some strong damage, although this does rely on having a competent Earth DPS on your team.`,
+                ability1: `After using his True Arts to enter Third Eye, Hakuro will reduce the Enemies Magic resistance by 50% for 40s. Paired with his Earth Damage buff, he can act as a fairly well dps. The Arts he gains passively is also a great bonus.`,
+                ability2: `Assuming there is either a Demon or Beast enemy upon entering Third Eye, he’ll enter True Third Eye instead, which will increase his damage furthermore against the mentioned 2 races. This helps him out with his damage output even more especially since Demon race bosses are quite common.`,
+                trueweapon: {
+                    skill: `A rather pathetic active effect, while the blind res down can pairs well with Hakuro Normal Art to inflict the enemy with blind more frequently, as mentioned earlier you generally wouldn’t use his Normal Art over his True Art. The evasion down is also a decent addition if the boss has some evasion since this is one of the few equips in the game that can provide evasion down. `,
+                    ability1: `A nice noticeable Arts DMG buff is always appreciated.`,
+                    ability2: `It's a nice bonus, but nothing too noticeable.`
+                },
+                overall: `If Hakuro released with the original batch of ninja’s in 2020 he would have been a decent unit, sadly it’s 2023 and he can’t compare to the newer and modern options we have. His overall kit is more oriented to do damage, and increase the damage output of your earth units. Atleast he's a luck unit...`,
+                lastupdated: `August 23, 2023`,
+                author: `Alice`
             }
     },
     { // Sword Demon Berwick - Missing Lore (JP)
