@@ -22715,7 +22715,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Kirisame - Complete
+    { // Kirisame - Complete, Review done
         id: 103527112,
         name: "Kirisame",
         attribute: "Fire",
@@ -22791,6 +22791,24 @@ const UnitInformation = [
             {   
                 evoawk: "A shinobi from Imari Village. He was always causing mischief in his younger age, but he also formed a close friendship with Mizuki, giving the leader a valuable emotional outlet. There is nothing he hates more than running away, so he avoids practicing escape arts to focus on hand-to-hand combat whenever possible.",
                 evosuper: `Granted the title "Guren" for possessing the strength of flame itself. Being the descendant of a Yoma-sealing shinobi helped, but that achievement was earned with his ferocious spirit and righteous will. His style contradicts the clam judgement the shinobi are known for, but Sakuya's support lets him burn bright in battle.`
+            },
+        review:
+            {
+                skill: `A skill that provides Artgen, which is appreciated to get Kirisame started up faster. The Burn Resistance down debuff of 30% is a nice touch for its niche as it helps burning a boss more frequently.`,
+                arts: `While the Art is quite niche since burning an enemy isn't really needed. This Art pairs very well with his Skill and Passive, it does increase his survivability as taunt. Just awkward to use..`,
+                truearts: `A core ability of Kirisame, activating Third Eye. There’s not much to be said about this otherwise, it’s a taunt effect that’s stronger than average but his Super Arts outperforms this.`,
+                superarts: `Kirisame’s Bread & Butter, the largest Barrier in the game with the ability to remove DMG RES Down effects on self whenever he's in third eye. It can not be understated how strong this is for endgame quests that time you out through multiple DMG RES down stacks. It also has the added benefit of not requiring his Third Eye to be active unlike TA.`,
+                ability1: `Wow. Such an amazing passive. Just by entering either Third Eye. Kirisame will have a 30% Damage Resistance up buff, which helps him furthermore with taunting. In addition by burning an enemy he'll increase it even more, which makes a damage resistance of 50% just from passives. Although hard to achieve.`,
+                ability2: `Easily accessible due to how prevalent Human Units are. He will enter True Third Eye and increase his damage resistance against physical bosses even further. This makes up a total of 50% DR passively or 70% when the enemy is burnt.`,
+                ability3: `Free arts isn't a bad thing. This helps Kirisame to activate his Super Art much faster to redirect the damage towards him.`,
+                trueweapon: {
+                    skill: `A relatively short uptime with a questionable skill. Kirisame does not want additional DMG & the DMG RES is not worth using over other 5* DEFs.`,
+                    ability1: `The main reason you’d purchase this TW, Flinch RES to be able to use the unit in certain quests, the additional time on Third Eye also is helpful if you do not require additional DMG Res from equipment.`,
+                    ability2: `A minor Atk buff, which isn't too noticeable. But it's still nice to have.`
+                },
+                overall: `Kirisame is just an amazing taunt tank. Not only does he have one of the biggest barriers (50,000) but also one of the longest durations of 40s, equal to Earth Vultee. But that's not all! He just gains massive damage resistance passively by only entering Third Eye. Letting him enter True Third Eye ain't a difficult task as well, because most meta relevant units are from the Human Race. With the ideal slotting for a taunt tank, there’s nothing you can complain about regarding his ability to tank enemies.`,
+                lastupdated: `August 23, 2023`,
+                author: `Alice`
             }
     },
     { // Hakuro - Missing Lore (GL)
