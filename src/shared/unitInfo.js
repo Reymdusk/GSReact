@@ -30989,7 +30989,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Gabimaru - Missing Lore (GL)
+    { //Gabimaru - Missing Lore (GL), Review done
         id: 107797112,
         name: `Gabimaru`,
         attribute: `Fire`,
@@ -31056,9 +31056,27 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A rather standard skill for this day and age, a nice boost to your artgen with a conditional effect that is easy to ignore.`,
+                arts: `I mean, if you need to burn then this is a decent option however most of the time you'd be fine just ignoring this.`,
+                truearts: `A nice and long duration on this True Art allows Gabimaru to easily cycle between his True Art and Super Art while maintaning full uptime on the Crit rate and dmg up from this.`,
+                superarts: `A strong multiplier and chance to super crit will help Gabimaru perform his role as a DPS. However the lack of a dmg up on this Super Art will force you to cycle True Art and Super Art for maximum damage.`,
+                ability1: `More Super Crit chance is always good to have, While this condition can be a bit annoying to deal with, a decent healer is more then enough to keep the team above 90% HP for most stages.`,
+                ability2: `....yeah no, most bosses have some form of accuracy up which will negate this anyway. Not to mention that 15% evasion is so small that you won't even be able to notice it anyway.`,
+                ability3: `100% poison res is nice to have since it's one less thing to worry about for his skills conditional effect.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Gabimaru is a dps, that's it. While he is one of the best DPS option for global right now, other units have more defensive tools to allow flexibility. It should be noted that because Gabimaru has passive S.Crit he is capable of Nuking at an impressive degree. You may forget about him as a DPS but you'll be reminded he exists every blue moon by a Leaderboard Nuker.`,
+                lastupdated: `September 21, 2023`,
+                author: `Zanster`
             }
     },
-    { //Sagiri - Missing Lore (GL)
+    { //Sagiri - Missing Lore (GL), Review done
         id: 107807312,
         name: `Sagiri`,
         attribute: `Earth`,
@@ -31125,6 +31143,24 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `It's relatively small for a sawk dmg buff, even if she isn't a main DPS. Artsgen would be better though.`,
+                arts: `Decent Physical Damage buff along with a substantial teamwide Break Power buff. very valuble due to the mix of break with other useful abilities.`,
+                truearts: `The artsgen is fine, Sagiri isn't ideal for solo artsgenning but she'll function fine as a secondary artsgen. The Physical Resistance buff however is very good, and one not offered by many units, especially ones with as much utility as Sagiri.`,
+                superarts: `Big Earth Resistance buff and decently high base break, not much else to say about it. War Hero Fen likey.`,
+                ability1: `Slightly high HP requirement, but a useful unit who fills the accuracy niche is always cool. The HP requirement for the arts however is fairly attainable, and her self artsgen is substantial.`,
+                ability2: `Cool I guess, but anything that wants the extra damage probably isn't human.`,
+                ability3: `Meh. At any point where you'd want Blind Resistance, you'd need to bring it up to 100% for the rest of the team anyway.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Sagiri is a perfect embodiment of "Jack of all trades, master of none". She has it all, arts over time artsgen, instant artsgen, damage resistance (albiet only physical), damage buffing, and even break. She has the similar merits to Fate Chloe: She enables decent break while not being a dead slot, it should be emphasized that Sagiri is leagues behind Chloe in BREAK due to a lack of BREAK RES down & Strong Break Values. Additionally, The physical damage resistance is slightly devalued due to many bosses being a mix of magic and physical damage dealers, but less damage is still less damage. High self sustainability arts wise despite not having an arts skill, and her slots are... alright. Overall a decent unit, but obviously not worth breaking the bank for.`,
+                lastupdated: `September 21, 2023`,
+                author: `Pula`
             }
     },
     { //Yuzuriha - Missing Lore (JP)
