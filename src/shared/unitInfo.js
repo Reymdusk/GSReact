@@ -191,7 +191,7 @@ const UnitInformation = [
     { //Clyde - Complete
         id: 100016111,
         name: "Clyde",
-        rank: "F",
+        rank: "B-",
         twrequire: "reliance",
         attribute: "Fire",
         type: "Human",
@@ -333,7 +333,7 @@ const UnitInformation = [
     { //Corsair - Complete
         id: 100026211,
         name: "Corsair",
-        rank: "F",
+        rank: "C",
         twrequire: "reliance",
         attribute: "Water",
         type: "Human",
@@ -2463,7 +2463,7 @@ const UnitInformation = [
     { //Roy (Water) - Complete
         id: 101036211,
         name: "Roy (Water)",
-        rank: "F",
+        rank: "B+",
         attribute: "Water",
         type: "Human",
         image: 
@@ -3637,7 +3637,7 @@ const UnitInformation = [
     { //Liese (Light) - Complete
         id: 101136411,
         name: "Liese (Light)",
-        rank: "F",
+        rank: "A-",
         attribute: "Light",
         type: "Human",
         image: 
@@ -4487,7 +4487,7 @@ const UnitInformation = [
     { //Zenon - Complete
         id: 101216512,
         name: "Zenon",
-        rank: "B+",
+        rank: "A-",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -22718,6 +22718,7 @@ const UnitInformation = [
     { // Kirisame - Complete, Review done
         id: 103527112,
         name: "Kirisame",
+        rank: "S",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -22814,6 +22815,8 @@ const UnitInformation = [
     { // Hakuro - Missing Lore (GL)
         id: 103566311,
         name: "Hakuro",
+        rank: "B+",
+        luckrank: "B",
         attribute: "Earth",
         type: "Human",
         image: 
