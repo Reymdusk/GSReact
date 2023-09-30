@@ -29644,7 +29644,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "Increase Allies' PHY DMG based on how high this unit's HP is (up to 100%). Does not stack with Abilities of the same name.",
+                ability1: "Increase Allies' PHY DMG based on how high their HP is (up to 100%). Does not stack with Abilities of the same name.",
                 ability2: "At the start of a Quest, increase Allies' Arts by 30. Does not stack with Abilities of the same name.",
                 ability3: "Increase Paralysis RES by 100%."
             }, 
