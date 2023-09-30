@@ -403,6 +403,35 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 11,
+        date: `September 30, 2023`,
+        article: 
+        {
+            intro: `The brand new Goddess Celia makes her grand appearance on JP along with Chapter 25! On the other hand, Floor 15 of Dark and Light Ruins will be added along with their respective equips!`,
+            new: 
+                {
+                    units: [
+                        [`Goddess Celia`, 103767412]
+                    ],
+                    equips: [
+                        [`真『シャングリラ』`, 111871],
+                        [`天耀剣『シャングリラ』`, 111871],
+                        [`煌玉装『エメロディーテ』`, 111891]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Violet Murk Idol`, 111011],
+                        [`Golden Shrine Idol`, 111021]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

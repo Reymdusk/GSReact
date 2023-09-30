@@ -21990,7 +21990,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Noble Gash",
+                name: "Noble Blood",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110231.png",
                 skill: "50s CT - 8000% Dark DMG (MAG). For 20s, increase own Dark DMG by 70%.",
@@ -24154,6 +24154,84 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Sinflow Soulgem"
                 }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Goddess Celia - Missing Lore (JP)
+        id: 103767412,
+        name: `Goddess Celia`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103766412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103767412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103766412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103767412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7370,
+                hpplus: 1390,
+                atk: 3937,
+                atkplus: 680,
+                def: 2887,
+                defplus: 600
+            },
+        skillset: 
+            {
+                skill: `10s CT - 3000% Light DMG (PHY). Summon a kin with 1000 HP (MAX: 4). Summoned kins will redirect all DMG taken by Goddess Celia to themselves.`,
+                skillbreak: 400,
+                arts: `20000% Light DMG (PHY). Increase all Human allies' Arts gauge by 30. For 20s, reduce enemies' Light RES by 30%.`,
+                artsbreak: 800,
+                truearts: `60000% Light DMG (PHY). Summon 4 kins with 1000 HP (MAX: 4). Summoned kins will redirect all DMG taken by Goddess Celia to themselves.`,
+                trueartsbreak: 1600,
+                superarts: `160000% DMG (PHY). Sacrifice all kins. Increase own CRI rate by 100% for the duration of Super Arts and own Super CRI rate by [20 × # of kins sacrificed from current Super Arts]% (MAX: 80%) for the duration of Super Arts.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `For each kin killed or sacrificed throughout battle, increase own DMG by 30% (MAX: 600%). Does not stack with Abilities of the same name.`,
+                ability2: `When HP is above 90%, increase own Arts by 5/s.`,
+                ability3: `Increase own Heal Amount by 10%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglit Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Shangri-La`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111871.png",
+                skill: `50s CT - 12000% Light DMG (PHY). If user is Light, for 10s, reduce enemies' DMG RES by 20%. If user is Light and above 80% HP, reduce enemies' DMG RES by 35% instead.`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Goddess Celia, increase own DMG and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own CRI DMG by 20%.`
+                    }
             },
         lore: 
             {   
@@ -31232,9 +31310,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Chobei - Missing Lore (JP)
+    { //Chobe - Missing Lore (JP)
         id: 107827412,
-        name: `Chobei`,
+        name: `Chobe`,
         attribute: `Light`,
         type: `Human`,
         image: 

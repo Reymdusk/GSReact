@@ -27216,7 +27216,7 @@ const EquipInformation = [
                 ability1: `Increase Seal resistance by 10%.`,
                 ability2: [`Increase DEF by 30% when under a barrier.`, `When HP is above 90%, Increase ATK by 15%.`, `Increase Magic resistance by 5%.`, `When HP is above 90%, Increase ATK by 10%.`, `Increase Accuracy by 10%.`, `Increase Status Ailment resistance (Except Faint) by 10%.`]
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
 { //True 'Asteroid' - Complete
         id: 109971,
@@ -27990,9 +27990,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Noble Gash' - Missing Lore
+{ //True 'Noble Blood' - Missing Lore
         id: 110231,
-        name: `True 'Noble Gash'`,
+        name: `True 'Noble Blood'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -30300,10 +30300,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //邪なる沼の女神像 (Light F15 Equip) - JP Complete
+    { //Violet Murk Idol - Missing Lore
         id: 111011,
-        name: `邪なる沼の女神像`,
-        translate: `Goddess Statue of the Evil Swamp`,
+        name: `Violet Murk Idol`,
+        translate: `Violet Murk Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30330,10 +30330,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //聖なる祠の女神像 (Dark F15 Equip) - JP Complete
+    { //Golden Shrine Idol - Missing Lore
         id: 111021,
-        name: `聖なる祠の女神像`,
-        translate: `Goddess Statue of the Sacred Shrine`,
+        name: `Golden Shrine Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30358,7 +30357,7 @@ const EquipInformation = [
             {
                 ability1: `Status Ailment resistance 20% DOWN.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //絶魔甲『ファントムベイン』 (Elite Ragsherum Mines Equip) - JP Complete
         id: 111031,
@@ -32667,7 +32666,7 @@ const EquipInformation = [
                 ability1: `When equipped by Canary, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical Evasion by 5%`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
     { //影斬り - JP Complete
         id: 111811,
@@ -32698,7 +32697,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Skill DMG by 20%,`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
     { //ブルージャケット(カナリア仕様) - JP Complete
         id: 111821,
@@ -32729,7 +32728,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Hellfire resistance by 10%.`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
     { //ゴルネコクラウン - JP Complete
         id: 111831,
@@ -32760,7 +32759,7 @@ const EquipInformation = [
             {
                 ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Metallic Tiara (Light Ruins F16 equip) is equipped on the party, increase own Heal Amount by 60% (No duplication).`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
     { //メタチキティアラ - JP Complete
         id: 111841,
@@ -32791,7 +32790,7 @@ const EquipInformation = [
             {
                 ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Golcat's Crown (Dark Ruins F16 equip) is equipped on the party, increase own CRI rate by 100% (No duplication).`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
     { //現忍足『守弐韋袈』 - JP Complete
         id: 111851,
@@ -32821,7 +32820,7 @@ const EquipInformation = [
             {
                 ability1: `Increase Max HP by 5%.`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
     },
     { //ツヴァイトシーザ - JP Complete
         id: 111861,
@@ -32852,7 +32851,100 @@ const EquipInformation = [
             {
                 ability1: `When own HP is 90% or above, increase own Break Power by 20%.`
             },
-        lore: `Currently unreleased in Global`
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『シャングリラ』 - JP Complete
+        id: 111871,
+        name: `真『シャングリラ』`,
+        translate: `True 'Shangri-La'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 12000% Light DMG (PHY). If user is Light, reduce enemies' DMG RES by 20% for 10s. If user is Light and above 80% HP, reduce enemies' DMG RES by 35% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Goddess Celia, increase own DMG and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //天耀剣『シャングリラ』 - JP Complete
+        id: 111881,
+        name: `天耀剣『シャングリラ』`,
+        translate: `Sacred Sword 'Shangri-La'`,
+        location: `Chapter 25 Secret Weapon`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 12000% Light DMG (PHY). If user is Human, increase own DMG & Accuracy by 80% for 13s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or less, reduce own Arts by 1/s.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //煌玉装『エメロディーテ』 - JP Complete
+        id: 111891,
+        name: `煌玉装『エメロディーテ』`,
+        translate: `Glittering Jade Dress 'Emerodite'`,
+        location: `Chapter 25 Farmable Equip`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' DMG RES by 25% for 10s. Additionally if user is Human, increase allies' Freeze RES and Paralysis RES by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
     },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
