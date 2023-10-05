@@ -2696,7 +2696,7 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 500
+                def: 250
             },
         skillset:  
             {
@@ -2714,7 +2714,7 @@ const EquipInformation = [
         name: `Relic 'Empty Heart'`,
         location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/healLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_100900.png`,
@@ -2834,7 +2834,7 @@ const EquipInformation = [
         name: `Relic 'Abyssal Hairpin'`,
         location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/healLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_100940.png`,
@@ -4790,7 +4790,7 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 500
+                def: 250
             },
         skillset:  
             {
@@ -4967,9 +4967,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 250,
-                atk: 125,
-                def: 125
+                hp: 125,
+                atk: 62,
+                def: 62
             },
         skillset:  
             {
@@ -41243,10 +41243,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //杠の苦無 - JP Complete
+    { //Yuzuriha's Kunai - Missing Lore
         id: 152711,
-        name: `杠の苦無`,
-        translate: `Yuzuriha's Kunai`,
+        name: `Yuzuriha's Kunai`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41272,12 +41271,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //杠の簪 - JP Complete
+    { //Yuzuriha's Kanzashi - Missing Lore
         id: 152721,
-        name: `杠の簪`,
-        translate: `Yuzuriha's Hairpin`,
+        name: `Yuzuriha's Kanzashi`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -41303,12 +41301,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //杠の竹筒- JP Complete
+    { //Yuzuriha's Takezutsu - Missing Lore
         id: 152731,
-        name: `杠の竹筒`,
-        translate: `Yuzuriha's Bamboo Tubes`,
+        name: `Yuzuriha's Takezutsu`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41334,12 +41331,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //杠の服- JP Complete
+    { //Yuzuriha's Noragi - Missing Lore
         id: 152741,
-        name: `杠の服`,
-        translate: `Yuzuriha's Bamboo Tubes`,
+        name: `Yuzuriha's Noragi`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -41365,12 +41361,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //弔兵衛の斧- JP Complete
+    { //Chobe's Axe - Missing Lore
         id: 152751,
-        name: `弔兵衛の斧`,
-        translate: `Chobei's Axe`,
+        name: `Chobe's Axe`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41396,12 +41391,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //弔兵衛の服 - JP Complete
+    { //Chobe's Ascetic Outfit - Missing Lore
         id: 152761,
-        name: `弔兵衛の服`,
-        translate: `Chobei's Clothes`,
+        name: `Chobe's Ascetic Outfit`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -41427,12 +41421,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //弔兵衛の首飾り - JP Complete
+    { //Chobe's Necklace - Missing Lore
         id: 152771,
-        name: `弔兵衛の首飾り`,
-        translate: `Chobei's Necklace`,
+        name: `Chobe's Necklace`,
         location: `Crossover Equip Summon: Hell's Paradise`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41458,12 +41451,11 @@ const EquipInformation = [
             {
                 ability1: `Skill DMG 10% UP`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『弔兵衛の首飾り』 - JP Complete
+    { //Chobe's Necklace EV - Missing Lore
         id: 152781,
-        name: `極『弔兵衛の首飾り』`,
-        translate: `Chobei's Necklace EV`,
+        name: `Chobe's Necklace EV`,
         location: `Craftable - Using Hell's Paradise collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41490,7 +41482,7 @@ const EquipInformation = [
                 ability1: `Skill DMG 10% UP`,
                 ability2: [`DMG 10% UP against Gods.`, `DMG 5% UP against Dark enemies`, `BE Output 5% UP`, `HP Recovery Amount 5% UP`, `DEF 5% UP`, `At the Start of Quest, increase own Arts gauge by 10 (No Duplication)`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『リムルの剣』 - JP Complete
         id: 152791,

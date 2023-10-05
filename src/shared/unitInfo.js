@@ -22813,7 +22813,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Hakuro - Missing Lore (GL), Review done
+    { //Hakuro - Complete, Review done
         id: 103566311,
         name: "Hakuro",
         rank: "B+",
@@ -22888,7 +22888,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "The oldest surviving shinobi of Imari Village, having served the Mizuki household for three generations. His life has been dedicated to protecting the clan's secret history and their patriotic duty. That resolve also lets him perceive changes, no matter how slight, which the passing ages bring to his home.",
-                evoawk: "Missing Lore."
+                evoawk: `The highest authority of Imari Village, surpassing even the current leader. He spares no mercy for any who do not share his honor for law and tradition. This is because he has seen first-hand how prideful impudence can lead the strong to ruin. In his mind, a shinobi should desire to live and die in the shadows, and those who seek light are despicable fools.`
             },
         review:
             {
@@ -31067,7 +31067,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Gabimaru - Missing Lore (GL), Review done
+    { //Gabimaru - Complete, Review done
         id: 107797112,
         name: `Gabimaru`,
         attribute: `Fire`,
@@ -31132,8 +31132,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Known as Gabimaru the Hollow, an outcast ninja from Iwagakure. Imprisoned for killing twenty magistrates, he was one of the convicts sent to Shinsenkyo. His nickname gives implication he feels no emotion, but that might not be entirely true.`,
+                evosuper: `Once known as Gabimaru the Hollow. He became able to feel after marrying his wife and even swore off his deadly occupation for her sake. However, a former ally's betrayal led to his arrest. To earn pardon and see his wife again, he accepts a request to retrieve the elixir of life from Shinsenkyo.`
             },
         review:
             {
@@ -31154,7 +31154,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Sagiri - Missing Lore (GL), Review done
+    { //Sagiri - Complete, Review done
         id: 107807312,
         name: `Sagiri`,
         attribute: `Earth`,
@@ -31219,8 +31219,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `A member of the Yamada Asaemon "blade testers", official executors of the shogunate. Although twelfth in rank, her talent rivals the upper echelon. She joins Gabimaru as his escort to Shinsenkyo.`,
+                evosuper: `One of the few female members of Yamada Asaemon. She was born to a family of official executors, but her internal conflicts hold her back from true mastery. It is only after she meets Gabimaru, that she begins to accept both her strengths and weaknesses.`
             },
         review:
             {
@@ -31241,7 +31241,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Yuzuriha - Missing Lore (JP)
+    { //Yuzuriha - Missing Lore (GL)
         id: 107817512,
         name: `Yuzuriha`,
         attribute: `Dark`,
@@ -31306,11 +31306,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Chobe - Missing Lore (JP)
+    { //Chobe - Missing Lore (GL)
         id: 107827412,
         name: `Chobe`,
         attribute: `Light`,
@@ -31359,8 +31359,8 @@ const UnitInformation = [
                 ability1: `When own HP is 80% or higher, ignore 100% of enemies' DEF. Increase own Arts gauge by 100 at the Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against God enemies by 70%.`,
                 ability3: `Increase own DMG against Demon enemies by 70%.`,
-                ability4: `Unit EXP UP 20% UP. (When Chobei's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chobei's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Chobe's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chobe's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -31375,8 +31375,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Demon Lord Rimuru - Missing Lore (JP)

@@ -432,6 +432,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 12,
+        date: `October 6, 2023`,
+        article: 
+        {
+            intro: `Part 2 of Hell's Paradise is out on Global, bringing along with it a number of new units and equips... Check them out below!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Yuzuriha`, 107817512],
+                        [`Chobe`, 107827412]
+                    ],
+                    equips: [
+                        [`Yuzuriha's Kunai`, 152711],
+                        [`Yuzuriha's Kanzashi`, 152721],
+                        [`Yuzuriha's Takezutsu`, 152731],
+                        [`Yuzuriha's Noragi`, 152741],
+                        [`Chobe's Axe`, 152751],
+                        [`Chobe's Ascetic Outfit`, 152761],
+                        [`Chobe's Necklace`, 152771],
+                        [`Chobe's Necklace EV`, 152781]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
