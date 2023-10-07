@@ -46,7 +46,7 @@ export default function News () {
                             if(i !== 0) {
                                 return (
                                     <React.Fragment key={i}>
-                                        <Col>
+                                        <Col md="4">
                                         <Link to={`/news/${theNews.date}`} style={{textDectoration: "none"}}>
                                             <Card style={{ backgroundColor: "#25274d", color: "#aaabb8", marginBottom: "1em"}}>
                                                 <center>
