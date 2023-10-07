@@ -31241,7 +31241,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Yuzuriha - Missing Lore (GL)
+    { //Yuzuriha - Missing Lore (GL), Review Done
         id: 107817512,
         name: `Yuzuriha`,
         attribute: `Dark`,
@@ -31308,9 +31308,30 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A noticeable amount of heal paired with artgen helps with survivability in her role as Artgenner or Damage Support.`,
+                arts: `A very interesting Art that redirects 40% of the damage towards self while increasing the Max HP by 60%. This can help your team survivability. But due the lack of a def slot it might go the wrong way as well. It’ll see less use than Yuzuriha’s True Art and Super Art.`,
+                truearts: `With a decently multiplier, but with a huge amount of artgen assuming your units aren’t affected by Status Ailment paired with a very good Dark Resistance Down of 80%. Yuzuriha’s True Art, and your allies' Dark units can deal greater damage than before.`,
+                superarts: `With a huge multiplier and an amazing Physical Resistance down paired with her Normal Art this can easily achieve some massive damage while also your physical dps unit will deal an amazing amount of damage. Which will often be used by nuking certain stages.`,
+                ability1: `A minimum effort Passive, just by setting Yuzuriha as Leader and increasing Human Races units damage output further is nothing wrong. That’s some good Passive, especially for nuking.
+                `,
+                ability2: `Free Status Ailment Resistance is never wrong. Although it’s only for Paralyse, it’ll help Yuzuriha to get her True Art / Super Art out when the stage is to paralyze your team.`,
+                ability3: `Some Physical Resistance doesn’t hurt, as it will help with survivability. Also, it pairs well with her Normal Art assuming you’re using it. But as mentioned earlier it likely won’t see much use.`,
+                ability4: `No comment`,
+                ability5: `No comment`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Yuzuriha is an amazing supportive unit for any box. With some sort of Survivability by redirecting the damage towards self, or by increasing allies Artsgen with her True Art or simply increasing your physical oriented teams damage output drastically. She can fit in most teams. Mainly, she’ll shine as an Artgen unit, if lacking better options or as a massive damage supporter with either her True Arts or Super Art.`,
+                lastupdated: `October 5, 2023`,
+                author: `Alice`
             }
     },
-    { //Chobe - Missing Lore (GL)
+    { //Chobe - Missing Lore (GL), Review Done
         id: 107827412,
         name: `Chobe`,
         attribute: `Light`,
@@ -31377,6 +31398,27 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Long CT for a small ATK buff. Not very impactful overall.`,
+                arts: `Reducing enemies’ break RES is highly relevant for when breaking is involved, because bosses who need to be broken several times usually gain break RES every time.`,
+                truearts: `Ramping break buff along with stacking self artgen. Fairly useful for when bosses need to be broken to deal appreciable damage, though situational for when break is required.`,
+                superarts: `This time, ramping DMG buff with stacking self artgen and with a rather long duration. The animation is fairly fast so it is possible to stack it a fair amount of times with help from the team`,
+                ability1: `The starting arts is somewhat nice because Chobe has no other source or self-sufficiency other than his self artgen from TA/SA that require 200/300 arts to get started. Ignoring enemies’ defense is a convenient way to bypass bosses’ crit resistance.
+                `,
+                ability2: `Marginally useful passive against God enemies, but not enough to really matter in the grand scheme of things.`,
+                ability3: `Also small DMG buff against Demon enemies, which are more common than Gods. Still, marginal passive.`,
+                ability4: `Somewhat useful for reaching level 120 faster, but nothing too spectacular.`,
+                ability5: `Another marginal benefit, but reaching TA or SA faster is always useful.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `A ramping breaker/DPS who can stack self artgen, it’s always nice to have a breaker that can accomplish other roles for when break is not needed. The defense ignore passive is great for bosses who have or gain crit resistance. His fast SA animation also make him usable for nukes (for nukable content). Anybody who has farmed summoners’ road or Nova crests can notice that his mechanics line up very well with recent content, making him a solid addition to one’s box.`,
+                lastupdated: `October 5, 2023`,
+                author: `MOB of Metal`
             }
     },
     { //Demon Lord Rimuru - Missing Lore (JP)
