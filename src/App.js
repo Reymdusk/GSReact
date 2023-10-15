@@ -52,7 +52,9 @@ class App extends Component {
                     <Route path="guides/dungeon-of-trials" element={<DotGuide />} />
                     <Route path="guides/dungeon-of-trials/:articleId" element={<DisplayTrialGuide />} />
                     <Route exact path="guides/FAQ" element={<FAQGuide />} />
-                    <Route path="*" element={<p><center><h1>Incorrect Link. Check to make sure the URL is correct</h1></center></p>} />
+                    <Route path="static" element={<Main />} />
+                    <Route path="static/*" element={<Main />} />
+                    <Route path="*" element={<Main />} />
                   </Route>
                 </Routes>
               </div>
