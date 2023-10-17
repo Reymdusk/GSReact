@@ -15391,7 +15391,7 @@ const EquipInformation = [
             {
                 ability1: `DMG to Dark enemy 5% UP`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
 { //True 'Aurora & Zephyr' - Complete
         id: 105941,
@@ -32813,7 +32813,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 4000% Water DMG (PHY). For 10s, if enemy is a Demon, reduce enemies' Water RES by 25%.`,
+                skill: `50s CT - 4000% Water DMG (Physical). For 10s, if enemy is a Demon, reduce enemies' Water resistance by 25%.`,
                 break: 500
             },
         passive: 
@@ -32844,7 +32844,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 5000% Water DMG (PHY). For 10s, increase own Water DMG by 40%.`,
+                skill: `55s CT - 5000% Water DMG (Physical). For 10s, increase own Water DMG by 40%.`,
                 break: 1000
             },
         passive: 
@@ -32874,7 +32874,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 12000% Light DMG (PHY). If user is Light, reduce enemies' DMG RES by 20% for 10s. If user is Light and above 80% HP, reduce enemies' DMG RES by 35% instead.`,
+                skill: `50s CT - 12000% Light DMG (Physical). If user is Light, reduce enemies' DMG resistance by 20% for 10s. If user is Light and above 80% HP, reduce enemies' DMG resistance by 35% instead.`,
                 break: 800
             },
         passive: 
@@ -32906,7 +32906,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 12000% Light DMG (PHY). If user is Human, increase own DMG & Accuracy by 80% for 13s.`,
+                skill: `50s CT - 12000% Light DMG (Physical). If user is Human, increase own DMG & Accuracy by 80% for 13s.`,
                 break: 800
             },
         passive: 
@@ -32937,12 +32937,192 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase all allies' DMG RES by 25% for 10s. Additionally if user is Human, increase allies' Freeze RES and Paralysis RES by 100% for 10s.`,
+                skill: `40s CT - Increase all allies' DMG resistance by 25% for 10s. Additionally if user is Human, increase allies' Freeze resistance and Paralysis resistance by 100% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シャルのガオおてて - JP Complete
+        id: 111901,
+        name: `シャルのガオおてて`,
+        translate: `Char's Gao Claw`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5000% Fire DMG (Physical). If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3). Reduce enemies' Physical resistance by 30% for 8s.`,
+                break: 200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シャルのガオおみあし - JP Complete
+        id: 111911,
+        name: `シャルのガオおみあし`,
+        translate: `Char's Gao Feet`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 16000% Fire DMG (Physical). Increase own ATK by 80% for 10s. If user is Fire, increase own ATK by 130% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //トリック・オア・ダイ - JP Complete
+        id: 111921,
+        name: `トリック・オア・ダイ`,
+        translate: `Trick or Die`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111921.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Arts by 3/s and Magic DMG by [15 x # of Unique Races in the Party]% (MAX: 60%) for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //フォルテのドーリィドレス - JP Complete
+        id: 111931,
+        name: `フォルテのドーリィドレス`,
+        translate: `Forte's Dolly Dress`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heal all allies' HP by 200/s for 10s. Increase all allies' Light resistance by 30% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ヴァレリーのまじりざステッキ - JP Complete
+        id: 111941,
+        name: `ヴァレリーのまじりざステッキ`,
+        translate: `Valerie's Mingled Stick`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 8000% Water DMG (Magic). Increase own Magic DMG by 60% (stackable) and Human allies' Magic DMG by 40% (stackable) for 15s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //フォルテのちっちゃいぼうし - JP Complete
+        id: 111951,
+        name: `フォルテのちっちゃいぼうし`,
+        translate: `Forte's Small Hat`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111951.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heal all allies' HP by 700. Additionally if user is Dark, cleanses all allies' Poison.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Poison resistance by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },

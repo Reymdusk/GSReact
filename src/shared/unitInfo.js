@@ -118,7 +118,10 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flametail Soulgem`
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
                     },
                     passive: {
                         ability1: `Increase all allies' Fire RES by 20%. Does not stack with abilities of the same name.`,
@@ -131,7 +134,10 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Frostsprite Soulgem`
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
                     },
                     passive: {
                         ability1: ``,
@@ -144,7 +150,10 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
-                        hover2: `Smogdragon Soulgem`
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
                     },
                     passive: {
                         ability1: ``,
@@ -157,7 +166,10 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
                     },
                     passive: {
                         ability1: ``,
@@ -170,7 +182,10 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
                     },
                     passive: {
                         ability1: ``,
@@ -1539,7 +1554,7 @@ const UnitInformation = [
                 evoawk: "The metal traveler, EDEN, succeeded in his quest to save his world from utter destruction. With the power of a particular secret medicine, he managed to rid his world of the pollution that plagued it and return it to its verdant glory. And so it is thought that the ark of steel had finally fulfilled his duty. However, to send the benevolent fairies home safely, EDEN set sail once again off into the stars. Legend has it that the stars weren't the only thing shining that night."
             }
     },
-    { //Abaddon - Complete
+    { //Abaddon - Complete + JP Dream Evo
         id: 100606512,
         name: "Abaddon",
         rank: "B-",
@@ -1565,6 +1580,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 7140,
@@ -1578,9 +1602,18 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1800% Dark DMG (MAG). 10% chance to inflict Blind for 5s.",
                 skillbreak: 650,
-                arts: "11000% Dark DMG (MAG). For 15s, reduce all Enemy ATK by 30%",
+                arts: "11000% Dark DMG (MAG). For 15s, reduce enemies' ATK by 30%.",
                 artsbreak: 1600,
-                truearts: "35000% Dark DMG (MAG). For 15s, if Enemy is God or Demon, increase own DMG by 100%",
+                truearts: "35000% Dark DMG (MAG). For 15s, increase own DMG against God and Demon enemies by 100%.",
+                trueartsbreak: 2300
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1800% Dark DMG (MAG). 20% chance to inflict Blind for 5s.",
+                skillbreak: 700,
+                arts: "11000% Dark DMG (MAG). For 20s, reduce enemies' ATK by 30%.",
+                artsbreak: 1600,
+                truearts: "55000% Dark DMG (MAG). For 15s, increase own DMG against God and Demon enemies by 200%.",
                 trueartsbreak: 2300
             },
         passive: 
@@ -1619,6 +1652,40 @@ const UnitInformation = [
                     hover3: "Oldeus"
                 }
             },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                        mat3amt: 2,
+                        hover3: "Geo Zagnus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against enemies under 30% HP by 50%.`,
+                        ability2: `Increase own Arts by 3/s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `When own HP is 80% or above, increase own CRI rate by 100%.`,
+                        ability2: `Increase own Accuracy rate by 30%.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo3: "A mad knight spoken of in Demon legend. Records from just before the start of the Great War speak of a masked knight attacking Demon settlements. The Demon military moved to dispatch the criminal, but the killings ended before they were able to ascertain his whereabouts. Rumors began to spread that the mad knight was a new military weapon or just a conspiracy made up by other races. One thing was certain: he was far stronger than your average Demon.",
@@ -1627,7 +1694,7 @@ const UnitInformation = [
                 evoawk: "A masked knight spoken of in Demon legend. After countless massacres during the Great War, he had become known as the mad knight. Even those who had survived the bloodshed were engulfed in the insanity of his presence. No one knows where he is now, but if the words of his armor ring true, he will continue to plague the battlefield in search of souls to devour."
             }
     },
-    { //Ragna - Complete
+    { //Ragna - Complete + JP Dream Evo.
         id: 100616112,
         name: "Ragna",
         rank: "F",
@@ -1653,6 +1720,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6300,
@@ -1666,10 +1742,19 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1800% Fire DMG (PHY). 10% chance to inflict Burn for 5s.",
                 skillbreak: 2500,
-                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' DMG by 20%, Fire Allies' DMG by 30%.",
+                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' DMG by 20% and Fire Allies' DMG by an additional 30%.",
                 artsbreak: 3000,
-                truearts: "24950% Fire DMG (PHY). For 10s, increase Allies' DMG and Break PWR by 20%, Fire Allies' DMG and Break PWR by 30%.",
+                truearts: "24950% Fire DMG (PHY). For 10s, increase Allies' DMG and Break PWR by 20%, and Fire Allies' DMG and Break PWR by an additional 30%.",
                 trueartsbreak: 5500
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1800% Fire DMG (PHY). 10% chance to inflict Burn for 5s.",
+                skillbreak: 2500,
+                arts: "17000% Fire DMG (PHY). For 15s, increase Allies' DMG by 30% and Fire Allies' DMG by an additional 30%.",
+                artsbreak: 3000,
+                truearts: "45000% Fire DMG (PHY). For 20s, increase Allies' DMG and Break PWR by 50%, and Fire Allies' DMG and Break PWR by an additional 30%.",
+                trueartsbreak: 6000
             },
         passive: 
             {
@@ -1709,6 +1794,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat5amt: 5,
                     hover5: "Ragsherum Phantom"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Earth enemies by 50%.`,
+                        ability2: `Increase own Equip CT Speed by 10%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosraidus",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 200 at start of quest.`,
+                        ability2: `Increase God allies' Arts by 1/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: 
@@ -24232,6 +24351,201 @@ const UnitInformation = [
                         ability1: `When equipped by Goddess Celia, increase own DMG and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own CRI DMG by 20%.`
                     }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Halloween Charlotte - Missing Lore (JP)
+        id: 103777112,
+        name: `Halloween Charlotte`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103776112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103777112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103776112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103777112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7810,
+                hpplus: 1470,
+                atk: 4012,
+                atkplus: 692,
+                def: 2513,
+                defplus: 528
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2200% Fire DMG (PHY). Increase own Arts by 30. If this skill crits, increase own Arts by 60 instead.`,
+                skillbreak: 300,
+                arts: `23000% Fire DMG (PHY). For 35s, increase own CRI DMG by 150%.`,
+                artsbreak: 800,
+                truearts: `70000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
+                trueartsbreak: 1800,
+                superarts: `185000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 50%.`,
+                superartsbreak: 2200
+            },
+        passive: 
+            {
+                ability1: `Increase own CRI rate by 100% against enemies with 1 or more stacks of Bleed.`,
+                ability2: `Increase own Accuracy by 100% against enemies with 3 stacks of Bleed.`,
+                ability3: `Increase own Freeze RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Halloween Valerie - Missing Lore (JP)
+        id: 103787212,
+        name: `Halloween Valerie`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103786212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103787212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103786212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103787212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7590,
+                hpplus: 1430,
+                atk: 4000,
+                atkplus: 690,
+                def: 2688,
+                defplus: 562
+            },
+        skillset: 
+            {
+                skill: `11s CT - 1700% Water DMG (MAG). Increase own Arts by 30. If self is unafflicted by Status Ailments, increase Arts by 50 instead.`,
+                skillbreak: 500,
+                arts: `22000% Water DMG (MAG). For 25s, increase own ATK by 120%.`,
+                artsbreak: 700,
+                truearts: `60000% Water DMG (MAG). For 45s, reduce enemies' MAG RES by 70% (stackable).`,
+                trueartsbreak: 1500,
+                superarts: `165000% Water DMG (MAG). For 20s, increase own DMG by 200% and ignore 100% of Enemies' DEF. Additionally when used for the first time, resets the cooldown of own Magic Equips.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase all Allies' DMG RES with respect to how high own % of HP is (MAX: 30%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% × own ATK/100].`,
+                ability3: `Increase own Paralysis RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 220,
+                    hover2: `Frostsprite Soulgem`
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Halloween Forte - Missing Lore (JP)
+        id: 103797512,
+        name: `Halloween Forte`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103796512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103797512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103796512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103797512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7820,
+                hpplus: 1410,
+                atk: 3168,
+                atkplus: 626,
+                def: 3243,
+                defplus: 614
+            },
+        skillset: 
+            {
+                skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.`,
+                skillbreak: 700,
+                arts: `16000% Dark DMG (MAG). For 20s, increase all Allies' ATK and Equip CT Speed by 40%.`,
+                artsbreak: 1300,
+                truearts: `43000% Dark DMG (MAG). For 18s, increase all Allies' Arts by 4/s and reduce enemies' Dark RES by 100%.`,
+                trueartsbreak: 2000,
+                superarts: `120000% Dark DMG (MAG). For 15s, increase all Dark allies' DMG and Break Power by 200%.`,
+                superartsbreak: 3500
+            },
+        passive: 
+            {
+                ability1: `Increase all Allies' DMG by [30 x # of Unique Races in the Party]% (MAX: 120%).`,
+                ability2: `Increase own Curse RES by 60%.`,
+                ability3: `Increase own Seal RES by 60%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
             },
         lore: 
             {   

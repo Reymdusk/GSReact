@@ -464,6 +464,40 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 13,
+        date: `October 16, 2023`,
+        article: 
+        {
+            intro: `Spooky season is just around the corner... A fresh set of Halloween-themed Units and Equips have made their appearance in the JP version! Moreover, Abaddon and Ragna get their very own Dream Awakening!`,
+            new: 
+                {
+                    units: [
+                        [`Halloween Charlotte`, 103777112],
+                        [`Halloween Valerie`, 103787212],
+                        [`Halloween Forte`, 103797512]
+                    ],
+                    equips: [
+                        [`シャルのガオおてて`, 111901],
+                        [`シャルのガオおみあし`, 111911],
+                        [`トリック・オア・ダイ`, 111921],
+                        [`フォルテのドーリィドレス`, 111931],
+                        [`ヴァレリーのまじりざステッキ`, 111941],
+                        [`フォルテのちっちゃいぼうし`, 111951]
+                    ],
+                    dream: [
+                        [`Abaddon`, 100606512],
+                        [`Ragna`, 100616112]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
