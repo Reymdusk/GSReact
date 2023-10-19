@@ -23182,7 +23182,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Hazuki - Missing Lore (JP)
+    { // Hazuki - Missing Lore (GL)
         id: 103547412,
         name: "Hazuki",
         attribute: "Light",
@@ -23243,7 +23243,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Lightning Strike`,
+                name: `Jurai`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110801.png",
                 skill: `50s CT - 10000% Light DMG (PHY). For 10s, increase own DMG by 50% and increase Light Allies' DMG by 30%.`,
@@ -23256,8 +23256,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Star God Liza - Missing Lore (JP)

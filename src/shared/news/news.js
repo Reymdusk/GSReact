@@ -498,6 +498,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 14,
+        date: `October 20, 2023`,
+        article: 
+        {
+            intro: `Spooky season arrives on Global! Brand new Halloween-themed equips have been released as well as a brand new Ascended unit Hazuki with her very own farmable equips!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Hazuki`, 103547412]
+                    ],
+                    equips: [
+                        [`Rusty Waitress Marika`, 110701],
+                        [`Field Medic Forte`, 110711],
+                        [`Fantom Filcher Fen`, 110721],
+                        [`Ruffhousing Lotte`, 110731],
+                        [`Magical Muscles Valerie`, 110741],
+                        [`Shepherd of Isliid`, 110751],
+                        [`True 'Jurai'`, 110801],
+                        [`Chainblade 'Jurai'`, 110811],
+                        [`Shinobi Haori 'Gaun'`, 110821]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

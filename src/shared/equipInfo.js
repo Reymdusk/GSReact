@@ -29386,9 +29386,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //マリカのハイカラメイド (PSS Halloween Equip) - JP Complete
+{ //Rusty Waitress Marika- Missing Lore
         id: 110701,
-        name: `マリカのハイカラメイド`,
+        name: `Rusty Waitress Marika`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -29413,11 +29413,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //フォルテのゴシックナース (PSS Halloween Equip) - JP Complete
+{ //Field Medic Forte - Missing Lore
         id: 110711,
-        name: `フォルテのゴシックナース`,
+        name: `Field Medic Forte`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29442,11 +29442,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //フェンの怪盗服 (PSS Halloween Equip) - JP Complete
+{ //Fantom Filcher Fen - Missing Lore
         id: 110721,
-        name: `フェンの怪盗服`,
+        name: `Fantom Filcher Fen`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29464,18 +29464,18 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' Physical resistance by 20% and Arts gauge by 3 for 10s`,
+                skill: `30s CT - Increase all allies' Physical resistance by 20% and Arts gauge by 3/s for 10s`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //シャルの『がおがお』 (PSS Halloween Equip) - JP Complete
+{ //Ruffhousing Lotte - Missing Lore
         id: 110731,
-        name: `シャルの『がおがお』`,
+        name: `Ruffhousing Lotte`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29500,11 +29500,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //マジカルヴァレリー（物理） - JP Complete
+{ //Magical Muscles Valerie - Missing Lore
         id: 110741,
-        name: `マジカルヴァレリー（物理）`,
+        name: `Magical Muscles Valerie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29529,11 +29529,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ゴッド・オブ・イスリーダ (PSS Halloween Equip) - JP Complete
+{ //Shepherd of Isliid - Missing Lore
         id: 110751,
-        name: `ゴッド・オブ・イスリーダ`,
+        name: `Shepherd of Isliid`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29558,7 +29558,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『炎紋斬決』 (SDBerwick TW) - JP Complete
         id: 110761,
@@ -29679,10 +29679,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『受雷』 (Hazuki TW) - JP Complete
+{ //True 'Jurai' - Missing Lore
         id: 110801,
-        name: `真『受雷』`,
-        translate: `True 'Lightning Strike'`,
+        name: `True 'Jurai'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -29709,12 +29708,11 @@ const EquipInformation = [
                 ability1: `When equipped by Hazuki, increase all stats by 20% and increase own Arts gauge by 100 when entering Third Eye (Only once).`,
                 ability2: `Skill CT speed 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //鎖条切『受雷』 (Hazuki Farmable) - JP Complete
+{ //Chainblade 'Jurai' - Missing Lore
         id: 110811,
-        name: `鎖条切『受雷』`,
-        translate: `'Lightning Strike'`,
+        name: `Chainblade 'Jurai'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29739,11 +29737,11 @@ const EquipInformation = [
             {
                 ability1: `Accuracy rate 20% UP when own HP is 90% or above`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //忍羽織『臥雲』 (Hazuki Farmable) - JP Complete
+{ //Shinobi Haori 'Gaun' - Missing Lore
         id: 110821,
-        name: `忍羽織『臥雲』`,
+        name: `Shinobi Haori 'Gaun'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -29768,7 +29766,7 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Ever Flash "Fon Cruz" Replica - Missing Lore
         id: 110831,
