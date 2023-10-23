@@ -26027,6 +26027,7 @@ const EquipInformation = [
 { //カボシェルムの召喚石 (Jackosherum Raid Equip) - JP Complete
         id: 109551,
         name: `カボシェルムの召喚石`,
+        translate: `Jack-o-Sherum Summonstone`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
