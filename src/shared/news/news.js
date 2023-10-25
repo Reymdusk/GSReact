@@ -530,6 +530,28 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 15,
+        date: `October 25, 2023`,
+        article: 
+        {
+            intro: `Super small update for the JP side. Along with a new difficulty to Jack-o-Sherum raid, Jack-o-Sherum Plushie EV can now be crafted using the Halloween Raid materials!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`極『カボシェルムのぬいぐるみ』`, 111951]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

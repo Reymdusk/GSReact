@@ -33125,6 +33125,37 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //極『カボシェルムのぬいぐるみ』(Jack-o-Sherum Plushie EV) - JP Complete
+        id: 111951,
+        name: `極『カボシェルムのぬいぐるみ』`,
+        translate: `Jack-o-Sherum Plushie EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 6666% Dark DMG (Physical). Increases ATK by 50% & Demons' ATK by 30% for 15s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `DMG to Gods 20% UP.`,
+                ability2: [`DMG against Light enemies 10% UP.`, `DMG against Dark enemies 10% UP.`, `Light RES 5% UP.`, `Dark RES 5% UP.`, `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name.`, `At the Start of Quest, increase own Arts gauge by 20. Does not stack with Abilities of the same name.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
