@@ -33126,17 +33126,17 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     { //極『カボシェルムのぬいぐるみ』(Jack-o-Sherum Plushie EV) - JP Complete
-        id: 111951,
+        id: 111961,
         name: `極『カボシェルムのぬいぐるみ』`,
         translate: `Jack-o-Sherum Plushie EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_111950.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_111951.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111950.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111951.png`
+                detail: `/db/Equipment/Detail/item_detail_111960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111961.png`
             },
         stats:
             {
