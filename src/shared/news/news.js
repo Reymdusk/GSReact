@@ -552,6 +552,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 16,
+        date: `November 2, 2023`,
+        article: 
+        {
+            intro: `A big update for both GL and JP versions! While GL introduces Dream Awakening and buffs for Goblin Slayer units with its rerun, JP's latest Main Story chapter introduces a new Emperor Isliid along with some new equips as well.`,
+            new: 
+                {
+                    units: [
+                        [`Beyond Fate, Emperor Isliid`, 103807412]
+                    ],
+                    equips: [
+                        [`真『ルーンマスター』』`, 111971],
+                        [`真『フォルコメンドライ』`, 111981],
+                        [`フォルコメンドライ・レプリカ`, 111991],
+                        [`ルーンマスター・レプリカ`, 112001]
+
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Goblin Slayer`, 107186512],
+                        [`Priestess`, 107196412],
+                        [`High Elf Archer`, 107206312]
+                    ]
+                }
+        }
     }
 ]
 

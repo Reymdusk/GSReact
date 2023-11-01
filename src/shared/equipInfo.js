@@ -29032,7 +29032,7 @@ const EquipInformation = [
 { //Beast Steel 'Trance Frenzy' Replica - Missing Lore
         id: 110581,
         name: `Beast Steel 'Trance Frenzy' Replica`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         location: `Earth Summoner's Road`,
         image: 
@@ -29062,7 +29062,7 @@ const EquipInformation = [
 { //Beast Steel 'Trance Frenzy' Replica - Missing Lore
         id: 110591,
         name: `Beast Steel 'Trance Frenzy' Custom`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         location: `Earth Summoner's Road`,
         image: 
@@ -29110,7 +29110,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Increase all allies' Arts gauge by 25. Increase all Human allies' DMG by 40% for 15s.`,
+                skill: `30s CT - Increase all allies' Arts gauge by 25. Increase all Human allies' DMG by 40% for 15s.`,
                 break: 0
             },
         passive: 
@@ -29272,7 +29272,7 @@ const EquipInformation = [
 { //Yokai Sickle "Bloody Mikazuki" Replica (SR Equip) - Missing Lore
         id: 110661,
         name: `Yokai Sickle 'Bloody Mikazuki' Replica`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         location: `Fire Summoner's Road`,
         image: 
@@ -29302,7 +29302,7 @@ const EquipInformation = [
 { //Yokai Sickle "Bloody Mikazuki" Custom - Missing Lore
         id: 110671,
         name: `Yokai Sickle 'Bloody Mikazuki' Custom`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         location: `Fire Summoner's Road`,
         star: 6,
         image: 
@@ -29772,7 +29772,7 @@ const EquipInformation = [
 { //Ever Flash "Fon Cruz" Replica - Missing Lore
         id: 110831,
         name: `Ever Flash 'Fon Cruz' Replica`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         location: `Light Summoner's Road`,
         image: 
@@ -29802,7 +29802,7 @@ const EquipInformation = [
 { //Ever Flash 'Fon Cruz' Custom - Missing Lore
         id: 110841,
         name: `Ever Flash 'Fon Cruz' Custom`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         location: `Light Summoner's Road`,
         image: 
@@ -30213,7 +30213,7 @@ const EquipInformation = [
 { //Sinful Guards "Fathomless" Replica  - Missing Lore
         id: 110981,
         name: `Sinful Guards "Fathomless" Replica`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         location: `Dark Summoner's Road`,
         image: 
@@ -30243,7 +30243,7 @@ const EquipInformation = [
 { //Sinful Guards "Fathomless" Custom  - Missing Lore
         id: 110991,
         name: `Sinful Guards "Fathomless" Custom`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         location: `Dark Summoner's Road`,
         image: 
@@ -30481,7 +30481,7 @@ const EquipInformation = [
 { //Glacial Flail 'Dawn Devastator' Replica  - Missing Lore
         id: 111071,
         name: `Glacial Flail 'Dawn Devastator' Replica`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         location: `Water Summoner's Road`,
         star: 6,
         image: 
@@ -30511,7 +30511,7 @@ const EquipInformation = [
 { //Glacial Flail "Dawn Devastator" Custom - Missing Lore
         id: 111081,
         name: `Glacial Flail "Dawn Devastator" Custom`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         location: `Water Summoner's Road`,
         star: 6,
         image: 
@@ -30657,7 +30657,7 @@ const EquipInformation = [
 { //双炎兜『ガルムロア』レプリカ - JP Complete
         id: 111131,
         name: `双炎兜『ガルムロア』レプリカ`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
             {
@@ -30686,7 +30686,7 @@ const EquipInformation = [
 { //双炎兜『ガルムロア』アレンジ - JP Complete
         id: 111141,
         name: `双炎兜『ガルムロア』アレンジ`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
             {
@@ -30715,7 +30715,7 @@ const EquipInformation = [
 { //氷鱗盾『アエルスケイル』レプリカ - JP Complete
         id: 111151,
         name: `氷鱗盾『アエルスケイル』レプリカ`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
             {
@@ -30744,7 +30744,7 @@ const EquipInformation = [
 { //氷鱗盾『アエルスケイル』アレンジ - JP Complete
         id: 111161,
         name: `氷鱗盾『アエルスケイル』アレンジ`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
             {
@@ -30773,7 +30773,7 @@ const EquipInformation = [
 { //翠竜甲『エルプダロン』レプリカ (SR Equip)  - JP Complete
         id: 111171,
         name: `翠竜甲『エルプダロン』レプリカ`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
             {
@@ -30802,7 +30802,7 @@ const EquipInformation = [
     { //翠竜甲『エルプダロン』アレンジ (SR Equip) - JP Complete
         id: 111181,
         name: `翠竜甲『エルプダロン』アレンジ`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
             {
@@ -31014,7 +31014,7 @@ const EquipInformation = [
 { //祝燐架『フォスブレイス』 レプリカ (Light SR Equip) - JP Complete
         id: 111261,
         name: `祝燐架『フォスブレイス』 レプリカ`,
-        type: `/db/Mines/thumbnail/healLB.png`,
+        type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
             {
@@ -31043,7 +31043,7 @@ const EquipInformation = [
 { //祝燐架『フォスプレイス』 アレンジ (Light SR Equip) - JP Complete
         id: 111271,
         name: `祝燐架『フォスプレイス』 アレンジ`,
-        type: `/db/Mines/thumbnail/healLB.png`,
+        type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
             {
@@ -31072,7 +31072,7 @@ const EquipInformation = [
 { //冥界書『プルトリクス』 レプリカ (Dark SR Equip) - JP Complete
         id: 111281,
         name: `冥界書『プルトリクス』 レプリカ`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
+        type: `/db/Mines/thumbnail/suppLB6.png`,
         star: 6,
         image: 
             {
@@ -31101,7 +31101,7 @@ const EquipInformation = [
 { //冥界書『プルトリクス』 アレンジ (Dark SR Equip) - JP Complete
         id: 111291,
         name: `冥界書『プルトリクス』 アレンジ`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
+        type: `/db/Mines/thumbnail/suppLB6.png`,
         star: 6,
         image: 
             {
@@ -32097,7 +32097,7 @@ const EquipInformation = [
         id: 111621,
         name: `天間器『ゼクスラスタ』レプリカ`,
         translate: `Celestial Device 'Zex Lustre' Replica`,
-        type: `/db/Mines/thumbnail/healLB.png`,
+        type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
             {
@@ -32127,7 +32127,7 @@ const EquipInformation = [
         id: 111631,
         name: `天間器『ゼクスラスタ』アレンジ`,
         translate: `Celestial Device 'Zex Lustre' Custom`,
-        type: `/db/Mines/thumbnail/healLB.png`,
+        type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
             {
@@ -32579,7 +32579,7 @@ const EquipInformation = [
         id: 111781,
         name: `封天鞭『スパインズ・ゴア』レプリカ`,
         translate: `Sealed Whip 'Spines Gore' Replica`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         image: 
             {
@@ -32609,7 +32609,7 @@ const EquipInformation = [
         id: 111791,
         name: `封天鞭『スパインズ・ゴア』アレンジ`,
         translate: `Sealed Whip 'Spines Gore' Custom`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         image: 
             {
@@ -33153,6 +33153,128 @@ const EquipInformation = [
             {
                 ability1: `DMG to Gods 20% UP.`,
                 ability2: [`DMG against Light enemies 10% UP.`, `DMG against Dark enemies 10% UP.`, `Light RES 5% UP.`, `Dark RES 5% UP.`, `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name.`, `At the Start of Quest, increase own Arts gauge by 20. Does not stack with Abilities of the same name.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ルーンマスター』 (True 'Rune Master') - JP Complete
+        id: 111971,
+        name: `真『ルーンマスター』』`,
+        translate: `True 'Rune Master'`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Light DMG (MAG). Increase own MAG DMG By 50% and reduce enemies' MAG RES by 30% (stackable) for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Beyond Fate Emperor Isliid, increase own DMG by 80%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own MAG RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『フォルコメンドライ』 (True 'Vollkommen Drei') - JP Complete
+        id: 111981,
+        name: `真『フォルコメンドライ』`,
+        translate: `True 'Vollkommen Drei'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Light DMG (PHY). Increase own Light DMG by 40% (stackable) for 30s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Beyond Fate Emperor Isliid, increase own ATK by 50%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own PHY RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //フォルコメンドライ・レプリカ - JP Complete
+        id: 111991,
+        name: `フォルコメンドライ・レプリカ`,
+        translate: `Vollkommen Drei Replica`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5000% Light DMG (PHY). Increase own Arts by 15. If user is Light, increase own Stats by 15% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase own BE Output by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ルーンマスター・レプリカ - JP Complete
+        id: 112001,
+        name: `ルーンマスター・レプリカ`,
+        translate: `Rune Master Replica`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 15000% Light DMG (MAG). Increase own MAG DMG by 100% for 10s. Additionally if user is Light, increase own Accuracy by 50% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `If own HP is 80% or higher, increase all allies' MAG DMG by 20%.`
             },
         lore: `Currently unreleased in Global.`
     },

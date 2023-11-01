@@ -124,8 +124,8 @@
                         hover3: "Ifrit",
                     },
                     passive: {
-                        ability1: `Increase all allies' Fire RES by 20%. Does not stack with abilities of the same name.`,
-                        ability2: `Skill will additionally heal own Status ailment (except Faint, Paralyze, Freeze, Seal).`
+                        ability1: ``,
+                        ability2: ``
                     }
                 },
                 water: {
@@ -21237,15 +21237,15 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "18000% Light DMG (PHY). For 10s, increase Allies' stats by 30% and reduce Enemies' PHY RES by 20%.",
                 artsbreak: 1100,
-                truearts: "67000% Light DMG (PHY). Sacrifice 10% of own MAX HP. For 15s, increase Allies' Arts by 6/s. An additional effect occurs depending on the Sword Mode Emperor of Isliid is in when True Arts is activated.",
+                truearts: "67000% Light DMG (PHY). Sacrifice 10% of own MAX HP. For 15s, increase Allies' Arts by 6/s. An additional effect occurs depending on the Sword Mode Emperor Isliid is in when True Arts is activated.",
                 trueartsbreak: 1700
             },
         passive: 
             {
-                ability1: "When in Sky Light Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor of Isliid is in the 1st position, he will only use this mode.",
-                ability2: "When in Terra Master Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor of Isliid is in the 2nd position, he will only use this mode.",
-                ability3: "When in Dark Bringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode.",
-                ability4: `NOTE: If Emperor Isliid is in the 4th Party Slot, he will change modes every True Arts (Skylight -> Granveus -> Darkbringer -> Repeat)`
+                ability1: "When in Sky Light Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor Isliid is in the 1st position, he will only use this mode.",
+                ability2: "When in Terra Master Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor Isliid is in the 2nd position, he will only use this mode.",
+                ability3: "When in Dark Bringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor Isliid is in the 3rd position, he will only use this mode.",
+                ability4: `NOTE: If Emperor Isliid is in the 4th Party Slot, he will change modes every True Arts (Skylight -> Terra Master -> Darkbringer -> Repeat)`
             }, 
         evolution: 
             {
@@ -21292,7 +21292,7 @@ const UnitInformation = [
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: "When equipped by Emperor of Isliid, Increase stats by 30%. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Emperor Isliid, Increase stats by 30%. Does not stack with Abilities of the same name.",
                             ability2: "Increase DMG by 20% to Enemies in BREAK."
                         }
                 },
@@ -21306,7 +21306,7 @@ const UnitInformation = [
                     skillbreak: 1000,
                     passive: 
                         {
-                            ability1: "When equipped by Emperor of Isliid, increase DMG by 30%. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Emperor Isliid, increase DMG by 30%. Does not stack with Abilities of the same name.",
                             ability2: "Increase PHY evasion by 10%."
                         }
                 }
@@ -24553,6 +24553,105 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Beyond Fate, Emperor Isliid - JP Complete
+        id: 103807412,
+        name: "Beyond Fate, Emperor Isliid",
+        translate: "Beyond Fate Emperor Isliid",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103806412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103807412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103806412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103807412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7478,
+                hpplus: 1409,
+                atk: 4082,
+                atkplus: 703,
+                def: 2731,
+                defplus: 570
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2500% Light DMG (PHY). Increase own Arts by 20. For 8s, increase own Paralysis RES and Freeze RES by 100%.`,
+                skillbreak: 800,
+                arts: `27000% Light DMG (PHY). An additional effect occurs depending on the Sword Mode he is in when Arts is activated.`,
+                artsbreak: 1200,
+                truearts: `60000% Light DMG (PHY). For 8s, increase all allies' Arts by 10/s. For 20s, reduce enemies' DMG RES by 60%. If enemy is Human, God or Demon, reduce enemies' DMG RES by 120% instead.`,
+                trueartsbreak: 1800,
+                superarts: `150000% Light DMG (MAG). When Super Arts is activated, reduce own remaining Equip CT by half. For 20s, increase Allies unaffected by Status Ailments' Equipment CT Speed by 30%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `If unaffected by Status Ailments, increase own Arts by 7/s.`,
+                ability2: `When in Skylight Sword Mode, activations of own Arts increase Allies' Magic Equip CT Speed by 30% and own DMG against Gods by 180% for 25s. If he is in the 1st position, he will only use this mode.`,
+                ability3: `When in Terra Master Sword Mode, activations of own Arts increase Allies' Support Equip CT Speed by 30% and own DMG against Humans by 180% for 25s. If he is in the 2nd position, he will only use this mode.`,
+                ability4: `When in Darkbringer Sword Mode, activations of own Arts increase Allies' Physical Equip CT Speed by 30% and own DMG against Demons by 180% for 25s. If he is in the 3rd position, he will only use this mode.`,
+                ability5: `NOTE: If Beyond Fate Emperor Isliid is in the 4th position, he will change modes every Arts (in the order of Skylight -> Terra Master -> Darkbringer -> repeat).`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 220,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                true1: 
+                {
+                    name: "Rune Master",
+                    slot: "/db/Mines/thumbnail/magLB6.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_111971.png",
+                    detail: "/db/Equipment/Detail/item_detail_111971.png",
+                    skill: "50s CT - 10000% Light DMG (MAG). Increase own MAG DMG By 50% and reduce enemies' MAG RES by 30% (stackable) for 20s.",
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: "When equipped by Beyond Fate Emperor Isliid, increase own DMG by 80%. Does not stack with Abilities of the same name.",
+                            ability2: "Increase own MAG RES by 5%."
+                        }
+                },
+                true2: 
+                {
+                    name: "Vollkommen Drei",
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_111981.png",
+                    detail: "/db/Equipment/Detail/item_detail_111981.png",
+                    skill: "50s CT - 8000% Light DMG (PHY). Increase own Light DMG by 40% (stackable) for 30s.",
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: "When equipped by Beyond Fate Emperor Isliid, increase own ATK by 50%. Does not stack with Abilities of the same name.",
+                            ability2: "Increase own PHY RES by 5%."
+                        }
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -25649,7 +25748,10 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                     mat2amt: 50,
-                    hover2: `Flametail Soulgem`
+                    hover2: `Flametail Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
+                    mat3amt: 2,
+                    hover3: `Ifrit`
                 },
                 passive: {
                     ability1: `Increase all allies' Fire RES by 20%. Does not stack with abilities of the same name.`,
@@ -25662,7 +25764,10 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                     mat2amt: 50,
-                    hover2: `Frostsprite Soulgem`
+                    hover2: `Frostsprite Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
+                    mat3amt: 2,
+                    hover3: `Freydal`
                 },
                 passive: {
                     ability1: `Increase own Equipment CT Speed by 15%.`,
@@ -25675,7 +25780,10 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                     mat2amt: 50,
-                    hover2: `Smogdragon Soulgem`
+                    hover2: `Smogdragon Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
+                    mat3amt: 2,
+                    hover3: `Elpneumas`
                 },
                 passive: {
                     ability1: `Increase own Heal Amount by 20%.`,
@@ -25688,7 +25796,10 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 50,
-                    hover2: `Eternaglit Soulgem`
+                    hover2: `Eternaglit Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
+                    mat3amt: 2,
+                    hover3: `Wilkes`
                 },
                 passive: {
                     ability1: `Increase own BE Output by 20%.`,
@@ -25701,7 +25812,10 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                     mat2amt: 50,
-                    hover2: `Sinful Soulgem`
+                    hover2: `Sinful Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                    mat3amt: 2,
+                    hover3: `Ragsherum Phantom`
                 },
                 passive: {
                     ability1: `Increase all Demon Allies' Arts by 2/s. Does not stack with abilities of the same name.`,
@@ -25830,7 +25944,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flametail Soulgem`
+                        hover2: `Flametail Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
+                        mat3amt: 2,
+                        hover3: `Degilmagna`
                     },
                     passive: {
                         ability1: `Increase Critical DMG by 200%.`,
@@ -25843,7 +25960,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
-                        hover2: `Smogdragon Soulgem`
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
+                        mat3amt: 2,
+                        hover3: `Tonetaurus`
                     },
                     passive: {
                         ability1: `Increase own Break Power against Earth Enemies by 100%.`,
@@ -25972,7 +26092,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flametail Soulgem`
+                        hover2: `Flametail Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
+                        mat3amt: 2,
+                        hover3: `Flogassa`
                     },
                     passive: {
                         ability1: `Increase own CRI DMG by 150%.`,
@@ -25985,7 +26108,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                        mat3amt: 2,
+                        hover3: `Ragsherum Phantom`
                     },
                     passive: {
                         ability1: `Increase all allies' MAG DMG by 30%. Does not stack with abilities of the same name.`,
@@ -26058,6 +26184,15 @@ const UnitInformation = [
             },
         slots: 
             {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -26087,9 +26222,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 1100% Dark DMG (PHY). Permanently increase own DMG & Break PWR every time Skill is used (Up to 100%).",
                 skillbreak: 1200,
-                arts: "18000% Water DMG (PHY). For 10s, reduce Enemies' Break RES and DMG RES by 30%.",
+                arts: "22000% Water DMG (PHY). For 20s, reduce Enemies' Break RES and DMG RES by 30%.",
                 artsbreak: 2800,
-                truearts: "45000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 2/s.",
+                truearts: "75000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 3/s.",
                 trueartsbreak: 3000
             },
         skillsetJP: 
@@ -26102,6 +26237,11 @@ const UnitInformation = [
                 trueartsbreak: 3000
             },
         passive: 
+            {
+                ability1: "Increase DMG to Demon enemies by 100%. Increase Freeze and Paralysis RES by 100%.",
+                ability2: "When near-death, increase Arts by 4/s."
+            },
+        passiveJP: 
             {
                 ability1: "Increase DMG to Demon enemies by 50%. Increase Freeze and Paralysis RES by 100%.",
                 ability2: "When near-death, increase Arts by 4/s."
@@ -26117,6 +26257,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
                     mat3amt: 1,
                     hover3: "Mavroskia",
+                }
+            },
+            dreamGL: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPLACEHOLDER.png",
+                        mat3amt: 2,
+                        hover3: "PLACEHOLDER",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG by 150% during BREAK.`,
+                        ability2: `Increase own Arts by 2/s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPLACEHOLDER.png",
+                        mat3amt: 2,
+                        hover3: "PLACEHOLDER",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power by 100% against Demon enemies.`,
+                        ability2: `Increase all allies' Skill CT Speed by 20% (Only once).`
+                    }
                 }
             },
         lore: 
@@ -26140,6 +26314,15 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107196412.png"
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/healLB.png",
@@ -26170,9 +26353,9 @@ const UnitInformation = [
             {
                 skill: "10s CT - Heals all Allies' HP by 700.",
                 skillbreak: 0,
-                arts: "8800% Light DMG (MAG). 80% chance of inflicting Blind for 15s. Increase Allies' Arts by 30.",
+                arts: "15000% Light DMG (MAG). 100% chance of inflicting Blind for 15s. Increase Allies' Arts by 30.",
                 artsbreak: 1200,
-                truearts: "For 45s, Allies gain a DMG barrier that negates 8000 DMG, increase own Skill CT REC and Healing Output by 100%.",
+                truearts: "For 45s, Allies gain a DMG barrier that negates 12000 DMG, increase own Skill CT REC and Healing Output by 100%.",
                 trueartsbreak: 0
             },
         skillsetJP: 
@@ -26187,12 +26370,12 @@ const UnitInformation = [
         passive: 
             {
                 ability1: "Increase Poison RES by 50%.",
-                ability2: "Increase own Arts by 2/s. Increase Allies' max HP by 15%. Does not stack with Abilities of the same name."
+                ability2: "Increase own Arts by 2/s. Increase Allies' Max HP by 20%. Does not stack with Abilities of the same name."
             }, 
         passiveJP: 
             {
                 ability1: "Increase Poison RES by 50%.",
-                ability2: "Increase own Arts by 2/s. Increase Allies' max HP by 10%. Does not stack with Abilities of the same name."
+                ability2: "Increase own Arts by 2/s. Increase Allies' Max HP by 10%. Does not stack with Abilities of the same name."
             },
         evolution: 
             {
@@ -26207,6 +26390,40 @@ const UnitInformation = [
                     hover3: "Radachne",
                 }
             },
+        dreamGL: {
+            water: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 50,
+                    hover2: `Frostsprite Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragPLACEHOLDER.png",
+                    mat3amt: 2,
+                    hover3: "PLACEHOLDER",
+                },
+                passive: {
+                    ability1: `Adds "Increase all allies' Arts by 10" effect to Skill.`,
+                    ability2: `Increase all allies' Water RES by 20% (Only once).`
+                }
+            },
+            light: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 50,
+                    hover2: `Eternaglit Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragPLACEHOLDER.png",
+                    mat3amt: 2,
+                    hover3: "PLACEHOLDER",
+                },
+                passive: {
+                    ability1: `Increase all allies' Heal Amount by 20% (except Lifesteal).`,
+                    ability2: `Increase all Human allies' Arts by 2/s (Only once).`
+                }
+            }
+        },
         lore: 
             {   
                 evo5: "This green adventurer only recently left the temple of the Earth Mother. On her first outing as an adventurer, she was attacked by goblins and was saved by Goblin Slayer at the last minute. Ever since she has joined him on his quests. She is often perplexed by his erratic behavior, but in truth, she trusts him deeply.",
@@ -26228,6 +26445,15 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107206312.png"
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -26258,9 +26484,9 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1800% Earth DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
                 skillbreak: 800,
-                arts: "20000% Earth DMG (PHY). 60% chance of inflicting Faint for 3s. If Enemy was Fainted by this Arts, for 10s, reduce that Enemy's PHY RES by 40%.",
+                arts: "25000% Earth DMG (PHY). 60% chance of inflicting Faint for 3s. If Enemy was Fainted by this Arts, for 15s, reduce that Enemy's PHY RES by 60%.",
                 artsbreak: 2200,
-                truearts: "42000% Earth DMG (PHY). For 20s, increase Allies' Critical Rate by 100% and evasion by 20%.",
+                truearts: "77000% Earth DMG (PHY). For 25s, increase Allies' Critical Rate by 100% and evasion by 20%.",
                 trueartsbreak: 3500
             },
         skillsetJP: 
@@ -26274,7 +26500,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "Increase Critical DMG by 70%.",
+                ability1: "Increase Critical DMG by 80%.",
                 ability2: "Increase own Evasion by 10% and increase own Accuracy by 50%."
             }, 
         passiveJP: 
@@ -26295,6 +26521,40 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
+        dreamGL: {
+            earth: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 50,
+                    hover2: `Smogdragon Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragPLACEHOLDER.png",
+                    mat3amt: 2,
+                    hover3: "PLACEHOLDER",
+                },
+                passive: {
+                    ability1: `Increase own Arts by 200 at the Start of Quest (Only once).`,
+                    ability2: `Increase all allies' PHY DMG By 30% (Only once).`
+                }
+            },
+            dark: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                    mat2amt: 50,
+                    hover2: `Sinful Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragPLACEHOLDER.png",
+                    mat3amt: 2,
+                    hover3: "PLACEHOLDER",
+                },
+                passive: {
+                    ability1: `Increase all allies' Accuracy by 30% (Only once).`,
+                    ability2: `Increase own Arts by 3/s.`
+                }
+            }
+        },
         lore: 
             {   
                 evo5: "A High Elf adventurer who joined Goblin Slayer's party. She uses the bow in battle, and she's incredibly accurate at long distances. The High Elves are long-lived people, and although she appears quite young, she is in truth 2000 years old. And yet, inside she remains somehow childlike.",
@@ -27901,7 +28161,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Frostsprite Soulgem`
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
+                        mat3amt: 2,
+                        hover3: `Freydal`
                     },
                     passive: {
                         ability1: `Increase all Allies' Skill CT by 20%. Does not stack with Abilities of the same name.`,
@@ -27914,7 +28177,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
+                        mat3amt: 2,
+                        hover3: `Radachne`
                     },
                     passive: {
                         ability1: `When an Ally dies (except self), revive that Ally with 50% HP. Ability can only be activated once per Quest.`,
@@ -28036,34 +28302,40 @@ const UnitInformation = [
                 ability2: "Increase DMG to Enemies under 30% HP by 20%.",
                 ability3: "When HP is above 50%, increases Arts' and True Arts' buff durations by 50%."
             },
-            dreamJP: {
-                fire: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
-                        mat2amt: 50,
-                        hover2: `Flametail Soulgem`
-                    },
-                    passive: {
-                        ability1: `Increase all Fire Allies' DMG by 30%. Does not stack with abilities of the same name.`,
-                        ability2: ``
-                    }
+        dreamJP: {
+            fire: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 50,
+                    hover2: `Flametail Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
+                    mat3amt: 2,
+                    hover3: `Flogassa`
                 },
-                light: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`
-                    },
-                    passive: {
-                        ability1: `When own HP is 80% or higher, increase own ATK by 50%.`,
-                        ability2: `When own HP is 80% or higher, increase own Arts by 2/s.`
-                    }
+                passive: {
+                    ability1: `Increase all Fire Allies' DMG by 30%. Does not stack with abilities of the same name.`,
+                    ability2: ``
                 }
             },
+            light: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 50,
+                    hover2: `Eternaglit Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
+                    mat3amt: 2,
+                    hover3: `Radachne`
+                },
+                passive: {
+                    ability1: `When own HP is 80% or higher, increase own ATK by 50%.`,
+                    ability2: `When own HP is 80% or higher, increase own Arts by 2/s.`
+                }
+            }
+        },
         evolution: 
             {
                 evo5awk:
@@ -28185,7 +28457,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
-                        hover2: `Smogdragon Soulgem`
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragGoldola.png`,
+                        mat3amt: 2,
+                        hover3: `Goldola`
                     },
                     passive: {
                         ability1: `Increase own Arts by 100 at the start of quest.`,
@@ -28198,7 +28473,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragOldeus.png`,
+                        mat3amt: 2,
+                        hover3: `Oldeus`
                     },
                     passive: {
                         ability1: `Increase DMG to Light Enemies by 100%.`,
@@ -28328,7 +28606,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Frostsprite Soulgem`
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragPalamicia.png`,
+                        mat3amt: 2,
+                        hover3: `Palamicia`
                     },
                     passive: {
                         ability1: `Increase own Equipment CT Speed by 10%.`,
@@ -28341,7 +28622,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                        mat3amt: 2,
+                        hover3: `Ragsherum Phantom`
                     },
                     passive: {
                         ability1: `Increase own Status RES (except Faint) by 30%.`,
@@ -28472,7 +28756,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flametail Soulgem`
+                        hover2: `Flametail Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
+                        mat3amt: 2,
+                        hover3: `Ifrit`
                     },
                     passive: {
                         ability1: `Increase all Allies' Accuracy by 20%. Does not stack with Abilities of the same name.`,
@@ -28485,7 +28772,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
+                        mat3amt: 2,
+                        hover3: `Radachne`
                     },
                     passive: {
                         ability1: `Increase Light Allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
