@@ -26224,7 +26224,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "22000% Water DMG (PHY). For 20s, reduce Enemies' Break RES and DMG RES by 30%.",
                 artsbreak: 2800,
-                truearts: "75000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 3/s.",
+                truearts: "70000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 3/s.",
                 trueartsbreak: 5000
             },
         skillsetJP: 
