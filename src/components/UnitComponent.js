@@ -71,7 +71,8 @@ function UnitHome() {
                         <RenderStats unitName={units.name} unitStats={units.stats} unitStatsJP={units.statsJP}
                                                     unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} unitSkillJP={units.skillsetJP}
                                                     unitPassive={units.passive} unitPassiveJP={units.passiveJP} unitSlots={units.slots} unitSlotsJP={units.slotsJP}
-                                                    unitImage={units.image} unitReview={units.review} unitDreamJP={units.dreamJP} unitDream={units.dream}
+                                                    unitImage={units.image} unitReview={units.review} unitDreamJP={units.dreamJP} unitDreamGL={units.dreamGL} 
+                                                    unitDream={units.dream}
                                                     />
                     </TabPane>
                     <TabPane tabId="3">

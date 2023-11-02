@@ -26259,7 +26259,7 @@ const UnitInformation = [
                     hover3: "Mavroskia",
                 }
             },
-            dreamGL: {
+        dreamGL: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,

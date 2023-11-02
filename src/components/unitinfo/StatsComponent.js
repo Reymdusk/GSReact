@@ -285,7 +285,7 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
 }
 export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, unitType, unitSkill, 
                             unitSkillJP = false, unitPassive, unitPassiveJP = false, unitSlots, 
-                            unitSlotsJP = false, unitImage, unitReview = false, unitDreamJP = false, unitDream = false})
+                            unitSlotsJP = false, unitImage, unitReview = false, unitDreamJP = false, unitDreamGL = false, unitDream = false})
                             {
     //Hook for Tab State
     const [currentTab, setCurrentTab] = useState('1');
@@ -406,6 +406,9 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
                                         }
                                         <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
                                         <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                                        {
+                                            unitDreamGL && <Dream dream={unitDreamGL} />
+                                        }
                                         {
                                             review ? 
                                             <>
