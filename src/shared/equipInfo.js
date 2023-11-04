@@ -33152,13 +33152,13 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `DMG to Gods 20% UP.`,
-                ability2: [`DMG against Light enemies 10% UP.`, `DMG against Dark enemies 10% UP.`, `Light RES 5% UP.`, `Dark RES 5% UP.`, `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name.`, `At the Start of Quest, increase own Arts gauge by 20. Does not stack with Abilities of the same name.`]
+                ability2: [`DMG against Light enemies 10% UP.`, `DMG against Dark enemies 10% UP.`, `Light resistance 5% UP.`, `Dark resistance 5% UP.`, `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name.`, `At the Start of Quest, increase own Arts gauge by 20. Does not stack with Abilities of the same name.`]
             },
         lore: `Currently unreleased in Global.`
     },
     { //真『ルーンマスター』 (True 'Rune Master') - JP Complete
         id: 111971,
-        name: `真『ルーンマスター』』`,
+        name: `真『ルーンマスター』`,
         translate: `True 'Rune Master'`,
         type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
@@ -33177,13 +33177,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 10000% Light DMG (MAG). Increase own MAG DMG By 50% and reduce enemies' MAG RES by 30% (stackable) for 20s.`,
+                skill: `50s CT - 10000% Light DMG (Magic). Increase own Magic DMG By 50% and reduce enemies' Magic resistance by 30% (stackable) for 20s.`,
                 break: 500
             },
         passive: 
             {
                 ability1: `When equipped by Beyond Fate Emperor Isliid, increase own DMG by 80%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own MAG RES by 5%.`
+                ability2: `Increase own Magic resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -33208,13 +33208,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8000% Light DMG (PHY). Increase own Light DMG by 40% (stackable) for 30s.`,
+                skill: `50s CT - 8000% Light DMG (Physical). Increase own Light DMG by 40% (stackable) for 30s.`,
                 break: 500
             },
         passive: 
             {
                 ability1: `When equipped by Beyond Fate Emperor Isliid, increase own ATK by 50%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own PHY RES by 5%.`
+                ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -33239,7 +33239,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 5000% Light DMG (PHY). Increase own Arts by 15. If user is Light, increase own Stats by 15% for 10s.`,
+                skill: `40s CT - 5000% Light DMG (Physical). Increase own Arts by 15. If user is Light, increase own Stats by 15% for 10s.`,
                 break: 300
             },
         passive: 
@@ -33269,12 +33269,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 15000% Light DMG (MAG). Increase own MAG DMG by 100% for 10s. Additionally if user is Light, increase own Accuracy by 50% for 10s.`,
+                skill: `80s CT - 15000% Light DMG (Magic). Increase own Magic DMG by 100% for 10s. Additionally if user is Light, increase own Accuracy by 50% for 10s.`,
                 break: 1000
             },
         passive: 
             {
-                ability1: `If own HP is 80% or higher, increase all allies' MAG DMG by 20%.`
+                ability1: `If own HP is 80% or higher, increase all allies' Magic DMG by 20%.`
             },
         lore: `Currently unreleased in Global.`
     },

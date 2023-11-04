@@ -24572,7 +24572,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
+                slot3: 5,
                 slot31type: "/db/Mines/thumbnail/physLB.png",
                 slot32type: "/db/Mines/thumbnail/suppLB.png"
             },
