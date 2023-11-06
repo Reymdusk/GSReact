@@ -33253,7 +33253,7 @@ const EquipInformation = [
         name: `ルーンマスター・レプリカ`,
         translate: `Rune Master Replica`,
         type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_112000.png`,
