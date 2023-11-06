@@ -23187,6 +23187,7 @@ const UnitInformation = [
         name: "Hazuki",
         attribute: "Light",
         type: "Human",
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103546412.png",
@@ -31674,6 +31675,7 @@ const UnitInformation = [
     { //Gabimaru - Complete, Review done
         id: 107797112,
         name: `Gabimaru`,
+        rank: `S`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -31763,6 +31765,7 @@ const UnitInformation = [
         name: `Sagiri`,
         attribute: `Earth`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107806312.png",
@@ -31850,6 +31853,7 @@ const UnitInformation = [
         name: `Yuzuriha`,
         attribute: `Dark`,
         type: `Human`,
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107816512.png",
@@ -31940,6 +31944,7 @@ const UnitInformation = [
         name: `Chobe`,
         attribute: `Light`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107826412.png",
