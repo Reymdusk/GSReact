@@ -33252,8 +33252,8 @@ const EquipInformation = [
         id: 112001,
         name: `ルーンマスター・レプリカ`,
         translate: `Rune Master Replica`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
+        type: `/db/Mines/thumbnail/magLB6.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_112000.png`,
@@ -33264,7 +33264,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
+                atk: 600,
                 def: 0
             },
         skillset:  
