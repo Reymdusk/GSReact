@@ -3,7 +3,6 @@ import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, Acco
         Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getEquips } from '../../shared/equipInfo';
-import Placeholder from 'react-placeholder';
 import 'react-placeholder/lib/reactPlaceholder.css';
 import '../../App.css';
 
@@ -139,7 +138,7 @@ const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPer
             
             //Check for Types
             const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
-            const hasMatchingTypes = selectedTypes.some((type) => equip.type.includes(`/db/Mines/thumbnail/${type}LB.png`))
+            const hasMatchingTypes = selectedTypes.some((type) => equip.type.includes(`${type}LB`))
             
             //Check for Rarity
             const selectedRarities = Object.keys(filters.rarity).filter((key) => filters.rarity[key])
@@ -243,16 +242,12 @@ const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPer
                     return (
                         <>
                             { equip.name !== "???" &&
-                                <Col key={equip.id} xs="4" sm="auto">
-                                    <center>
+                                <Col  xs="4" sm="auto">
+                                    <center key={equip.id}>
                                         <Card style={{width: "120px", backgroundColor: "#202022", border: "none"}}>
                                             <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
-                                                <Placeholder type="rect" rows={1} ready={ equip.image.thumbmax !== "" } >
-                                                    <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
-                                                </Placeholder>
-                                                <Placeholder rows={1} ready={equips.image?.thumbmax !== ""} >
-                                                    <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p></center>
-                                                </Placeholder>
+                                                <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
+                                                <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p></center>
                                             </Link>
                                         </Card>
                                     </center>
