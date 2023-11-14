@@ -29561,10 +29561,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『炎紋斬決』 (SDBerwick TW) - JP Complete
+{ //True 'Enmon Zanketsu' - Missing Lore
         id: 110761,
-        name: `真『炎紋斬決』`,
-        translate: `True 'Flame Crest Zanketsu'`,
+        name: `True 'Enmon Zanketsu'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -29583,19 +29582,19 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 10000% Fire DMG (Physical). Reduce enemy's Physical resistance by 20% for 12s. If user is Fire, reduce enemy's Physical resistance by 35% instead. `,
+                skill: `60s CT - 10000% Fire DMG (Physical). Reduce enemy's Physical resistance by 20% for 12s. If user is Fire, reduce enemies' Physical resistance by 35% instead.`,
                 break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Demon Edge Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
+                ability2: `Increase ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //炎紋斬決 (SDBerwick Farmable) - JP Complete
+{ //Enmon Zanketsu - Missing Lore
         id: 110771,
-        name: `炎紋斬決`,
-        translate: `'Flame Crest Zanketsu'`,
+        name: `Enmon Zanketsu`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29620,11 +29619,11 @@ const EquipInformation = [
             {
                 ability1: `Water resistance 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //灼炎の外套 (SDBerwick Farmable) - JP Complete
+{ //Simmering Mantle - Missing Lore
         id: 110781,
-        name: `灼炎の外套`,
+        name: `Simmering Mantle`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -29649,11 +29648,11 @@ const EquipInformation = [
             {
                 ability1: `BE Output 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //焔迅脚甲 (SDBerwick Secret Equip) - JP Complete
+{ //Flame Swift Footplates - Missing Lore (Not official tl, need to change)
         id: 110791,
-        name: `焔迅脚甲`,
+        name: `Flame Swift Footplates`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -29678,7 +29677,7 @@ const EquipInformation = [
             {
                 ability1: `CRI rate 30% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Jurai' - Missing Lore
         id: 110801,
@@ -33275,6 +33274,97 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `If own HP is 80% or higher, increase all allies' Magic DMG by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ラディカルソード』 (Evil Pola TW) - JP Complete
+        id: 112011,
+        name: `真『ラディカルソード』`,
+        translate: `True 'Radical Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6000% Earth DMG (Physical). 70% Chance to inflict Poison for 12s. If user is Earth, increase own DMG by 35% for 12s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `When equipped by Evil Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ラディカルソード (Evil Pola Farmable) - JP Complete
+        id: 112021,
+        name: `ラディカルソード`,
+        translate: `Radical Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Earth DMG (Physical). Increase own Break Power by 40% for 10s. Additionally if user is Earth, increase own Physical DMG by 30% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //セルフィードレス (Evil Pola Farmable) - JP Complete
+        id: 112031,
+        name: `セルフィードレス`,
+        translate: `Selfie Dress`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `55s CT - Increase all allies' DMG resistance by 10% and Earth allies' DMG resistance by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own BE Output by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

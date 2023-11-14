@@ -23026,9 +23026,10 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Sword Demon Berwick - Missing Lore (JP)
+    { // Demon Edge Berwick - Missing Lore (GL)
         id: 103636112,
-        name: "Sword Demon Berwick",
+        name: "Demon Edge Berwick",
+        translate: "Sword Demon Berwick",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -23087,21 +23088,21 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Flame Crest Zanketsu`,
+                name: `Enmon Zanketsu`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110761.png",
                 skill: `60s CT - 10000% Fire DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If user is Fire, reduce Enemies' PHY RES by an additional 15%.`,
                 skillbreak: 700,
                 passive: 
                     {
-                        ability1: `When equipped by Sword Demon Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Demon Edge Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
                         ability2: `Increase ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     {
@@ -24646,6 +24647,84 @@ const UnitInformation = [
                             ability2: "Increase own PHY RES by 5%."
                         }
                 }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Evil Pola - Missing Lore (JP)
+        id: 103817312,
+        name: `Evil Pola`,
+        attribute: `Earth`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103816312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103817312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103816312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103817312.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 8050,
+                hpplus: 1450,
+                atk: 3080,
+                atkplus: 610,
+                def: 3105,
+                defplus: 590
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Earth DMG (PHY). Cure all allies' Poison. Increase allies cured by this Skill's Arts by 60.`,
+                skillbreak: 600,
+                arts: `16000% Earth DMG (PHY). For 15s, increase all allies' stats by 30% and reduce all allies' DMG Taken from Poisoned enemies by 30%.`,
+                artsbreak: 1000,
+                truearts: `50000% Earth DMG (PHY). For 30s, increase >50% HP Allies' Arts by 4/s and reduce enemies' Poison RES by 50%.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Earth DMG (PHY). 100% Chance to inflict Poison for 30s. For 30s, increase allies' PHY DMG with respect to how high own % of HP is (MAX: 150%).`,
+                superartsbreak: 3200
+            },
+        passive: 
+            {
+                ability1: `Increase own Paralysis RES by 100%.`,
+                ability2: `Increase own Disease RES by 100%.`,
+                ability3: `Increase own DMG and Break Power against Poisoned enemies by 100%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 220,
+                    hover2: `Smogdragon Soulgem`
+                }
+            },
+        trueweapon: 
+            {
+                name: `Radical Sword`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112011.png",
+                skill: `40s CT - 6000% Earth DMG (PHY). 70% Chance to inflict Poison for 12s. If user is Earth, for 12s, increase own DMG by 35%.`,
+                skillbreak: 600,
+                passive: 
+                    {
+                        ability1: `When equipped by Evil Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
             },
         lore: 
             {   

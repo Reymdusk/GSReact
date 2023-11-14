@@ -584,6 +584,40 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 17,
+        date: `November 15, 2023`,
+        article: 
+        {
+            intro: `Evil Pola makes her grand appearance on JP, along with some new farmable equips as well. Meanwhile, Chapter 21 has been released on Global, featuring Demon Edge Berwick, his farmable equips, as well as a new Secret equip!`,
+            new: 
+                {
+                    units: [
+                        [`Evil Pola`, 103817312]
+                    ],
+                    equips: [
+                        [`真『ラディカルソード』`, 112011],
+                        [`ラディカルソード`, 112021],
+                        [`セルフィードレス`, 112031]
+
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Demon Edge Berwick`, 103636112]
+                    ],
+                    equips: [
+                        [`True 'Enmon Zanketsu'`, 110761],
+                        [`Enmon Zanketsu`, 110771],
+                        [`Simmering Mantle`, 110781],
+                        [`Flame Swift Footplates`, 110791]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
