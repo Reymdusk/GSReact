@@ -613,7 +613,7 @@ const NewsArticles = [
                         [`True 'Enmon Zanketsu'`, 110761],
                         [`Enmon Zanketsu`, 110771],
                         [`Simmering Mantle`, 110781],
-                        [`Flame Swift Footplates`, 110791]
+                        [`Fleetfire Greaves`, 110791]
                     ],
                     dream: []
                 }
