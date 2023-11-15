@@ -29650,9 +29650,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Flame Swift Footplates - Missing Lore (Not official tl, need to change)
+{ //Fleetfire Greaves - Missing Lore
         id: 110791,
-        name: `Flame Swift Footplates`,
+        name: `Fleetfire Greaves`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
