@@ -618,6 +618,30 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 18,
+        date: `November 22, 2023`,
+        article: 
+        {
+            intro: `Small update on the JP side with Ragsherum getting his own Dream Awakening, as well as a new Mines boss!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`蒼機盾『ツヴァイトシルト』`, 112041]
+                    ],
+                    dream: [
+                        [`Ragsherum`, 101086511]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

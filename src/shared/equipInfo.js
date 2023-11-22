@@ -33368,6 +33368,37 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //蒼機盾『ツヴァイトシルト』 - JP Complete
+        id: 112041,
+        name: `蒼機盾『ツヴァイトシルト』`,
+        translate: `Blue Machine Shield 'Zweit Shield'`,
+        location: `Cyber-Z Mines Boss Drop`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all Water allies' and Light allies' DMG RES by 25% and reduce all allies' Status ailment RES by 30% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own HP Recovery by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

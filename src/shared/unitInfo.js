@@ -3256,7 +3256,7 @@ const UnitInformation = [
                 evoawk: "A sorcerer who chose to embrace the darkest parts of the Magus Empire of La Riiz. Her particular abilities and tendency toward rash, independent action invited dangerous misunderstandings. She fell into a trap, straining the faith of her friends, yet the unwavering trust of the adventurer broke through to her, and she resolved to face up to her past. Her sorcery thus broke away from her shadowy past to become something brilliant, something greater, something to protect those she held dear."
             }
     },
-    { //Ragsherum - Complete
+    { //Ragsherum - Complete + JP Dream Evo
         id: 101086511,
         name: "Ragsherum",
         rank: "C",
@@ -3280,6 +3280,15 @@ const UnitInformation = [
                 slot3: 5,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6743,
@@ -3296,6 +3305,15 @@ const UnitInformation = [
                 arts: "18500% Dark DMG (PHY). Consumes 20% of own HP. 50% chance to inflict Faint for 5s.",
                 artsbreak: 1900,
                 truearts: "30050% Dark DMG (PHY). 100% chance to inflict Faint for 5s. Consumes 30% of own HP + For 25s, gain a DMG barrier that negates 3000 DMG to self.",
+                trueartsbreak: 4000
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 3000% Dark DMG (PHY). Increase own Arts by 30.",
+                skillbreak: 1200,
+                arts: "35000% Dark DMG (PHY). Consumes 20% of own HP. 60% chance to inflict Faint for 5s.",
+                artsbreak: 1900,
+                truearts: "80000% Dark DMG (PHY). 100% chance to inflict Faint for 5s. Consumes 30% of own HP + For 30s, gain a DMG barrier that negates 6000 DMG to self.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -3330,6 +3348,56 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragRagsherum.png",
                     mat5amt: 1,
                     hover5: "Ragsherum"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 80%.`,
+                        ability2: `Increase own CRI rate by 80%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `Increase own Equip CT Speed by 20%.`,
+                        ability2: `Increase all allies' Break Power by 20%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                        mat3amt: 2,
+                        hover3: `Ragsherum Phantom`
+                    },
+                    passive: {
+                        ability1: `Increase own DMG by 50% against enemies below 30% HP.`,
+                        ability2: `Increase Demon allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: 
