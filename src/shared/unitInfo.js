@@ -1324,11 +1324,20 @@ const UnitInformation = [
             },
         skillset: 
             {
+                skill: "8s CT - 1200% Earth DMG (MAG). For 5s, increase own Normal Attack DMG by 20.",
+                skillbreak: 600,
+                arts: "For 20s, Heal all Ally HP by 200/s and increase all Allies' Skill CT REC by 60%",
+                artsbreak: 0,
+                truearts: "21000% Earth DMG (MAG). For 15s, Heal all Allies' HP by 5%/s and increase all Allies' DMG RES by 10%. If Ally is Earth, increase DMG RES by 20% instead",
+                trueartsbreak: 1900
+            },
+        skillsetJP: 
+            {
                 skill: "8s CT - 1300% Earth DMG (MAG). For 5s, increase own Normal Attack DMG by 20.",
                 skillbreak: 600,
-                arts: "For 20s, Heal all Ally HP by 200s and increase all Ally Skill CT REC by 75%",
+                arts: "For 20s, Heal all Ally HP by 200/s and increase all Allies' Skill CT REC by 75%",
                 artsbreak: 0,
-                truearts: "25000% Earht DMG (MAG). For 15s, Heal all Ally HP by 5%/s and increase all Ally DMG RES by 10%. If Ally is Earth, increase DMG RES by 20% instead",
+                truearts: "25000% Earth DMG (MAG). For 15s, Heal all Allies' HP by 5%/s and increase all Allies' DMG RES by 10%. If Ally is Earth, increase DMG RES by 20% instead",
                 trueartsbreak: 1900
             },
         passive: 
