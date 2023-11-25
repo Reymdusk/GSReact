@@ -27323,11 +27323,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "13s CT - Heal Allies’ HP by 250 and increase Allies' Arts by 10.",
+                skill: "10s CT - Heal Allies’ HP by 250 and increase Allies' Arts by 10.",
                 skillbreak: 0,
-                arts: "15000% Water DMG (MAG). For 13s, increase Allies’ ATK by 40%, Arts by 3/s.",
+                arts: "15000% Water DMG (MAG). For 15s, increase Allies’ ATK by 40%, Arts by 3/s.",
                 artsbreak: 1000,
-                truearts: "35000% Water DMG (MAG). For 15s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 60%.",
+                truearts: "35000% Water DMG (MAG). For 20s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 60%.",
                 trueartsbreak: 1500
             },
         passive: 
