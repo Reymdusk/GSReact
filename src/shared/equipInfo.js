@@ -31309,9 +31309,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『魔剣斬決』(Demon King Vox TW) - JP Complete
+{ //True 'Maken Zanketsu' - Missing Lore
         id: 111361,
-        name: `真『魔剣斬決』`,
+        name: `True 'Maken Zanketsu'`,
         translate: `True 'Demon Sword ZANKETSU'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -31336,14 +31336,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Demon King Vox, increase own Skill CT Speed and Equip CT Speed by 15% (Only once).`,
+                ability1: `When equipped by Demon Lord Vox, increase own Skill CT Speed and Equip CT Speed by 15% (Only once).`,
                 ability2: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //魔剣斬決 (Demon King Vox Farmable) - JP Complete
+{ //Maken Zanketsu - Missing Lore
         id: 111371,
-        name: `魔剣斬決`,
+        name: `Maken Zanketsu`,
         translate: `Demon Sword ZANKETSU`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -31369,12 +31369,11 @@ const EquipInformation = [
             {
                 ability1: `Skill DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //魔王鎧『ベルゼディア』(Demon King Vox Farmable) - JP Complete
+{ //Netherlord Armor 'Beelzedia' - Missing Lore
         id: 111381,
-        name: `魔王鎧『ベルゼディア』`,
-        translate: `Demon King Armor 'Belzedia'`,
+        name: `Netherlord Armor 'Beelzedia'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31399,7 +31398,7 @@ const EquipInformation = [
             {
                 ability1: `ATK 10% UP when above 90% HP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『グローディベオネット』 (Jay TW) - JP Complete
         id: 111391,
@@ -33396,6 +33395,98 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own HP Recovery by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『グラディウス』(HKRoy TW) - JP Complete
+        id: 112051,
+        name: `真『グラディウス』`,
+        translate: `True 'Gladius'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Water DMG (PHY). Increase own PHY DMG by 50% for 10s. Additionally if user is Water, increase own ATK by 50% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Holy Knight Roy, increase own Arts by 2/s. At the start of a Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖剣『グラディウス』(HKRoy secret equip) - JP Complete
+        id: 112061,
+        name: `聖剣『グラディウス』`,
+        translate: `Holy Sword 'Gladius'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Water DMG (PHY). If user is Water, increase own DMG by 50% for 10s.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: `Ignore enemies' DEF by 20%.`,
+                ability2: `Increase all allies' Water DMG by 20%. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖装『アイオロス』(HKRoy farmable) - JP Complete
+        id: 112071,
+        name: `聖装『アイオロス』`,
+        translate: `Holy Equipment 'Aiolus'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Water RES, Dark RES and Skill CT Speed by 30% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Ignore own DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

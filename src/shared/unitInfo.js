@@ -2719,7 +2719,7 @@ const UnitInformation = [
                 evoawk: "After the mortal combat at Sealed Fortress Gormarey, he has changed his actions. He has been leaving the subhead in charge, taking action on his own, and training even harder than before. For those who know Roy, they see him as if he decided something and is working vigorously towards that. Few know the faces he shows to his best friend. A huge ambition in his heart he will continue become stronger and believe his path he chosen."
             }
     },
-    { //Mira (Fire) - Complete, Dream Evo Complete
+    { //Mira (Fire) - Complete
         id: 101046111,
         name: "Mira (Fire)",
         rank: "F",
@@ -2735,15 +2735,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101046111.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -2763,15 +2754,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "7s CT - 2100% Fire DMG (PHY). Increase this Skill's Break PWR by 50% against Burned Enemies + For 8s, reduce Enemies' Burn RES by 30%.",
-                skillbreak: 1750,
-                arts: "15500% Fire DMG (PHY). 80% chance to inflict Burn for 10s + Increase this Arts' Break PWR and Critical Rate by 50% against Burned Enemies.",
-                artsbreak: 3000,
-                truearts: "25500% Fire DMG (PHY). Increase this True Arts' DMG and Break PWR and Critical Rate by 100% against Burned Enemies.",
-                trueartsbreak: 5000
-            },
-        skillsetJP: 
-            {
                 skill: "7s CT - 2100% Fire DMG (PHY). For 8s, reduce Enemies' Burn RES by 30%.",
                 skillbreak: 2000,
                 arts: "16000% Fire DMG (PHY). 80% chance to inflict Burn.",
@@ -2780,12 +2762,6 @@ const UnitInformation = [
                 trueartsbreak: 5000
             },
         passive: 
-            {
-                ability1: "Increase DMG to Demon Enemies by 70%.",
-                ability2: "When this unit dies, revive with 1 HP + For 5s, HP cannot drop below 1, heal HP by 16%/s (80% max HP). Can only be activated once per Quest. If revived by another unit or equipment, Ability is reset.",
-                ability3: "When near-death, increase ATK and Break PWR by 30%."
-            }, 
-        passiveJP: 
             {
                 ability1: "Increase DMG to Demon Enemies by 70%.",
                 ability2: "When this unit dies, revive with 1 HP + For 5s, HP cannot drop below 1, heal HP by 16%/s (80% max HP). Can only be activated once per Quest. If revived by another unit or equipment, Ability is reset.",
@@ -2820,7 +2796,7 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -2849,7 +2825,7 @@ const UnitInformation = [
                         hover3: `Palamicia`
                     },
                     passive: {
-                        ability1: `Increase own CRIT DMG by 150%.`,
+                        ability1: `Increase own CRI DMG by 150%.`,
                         ability2: ``
                     }
                 }
@@ -2971,7 +2947,7 @@ const UnitInformation = [
                 evoawk: "The current head of General Staff for Gramenia became a skilled commander despite his underprivileged childhood. Having already changed his whole life to achieve power and status, this stern man once again begins to change when he meets an adventurer who offers the same words he heard in his childhood. Now, his enemies defeated and the strength he sought in hand, he begins little by little to gain control over the power sleeping within him, for his own sake and for those who count on him."
             }
     },
-    { //Zeorg (Light) - Complete, Dream Evo Complete
+    { //Zeorg (Light) - Complete
         id: 101066411,
         name: "Zeorg (Light)",
         rank: "F",
@@ -2987,15 +2963,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101066411.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -3014,15 +2981,6 @@ const UnitInformation = [
                 defplus: 308
             },
         skillset: 
-            {
-                skill: "9s CT - 2500% Light DMG (PHY). Heal own HP by 100.",
-                skillbreak: 1000,
-                arts: "13800% Light DMG (PHY). 70% chance to inflict Faint for 5s.",
-                artsbreak: 1990,
-                truearts: "24900% Light DMG (PHY). 100% chance to inflict Faint for 5s. Increase own Arts by 50.",
-                trueartsbreak: 2850
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 2500% Light DMG (PHY). Heal own HP by 100.",
                 skillbreak: 1000,
@@ -3065,7 +3023,7 @@ const UnitInformation = [
                     hover5: "Code-XTF"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -23781,18 +23739,20 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Demon King Vox - Missing Lore (JP)
+    { // Demon Lord Vox - Missing Lore + JP ver.
         id: 103697512,
-        name: "Demon King Vox",
-        translate: "Vox (Dark)",
+        name: "Demon Lord Vox",
+        translate: "Demon King Vox",
         attribute: "Dark",
         type: "Demon",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103696512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103697512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_369_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103696512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103697512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103697512.png",
+                thumbspecial: "/db/Units/Special/Detail/unit_sp_detail_369_1.png",
             },
         slots: 
             {
@@ -23828,6 +23788,14 @@ const UnitInformation = [
             {
                 ability1: `Increase own Arts by 1/s when Near-Death.`,
                 ability2: `Heal own HP by 1% of DMG dealt to Enemies and increase Demon Allies' Arts gauge by 3/s. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Status RES by 30%.`,
+                ability4: `Unit EXP UP 20% UP. (When Demon Lord Vox's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Demon Lord Vox's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase own Arts by 1/s when Near-Death.`,
+                ability2: `Heal own HP by 1% of DMG dealt to Enemies and increase Demon Allies' Arts gauge by 3/s. Does not stack with Abilities of the same name.`,
                 ability3: `Increase own Status RES by 30%.`
             }, 
         evolution: 
@@ -23843,21 +23811,21 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Demon Sword ZANKETSU`,
+                name: `Maken Zanketsu`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111361.png",
                 skill: `35s CT - 13000% Dark DMG (PHY). For 8s, reduce enemies' PHY RES and Critical RES by 30%.`,
                 skillbreak: 2000,
                 passive: 
                     {
-                        ability1: `When equipped by Demon King Vox, increase own Skill CT REC and Equip CT REC by 15%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Demon Lord Vox, increase own Skill CT Speed and Equip CT Speed by 15%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Jay - Missing Lore (JP)
@@ -24801,6 +24769,87 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Evil Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Holy Knight Roy - Missing Lore (JP)
+        id: 103827212,
+        name: `Holy Knight Roy`,
+        translate: `HKRoy`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103826212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103827212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103826212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103827212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7480,
+                hpplus: 1410,
+                atk: 3875,
+                atkplus: 670,
+                def: 2835,
+                defplus: 590
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3000% Water DMG (PHY). Heals own Status ailments (except Faint, Paralysis, Seal, Freeze).`,
+                skillbreak: 800,
+                arts: `23000% Water DMG (PHY). 80% chance to inflict Ultimate Freeze for 7s.`,
+                artsbreak: 1500,
+                truearts: `60000% Water DMG (PHY). For 30s, increase Water allies' Break Power by 100%.`,
+                trueartsbreak: 3300,
+                superarts: `180000% Water DMG (PHY). For 20s, increase all allies' Arts by 7/s and PHY DMG by 150%.`,
+                superartsbreak: 4000,
+                phantombullet: "Can be activated instead of Super Arts - 250000% Water DMG (PHY). For 100s, reduce enemies' PHY RES by 120%. When used for the first time, increase all allies' Arts by 200. When used for the second time, heal all allies' HP by 100% (Can only be used 2 times per Quest).",
+                phantombulletbreak: 8000
+            },
+        passive: 
+            {
+                ability1: `When self is Leader, at the start of a Quest, increase Allies' PHY RES by 50% for 30s. Does not stack with Abilities of the same name.`,
+                ability2: `When above 80% HP, increase own Arts by 4/s.`,
+                ability3: `Increase own Paralysis RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 220,
+                    hover2: `Frostsprite Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: `Gladius`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112051.png",
+                skill: `50s CT - 10000% Water DMG (PHY). For 10s, increase own PHY DMG by 50%. Additionally if user is Water, for 10s, increase own ATK by 50%.`,
+                skillbreak: 1000,
+                passive: 
+                    {
+                        ability1: `When equipped by Holy Knight Roy, increase own Arts by 2/s. At the start of a Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Accuracy by 10%.`
                     }
             },
         lore: 

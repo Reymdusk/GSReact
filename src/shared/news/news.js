@@ -642,6 +642,41 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 19,
+        date: `November 30, 2023`,
+        article: 
+        {
+            intro: `Demon Lord Vox makes his debut on Global with an exclusive SP. Art, alongside Dream Awakenings for both Mira and Zeorg! Meanwhile on JP, Holy Knight Roy also makes his debut as JP's 7th Anniversary unit!`,
+            new: 
+                {
+                    units: [
+                        [`Holy Knight Roy`, 103827212]
+                    ],
+                    equips: [
+                        [`真『グラディウス』`, 112051],
+                        [`聖剣『グラディウス』`, 112061],
+                        [`聖装『アイオロス』`, 112071]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Demon Lord Vox`, 103697512]
+                    ],
+                    equips: [
+                        [`True 'Maken Zanketsu`, 111361],
+                        [`Maken Zanketsu`, 1113671],
+                        [`Netherlord Armor 'Beelzedia'`, 1113681]
+                    ],
+                    dream: [
+                        [`Mira (Fire)`, 101046111],
+                        [`Zeorg (Light)`, 101066411]
+                    ]
+                }
+        }
     }
 ]
 
