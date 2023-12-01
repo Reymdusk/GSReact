@@ -23066,6 +23066,8 @@ const UnitInformation = [
         name: "Demon Edge Berwick",
         translate: "Sword Demon Berwick",
         attribute: "Fire",
+        rank: "S",
+        twrequire: "reliance",
         type: "Demon",
         image: 
             {
