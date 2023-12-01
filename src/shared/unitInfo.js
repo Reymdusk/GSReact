@@ -23752,7 +23752,7 @@ const UnitInformation = [
                 detailspecial: "/db/Units/Special/Detail/unit_sp_detail_369_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103696512.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103697512.png",
-                thumbspecial: "/db/Units/Special/Detail/unit_sp_detail_369_1.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_369_1.png",
             },
         slots: 
             {
