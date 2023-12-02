@@ -668,8 +668,8 @@ const NewsArticles = [
                     ],
                     equips: [
                         [`True 'Maken Zanketsu`, 111361],
-                        [`Maken Zanketsu`, 1113671],
-                        [`Netherlord Armor 'Beelzedia'`, 1113681]
+                        [`Maken Zanketsu`, 111371],
+                        [`Netherlord Armor 'Beelzedia'`, 111381]
                     ],
                     dream: [
                         [`Mira (Fire)`, 101046111],
