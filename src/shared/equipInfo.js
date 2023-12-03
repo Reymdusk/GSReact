@@ -17578,7 +17578,7 @@ const EquipInformation = [
     },
 { //Light Relic 'Light Oath Pendant' - Missing Lore
         id: 106681,
-        name: `Light Relic 'Light Oath Pendant'`,
+        name: `Light Oath Pendant`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17607,7 +17607,7 @@ const EquipInformation = [
     },
 { //Dark Relic 'Dark Oath Pendant' - Missing Lore
         id: 106691,
-        name: `Dark Relic 'Dark Oath Pendant'`,
+        name: `Dark Oath Pendant`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
