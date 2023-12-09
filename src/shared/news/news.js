@@ -677,6 +677,28 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 20,
+        date: `December 9, 2023`,
+        article: 
+        {
+            intro: `Small update for Global with the release of a new farmable Christmas equip!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Yule Staff 'Merecrimus'`, 110971]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

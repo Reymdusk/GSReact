@@ -30180,9 +30180,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //聖夜杖『メリクリウス』 (PSS Xmas Farmable) - JP Complete
+{ //Yule Staff 'Merecrimus' - Missing Lore
         id: 110971,
-        name: `聖夜杖『メリクリウス』`,
+        name: `Yule Staff 'Merecrimus'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30207,7 +30207,7 @@ const EquipInformation = [
             {
                 ability1: `Skill CT speed 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Sinful Guards "Fathomless" Replica  - Missing Lore
         id: 110981,
