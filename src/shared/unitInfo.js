@@ -3621,7 +3621,7 @@ const UnitInformation = [
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
+                slot2: 6,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
@@ -3639,10 +3639,19 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2000% Fire DMG (PHY). Increase own Arts by 5.",
                 skillbreak: 2200,
-                arts: "15000% Fire DMG (PHY). For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%. During Berserk Mode: 15000% Fire DMG (PHY). Consume 40% of own HP, increase this Arts' DMG by 200% + For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%.",
+                arts: "15000% Fire DMG (PHY). For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%. During Berserk Mode: 46500% Fire DMG (PHY). Consume 40% of own HP, increase this Arts' DMG by 200% + For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%.",
                 artsbreak: 3100,
-                truearts: "40000% Fire DMG (PHY). Enter Berserk Mode for 55s + For 10s, reduce enemies PHY RES and Evasion by 30%.",
+                truearts: "40000% Fire DMG (PHY). Enter Berserk Mode for 55s + For 10s, reduce enemies' PHY RES and Evasion rate by 30%.",
                 trueartsbreak: 5000
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2000% Fire DMG (PHY). Increase own Arts by 20.",
+                skillbreak: 2200,
+                arts: "18000% Fire DMG (PHY). For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%. During Berserk Mode: 54000% Fire DMG (PHY). Consume 40% of own HP, increase this Arts' DMG by 200% + For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%.",
+                artsbreak: 3100,
+                truearts: "55000% Fire DMG (PHY). Enter Berserk Mode for 99s + For 15s, reduce enemies' PHY RES by 50% and Evasion rate by 30%.",
+                trueartsbreak: 6000
             },
         passive: 
             {
@@ -3668,6 +3677,34 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragGanan.png",
                     mat3amt: 20,
                     hover3: "Ganan",
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_133851.png`,
+                        mat2amt: 100,
+                        hover2: `Spirit Pearl of the Warrior`
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power agaisnt Earth Enemies by 60%.`,
+                        ability2: `When Near-Death, increase own DMG RES by 20%.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_133851.png`,
+                        mat2amt: 100,
+                        hover2: `Spirit Pearl of the Warrior`
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 60%.`,
+                        ability2: `When Near-Death, increase own Arts by 4/s.`
+                    }
                 }
             },
         trueweapon: 
@@ -25884,7 +25921,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Rimuru (Human form) - Complete (+ JP version), Review done
+    { //Rimuru (Human form) - Complete, Review (Pre-buff) done
         id: 107156212,
         name: "Rimuru (Human form)",
         attribute: "Water",
@@ -25899,15 +25936,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107156212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -25929,15 +25957,6 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
                 skillbreak: 1200,
-                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 10s, increase Allies' Status RES (except Faint) by 100%.",
-                artsbreak: 0,
-                truearts: "40000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
-                trueartsbreak: 3700
-            },
-        skillsetJP: 
-            {
-                skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
-                skillbreak: 1200,
                 arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 15s, increase Allies' Status RES (except Faint) by 100%.",
                 artsbreak: 0,
                 truearts: "42000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
@@ -25949,7 +25968,7 @@ const UnitInformation = [
                 ability2: "Increase Arts by 2/s. Increase Status RES (except Faint) by 30%.",
                 ability3: "Increase own Equip CT speed by 5%."
             },
-        dreamJP: {
+        dream: {
             fire: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -26044,7 +26063,7 @@ const UnitInformation = [
                     hover3: "Aerugraxes"
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Rimuru's Sword",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -26062,7 +26081,7 @@ const UnitInformation = [
                 evo5: "A slime that was reincarnated to a different world. It became possible to mimic humans ever since he preyed on Shizue Izawa, a Japanese who was reincarnated to a different world. He also preyed on a high-level spirit, Ifrit. With the unique skill 'De-generate,' which was passed on from Shizu, he separated the skills he gained from various monsters and succeeded to combine them to gain multiple extra skills.",
                 evoawk: "A slime that used to be a human which was reincarnated to a different world. He won the life and death battle between Geld, an Orc Disaster that was once Orc Lord. After that, he earned the overwhelming support of the monsters living in the Forest of Jura. Not long after that, he became king of 'Jura Tempest Federation.'"
             },
-        review:
+        review: // needs to be updated
         {
             skill: `The buff introducing ArtsGen on skill is much appreciated, allowing for an easier startup.`,
             arts: `With a 35% teamwide Heal after his buffs, he will be able to heal slightly more for the team. However, his Arts effects do not activate immediately after use due to its animation cast time, which can be a detriment at times. Teamwide Skill refresh, while not reliably useful, has certain potential when paired with specific content or units such as those with ArtsGen on Skill.`,
@@ -26080,7 +26099,7 @@ const UnitInformation = [
             author: `Jeffers`
         }
     },
-    { //Milim - Complete (+ JP version), Review done
+    { //Milim - Complete, Review (Pre-buff) done
         id: 107166112,
         name: "Milim",
         rank: "B+",
@@ -26096,22 +26115,13 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
-        slotsJP: 
-        {
-            slot1: 6,
-            slot1type: "/db/Mines/thumbnail/magLB.png",
-            slot2: 5,
-            slot2type: "/db/Mines/thumbnail/suppLB.png",
-            slot3: 4,
-            slot3type: "/db/Mines/thumbnail/physLB.png"
-        },
         stats: 
             {
                 hp: 7210,
@@ -26122,15 +26132,6 @@ const UnitInformation = [
                 defplus: 408
             },
         skillset: 
-            {
-                skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
-                skillbreak: 1000,
-                arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 2/s.",
-                artsbreak: 3500,
-                truearts: "60000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
-                trueartsbreak: 7000
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
                 skillbreak: 1000,
@@ -26145,40 +26146,40 @@ const UnitInformation = [
                 ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 50%).",
                 ability3: "Increase own DMG by 50% during Break."
             },
-            dreamJP: {
-                fire: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
-                        mat2amt: 50,
-                        hover2: `Flametail Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
-                        mat3amt: 2,
-                        hover3: `Degilmagna`
-                    },
-                    passive: {
-                        ability1: `Increase Critical DMG by 200%.`,
-                        ability2: `Increase own Arts by 2/s.`
-                    }
+        dream: {
+            fire: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 50,
+                    hover2: `Flametail Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
+                    mat3amt: 2,
+                    hover3: `Degilmagna`
                 },
-                earth: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
-                        mat2amt: 50,
-                        hover2: `Smogdragon Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
-                        mat3amt: 2,
-                        hover3: `Tonetaurus`
-                    },
-                    passive: {
-                        ability1: `Increase own Break Power against Earth Enemies by 100%.`,
-                        ability2: `Increase own BE Output by 10%.`
-                    }
+                passive: {
+                    ability1: `Increase Critical DMG by 200%.`,
+                    ability2: `Increase own Arts by 2/s.`
                 }
             },
+            earth: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 50,
+                    hover2: `Smogdragon Soulgem`,
+                    mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
+                    mat3amt: 2,
+                    hover3: `Tonetaurus`
+                },
+                passive: {
+                    ability1: `Increase own Break Power against Earth Enemies by 100%.`,
+                    ability2: `Increase own BE Output by 10%.`
+                }
+            }
+        },
         evolution: 
             {
                 evo5awk:
@@ -26192,9 +26193,9 @@ const UnitInformation = [
                     hover3: "Degilmagna",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
-                name: "Milim's Armor",
+                name: "Milim's Necklace",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152801.png",
                 skill: "45s CT - 6000% Fire DMG (MAG). For 8s, reduce enemies' Fire RES by 40%.",
@@ -26210,7 +26211,7 @@ const UnitInformation = [
                 evo5: "One of the oldest Demon Lords. She looks and acts lie a child, but her mind is based on a crafty Demon Lord. She is known as a Catastrophe class and is impossible to understand all of her profound powers. Initially, she was planning to create a new Demon Lord, but she becomes interested in Rimuru which he saw through her plans.",
                 evoawk: "One of the Ten Greatest Demon Lords and yet the oldest. She has over ten times more Magicules than Rimuru, and no one can beat her. She feels bored of being a Demon Lord and envies Rimuru because he is having much more fun while not being a Demon Lord."
             },
-        review:
+        review: // needs to be updated
         {
             skill: `Just a minor ATK buff of 30%, but better than nothing.`,
             arts: `This is where Milim becomes interesting, because she is one of the only units being able to reflect the Units taken Damage to the boss with a uptime of 10s comparable to Duran’s uptime. With a little bonus of generating a total of 30 art.`,
@@ -26228,7 +26229,7 @@ const UnitInformation = [
             author: `Alice`
         }
     },
-    { //Benimaru - Complete (+ JP version), Review done
+    { //Benimaru - Complete, Review (Pre-buff) done
         id: 107176112,
         name: "Benimaru",
         rank: "A",
@@ -26243,15 +26244,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107176112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -26273,15 +26265,6 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
                 skillbreak: 900,
-                arts: "23000% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50% and own DMG by 30%.",                
-                artsbreak: 1800,
-                truearts: "62000% Fire DMG (MAG). 100% chance to inflict Burn for 16s + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 80%.",
-                trueartsbreak: 3900
-            },
-        skillsetJP: 
-            {
-                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
-                skillbreak: 900,
                 arts: "23000% Fire DMG (MAG). For 20s, increase all Allies' Skill CT REC by 50% and DMG by 50%.",                
                 artsbreak: 1800,
                 truearts: "62000% Fire DMG (MAG). 100% chance to inflict Burn for 16s + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 120%.",
@@ -26293,7 +26276,7 @@ const UnitInformation = [
                 ability2: "Increase Critical Rate by 50%. Heal HP by 100/s.",
                 ability3: "At Start of Quest, increase own Arts gauge by 50."
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -26340,7 +26323,7 @@ const UnitInformation = [
                     hover3: "Flogassa",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Benimaru's Sword",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -26358,7 +26341,7 @@ const UnitInformation = [
                 evo5: "A Kijin who follows Rimuru, a slime that was reincarnated to a different word. He used to be a race of Ogre. However, when Rimuru gave him a name, he evolved into a Kijin. Not only is he a master of swords, but he also uses fire magic and is excellent at large-area extermination.",
                 evoawk: "A young Kijin who gave his loyalty to Rimuru. He is an Ogre survivor of an attack from the Orcs and seeks revenge. He was appointed as the Samurai General and integrates the country's army. He is like the right-arm of Rimuru and has great popularity."
             },
-        review:
+        review: // needs to be updated
         {
             skill: `30 arts is definitely a great improvement from his former meagre 10 arts on skill, and self sufficiency is always welcome.`,
             arts: `Gives him more self sufficiency from his skill and a little damage boost, but generally not worth using over his True Arts unless bursting enemy down from a sliver of hp. At least the duration of the buffs are considerably good.`,
@@ -32237,7 +32220,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Demon Lord Rimuru - Missing Lore (JP)
+    { //Demon Lord Rimuru - Missing Lore (GL)
         id: 107837512,
         name: `Demon Lord Rimuru`,
         attribute: `Dark`,
@@ -32302,7 +32285,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Demon Lord Rimuru's Clothes`,
+                name: `Rimuru's Mantle`,
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152871.png",
                 skill: `40s CT - Increase Target's Arts by 40. For 5s, increase all allies' Arts by 4/s.`,
@@ -32315,13 +32298,13 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Milim: Battle Mode - Missing Lore (JP)
+    { //Combat Form Milim - Missing Lore (GL)
         id: 107847112,
-        name: `Milim: Battle Mode`,
+        name: `Combat Form Milim`,
         attribute: `Fire`,
         type: `Demon`,
         image: 
@@ -32368,8 +32351,8 @@ const UnitInformation = [
                 ability1: `Tyrant of Destruction: When not affected by Status ailments, increase own DMG and Break Power by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Arts by 1/s.`,
                 ability3: `Increase own Arts by 200 at start of quest.`,
-                ability4: `Unit EXP UP 20% UP. (When Milim: Battle Mode's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Milim: Battle Mode's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Combat Form Milim's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Combat Form Milime's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -32391,17 +32374,17 @@ const UnitInformation = [
                 skillbreak: 600,
                 passive: 
                     {
-                        ability1: `When equipped by Milim: Battle Mode, increase own Status RES (except Faint) by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Combat Form Milim, increase own Status RES (except Faint) by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own MAG RES by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Diablo - Missing Lore (JP)
+    { //Diablo - Missing Lore (GL)
         id: 107857512,
         name: `Diablo`,
         attribute: `Dark`,
@@ -32466,7 +32449,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Diablo's Clothes`,
+                name: `Diablo's Suit`,
                 slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152891.png",
                 skill: `40s CT - For 15s, increase all Allies' DMG RES by 30%.`,
@@ -32479,8 +32462,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     }
 ];

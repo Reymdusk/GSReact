@@ -42028,10 +42028,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『リムルの剣』 - JP Complete
+    { //True 'Rimuru's Sword' - Missing Lore
         id: 152791,
-        name: `真『リムルの剣』`,
-        translate: `True 'Rimuru's Sword'`,
+        name: `True 'Rimuru's Sword'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42057,12 +42056,11 @@ const EquipInformation = [
                 ability1: `When equipped by Rimuru, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ミリムのネックレス』 - JP Complete
+{ //True 'Milim's Necklace' - Missing Lore
         id: 152801,
-        name: `真『ミリムのネックレス』`,
-        translate: `True 'Milim's Necklace'`,
+        name: `True 'Milim's Necklace'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -42088,12 +42086,11 @@ const EquipInformation = [
                 ability1: `When equipped by Milim, increase own Break Power and ATK by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ベニマルの剣』 - JP Complete
+{ //True 'Benimaru's Sword' - Missing Lore
         id: 152811,
-        name: `真『ベニマルの剣』`,
-        translate: `True 'Benimaru's Sword'`,
+        name: `True 'Benimaru's Sword'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42119,7 +42116,7 @@ const EquipInformation = [
                 ability1: `When equipped by Benimaru, increase own Accuracy by 50% and own Arts at the start of quest by 100. Does not stack with Abilities of the same name.`,
                 ability2: `Increase ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『リムルのサンタ服』 - JP Complete
         id: 152821,
@@ -42276,10 +42273,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『魔王リムルの服』 - JP Complete
+{ //True 'Rimuru's Mantle' - Missing Lore
         id: 152871,
-        name: `真『魔王リムルの服』`,
-        translate: `True 'Demon Lord Rimuru's Clothes'`,
+        name: `True 'Rimuru's Mantle'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -42305,12 +42301,11 @@ const EquipInformation = [
                 ability1: `When equipped by Demon Lord Rimuru, increase own ATK by 70% & Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Skill DMG by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ミリムの鎧』 - JP Complete
+{ //True 'Milim's Armor' - Missing Lore
         id: 152881,
-        name: `真『ミリムの鎧』`,
-        translate: `True 'Milim's Armor'`,
+        name: `True 'Milim's Armor'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -42333,15 +42328,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Milim: Battle Mode, increase own Status resistance (except Faint) by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Combat Form Milim, increase own Status resistance (except Faint) by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ディアブロの服』 - JP Complete
+{ //True 'Diablo's Suit' - Missing Lore
         id: 152891,
-        name: `真『ディアブロの服』`,
-        translate: `True 'Diablo's Clothes'`,
+        name: `True 'Diablo's Suit'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -42367,12 +42361,11 @@ const EquipInformation = [
                 ability1: `When equipped by Diablo, reduce the amount of HP required for his Seducer Passive Ability to 80% HP or higher instead. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //魔王リムルの服 - JP Complete
+{ //Rimuru's Mantle - Missing Lore
         id: 152901,
-        name: `魔王リムルの服`,
-        translate: `Demon Lord Rimuru's Clothes`,
+        name: `Rimuru's Mantle`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -42397,12 +42390,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ミリムの鎧 - JP Complete
+{ //Milim's Armor - Missing Lore
         id: 152911,
-        name: `ミリムの鎧`,
-        translate: `Milim's Armor`,
+        name: `Milim's Armor`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -42427,11 +42419,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ディアブロの服 - JP Complete
+{ //Diablo's Suit - Missing Lore
         id: 152921,
-        name: `ディアブロの服`,
+        name: `Diablo's Suit`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -42456,12 +42448,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //魔剣「天魔」 - JP Complete
+{ //God-Grade Sword 'Asura' - Missing Lore
         id: 152931,
-        name: `魔剣「天魔」`,
-        translate: `Magic Sword 'Tenma'`,
+        name: `God-Grade Sword 'Asura'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42486,12 +42477,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ソウエイの剣 - JP Complete
+{ //Souei's Blade - Missing Lore
         id: 152941,
-        name: `ソウエイの剣`,
-        translate: `Souei's Sword`,
+        name: `Souei's Blade`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42516,12 +42506,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ハクロウの剣 - JP Complete
+{ //Hakurou's Cane Katana - Missing Lore
         id: 152951,
-        name: `ハクロウの剣`,
-        translate: `Hakurou's Sword`,
+        name: `Hakurou's Cane Katana`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42534,7 +42523,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
@@ -42546,7 +42535,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     }
 ]
 

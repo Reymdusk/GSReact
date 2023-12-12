@@ -699,6 +699,49 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 21,
+        date: `December 15, 2023`,
+        article: 
+        {
+            intro: `An early Christmas? The Tensura collab makes its return on Global with 3 new units and many new equips, as well as various buffs to pre-exisiting Tensura units. Meanwhile, Ganan receives a Dream Awakening on JP.`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Ganan`, 101116111]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Demon Lord Rimuru`, 107837512],
+                        [`Combat Form Milim`, 107847112],
+                        [`Diablo`, 107857512]
+                    ],
+                    equips: [
+                        [`True 'Rimuru's Sword'`, 152791],
+                        [`True 'Milim's Necklace'`, 152801],
+                        [`True 'Benimaru's Sword'`, 152811],
+                        [`True 'Rimuru's Mantle'`, 152871],
+                        [`True 'Milim's Armor'`, 152881],
+                        [`True 'Diablo's Suit`, 152891],
+                        [`Rimuru's Mantle`, 152901],
+                        [`Milim's Armor`, 152911],
+                        [`Diablo's Suit`, 152921],
+                        [`God-Grade Sword 'Asura'`, 152931],
+                        [`Souei's Blade`, 152941],
+                        [`Hakurou's Cane Katana`, 152951]
+                    ],
+                    dream: [
+                        [`Rimuru (Human form)`, 107156212],
+                        [`Milim`, 107166112],
+                        [`Benimaru`, 107176112],
+                    ]
+                }
+        }
     }
 ]
 
