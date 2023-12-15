@@ -736,6 +736,7 @@ const NewsArticles = [
                         [`Hakurou's Cane Katana`, 152951]
                     ],
                     dream: [
+                        [`Rimuru (Slime form)`, 107146212]
                         [`Rimuru (Human form)`, 107156212],
                         [`Milim`, 107166112],
                         [`Benimaru`, 107176112],
