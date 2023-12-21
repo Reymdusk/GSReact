@@ -33389,7 +33389,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all Water allies' and Light allies' DMG RES by 25% and reduce all allies' Status ailment RES by 30% for 15s.`,
+                skill: `30s CT - Increase all Water allies' and Light allies' DMG resistance by 25% and reduce all allies' Status ailment resistance by 30% for 15s.`,
                 break: 0
             },
         passive: 
@@ -33419,7 +33419,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 10000% Water DMG (PHY). Increase own PHY DMG by 50% for 10s. Additionally if user is Water, increase own ATK by 50% for 10s.`,
+                skill: `50s CT - 10000% Water DMG (Physical). Increase own Physical DMG by 50% for 10s. Additionally if user is Water, increase own ATK by 50% for 10s.`,
                 break: 1000
             },
         passive: 
@@ -33450,7 +33450,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 10000% Water DMG (PHY). If user is Water, increase own DMG by 50% for 10s.`,
+                skill: `60s CT - 10000% Water DMG (Physical). If user is Water, increase own DMG by 50% for 10s.`,
                 break: 1500
             },
         passive: 
@@ -33481,7 +33481,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase all allies' Water RES, Dark RES and Skill CT Speed by 30% for 12s.`,
+                skill: `40s CT - Increase all allies' Water RES, Dark resistance and Skill CT Speed by 30% for 12s.`,
                 break: 0
             },
         passive: 
@@ -42536,7 +42536,160 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `Missing Lore.`
-    }
+    },
+    { //致命の包丁 - Missing Lore
+        id: 152961,
+        name: `致命の包丁`,
+        translate: `Vorpal Blades`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Fire DMG (Physical). If user is Human or Beast, increase own CRI rate by 100% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase ATK by 5%.`
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //極『致命の包丁』 - Missing Lore
+        id: 152971,
+        name: `極『致命の包丁』`,
+        translate: `Vorpal Blades EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_152971.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Fire DMG (Physical). If user is Human or Beast, increase own CRI rate by 100% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase ATK by 5%.`,
+                ability2: [`CRI DMG 10% UP`, `CRI DMG 20% UP`, `Evasion rate 5% UP`, `Evasion rate 10% UP`, `When own HP is 90% or higher, increase own Skill CT Speed by 10%`, `When own HP is 90% or higher, increase own Skill CT Speed by 20%`]
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //致命魂の首輪 - Missing Lore
+        id: 152981,
+        name: `致命魂の首輪`,
+        translate: `Vorpal Soul Collar`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152981.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Arts by 2/s, all allies' ATK by 20%, and all Fire allies' ATK by 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //神魔の大剣 - Missing Lore
+        id: 152991,
+        name: `神魔の大剣`,
+        translate: `Divine Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Light DMG (PHY). For 12s, increase own Physical DMG by 50% for 12s. If user is Human, increase own Physical DMG by 100% instead.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: [`DMG against Light enemies 20% UP.`, `DMG against Dark enemies 20% UP.`, `Skill CT Speed 20% UP.`, `Arts Gauge 20 UP`],
+                ability2: [`None.`, `DMG against Human enemies 20% UP.`, `DMG against God enemies 20% UP.`, `DMG against Demon enemies 20% UP.`, `Light RES 20% UP.`, `Dark RES 20% UP.`],
+                ability3: [`None.`, `ATK 10% UP.`, `ATK 15% UP.`, `ATK 20% UP.`]
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //双貌の兜 - Missing Lore
+        id: 153001,
+        name: `双貌の兜`,
+        translate: `Two-Faced Helmet`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' CRI RES, Light resistance and Dark resistance by 30% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Unreleased in Global.`
+    },
 ]
 
 export function getEquips() {

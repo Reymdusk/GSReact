@@ -32456,6 +32456,144 @@ const UnitInformation = [
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
             }
+    },
+    { //Sunraku - Missing Lore
+        id: 107867112,
+        name: `Sunraku`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107866112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107867112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_786_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107866112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107867112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_786_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 6820,
+                hpplus: 1290,
+                atk: 4500,
+                atkplus: 720,
+                def: 3024,
+                defplus: 626
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2500% Fire DMG (PHY). Increase own Arts by 30. If this Skill crits, increase own Arts by 60 instead.`,
+                skillbreak: 500,
+                arts: `27000% Fire DMG (PHY). For 25s, reduce enemies' PHY RES and Evasion by 50%.`,
+                artsbreak: 800,
+                truearts: `70000% Fire DMG (PHY). For 25s, increases allies' Arts by 6/s and reduces enemies' CRI RES by 100%.`,
+                trueartsbreak: 1300,
+                superarts: `160000% Fire DMG (PHY). Increase own CRI rate by 100% and Super CRI rate by 50% for the duration of Super Arts. Permanently increases own ATK by 50% (MAX: 200%).`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase Fire allies' DMG RES by 15%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Evasion by 40%.`,
+                ability3: `Increase own Skill CT Speed by 50% when Near-Death.`,
+                ability4: `Unit EXP UP 20% UP. (When Sunraku's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sunraku's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //Psyger-0 - Missing Lore
+        id: 107877412,
+        name: `Psyger-0`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107876412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107877412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_787_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107876412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107877412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_787_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7040,
+                hpplus: 1330,
+                atk: 4125,
+                atkplus: 710,
+                def: 3045,
+                defplus: 630
+            },
+        skillset: 
+            {
+                skill: `14s CT - 5000% Light DMG (PHY). Increase own Arts by 20. For 8s, increase own Accuracy by 20%.`,
+                skillbreak: 500,
+                arts: `30000% Light DMG (PHY). Increase all allies' Arts by 20. For 20s, Allies gain a DMG barrier that negates 5000 DMG.`,
+                artsbreak: 900,
+                truearts: `70000% Light DMG (PHY). For 25s, increases own DMG by 100% and all allies' DMG by [30% x # of Humans in the Party].`,
+                trueartsbreak: 1400,
+                superarts: `200000% Light DMG (PHY). Ignore 100% of Enemies' DEF for the duration of Super Arts.`,
+                superartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: `When using Super Arts for the first time, double its damage multiplier to 400000% instead. When using Super Arts for the second time and onwards, for 20s, increase own Arts by 5/s.`,
+                ability2: `Increase own Defence Equip CT Speed by 20%.`,
+                ability3: `Increase own Paralysis RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Psyger-0's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Psyger-0's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglit Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
     }
 ];
 

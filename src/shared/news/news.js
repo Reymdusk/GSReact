@@ -743,6 +743,35 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 22,
+        date: `December 21, 2023`,
+        article: 
+        {
+            intro: `Shangri-La is the next newest Collab on JP, bringing with it brand new units and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Sunraku`, 107867112],
+                        [`Psyger-0`, 107877412]
+                    ],
+                    equips: [
+                        [`致命の包丁`, 152961],
+                        [`極『致命の包丁』`, 152971],
+                        [`致命魂の首輪`, 152981],
+                        [`神魔の大剣`, 152991],
+                        [`双貌の兜`, 153001]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
