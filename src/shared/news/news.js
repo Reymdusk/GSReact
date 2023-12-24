@@ -727,7 +727,7 @@ const NewsArticles = [
                         [`True 'Benimaru's Sword'`, 152811],
                         [`True 'Rimuru's Mantle'`, 152871],
                         [`True 'Milim's Armor'`, 152881],
-                        [`True 'Diablo's Suit`, 152891],
+                        [`True 'Diablo's Suit'`, 152891],
                         [`Rimuru's Mantle`, 152901],
                         [`Milim's Armor`, 152911],
                         [`Diablo's Suit`, 152921],
