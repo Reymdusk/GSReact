@@ -33481,12 +33481,192 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase all allies' Water RES, Dark resistance and Skill CT Speed by 30% for 12s.`,
+                skill: `40s CT - Increase all allies' Water resistance, Dark resistance and Skill CT Speed by 30% for 12s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `Ignore own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖飾剣『スターライト』 - JP Complete
+        id: 112081,
+        name: `聖飾剣『スターライト』`,
+        translate: `Holy Ornament Sword 'Skylight'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 4600% Light DMG (Magic). Increase own Skill CT Speed by 70% for 8s. If user is Light, increase own Skill CT Speed by 100% instead.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //忠勇無双ノエルトナカイ - JP Complete
+        id: 112091,
+        name: `忠勇無双ノエルトナカイ`,
+        translate: `Loyal and Brave Noel Reindeer`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 8000% Light DMG (Physical). Increase own Light DMG by 60% for 8s. If used when enemy is below 30% HP, increase own Light DMG by 120% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //全知全能陛下サンタ - JP Complete
+        id: 112101,
+        name: `全知全能陛下サンタ`,
+        translate: `Omnipotent Majesty Santa`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112101.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' stats by 20% and Physical DMG by 50% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //愛と雪の公女 - JP Complete
+        id: 112111,
+        name: `愛と雪の公女`,
+        translate: `Princess of Love and Snow`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Physical resistance by 20% and Freeze resistance by 100% for 30s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖夜の狩人ジェイサンタ - JP Complete
+        id: 112121,
+        name: `聖夜の狩人ジェイサンタ`,
+        translate: `Hunter of the Holy Night Jay Santa`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112121.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Cleanse all allies' Status ailments (except for Faint). Heal all Human allies' HP by 300/s for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //狩人の監視者カナリアトナカイ - JP Complete
+        id: 112131,
+        name: `狩人の監視者カナリアトナカイ`,
+        translate: `Hunter's Observer Canary Reindeer`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' DMG resistance by 15%, Fire resistance, Water resistance and Earth resistance by 25%, and Paralysis resistance by 100% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
@@ -42649,13 +42829,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 10000% Light DMG (PHY). For 12s, increase own Physical DMG by 50% for 12s. If user is Human, increase own Physical DMG by 100% instead.`,
+                skill: `60s CT - 10000% Light DMG (Physical). For 12s, increase own Physical DMG by 50% for 12s. If user is Human, increase own Physical DMG by 100% instead.`,
                 break: 1000
             },
         passive: 
             {
                 ability1: [`DMG against Light enemies 20% UP.`, `DMG against Dark enemies 20% UP.`, `Skill CT Speed 20% UP.`, `Arts Gauge 20 UP`],
-                ability2: [`None.`, `DMG against Human enemies 20% UP.`, `DMG against God enemies 20% UP.`, `DMG against Demon enemies 20% UP.`, `Light RES 20% UP.`, `Dark RES 20% UP.`],
+                ability2: [`None.`, `DMG against Human enemies 20% UP.`, `DMG against God enemies 20% UP.`, `DMG against Demon enemies 20% UP.`, `Light resistance 20% UP.`, `Dark resistance 20% UP.`],
                 ability3: [`None.`, `ATK 10% UP.`, `ATK 15% UP.`, `ATK 20% UP.`]
             },
         lore: `Unreleased in Global.`
@@ -42681,7 +42861,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase all allies' CRI RES, Light resistance and Dark resistance by 30% for 15s.`,
+                skill: `40s CT - Increase all allies' CRI resistance, Light resistance and Dark resistance by 30% for 15s.`,
                 break: 0
             },
         passive: 

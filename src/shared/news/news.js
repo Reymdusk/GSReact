@@ -772,6 +772,33 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 23,
+        date: `December 26, 2023`,
+        article: 
+        {
+            intro: `New Christmas equips have been introduced to JP!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`聖飾剣『スターライト』`, 112081],
+                        [`忠勇無双ノエルトナカイ`, 112091],
+                        [`全知全能陛下サンタ`, 112101],
+                        [`愛と雪の公女`, 112111],
+                        [`聖夜の狩人ジェイサンタ`, 112121],
+                        [`狩人の監視者カナリアトナカイ`, 112131]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
