@@ -26081,8 +26081,8 @@ const UnitInformation = [
             ability2: `A great passive that helps Rimuru’s consistency. The Status RES passive is useful in certain situations but with cleanse built into his kit, it’s not as important `,
             ability3: `Allows for his equips to be used more frequently, albeit the difference is ever so slight`,
             trueweapon: {
-                skill: ``,
-                ability1: ``,
+                skill: `A respectable amount of Water Res down on a low uptime, the main upside for this equipment being that It's strong True Weapon passive almost guarantees that you'll bring it to any quest.`,
+                ability1: `Further increases Rimuru's Self Sufficiency, as Rimuru's Equipment Options are limited to either Artsgen or DMG Support this equips' mix of both is much appreciated`,
                 ability2: ``
             },
             overall: `Almost 4 years since the first release of this collab, Rimuru still holds up as the swiss army knife of supports, including in his arsenal an all stat buff, which also acts as a pseudo-heal, arts generation; healing; cleanse; and status res. Moreover, all of this is backed up by passive ArtsGen on self and great slots. There’s really not much to hate about Rimuru’s kit as a support unit. Though in certain aspects he has been powercrept due to his age, very few units come close to Rimuru’s sheer utility and flexibility as a support unit and would be a welcome addition to most boxes. His buffs simply helped to improve his overall kit closer to the addition of the units.`,
@@ -26211,16 +26211,16 @@ const UnitInformation = [
             ability2: `A nice passive, if the boss can Freeze/Paralysis your units. On the other hand, the 50% damage buff increases as the HP decreases is appreciated, which will make Reflect Nuking more comfortable.`,
             ability3: `A huge Damage buff, pairing well with her True Arts if the boss is broken.`,
             trueweapon: {
-                skill: ``,
+                skill: `Considering you can get this for a cheap amount of Rainbow Gems or even for Free it's not exactly the worst thing ever, however True "Fomalhaut" (Berwick) exists and makes this questionable equip once you read it's passives.`,
                 ability1: ``,
-                ability2: ``
+                ability2: `For those who prefer to use Milim as a sustain DPS, this could be a great pickup. However most players utilize Milim for her Reflect Nuke capabilities, and Reflect damage does not account for the ATK Stat, making this useless on Milim herself.`
             },
             overall: `Milim was, before the buffs, a competent Reflect Nuker, and a decent Break Nuker. With her new buffs, it’ll be easier to Reflect Nuke due to the extension of her NA Duration. As for Break Nuking, she’s capable of dishing out a good amount of Damage once the Enemy is broken. Although her uses are rather niche, mainly being Break Nuking and Reflect Nuking, she is able to fill those roles competently with the right setups.`,
             lastupdated: `January 12, 2023`,
             author: `Alice`
         }
     },
-    { //Benimaru - Complete, Review (Pre-buff) done
+    { //Benimaru - Complete, Review done
         id: 107176112,
         name: "Benimaru",
         rank: "A",
@@ -26332,17 +26332,17 @@ const UnitInformation = [
                 evo5: "A Kijin who follows Rimuru, a slime that was reincarnated to a different word. He used to be a race of Ogre. However, when Rimuru gave him a name, he evolved into a Kijin. Not only is he a master of swords, but he also uses fire magic and is excellent at large-area extermination.",
                 evoawk: "A young Kijin who gave his loyalty to Rimuru. He is an Ogre survivor of an attack from the Orcs and seeks revenge. He was appointed as the Samurai General and integrates the country's army. He is like the right-arm of Rimuru and has great popularity."
             },
-        review: // needs to be updated
+        review: //Updated for Dec 15 '23
         {
-            skill: `30 arts is definitely a great improvement from his former meagre 10 arts on skill, and self sufficiency is always welcome.`,
-            arts: `Gives him more self sufficiency from his skill and a little damage boost, but generally not worth using over his True Arts unless bursting enemy down from a sliver of hp. At least the duration of the buffs are considerably good.`,
-            truearts: `Can't believe he actually got love from the devs this time around ❤️ While the RES reduction is still less than, say, Hao, the much more consistent Burn chance helps him go from alright to good. He will still be an off-meta pick, but at least he's not comparatively useless now.`,
+            skill: `30 arts is large amount of Arts for an Awoken Unit who's Maxes out at 200 Arts.`,
+            arts: `Gives his allies more self sufficiency from their Artsgennerating Skills and a little damage boost, but generally not worth using over his True Arts unless bursting enemy down from a sliver of hp. At least the duration of the buffs are considerably good.`,
+            truearts: `Providing the current largest amount of MAG RES on either version of the game, Benimaru is a strong choice for Magic Nukes whenever he is capable of Burning.`,
             ability1: `As always, self sufficiency is good, but you shouldn't be near death 99% of the time anyways.`,
-            ability2: `Wow 50% just like genshin pulls fr, I really do wish the Critical Rate was 100% (or at least give the other 50% on burn), but it is what it is. More damage is welcome, and helping keep himself alive is pretty much always good.`,
+            ability2: `An inconsistent amount of Crit Rate however it allows Benimaru to go above 100% Crit Rate whenever required.`,
             ability3: `Startup is very cool, helps to get his DPS up and going. Paired with his self sufficiency from skill, he gets his True Arts much faster now.`,
             trueweapon: {
-                skill: ``,
-                ability1: ``,
+                skill: `This one can be argued for due to the less accessible Fire RES Down equipment in Physical Slots, one being Angelas' Halloween & the other from the Marzex Event. Questionable if Benimaru would use this as he has a 5☆ Magic already.`,
+                ability1: `Uh, sure? Accuracy is sparsely needed and even less so on a character who's main role is to provide DMG Support. The additional Start Up is appreciated for utilizing less Arts Equipment.`,
                 ability2: ``
             },
             overall: `Not much to say here, pretty happy with the buffs he got this time, making him at the very least good again. While still not meta in any way, he at least does his DPS job well, with a side niche of Burn if you don't have other units to do so. And hey, Makoto Furukawa's voice is some ear candy for all you men lovers out there 😉 `,
@@ -32211,7 +32211,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Demon Lord Rimuru - Missing Lore (GL)
+    { //Demon Lord Rimuru - Missing Lore (GL), Review Done
         id: 107837512,
         name: `Demon Lord Rimuru`,
         attribute: `Dark`,
@@ -32291,9 +32291,27 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Though not the usual arts on skill, it can help to provide DLRimuru with some pseudo-healing through the stats up and maintain his passive’s arts generation.`,
+                arts: `Provides a long-lasting crit-rate up buff that helps to increase DLRimuru’s damage output if crit wasn’t already provided in the team. The 150 arts refund after using his next SA will enable Rimuru to burst down bosses by using 2 consecutive Super Arts.`,
+                truearts: `With a large 70% general DMG RES down this can easily help boost your whole team’s damage, not to mention it lasts for 40 seconds and is also stackable with consecutive casts of his TA. However, this is generally used if the boss has DMG Res or Reduction, due to the large amount of damage Super Arts can provide even without this debuff.`,
+                superarts: `The bulk of DLRimuru’s damage lies here. A 160k% multiplier paired with 40% Super Crit Rate, it’s important to note how in order to super crit you must crit first, requiring you to use his normal art every now and then if you don’t have another source of crit. Additionally, with hefty 30s stackable teamwide Dark DMG up allows DLRimuru and other dark damaging units in the team to dish out incredible amounts of damage.`,
+                ability1: `A very strong passive all things considered, providing him with arts most of the time and teamwide DMG Res whenever things start going bad. Additionally since this is passive DMG Res, it will stack with all other sources.`,
+                ability2: `Extra status resistance against burning which is always appreciated.`,
+                ability3: `Much like burn res this is nice to have, even more so since Paralyze can be annoying to deal with.`,
+                trueweapon: {
+                    skill: `Decent overtime artsgen equipment with 3 arts/s rate, and on DLRimuru it becomes even better thanks to its unique passive.`,
+                    ability1: `Comes with a substantial 70% ATK buff, alongside a 1 arts/s buff to DLRimuru, and extra arts/s is always appreciated.`,
+                    ability2: `Negligible buff that will not have any significant contribution to DLRimuru’s damage.`
+                },
+                overall: `Demon Lord Rimuru’s kit is incredibly damage oriented with him being one of the best DPS options available and a staple in nuke teams thanks to his extremely fast & hard hitting SA animation. While he can be used on almost any team as the main DPS, where DLRimuru truly shines is on the premium Mono Demon Dark composition, where the team uses every possible synergy to power through quests. `,
+                lastupdated: `December 15, 2023`,
+                author: `damino_`
             }
     },
-    { //Combat Form Milim - Missing Lore (GL)
+    { //Combat Form Milim - Missing Lore (GL), Review Done
         id: 107847112,
         name: `Combat Form Milim`,
         attribute: `Fire`,
@@ -32373,9 +32391,27 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Minor DMG RES down with good uptime is always appreciated. However it conflicts with the multiple DMG Res down effects that exist in the game already.`,
+                arts: `A rather weird part in her kit that serves to maintain her own unique passive, can also provide Flinch resistances against those that can stop your units and attacks in their tracks. That being said you’ll almost never use this since you wouldn’t want to lose your TA/SA stacks to something a heal equipment can handle.`,
+                truearts: `Milim’s True Arts focuses on ramping up her next TAs’ Break Power, taking a total of 5 uses to hit the cap of 15000 Break on her TA. Although this looks like a big number, Milim’s breaking capabilities are heavily hurt due to a lack of break power up and no break res down.`,
+                superarts: `Similar to her True Arts, but this time it’s ramping damage instead of Break. It takes 3 uses to reach the 510k% multiplier that this SA boasts. Nothing much other than a big number and unfortunately Milim lacks a significant amount of DMG Up by herself so this can result in unfulfilled expectations.`,
+                ability1: `The passive offers decent buffs in both areas her kit covers, nice passive with a requirement that is not hard to fulfil.`,
+                ability2: `Innate arts generation with no requirement is always nice to have, even if you won’t notice it most of the time.`,
+                ability3: `This burst of arts only happens once at the start, not per wave. Nonetheless it’s good to help her start ramping earlier.`,
+                trueweapon: {
+                    skill: `Provides quite a huge Fire DMG up on Combat Form Milim or any other Demon. Even if not used by a Demon, 50% is still a noticeable buff.`,
+                    ability1: `Status RES is to try and maintain her passive, but at only 30% there’s still quite a big chance of getting hit by one. It’s to be considered as an added bonus, as the real prize of this True Weapon is the 2 arts/s it provides to Milim to help her dish out her ramping Arts.`,
+                    ability2: `Minor buff but appreciated.`
+                },
+                overall: `Combat Form Milim tries too hard to be both a Breaker as well as a DPS and in doing so she suffers in both. Aside from her passive, she has no innate breaking or damage buffs to aid her. Not only does she require time and loads of art to ramp her TA or SA, she has very little self artsgen, even with her TW. It goes without saying that she can do very well if supported properly, but that’s the same for any other unit. Bringing a dedicated breaker or a DPS that have the abilities to complement their own role will serve better than trying to get Combat Form Milim to do either.`,
+                lastupdated: `December 15, 2023`,
+                author: `damino_`
             }
     },
-    { //Diablo - Missing Lore (GL)
+    { //Diablo - Missing Lore (GL), Review Done
         id: 107857512,
         name: `Diablo`,
         attribute: `Dark`,
@@ -32455,6 +32491,24 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Big instant arts on skill is always great to have.`,
+                arts: `Since this Equipment CT is specific to defense equipment it will stack with general Equipment CT, allowing defense equipment to refresh much faster. While the ATK debuff can look useful on paper, most bosses come with innate ATK up which will counter this, but hey, any bit of survivability helps`,
+                truearts: `The evasion debuff on enemies can reduce/remove the need for accuracy buffs, and the PHY RES down helps Diablo and his Physical damaging allies to deal a lot more damage.`,
+                superarts: `An acceptable multiplier for a super art, but the main draw of this would be the high Dark Res down it applies, since the 120% reduction in enemies Dark RES will allow Diablo and other Dark units to deal significantly more damage. The chance to blind on this also pairs up well with his passive allowing him to get some dmg up too.`,
+                ability1: `Instead of giving himself artgen, Diablo supports the team further by providing an insane 6 arts/s to units beside him. It should be noted that you’ll need Diablo in slot 2 or 3 to get the most out of this. The passive does require Diablo to be at a high HP of 90% or above, which can be hard to maintain depending on the team.`,
+                ability2: `Status resistance as an extra on the side is again, always appreciated.`,
+                ability3: `The damage increase from this passive is quite notable and as previously mentioned, it primarily works in conjunction with his Super Arts’ ability to inflict Blind, or any other sources of Blind from the team.`,
+                trueweapon: {
+                    skill: `Although 30% DMG Res might sound good at first, this equip does not have good uptime at all even with his DEF Equip CT down buffs, and the unique passive buffs for Diablo is also very minor.`,
+                    ability1: `With this, Diablo has a larger HP window and is able to tank more damage before his passive deactivates, however it is not difficult to maintain the >90% condition, and the lackluster passive & active alone is not good enough to warrant using his TW over another defense equip.`,
+                    ability2: `Minor PHY RES buff that is nice to have.`
+                },
+                overall: `Diablo is a great unit with good defensive slots who can support the team well with his RES down and 6 arts per second passive to neighbouring units. The supporting capabilities in his kit can allow him to be quite flexible in teams, but just like Demon Lord Rimuru, his potential shines within Mono Demon Dark teams where his kit can be utilised to the fullest. `,
+                lastupdated: `December 15, 2023`,
+                author: `damino_`
             }
     },
     { //Sunraku - Missing Lore
