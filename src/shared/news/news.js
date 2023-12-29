@@ -799,6 +799,37 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 24,
+        date: `December 29, 2023`,
+        article: 
+        {
+            intro: `Christmas Tensura units have been buffed, along with a new Raid featuring Palamicia with her unique Raid equip. Moreover, although he isn't officially out yet, Quickfang Jay has been announced as the next newest addition!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Jay`, 103707212]
+                    ],
+                    equips: [
+                        [`True 'Rimuru's Santa Suit`, 152821],
+                        [`True 'Milim's Santa Coat`, 152831],
+                        [`True 'Shion's Santa Dress`, 152841],
+                        [`True 'Neon Bayonet'`, 111391]
+                    ],
+                    dream: [
+                        [`Santa Rimuru`, 107396212],
+                        [`Santa Milim`, 107406112],
+                        [`Santa Shion`, 107416512]
+                    ]
+                }
+        }
     }
 ]
 

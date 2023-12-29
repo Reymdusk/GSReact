@@ -23867,10 +23867,9 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { // Jay - Missing Lore (JP)
+    { // Jay - Missing Lore
         id: 103707212,
         name: "Jay",
-        translate: "Jay",
         attribute: "Water",
         type: "Human",
         image: 
@@ -23929,7 +23928,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Glowy Bayonet`,
+                name: `Neon Bayonet`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111391.png",
                 skill: `45s CT - 7500% Water DMG (PHY). For 10s, increase own Water DMG by 50% and reduce Enemies' PHY RES by 30%.`,
@@ -23942,8 +23941,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Canary - Missing Lore (JP)
@@ -28271,7 +28270,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Rimuru - Complete (+ JP version), Review done
+    { //Santa Rimuru - Complete, Review done
         id: 107396212,
         name: "Santa Rimuru",
         rank: "A+",
@@ -28286,15 +28285,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107396212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -28314,15 +28304,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - On first use, increase Allies' Arts by 1/s for 7s. On second use, increase Allies' ATK by 10% for 7s. On third use, heal Allies' HP by 1%/s for 7s. Cycle repeats afterwards.",
-                skillbreak: 0,
-                arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
-                artsbreak: 1200,
-                truearts: "45000% Water DMG (MAG). For 20s, increase Allies' DMG by 60% and MAG DMG by 60%.",
-                trueartsbreak: 2300
-            },
-        skillsetJP: 
-            {
                 skill: "12s CT - On first use, increase Allies' Arts by 3/s for 7s. On second use, increase Allies' ATK by 30% for 7s. On third use, heal Allies' HP by 3%/s for 7s. Cycle repeats afterwards.",
                 skillbreak: 0,
                 arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
@@ -28336,7 +28317,7 @@ const UnitInformation = [
                 ability2: "Increase DMG to Giant Bosses by 50%.",
                 ability3: "Increase Water and Demon Allies' DMG by 30%. Does not stack with Abilities of the same name."
             }, 
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -28383,7 +28364,7 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Rimuru's Santa Suit",
                 slot: "/db/Mines/thumbnail/suppLB.png",
@@ -28419,7 +28400,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Milim - Complete (+ JP version), review done
+    { //Santa Milim - Complete, review done
         id: 107406112,
         name: "Santa Milim",
         rank: "A-",
@@ -28434,15 +28415,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107406112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -28462,15 +28434,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "15s CT - Increase own Arts by 20 + For 10s, increase own stats by 10%.",
-                skillbreak: 0,
-                arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30%.",
-                artsbreak:  1600,
-                truearts: "60000% Fire DMG (PHY). For 10s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 3/s.",
-                trueartsbreak: 3100
-            },
-        skillsetJP: 
-            {
                 skill: "12s CT - Increase own Arts by 30 + For 10s, increase own stats by 10%.",
                 skillbreak: 0,
                 arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 40%.",
@@ -28484,7 +28447,7 @@ const UnitInformation = [
                 ability2: "Increase DMG to Enemies under 30% HP by 20%.",
                 ability3: "When HP is above 50%, increases Arts' and True Arts' buff durations by 50%."
             },
-        dreamJP: {
+        dream: {
             fire: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -28531,7 +28494,7 @@ const UnitInformation = [
                     hover3: "Ifrit",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Milim's Santa Coat",
                 slot: "/db/Mines/thumbnail/healLB.png",
@@ -28567,7 +28530,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Shion - Complete (+ JP version)
+    { //Santa Shion - Complete, review done
         id: 107416512,
         name: "Santa Shion",
         rank: "A",
@@ -28582,15 +28545,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107416512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -28610,15 +28564,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "15s CT - 5000% Dark DMG (PHY). Increase BE generation of this Skill by 100%.",
-                skillbreak: 400,
-                arts: "22000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
-                artsbreak: 1600,
-                truearts: "100000% Dark DMG (PHY). For 15s, increase own Accuracy by 100%.",
-                trueartsbreak: 3500
-            },
-        skillsetJP: 
-            {
                 skill: "14s CT - 6000% Dark DMG (PHY). Increase BE generation of this Skill by 100%.",
                 skillbreak: 400,
                 arts: "23000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
@@ -28632,7 +28577,7 @@ const UnitInformation = [
                 ability2: "While near-death, increase DMG RES by 10%.",
                 ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 40% (up to 200%)."
             },
-        dreamJP: {
+        dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -28679,9 +28624,9 @@ const UnitInformation = [
                     hover3: "Valzandeth",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
-                name: "Santa Shion's Dress",
+                name: "Shion's Santa Dress",
                 slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152841.png",
                 skill: "25s CT - For 12s, increase Allies' DMG RES by 15%. Increase <50% HP Allies' DMG RES by 25% instead.",

@@ -24392,9 +24392,9 @@ const EquipInformation = [
             },
         lore: `Airi's military footwear. Despite their plain appearance, they are the sum product of Valkia's advanced magic, which was necessary to endure her nimble movements. The manner in which the vast resource investment to create them was readily approved speaks volumes about her impootance to the nations' forces.`
     },
-{ //慈聖兜『幻静白儀』 (Palamicia Raid Equip) - JP Complete (109011 = Palamicia EV Equip)
+{ //Silent Ritual - Missing Lore
         id: 109001,
-        name: `慈聖兜『幻静白儀』`,
+        name: `Silent Ritual`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -24419,11 +24419,11 @@ const EquipInformation = [
             {
                 ability1: `5% chance to evade Physical ATK.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //極『幻静白儀』 (Palamicia Raid Equip EV) - JP Complete
+{ //Silent Ritual EV - Missing Lore
         id: 109011,
-        name: `極『幻静白儀』`,
+        name: `Silent Ritual EV`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -24449,7 +24449,7 @@ const EquipInformation = [
                 ability1: `5% chance to evade Physical ATK.`,
                 ability2: [`ATK 10% UP.`, `DEF 10% UP.`, `Burn resistance 30% UP.`, `Burn resistance 50% UP.`, `Accuracy rate 10% UP.`, `Accuracy rate 20% UP.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Gold Rush' - Complete
         id: 109021,
@@ -31400,10 +31400,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『グローディベオネット』 (Jay TW) - JP Complete
+    { //True 'Neon Bayonet' - Missing Lore
         id: 111391,
-        name: `真『グローディベオネット』`,
-        translate: `True 'Glowy Bayonet'`,
+        name: `True 'Neon Bayonet'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -31427,15 +31426,15 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Blue Fang Jay, increase own DMG and Break Power by 30% (Only once).`,
+                ability1: `When equipped by Jay, increase own DMG and Break Power by 30% (Only once).`,
                 ability2: `Increase Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //グローディベオネット (Jay Farmable) - JP Complete
         id: 111401,
         name: `グローディベオネット`,
-        translate: `'Glowy Bayonet'`,
+        translate: `'Neon Bayonet'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42298,10 +42297,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『リムルのサンタ服』 - JP Complete
+{ //True 'Rimuru's Santa Suit' - Missing Lore
         id: 152821,
-        name: `真『リムルのサンタ服』`,
-        translate: `True 'Rimuru's Santa Suit'`,
+        name: `True 'Rimuru's Santa Suit'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -42327,12 +42325,11 @@ const EquipInformation = [
                 ability1: `When equipped by Santa Rimuru, the Arts generation and DMG buff of this Equip's Skill is doubled. Does not stack with Abilities of the same name.`,
                 ability2: `Increase Max HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『ミリムのサンタ服』 - JP Complete
+    { //True 'Milim's Santa Coat' - Missing Lore
         id: 152831,
-        name: `真『ミリムのサンタ服』`,
-        translate: `True 'Milim's Santa Coat'`,
+        name: `True 'Milim's Santa Coat'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -42358,12 +42355,11 @@ const EquipInformation = [
                 ability1: `When equipped by Santa Milim, double the Healing Amount of this equipment's Skill. Does not stack with Abilities of the same name.`,
                 ability2: `Increase Max HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『シオンのサンタ服』 - JP Complete
+{ //True 'Shion's Santa Dress' - Missing Lore
         id: 152841,
-        name: `真『シオンのサンタ服』`,
-        translate: `True 'Shion's Santa Dress'`,
+        name: `True 'Shion's Santa Dress'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -42389,7 +42385,7 @@ const EquipInformation = [
                 ability1: `When equipped by Santa Shion, doubles the DMG resistance buff of this Equip's Skill. Does not stack with Abilities of the same name.`,
                 ability2: `Increase Max HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『リムルの羽織』 - JP Complete
         id: 152851,
