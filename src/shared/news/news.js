@@ -818,9 +818,9 @@ const NewsArticles = [
                         [`Jay`, 103707212]
                     ],
                     equips: [
-                        [`True 'Rimuru's Santa Suit`, 152821],
-                        [`True 'Milim's Santa Coat`, 152831],
-                        [`True 'Shion's Santa Dress`, 152841],
+                        [`True 'Rimuru's Santa Suit'`, 152821],
+                        [`True 'Milim's Santa Coat'`, 152831],
+                        [`True 'Shion's Santa Dress'`, 152841],
                         [`True 'Neon Bayonet'`, 111391]
                     ],
                     dream: [

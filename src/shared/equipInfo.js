@@ -33690,7 +33690,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 5000% Earth DMG (MAG). Reduce enemies' Earth RES by 20% for 12s. Additionally if user is Earth, reduce enemies' Evasion rate by 20% for 12s.`,
+                skill: `45s CT - 5000% Earth DMG (Magic). Reduce enemies' Earth resistance by 20% for 12s. Additionally if user is Earth, reduce enemies' Evasion rate by 20% for 12s.`,
                 break: 500
             },
         passive: 
@@ -42917,7 +42917,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - Increase all allies' Arts by 2/s and PHY DMG by 20% for 20s.`,
+                skill: `60s CT - Increase all allies' Arts by 2/s and Physical DMG by 20% for 20s.`,
                 break: 0
             },
         passive: 
@@ -42947,13 +42947,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - Increase all allies' Arts by 2/s and PHY DMG by 20% for 20s.`,
+                skill: `60s CT - Increase all allies' Arts by 2/s and Physical DMG by 20% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `Increase own DEF by 5%.`,
-                ability2: [`Blind RES 10% UP`, `Blind RES 20% UP`, `PHY RES 5% UP`, `MAG RES 5% UP`, `ATK 5% UP`, `Unit EXP 10% UP`]
+                ability2: [`Blind resistance 10% UP`, `Blind resistance 20% UP`, `PHY resistance 5% UP`, `MAG resistance 5% UP`, `ATK 5% UP`, `Unit EXP 10% UP`]
             },
         lore: `Unreleased in Global.`
     },
@@ -42978,12 +42978,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `75s CT - 7000% Dark DMG (PHY). Increase own PHY DMG by 40% and Human allies' PHY DMG by 30% (stackable) for 15s.`,
+                skill: `75s CT - 7000% Dark DMG (Physical). Increase own Physical DMG by 40% and Human allies' Physical DMG by 30% (stackable) for 15s.`,
                 break: 700
             },
         passive: 
             {
-                ability1: [`Fire RES 10% UP.`, `Water RES 10% UP.`, `Earth RES 10% UP.`, `CRI DMG 10% UP.`, `CRI DMG 20% UP.`],
+                ability1: [`Fire resistance 10% UP.`, `Water resistance 10% UP.`, `Earth resistance 10% UP.`, `CRI DMG 10% UP.`, `CRI DMG 20% UP.`],
                 ability2: [`None.`, `DMG against Fire enemies 20% UP.`, `DMG against Water enemies 20% UP.`, `DMG against Earth enemies 20% UP.`],
                 ability3: [`None.`, `Skill CT Speed 5% UP.`, `Skill CT Speed 10% UP.` `Arts Gauge 10 UP.`, `Arts Gauge 20 UP.`]
             },
@@ -43010,7 +43010,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 4000% Fire DMG (MAG). Reduce enemies' MAG RES by 20% (stackable) for 15s.`,
+                skill: `20s CT - 4000% Fire DMG (Magic). Reduce enemies' Magic resistance by 20% (stackable) for 15s.`,
                 break: 400
             },
         passive: 
@@ -43040,7 +43040,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' Fire RES and Water RES by 25% for 15s. Additionally if user is Human, increase all allies' DEF by 60% for 15s.`,
+                skill: `30s CT - Increase all allies' Fire resistance and Water resistance by 25% for 15s. Additionally if user is Human, increase all allies' DEF by 60% for 15s.`,
                 break: 0
             },
         passive: 
