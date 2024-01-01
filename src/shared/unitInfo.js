@@ -32593,6 +32593,144 @@ const UnitInformation = [
                 evoawk: "Unreleased in Global.",
                 evosuper: "Unreleased in Global."
             }
+    },
+    { //Arthur Pencilgon - Missing Lore
+        id: 107887512,
+        name: `Arthur Pencilgon`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107886512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107887512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_788_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107886512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107887512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_788_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7150,
+                hpplus: 1350,
+                atk: 3680,
+                atkplus: 690,
+                def: 3197,
+                defplus: 606
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Dark DMG (PHY). For 10s, increase own Arts by 4/s.`,
+                skillbreak: 1000,
+                arts: `17000% Dark DMG (MAG). For 35s, reduce enemies' Break RES by 40%.`,
+                artsbreak: 3000,
+                truearts: `52000% Dark DMG (PHY). For 25s, reduce enemies' Dark RES by 80% and increase >50% HP Allies' Arts by 5/s.`,
+                trueartsbreak: 4000,
+                superarts: `130000% Dark DMG (PHY). When Super Arts is used right after Arts has been used, increase current Super Arts' Break Power by 150%. When Super Arts is used right after True Arts has been used, increase current Super Arts' DMG by 300%.`,
+                superartsbreak: 12000
+            },
+        passive: 
+            {
+                ability1: `When boss is broken, resets all allies' PHY Equip CT. Does not stack with Abilities of the same name.`,
+                ability2: `Increase DMG to Enemies with 30% or less HP by 50%.`,
+                ability3: `Increase DMG to Humans by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Arthur Pencilgon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Arthur Pencilgon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //OiKatzo - Missing Lore
+        id: 107897112,
+        name: `OiKatzo`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107896112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107897112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_789_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107896112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107897112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_789_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7425,
+                hpplus: 1400,
+                atk: 3937,
+                atkplus: 680,
+                def: 2845,
+                defplus: 592
+            },
+        skillset: 
+            {
+                skill: `10s CT - 4300% Fire DMG (PHY). 10% chance to inflict Faint for 6s.`,
+                skillbreak: 500,
+                arts: `21000% Fire DMG (MAG). For 20s, reduce enemies' Fire RES by 20% (stackable) and increase all allies' stats by 30%.`,
+                artsbreak: 1000,
+                truearts: `60000% Fire DMG (MAG). For 25s, increase own Accuracy by 150%. When ownself is above 80% HP, for 25s, reduce enemies' DMG RES by 50%. When ownself is above 50% HP, for 25s, increase own Arts by 5/s.`,
+                trueartsbreak: 1600,
+                superarts: `170000% Fire DMG (MAG). For 25s, increase all allies' Freeze RES and Paralysis RES by 100%. When ownself is above 80% HP, for 25s, reduce enemies' MAG RES by 150%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `When Near-Death, increase own Arts by 200 and heal own HP by 100%. Can only be activated once per Quest.`,
+                ability2: `Increase own DMG by [2% x own ATK and DEF/100].`,
+                ability3: `When above 80% HP, increase own Arts by 4/s.`,
+                ability4: `Unit EXP UP 20% UP. (When OiKatzo's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When OiKatzo's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
     }
 ];
 

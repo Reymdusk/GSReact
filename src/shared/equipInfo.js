@@ -33669,6 +33669,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //マッドネスサイス - JP Complete (Groitz' raid equip)
+        id: 112141,
+        name: `マッドネスサイス`,
+        translate: `Madness Scythe`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112141.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `45s CT - 5000% Earth DMG (MAG). Reduce enemies' Earth RES by 20% for 12s. Additionally if user is Earth, reduce enemies' Evasion rate by 20% for 12s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When own HP is 90% or higher, increase own Accuracy by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -42858,6 +42888,159 @@ const EquipInformation = [
         skillset:  
             {
                 skill: `40s CT - Increase all allies' CRI resistance, Light resistance and Dark resistance by 30% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //ペンシルゴンのイヤリング - Missing Lore
+        id: 153011,
+        name: `ペンシルゴンのイヤリング`,
+        translate: `Pencilgon's Earrings`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153011.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increase all allies' Arts by 2/s and PHY DMG by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //極『ペンシルゴンのイヤリング』 - Missing Lore
+        id: 153021,
+        name: `極『ペンシルゴンのイヤリング』`,
+        translate: `Pencilgon's Earrings EV`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_153021.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153021.png`
+            },
+            stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increase all allies' Arts by 2/s and PHY DMG by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: [`Blind RES 10% UP`, `Blind RES 20% UP`, `PHY RES 5% UP`, `MAG RES 5% UP`, `ATK 5% UP`, `Unit EXP 10% UP`]
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //ペンシルゴンの槍 - Missing Lore
+        id: 153031,
+        name: `ペンシルゴンの槍`,
+        translate: `Pencilgon's Spear`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 7000% Dark DMG (PHY). Increase own PHY DMG by 40% and Human allies' PHY DMG by 30% (stackable) for 15s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: [`Fire RES 10% UP.`, `Water RES 10% UP.`, `Earth RES 10% UP.`, `CRI DMG 10% UP.`, `CRI DMG 20% UP.`],
+                ability2: [`None.`, `DMG against Fire enemies 20% UP.`, `DMG against Water enemies 20% UP.`, `DMG against Earth enemies 20% UP.`],
+                ability3: [`None.`, `Skill CT Speed 5% UP.`, `Skill CT Speed 10% UP.` `Arts Gauge 10 UP.`, `Arts Gauge 20 UP.`]
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //拳気まといの拳 - Missing Lore
+        id: 153041,
+        name: `拳気まといの拳`,
+        translate: `Fistful of Fists`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 4000% Fire DMG (MAG). Reduce enemies' MAG RES by 20% (stackable) for 15s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Unreleased in Global.`
+    },
+    { //修験の胴衣 - Missing Lore
+        id: 153051,
+        name: `修験の胴衣`,
+        translate: `Training Jacket`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Fire RES and Water RES by 25% for 15s. Additionally if user is Human, increase all allies' DEF by 60% for 15s.`,
                 break: 0
             },
         passive: 

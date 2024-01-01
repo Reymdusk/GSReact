@@ -830,6 +830,36 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 25,
+        date: `January 1, 2024`,
+        article: 
+        {
+            intro: `Happy New Year! Part 2 of Shangri-La Frontier Collab debuts on JP, featuring 2 brand new units and a few new equips as well. Moreover, a new Groitz Raid boss has also made an appearance.`,
+            new: 
+                {
+                    units: [
+                        [`Arthur Pencilgon`, 107887512],
+                        [`OiKatzo`, 107897112]
+                    ],
+                    equips: [
+                        [`マッドネスサイス`, 112141],
+                        [`ペンシルゴンのイヤリング`, 153011],
+                        [`極『ペンシルゴンのイヤリング』`, 153021],
+                        [`ペンシルゴンの槍`, 153031],
+                        [`拳気まといの拳`, 153041],
+                        [`修験の胴衣`, 153051]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
