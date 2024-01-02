@@ -42985,7 +42985,7 @@ const EquipInformation = [
             {
                 ability1: [`Fire resistance 10% UP.`, `Water resistance 10% UP.`, `Earth resistance 10% UP.`, `CRI DMG 10% UP.`, `CRI DMG 20% UP.`],
                 ability2: [`None.`, `DMG against Fire enemies 20% UP.`, `DMG against Water enemies 20% UP.`, `DMG against Earth enemies 20% UP.`],
-                ability3: [`None.`, `Skill CT Speed 5% UP.`, `Skill CT Speed 10% UP.` `Arts Gauge 10 UP.`, `Arts Gauge 20 UP.`]
+                ability3: [`None.`, `Skill CT Speed 5% UP.`, `Skill CT Speed 10% UP.`, `Arts Gauge 10 UP.`, `Arts Gauge 20 UP.`]
             },
         lore: `Unreleased in Global.`
     },
