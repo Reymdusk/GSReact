@@ -14392,7 +14392,7 @@ const UnitInformation = [
         name: "Honoka",
         rank: "C",
         attribute: "Fire",
-        type: "Human",
+        type: "God",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_102705112.png",
@@ -23784,6 +23784,7 @@ const UnitInformation = [
         translate: "Demon King Vox",
         attribute: "Dark",
         type: "Demon",
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103696512.png",
@@ -23872,6 +23873,7 @@ const UnitInformation = [
         name: "Jay",
         attribute: "Water",
         type: "Human",
+        rank: "SS",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103706212.png",
@@ -32161,6 +32163,7 @@ const UnitInformation = [
         name: `Demon Lord Rimuru`,
         attribute: `Dark`,
         type: `Demon`,
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107836512.png",
@@ -32261,6 +32264,7 @@ const UnitInformation = [
         name: `Combat Form Milim`,
         attribute: `Fire`,
         type: `Demon`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107846112.png",
@@ -32361,6 +32365,7 @@ const UnitInformation = [
         name: `Diablo`,
         attribute: `Dark`,
         type: `Demon`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107856512.png",
