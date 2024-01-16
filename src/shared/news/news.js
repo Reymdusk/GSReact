@@ -821,7 +821,9 @@ const NewsArticles = [
                         [`True 'Rimuru's Santa Suit'`, 152821],
                         [`True 'Milim's Santa Coat'`, 152831],
                         [`True 'Shion's Santa Dress'`, 152841],
-                        [`True 'Neon Bayonet'`, 111391]
+                        [`True 'Neon Bayonet'`, 111391],
+                        [`Silent Ritual`, 109001],
+                        [`Silent Ritual EV`, 109011],
                     ],
                     dream: [
                         [`Santa Rimuru`, 107396212],
@@ -858,6 +860,42 @@ const NewsArticles = [
                     units: [],
                     equips: [],
                     dream: []
+                }
+        }
+    },
+    {
+        id: 26,
+        date: `January 16, 2024`,
+        article: 
+        {
+            intro: `More Dream Awakenings for both Global and JP versions. Moreover, both versions have also added new equips as shown below!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`情熱装『スクレパシオン』`, 112151],
+                        [`絶甲盾『アズルヴァイト』`, 112161],
+                        [`超神具『ジアブロス』`, 140151],
+                    ],
+                    dream: [
+                        [`Berwick (Magic)`, 102486112],
+                        [`Riviera`, 102496312],
+                        [`Vox`, 102516212],
+                        [`Berwick (Physical)`, 102666112],
+                        [`Leone`, 102686412]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`True 'Rimuru's Haori'`, 152851],
+                        [`True 'Milim's Kimono'`, 152861]
+                    ],
+                    dream: [
+                        [`New Years Rimuru`, 107426512],
+                        [`New Years Milim`, 107436412]
+                    ]
                 }
         }
     }

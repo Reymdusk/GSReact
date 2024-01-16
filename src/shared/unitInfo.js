@@ -12653,7 +12653,7 @@ const UnitInformation = [
                 evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a 'friend.' With that understanding, she gladly went among the teeming spirtis."
             }
     },
-    { //Berwick (Magic) - Complete
+    { //Berwick (Magic) - Complete (+ JP ver.)
         id: 102486112,
         name: "Berwick (Magic)",
         rank: "A",
@@ -12676,6 +12676,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6856,
@@ -12692,6 +12701,15 @@ const UnitInformation = [
                 arts: "14400% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.",
                 artsbreak: 2100,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 37000% Fire DMG (MAG). For 15s, increase Allies' DMG by 50%, for Fire Allies, increase DMG by 100% instead.",
+                trueartsbreak: 4000
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
+                skillbreak: 1000,
+                arts: "16000% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.",
+                artsbreak: 2100,
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 47000% Fire DMG (MAG). For 25s, increase Allies' DMG by 60%, for Fire Allies, increase DMG by 120% instead.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -12719,6 +12737,40 @@ const UnitInformation = [
                     hover5: "Degilmagna"
                 }
             },
+        dreamJP: {
+            fire: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 50,
+                    hover2: `Flametail Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat3amt: 2,
+                    hover3: "Flogassa",
+                },
+                passive: {
+                    ability1: `Increase own CRI DMG by 50%.`,
+                    ability2: `When own HP is 80% or higher, increase own Arts by 2/s.`
+                }
+            },
+            water: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 50,
+                    hover2: `Frostsprite Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat3amt: 2,
+                    hover3: "Palamicia",
+                },
+                passive: {
+                    ability1: `At the start of a Quest, Increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                    ability2: `Increase all allies' Skill CT Speed by 15%. Does not stack with Abilities of the same name.`
+                }
+            }
+        },
         trueweapon: //If no TW, may delete this section
             {
                 name: "Fomalhaut",
@@ -12738,7 +12790,7 @@ const UnitInformation = [
                 evoawk: "His admiration for the Commander and his hunger for further growth drove him to facing the devastating attacks against his foes, and when a mighty Ice dragon appeared, he activated the devastating Magia Drive to defeat the fire-proof beast. His countless battles with his fellow Templars has given him a calm perspective on battle, and he is always waiting for the perfect opponent to lay low with his raging flames."
             }
     },
-    { //Riviera - Complete
+    { //Riviera - Complete (+ JP ver.)
         id: 102496312,
         name: "Riviera (Earth)",
         rank: "A-",
@@ -12754,6 +12806,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -12778,11 +12839,26 @@ const UnitInformation = [
                 truearts: "For 60s, enter Magia Drive. During Magia Drive: 42000% Earth DMG (PHY). Increase own Arts by 100.",
                 trueartsbreak: 3500
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2800% Earth DMG (PHY). Increase own Arts by 20.",
+                skillbreak: 1000,
+                arts: "22000% Earth DMG (PHY). Permanently increase own Critical Rate by 20% (up to 80%).",
+                artsbreak: 2000,
+                truearts: "For 120s, enter Magia Drive. During Magia Drive: 53000% Earth DMG (PHY). Increase own Super CRI rate by 30% for the duration of True Arts and Increase own Arts by 100.",
+                trueartsbreak: 3500
+            },
         passive: 
             {
                 ability1: "At the start of a Battle, increase own Arts by 100.",
                 ability2: "Increase Critical Rate by 50%.",
                 ability3: "When Magia Drive is activated, increase own Arts by 100. During Magia Drive, increase Critical DMG by 150% and reduce DMG RES by 30%."
+            },
+        passiveJP: 
+            {
+                ability1: "At the start of a Battle, increase own Arts by 100.",
+                ability2: "Increase Critical Rate by 50%.",
+                ability3: "When Magia Drive is activated, increase own Arts by 100. During Magia Drive, increase Critical DMG by 150%."
             }, 
         evolution: 
             {
@@ -12803,6 +12879,40 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
+        dreamJP: {
+            water: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 50,
+                    hover2: `Frostsprite Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                    mat3amt: 2,
+                    hover3: "Geo Zagnus",
+                },
+                passive: {
+                    ability1: `Increase own DMG against Water enemies by 80%.`,
+                    ability2: `Increase own Skill CT Speed by 30%.`
+                }
+            },
+            earth: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 50,
+                    hover2: `Smogdragon Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat3amt: 2,
+                    hover3: "Tonetaurus",
+                },
+                passive: {
+                    ability1: `Increase own Equipment CT Speed by 10%.`,
+                    ability2: `When Enemy is below 30% HP, increase own DMG by 80%.`
+                }
+            }
+        },
         trueweapon: //If no TW, may delete this section
             {
                 name: "Tempest",
@@ -12907,7 +13017,7 @@ const UnitInformation = [
                 evoawk: "The Juno Templar known as \"Immovable Shield.\" When one of his companions lost consciousness behind enemy lines, he penetrated the enemy encirclement alone. On the way, he was simultaneously attacked by God army and found himself in a critical situation, but thanks to his willpower he could handle the enemies. He was moved by his duty as a member of the Templars but most importantly by the strong will to save his friends."
             }
     },
-    { //Vox - Complete
+    { //Vox - Complete (+ JP ver.)
         id: 102516212,
         name: "Vox",
         rank: "A+",
@@ -12929,6 +13039,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6891,
@@ -12942,9 +13061,18 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2400% Water DMG (PHY). Increase own Arts by 20. During Magia Drive: 2400% Water DMG (PHY). Increase own Arts by 40.",
                 skillbreak: 1000,
-                arts: "18000% Water DMG (PHY). For 12s, increase Allies' stats by 30%.",
+                arts: "22000% Water DMG (PHY). For 15s, increase Allies' stats by 30%.",
                 artsbreak: 2800,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 45000% Water DMG (PHY). For 15s, increase Allies' Critical Rate by 100%.",
+                trueartsbreak: 4000
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2400% Water DMG (PHY). Increase own Arts by 20. During Magia Drive: 2400% Water DMG (PHY). Increase own Arts by 40.",
+                skillbreak: 1000,
+                arts: "18000% Water DMG (PHY). For 12s, increase Allies' stats by 30%.",
+                artsbreak: 2800,
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 62000% Water DMG (PHY). For 20s, increase Allies' Critical Rate by 100%.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -12972,6 +13100,40 @@ const UnitInformation = [
                     hover5: "Wilkes"
                 }
             },
+        dreamJP: {
+            water: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 50,
+                    hover2: `Frostsprite Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat3amt: 2,
+                    hover3: "Palamicia",
+                },
+                passive: {
+                    ability1: `Increase all allies' CRI DMG by 30%. Does not stack with Abilities of the same name.`,
+                    ability2: `Increase own Arts by 1/s.`
+                }
+            },
+            light: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 50,
+                    hover2: `Eternaglit Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                },
+                passive: {
+                    ability1: `At the start of a Quest, increase own Arts by 200. Does not stack with Abilities of the same name.`,
+                    ability2: `Increase own Accuracy rate by 30%.`
+                }
+            }
+        },
         trueweapon: //If no TW, may delete this section
             {
                 name: "ZANKETSU",
@@ -14056,9 +14218,10 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Berwick (Physical) - Complete
+    { //Berwick (Physical) - Complete (+ JP ver.)
         id: 102666112,
         name: "Berwick (Physical)",
+        translate: `Swordsman Berwick`,
         rank: "A-",
         attribute: "Fire",
         type: "Demon",
@@ -14072,6 +14235,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -14093,7 +14265,16 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "12000% Fire DMG (PHY). For 10s, increase Allies' Arts by 3/s.",
                 artsbreak: 1800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' max HP by 20%, PHY DMG by 100%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20%, PHY DMG by 100%.",
+                trueartsbreak: 3500
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 3300% Fire DMG (PHY). Increase own Arts by 20. During Magia Drive: 3300% Fire DMG (PHY). Increase own Arts by 40.",
+                skillbreak: 700,
+                arts: "18000% Fire DMG (PHY). For 15s, increase Allies' Arts by 3/s.",
+                artsbreak: 1800,
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 52000% Fire DMG (PHY). For 20s, increase Allies' Max HP by 30%, PHY DMG by 130%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -14121,6 +14302,40 @@ const UnitInformation = [
                     hover5: "Wilkes"
                 }
             },
+        dreamJP: {
+            fire: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 50,
+                    hover2: `Flametail Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat3amt: 2,
+                    hover3: "Flogassa",
+                },
+                passive: {
+                    ability1: `Increase own Status Ailment RES by 50% (except Faint).`,
+                    ability2: `Increase all Fire Allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                }
+            },
+            earth: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 50,
+                    hover2: `Smogdragon Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat3amt: 2,
+                    hover3: "Goldola",
+                },
+                passive: {
+                    ability1: `Increase own DMG agaisnt Gods by 100%.`,
+                    ability2: `Increase own Equipment CT Speed by 15%.`
+                }
+            }
+        },
         trueweapon: //If no TW, may delete this section
             {
                 name: "ZANKETSU",
@@ -14226,7 +14441,7 @@ const UnitInformation = [
                 evoawk: "A genius sorcerer, and pride of the Leone Templars. Her success at deciphering and using the previously incomprehensible tomes of Advanced Crest Magic earned her the nickname “Heavenly Witch”. After reuniting with Princess Leone by joining the Templars, she was both overjoyed that her friend became queen and sad for the distance. Yet, when she sensed the princess’s loneliness during the god’s attack on the sky ark, she resolved to support Leone as a Templar and as a friend."
             }
     },
-    { //Leone - Complete
+    { //Leone - Complete (+ JP ver.)
         id: 102686412,
         name: "Leone",
         rank: "C",
@@ -14243,6 +14458,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
@@ -14267,11 +14491,20 @@ const UnitInformation = [
                 truearts: "For 120s, enter Demonic True Eclipse. During Demonic True Eclipse: 37700% Dark DMG (MAG). Consume 25% of own HP.",
                 trueartsbreak: 4000
             },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2200% Light DMG (MAG). Heal own HP by 3% of DMG dealt by this Skill.",
+                skillbreak: 700,
+                arts: "27000% Light DMG (MAG). Consume 15% of own HP + For 30s, increase own Critical DMG by 100%.",
+                artsbreak: 2500,
+                truearts: "For 120s, enter Demonic True Eclipse. During Demonic True Eclipse: 65000% Dark DMG (MAG). Consume 25% of own HP.",
+                trueartsbreak: 4000
+            },
         passive: 
             {
                 ability1: "Increase MAG RES by 20%.",
                 ability2: "During Demonic True Eclipse, prevent falling below 200 Arts. When this unit takes lethal DMG, end Demonic True Eclipse, set HP to 1 HP and Arts to 0, and gain invulnerability for 1s."
-            }, 
+            },
         evolution: 
             {
                 evo5awk:
@@ -14288,6 +14521,40 @@ const UnitInformation = [
                     hover4: "Wilkes",
                 }
             },
+        dreamJP: {
+            light: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 50,
+                    hover2: `Eternaglit Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 2,
+                    hover3: "Fosradius",
+                },
+                passive: {
+                    ability1: `Increase own Equipment CT Speed by 10%.`,
+                    ability2: `Increase Demon Allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                }
+            },
+            dark: {
+                evolution: {
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                    mat2amt: 50,
+                    hover2: `Sinful Soulgem`,
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 2,
+                    hover3: "Ragsherum Phantom",
+                },
+                passive: {
+                    ability1: `Increase own CRI rate by 50%.`,
+                    ability2: `Increase all allies' Dark RES by 20%. Does not stack with Abilities of the same name.`
+                }
+            }
+        },
         trueweapon: //If no TW, may delete this section
             {
                 name: "EX Gate",
@@ -15488,9 +15755,9 @@ const UnitInformation = [
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
                         hover2: `Sinful Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/fragRagsherum.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
-                        hover3: `Ragsherum`
+                        hover3: `Ragsherum Phantom`
                     },
                     passive: {
                         ability1: `Increase own Arts by 100 at start of quest.`,
@@ -28663,7 +28930,7 @@ const UnitInformation = [
             author: `Zanster`
         }
     },
-    { //New Years Rimuru - Complete (+ JP version)
+    { //New Years Rimuru - Complete
         id: 107426512,
         name: "New Years Rimuru",
         rank: "A+",
@@ -28678,15 +28945,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107426512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -28706,15 +28964,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1700% Dark DMG (PHY). If this skill crits, increase own Arts by 50.",
-                skillbreak: 500,
-                arts: "20000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
-                artsbreak: 1600,
-                truearts: "60000% Dark DMG (PHY). For 60s, increase Allies' PHY DMG by 60% (stackable).",
-                trueartsbreak: 2800
-            },
-        skillsetJP: 
-            {
                 skill: "10s CT - 1700% Dark DMG (PHY). If this skill crits, increase own Arts by 60.",
                 skillbreak: 500,
                 arts: "22000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
@@ -28728,7 +28977,7 @@ const UnitInformation = [
                 ability2: "Increase PHY RES by 10%.",
                 ability3: "Increase Critical Rate by 100% while unaffected by status ailments."
             }, 
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -28775,7 +29024,7 @@ const UnitInformation = [
                     hover3: "Oldeus",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Rimuru's Haori",
                 slot: "/db/Mines/thumbnail/suppLB.png",
@@ -28813,7 +29062,7 @@ const UnitInformation = [
             author: `Pula`
         }
     },
-    { //New Years Milim - Complete, Review Complete (+ JP Version)
+    { //New Years Milim - Complete, Review Complete
         id: 107436412,
         name: "New Years Milim",
         rank: "A+",
@@ -28828,15 +29077,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107436412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -28856,15 +29096,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2000% Light DMG (PHY). For 7s, increase own ATK by 10%.",
-                skillbreak: 500,
-                arts: "20000% Light DMG (PHY). For 20s, increase own accuracy by 50% and own DMG by 80%.",
-                artsbreak: 1300,
-                truearts: "85000% Light DMG (PHY). For 12s, reduce Enemies' Light RES by 50%.",
-                trueartsbreak: 2000
-            },
-        skillsetJP: 
-            {
                 skill: "10s CT - 2000% Light DMG (PHY). For 7s, increase own ATK by 20%.",
                 skillbreak: 500,
                 arts: "24000% Light DMG (PHY). For 20s, increase own Accuracy by 60% and own DMG by 60%.",
@@ -28878,7 +29109,7 @@ const UnitInformation = [
                 ability2: "At the start of a Quest, increase Allies' Arts by 50.",
                 ability3: "Increase MAG RES by 10%."
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -28925,7 +29156,7 @@ const UnitInformation = [
                     hover3: "Radachne",
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Milim's Kimono",
                 slot: "/db/Mines/thumbnail/magLB.png",

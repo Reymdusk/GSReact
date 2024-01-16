@@ -33699,6 +33699,66 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //絶甲盾『アズルヴァイト』 - JP Complete (Cyber-Z Elite Mines Equip)
+        id: 112151,
+        name: `絶甲盾『アズルヴァイト』`,
+        translate: `Armored Shield 'Azurite'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Reduce target's DMG taken from Burning, Poisoned or Blinded enemies by 50% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduce own Skill CT Speed by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //情熱装『スクレパシオン』 - JP Complete (Gorgeous Passionate Part 1 Farmable)
+        id: 112161,
+        name: `情熱装『スクレパシオン』`,
+        translate: `Passionate Outfit 'Sucre Passion'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112161.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase target's Arts by 30. If user is Fire, increase target's Arts by 40 instead. If target is Fire, increase target's ATK by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Skill CT Speed by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -34102,6 +34162,35 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Magic DMG by 25% UP. For 165.5s after start of quest, Increase all Allies' Water DMG by 20%. (At Passive Lv.101)`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Ultra Relic 'Diablos' - JP Complete
+        id: 140151,
+        name: `Ultra Relic 'Diablos'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_140150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_140151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_140150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_140151.png`
+            },
+        stats:
+            {
+                hp: `X`,
+                atk: `X`,
+                def: `X`
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Dark DMG (MAG). Increase own ATK by 50% for 15s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase own MAG DMG by 25.0%. For the first 165.5s of Quest, increase all allies' Elemental Advantage DMG by 20.0%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -42417,10 +42506,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『リムルの羽織』 - JP Complete
+{ //True 'Rimuru's Haori' - Missing Lore
         id: 152851,
-        name: `真『リムルの羽織』`,
-        translate: `True 'Rimuru's Haori'`,
+        name: `True 'Rimuru's Haori'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -42446,12 +42534,11 @@ const EquipInformation = [
                 ability1: `When equipped by New Year Rimuru, increase own DMG by 40%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ミリムの着物』 - JP Complete
+{ //True 'Milim's Kimono' - JP Complete
         id: 152861,
-        name: `真『ミリムの着物』`,
-        translate: `True 'Milim's Kimono'`,
+        name: `True 'Milim's Kimono'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -42477,7 +42564,7 @@ const EquipInformation = [
                 ability1: `When equipped by New Year Milim, increase Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Rimuru's Mantle' - Missing Lore
         id: 152871,
