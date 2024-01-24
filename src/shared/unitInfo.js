@@ -651,15 +651,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2600% Light DMG (MAG). For 5s, heal own HP by 20/s.",
-                skillbreak: 1000,
-                arts: "11500% Light DMG (MAG). Cure all Ally Status Ailments (except Faint). For 10s, increase all Ally Status RES (except Faint) by 100%",
-                artsbreak: 2600,
-                truearts: "22500% DMG (MAG). Cure all Ally Status Ailments (except Faint). For 20s, increase all Ally Status RES (except Faint) by 100% and heal all Ally HP by 300/s",
-                trueartsbreak: 4500
-            },
-        skillsetJP: 
-            {
                 skill: "8s CT - 2600% Light DMG (MAG). For 5s, heal own HP by 20/s.",
                 skillbreak: 1000,
                 arts: "13000% Light DMG (MAG). Cure all Ally Status Ailments (except Faint). For 10s, increase all Ally Status RES (except Faint) by 100%",
@@ -683,15 +674,6 @@ const UnitInformation = [
                 defplus: 352
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -740,7 +722,7 @@ const UnitInformation = [
                     hover5: "Aerugraxes"
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -818,15 +800,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2200% Dark DMG (PHY). Heal own HP by 5% of DMG dealt by own Skill",
-                skillbreak: 1250,
-                arts: "10850% Dark DMG (PHY). For 5s, increase all Ally Critical Rate by 50%.",
-                artsbreak: 2000,
-                truearts: "25550% Dark DMG (PHY). For 8s, increase all Ally Critical Rate by 100% and DMG to Light Enemy by 50%",
-                trueartsbreak: 3800
-            },
-        skillsetJP: 
-            {
                 skill: "7s CT - 2200% Dark DMG (PHY). Heal own HP by 5% of DMG dealt by own Skill",
                 skillbreak: 1300,
                 arts: "16000% Dark DMG (PHY). For 10s, increase all Allies' Critical Rate by 50%.",
@@ -849,15 +822,6 @@ const UnitInformation = [
                 defplus: 373
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -906,7 +870,7 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
-            dreamJP: {
+            dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -946,9 +910,9 @@ const UnitInformation = [
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
                         hover2: `Sinful Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Mavroskia`
                     },
                     passive: {
                         ability1: `Adds "Increase own Arts by 40" effect to Skill.`,
@@ -4489,15 +4453,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
@@ -4515,15 +4470,6 @@ const UnitInformation = [
                 defplus: 350
             },
         skillset: 
-            {
-                skill: "9s CT - 1900% Earth DMG (PHY).",
-                skillbreak: 1600,
-                arts: "12000% Earth DMG (PHY). For 15s, increase Allies’ evasion by 30%.",
-                artsbreak: 2000,
-                truearts: "20000% Earth DMG (PHY). Cure Allies’ Status Ailments (Except Faint) + For 20s, increase Earth Allies’ Arts by 2/s.",
-                trueartsbreak: 3400
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1900% Earth DMG (PHY).",
                 skillbreak: 1600,
@@ -4559,7 +4505,7 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -25157,6 +25103,85 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Holy Knight Roy, increase own Arts by 2/s. At the start of a Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own Accuracy by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Marlet - Missing Lore (JP)
+        id: 103837412,
+        name: `Marlet`,
+        translate: `Sound Princess Marlet`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103836412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103837412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103836412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103837412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7150,
+                hpplus: 1350,
+                atk: 4012,
+                atkplus: 692,
+                def: 3017,
+                defplus: 624
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2600% Light DMG (PHY). Increase own Arts by 20. If used when own HP is above 80%, increase own Arts by 40 instead.`,
+                skillbreak: 800,
+                arts: `22000% Light DMG (PHY). For 25s, increase all allies' Equipment DMG by 100% and PHY Equipment CT Speed by 30%.`,
+                artsbreak: 1200,
+                truearts: `55000% Light DMG (PHY). For 25s, reduce enemies' Light RES by 80% and Evasion rate by 40%.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Light DMG (PHY). Increase all allies' Arts by 30. For 20s, increase all allies' PHY DMG based on how high own % of HP is when Super Arts is used (MAX: 200%).`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `Each time own Physical equipment is used, permanently increase own DMG by 30% (MAX: 300%).`,
+                ability2: `Increase own Blind RES by 80%.`,
+                ability3: `When above 80% HP, increase own Accuracy by 40%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 220,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: `Vespada`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112171.png",
+                skill: `25s CT - 5000% Light DMG (PHY). For 15s, reduce enemies' PHY RES by 15% (stackable). If user is Light, increase own Arts by 10.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Marlet, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DMG by 10% against enemies in BREAK.`
                     }
             },
         lore: 

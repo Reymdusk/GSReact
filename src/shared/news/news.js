@@ -898,6 +898,49 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 27,
+        date: `January 24, 2024`,
+        article: 
+        {
+            intro: `New unit Marlet makes her appearance on JP, along with her related equips. Meanwhile, 3 new Dream Awakenings, new Raid equips, and a whole bunch of new 6* Equips from Summoner's Road have been introduced to Global!`,
+            new: 
+                {
+                    units: [
+                        [`Marlet`, 103837412]
+                    ],
+                    equips: [
+                        [`真『ヴェスパーダ』`, 112171],
+                        [`煌華銃『ヴェスパーダ』`, 112181],
+                        [`華麗装『ブルヴェスティート』`, 112191],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Halos Pragma`, 109301],
+                        [`Halos Pragma EV`, 109311],
+                        [`Twinflame Helm 'Garmroar' Replica`, 111131],
+                        [`Twinflame Helm 'Garmroar' Custom`, 111141],
+                        [`Iceshard Shield 'Aeruscale' Replica`, 111151],
+                        [`Iceshard Shield 'Aeruscale' Custom`, 111161],
+                        [`Verdant Bracers 'Elpdaron' Replica`, 111171],
+                        [`Verdant Bracers 'Elpdaron' Custom`, 111181],
+                        [`Gleaming Crux 'Fosbrace' Replica`, 111261],
+                        [`Gleaming Crux 'Fosbrace' Custom`, 111271],
+                        [`Hades Tome 'Plutorix' Replica`, 111281],
+                        [`Hades Tome 'Plutorix' Custom`, 111291]
+                    ],
+                    dream: [
+                        [`Feena`, 100046411],
+                        [`Regulus`, 100056511],                        
+                        [`Ashe Toto`, 101196312]
+                    ]
+                }
+        }
     }
 ]
 

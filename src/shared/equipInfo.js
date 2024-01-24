@@ -25280,9 +25280,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //ハロス・プラグマ (Mavro Halos Raid Equip) - JP Complete (109311 = Mavro Halos EV Equip)
+{ //Halos Pragma - Missing Lore (109311 = Mavro Halos EV Equip)
         id: 109301,
-        name: `ハロス・プラグマ`,
+        name: `Halos Pragma`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -25307,11 +25307,11 @@ const EquipInformation = [
             {
                 ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //極『ハロス・プラグマ』 (Mavro Halos Raid Equip EV) - JP Complete
+{ //Halos Pragma EV - Missing Lore
         id: 109311,
-        name: `極『ハロス・プラグマ』`,
+        name: `Halos Pragma EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -25337,7 +25337,7 @@ const EquipInformation = [
                 ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`,
                 ability2: [`DMG to Beasts 10% UP.`, `DMG to Spirits 10% UP.`, `DMG to Dragons 10% UP.`, `Dark resistance 5% UP.`, `Negates 500 of own DMG taken at Start of Quest.`, `Negates 1000 of own DMG taken at Start of Quest.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Leone's Precious One-Piece - Complete
         id: 109321,
@@ -30326,7 +30326,7 @@ const EquipInformation = [
             {
                 ability1: `Status Ailment resistance 20% DOWN.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Golden Shrine Idol - Missing Lore
         id: 111021,
@@ -30653,9 +30653,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //双炎兜『ガルムロア』レプリカ - JP Complete
+{ //Twinflame Helm 'Garmroar' Replica - Missing Lore
         id: 111131,
-        name: `双炎兜『ガルムロア』レプリカ`,
+        name: `Twinflame Helm 'Garmroar' Replica`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30680,11 +30680,11 @@ const EquipInformation = [
             {
                 ability1: `Heal own HP by 2/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //双炎兜『ガルムロア』アレンジ - JP Complete
+{ //Twinflame Helm 'Garmroar' Custom - Missing Lore
         id: 111141,
-        name: `双炎兜『ガルムロア』アレンジ`,
+        name: `Twinflame Helm 'Garmroar' Custom`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30711,9 +30711,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //氷鱗盾『アエルスケイル』レプリカ - JP Complete
+{ //Iceshard Shield 'Aeruscale' Replica - Missing Lore
         id: 111151,
-        name: `氷鱗盾『アエルスケイル』レプリカ`,
+        name: `Iceshard Shield 'Aeruscale' Replica`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30738,11 +30738,11 @@ const EquipInformation = [
             {
                 ability1: `Heal own HP by 2/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //氷鱗盾『アエルスケイル』アレンジ - JP Complete
+{ //Iceshard Shield 'Aeruscale' Custom - Missing Lore
         id: 111161,
-        name: `氷鱗盾『アエルスケイル』アレンジ`,
+        name: `Iceshard Shield 'Aeruscale' Custom`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30767,11 +30767,11 @@ const EquipInformation = [
             {
                 ability1: `Heal Amount 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //翠竜甲『エルプダロン』レプリカ (SR Equip)  - JP Complete
+{ //Verdant Bracers 'Elpdaron' Replica - Missing Lore
         id: 111171,
-        name: `翠竜甲『エルプダロン』レプリカ`,
+        name: `Verdant Bracers 'Elpdaron' Replica`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30796,11 +30796,11 @@ const EquipInformation = [
             {
                 ability1: `Heal own HP by 2/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //翠竜甲『エルプダロン』アレンジ (SR Equip) - JP Complete
+    { //Verdant Bracers 'Elpdaron' Custom - Missing Lore
         id: 111181,
-        name: `翠竜甲『エルプダロン』アレンジ`,
+        name: `Verdant Bracers 'Elpdaron' Custom`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30825,7 +30825,7 @@ const EquipInformation = [
             {
                 ability1: `Heal Amount 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『ブレイズバーミント』 (BFMira TW) - JP Complete
         id: 111191,
@@ -31010,9 +31010,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //祝燐架『フォスブレイス』 レプリカ (Light SR Equip) - JP Complete
+{ //Gleaming Crux 'Fosbrace' Replica - Missing Lore
         id: 111261,
-        name: `祝燐架『フォスブレイス』 レプリカ`,
+        name: `Gleaming Crux 'Fosbrace' Replica`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -31037,11 +31037,11 @@ const EquipInformation = [
             {
                 ability1: `Seal Time Reduction & Seal Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //祝燐架『フォスプレイス』 アレンジ (Light SR Equip) - JP Complete
+{ //Gleaming Crux 'Fosbrace' Custom - Missing Lore
         id: 111271,
-        name: `祝燐架『フォスプレイス』 アレンジ`,
+        name: `Gleaming Crux 'Fosbrace' Replica`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -31066,11 +31066,11 @@ const EquipInformation = [
             {
                 ability1: `BE Output 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //冥界書『プルトリクス』 レプリカ (Dark SR Equip) - JP Complete
+{ //Hades Tome 'Plutorix' Replica - Missing Lore
         id: 111281,
-        name: `冥界書『プルトリクス』 レプリカ`,
+        name: `Hades Tome 'Plutorix' Replica`,
         type: `/db/Mines/thumbnail/suppLB6.png`,
         star: 6,
         image: 
@@ -31095,11 +31095,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //冥界書『プルトリクス』 アレンジ (Dark SR Equip) - JP Complete
+{ //Hades Tome 'Plutorix' Custom - Missing Lore
         id: 111291,
-        name: `冥界書『プルトリクス』 アレンジ`,
+        name: `Hades Tome 'Plutorix' Custom`,
         type: `/db/Mines/thumbnail/suppLB6.png`,
         star: 6,
         image: 
@@ -31124,7 +31124,7 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『九宝』 (Kokuri TW) - JP Complete
         id: 111301,
@@ -31608,10 +31608,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //神輝の祝冠 - JP Complete
+    { //Luminous Tiara - Missing Lore
         id: 111461,
-        name: `神輝の祝冠`,
-        translate: `Divine Crown`,
+        name: `Luminous Tiara`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -31636,12 +31635,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //冥鴉の兜 - JP Complete
+    { //Ravenblack Headpiece - Missing Lore
         id: 111471,
-        name: `冥鴉の兜`,
-        translate: `Dark Crow Helmet`,
+        name: `Ravenblack Headpiece`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31666,7 +31664,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //ノーブルアイ - JP Complete
         id: 111481,
@@ -33756,6 +33754,97 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Skill CT Speed by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ヴェスパーダ』 - JP Complete
+        id: 112171,
+        name: `真『ヴェスパーダ』`,
+        translate: `True 'Vespada'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `25s CT - 5000% Light DMG (PHY). Reduce enemies' PHY RES by 15% (stackable) for 15s. If user is Light, increase own Arts by 10.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Marlet, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by 10% against enemies in BREAK.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //煌華銃『ヴェスパーダ』 - JP Complete
+        id: 112181,
+        name: `煌華銃『ヴェスパーダ』`,
+        translate: `Sparkling Gun 'Vespada'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Light DMG (PHY). Increase own PHY DMG by 40% for 10s. Additionally if user is Light, increase own Skill CT Speed by 40% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //華麗装『ブルヴェスティート』 - JP Complete
+        id: 112191,
+        name: `華麗装『ブルヴェスティート』`,
+        translate: `Brilliant Outfit 'Blue Vestito'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increase own Light DMG by 40% for 10s. Additionally if user's HP is below 70%, heal own HP by 10%.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
