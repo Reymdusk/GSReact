@@ -875,7 +875,7 @@ const NewsArticles = [
                     equips: [
                         [`絶甲盾『アズルヴァイト』`, 112151],
                         [`情熱装『スクレパシオン』`, 112161],
-                        [`超神具『ジアブロス』`, 140151],
+                        [`Ultra Relic 'Diablos'`, 140151],
                     ],
                     dream: [
                         [`Berwick (Magic)`, 102486112],
