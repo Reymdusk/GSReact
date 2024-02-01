@@ -32860,8 +32860,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Psyger-0 - Missing Lore
@@ -32929,8 +32929,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Arthur Pencilgon - Missing Lore
