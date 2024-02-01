@@ -941,6 +941,42 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 28,
+        date: `February 1, 2024`,
+        article: 
+        {
+            intro: `Although Chapter 28 has been slightly delayed along with its equips, Fictional Mage Hart makes his debut in JP! Moreover, F17 Fire, Earth, Water Ruins equips have also been revealed for JP. Meanwhile on Global, Part 1 of Shangri-La Frontier collab has been confirmed, bringing with it a plethora of new units and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Fictional Mage Hart`, 103847512]
+                    ],
+                    equips: [
+                        [`真『アスガルドの柩』`, 112201],
+                        [`火竜神の剣`, 112231],
+                        [`水竜神の耳飾り`, 112241],
+                        [`樹竜神の盾`, 112251]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Sunraku`, 107867112],
+                        [`Psyger-0`, 107877412]
+                    ],
+                    equips: [
+                        [`Vorpal Chopper`, 152961],
+                        [`Vorpal Chopper EV`, 152971],
+                        [`Vorpal Soul Collar`, 152981],
+                        [`Antimony`, 152991],
+                        [`Two-Faced Helmet`, 153001]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

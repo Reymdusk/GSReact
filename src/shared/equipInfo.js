@@ -33778,7 +33778,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `25s CT - 5000% Light DMG (PHY). Reduce enemies' PHY RES by 15% (stackable) for 15s. If user is Light, increase own Arts by 10.`,
+                skill: `25s CT - 5000% Light DMG (Physical). Reduce enemies' Physical resistance by 15% (stackable) for 15s. If user is Light, increase own Arts by 10.`,
                 break: 500
             },
         passive: 
@@ -33809,7 +33809,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Light DMG (PHY). Increase own PHY DMG by 40% for 10s. Additionally if user is Light, increase own Skill CT Speed by 40% for 10s.`,
+                skill: `45s CT - 7000% Light DMG (Physical). Increase own Physical DMG by 40% for 10s. Additionally if user is Light, increase own Skill CT Speed by 40% for 10s.`,
                 break: 500
             },
         passive: 
@@ -33845,6 +33845,189 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『アスガルドの柩』 - JP Complete
+        id: 112201,
+        name: `真『アスガルドの柩』`,
+        translate: `True 'Coffin of Asgard'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Dark DMG (Magic). Reduce enemies' Dark resistance by 30% for 15s. If used when own HP is below 70%, reduce enemies' Dark resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Fictional Mage Hart, increase own Arts by 100 at start of quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { //? - JP Complete
+        id: 112211,
+        name: `?`,
+        translate: `?`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `?`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `?`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //古礼靴 『ブレンフェイト』 - JP Complete
+        id: 112221,
+        name: `古礼靴 『ブレンフェイト』`,
+        translate: `Traditional Shoes 'Brain Fate'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112221.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increase all allies' Arts by 2/s and Dark Allies' DMG by 25% for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //火竜神の剣 - JP Complete
+        id: 112231,
+        name: `火竜神の剣`,
+        translate: `Fire Dragon God's Sword`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - Increase own Magic DMG by 40% and all Fire allies' Magic DMG by 40% for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase Water resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //水竜神の耳飾り - JP Complete
+        id: 112241,
+        name: `水竜神の耳飾り`,
+        translate: `Water Dragon God's Earrings`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - Increase own Magic DMG by 40% and all Water allies' Magic DMG by 40% for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase Earth resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //樹竜神の盾 - JP Complete
+        id: 112251,
+        name: `樹竜神の盾`,
+        translate: `Earth Dragon God's Shield`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - Increase own Magic DMG by 40% and all Earth allies' Magic DMG by 40% for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase Fire resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -34262,7 +34445,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_140150.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_140151.png`,
+                detailmax: `/db/Equipment/Detail/it em_detail_140151.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_140150.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_140151.png`
             },
@@ -34274,12 +34457,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8000% Dark DMG (MAG). Increase own ATK by 50% for 15s.`,
+                skill: `50s CT - 8000% Dark DMG (Magic). Increase own ATK by 50% for 15s.`,
                 break: 600
             },
         passive: 
             {
-                ability1: `Increase own MAG DMG by 25.0%. For the first 165.5s of Quest, increase all allies' Elemental Advantage DMG by 20.0%. (At Passive Lv.101)`
+                ability1: `Increase own Magic DMG by 25.0%. For the first 165.5s of Quest, increase all allies' Elemental Advantage DMG by 20.0%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -42919,10 +43102,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //致命の包丁 - Missing Lore
+    { //Vorpal Chopper - Missing Lore
         id: 152961,
-        name: `致命の包丁`,
-        translate: `Vorpal Blades`,
+        name: `Vorpal Chopper`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42947,12 +43129,11 @@ const EquipInformation = [
             {
                 ability1: `Increase ATK by 5%.`
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『致命の包丁』 - Missing Lore
+    { //Vorpal Chopper EV - Missing Lore
         id: 152971,
-        name: `極『致命の包丁』`,
-        translate: `Vorpal Blades EV`,
+        translate: `Vorpal Chopper EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -42978,12 +43159,11 @@ const EquipInformation = [
                 ability1: `Increase ATK by 5%.`,
                 ability2: [`CRI DMG 10% UP`, `CRI DMG 20% UP`, `Evasion rate 5% UP`, `Evasion rate 10% UP`, `When own HP is 90% or higher, increase own Skill CT Speed by 10%`, `When own HP is 90% or higher, increase own Skill CT Speed by 20%`]
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //致命魂の首輪 - Missing Lore
+    { //Vorpal Soul Collar - Missing Lore
         id: 152981,
-        name: `致命魂の首輪`,
-        translate: `Vorpal Soul Collar`,
+        name: `Vorpal Soul Collar`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -43008,12 +43188,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //神魔の大剣 - Missing Lore
+    { //Antimony - Missing Lore
         id: 152991,
-        name: `神魔の大剣`,
-        translate: `Divine Sword`,
+        name: `Antimony`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -43040,12 +43219,11 @@ const EquipInformation = [
                 ability2: [`None.`, `DMG against Human enemies 20% UP.`, `DMG against God enemies 20% UP.`, `DMG against Demon enemies 20% UP.`, `Light resistance 20% UP.`, `Dark resistance 20% UP.`],
                 ability3: [`None.`, `ATK 10% UP.`, `ATK 15% UP.`, `ATK 20% UP.`]
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //双貌の兜 - Missing Lore
+    { //Two-Faced Helmet - Missing Lore
         id: 153001,
-        name: `双貌の兜`,
-        translate: `Two-Faced Helmet`,
+        name: `Two-Faced Helmet`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -43070,7 +43248,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //ペンシルゴンのイヤリング - Missing Lore
         id: 153011,

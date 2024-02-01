@@ -25190,6 +25190,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Fictional Mage Hart - Missing Lore (JP)
+        id: 103847512,
+        name: `Fictional Mage Hart`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103846512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103847512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103846512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103847512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7541,
+                hpplus: 1421,
+                atk: 4208,
+                atkplus: 723,
+                def: 2619,
+                defplus: 549
+            },
+        skillset: 
+            {
+                skill: `13s CT - 4000% Dark DMG (MAG). For 10s, reduce enemies' MAG RES by 20%.`,
+                skillbreak: 700,
+                arts: `22000% Dark DMG (MAG). Consumes 30% of own HP. For 20s, reduce enemies' Dark RES by 60%.`,
+                artsbreak: 1300,
+                truearts: `50000% Dark DMG (MAG). For 100s, increase own Arts by 5/s and ATK by 120%.`,
+                trueartsbreak: 1800,
+                superarts: `180000% Dark DMG (MAG). Increase all allies' Arts by 50. Increase own Arts based on how low own HP is (MAX: 150). For 25s, consume 3%/s of own Max HP.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `Increase own Blind RES by 100%.`,
+                ability2: `If unaffected by Status Ailments, ignore 100% of enemies' DEF. Increase own DMG based on how low own HP is. (MAX: 350%)`,
+                ability3: `When this unit takes lethal DMG, revive all allies with 30% HP and increase all allies' Arts by 200. Can only be activated once per quest.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Coffin of Asgard`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112201.png",
+                skill: `50s CT - 8000% Dark DMG (MAG). For 15s, reduce enemies' Dark RES by 30%. If used when own HP is below 70%, reduce enemies' Dark RES by 50% instead.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Fictional Mage Hart, increase own Arts by 100 at start of quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Accuracy by 10%.`
+                    }
+            },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
