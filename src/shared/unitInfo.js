@@ -20853,7 +20853,7 @@ const UnitInformation = [
                 name: "Ouen",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_108971.png",
-                skill: "70s CT - 5000% Earth DMG (PHY). For 10s, increase own DMG by 50% and Earth DMG by 70%.",
+                skill: "70s CT - 5000% Earth DMG (PHY). For 15s, increase own DMG by 50% and Earth DMG by 70%.",
                 skillbreak: 600,
                 passive: 
                     {

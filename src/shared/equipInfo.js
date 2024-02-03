@@ -24324,7 +24324,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 5000% Earth DMG (Physical). Increases DMG by 50% & Earth DMG by 40% for 15s.`,
+                skill: `70s CT - 5000% Earth DMG (Physical). Increases DMG by 50% & Earth DMG by 70% for 15s.`,
                 break: 600
             },
         passive: 
