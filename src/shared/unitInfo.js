@@ -32842,7 +32842,7 @@ const UnitInformation = [
         passive: 
             {
                 ability1: `Increase Fire allies' DMG RES by 15%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own Evasion by 40%.`,
+                ability2: `Increase own Evasion by 20%.`,
                 ability3: `Increase own Skill CT Speed by 50% when Near-Death.`,
                 ability4: `Unit EXP UP 20% UP. (When Sunraku's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sunraku's SP. Art is owned)`
