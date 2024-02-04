@@ -166,7 +166,7 @@ const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPer
             })
         
         //Check for Search
-        const hasMatchingName = equip.name.toLowerCase().includes(query.toLowerCase())
+        const hasMatchingName = equip.name?.toLowerCase().includes(query.toLowerCase())
         const hasMatchingTranslate = equip.translate?.toLowerCase().includes(query.toLowerCase())
         
 
