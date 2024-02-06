@@ -33879,11 +33879,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { //? - JP Complete
+    { //アスガルドの柩 - JP Complete
         id: 112211,
-        name: `?`,
-        translate: `?`,
+        name: `アスガルドの柩`,
+        translate: `Coffin of Asgard`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33901,12 +33900,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `?`,
-                break: 500
+                skill: `50s CT - 5000% Dark DMG (Magic). Increase own Magic DMG by 70% for 10s. When used for the first time, increase own Arts by 50. If user is Dark and when used for the first time, increase own Arts by 100 instead.`,
+                break: 700
             },
         passive: 
             {
-                ability1: `?`
+                ability1: `Reduce own DMG resistance by 20%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -33940,7 +33939,6 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //火竜神の剣 - JP Complete
         id: 112231,
         name: `火竜神の剣`,

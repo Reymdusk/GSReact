@@ -977,6 +977,29 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 29,
+        date: `February 6, 2024`,
+        article: 
+        {
+            intro: `Small update this time for JP. Chapter 28 has been officially released after the initial delay, bringing with it 2 new equips!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`アスガルドの柩`, 112211],
+                        [`古礼靴 『ブレンフェイト』`, 112221]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
