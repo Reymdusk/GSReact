@@ -1000,6 +1000,34 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 30,
+        date: `February 14, 2024`,
+        article: 
+        {
+            intro: `A new Valentines unit has been introduced in JP, along with some new Dream Awakenings for older units!`,
+            new: 
+                {
+                    units: [
+                        [`Liza (Valentines)`, 103857312]
+                    ],
+                    equips: [
+                        [`綺想箒『エトワールV』`, 112261]
+                    ],
+                    dream: [
+                        [`Gilliam`, 101126311],
+                        [`Elfalla`, 100646412],
+                        [`Lily`, 100656512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

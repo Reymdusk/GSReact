@@ -34029,6 +34029,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //綺想箒『エトワールV』 - JP Complete
+        id: 112261,
+        name: `綺想箒『エトワールV』`,
+        translate: `Beautiful Broom 'Etoile V'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 4000% Earth DMG (Magic). Reduce enemies' Earth resistance by 30% for 10s. Additionally if used for the first time, increase own Arts by 50.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

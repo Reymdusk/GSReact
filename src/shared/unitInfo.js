@@ -2139,7 +2139,7 @@ const UnitInformation = [
                 evoawk: "A Machine weapon that underwent self-evolution after absorbing many spirits. It crushed the strongest of the Gods' soldiers, but the Beasts proved to be formidable threats. When one of them defended against an all-out barrage, its self-defense system sounded the alarm to retreat, but the soldier's will programmed into its core demanded it bring the battle to a conclusion."
             }
     },
-    { //Elfalla - Complete
+    { //Elfalla - Complete (+ Dream Evo)
         id: 100646412,
         name: "Elfalla",
         rank: "F",
@@ -2165,6 +2165,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 6708,
@@ -2181,6 +2190,15 @@ const UnitInformation = [
                 arts: "12000% Light DMG (PHY). 80% chance to inflict Paralysis for 3s + For 15s, increase Light Allies' Break PWR by 30%.",
                 artsbreak: 1600,
                 truearts: "27000% Light DMG (PHY). Increase own Arts by 60 + For 20s, reduce Enemies' Paralysis RES by 50%.",
+                trueartsbreak: 2900
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1600% Light DMG (PHY). 10% chance to inflict Paralysis for 3s.",
+                skillbreak: 1100,
+                arts: "18000% Light DMG (PHY). 100% chance to inflict Paralysis for 4s + For 15s, increase Light Allies' Break PWR by 30%.",
+                artsbreak: 1600,
+                truearts: "37000% Light DMG (PHY). Increase own Arts by 60 + For 30s, reduce Enemies' Paralysis RES by 50%.",
                 trueartsbreak: 2900
             },
         passive: 
@@ -2215,6 +2233,41 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own Accuracy by 30%.`,
+                        ability2: `Increase own Break Power against Dark enemies by 80%.
+                        `
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Paralysis RES by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Beast allies' Arts by 3/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo3: "A hero of the Beasts later known as the Azure Saint. Much hope was placed in him from an early age... perhaps because he defeated a lion with his bare hands at age 10. Belying his fierce appearance was a surprising warmth, and his gentle smile provided inspiration for many. One day, word arrived of a Machine attack on a settlement in a nearby region. Unbeknownst to him, one of these machines would influence the rest of his life...",
@@ -2223,7 +2276,7 @@ const UnitInformation = [
                 evoawk: "A hero praised as the Empyreal Beast. After realising his mistake in fleeing from the Machine weapon, he rushed back to the battlefield. Though afraid he was too late to stop the inevitable slaughter, he arrived to see his brothers-in-arms fighting against the menace, empowered by the belief that he would return. That was the inspiration he needed to shed his past regrets and face his destined foe."
             }
     },
-    { //Lily - Complete
+    { //Lily - Complete (+ JP Dream Evo)
         id: 100656512,
         name: "Lily",
         rank: "C",
@@ -2249,6 +2302,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6708,
@@ -2260,11 +2322,20 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "7s CT - 2500% Dark DMG (PHY). DMG and Critical Rate of this Skill increases the lower the Enemies' HP becomes.",
+                skill: "7s CT - 2500% Dark DMG (PHY). DMG and CRI rate of this Skill increases the lower the Enemies' HP is.",
                 skillbreak: 1150,
-                arts: "11800% Dark DMG (PHY). DMG and Break PWR of this Arts increases the higher the attacked Enemy's HP is.",
+                arts: "11800% Dark DMG (PHY). DMG and Break PWR of this Arts increases the higher the Enemies' HP is.",
                 artsbreak: 2800,
-                truearts: "23800% Dark DMG (PHY). For 12s, increase own Critical Rate by 100% and reduce Enemies' Movement Speed by 30%.",
+                truearts: "23800% Dark DMG (PHY). For 12s, increase own CRI rate by 100% and reduce Enemies' Movement Speed by 30%.",
+                trueartsbreak: 4500
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2500% Dark DMG (PHY). For 8s, increase own DMG and CRI rate the lower the Enemies' HP is (MAX: 200%).",
+                skillbreak: 1200,
+                arts: "27000% Dark DMG (PHY). DMG and Break PWR of this Arts increases the higher the Enemies' HP is (MAX: 300%).",
+                artsbreak: 2800,
+                truearts: "50000% Dark DMG (PHY). For 30s, increase own CRI rate by 100% and reduce Enemies' Movement Speed by 30%. ",
                 trueartsbreak: 4500
             },
         passive: 
@@ -2314,6 +2385,40 @@ const UnitInformation = [
                     hover5: "Flogassa"
                 }
             },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 3/s.`,
+                        ability2: `Increase own Freeze RES by 100%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Dark DMG by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own CRI DMG by 80%.`
+                    }
+                }
+            },  
         lore: 
             {   
                 evo3: "The Gods destroyed a Human village suspected of rebelling, and she was a survivor. At six years of age, she left the village to get medicine for her mother, and came back to find only devastation. She was brought in by Demons, and agreed to undergo modification experiments so that she might exact revenge on the Gods. Time passed. By 16, Lily had grown into a Demonic weapon feared by the Gods.",
@@ -3691,7 +3796,7 @@ const UnitInformation = [
                 evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
-    { //Gilliam - Complete (+ JP version)
+    { //Gilliam - Complete (+ JP version + Dream Evo)
         id: 101126311,
         name: "Gilliam",
         luckrank: "B",
@@ -3711,14 +3816,14 @@ const UnitInformation = [
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
+                slot2: 6,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         slotsJP: 
             {
-                slot1: 5,
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 6,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -3741,6 +3846,15 @@ const UnitInformation = [
                 arts: "15000% Earth DMG (PHY). For 10s, increase Allies' Equipment DMG by 30%.",
                 artsbreak: 1600,
                 truearts: "37000% Earth DMG (PHY). For 20s, increase own DMG by 70% and ignore 100% of Enemy DEF.",
+                trueartsbreak: 2000
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1600% Earth DMG (PHY). For 6s, increase Allies' DEF by 10%.",
+                skillbreak: 900,
+                arts: "22000% Earth DMG (PHY). For 20s, increase Allies' Equipment DMG by 70%.",
+                artsbreak: 1600,
+                truearts: "52000% Earth DMG (PHY). For 20s, increase own DMG by 120% and ignore 100% of Enemy DEF.",
                 trueartsbreak: 2000
             },
         passive: 
@@ -3768,6 +3882,66 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragGilliam.png",
                     mat3amt: 20,
                     hover3: "Gilliam",
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GilliamDream.png`,
+                        mat2amt: 100,
+                        hover2: `Scorched Iron Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase own Accuracy by 20%.`,
+                        ability2: `Increase own DMG against Water enemies by 100%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GilliamDream.png`,
+                        mat2amt: 100,
+                        hover2: `Scorched Iron Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase own Equipment DMG by 50%.`,
+                        ability2: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: ``,
+                        ability2: ``
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: ``,
+                        ability2: ``
+                    }
                 }
             },
         trueweapon: 
@@ -23786,6 +23960,7 @@ const UnitInformation = [
     { // Miranda (Valentines) - Missing Lore (JP)
         id: 103667412,
         name: "Miranda (Valentines)",
+        translate: "Valentines Miranda",
         attribute: "Light",
         type: "Human",
         image: 
@@ -23851,6 +24026,7 @@ const UnitInformation = [
     { // Priscilla (Valentines) - Missing Lore (JP)
         id: 103677112,
         name: "Priscilla (Valentines)",
+        translate: "Valentines Priscilla",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -24287,7 +24463,7 @@ const UnitInformation = [
         passive: 
             {
                 ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
-                ability2: `When this unit is set as leader, Increase all Allies' Max HP by 30%.`,
+                ability2: `When self is Leader, increase all Allies' Max HP by 30%.`,
                 ability3: `Increase own Curse RES by 100%.`
             }, 
         evolution: 
@@ -25261,6 +25437,72 @@ const UnitInformation = [
                         ability1: `When equipped by Fictional Mage Hart, increase own Arts by 100 at start of quest. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own Accuracy by 10%.`
                     }
+            },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Liza (Valentines) - Missing Lore (JP)
+        id: 103857312,
+        name: `Liza (Valentines)`,
+        translate: `Valentines Liza`,
+        attribute: `Earth`,
+        type: `God`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103856312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103857312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103856312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103857312.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 8400,
+                hpplus: 1450,
+                atk: 2970,
+                atkplus: 590,
+                def: 2596,
+                defplus: 522
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.`,
+                skillbreak: 400,
+                arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
+                artsbreak: 800,
+                truearts: `45000% Earth DMG (MAG). Increase all allies' Arts by 50. For 10s, heal all allies' HP by 10%/s.`,
+                trueartsbreak: 1200,
+                superarts: `180000% Earth DMG (MAG). For 30s, increase all allies' DMG by 100% and increase God allies' DMG by an additional 100%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase own Burn RES by 80%.`,
+                ability2: `When Near-death, increase own DMG RES by 20%.`,
+                ability3: `When self is Leader, increase all allies' HP Recovery by 20% for 100s. Does not stack with Abilities of the same name.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 220,
+                    hover2: `Smogdragon Soulgem`,
+                }
             },
         lore:   
             {   
