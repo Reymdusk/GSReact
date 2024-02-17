@@ -34972,7 +34972,7 @@ const EquipInformation = [
             {
                 ability1: `Own Skill CT 15% DOWN.`
             },
-        lore: `The weapon chosen by Mako Mankanshoku, a student at Honnoji Academy. When wearing the Fight Club-Spec Goku Uniform, she puts this knuckle on her fist to punch her enemies without mercy. Though a simple weapon that merely strengthens her fist's impact, its destructive power is extremely high.`
+        lore: `The weapon chosen by Mako Mankanshoku, a student at Honnoji Academy. When wearing the Fight Club-Spec Goku Uniform, she puts this knuckle on her     to punch her enemies without mercy. Though a simple weapon that merely strengthens her fist's impact, its destructive power is extremely high.`
     },
 { //Senketsu - Complete
         id: 150171,
@@ -43278,10 +43278,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //ペンシルゴンのイヤリング - Missing Lore
+    { //Pencilgon's Earrings - Missing Lore (GL)
         id: 153011,
-        name: `ペンシルゴンのイヤリング`,
-        translate: `Pencilgon's Earrings`,
+        name: `Pencilgon's Earrings`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -43306,12 +43305,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『ペンシルゴンのイヤリング』 - Missing Lore
+    { //Pencilgon's Earrings EV - Missing Lore (GL)
         id: 153021,
-        name: `極『ペンシルゴンのイヤリング』`,
-        translate: `Pencilgon's Earrings EV`,
+        name: `Pencilgon's Earrings EV`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -43337,12 +43335,11 @@ const EquipInformation = [
                 ability1: `Increase own DEF by 5%.`,
                 ability2: [`Blind resistance 10% UP`, `Blind resistance 20% UP`, `PHY resistance 5% UP`, `MAG resistance 5% UP`, `ATK 5% UP`, `Unit EXP 10% UP`]
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ペンシルゴンの槍 - Missing Lore
+    { //Pencilgon's Lance - Missing Lore (GL)
         id: 153031,
-        name: `ペンシルゴンの槍`,
-        translate: `Pencilgon's Spear`,
+        name: `Pencilgon's Lance`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -43369,12 +43366,11 @@ const EquipInformation = [
                 ability2: [`None.`, `DMG against Fire enemies 20% UP.`, `DMG against Water enemies 20% UP.`, `DMG against Earth enemies 20% UP.`],
                 ability3: [`None.`, `Skill CT Speed 5% UP.`, `Skill CT Speed 10% UP.`, `Arts Gauge 10 UP.`, `Arts Gauge 20 UP.`]
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //拳気まといの拳 - Missing Lore
+    { //Spirit Fist Gloves - Missing Lore (GL)
         id: 153041,
-        name: `拳気まといの拳`,
-        translate: `Fistful of Fists`,
+        name: `Spirit Fist Gloves`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -43399,12 +43395,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //修験の胴衣 - Missing Lore
+    { //Acolyte's Vest - Missing Lore (GL)
         id: 153051,
-        name: `修験の胴衣`,
-        translate: `Training Jacket`,
+        name: `Acolyte's Vest`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -43429,7 +43424,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Unreleased in Global.`
+        lore: `Missing Lore.`
     },
 ]
 

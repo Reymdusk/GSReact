@@ -1028,6 +1028,35 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 31,
+        date: `February 17, 2024`,
+        article: 
+        {
+            intro: `Part 2 of the Shangri-La Frontier collab has begun, bringing with it new units and equips!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Arthur Pencilgon`, 107887512],
+                        [`OiKatzo`, 107897112]
+                    ],
+                    equips: [
+                        [`Pencilgon's Earrings`, 153011],
+                        [`Pencilgon's Earrings EV`, 153021],
+                        [`Pencilgon's Lance`, 153031],
+                        [`Spirit Fist Gloves`, 153041],
+                        [`Acolyte's Vest`, 153051],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
