@@ -43344,9 +43344,9 @@ const EquipInformation = [
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_153030.png`,
+                detail: ``,
                 detailmax: `/db/Equipment/Detail/item_detail_153031.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153030.png`,
+                thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153031.png`
             },
         stats:
