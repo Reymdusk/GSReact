@@ -25501,7 +25501,73 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                     mat2amt: 220,
-                    hover2: `Smogdragon Soulgem`,
+                    hover2: `Smogdragon Soulgem`
+                }
+            },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Cestina (Valentines) - Missing Lore (JP)
+        id: 103867212,
+        name: `Cestina (Valentines)`,
+        translate: `Valentines Cestina`,
+        attribute: `Water`,
+        type: `God`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103866212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103867212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103866212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103867212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7810,
+                hpplus: 1470,
+                atk: 2730,
+                atkplus: 570,
+                def: 3500,
+                defplus: 610
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 4/s.`,
+                skillbreak: 400,
+                arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 50%.`,
+                artsbreak: 1300,
+                truearts: `40000% Water DMG (PHY). For 35s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 36000 DMG to self.`,
+                trueartsbreak: 2100,
+                superarts: `80000% Water DMG (PHY). For 60s, increase all allies' DMG RES and MAG RES by 20% and Allies gain a DMG barrier that negates 6000 DMG.`,
+                superartsbreak: 2800
+            },
+        passive: 
+            {
+                ability1: `Increase Paralysis RES by 100%.`,
+                ability2: `When Near-death, increase own Arts by 6/s.`,
+                ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 220,
+                    hover2: `Frostsprite Soulgem`
                 }
             },
         lore:   

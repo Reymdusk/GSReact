@@ -34059,6 +34059,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //焔竜兜『デグルロア』 - JP Complete
+        id: 112271,
+        name: `焔竜兜『デグルロア』`,
+        translate: `Dragon Helmet 'Degilroar'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112271.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `45s CT - For 20s, increase all allies' Fire resistance by 25%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or above, increase own ATK by 15%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

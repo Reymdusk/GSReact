@@ -1057,6 +1057,30 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 32,
+        date: `February 23, 2024`,
+        article: 
+        {
+            intro: `Small update on JP, introducing a new Valentine's unit as well as a new Raid equip!`,
+            new: 
+                {
+                    units: [
+                        [`Cestina (Valentines)`, 103867212]
+                    ],
+                    equips: [
+                        [`焔竜兜『デグルロア』`, 112271]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
