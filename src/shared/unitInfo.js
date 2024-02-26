@@ -942,7 +942,7 @@ const UnitInformation = [
                 evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood agaisnt the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
             }
     },
-    { //Dargeon - Complete, DreamEvoJP added
+    { //Dargeon - Complete + DreamEvo
         id: 100566112,
         name: "Dargeon",
         rank: "C",
@@ -960,15 +960,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100566112.png"
             },
         skillset: 
-            {
-                skill: "3000% Fire DMG (PHY). Chance of inflicting Burn.",
-                skillbreak: 900,
-                arts: "30000% Fire DMG (MAG)",
-                artsbreak: 1700,
-                truearts: "38000% Fire DMG (MAG). For 35s, increase all Fire Ally DMG by 35%",
-                trueartsbreak: 2400
-            },
-        skillsetJP: 
             {
                 skill: "3000% Fire DMG (PHY). 25% chance to inflict Burn for 6s.",
                 skillbreak: 900,
@@ -993,15 +984,6 @@ const UnitInformation = [
                 defplus: 377
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -1037,7 +1019,7 @@ const UnitInformation = [
                     hover3: "Degilmagna",
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -3146,7 +3128,7 @@ const UnitInformation = [
                 evoawk: "A Hero and a living legend of Famelle. The more he was looked up to, the more he suffered between the created fake-self and true-self. However, thanks to his friends who did not judge him for his past mistakes, he regains his pride and braveness. Now that he has no doubts, his sword skills are sharper as ever. No one can be as strong as this veteran thus his name will continue to shine as a hero."
             }
     },
-    { //Melia (Dark) - Complete, DreamEvoJP added
+    { //Melia (Dark) - Complete + DreamEvo
         id: 101076511,
         name: "Melia (Dark)",
         rank: "C",
@@ -3162,15 +3144,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101076511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -3189,15 +3162,6 @@ const UnitInformation = [
                 defplus: 351
             },
         skillset: 
-            {
-                skill: "9s CT - 2200% Dark DMG (MAG). Heal self by 2% of own max HP.",
-                skillbreak: 1000,
-                arts: "13800% Dark DMG (MAG). 60% chance to inflict Blind for 11s. During Arts, stop Enemy actions. Refresh Skill CT for Allies + For 4s, increase Allies' BE generation by 50%.",
-                artsbreak: 2000,
-                truearts: "28400% Dark DMG (MAG). During True Arts, stop Enemy actions. Steals 20 of Enemies' Arts + For 10s, increase Allies' MAG DMG by 50%.",
-                trueartsbreak: 3500
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 2200% Dark DMG (MAG). Heal self by 2% of own max HP.",
                 skillbreak: 1000,
@@ -3240,7 +3204,7 @@ const UnitInformation = [
                     hover5: "Ifrit"
                 }
             },
-        dreamJP: {
+        dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -23957,7 +23921,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Miranda (Valentines) - Missing Lore (JP)
+    { // Miranda (Valentines) - Missing Lore
         id: 103667412,
         name: "Miranda (Valentines)",
         translate: "Valentines Miranda",
@@ -24019,8 +23983,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Priscilla (Valentines) - Missing Lore (JP)

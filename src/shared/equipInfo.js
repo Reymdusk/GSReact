@@ -30537,9 +30537,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //ミランダのアオハルバッグ (VMiranda Farmable) - JP Complete
+{ //Miranda's Adolescence - Missing Lore
         id: 111091,
-        name: `ミランダのアオハルバッグ`,
+        name: `Miranda's Adolescence`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30564,11 +30564,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 10% UP when HP is 90% or above.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ミランダのナウヤンマント (VMiranda Farmable) - JP Complete
+{ //Miranda's Fantabulous Cloak - Missing Lore
         id: 111101,
-        name: `ミランダのナウヤンマント`,
+        name: `Miranda's Fantabulous Cloak`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -30593,7 +30593,7 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //プリシラの燃えキュンアロー (VPriscilla Farmable) - JP Complete
         id: 111111,

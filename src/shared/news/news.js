@@ -1081,6 +1081,34 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 33,
+        date: `February 27, 2024`,
+        article: 
+        {
+            intro: `Valentines Miranda has come to Global, alongside her farmable equips and 2 new Dream Awakenings!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Miranda (Valentines)`, 103667412]
+                    ],
+                    equips: [
+                        [`Miranda's Adolescence`, 111091],
+                        [`Miranda's Fantabulous Cloak`, 111101],
+                    ],
+                    dream: [
+                        [`Melia (Dark)`, 101076511],
+                        [`Dargeon`, 100566112]
+                    ]
+                }
+        }
     }
 ]
 
