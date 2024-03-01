@@ -23926,6 +23926,7 @@ const UnitInformation = [
         name: "Miranda (Valentines)",
         translate: "Valentines Miranda",
         attribute: "Light",
+        rank: `A+`,
         type: "Human",
         image: 
             {
@@ -32202,7 +32203,7 @@ const UnitInformation = [
         name: `Shirou Emiya`,
         attribute: `Water`,
         type: `Human`,
-        rank: `SS`,
+        rank: `SSS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107776212.png",
@@ -32311,7 +32312,7 @@ const UnitInformation = [
         twrequire: "favorable",
         attribute: `Fire`,
         type: `Human`,
-        rank: `S`,
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107756112.png",
@@ -33177,6 +33178,7 @@ const UnitInformation = [
         id: 107867112,
         name: `Sunraku`,
         attribute: `Fire`,
+        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -33246,6 +33248,7 @@ const UnitInformation = [
         id: 107877412,
         name: `Psyger-0`,
         attribute: `Light`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -33315,6 +33318,7 @@ const UnitInformation = [
         id: 107887512,
         name: `Arthur Pencilgon`,
         attribute: `Dark`,
+        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -33384,6 +33388,7 @@ const UnitInformation = [
         id: 107897112,
         name: `OiKatzo`,
         attribute: `Fire`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
