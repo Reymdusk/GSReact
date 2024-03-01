@@ -34089,6 +34089,66 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //光竜神の槍 - JP Complete
+        id: 112281,
+        name: `光竜神の槍`,
+        translate: `Light Dragon God's Spear`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 8000% Dark DMG (Magic). Increase own Magic DMG by 40% and Light allies' Magic DMG by 40% for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own Dark resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //闇竜神の斧 - JP Complete
+        id: 112291,
+        name: `闇竜神の斧`,
+        translate: `Dark Dragon God's Axe`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 8000% Dark DMG (Magic). For 20s, increase own Magic DMG by 40% and Dark allies' Magic DMG by 40%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own Light resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -43456,6 +43516,519 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
+    { //モモンズ・グレートソード - Missing Lore
+        id: 153061,
+        name: `モモンズ・グレートソード`,
+        translate: `Momon's Greatsword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Dark DMG (Physical). Increase next Super Arts' DMG by 100%. If user is Dark, increase next Super Arts' DMG by 150% instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //漆黒の全身鎧 - Missing Lore
+        id: 153071,
+        name: `漆黒の全身鎧`,
+        translate: `Jet Black Full-Body Armor`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Dark resistance by 30% for 15s. When used for the first time, increase Demon allies' Arts by 20.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //イルアン・グライベル - Missing Lore
+        id: 153081,
+        name: `イルアン・グライベル`,
+        translate: `Jarngreipr`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increase all allies' DMG resistance by 25% and Demon allies' stats by 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //ネクロプラズミックマント - Missing Lore
+        id: 153091,
+        name: `ネクロプラズミックマント`,
+        translate: `Necroplasmic Cloak`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Magic resistance by 30% and lowest HP ally's DMG resistance by 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //加速の靴 - Missing Lore
+        id: 153101,
+        name: `加速の靴`,
+        translate: `Acceleration Boots`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153101.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase all allies' Arts by 1/s and Demon allies' Skill CT Speed by 50% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Skill DMG by 10%.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //デミウルゴスのスーツ - Missing Lore
+        id: 153111,
+        name: `デミウルゴスのスーツ`,
+        translate: `Demiurge's Suit`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Fire DMG (Magic). Reduce enemies' DMG resistance by 25% for 10s. If user is Demon, reduce enemies' DMG resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //デミウルゴスの眼鏡 - Missing Lore
+        id: 153121,
+        name: `デミウルゴスの眼鏡`,
+        translate: `Demiurge's Glasses`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 4000% Fire DMG (Magic). Reduce enemies' Magic resistance by 40% for 10s. If user is Demon, reduce enemies' Magic resistance by 60% instead.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    /*{ // - Missing Lore
+        id: 153131,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },*/
+    { //イビルアイのローブ - Missing Lore
+        id: 153141,
+        name: `イビルアイのローブ`,
+        translate: `Evileye's Robe`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153141.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 30. Increase Earth allies' DMG by 20% (stackable) for 40s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //イビルアイの仮面 - Missing Lore
+        id: 153151,
+        name: `イビルアイの仮面`,
+        translate: `Evileye's Mask`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `25s CT - 5000% Earth DMG (Magic). Increase own Arts by 2/s for 6s. If user is Earth, increase own Arts by 4/s instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    { //True 'Staff of Ainz Ooal Gown' - Missing Lore
+        id: 153161,
+        name: `True 'Staff of Ainz Ooal Gown'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Dark DMG (Magic). Increase own Magic DMG and Dark DMG by 50% for 10s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `When equipped by Ainz, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //True '3F' - Missing Lore
+        id: 153171,
+        name: `True '3F'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 8000% Dark DMG (Physical). Increase own CRI DMG by 50% for 10s. If user is Dark, increase own CRI DMG by 100% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Albedo, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //True 'Pipette Lance' - Missing Lore
+        id: 153181,
+        name: `True 'Pipette Lance'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Light DMG (Magic). Reduce enemies' Light resistance by 30% for 10s. If the user is Demon, reduce enemies' Light resistance by 50% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Shalltear, Increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `When Near-death, heal 1% of own DMG dealt.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //True 'Kearunos Mk-III' - Missing Lore
+        id: 153191,
+        name: `True 'Kearunos Mk-III'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153191.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase allies' Magic DMG by 30% and Arts by 3/s for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Narberal, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //真『モモンズ・グレートソード』 - Missing Lore
+        id: 153201,
+        name: `真『モモンズ・グレートソード』`,
+        translate: `True 'Momon's Greatsword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 8000% Dark DMG (Physical). Increase own Dark DMG & Skill CT Speed by 50% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Momon, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //真『デミウルゴスのスーツ』 - Missing Lore
+        id: 153211,
+        name: `真『デミウルゴスのスーツ』`,
+        translate: `True 'Demiurge's Suit'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Fire DMG (Magic). Increase own Fire DMG by 60% for 10s. When used for the first time, increase own Arts by 30.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `When equipped by Demiurge, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    { //真『イビルアイの仮面』 - Missing Lore
+        id: 153221,
+        name: `真『イビルアイの仮面』`,
+        translate: `True 'Evileye's Mask'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Earth DMG (Magic). Reduce enemies' Earth resistance by 30% for 10s. If the user is Demon, reduce enemies' Earth resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Evileye, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Missing Lore.`
+    }
 ]
 
 export function getEquips() {

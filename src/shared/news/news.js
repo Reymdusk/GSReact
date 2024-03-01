@@ -1109,6 +1109,49 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 34,
+        date: `March 1, 2024`,
+        article: 
+        {
+            intro: `Huge update on JP with the rerun of the Overlord collab, introducing buffs to existing OL units as well as brand new OL Units and Equips! Oh, and also 2 new Dark and Light Ruins F17 equips.`,
+            new: 
+                {
+                    units: [
+                        [`Momon`, 107907512],
+                        [`Demiurge`, 107917112],
+                        [`Evileye`, 107927312]
+                    ],
+                    equips: [
+                        [`光竜神の槍`, 112281],
+                        [`闇竜神の斧`, 112291]
+                        [`モモンズ・グレートソード`, 153061],
+                        [`漆黒の全身鎧`, 153071],
+                        [`イルアン・グライベル`, 153081],
+                        [`ネクロプラズミックマント`, 153091],
+                        [`加速の靴`, 153101],
+                        [`デミウルゴスのスーツ`, 153111],
+                        [`デミウルゴスの眼鏡`, 153121],
+                        [`イビルアイのローブ`, 153141],
+                        [`イビルアイの仮面`, 153151],
+                        [`True 'Staff of Ainz Ooal Gown'`, 153161],
+                        [`True '3F'`, 153171],
+                        [`True 'Pipette Lance'`, 153181],
+                        [`True 'Kearunos Mk-III'`, 153191],
+                        [`真『モモンズ・グレートソード』`, 153201],
+                        [`真『デミウルゴスのスーツ』`, 153211],
+                        [`真『イビルアイの仮面』`, 153221],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

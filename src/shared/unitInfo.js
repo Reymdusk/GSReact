@@ -23921,7 +23921,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Miranda (Valentines) - Missing Lore
+    { // Miranda (Valentines) - Missing Lore + JP ver
         id: 103667412,
         name: "Miranda (Valentines)",
         translate: "Valentines Miranda",
@@ -23931,8 +23931,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103666412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103667412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_366_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103666412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103667412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103667412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_366_1.png"
             },
         slots: 
             {
@@ -23969,7 +23971,15 @@ const UnitInformation = [
                 ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
                 ability2: `Increase own Disease RES by 70%.`,
                 ability3: `Increase Healing Taken by 10%.`
-            }, 
+            },
+        passiveJP: 
+            {
+                ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
+                ability2: `Increase own Disease RES by 70%.`,
+                ability3: `Increase Healing Taken by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Miranda's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Miranda's SP. Art is owned)`
+            },
         evolution: 
             {
                 evoawksuper:
@@ -31433,7 +31443,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Albedo - Complete, Review done
+    { // Albedo - Complete, Review done + JP ver
         id: 107707512,
         name: "Albedo",
         attribute: "Dark",
@@ -31476,6 +31486,17 @@ const UnitInformation = [
                 superarts: `120000% Dark DMG (PHY). For 10s, increase own Critical Rate by 100% and Allies' DMG Res by 60%.`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30. If HP is above 70%, increase Arts by 60 instead.`,
+                skillbreak: 400,
+                arts: `23000% Dark DMG (PHY). Permanently increase Demon Allies' DMG & DMG RES by 10% (up to 30%).`,
+                artsbreak: 600,
+                truearts: `50000% Dark DMG (PHY). For 30s, increase Allies' PHY Res by 20% + Allies gain a DMG Barrier that negates 10000 DMG.`,
+                trueartsbreak: 1000,
+                superarts: `120000% Dark DMG (PHY). For 12s, increase own Critical Rate by 100% and Allies' DMG Res by 60%.`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `When near-death, increase own Arts by 300 & heal Allies' HP by 50%.`,
@@ -31492,6 +31513,19 @@ const UnitInformation = [
                     mat2amt: 100,
                     hover2: "Sinflow Soulgem"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "3F",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153171.png",
+                skill: "55s CT - 8000% Dark DMG (PHY). For 10s, increase own CRI DMG by 50%. If user is Dark, increase own CRI DMG by 100% instead.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Albedo, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
+                    }
             },
         lore: 
             {   
@@ -31517,7 +31551,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Shalltear - Review done
+    { // Shalltear - Review done + JP ver
         id: 107717412,
         name: "Shalltear",
         attribute: "Light",
@@ -31560,6 +31594,17 @@ const UnitInformation = [
                 superarts: `For 80s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).`,
                 superartsbreak: 0
             },
+        skillsetJP: 
+            {
+                skill: `11s CT - 2500% Light DMG (MAG). For 10s, increase own Lifesteal by 3%.`,
+                skillbreak: 600,
+                arts: `26000% Light DMG (MAG). For 20s, reduce Enemies' Dark & Light RES by 40%.`,
+                artsbreak: 1300,
+                truearts: `110000% Light DMG (MAG). For 20s, increase own Critical DMG by 200%.`,
+                trueartsbreak: 2000,
+                superarts: `For 120s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).`,
+                superartsbreak: 0
+            },
         passive: 
             {
                 ability1: `If HP is above 70%, increase own Critical Rate by 100%.`,
@@ -31576,6 +31621,19 @@ const UnitInformation = [
                     mat2amt: 100,
                     hover2: "Eternaglit Soulgem"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Pipette Lance",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153181.png",
+                skill: "50s CT - 8000% Light DMG (MAG). For 10s, reduce enemies' Light RES by 30%. If user is Demon, reduce enemies' Light RES by 50% instead.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Shalltear, Increase own Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "When Near-death, heal 1% of own DMG dealt."
+                    }
             },
         lore: 
             {   
@@ -31601,7 +31659,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Ainz - Complete, Review done
+    { // Ainz - Complete, Review done + JP ver
         id: 107697512,
         name: "Ainz",
         attribute: "Dark",
@@ -31644,6 +31702,17 @@ const UnitInformation = [
                 superarts: `150000% Dark DMG (MAG). For 15s, increase all allies' CRI DMG by 100%. Increase Dark allies' CRI DMG by 200% instead.`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2500% Dark DMG (MAG). For 10s, reduce enemies' MAG RES by 20%.`,
+                skillbreak: 400,
+                arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn for 15s. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
+                artsbreak: 900,
+                truearts: `60000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.`,
+                trueartsbreak: 1200,
+                superarts: `170000% Dark DMG (MAG). For 15s, increase all allies' CRI DMG by 100%. Increase Dark allies' CRI DMG by 200% instead.`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `When HP is above 80%, increase own Arts by 5/s.`,
@@ -31660,6 +31729,19 @@ const UnitInformation = [
                     mat2amt: 100,
                     hover2: "Sinflow Soulgem"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Staff of Ainz Ooal Gown",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153161.png",
+                skill: "50s CT - 10000% Dark DMG (MAG). For 10s, increase own MAG DMG and Dark DMG by 50%.",
+                skillbreak: 600,
+                passive: 
+                    {
+                        ability1: "When equipped by Ainz, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own MAG RES by 5%."
+                    }
             },
         lore: 
             {   
@@ -31687,7 +31769,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Narberal - Complete, Review done
+    { // Narberal - Complete, Review done + JP ver
         id: 107727412,
         name: "Narberal",
         attribute: "Light",
@@ -31730,6 +31812,17 @@ const UnitInformation = [
                 superarts: `130000% Light DMG (MAG). For 20s, reduce enemies' MAG RES by 100%.`,
                 superartsbreak: 1400
             },
+        skillsetJP: 
+            {
+                skill: `10s CT - 1800% Light DMG (MAG). For 8s, increase Demon Allies' DMG by 30%.`,
+                skillbreak: 400,
+                arts: `13000% Light DMG (MAG). Increase Allies' Arts by 20. Increase Demon Allies' Arts by 30 instead. For 20s, increase Allies' MAG RES by 30%.`,
+                artsbreak: 600,
+                truearts: `40000% Light DMG (MAG). For 25s, increase Allies' stats by 30%, and increase Leader Unit's Arts DMG by 200% & DMG RES by 30%.`,
+                trueartsbreak: 1200,
+                superarts: `140000% Light DMG (MAG). For 20s, reduce enemies' MAG RES by 120%.`,
+                superartsbreak: 1400
+            },
         passive: 
             {
                 ability1: `At the start of a Quest, increase Demon Allies' Arts gauge by 50.`,
@@ -31746,6 +31839,19 @@ const UnitInformation = [
                     mat2amt: 100,
                     hover2: "Eternaglit Soulgem"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Keraunos Mk-III",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153191.png",
+                skill: "40s CT - For 10s, increase allies' MAG DMG by 30% and Arts by 3/s.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Narberal, increase own Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
+                    }
             },
         lore: 
             {   
@@ -33336,6 +33442,252 @@ const UnitInformation = [
                     mat2amt: 100,
                     hover2: "Flametail Soulgem"
                 }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //Momon - Missing Lore
+        id: 107907512,
+        name: `Momon`,
+        attribute: `Dark`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107906512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107907512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_790_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107906512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107907512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_790_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6935,
+                hpplus: 1311,
+                atk: 4060,
+                atkplus: 699,
+                def: 3157,
+                defplus: 651
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2300% Dark DMG (PHY). Increase own Arts by 40.`,
+                skillbreak: 600,
+                arts: `25000% Dark DMG (PHY). For 40s, increase own CRI rate & Ally to the right of Momon's CRI rate by 100%.`,
+                artsbreak: 600,
+                truearts: `65000% Water DMG (PHY). For 25s, increases all allies' PHY DMG by 150% and Accuracy by 50%.`,
+                trueartsbreak: 1200,
+                superarts: `180000% Dark DMG (PHY). For 15s, reduce enemies' Dark RES by [50% x # of Demon Allies in the party] (MAX: 200%).`,
+                superartsbreak: 1500
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or higher, increase own DMG & Ally to the right of Momon's DMG by 250%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Curse RES by 80%.`,
+                ability3: `Increase own Blind RES by 80%.`,
+                ability4: `Unit EXP UP 20% UP. (When Momon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Momon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Momon's Greatsword`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153201.png",
+                skill: `40s CT - 8000% Dark DMG (PHY). For 10s, increase own Dark DMG & Skill CT Speed by 50%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Momon, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //Demiurge - Missing Lore
+        id: 107917112,
+        name: `Demiurge`,
+        attribute: `Fire`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107916112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107917112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_791_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107916112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107917112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_791_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7200,
+                hpplus: 1330,
+                atk: 3335,
+                atkplus: 643,
+                def: 3336,
+                defplus: 630
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3500% Fire DMG (MAG). For 8s, increase own Arts by 5/s.`,
+                skillbreak: 500,
+                arts: `25000% Fire DMG (MAG). For 30s, reduce enemies' MAG RES by 50%.`,
+                artsbreak: 1200,
+                truearts: `For 30s, increase all allies' Status RES (except Faint) by 100% and allies gain a DMG barrier that negates 10000 DMG.`,
+                trueartsbreak: 0,
+                superarts: `130000% Fire DMG (MAG). For 80s, increase Fire allies' DMG by 50% (stackable). If Super Arts is used when own HP is above 80%, increase own Arts by 100.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `When unaffected by Status ailments, increase own DMG by 80% and Equipment CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Heal Amount by 30%.`,
+                ability3: `Increase DMG to Human enemies by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Demiurge's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Demiurge's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Demiurge's Suit`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153211.png",
+                skill: `50s CT - 6000% Fire DMG (MAG). For 10s, increase own Fire DMG by 60%. When used for the first time, increase own Arts by 30.`,
+                skillbreak: 300,
+                passive: 
+                    {
+                        ability1: `When equipped by Demiurge, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //Evileye - Missing Lore
+        id: 107927312,
+        name: `Evileye`,
+        attribute: `Earth`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107926312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107927312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_792_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107926312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107927312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_792_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7425,
+                hpplus: 1370,
+                atk: 3352,
+                atkplus: 646,
+                def: 3141,
+                defplus: 596
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2000% Earth DMG (MAG). Increase own Arts by 20. If unaffected by Status Ailments, increase own Arts by 40 instead.`,
+                skillbreak: 500,
+                arts: `For 25s, increase all allies' DMG RES by 20% and Earth allies' DMG RES by an additional 20%.`,
+                artsbreak: 0,
+                truearts: `50000% Earth DMG (MAG). For 60s, increase own ATK by 150% and Freeze RES & Paralysis RES by 100%.`,
+                trueartsbreak: 1600,
+                superarts: `150000% Earth DMG (MAG). For 20s, increase all allies' Arts by 6/s and MAG DMG by 200%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `When self is Leader, for 100s, increase Earth Allies' DMG by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Disease RES by 80%.`,
+                ability3: `Increase own DMG to Beast enemies by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Evileye's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Evileye's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 100,
+                    hover2: `Smogdragon Soulgem`
+                }
+            },
+        trueweapon: 
+            {
+                name: `Evileye's Mask`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153221.png",
+                skill: `50s CT - 8000% Earth DMG (MAG). For 10s, reduce enemies' Earth RES by 30%. If the user is Demon, reduce enemies' Earth RES by 50% instead.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Evileye, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
+                    }
             },
         lore: 
             {   
