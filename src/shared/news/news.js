@@ -1138,7 +1138,7 @@ const NewsArticles = [
                         [`True 'Staff of Ainz Ooal Gown'`, 153161],
                         [`True '3F'`, 153171],
                         [`True 'Pipette Lance'`, 153181],
-                        [`True 'Kearunos Mk-III'`, 153191],
+                        [`True 'Keraunos Mk-III'`, 153191],
                         [`真『モモンズ・グレートソード』`, 153201],
                         [`真『デミウルゴスのスーツ』`, 153211],
                         [`真『イビルアイの仮面』`, 153221],
