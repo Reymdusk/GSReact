@@ -43906,9 +43906,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Kearunos Mk-III' - Missing Lore
+    { //True 'Keraunos Mk-III' - Missing Lore
         id: 153191,
-        name: `True 'Kearunos Mk-III'`,
+        name: `True 'Keraunos Mk-III'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
