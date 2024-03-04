@@ -3874,39 +3874,8 @@ const UnitInformation = [
                         ability1: `Increase own Equipment DMG by 50%.`,
                         ability2: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`
                     }
-                },
-                light: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
-                        mat3amt: 2,
-                        hover3: "Ifrit",
-                    },
-                    passive: {
-                        ability1: ``,
-                        ability2: ``
-                    }
-                },
-                dark: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
-                        mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
-                        mat3amt: 2,
-                        hover3: "Ifrit",
-                    },
-                    passive: {
-                        ability1: ``,
-                        ability2: ``
-                    }
                 }
+                
             },
         trueweapon: 
             {
