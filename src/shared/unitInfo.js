@@ -3217,7 +3217,7 @@ const UnitInformation = [
                         hover3: `Goldola`
                     },
                     passive: {
-                        ability1: `Change effect of Skill from "Heal self by 2% of own Max HP." to "Heal all allies by 1% of their Max HP."`
+                        ability1: `Passive no longer heals Allies' HP by 10/s. Instead, it heals Allies' HP by 1%/s.`
                     }
                 },
                 dark: {
@@ -18172,7 +18172,7 @@ const UnitInformation = [
                 author: `Orixy`
             }
     },
-    { //Angelas - Complete, Review done, DreamJP added
+    { //Angelas - Complete, Review done
         id: 103066112,
         name: "Angelas",
         rank: "A",
@@ -18187,15 +18187,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103066112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -18215,15 +18206,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "11s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. 50% chance to inflict Burn for 7s.",
-                skillbreak: 600,
-                arts: "18000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 15s, reduce Enemies' Burn RES by 50%.",
-                artsbreak: 1000,
-                truearts: "30000% Fire DMG (PHY). Reduce Dragon Flame Count to 0. Increase own Arts Gauge by [Original Dragon Flame Count × 20], increase this True Arts' Multiplier by [Original Dragon Flame Count × 10000%].",
-                trueartsbreak: 1500
-            },
-        skillsetJP: 
-            {
                 skill: "10s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. Chance (50%) to inflict Burn.",
                 skillbreak: 600,
                 arts: "20000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 15s, reduce Enemies' Burn RES by 50%.",
@@ -18232,12 +18214,6 @@ const UnitInformation = [
                 trueartsbreak: 1500
             },
         passive: 
-            {
-                ability1: "Increase Critical Rate by 100% against Burned Enemies.",
-                ability2: "Increase own DMG by 30% against Enemies in BREAK.",
-                ability3: "Dragon Flame: Counts disappear after 30s (Max 5 stacks). Decrease Enemies' Fire RES by [Dragon Flame Count × 5%], deal [Dragon Flame Count × 350%]/s Fire DMG (PHY) to Enemies."
-            }, 
-        passiveJP: 
             {
                 ability1: "Increase Critical Rate by 100% against Burned Enemies.",
                 ability2: "Increase own DMG by 30% against Enemies in BREAK.",
@@ -18262,7 +18238,7 @@ const UnitInformation = [
                     hover5: "Radachne"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -18332,7 +18308,7 @@ const UnitInformation = [
                 author: `Elric`
             }
     },
-    { //Eagle - Complete, Review done, DreamJP Added
+    { //Eagle - Complete, Review done
         id: 103076312,
         name: "Eagle",
         rank: "B+",
@@ -18346,15 +18322,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103076312.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
@@ -18373,15 +18340,6 @@ const UnitInformation = [
                 defplus: 506
             },
         skillset: 
-            {
-                skill: "10s CT - 2000% Earth DMG (PHY). For 6s, increase own DEF by 20%.",
-                skillbreak: 600,
-                arts: "8000% Earth DMG (PHY). For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 8000 DMG to self. During Avenger Mode: For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 12000 DMG to self.",
-                artsbreak: 1200,
-                truearts: "30000% Earth DMG (PHY). For 15s, increase own DMG RES by 10%. During Avenger Mode: 60000% Earth DMG (PHY). For 15s, increase own DMG RES by 10% + Steal 100% of Enemies' Arts and exit Avenger Mode.",
-                trueartsbreak: 2000
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 2000% Earth DMG (PHY). For 6s, increase own DEF by 20%.",
                 skillbreak: 600,
@@ -18414,7 +18372,7 @@ const UnitInformation = [
                     hover5: "Goldola"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -23940,15 +23898,15 @@ const UnitInformation = [
             {
                 ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
                 ability2: `Increase own Disease RES by 70%.`,
-                ability3: `Increase Healing Taken by 10%.`
+                ability3: `Increase Healing Taken by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Miranda's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Miranda's SP. Art is owned)`
             },
         passiveJP: 
             {
                 ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
                 ability2: `Increase own Disease RES by 70%.`,
-                ability3: `Increase Healing Taken by 10%.`,
-                ability4: `Unit EXP UP 20% UP. (When Valentines Miranda's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Miranda's SP. Art is owned)`
+                ability3: `Increase Healing Taken by 10%.`
             },
         evolution: 
             {
@@ -23967,7 +23925,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { // Priscilla (Valentines) - Missing Lore (JP)
+    { // Priscilla (Valentines) - Missing Lore
         id: 103677112,
         name: "Priscilla (Valentines)",
         translate: "Valentines Priscilla",
@@ -23977,8 +23935,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103676112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103677112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_367_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103676112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103677112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103677112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_367_1.png"
             },
         slots: 
             {
@@ -24011,6 +23971,14 @@ const UnitInformation = [
                 superartsbreak: 1500
             },
         passive: 
+            {
+                ability1: `Increase own Arts by 4/s. If own HP is 80% or above, increase own Freeze & Paralysis RES by 100%.`,
+                ability2: `Increase own Accuracy by 30%.`,
+                ability3: `Increase Allies' Fire DMG by 30%. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Priscilla's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Priscilla's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: `Increase own Arts by 4/s. If own HP is 80% or above, increase own Freeze & Paralysis RES by 100%.`,
                 ability2: `Increase own Accuracy by 30%.`,
@@ -30677,9 +30645,9 @@ const UnitInformation = [
                 author: `Praying Patrick`
             }
     },
-    { // Nui Harume - Complete
+    { // Nui Harime - Complete
         id: 107596512,
-        name: "Nui Harume",
+        name: "Nui Harime",
         rank: "A",
         luckrank: "SS",
         attribute: "Dark",

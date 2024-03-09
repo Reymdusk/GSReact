@@ -30595,9 +30595,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //プリシラの燃えキュンアロー (VPriscilla Farmable) - JP Complete
+{ //Priscilla's Cupid Brand - Missing Lore
         id: 111111,
-        name: `プリシラの燃えキュンアロー`,
+        name: `Priscilla's Cupid Brand`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30622,11 +30622,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //プリシラのドリームエプロン (VPriscilla Farmable) - JP Complete
+{ //Priscilla's Dreamy Apron - Missing Lore
         id: 111121,
-        name: `プリシラのドリームエプロン`,
+        name: `Priscilla's Dreamy Apron`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30649,9 +30649,9 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `DEF 5% UP.`
+                ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Twinflame Helm 'Garmroar' Replica - Missing Lore
         id: 111131,
@@ -43726,12 +43726,12 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    /*{ // - Missing Lore
+    { //デミウルゴスのグローブ - Missing Lore
         id: 153131,
-        name: ``,
-        translate: ``,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
+        name: `デミウルゴスのグローブ`,
+        translate: `Demiurge's Gloves`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153130.png`,
@@ -43741,21 +43741,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 500,
+                hp: 120,
+                atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Heal all Demon allies' HP by 30%.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own Magic resistance by 5%.`
             },
         lore: `Missing Lore.`
-    },*/
+    },
     { //イビルアイのローブ - Missing Lore
         id: 153141,
         name: `イビルアイのローブ`,

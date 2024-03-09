@@ -1152,6 +1152,36 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 35,
+        date: `March 9, 2024`,
+        article: 
+        {
+            intro: `A new farmable equip is introduced from the Overlord rerun in JP. Meanwhile on Global, Valentines Priscilla makes her debut with her SP. Art and farmable equips, alongside 2 new Dream Awakenings!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`デミウルゴスのグローブ`, 153131]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Priscilla (Valentines)`, 103677112]
+                    ],
+                    equips: [
+                        [`Priscilla's Cupid Brand`, 111111],
+                        [`Priscilla's Dreamy Apron`, 111121]
+                    ],
+                    dream: [
+                        [`Angelas`, 103066112],
+                        [`Eagle`, 103076312]
+                    ]
+                }
+        }
     }
 ]
 
