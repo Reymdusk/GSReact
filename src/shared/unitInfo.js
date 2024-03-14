@@ -6589,8 +6589,10 @@ const UnitInformation = [
             {
                 detail4: "/db/Units/Detail/unit_detail_101574412.png",
                 detail5: "/db/Units/Detail/unit_detail_101575412.png",
+                detailawk: "/db/Units/Detail/unit_detail_101576412.png",
                 thumb4: "/db/Units/Thumbnail/unit_thumbnail_101574412.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_101575412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101576412.png"
             },
         slots: 
             {
@@ -6619,19 +6621,43 @@ const UnitInformation = [
                 def: 1956,
                 defplus: 303
             },
+        statsJP: 
+            {
+                hp: 7650,
+                hpplus: 999,
+                atk: 3206,
+                atkplus: 490,
+                def: 2817,
+                defplus: 432
+            },
         skillset: 
             {
                 skill: "12s CT - 2500% Light DMG (MAG). For 5s, reduce Enemies' DEF by 30%.",
                 skillbreak: 1300,
-                arts: "14000% Light DMG (MAG). 50% chance to inflict Paralysis for 4s.",
+                arts: "14000% Light DMG (MAG). 60% chance to inflict Paralysis for 4s.",
                 artsbreak: 1500,
                 truearts: "N/A",
                 trueartsbreak: 0
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 3000% Light DMG (MAG). For 5s, reduce Enemies' DEF by 30%.",
+                skillbreak: 1400,
+                arts: "20000% Light DMG (MAG). 70% chance to inflict Paralysis for 4s.",
+                artsbreak: 1800,
+                truearts: "50000% Light DMG (MAG). Increase allies' Arts by 30 and Light allies' Arts by an additional 10. For 20s, ignore 100% of enemies' DEF.",
+                trueartsbreak: 2200
             },
         passive: 
             {
                 ability1: "Each normal attack will increase own Arts by 10.",
                 ability2: "Increase Light Allies' Arts by 1/s.",
+                ability3: "Reduce Water RES by 50%."
+            },
+        passiveJP: 
+            {
+                ability1: "Each normal attack will increase own Arts by 10.",
+                ability2: "Increase Light Allies' Arts by 2/s.",
                 ability3: "Reduce Water RES by 50%."
             }, 
         evolution: 
@@ -6645,6 +6671,16 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/material_thumbnail_113454.png", // Edram's 4* > 5* mats
                     mat3amt: 20
                 },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 10,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_134354.png",
+                    mat3amt: 20,
+                    hover3: "Edram",
+                }
             },
         lore: 
             {   
@@ -24079,7 +24115,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Demon Lord Vox - Missing Lore + JP ver.
+    { // Demon Lord Vox - Missing Lore
         id: 103697512,
         name: "Demon Lord Vox",
         translate: "Demon King Vox",
@@ -24132,13 +24168,7 @@ const UnitInformation = [
                 ability3: `Increase own Status RES by 30%.`,
                 ability4: `Unit EXP UP 20% UP. (When Demon Lord Vox's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Demon Lord Vox's SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `Increase own Arts by 1/s when Near-Death.`,
-                ability2: `Heal own HP by 1% of DMG dealt to Enemies and increase Demon Allies' Arts gauge by 3/s. Does not stack with Abilities of the same name.`,
-                ability3: `Increase own Status RES by 30%.`
-            }, 
+            },
         evolution: 
             {
                 evoawksuper:

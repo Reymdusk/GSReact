@@ -1182,6 +1182,28 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 36,
+        date: `March 14, 2024`,
+        article: 
+        {
+            intro: `Small update, Edram finally gets his Awakening in JP!`,
+            new: 
+                {
+                    units: [
+                        [`Edram`, 101576412]
+                    ],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
