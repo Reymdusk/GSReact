@@ -1204,6 +1204,39 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 37,
+        date: `March 21, 2024`,
+        article: 
+        {
+            intro: `New Raid equips and a new Sublime Supernova Liza SP. Art have been introduced to JP. Meanwhile on Global, Sublime Supernova Liza makes her debut with her SP. Art and faarmable equips. Moreover, 3 new Dream Awakenings too!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`極『アネモス』`, 112301],
+                        [`蒼翼剣『レイダルファング』`, 112311]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Sublime Supernova Liza`, 103647412]
+                    ],
+                    equips: [
+                        [`True 'Mercurius'`, 110851],
+                        [`Sainted Staff 'Mercurius'`, 110861],
+                        [`Sagacious Robe 'Cathedral'`, 110871]
+                    ],
+                    dream: [
+                        [`Herck`, 100576212],
+                        [`Valhalla`, 100586312],
+                        [`Arosdea`, 101176112]
+                    ]
+                }
+        }
     }
 ]
 

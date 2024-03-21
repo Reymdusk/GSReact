@@ -20478,6 +20478,7 @@ const EquipInformation = [
 { //翠鳳飾『アネモス』 (Tonetaurus Raid Equip) - JP Complete
         id: 107651,
         name: `翠鳳飾『アネモス』`,
+        translate: `'Anemos'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -29828,10 +29829,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『メルクリウス』 (SGLiza TW)  - JP Complete
+{ //True 'Mercurius' - Missing Lore
         id: 110851,
-        name: `真『メルクリウス』`,
-        translate: `True 'Mercury'`,
+        name: `True 'Mercurius'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -29855,15 +29855,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20% (Only once).`,
+                ability1: `When equipped by Sublime Supernova Liza, increase all stats and Skill CT REC by 20% (Only once).`,
                 ability2: `Magic DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //聖杖『メルクリウス』 (SGLiza Farmable) - JP Complete
+{ //Sainted Staff 'Mercurius' - Missing Lore
         id: 110861,
-        name: `聖杖『メルクリウス』`,
-        translate: `'Mercury'`,
+        name: `Sainted Staff 'Mercurius'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29888,11 +29887,11 @@ const EquipInformation = [
             {
                 ability1: `Magic DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //大聖衣『カテドラル』 (SGLiza Farmable) - JP Complete
+{ //Sagacious Robe 'Cathedral' - Missing Lore
         id: 110871,
-        name: `大聖衣『カテドラル』`,
+        name: `Sagacious Robe 'Cathedral'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -29917,7 +29916,7 @@ const EquipInformation = [
             {
                 ability1: `MAX HP 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //JP Equip Name (???) - Unknown
         id: 110881,
@@ -34146,6 +34145,67 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Light resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //極『アネモス』 (Tonetaurus Raid Equip) - JP Complete
+        id: 112301,
+        name: `極『アネモス』`,
+        translate: `'Anemos' EV`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_112301.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112301.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `55s CT - Heal all Allies' HP by 200 and increase all Allies' Earth Resistance by 10% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Poison Time Reduction & Poison Evasion rate 10% UP.`,
+                ability2: [`Increase own MAG RES by 5%.`, `Increase own MAG RES by 10%.`, `Increase own ATK by 5%.`, `Increase own Heal Amount by 10%.`, `Increase own Heal Amount by 15%.`, `Increase own DEF by 5%.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //蒼翼剣『レイダルファング』(Freydal Raid Equip) - JP Complete
+        id: 112311,
+        name: `蒼翼剣『レイダルファング』`,
+        translate: `Blue-Winged Sword 'Reydal Fang'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112311.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - 4500% Water DMG (PHY). If enemy is Fire, reduce enemies' CRI RES by 30% for 5s.`,
+                break: 1250
+            },
+        passive: 
+            {
+                ability1: `Increase DMG against Fire enemies by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },

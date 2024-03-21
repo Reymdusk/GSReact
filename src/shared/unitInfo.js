@@ -1075,7 +1075,7 @@ const UnitInformation = [
                 evoawk: "There exists a legend in Famelle of an unlikely savior: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged landand sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
             }
     },
-    { //Herck - Complete, DreamEvoJP added
+    { //Herck - Complete
         id: 100576212,
         name: "Herck",
         rank: "F",
@@ -1093,15 +1093,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100576212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
@@ -1121,15 +1112,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Water DMG (PHY). 10% chance to inflict Freeze for 2s.",
-                skillbreak: 2050,
-                arts: "12600% Water DMG (MAG). For 15s, increase all Water Ally DMG RES by 10%",
-                artsbreak: 3100,
-                truearts: "28000% Water DMG (MAG). For 15s, all Allies' attacks have chance to inflict Freeze",
-                trueartsbreak: 7000
-            },
-        skillsetJP: 
-            {
                 skill: "8s CT - 1800% Water DMG (PHY). Chance (10%) to inflict Freeze.",
                 skillbreak: 2100,
                 arts: "15000% Water DMG (MAG). For 15s, increase all Water Ally DMG RES by 30%",
@@ -1138,12 +1120,6 @@ const UnitInformation = [
                 trueartsbreak: 7000
             },
         passive: 
-            {
-                ability1: "Increase own DMG to Spirit Enemy by 80%",
-                ability2: "Increase own DMG to Human Enemy by 80%",
-                ability3: "Increase own DMG by 30% when own HP is over 50%. (Does not stack)"
-            },
-        passiveJP: 
             {
                 ability1: "Increase own DMG to Spirit Enemy by 80%",
                 ability2: "Increase own DMG to Human Enemy by 80%",
@@ -1184,7 +1160,7 @@ const UnitInformation = [
                     hover5: "Freydal"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -1224,7 +1200,7 @@ const UnitInformation = [
                 evoawk: "Grand king of the rare Sea Giants, who ruled the seas during the Ancient War. He had good reason for his unrelenting attacks on his mother's relatives, the Sea Dragons. He wished only to minimize harm to both races. When he sensed the Ancient War would grow only longer and more cruel, his frenzied attack served to restrain the Sea Dragons, and protect his people from further battle. History hides his true intent, though he regrets nothing."
             }
     },
-    { //Valhalla - Complete, DreamEvoJP added
+    { //Valhalla - Complete
         id: 100586312,
         name: "Valhalla",
         rank: "B-",
@@ -1243,15 +1219,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
@@ -1269,15 +1236,6 @@ const UnitInformation = [
                 defplus: 425
             },
         skillset: 
-            {
-                skill: "8s CT - 1200% Earth DMG (MAG). For 5s, increase own Normal Attack DMG by 20.",
-                skillbreak: 600,
-                arts: "For 20s, Heal all Ally HP by 200/s and increase all Allies' Skill CT REC by 60%",
-                artsbreak: 0,
-                truearts: "21000% Earth DMG (MAG). For 15s, Heal all Allies' HP by 5%/s and increase all Allies' DMG RES by 10%. If Ally is Earth, increase DMG RES by 20% instead",
-                trueartsbreak: 1900
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1300% Earth DMG (MAG). For 5s, increase own Normal Attack DMG by 20.",
                 skillbreak: 600,
@@ -1319,7 +1277,7 @@ const UnitInformation = [
                     hover3: "Elpneumas",
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -4331,7 +4289,7 @@ const UnitInformation = [
                 evoawk: "She is the greatest of all alchemists who is secretly approaching the world's rule of nature. Having the powers of once trying to revive the dead, she never stands at the stage. This is because she is getting the closest as she can to the truth of alchemy. Possessing the powers to overturn common sense and making the impossible possible, she cannot take the wrong path. With this firm belief. she will generously show her ultimate powers of an achemist to the adventurer standing against the world's danger"
             }
     },
-    { //Arosdea - Complete, DreamEvoJP added
+    { //Arosdea - Complete
         id: 101176112,
         name: "Arosdea",
         rank: "C",
@@ -4347,15 +4305,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101176112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -4374,15 +4323,6 @@ const UnitInformation = [
                 defplus: 375
             },
         skillset: 
-            {
-                skill: "8s CT - 2200% Fire DMG (PHY). 15% chance to inflict Burn for 4s.",
-                skillbreak: 1800,
-                arts: "16000% Fire DMG (PHY). Increase Arts by 30 + For 10s, increase Allies' DMG to Enemies in BREAK by 100%.",
-                artsbreak: 2600,
-                truearts: "30000% Fire DMG (PHY). For 15s, reduce Enemies' DMG RES by 30%. For 30s, gain a DMG barrier that negates 3500 DMG to self.",
-                trueartsbreak: 3000
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 2300% Fire DMG (PHY). Chance (15%) to inflict Burn.",
                 skillbreak: 1800,
@@ -4419,7 +4359,7 @@ const UnitInformation = [
                     hover3: "Degilmagna",
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -23650,17 +23590,20 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { // Star God Liza - Missing Lore (JP)
+    { // Sublime Supernova Liza - Missing Lore
         id: 103647412,
-        name: "Star God Liza",
+        name: "Sublime Supernova Liza",
+        translate: `Star God Liza`,
         attribute: "Light",
         type: "God",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103646412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103647412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_364_1.png",                
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103646412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103647412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103647412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_364_1.png"
             },
         slots: 
             {
@@ -23711,21 +23654,21 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Mercury`,
+                name: `Mercurius`,
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110851.png",
                 skill: `50s CT - For 10s, increase Allies' Arts by 4/s and Allies' Light DMG by 40% (stackable).`,
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Sublime Supernova Liza, increase all stats and Skill CT REC by 20%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase MAG RES by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Blazing Flower Mira - Missing Lore (JP)
