@@ -34209,6 +34209,67 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『斬塵如火』 - JP Complete
+        id: 112321,
+        name: `真『斬塵如火』`,
+        translate: `True 'Fiery Decapitation'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Fire DMG (Physical). Increase own Physical DMG and Fire DMG by 50% for 10s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `When equipped by Lark, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //緋燕刀『斬塵如火』 - JP Complete
+        id: 112331,
+        name: `緋燕刀『斬塵如火』`,
+        translate: `Hien Katana 'Fiery Decapitation'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Fire DMG (Physical). Increase own ATK by 80% for 12s. Additionally if user is Fire, increase own Skill CT Speed by 80% for 12s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

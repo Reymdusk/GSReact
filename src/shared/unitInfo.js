@@ -25461,6 +25461,85 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Lark - Missing Lore (JP)
+        id: 103877112,
+        name: `Lark`,
+        translate: `Crimson Enforcer Lark`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103876112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103877112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103876112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103877112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7452,
+                hpplus: 1405,
+                atk: 3812,
+                atkplus: 660,
+                def: 2887,
+                defplus: 600
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Fire DMG (PHY). Increase own Arts by 50.`,
+                skillbreak: 700,
+                arts: `20000% Fire DMG (PHY). For 30s, increase own ATK by 120% and increase own Freeze RES and Paralysis RES by 100%.`,
+                artsbreak: 1000,
+                truearts: `64000% Fire DMG (PHY). For 30s, increase all allies' Accuracy by 50% and own DMG by 200%.`,
+                trueartsbreak: 1400,
+                superarts: `180000% Fire DMG (PHY). If used when own HP is 80% or above, for 20s, reduce enemies' PHY RES by 130%. Additionally if used when unafflicted by Status Ailments, for 20s, reduce enemies' Fire RES by 130%.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When self is Leader, increase Fire allies' Arts by 5/s for first 30s of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Human enemies by 80%.`,
+                ability3: `Increase own Evasion rate by 10%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 220,
+                    hover2: `Flametail Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Fiery Decapitation`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112321.png",
+                    skill: `50s CT - 10000% Fire DMG (PHY). For 10s, increase own PHY DMG and Fire DMG by 50%.`,
+                    skillbreak: 600,
+                    passive: 
+                        {
+                            ability1: `When equipped by Lark, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own PHY RES by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",

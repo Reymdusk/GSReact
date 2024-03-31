@@ -1237,6 +1237,31 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 38,
+        date: `March 31, 2024`,
+        article: 
+        {
+            intro: `Part 4 of the Blue Jacket saga introduces Lark as the newest JP unit, along with his various equips!`,
+            new: 
+                {
+                    units: [
+                        [`Lark`, 103877112]
+                    ],
+                    equips: [
+                        [`真『斬塵如火』`, 112321],
+                        [`緋燕刀『斬塵如火』`, 112331]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
