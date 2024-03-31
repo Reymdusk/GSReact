@@ -23596,6 +23596,8 @@ const UnitInformation = [
         translate: `Star God Liza`,
         attribute: "Light",
         type: "God",
+        rank: `SSS`,
+        lb7require: true,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103646412.png",
