@@ -79,6 +79,7 @@ function DisplayHeader(){
                                     <p><img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px"}} alt="True Weapon is Favorable for Unit" /> True Weapon Favorability (Bumped up 0-2 Subtiers)</p>
                                     <p><img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px"}} alt="Unit is reliant on True Weapon" /> True Weapon Reliance (Bumped up 2+ subtiers)</p>
                                     <p><img src="/db/Icons/skill/thumbnail/damage_up.png" style={{maxWidth: "20px"}} alt="Unit has a useful Cross Art with another unit" /> Notable Cross Arts Synergy</p>
+                                    <p><img src="/db/Icons/other/lb_7.png" style={{maxWidth: "20px"}} alt="Unit favors LB7" /> LB7 Favorability</p>
                                 </center>
                             </CardBody>
                         </Card>
@@ -462,6 +463,23 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                         <br />
                         <p style={{paddingTop: "0px", marginTop: "0px", marginBottom: "0px", color: "#aaabb8", fontSize: `${fontSizing}`, width: "75px", display: "inline-block"}}>{unit.name}</p>
                         <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingTop: "0px", marginTop: "0px", paddingBottom: "0px", marginBottom: "2rem"}} alt="True Weapon is favorable for unit" />
+                    </a>
+                </Card>
+            </center>
+        )
+    }
+
+    if(unit.lb7require === true){
+        return (
+            <center>
+                <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px", margin: "0px"}}>
+                    <a href={`/units/${unit.name}/`} style={{textDecoration: "none"}}>
+                        <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" alt={unit.name} />
+                        <br />
+                        <p style={{paddingBottom: "2px", marginBottom: "2px", color: "#aaabb8", fontSize: `${fontSizing}`, width: "75px", display: "inline-block"}}>
+                            {unit.name}
+                        </p>
+                        <img src="/db/Icons/other/lb_7.png" style={{maxWidth: "20px", paddingBottom: "0px", marginBottom: "2rem"}} alt="Unit favors LB7" />
                     </a>
                 </Card>
             </center>
