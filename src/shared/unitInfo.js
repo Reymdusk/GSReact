@@ -23669,7 +23669,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
+                evoawk: "Liza holding the Scepter of Revelation. Although extremely shy in her youth, she gained confidence after banding with the other children in the wake of their parents' death. The Scepter being one of Gran Verge's symbols of rule, she declined it at first believing she fell far short of her father. However, following the Great Seal's destruction, her hand grasped it with the determination to prove she and her siblings could surpass him.",
                 evosuper: "Missing Lore."
             }
     },
