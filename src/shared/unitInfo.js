@@ -23670,7 +23670,7 @@ const UnitInformation = [
         lore: 
             {   
                 evoawk: "Liza holding the Scepter of Revelation. Although extremely shy in her youth, she gained confidence after banding with the other children in the wake of their parents' death. The Scepter being one of Gran Verge's symbols of rule, she declined it at first believing she fell far short of her father. However, following the Great Seal's destruction, her hand grasped it with the determination to prove she and her siblings could surpass him.",
-                evosuper: "Missing Lore."
+                evosuper: "Liza after claiming the magistone scepter Mercurius. She enclosed herself in the barrier it created when the royal castle was razed. Although having yet to speak of the event, it is easy to imagine how she felt while helplessly watching diaster befall her nation, her people, and her siblings. Regardless, she lets her cheerful attitude shine through like a guiding star, as bright as Mercurius itself."
             }
     },
     { // Blazing Flower Mira - Missing Lore (JP)
