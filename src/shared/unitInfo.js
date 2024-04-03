@@ -23911,6 +23911,7 @@ const UnitInformation = [
         name: "Priscilla (Valentines)",
         translate: "Valentines Priscilla",
         attribute: "Fire",
+        rank: "SS",
         type: "Human",
         image: 
             {
