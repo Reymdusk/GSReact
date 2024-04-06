@@ -13740,16 +13740,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_102595312.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102596312.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP:
+        slots:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -17672,16 +17663,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103015512.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103016512.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP:
+        slots:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -17753,7 +17735,7 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Orvell - Complete, Review done
+    { //Orvell - Complete, Review done + JP Dream
         id: 103026412,
         name: "Orvell (Light)",
         rank: "A",
@@ -17775,6 +17757,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 7521,
@@ -17788,11 +17779,22 @@ const UnitInformation = [
             {
                 skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
                 skillbreak: 700,
-                arts: "20000% Light DMG (PHY). For 15s, increase own accuracy by 35%, decrease Enemies' PHY RES by 25%.",
+                arts: "20000% Light DMG (PHY). For 15s, increase own Accuracy by 35% and reduce Enemies' PHY RES by 25%.",
                 artsbreak: 1200,
-                truearts: "65000% Light DMG (PHY). For 15s, increase stats by 50%. When there are 5 stacks of Testament to the King: 65000% Light DMG (PHY). For 15s, increase stats by 50%, ignore 100% of Enemies' DEF.",
+                truearts: "65000% Light DMG (PHY). For 15s, increase stats by 50%. Additionally when there are 5 stacks of Testament to the King, for 15s, ignore 100% of Enemies' DEF.",
                 trueartsbreak: 1900,
-                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. When there are 5 stacks of both Testament to the King and Overlord's Servant: 200000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50.",
+                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. If used when there are 5 stacks of both Testament to the King and Overlord's Squire, increase the DMG Multiplier of this Cross Arts by an additional 80000%.",
+                crossartsbreak: 4700
+            },
+        skillsetJP: 
+            {
+                skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
+                skillbreak: 700,
+                arts: "20000% Light DMG (PHY). For 15s, increase own Accuracy by 40% and reduce Enemies' PHY RES by 35%.",
+                artsbreak: 1200,
+                truearts: "80000% Light DMG (PHY). For 20s, increase stats by 50%. Additionally when there are 5 stacks of Testament to the King, for 15s, ignore 100% of Enemies' DEF.",
+                trueartsbreak: 1900,
+                crossarts: "150000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. If used when there are 5 stacks of both Testament to the King and Overlord's Squire, increase the DMG Multiplier of this Cross Arts by an additional 150000%.",
                 crossartsbreak: 4700
             },
         passive: 
@@ -17815,6 +17817,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat4amt: 2,
                     hover4: "Flogassa",
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 3/s.`,
+                        ability2: `Increase own Skill CT Speed by 10%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                        mat3amt: 2,
+                        hover3: "Mavroskia",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Demon enemies by 150%.`,
+                        ability2: `Increase own Equip CT Speed by 10%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -17854,7 +17890,7 @@ const UnitInformation = [
                 author: `Unknown`
             }
     },
-    { //Virago - Complete (+ JP version), Review done
+    { //Virago - Complete, Review done + JP ver
         id: 103036212,
         name: "Virago",
         rank: "B-",
@@ -17868,16 +17904,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103035212.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103036212.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP:
+        slots:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -17903,7 +17930,18 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: "36000% Water DMG (MAG). For 15s, increase God and Dragon Allies' DMG by 80%.",
                 trueartsbreak: 1500,
-                crossarts: "120000% Water DMG (MAG) & Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. When there are 5 stacks of both Testament to the King and Overlord's Servant: 200000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50.",
+                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. If used when there are 5 stacks of both Testament to the King and Overlord's Squire, increase the DMG Multiplier of this Cross Arts by an additional 80000%.",
+                crossartsbreak: 4700
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 2800% Water DMG (MAG). For 5s, decrease Enemies' ATK by 10%.",
+                skillbreak: 700,
+                arts: "15000% Water DMG (MAG). Reduce Enemies' Arts by 10 + For 10s, increase All Allies' DMG RES by 15%.",
+                artsbreak: 1000,
+                truearts: "36000% Water DMG (MAG). For 15s, increase God and Dragon Allies' DMG by 80%.",
+                trueartsbreak: 1500,
+                crossarts: "150000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. If used when there are 5 stacks of both Testament to the King and Overlord's Squire, increase the DMG Multiplier of this Cross Arts by an additional 150000%.",
                 crossartsbreak: 4700
             },
         passive: 
@@ -17951,7 +17989,7 @@ const UnitInformation = [
                 author: `The True Pepe`
             }
     },
-    { //Luahn - Complete, Review done
+    { //Luahn - Complete, Review done + JP Dream
         id: 103046512,
         name: "Luahn",
         rank: "A",
@@ -17968,6 +18006,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -17991,13 +18038,30 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "48000% Dark DMG (PHY). Increase own Arts by 20. For 15s, increase Allies' Critical Rate by 100%.",
                 trueartsbreak: 2700,
-                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT REC and ATK by 100%.",
+                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.",
+                crossartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30 + Increase own Arts by 20 if this Skill crits.",
+                skillbreak: 600,
+                arts: "20000% Dark DMG (PHY). Inflicts a stack of Bleed (up to 3 stacks).",
+                artsbreak: 1200,
+                truearts: "65000% Dark DMG (PHY). Increase own Arts by 20. For 20s, increase Allies' Critical Rate by 100%.",
+                trueartsbreak: 2700,
+                crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.",
                 crossartsbreak: 3000
             },
         passive: 
             {
                 ability1: "Increase Allies' Critical DMG by 30%. Does not stack with Abilities of the same name.",
                 ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 100%.",
+                ability3: "Heal own HP by 1% of DMG dealt to Enemies with 3 stacks of Bleed."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase Allies' Critical DMG by 30%. Does not stack with Abilities of the same name.",
+                ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 150%.",
                 ability3: "Heal own HP by 1% of DMG dealt to Enemies with 3 stacks of Bleed."
             }, 
         evolution: 
@@ -18014,6 +18078,38 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 2,
                     hover4: "Radachne",
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Light enemies by 100%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Demon enemies by 100%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -18067,16 +18163,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103055511.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103056511.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP:
+        slots:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -18102,7 +18189,18 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "30000% Dark DMG (PHY). For 20s, reduce Enemies' ATK, Dark RES, and PHY RES by 30%.",
                 trueartsbreak: 2000,
-                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT REC and ATK by 100%.",
+                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.",
+                crossartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1600% Dark DMG (PHY). For 4s, increase own PHY evasion by 15%.",
+                skillbreak: 300,
+                arts: "15000% Dark DMG (PHY). For 8s, increase Allies' stats and PHY DMG by 20%.",
+                artsbreak: 1200,
+                truearts: "30000% Dark DMG (PHY). For 20s, reduce Enemies' ATK, Dark RES, and PHY RES by 30%.",
+                trueartsbreak: 2000,
+                crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.",
                 crossartsbreak: 3000
             },
         passive: 
@@ -18433,7 +18531,7 @@ const UnitInformation = [
                 author: `Berwick`
             }
     },
-    { //Bakoo - Complete, Review done
+    { //Bakoo - Complete, Review done + JP Dream
         id: 103086512,
         name: "Bakoo",
         rank: "A-",
@@ -18449,6 +18547,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -18471,6 +18578,15 @@ const UnitInformation = [
                 arts: "16000% Dark DMG (MAG). For 10s, reduce Enemies' DEF and Dark RES by 30%.",
                 artsbreak: 1100,
                 truearts: "40000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 30 + For 15s, increase Allies' (except target) Arts by 4/s and MAG DMG by 200%.",
+                trueartsbreak: 1600
+            },
+        skillsetJP: 
+            {
+                skill: "11s CT - 2200% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
+                skillbreak: 500,
+                arts: "20000% Dark DMG (MAG). For 15s, reduce Enemies' DEF and Dark RES by 40%.",
+                artsbreak: 1100,
+                truearts: "55000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 50 + For 15s, increase Allies' (except target) Arts by 5/s and MAG DMG by 300%.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -18496,6 +18612,54 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragMavroskia.png",
                     mat5amt: 2,
                     hover5: "Mavroskia"
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase own Equip CT Speed by 30%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `Increase own Status Ailment RES (except Faint) by 100%.`,
+                        ability2: `Increase own DMG by 50% when enemies' HP is under 30%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase all Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22298,16 +22462,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103505511.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103506511.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP:
+        slots:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -30331,7 +30486,7 @@ const UnitInformation = [
                 evoawk: "In three years, her talent and temperament improved under Rudeus' guidance. However, the day after his tenth birthday was the fateful Fittoa Territory Displacement Incident. They ended up lost in the Demon Continent but were soon taken under the protection of Superd named Ruijerd. Forming the 'Dead End' party, the trio started for the Central Continent."
             }
     },
-    { //Natsu Dragneel - Complete, Review done
+    { //Natsu Dragneel - Complete, Review done + JP ver
         id: 107556112,
         name: "Natsu Dragneel",
         luckrank: "A",
@@ -30342,10 +30497,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107555112.png",
                 detailawk: "/db/Units/Detail/unit_detail_107556112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_755_1.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107555112.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107556112.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107556112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_755_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -30385,6 +30551,14 @@ const UnitInformation = [
             {
                 ability1: "When own HP is above 70%, increase own Arts by 3/s, Freeze and Paralysis RES by 100%.",
                 ability2: "Increase BE generation by 10%.",
+                ability3: "Increase own DMG by 100% against Burnt Enemies.",
+                ability4: `Unit EXP UP 20% UP. (When Natsu's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Natsu's SP. Art is owned)`
+            },
+        passiveJP: 
+            {
+                ability1: "When own HP is above 70%, increase own Arts by 3/s, Freeze and Paralysis RES by 100%.",
+                ability2: "Increase BE generation by 10%.",
                 ability3: "Increase own DMG by 100% against Burnt Enemies."
             }, 
         evolution: 
@@ -30398,6 +30572,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat3amt: 1,
                     hover3: "Flogassa",
+                }
+            },
+        dream: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 30,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 1,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own Accuracy by 50%.`,
+                        ability2: `Increase own DMG by 80% when enemies' HP is under 30%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 30,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 1,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 2/s.`,
+                        ability2: `Increase own DMG against Demon enemies by 120%.`
+                    }
                 }
             },
         lore: 
@@ -30434,10 +30642,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107565412.png",
                 detailawk: "/db/Units/Detail/unit_detail_107566412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_756_1.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107565412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107566412.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107566412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_756_1.png"
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -30477,8 +30696,16 @@ const UnitInformation = [
             {
                 ability1: "When own HP is above 80%, increase ATK and DMG by 50%.",
                 ability2: "Increase DMG to Dark Enemies by 40%.",
-                ability3: "Increase own Arts by 2 for every 10% of max HP lost. "
+                ability3: "Increase own Arts by 2 for every 10% of max HP lost.",
+                ability4: `Unit EXP UP 20% UP. (When Lucy's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Lucy's SP. Art is owned)`
             }, 
+        passiveJP: 
+            {
+                ability1: "When own HP is above 80%, increase ATK and DMG by 50%.",
+                ability2: "Increase DMG to Dark Enemies by 40%.",
+                ability3: "Increase own Arts by 2 for every 10% of max HP lost."
+            },
         evolution: 
             {
                 evo5awk:
@@ -30490,6 +30717,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat3amt: 1,
                     hover3: "Radachne",
+                }
+            },
+            dream: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 30,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 1,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase own Equip CT Speed by 10%.`,
+                        ability2: `Increase all allies' CRI DMG by 30%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 30,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 1,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase Light allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase all allies' Max HP by 15%. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         lore: 
@@ -30531,6 +30792,15 @@ const UnitInformation = [
             },
         slots: 
             {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -30569,8 +30839,16 @@ const UnitInformation = [
             {
                 ability1: "At the start of a Battle, increase own Arts by own Luck.",
                 ability2: "Increase Water RES by 10%.",
+                ability3: "Increase Freeze RES by 50%.",
+                ability4: `Unit EXP UP 20% UP. (When Gray's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Gray's SP. Art is owned)`
+            },
+        passiveJP: 
+            {
+                ability1: "At the start of a Battle, increase own Arts by own Luck.",
+                ability2: "Increase Water RES by 10%.",
                 ability3: "Increase Freeze RES by 50%."
-            }, 
+            },
         evolution: 
             {
                 evo5awk:
@@ -30582,6 +30860,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat3amt: 1,
                     hover3: "Freydal",
+                }
+            },
+            dream: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 30,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 1,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase own ATK by 50% when own HP is 80% or more.`,
+                        ability2: `Increase Human allies' Arts by 1/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 30,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 1,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own Skill CT Speed by 20%.`,
+                        ability2: `Increase own DMG against Fire enemies by 60%.`
+                    }
                 }
             },
         lore: 
@@ -30623,6 +30935,15 @@ const UnitInformation = [
             },
         slots: 
             {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJJP: 
+            {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -30661,6 +30982,14 @@ const UnitInformation = [
             {
                 ability1: "When own HP is above 90%, increase own Arts by 4/s. Additionally, increase own Critical Rate by 100% if unafflicted by Status Ailments.",
                 ability2: "Increase Light RES by 10%.",
+                ability3: "Increase Paralysis RES by 50%.",
+                ability4: `Unit EXP UP 20% UP. (When Erza's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Erza's SP. Art is owned)`
+            },
+        passiveJP: 
+            {
+                ability1: "When own HP is above 90%, increase own Arts by 4/s. Additionally, increase own Critical Rate by 100% if unafflicted by Status Ailments.",
+                ability2: "Increase Light RES by 10%.",
                 ability3: "Increase Paralysis RES by 50%."
             }, 
         evolution: 
@@ -30674,6 +31003,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat3amt: 1,
                     hover3: "Fosradius",
+                }
+            },
+            dream: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 30,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 1,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase own HP Recovery amount (except Lifesteal) by 20%.`,
+                        ability2: `Increase all allies' PHY DMG by 30%. Does not stack with Abilities of the same name`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 30,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 1,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase own Blind RES by 100%.`,
+                        ability2: `Increase own Arts by 3/s.`
+                    }
                 }
             },
         lore: 

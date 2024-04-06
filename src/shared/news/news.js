@@ -1262,6 +1262,35 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 39,
+        date: `April 6, 2024`,
+        article: 
+        {
+            intro: `New Dream Awakenings come out for JP. Meanwhile, Fairytail reruns in Global, featuring Dream Awakenings and SP. Art for each respective collab unit!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Orvell`, 103026412],
+                        [`Luahn`, 103046512],
+                        [`Bakoo`, 103086512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Natsu Dragneel`, 107556112],
+                        [`Lucy Heartfilia`, 107566412],
+                        [`Gray Fullbuster`, 107576212],
+                        [`Erza Scarlet`, 107586412]
+                    ]
+                }
+        }
     }
 ]
 
