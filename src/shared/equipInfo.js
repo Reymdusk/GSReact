@@ -34270,6 +34270,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //天元甲『アルヴェーダ』(Marzex mines equip) - JP Complete
+        id: 112341,
+        name: `天元甲『アルヴェーダ』`,
+        translate: `Heavenly Origin Armor 'Alveda'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112341.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Cure all allies' Burn and Poison. For 10s, heal all allies' HP by 100/s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduce own Max HP by 15%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

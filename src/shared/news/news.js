@@ -1291,6 +1291,28 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 40,
+        date: `April 12, 2024`,
+        article: 
+        {
+            intro: `Small update with JP getting a new mines boss - Marzex, along with his unique equip drop as well.`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`天元甲『アルヴェーダ』`, 112341]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
