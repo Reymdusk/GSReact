@@ -1313,6 +1313,36 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 41,
+        date: `April 16, 2024`,
+        article: 
+        {
+            intro: `Another small update, albeit for Global this time. Aristela Orbis is the newest Ascended unit, releasing alongside her event with new farmables! Moreover, 3 new Dream Awakenings! Also, SP. Art for both Gray and Erza have been officially released too!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Aristela Orbis`, 103687212]
+                    ],
+                    equips: [
+                        [`True 'Happiness Trigger'`, 111231],
+                        [`Paradise Needle 'Happiness Trigger'`, 111241],
+                        [`Wrenchcoat 'Mind Cracker'`, 111251]
+                    ],
+                    dream: [
+                        [`EDEN-typeΩ`, 100596412],
+                        [`Yomi`, 100626212],
+                        [`Vaid`, 100636312]
+                    ]
+                }
+        }
     }
 ]
 

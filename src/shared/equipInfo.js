@@ -30917,10 +30917,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ハピネストリガー』 (Aristela Orbis TW) - JP Complete
+    { //True 'Happiness Trigger' - Missing Lore
         id: 111231,
-        name: `真『ハピネストリガー』`,
-        translate: `True 'Happiness Trigger'`,
+        name: `True 'Happiness Trigger'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -30947,12 +30946,11 @@ const EquipInformation = [
                 ability1: `When equipped by Aristela Orbis, increase own Arts by 3/s and DMG by 50% (Only once).`,
                 ability2: `Magic DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //極楽針 『ハピネストリガー』 (Aristela Orbis Farmable) - JP Complete
+{ //Paradise Needle 'Happiness Trigger' - Missing Lore
         id: 111241,
-        name: `極楽針 『ハピネストリガー』`,
-        translate: `Paradise Needle 'Happiness Trigger`,
+        name: `Paradise Needle 'Happiness Trigger'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30977,12 +30975,11 @@ const EquipInformation = [
             {
                 ability1: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //救砕衣 『マインドクラッカー』 (Aristela Orbis Farmable) - JP Complete
+{ //Wrenchcoat 'Mind Cracker' - Missing Lore
         id: 111251,
-        name: `救砕衣 『マインドクラッカー』`,
-        translate: `Rescue Uniform 'Mind Cracker'`,
+        name: `Wrenchcoat 'Mind Cracker'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31007,7 +31004,7 @@ const EquipInformation = [
             {
                 ability1: `DMG 10% UP when enemy is Broken.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Gleaming Crux 'Fosbrace' Replica - Missing Lore
         id: 111261,

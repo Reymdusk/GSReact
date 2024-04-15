@@ -1318,7 +1318,7 @@ const UnitInformation = [
                 evoawk: "A divine tree from another world with the overwhelming power to create, dominate and destroy life. After quelling the horros that have plagued the continent, this divine tree suddenly vanished with a white flash to spend eternity somewhere far far away in an unknown land. This divine tree has many beings living upon its exuberant treetops, including the seeds thought to have been destroyed ages ago. When the divine tree annihilated all that life that dwelled in this realm, as if being wished upon the stars, it is thought that such destruction sparked new life to be brought forth."
             }
     },
-    { //EDEN-typeΩ - Complete + JP Dream
+    { //EDEN-typeΩ - Complete
         id: 100596412,
         name: "EDEN-typeΩ",
         rank: "B-",
@@ -1337,15 +1337,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/healLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/healLB.png",
                 slot2: 5,
@@ -1363,15 +1354,6 @@ const UnitInformation = [
                 defplus: 330
             },
         skillset: 
-            {
-                skill: "10s CT - 1400% Light DMG (MAG). 10% chance to inflict Seal for 4s.",
-                skillbreak: 900,
-                arts: "7000% Light DMG (PHY). For 25s, all allies gain a DMG Barrier that negates 3000 DMG.",
-                artsbreak: 1400,
-                truearts: "For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]. If Wave Armor is at Max Level: 35000% Light DMG (PHY). For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor].",
-                trueartsbreak: 1800
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1400% Light DMG (MAG). Chance to inflict Seal",
                 skillbreak: 900,
@@ -1425,7 +1407,7 @@ const UnitInformation = [
                     hover3: "Fosradius"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -1764,7 +1746,7 @@ const UnitInformation = [
                 evoawk: "A knight of the Gods whose name lives on only as a word of hope. Hailed as a savior in the Ancient War, he was in truth a brave protector of the weak and warrior for justice. And yet, for non-Humans, he was a figure of fear whose name is spoken even today in hushed tones. Today in Raktehelm, none alive know that the mantra of Ragna, spoken in times of deepest distress, is his true name."
             }
     },
-    { //Yomi - Complete + JP DreamEvo
+    { //Yomi - Complete
         id: 100626212,
         name: "Yomi",
         rank: "C",
@@ -1783,15 +1765,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -1809,15 +1782,6 @@ const UnitInformation = [
                 defplus: 321 
             },
         skillset: 
-            {
-                skill: "8s CT - 2000% Water DMG (PHY).",
-                skillbreak: 1700,
-                arts: "15000% Water DMG (PHY). For 15s, increase Allies' ATK by 20%.",
-                artsbreak: 2000,
-                truearts: "28000% Water DMG (PHY). If this True Arts hits a Broken Enemy, increase own Arts by 100 (only once per True Arts activation) + For 10s, increase own Critical Rate by 100%.",
-                trueartsbreak: 3600 
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 2000% Water DMG (PHY). Increase own Arts gauge by 30.",
                 skillbreak: 1700,
@@ -1865,7 +1829,7 @@ const UnitInformation = [
                     hover5: "Freydal"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -1923,7 +1887,7 @@ const UnitInformation = [
                 evoawk: "A mysterious swordswoman summoned from another world. She once valued loyalty above all, but eventually, she came to doubt her God masters as much as the Demons. Ironically, the more she doubted, the sharper her blade cut. But soon, she will find that this power she sought to defend her home will bring even greater tragedy and hatred. And so she sets out on a journey to discover how to destroy forever her true enemy; War."
             }
     },
-    { //Vaid - Complete + JP DreamEvo
+    { //Vaid - Complete
         id: 100636312,
         name: "Vaid",
         rank: "F",
@@ -1949,15 +1913,6 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
-        slotsJP: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/healLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
         stats: 
             {
                 hp: 8409,
@@ -1968,15 +1923,6 @@ const UnitInformation = [
                 defplus: 301
             },
         skillset: 
-            {
-                skill: "9s CT - 1600% Earth DMG (PHY). For 9s, reduce Enemies' PHY RES by 10%, chance of reducing Enemies' Break RES by 3%.",
-                skillbreak: 1600,
-                arts: "12000% Earth DMG (PHY). For 20s, increase Earth Allies' Break PWR by 25%.",
-                artsbreak: 2500,
-                truearts: "18000% Earth DMG (PHY). Increase own Arts by 80. When used against Enemies in BREAK, increase Earth Allies' Arts by 20 + For 12s, increase Allies' DMG by 80%.",
-                trueartsbreak: 6000
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1600% Earth DMG (PHY). For 9s, reduce Enemies' PHY RES by 10%, chance of reducing Enemies' Break RES by 15%.",
                 skillbreak: 1600,
@@ -2021,7 +1967,7 @@ const UnitInformation = [
                     hover3: "Elpneumas",
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -24138,7 +24084,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Aristela Orbis - Missing Lore (JP)
+    { // Aristela Orbis - Missing Lore
         id: 103687212,
         name: "Aristela Orbis",
         attribute: "Water",
@@ -24212,8 +24158,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Demon Lord Vox - Missing Lore
