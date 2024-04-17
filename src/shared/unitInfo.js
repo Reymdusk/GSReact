@@ -30733,8 +30733,10 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107575212.png",
                 detailawk: "/db/Units/Detail/unit_detail_107576212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_757_1.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107575212.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107576212.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107576212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_757_1.png"
             },
         slots: 
             {
@@ -30876,8 +30878,10 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107585412.png",
                 detailawk: "/db/Units/Detail/unit_detail_107586412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_758_1.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107585412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107586412.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107586412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_758_1.png"
             },
         slots: 
             {
