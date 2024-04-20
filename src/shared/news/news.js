@@ -1343,6 +1343,31 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 42,
+        date: `April 20, 2024`,
+        article: 
+        {
+            intro: `Elenore, or rather Alma in a bikini, has made her debut on JP alongside her event farmable equip!`,
+            new: 
+                {
+                    units: [
+                        [`Elenore`, 103886312]
+                    ],
+                    equips: [
+                        [`真『フェスタリオン』`, 112351],
+                        [`魔刻杖『フェスタリオン』`, 112361]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

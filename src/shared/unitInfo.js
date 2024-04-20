@@ -25644,6 +25644,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Elenore - Missing Lore (JP)
+        id: 103886312,
+        name: `Elenore`,
+        attribute: `Earth`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103887312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103886312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103887312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103886312.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7792,
+                hpplus: 1405,
+                atk: 2983,
+                atkplus: 592,
+                def: 3463,
+                defplus: 652
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Earth DMG (MAG). For 10s, increase own DMG by 20%.`,
+                skillbreak: 800,
+                arts: `20000% Earth DMG (MAG). For 20s, reduce enemies' Earth RES by 50%.`,
+                artsbreak: 1400,
+                truearts: `70000% Earth DMG (MAG). For 30s, increase all allies' MAG DMG by 150%.`,
+                trueartsbreak: 2000,
+                superarts: `For 30s, increase all allies' Skill CT Speed by [15 x # of times Super Arts has been used]% (MAX: 180%) and Equip CT Speed by [5 x # of times Super Arts has been used]% (MAX: 60%). Additionally, for 15s, increase all allies' DMG RES by 30%.`,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Arts by [2 x # of Earth allies alive in Party]/s (MAX: 8/s). Does not stack with Abilities of the same name.`,
+                ability2: `Increase all allies' MAG RES by 10%. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Seal RES by 30%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 220,
+                    hover2: `Smogdragon Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Festalion`,
+                    slot: "/db/Mines/thumbnail/magLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112351.png",
+                    skill: `50s CT - 7000% Earth DMG (MAG). For 10s, increase own MAG DMG by 40% and reduce enemies' MAG RES by 30%.`,
+                    skillbreak: 900,
+                    passive: 
+                        {
+                            ability1: `When equipped by Elenore, the Skill CT Speed buff and Equip CT Speed buff from Super Arts will start at 60% and 20% respectively (MAX effect will not be affected). Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own BE Output by 10%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",

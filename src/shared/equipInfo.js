@@ -32050,7 +32050,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `MAG resistance 5% UP.`
+                ability1: `Magic resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -34172,7 +34172,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Poison Time Reduction & Poison Evasion rate 10% UP.`,
-                ability2: [`Increase own MAG RES by 5%.`, `Increase own MAG RES by 10%.`, `Increase own ATK by 5%.`, `Increase own Heal Amount by 10%.`, `Increase own Heal Amount by 15%.`, `Increase own DEF by 5%.`]
+                ability2: [`Increase own Magic resistance by 5%.`, `Increase own Magic resistance by 10%.`, `Increase own ATK by 5%.`, `Increase own Heal Amount by 10%.`, `Increase own Heal Amount by 15%.`, `Increase own DEF by 5%.`]
             },
         lore: `Currently unreleased in Global.`
     },
@@ -34197,7 +34197,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - 4500% Water DMG (PHY). If enemy is Fire, reduce enemies' CRI RES by 30% for 5s.`,
+                skill: `30s CT - 4500% Water DMG (Physical). If enemy is Fire, reduce enemies' CRI resistance by 30% for 5s.`,
                 break: 1250
             },
         passive: 
@@ -34288,12 +34288,73 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Cure all allies' Burn and Poison. For 10s, heal all allies' HP by 100/s.`,
+                skill: `30s CT - Cure all allies' Burn and Poison. Heal all allies' HP by 100/s for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `Reduce own Max HP by 15%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『フェスタリオン』(Elenore TW) - JP Complete
+        id: 112351,
+        name: `真『フェスタリオン』`,
+        translate: `True 'Festalion'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7000% Earth DMG (Magic). Increase own Magic DMG by 40% and reduce enemies' Magic resistance by 30% for 10s.`,
+                break: 900
+            },
+        passive: 
+            {
+                ability1: `When equipped by Elenore, the Skill CT Speed buff and Equip CT Speed buff from Super Arts will start at 60% and 20% respectively (MAX effect will not be affected). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own BE Output by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //魔刻杖『フェスタリオン』(Elenore farmable) - JP Complete
+        id: 112361,
+        name: `魔刻杖『フェスタリオン』`,
+        translate: `Magic Staff 'Festalion'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5000% Earth DMG (Magic). Inccrease own Earth DMG by 40% for 10s. Additionally when used for the first time, increase own Arts by 50.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -43571,7 +43632,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own DEF by 5%.`,
-                ability2: [`Blind resistance 10% UP`, `Blind resistance 20% UP`, `PHY resistance 5% UP`, `MAG resistance 5% UP`, `ATK 5% UP`, `Unit EXP 10% UP`]
+                ability2: [`Blind resistance 10% UP`, `Blind resistance 20% UP`, `Physical resistance 5% UP`, `Magic resistance 5% UP`, `ATK 5% UP`, `Unit EXP 10% UP`]
             },
         lore: `Missing Lore.`
     },
