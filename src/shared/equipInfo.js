@@ -8496,7 +8496,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - Heals all Allies' HP by 20%.`,
+                skill: `50s CT - Heals all Allies' HP by 20%.`,
                 break: 0
             },
         passive: 
@@ -30826,10 +30826,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『ブレイズバーミント』 (BFMira TW) - JP Complete
+    { //True 'Braise de Bamint' - Missing Lore
         id: 111191,
-        name: `真『ブレイズバーミント』`,
-        translate: `True 'Blaze Bamint'`,
+        name: `True 'Braise de Bamint'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -30853,15 +30852,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Blazing Flower Mira, increase own Skill CT by 10% & increase own Arts gauge at the Start of Quest by 50 (Only once).`,
+                ability1: `When equipped by Noble Flare Mira, increase own Skill CT by 10% & increase own Arts gauge at the Start of Quest by 50 (Only once).`,
                 ability2: `Increase DMG to Enemies in BREAK by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //烈煌剣『ブレイズバーミント』 (BFMira Farmable) - JP Complete
+    { //Searing Blade 'Braise de Bamint' - Missing Lore
         id: 111201,
-        name: `烈煌剣『ブレイズバーミント』`,
-        translate: `'Blaze Bamint'`,
+        name: `Searing Blade 'Braise de Bamint'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30886,11 +30884,11 @@ const EquipInformation = [
             {
                 ability1: `DMG 10% UP against enemies in Break.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //烈華装『ミラージュバーミント』 (BFMira Farmable) - JP Complete
+    { //Petal Cloth 'Mirage de Bamint' - Missing Lore
         id: 111211,
-        name: `烈華装『ミラージュバーミント』`,
+        name: `Petal Cloth 'Mirage de Bamint'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -30915,7 +30913,7 @@ const EquipInformation = [
             {
                 ability1: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Happiness Trigger' - Missing Lore
         id: 111231,

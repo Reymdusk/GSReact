@@ -1449,7 +1449,7 @@ const UnitInformation = [
                 evoawk: "The metal traveler, EDEN, succeeded in his quest to save his world from utter destruction. With the power of a particular secret medicine, he managed to rid his world of the pollution that plagued it and return it to its verdant glory. And so it is thought that the ark of steel had finally fulfilled his duty. However, to send the benevolent fairies home safely, EDEN set sail once again off into the stars. Legend has it that the stars weren't the only thing shining that night."
             }
     },
-    { //Abaddon - Complete + JP Dream Evo
+    { //Abaddon - Complete
         id: 100606512,
         name: "Abaddon",
         rank: "B-",
@@ -1468,15 +1468,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -1494,15 +1485,6 @@ const UnitInformation = [
                 defplus: 311
             },
         skillset: 
-            {
-                skill: "8s CT - 1800% Dark DMG (MAG). 10% chance to inflict Blind for 5s.",
-                skillbreak: 650,
-                arts: "11000% Dark DMG (MAG). For 15s, reduce enemies' ATK by 30%.",
-                artsbreak: 1600,
-                truearts: "35000% Dark DMG (MAG). For 15s, increase own DMG against God and Demon enemies by 100%.",
-                trueartsbreak: 2300
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1800% Dark DMG (MAG). 20% chance to inflict Blind for 5s.",
                 skillbreak: 700,
@@ -1547,7 +1529,7 @@ const UnitInformation = [
                     hover3: "Oldeus"
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -1589,7 +1571,7 @@ const UnitInformation = [
                 evoawk: "A masked knight spoken of in Demon legend. After countless massacres during the Great War, he had become known as the mad knight. Even those who had survived the bloodshed were engulfed in the insanity of his presence. No one knows where he is now, but if the words of his armor ring true, he will continue to plague the battlefield in search of souls to devour."
             }
     },
-    { //Ragna - Complete + JP Dream Evo.
+    { //Ragna - Complete 
         id: 100616112,
         name: "Ragna",
         rank: "F",
@@ -1608,15 +1590,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -1634,15 +1607,6 @@ const UnitInformation = [
                 defplus: 355
             },
         skillset: 
-            {
-                skill: "8s CT - 1800% Fire DMG (PHY). 10% chance to inflict Burn for 5s.",
-                skillbreak: 2500,
-                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' DMG by 20% and Fire Allies' DMG by an additional 30%.",
-                artsbreak: 3000,
-                truearts: "24950% Fire DMG (PHY). For 10s, increase Allies' DMG and Break PWR by 20%, and Fire Allies' DMG and Break PWR by an additional 30%.",
-                trueartsbreak: 5500
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1800% Fire DMG (PHY). 10% chance to inflict Burn for 5s.",
                 skillbreak: 2500,
@@ -1691,7 +1655,7 @@ const UnitInformation = [
                     hover5: "Ragsherum Phantom"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -23774,17 +23738,20 @@ const UnitInformation = [
                 evosuper: "Liza after claiming the magistone scepter Mercurius. She enclosed herself in the barrier it created when the royal castle was razed. Although having yet to speak of the event, it is easy to imagine how she felt while helplessly watching diaster befall her nation, her people, and her siblings. Regardless, she lets her cheerful attitude shine through like a guiding star, as bright as Mercurius itself."
             }
     },
-    { // Blazing Flower Mira - Missing Lore (JP)
+    { // Noble Flare Mira - Missing Lore
         id: 103657112,
-        name: "Blazing Flower Mira",
+        name: "Noble Flare Mira",
+        translate: "Searing Petal Mira",
         attribute: "Fire",
         type: "Human",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103656112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103657112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_365_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103656112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103657112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103657112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_365_1.png"
             },
         slots: 
             {
@@ -23820,6 +23787,14 @@ const UnitInformation = [
             {
                 ability1: `Increase own Super Critical Rate by 50% against Enemies under 50% HP.`,
                 ability2: `Increase Poison RES 80%.`,
+                ability3: `Increase DMG by 50% against Enemies under 30% HP.`,
+                ability4: `Unit EXP UP 20% UP. (When Noble Flare Mira's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Noble Flare Mira's SP. Art is owned)`
+            },
+        passiveJP: 
+            {
+                ability1: `Increase own Super Critical Rate by 50% against Enemies under 50% HP.`,
+                ability2: `Increase Poison RES 80%.`,
                 ability3: `Increase DMG by 50% against Enemies under 30% HP.`
             }, 
         evolution: 
@@ -23835,21 +23810,21 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: `Blaze Bamint`,
+                name: `Braise de Bamint`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111191.png",
                 skill: `45s CT - 8000% Fire DMG (PHY). For 12s, reduce Enemies' Fire RES by 40%. If User is Fire, increase own accuracy rate by 30%.`,
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: `When equipped by Blazing Flower Mira, increase own Skill CT by 10% + At the Start of a Quest, increase own Arts by 50. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Noble Flare Mira, increase own Skill CT by 10% + At the Start of a Quest, increase own Arts by 50. Does not stack with Abilities of the same name.`,
                         ability2: `Increase DMG to Enemies in BREAK by 20%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Long - Missing Lore (JP)

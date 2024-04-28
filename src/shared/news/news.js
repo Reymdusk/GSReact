@@ -1368,6 +1368,35 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 43,
+        date: `April 28, 2024`,
+        article: 
+        {
+            intro: `Chapter 23 has been released to Global, alongside Noble Flare Mira and her equips! Moreover, Ragna and Abaddon have received their Dream Awakenings.`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Noble Flare Mira`, 103657112]
+                    ],
+                    equips: [
+                        [`True 'Braise de Bamint'`, 111191],
+                        [`Searing Blade 'Braise de Bamint'`, 111201],
+                        [`Petal Cloth 'Mirage de Bamint'`, 111211]
+                    ],
+                    dream: [
+                        [`Abaddon`, 100606512],
+                        [`Ragna`, 100616112]
+                    ]
+                }
+        }
     }
 ]
 
