@@ -632,7 +632,7 @@ const UnitInformation = [
     { //Feena - Complete, Dream Evo Complete
         id: 100046411,
         name: "Feena",
-        rank: "A-",
+        rank: "B+",
         twrequire: "reliance",
         attribute: "Light",
         type: "God",
@@ -2280,7 +2280,7 @@ const UnitInformation = [
     { //Rayas - Complete, Review done
         id: 101016411,
         name: "Rayas",
-        luckrank: "B",
+        luckrank: "B+",
         attribute: "Light",
         rank: "A",
         type: "Human",
@@ -2772,7 +2772,7 @@ const UnitInformation = [
     { //Fen (Earth) - Complete
         id: 101056311,
         name: "Fen (Earth)",
-        rank: "A+",
+        rank: "A",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -3768,7 +3768,7 @@ const UnitInformation = [
     { //Liese (Light) - Complete
         id: 101136411,
         name: "Liese (Light)",
-        rank: "A-",
+        rank: "B+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -4109,7 +4109,7 @@ const UnitInformation = [
     { //Rem (Grand Summoners) - Complete
         id: 101166511,
         name: "Rem (GS)",
-        rank: "A",
+        rank: "B+",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -7178,7 +7178,7 @@ const UnitInformation = [
     { //Sanstone - Complete
         id: 101676112,
         name: "Sanstone",
-        rank: "S",
+        rank: "A+",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -10003,7 +10003,7 @@ const UnitInformation = [
     { //Celia (Light) - Complete
         id: 102046412,
         name: "Celia (Light)",
-        rank: "A-",
+        rank: "B+",
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -10173,7 +10173,7 @@ const UnitInformation = [
     { //Norn - Complete
         id: 102066312,
         name: "Norn",
-        rank: "A",
+        rank: "A-",
         attribute: "Earth",
         type: "Machine",
         image: 
@@ -10568,7 +10568,7 @@ const UnitInformation = [
         id: 102206412,
         name: "Mako",
         luckrank: "S",
-        rank: "SS",
+        rank: "S",
         attribute: "Light",
         type: "Human",
         image: 
@@ -12305,7 +12305,7 @@ const UnitInformation = [
     { //Weaver - Complete
         id: 102446212,
         name: "Weaver",
-        rank: "A",
+        rank: "B+",
         attribute: "Water",
         type: "Human",
         image: 
@@ -12595,7 +12595,7 @@ const UnitInformation = [
     { //Berwick (Magic) - Complete (+ JP ver.)
         id: 102486112,
         name: "Berwick (Magic)",
-        rank: "A",
+        rank: "B+",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Demon",
@@ -12959,7 +12959,7 @@ const UnitInformation = [
     { //Vox - Complete (+ JP ver.)
         id: 102516212,
         name: "Vox",
-        rank: "A+",
+        rank: "A",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -13096,7 +13096,7 @@ const UnitInformation = [
     { //Duke - Complete
         id: 102526512,
         name: "Duke",
-        rank: "A-",
+        rank: "B+",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -13262,7 +13262,7 @@ const UnitInformation = [
     { //Celia (Dark) - Complete
         id: 102546512,
         name: "Celia (Dark)",
-        rank: "A",
+        rank: "B+",
         twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
@@ -14152,7 +14152,7 @@ const UnitInformation = [
         id: 102666112,
         name: "Berwick (Physical)",
         translate: `Swordsman Berwick`,
-        rank: "A-",
+        rank: "B+",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -14289,7 +14289,7 @@ const UnitInformation = [
     { //Rosetta (Water) - Complete
         id: 102676212,
         name: "Rosetta (Water)",
-        rank: "S",
+        rank: "A+",
         twrequire: "favorable",
         attribute: "Water",
         type: "Demon",
@@ -14878,7 +14878,7 @@ const UnitInformation = [
     { //Fen (Dark) - Complete
         id: 102756512,
         name: "Fen (Dark)",
-        rank: "A+",
+        rank: "A",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -17258,7 +17258,7 @@ const UnitInformation = [
     { //Cestina - Complete, Review done
         id: 102986312,
         name: "Cestina (Earth)",
-        rank: "S",
+        rank: "A+",
         twrequire: "favorable",
         attribute: "Earth",
         type: "God",
@@ -17461,7 +17461,7 @@ const UnitInformation = [
     { //Liza - Complete, Review done
         id: 103006412,
         name: "Liza",
-        rank: "SS",
+        rank: "S",
         attribute: "Light",
         type: "God",
         image: 
@@ -18159,7 +18159,7 @@ const UnitInformation = [
     { //Angelas - Complete, Review done
         id: 103066112,
         name: "Angelas",
-        rank: "A",
+        rank: "B+",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Dragon",
@@ -18295,7 +18295,7 @@ const UnitInformation = [
     { //Eagle - Complete, Review done
         id: 103076312,
         name: "Eagle",
-        rank: "B+",
+        rank: "A-",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -19653,7 +19653,7 @@ const UnitInformation = [
     { //Batiste - Complete
         id: 103216512,
         name: "Batiste",
-        rank: "A",
+        rank: "B+",
         twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
@@ -19757,7 +19757,7 @@ const UnitInformation = [
     { //Juno - Complete
         id: 103226412,
         name: "Juno",
-        rank: "SS",
+        rank: "A+",
         twrequire: "favorable",
         attribute: "Light",
         type: "Demon",
@@ -20207,7 +20207,7 @@ const UnitInformation = [
     },
     { //Hart (Earth) - Complete, Review done
         id: 103276312,
-        rank: "SSS",
+        rank: "SS",
         twrequire: "favorable",
         name: "Hart (Earth)",
         attribute: "Earth",
@@ -20411,7 +20411,7 @@ const UnitInformation = [
     { //Miranda - Complete, Review done
         id: 103296412,
         name: "Miranda",
-        rank: "S",
+        rank: "A+",
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -20510,7 +20510,7 @@ const UnitInformation = [
     { //Simon - Complete, Review done
         id: 103306512,
         name: "Simon",
-        rank: "A+",
+        rank: "A-",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -20614,7 +20614,7 @@ const UnitInformation = [
     { //Vultee (Earth) - Review done
         id: 103316312,
         name: "Vultee (Earth)",
-        rank: "S",
+        rank: "A+",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -20715,7 +20715,7 @@ const UnitInformation = [
     { //Priscilla (Fire) - Complete, Review done
         id: 103326112,
         name: "Priscilla (Fire)",
-        rank: "A+",
+        rank: "B+",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -20901,7 +20901,7 @@ const UnitInformation = [
     { //Airi - Complete
         id: 103356312,
         name: "Airi",
-        rank: "A",
+        rank: "B+",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -20985,7 +20985,7 @@ const UnitInformation = [
     { //Lyla - Complete, Review done
         id: 103366412,
         name: "Lyla",
-        rank: "A",
+        rank: "B+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -21086,7 +21086,7 @@ const UnitInformation = [
     { //Summer Juno - Complete, Review done
         id: 103376212,
         name: "Summer Juno",
-        rank: "A+",
+        rank: "A",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -21202,7 +21202,7 @@ const UnitInformation = [
     { //Summer Leone - Complete, Review done
         id: 103386312,
         name: "Summer Leone",
-        rank: "A-",
+        rank: "B+",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -21498,7 +21498,7 @@ const UnitInformation = [
     { //Priscilla (Water) - Complete, Review done
         id: 103416212,
         name: "Priscilla (Water)",
-        rank: "A+",
+        rank: "A",
         twrequire: "favorable",
         attribute: "Water",
         type: "Human",
@@ -21754,7 +21754,7 @@ const UnitInformation = [
     { //Beguiler Selia - Complete
         id: 103436212,
         name: "Beguiler Selia",
-        rank: "A+",
+        rank: "A-",
         twrequire: "favorable",
         attribute: "Water",
         type: "Human",
@@ -21836,7 +21836,7 @@ const UnitInformation = [
     { //Rosetta (Earth) - Complete, Review Done
         id: 103446312,
         name: "Rosetta (Earth)",
-        rank: "A+",
+        rank: "B+",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -22441,7 +22441,7 @@ const UnitInformation = [
         name: "Riviera (Dark)",
         attribute: "Dark",
         type: "Demon",
-        rank: "S",
+        rank: "A+",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103575512.png",
@@ -22733,7 +22733,7 @@ const UnitInformation = [
     { // Summer Cestina - Complete, Review done
         id: 103596112,
         name: "Summer Cestina",
-        rank: "A+",
+        rank: "B+",
         attribute: "Fire",
         type: "God",
         image: 
@@ -22841,7 +22841,7 @@ const UnitInformation = [
     { // Summer Liza - Complete, Review done
         id: 103606212,
         name: "Summer Liza",
-        rank: "A+",
+        rank: "A-",
         attribute: "Water",
         type: "God",
         image: 
@@ -23051,7 +23051,7 @@ const UnitInformation = [
         name: "Valerie",
         attribute: "Water",
         type: "Human",
-        rank: "A+",
+        rank: "A",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103485212.png",
@@ -23130,7 +23130,7 @@ const UnitInformation = [
     { // Cosmo - Complete, Review done
         id: 103626412,
         name: "Cosmo",
-        rank: "A+",
+        rank: "B+",
         twrequire: "favorable", 
         attribute: "Light",
         type: "Human",
@@ -26178,7 +26178,7 @@ const UnitInformation = [
         id: 107076412,
         name: "Saitama",
         luckrank: "S",
-        rank: "A",
+        rank: "B+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -26504,7 +26504,7 @@ const UnitInformation = [
     { //Asirpa - Complete
         id: 107126412,
         name: "Asirpa",
-        rank: "S",
+        rank: "A+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -26893,7 +26893,7 @@ const UnitInformation = [
     { //Milim - Complete, Review (Pre-buff) done
         id: 107166112,
         name: "Milim",
-        rank: "B+",
+        rank: "A-",
         luckrank: "S",
         attribute: "Fire",
         type: "Demon",
@@ -27023,7 +27023,7 @@ const UnitInformation = [
     { //Benimaru - Complete, Review done
         id: 107176112,
         name: "Benimaru",
-        rank: "A",
+        rank: "A-",
         luckrank: "S",
         attribute: "Fire",
         type: "Demon",
@@ -27285,7 +27285,7 @@ const UnitInformation = [
         id: 107196412,
         name: "Priestess",
         luckrank: "SS",
-        rank: "A+",
+        rank: "S",
         attribute: "Light",
         type: "Human",
         image: 
@@ -27677,7 +27677,7 @@ const UnitInformation = [
     { //Garou - Complete
         id: 107236512,
         name: "Garou",
-        rank: "A-",
+        rank: "B+",
         luckrank: "B",
         attribute: "Dark",
         type: "Human",
@@ -27807,7 +27807,7 @@ const UnitInformation = [
     { //Naofumi - Complete, Review done
         id: 107256411,
         name: "Naofumi",
-        rank: "A+",
+        rank: "A",
         luckrank: "B",
         twrequire: "favorable",
         attribute: "Light",
@@ -28023,7 +28023,7 @@ const UnitInformation = [
         id: 107276312,
         name: "Filo",
         luckrank: "S",
-        rank: "A",
+        rank: "B+",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -28117,7 +28117,7 @@ const UnitInformation = [
     { //Melty - Complete, Review done
         id: 107286212,
         name: "Melty",
-        rank: "S",
+        rank: "A+",
         luckrank: "SSS",
         attribute: "Water",
         type: "Human",
@@ -28212,7 +28212,7 @@ const UnitInformation = [
         id: 107606312,
         name: "Fitoria",
         luckrank: "SS",
-        rank: "SS",
+        rank: "S",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -28638,7 +28638,7 @@ const UnitInformation = [
         id: 107346212,
         name: "Emilia",
         luckrank: "SS",
-        rank: "A+",
+        rank: "A",
         attribute: "Water",
         type: "God",
         image: 
@@ -29465,7 +29465,7 @@ const UnitInformation = [
     { //New Years Rimuru - Complete
         id: 107426512,
         name: "New Years Rimuru",
-        rank: "A+",
+        rank: "A-",
         luckrank: "SS",
         attribute: "Dark",
         type: "Demon",
@@ -29597,7 +29597,7 @@ const UnitInformation = [
     { //New Years Milim - Complete, Review Complete
         id: 107436412,
         name: "New Years Milim",
-        rank: "A+",
+        rank: "A",
         luckrank: "SSS",
         attribute: "Light",
         type: "Demon",
@@ -29733,7 +29733,7 @@ const UnitInformation = [
         id: 107456212,
         name: "Hatsune Miku",
         luckrank: "B",
-        rank: "A",
+        rank: "A-",
         attribute: "Water",
         type: "Machine",
         image: 
@@ -29799,7 +29799,7 @@ const UnitInformation = [
         id: 107466312,
         name: "Sakura Miku",
         luckrank: "S",
-        rank: "A+",
+        rank: "A-",
         attribute: "Earth",
         type: "Machine",
         image: 
@@ -29864,7 +29864,7 @@ const UnitInformation = [
     { //Yoh - Complete (+ JP version), Review done
         id: 107476112,
         name: "Yoh Asakura",
-        rank: "S",
+        rank: "A",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -30047,7 +30047,7 @@ const UnitInformation = [
         id: 107496512,
         name: "Ren Tao",
         attribute: "Dark",
-        rank: "A",
+        rank: "B+",
         type: "Human",
         image: 
             {
@@ -30137,7 +30137,7 @@ const UnitInformation = [
     { //Hao - Complete (+ JP version), Review done
         id: 107506112,
         name: "Hao",
-        rank: "A+",
+        rank: "A-",
         attribute: "Fire",
         type: "God",
         image: 
@@ -30228,7 +30228,7 @@ const UnitInformation = [
     { //Rudeus - Complete
         id: 107516312,
         name: "Rudeus",
-        rank: "A-",
+        rank: "B+",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -30358,7 +30358,7 @@ const UnitInformation = [
     { //Sylphiette - Complete
         id: 107536412,
         name: "Sylphiette",
-        rank: "S",
+        rank: "A+",
         attribute: "Light",
         type: "Spirit",
         image: 
@@ -30423,7 +30423,7 @@ const UnitInformation = [
     { //Eris - Complete
         id: 107546112,
         name: "Eris",
-        rank: "A",
+        rank: "B+",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -30489,7 +30489,7 @@ const UnitInformation = [
         id: 107556112,
         name: "Natsu Dragneel",
         luckrank: "A",
-        rank: "A-",
+        rank: "B+",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -30634,7 +30634,7 @@ const UnitInformation = [
         id: 107566412,
         name: "Lucy Heartfilia",
         luckrank: "SS",
-        rank: "A",
+        rank: "A-",
         attribute: "Light",
         type: "Human",
         image: 
@@ -30778,7 +30778,7 @@ const UnitInformation = [
     { //Gray Fullbuster - Complete (+ JP version), Review done
         id: 107576212,
         name: "Gray Fullbuster",
-        rank: "A-",
+        rank: "B+",
         luckrank: "SSS",
         attribute: "Water",
         type: "Human",
@@ -31069,7 +31069,7 @@ const UnitInformation = [
     { // Nui Harime - Complete
         id: 107596512,
         name: "Nui Harime",
-        rank: "A",
+        rank: "A-",
         luckrank: "SS",
         attribute: "Dark",
         type: "Demon",
@@ -31231,7 +31231,7 @@ const UnitInformation = [
     { // Mikey - Complete, Review done
         id: 107626512,
         name: "Mikey",
-        rank: "S",
+        rank: "A+",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -31477,7 +31477,7 @@ const UnitInformation = [
     { // Mitsuya - Complete, Review done
         id: 107656212,
         name: "Mitsuya",
-        rank: "A+",
+        rank: "A",
         attribute: "Water",
         type: "Human",
         image: 
@@ -31559,7 +31559,7 @@ const UnitInformation = [
     { // Empress - Complete, Review done
         id: 107666212,
         name: "Empress",
-        rank: "A",
+        rank: "A-",
         attribute: "Water",
         type: "Machine",
         image: 
@@ -33335,7 +33335,7 @@ const UnitInformation = [
         name: `Combat Form Milim`,
         attribute: `Fire`,
         type: `Demon`,
-        rank: `A+`,
+        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107846112.png",
