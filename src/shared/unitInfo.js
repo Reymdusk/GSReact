@@ -1203,7 +1203,7 @@ const UnitInformation = [
     { //Valhalla - Complete
         id: 100586312,
         name: "Valhalla",
-        rank: "B",
+        rank: "B-",
         attribute: "Earth",
         type: "Spirit",
         image: 
@@ -1321,7 +1321,7 @@ const UnitInformation = [
     { //EDEN-typeΩ - Complete
         id: 100596412,
         name: "EDEN-typeΩ",
-        rank: "B",
+        rank: "B-",
         attribute: "Light",
         type: "Machine",
         image: 
@@ -3495,7 +3495,7 @@ const UnitInformation = [
     { //Ganan - Complete (+ JP version)
         id: 101116111,
         name: "Ganan",
-        rank: "B",
+        rank: "B-",
         luckrank: "A",
         twrequire: "favorable",
         attribute: "Fire",
@@ -4396,7 +4396,7 @@ const UnitInformation = [
     { //Ashe Toto - Complete, Dream Evo Complete
         id: 101196312,
         name: "Ashe Toto",
-        rank: "B",
+        rank: "B-",
         attribute: "Earth",
         type: "Spirit",
         image: 
@@ -4506,7 +4506,7 @@ const UnitInformation = [
     { //Duran - Complete
         id: 101206412,
         name: "Duran",
-        rank: "B",
+        rank: "B-",
         attribute: "Light",
         type: "Human",
         image: 
@@ -4950,7 +4950,7 @@ const UnitInformation = [
     { //Leon - Complete
         id: 101256512,
         name: "Leon",
-        rank: "B-",
+        rank: "C",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -7084,7 +7084,7 @@ const UnitInformation = [
     { //Nies - Complete
         id: 101666212,
         name: "Nies",
-        rank: "B",
+        rank: "B-",
         twrequire: "reliance",
         attribute: "Water",
         type: "God",
@@ -8007,7 +8007,7 @@ const UnitInformation = [
     { //Marzex (Light) - Complete
         id: 101776412,
         name: "Marzex (Light)",
-        rank: "B",
+        rank: "B-",
         twrequire: "favorable",
         attribute: "Light",
         type: "God",
@@ -8845,7 +8845,7 @@ const UnitInformation = [
     { //Onfuan - Complete
         id: 101886512,
         name: "Onfuan",
-        rank: "B",
+        rank: "B-",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -10088,7 +10088,7 @@ const UnitInformation = [
     { //Ashe - Complete
         id: 102056512,
         name: "Ashe",
-        rank: "B",
+        rank: "B-",
         twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
@@ -10725,7 +10725,7 @@ const UnitInformation = [
     { //Ryuko - Complete
         id: 102226112,
         name: "Ryuko",
-        rank: "B",
+        rank: "B-",
         luckrank: "A",
         twrequire: "favorable",
         attribute: "Fire",
@@ -11349,7 +11349,7 @@ const UnitInformation = [
     { //Alvina - Complete
         id: 102306212,
         name: "Alvina",
-        rank: "B",
+        rank: "B-",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -11988,7 +11988,7 @@ const UnitInformation = [
     { //Mira (Earth) - Complete
         id: 102396312,
         name: "Mira (Earth)",
-        rank: "B",
+        rank: "B-",
         twrequire: "favorable",
         attribute: "Earth",
         type: "Human",
@@ -12157,7 +12157,7 @@ const UnitInformation = [
         id: 102416111,
         name: "Badoul",
         luckrank: "F",
-        rank: "B",
+        rank: "B-",
         attribute: "Fire",
         type: "Giant",
         image: 
@@ -13179,7 +13179,7 @@ const UnitInformation = [
     { //Melia (Water) - Complete
         id: 102536212,
         name: "Melia (Water)",
-        rank: "B",
+        rank: "B-",
         attribute: "Water",
         type: "Human",
         image: 
@@ -13640,7 +13640,7 @@ const UnitInformation = [
         id: 102596312,
         name: "Aesis",
         luckrank: "A",
-        rank: "B",
+        rank: "B-",
         attribute: "Earth",
         type: "Dragon",
         image: 
@@ -15983,7 +15983,7 @@ const UnitInformation = [
     { //Amane - Complete + JP ver.
         id: 102866412,
         name: "Amane",
-        rank: "B",
+        rank: "B-",
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -16117,7 +16117,7 @@ const UnitInformation = [
     { //Kisaragi - Complete + JP ver.
         id: 102876112,
         name: "Kisaragi",
-        rank: "B",
+        rank: "B-",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -17074,7 +17074,7 @@ const UnitInformation = [
     { //Veronica - Complete (+ JP version)
         id: 102966212,
         name: "Veronica",
-        rank: "B",
+        rank: "B-",
         twrequire: "favorable",
         attribute: "Water",
         type: "Human",
@@ -18444,7 +18444,7 @@ const UnitInformation = [
     { //Bakoo - Complete, Review done + JP Dream
         id: 103086512,
         name: "Bakoo",
-        rank: "B",
+        rank: "B-",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -20064,7 +20064,7 @@ const UnitInformation = [
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
-        rank: "B",
+        rank: "B-",
         type: "Human",
         image: 
             {
@@ -27547,7 +27547,7 @@ const UnitInformation = [
         id: 107216512,
         name: "Sonic",
         luckrank: "A",
-        rank: "B",
+        rank: "B-",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -28308,7 +28308,7 @@ const UnitInformation = [
         id: 107296212,
         name: "Yusuke",
         luckrank: "S",
-        rank: "B",
+        rank: "B-",
         attribute: "Water",
         type: "Human",
         image: 
@@ -28506,7 +28506,7 @@ const UnitInformation = [
         id: 107326512,
         name: "Hiei",
         luckrank: "S",
-        rank: "B",
+        rank: "B-",
         attribute: "Dark",
         type: "Demon",
         image: 
