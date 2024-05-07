@@ -43751,7 +43751,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //漆黒の全身鎧 - Missing Lore
         id: 153071,
@@ -43781,7 +43781,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //イルアン・グライベル - Missing Lore
         id: 153081,
@@ -43811,7 +43811,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //ネクロプラズミックマント - Missing Lore
         id: 153091,
@@ -43841,7 +43841,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //加速の靴 - Missing Lore
         id: 153101,
@@ -43871,7 +43871,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Skill DMG by 10%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //デミウルゴスのスーツ - Missing Lore
         id: 153111,
@@ -43901,7 +43901,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //デミウルゴスの眼鏡 - Missing Lore
         id: 153121,
@@ -43931,7 +43931,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //デミウルゴスのグローブ - Missing Lore
         id: 153131,
@@ -43961,7 +43961,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //イビルアイのローブ - Missing Lore
         id: 153141,
@@ -43991,7 +43991,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //イビルアイの仮面 - Missing Lore
         id: 153151,
@@ -44021,7 +44021,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //True 'Staff of Ainz Ooal Gown' - Missing Lore
         id: 153161,
@@ -44051,7 +44051,7 @@ const EquipInformation = [
                 ability1: `When equipped by Ainz, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //True '3F' - Missing Lore
         id: 153171,
@@ -44081,7 +44081,7 @@ const EquipInformation = [
                 ability1: `When equipped by Albedo, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //True 'Pipette Lance' - Missing Lore
         id: 153181,
@@ -44111,7 +44111,7 @@ const EquipInformation = [
                 ability1: `When equipped by Shalltear, Increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `When Near-death, heal 1% of own DMG dealt.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //True 'Keraunos Mk-III' - Missing Lore
         id: 153191,
@@ -44141,7 +44141,7 @@ const EquipInformation = [
                 ability1: `When equipped by Narberal, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //真『モモンズ・グレートソード』 - Missing Lore
         id: 153201,
@@ -44172,7 +44172,7 @@ const EquipInformation = [
                 ability1: `When equipped by Momon, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //真『デミウルゴスのスーツ』 - Missing Lore
         id: 153211,
@@ -44203,7 +44203,7 @@ const EquipInformation = [
                 ability1: `When equipped by Demiurge, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
     { //真『イビルアイの仮面』 - Missing Lore
         id: 153221,
@@ -44234,8 +44234,461 @@ const EquipInformation = [
                 ability1: `When equipped by Evileye, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Missing Lore.`
-    }
+        lore: `Currently unreleased in Global.`
+    },
+    { //蟇郡 苛の車 - Missing Lore
+        id: 153231,
+        name: `蟇郡 苛の車`,
+        translate: `Ira Gamagori's Car`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8200% Dark DMG (PHY). Increase own PHY DMG by 30% for 10s. If user is Dark, increase own PHY DMG by 60% instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When own HP is 90% or above, increase own Accuracy by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //極『蟇郡 苛の車』 - Missing Lore
+        id: 153241,
+        name: `極『蟇郡 苛の車』`,
+        translate: `Ira Gamagori's Car EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_153241.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8200% Dark DMG (PHY). Increase own PHY DMG by 30% for 10s. If user is Dark, increase own PHY DMG by 60% instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When own HP is 90% or above, increase own Accuracy by 20%.`,
+                ability2: [`Increase own DMG against Humans by 20%.`, `Increase own DMG against Beasts by 20%.`, `Increase own Light RES by 10%.`, `Increase own Dark RES by 10%.`, `Increase own Skill CT Speed by 10%.`, `Increase own HP Recovery Amount by 10%.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //猿投山 渦の極制服 - Missing Lore
+        id: 153251,
+        name: `猿投山 渦の極制服`,
+        translate: `Uzu Sanageyama's Goku Uniform`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Earth DMG (PHY). Increase own PHY DMG by 60% for 12s. When used for the first time, increase own Arts by 50. If user is Human and when used for the first time, increase own Arts by 100 instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //犬牟田 宝火の極制服 - Missing Lore
+        id: 153261,
+        name: `犬牟田 宝火の極制服`,
+        translate: `Houka Inumuta's Goku Uniform`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153261.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' CRI DMG by 70% for 12s. If user is Water, increase all allies' CRI DMG by 120% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*{ //??? - Missing Lore
+        id: 153271,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //??? - Missing Lore
+        id: 153281,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },*/
+    { //猿投山 渦の三都制圧襲学旅行ジャージ - Missing Lore
+        id: 153291,
+        name: `猿投山 渦の三都制圧襲学旅行ジャージ`,
+        translate: `Uzu Sanageyama's Tri-City Schools Raid Trip Jersey`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Earth DMG (PHY). Reduce enemies' DMG RES by 25% for 10s. If user is Earth, reduce enemies' DMG RES by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //犬牟田 宝火の三都制圧襲学旅行ジャージ - Missing Lore
+        id: 153301,
+        name: `犬牟田 宝火の三都制圧襲学旅行ジャージ`,
+        translate: `Houka Inumuta's Tri-City Schools Raid Trip Jersey`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153301.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Arts by 3/s and Water RES by 20% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*{ //??? - Missing Lore
+        id: 153311,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //??? - Missing Lore
+        id: 153321,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },*/
+    { //猿投山 渦の目隠し - Missing Lore
+        id: 153331,
+        name: `猿投山 渦の目隠し`,
+        translate: `Uzu Sanageyama's Blindfold`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153331.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Earth RES by 30% for 20s. If user is Human, increase all allies' Earth RES by 45% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //犬牟田 宝火の眼鏡 - Missing Lore
+        id: 153341,
+        name: `犬牟田 宝火の眼鏡`,
+        translate: `Houka Inumuta's Glasses`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153341.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase all allies' Arts by 40. Increase Water allies' DMG by 30% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*{ //??? - Missing Lore
+        id: 153351,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },*/
+    { //真『猿投山 渦の極制服』 - Missing Lore
+        id: 153361,
+        name: `真『猿投山 渦の極制服』`,
+        translate: `True 'Uzu Sanageyama's Goku Uniform'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Earth DMG (PHY). Reduce enemies' Earth RES by 30% for 10s. If user is Human, reduce enemies' Earth RES by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Uzu Sanageyama, increase own CRI DMG by 70%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『犬牟田 宝火の極制服』 - Missing Lore
+        id: 153371,
+        name: `真『犬牟田 宝火の極制服』`,
+        translate: `True 'Houka Inumuta's Goku Uniform'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153371.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 3/s and Human allies' stats by 15% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Houka Inumuta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
 ]
 
 export function getEquips() {

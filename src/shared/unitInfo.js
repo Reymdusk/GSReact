@@ -3288,7 +3288,7 @@ const UnitInformation = [
                 evoawk: "The divisional commander of the six great Demon Generals that revived at the Sealed Fortress Gormarey. At first, Demons were reviving sparsely. However, since they considered power the most, they never worked as groups and fought against themselves. One day Ragsherum had suppressed all the others and started his plan to revive Auge at Gormarey. Not only that, he desired to get the heart of Humans, the winner of the Ancient War, and to put them in fear and despair."
             }
     },
-    { //Grad - Complete (+ JP version)
+    { //Grad - Complete
         id: 101096511,
         name: "Grad",
         luckrank: "A",
@@ -3305,15 +3305,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101096511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -3390,7 +3381,7 @@ const UnitInformation = [
                 evoawk: "A Demon warrior who once served under sin Emperor Glaveil, slaughtering countless God soldiers. After being defeated by a Human swordsman, Grad couldn't contain the raging fury inside him. His hatred seethed, \"No one surpasses me and lives,\" he thought, a common notion among Demons, who take pride only in power. Now Grad knows just what to do, \"All that's left is to kill him and prove my strength,\" Grad laughs, grabbing his magic spear."
             }
     },
-    { //Nier - Complete (+ JP version)
+    { //Nier - Complete
         id: 101106511,
         name: "Nier",
         rank: "C",
@@ -3406,16 +3397,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_101105511.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101106511.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -3511,7 +3493,7 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -3587,7 +3569,7 @@ const UnitInformation = [
                         mat1amt: 100,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_133851.png`,
                         mat2amt: 100,
-                        hover2: `Spirit Pearl of the Warrior`
+                        hover2: `Warrior Soulgem`
                     },
                     passive: {
                         ability1: `Increase own Break Power agaisnt Earth Enemies by 60%.`,
@@ -3600,7 +3582,7 @@ const UnitInformation = [
                         mat1amt: 100,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_133851.png`,
                         mat2amt: 100,
-                        hover2: `Spirit Pearl of the Warrior`
+                        hover2: `Warrior Soulgem`
                     },
                     passive: {
                         ability1: `Increase own CRI DMG by 60%.`,
@@ -4025,7 +4007,7 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -4036,7 +4018,7 @@ const UnitInformation = [
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
+                slot2: 6,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
@@ -4058,6 +4040,15 @@ const UnitInformation = [
                 artsbreak: 2900,
                 truearts: "27000% Fire DMG (PHY). 80% chance to inflict Burn for 11s. If Enemy was Burned by own True Arts or was already Burned when own True Arts was activated, for 10s, reduce Enemies' Fire RES by 50%.",
                 trueartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1200% Fire DMG (PHY). For 6s, reduce Enemies' Break RES by 25%.",
+                skillbreak: 2500,
+                arts: "20000% Fire DMG (PHY). For 20s, increase Allies' Skill CT REC by 60%. Fire Allies' Skill CT REC is increased by 120% instead.",
+                artsbreak: 3500,
+                truearts: "45000% Fire DMG (PHY). 80% chance to inflict Burn for 11s. If Enemy was Burned by own True Arts or was already Burned when own True Arts was activated, for 20s, reduce Enemies' Fire RES by 80%.",
+                trueartsbreak: 6000
             },
         passive: 
             {
@@ -4084,6 +4075,34 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragSophie.png",
                     mat3amt: 20,
                     hover3: "Sophie",
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_SophieDream.png`,
+                        mat2amt: 100,
+                        hover2: `Passionate Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase own Equip CT Speed by 15%.`,
+                        ability2: `Increase all allies' Break Power by 30%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_SophieDream.png`,
+                        mat2amt: 100,
+                        hover2: `Passionate Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase Human allies' Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 1/s.`
+                    }
                 }
             },
         trueweapon: 
@@ -6268,7 +6287,7 @@ const UnitInformation = [
                 evoawk: "Regretting all she'd done, she shared tears with the knight who hunted her down. Gasping, she murmured kindly to him. 'I brought all this down on myself, you musn't regret ending me. Be proud of all you've done as a knight to defend your village. And I am truly glad to die in your arms... You, who have cared more for me than any other.' With her sacrifice, childhood friends long scattered were able to come together to revisit their younger days."
             }
     },
-    { //Quon - Complete (+ JP version)
+    { //Quon - Complete
         id: 101556212,
         name: "Quon",
         luckrank: "F",
@@ -6285,15 +6304,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101556212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -7525,7 +7535,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Complete (+ JP version), Review done
+    { //Gaia - Complete, Review done
         id: 101716211,
         name: "Gaia",
         rank: "A-",
@@ -7542,15 +7552,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101716211.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
@@ -9578,7 +9579,7 @@ const UnitInformation = [
                 evoawk: "The two friends she traveled with founded \"Crimson Stars\" to disguise themselves and revenge on those who destroyed their village during their childhood. Even after knowing their true intentions, she still considered them her family. Not only because they raised her, but also for the time spent together making people laugh all over the world. All that could not be a lie. The two, who had been haunted by hate from their past, turned forward and continued their trip to make the world smile."
             }
     },
-    { //Melody - Complete (+ JP version)
+    { //Melody - Complete
         id: 101986412,
         name: "Melody",
         luckrank: "F",
@@ -9592,15 +9593,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101986412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -9651,7 +9643,7 @@ const UnitInformation = [
                 evoawk: "The only family who shared her late father's memory had became mad with power. Looking at the deranged beast, she recalled the past and realized the least she could do for her former guardian was grant him a swift death. The dancer drew her sword in resignation, but the mage who accompanied her managed to restore his mind first. Although she never spoke of what happened to him afterwards, she took his spirit to heart and continued in her efforts to liberate the country."
             }
     },
-    { //Rohst - Complete (+ JP version)
+    { //Rohst - Complete
         id: 101996511,
         name: "Rohst",
         attribute: "Dark",
@@ -9665,15 +9657,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101996511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -10564,7 +10547,7 @@ const UnitInformation = [
                 evoawk: "The side of Marzex which embodies hate. The endlessly increasing powers of the Dark could eventually be used by the adventurer, who had been blessed by the merciful Marzex. How did the god feel,to help the adventurer who once defeated him? Hate still grows silently inside him, who stands beside the adventurer..."
             }
     },
-    { //Mako - Complete
+    { //Mako - Complete + JP ver.
         id: 102206412,
         name: "Mako",
         luckrank: "S",
@@ -10581,6 +10564,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -10605,6 +10597,15 @@ const UnitInformation = [
                 truearts: "For 15s, heal Allies' HP by 350/s, increase Allies' Arts by 4/s and Arts DMG by 90%.",
                 trueartsbreak: 0
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1800% Light DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 1000,
+                arts: "18000% Light DMG (PHY). For 15s, increase own Skill CT REC by 150%, reduce Enemies' DMG RES and Movement Speed by 30%.",
+                artsbreak: 2200,
+                truearts: "For 15s, heal Allies' HP by 400/s, increase Allies' Arts by 4/s and Arts DMG by 130%.",
+                trueartsbreak: 0
+            },
         passive: 
             {
                 ability1: "Increase Equipment CT REC by 10%.",
@@ -10622,6 +10623,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat3amt: 1,
                     hover3: "Fosradius",
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equipment CT Speed by 10%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Max HP by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase all allies' PHY RES by 10%. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -10643,7 +10678,7 @@ const UnitInformation = [
                 evoawk: "Mako Mankanshoku, Ryuko Matoi's best friend, has obtained the true powers of the Fight Club Spec Two-Star Goku Uniform. To maintain her social status, she fights evenly with Ryuko. However, once remembering why she fights, she is able to shake the earth with her fists. The ability shown when fighting Ryuko is but a shadow to her newly unleashed powers."
             }
     },
-    { //Satsuki - Complete
+    { //Satsuki - Complete + JP ver.
         id: 102216212,
         name: "Satsuki",
         rank: "B+",
@@ -10660,6 +10695,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -10684,6 +10728,15 @@ const UnitInformation = [
                 truearts: "50000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 10s. For 20s, increase Status RES (except Faint) by 100% for self.",
                 trueartsbreak: 8500
             },
+        skillsetJP: 
+            {
+                skill: "6s CT - 2200% Water DMG (PHY). Increase own Arts by 30.",
+                skillbreak: 2500,
+                arts: "22000% Water DMG (PHY). Increase Break PWR of this Arts by 250% during Enemy Arts. For 25s, reduce Enemies' Break RES by 35%.",
+                artsbreak: 4000,
+                truearts: "70000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 10s. For 30s, increase Status RES (except Faint) by 100% for self.",
+                trueartsbreak: 8500
+            },
         passive: 
             {
                 ability1: "Heal HP by 25/s.",
@@ -10703,6 +10756,40 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Human enemies by 150%.`,
+                        ability2: `Increase own Arts by 2/s.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Earth enemies by 150%.`,
+                        ability2: `Increase own Skill CT Speed by 20%.`
+                    }
+                }
+            },
         trueweapon: //If no TW, may delete this section
             {
                 name: "Bakuzan",
@@ -10716,13 +10803,26 @@ const UnitInformation = [
                         ability2: "Increase ATK by 5%."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Bakuzan",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151331.png",
+                skill: "40s CT - 7500% Water DMG (PHY).",
+                skillbreak: 5000,
+                passive: 
+                    {
+                        ability1: "When equipped by Satsuki, increase user's Break PWR by 60%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase ATK by 5%."
+                    }
+            },
         lore: 
             {   
                 evo5: "The student principal who rules Honnouji Academy, the school where Ryuko transfers, with power and terror. Thanks to her sword 'Bakuzan', she overwhelms people with her strong aura. Just like Ryuko Matoi's 'Senketsu', Satsuki possesses a Kamui called 'Junketsu' which is also made only with Life Fiber. Once its powers are revealed, there will be no enemies for her.",
                 evoawk: "The student principal of Honnouji Academy. Through the fight against her true enemies and thanks to her encounter with Ryuko Matoi, she realizes the mistakes made in the past and recognizes the support of those close to her. With this newfound clarity, surely no one can defeat her."
             }
     },
-    { //Ryuko - Complete
+    { //Ryuko - Complete + JP ver.
         id: 102226112,
         name: "Ryuko",
         rank: "B-",
@@ -10740,6 +10840,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -10764,11 +10873,26 @@ const UnitInformation = [
                 truearts: "60000% Fire DMG (PHY). For 20s, increase own DMG by 100%, increase own DMG to Enemies in Break by 200%, increase Paralysis and Freeze RES by 100%.",
                 trueartsbreak: 3800
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2200% Fire DMG (PHY). Increase BE generated by this Skill by 100%.",
+                skillbreak: 1200,
+                arts: "35000% Fire DMG (PHY). For 30s, increase own ATK by 200% & Skill CT REC by 100%.",
+                artsbreak: 2200,
+                truearts: "10000% Fire DMG (PHY). For 20s, increase own DMG by 200%, increase own DMG to Enemies in Break by 200%, increase Paralysis and Freeze RES by 100%.",
+                trueartsbreak: 4800
+            },
         passive: 
             {
                 ability1: "When near-death, increase Arts by 3/s.",
                 ability2: "When near-death, heal HP by 40/s.",
                 ability3: "Increase accuracy by 50%, Arts DMG by 30%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "When near-death, increase Arts by 3/s.",
+                ability2: "When near-death, heal HP by 40/s.",
+                ability3: "Increase accuracy by 100%, Arts DMG by 30%."
             }, 
         evolution: 
             {
@@ -10781,6 +10905,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat3amt: 1,
                     hover3: "Flogassa",
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 6/s.`,
+                        ability2: `Increase own DMG by 60% when enemies' HP is below 30%.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Accuracy by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase all allies' Break Power by 30%. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -10802,7 +10960,7 @@ const UnitInformation = [
                 evoawk: "This is the ultimate form of Kamui reached when Senketsu has combined with all other Goku Uniforms during the last battle. Known as 'Senketsu Kisaragi', its enormous power could be said to be that of all humanity combined. With humanity's hope, she flies into the eternal sky..."
             }
     },
-    { //Pientz - Complete (+ JP version)
+    { //Pientz - Complete
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
@@ -10816,15 +10974,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102236111.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -11024,7 +11173,7 @@ const UnitInformation = [
                 evoawk: "Despite her best efforts to meet her kindred's expectations at the peace talks, she fell to a Demon assassin's blade. It was only then she realize that mere idealism would not win over her enemies, and she regretted not doing more to prevent that. However, a swordsman of the Gods who formed a connection to the eastern lands said that she was a major inspiration, for no one else had believed in him amidst the tension and intrigue of the conference."
             }
     },
-    { //Vicious - Complete (+ JP version)
+    { //Vicious - Complete
         id: 102266311,
         name: "Vicious",
         luckrank: "F",
@@ -11038,15 +11187,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102266311.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -11583,7 +11723,7 @@ const UnitInformation = [
                 evoawk: "A renowned Divine warrior challenged a Divine swordswoman to a battle, and after losing in a fierce fight, the two so admired each others’ techniques they swore to a rematch. Later, the fighter was overcome by his wounds and fell to the ground, but in that instant, he made a compact [?] with the planet to save his life. The swordswoman reappeared before him, this fighter who became a High Demon with the power to burn the world to ash. No one knows the truth of the rumors that he may have survived, despite the swordwoman’s victory."
             }
     },
-    { //Nogia - Complete (+ JP version)
+    { //Nogia - Complete
         id: 102336411,
         name: "Nogia",
         rank: "C",
@@ -11598,15 +11738,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102336411.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -11841,7 +11972,7 @@ const UnitInformation = [
                 evoawk: "Just as Raki had grown enough to unleash the magical power hidden within his twin-blades, he met a man on the battlefield. Unable to accept his words, the two were forced to fight. However, the parting that came at the end of the battle made Raki realize the path he had to go down. Though his fellow soldiers hated to see him leave, Raki resigned from the military, and it's said that he was spotted traveling various countries around the world. However, he no longer had his famous fighting spirit, but instead a peaceful expression on his face."
             }
     },
-    { //Zerkalo - Complete (+ JP version)
+    { //Zerkalo - Complete
         id: 102366511,
         name: "Zerkalo",
         luckrank: "F",
@@ -11855,15 +11986,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102366511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -12153,7 +12275,7 @@ const UnitInformation = [
                 evoawk: "Already the bearer of the magic blade Ryude Magus, the Hero of Famelle has dominated the cursed sword \"Exceed Zechs\". His unbreakable spirit and deep faith helped him shake off the cursed sword's attempts at domination. Now that he bears both these swords, the very spirits of light and dark, they say he is a man like none that has ever lived. Having broken the bonds of old age, and all other limits, this pursuer of perfection can be called a true Hero."
             }
     },
-    { //Badoul - Complete (+ JP version)
+    { //Badoul - Complete
         id: 102416111,
         name: "Badoul",
         luckrank: "F",
@@ -12168,15 +12290,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102416111.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
@@ -12227,7 +12340,7 @@ const UnitInformation = [
                 evoawk: "He awoke to a gruesome sight: the corpses of the people being enslaved... They were the corpses of the villagers who enshrined and adored him. And, the \"key\" to his awakening was also born in the same village. Her small body shook in anger, but her soul burned so fervently that it could never be extinguished. Her intense emotions made the flames in his fist burn bright. Knowing he had something left to protect, he prepared to enter the fray once again for the sake of his little master."
             }
     },
-    { //Strife - Complete (+ JP version)
+    { //Strife - Complete
         id: 102436511,
         name: "Strife",
         luckrank: "F",
@@ -12242,15 +12355,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102436511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -12440,7 +12544,7 @@ const UnitInformation = [
                 evoawk: "When he went on a mission to execute a Dragon-killer with his second-in-command, he found on the other side the immoral Spirit he knew well, with a grin on his face. It was clear that the next \"masterpiece\" whose life he had chosen to play with was the Dragon-killer's. After a fierce battle, he learnt that the Dragon-killer, who was a childhood friend of his second-in-command, was actually the Spirit's apprentice, and he quit the Knights to fight him. No one knows what happened next..."
             }
     },
-    { //Granith - Complete (+ JP version)
+    { //Granith - Complete
         id: 102466211,
         name: "Granith",
         attribute: "Water",
@@ -12454,15 +12558,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102466211.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -12512,7 +12607,7 @@ const UnitInformation = [
                 evoawk: "His master told him to slay the Absolute Zero Sea Dragon as part of his training, but he was cursed in the course of battle. As Granith's humanity and reason faded, he begged for help, but the master claimed the curse could only be overcome by growing stronger through the killing of more Dragons. This purposeful lie was never questioned and he began hunting the scaled beasts."
             }
     },
-    { //Altie - Complete (+ JP version)
+    { //Altie - Complete
         id: 102476511,
         name: "Altie",
         luckrank: "C",
@@ -12526,15 +12621,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102476511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -13343,7 +13429,7 @@ const UnitInformation = [
                 evoawk: "The ruler of the Republic of Bamint who awakened to the ancient blood flowing within her. Seeing the world filled with those that ignore everything just, her pride turned into despair. She knew she must become a dictator with absolute authority in order to correct the state of the world. Taking her sword into her hand, she disposed of anyone deemed unjust. She sought even greater strength, and eventually came into the possession of power that could even surpass the Gods, both good and evil."
             }
     },
-    { //Vitz - Complete (+ JP version)
+    { //Vitz - Complete
         id: 102556211,
         name: "Vitz",
         luckrank: "B",
@@ -13358,15 +13444,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102556211.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -13636,7 +13713,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Aesis - Complete (+ JP version)
+    { //Aesis - Complete
         id: 102596312,
         name: "Aesis",
         luckrank: "A",
@@ -14718,7 +14795,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Miri-nyan - Complete (+ JP version)
+    { //Miri-nyan - Complete
         id: 102736112,
         name: "Miri-nyan",
         luckrank: "F",
@@ -14732,15 +14809,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102736112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -17357,7 +17425,7 @@ const UnitInformation = [
                 author: `Unex`
             }
     },
-    { //Radak - Complete (+ JP version), Review done
+    { //Radak - Complete, Review done
         id: 102996112,
         name: "Radak",
         rank: "C",
@@ -17371,16 +17439,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_102995112.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102996112.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -17559,7 +17618,7 @@ const UnitInformation = [
                 author: `Elric`
             }
     },
-    { //Cygnet - Complete (+ JP version), Review done
+    { //Cygnet - Complete, Review done
         id: 103016512,
         name: "Cygnet",
         rank: "F",
@@ -17800,7 +17859,7 @@ const UnitInformation = [
                 author: `Unknown`
             }
     },
-    { //Virago - Complete, Review done + JP ver
+    { //Virago - Complete, Review done
         id: 103036212,
         name: "Virago",
         rank: "F",
@@ -18059,7 +18118,7 @@ const UnitInformation = [
                 author: `Berwick`
             }
     },
-    { //Chloe (GS) - Complete (+ JP version), Review done
+    { //Chloe (GS) - Complete, Review done
         id: 103056511,
         name: "Chloe (GS)",
         luckrank: "A",
@@ -31066,7 +31125,7 @@ const UnitInformation = [
                 author: `Praying Patrick`
             }
     },
-    { // Nui Harime - Complete
+    { // Nui Harime - Complete + JP ver.
         id: 107596512,
         name: "Nui Harime",
         rank: "A-",
@@ -31083,6 +31142,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -31107,6 +31175,15 @@ const UnitInformation = [
                 truearts: "68000% Dark DMG (MAG). For 15s, Allies ignore 100% of Enemies' DEF. Increase the Arts of the Ally with the least Arts (except self) by 100.",
                 trueartsbreak: 1300
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 30.",
+                skillbreak: 500,
+                arts: "23000% Dark DMG (MAG). Every time this Arts is activated, increase Dark Allies' DMG by 50% (up to 200%). When this unit takes damage during this Arts, Enemies take 3000% Elementless DMG (MAG).",
+                artsbreak: 1000,
+                truearts: "82000% Dark DMG (MAG). For 20s, Allies ignore 100% of Enemies' DEF. Increase the Arts of the Ally with the least Arts (except self) by 200.",
+                trueartsbreak: 1300
+            },
         passive: 
             {
                 ability1: "Increase all allies' Equipment CT of Defense equipment by 10%.",
@@ -31124,6 +31201,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat3amt: 1,
                     hover3: "Oldeus"
+                }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Human enemies by 130%.`,
+                        ability2: `Increase own BE Output by 10%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Poison RES by 100%..`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -34057,7 +34168,171 @@ const UnitInformation = [
                 evoawk: "Unreleased in Global.",
                 evosuper: "Unreleased in Global."
             }
-    }
+    },
+    { //Uzu Sanageyama - Missing Lore
+        id: 107937312,
+        name: `Uzu Sanageyama`,
+        attribute: `Earth`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107936312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107937312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_793_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107936312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107937312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_793_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7370,
+                hpplus: 1390,
+                atk: 4000,
+                atkplus: 690,
+                def: 2856,
+                defplus: 594
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2000% Earth DMG (PHY). Increase own Arts by 30. If this Skill crits, increase own Arts by 60 instead.`,
+                skillbreak: 600,
+                arts: `30000% Earth DMG (PHY). For 35s, increase own DMG and Skill CT Speed by 130%.`,
+                artsbreak: 1000,
+                truearts: `80000% Earth DMG (PHY). Each time True Arts is used, permanently increase own Super CRI rate by 25% (MAX: 75%).`,
+                trueartsbreak: 1500,
+                superarts: `190000% Earth DMG (PHY). For 25s, increase own CRI rate by 100% and reduce enemies' PHY RES by 150%.`,
+                superartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: `When unaffected by Status ailments, increase own ATK and Accuracy by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Blind RES by 100%.`,
+                ability3: `When near-death, increase own Arts by 2/s.`,
+                ability4: `Unit EXP UP 20% UP. (When Uzu's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Uzu's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 100,
+                    hover2: `Smogdragon Soulgem`
+                }
+            },
+        trueweapon: 
+            {
+                name: `Uzu Sanageyama's Goku Uniform`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153361.png",
+                skill: `50s CT - 8000% Earth DMG (PHY). For 10s, reduce enemies' Earth RES by 30%. If user is Human, reduce enemies' Earth RES by 50% instead.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Uzu Sanageyama, increase own CRI DMG by 70%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //Houka Inumuta - Missing Lore
+        id: 107947212,
+        name: `Houka Inumuta`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107946212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107947212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_794_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107946212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107947212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_794_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 8395,
+                hpplus: 1510,
+                atk: 2420,
+                atkplus: 490,
+                def: 3450,
+                defplus: 650
+            },
+        skillset: 
+            {
+                skill: `12s CT - Increase own Arts by 40. Heal ally with the lowest HP by 3000.`,
+                skillbreak: 0,
+                arts: `18000% Water DMG (MAG). For 20s, increase all allies' Accuracy by 50% and all Human allies' ATK by 100%.`,
+                artsbreak: 500,
+                truearts: `55000% Water DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and Water RES by 80%.`,
+                trueartsbreak: 1600,
+                superarts: `For 25s, increase all allies' Arts by 7/s and CRI DMG by 300%. Increase Leader's Arts by an additional 3/s for 25s.`,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or above, increase own Equipment CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase all allies' Max HP by 15%.`,
+                ability3: `Increase own Evasion by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Houka's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Houka's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Houka Inumuta's Goku Uniform`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153371.png",
+                skill: `35s CT - For 10s, increase all allies' Arts by 3/s and Human allies' stats by 15%.`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When equipped by Houka Inumuta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
 ];
 
 export function getUnits() {

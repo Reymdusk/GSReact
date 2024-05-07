@@ -1397,6 +1397,46 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 44,
+        date: `May 7, 2024`,
+        article: 
+        {
+            intro: `Big update for JP with new units and equips introduced with the KLK Collab Part 1 rerun. Moreover, Sophie has finally received her Dream Awakening!`,
+            new: 
+                {
+                    units: [
+                        [`Uzu Sanageyama`, 107937312],
+                        [`Houka Inumuta`, 107947212]
+                    ],
+                    equips: [
+                        [`蟇郡 苛の車`, 153231],
+                        [`極『蟇郡 苛の車』`, 153241],
+                        [`猿投山 渦の極制服`, 153251],
+                        [`犬牟田 宝火の極制服`, 153261],
+                        [`猿投山 渦の三都制圧襲学旅行ジャージ`, 153291],
+                        [`犬牟田 宝火の三都制圧襲学旅行ジャージ`, 153301],
+                        [`猿投山 渦の目隠し`, 153331],
+                        [`犬牟田 宝火の眼鏡`, 153341],
+                        [`真『猿投山 渦の極制服』`, 153361],
+                        [`真『犬牟田 宝火の極制服』`, 153371]
+                    ],
+                    dream: [
+                        [`Mako`, 102206412],
+                        [`Satsuki`, 102216212],
+                        [`Ryuko`, 102226112],
+                        [`Nui Harime`, 107596512],
+                        [`Sophie`, 101156111]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
