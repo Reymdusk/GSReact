@@ -22193,9 +22193,9 @@ const EquipInformation = [
             },
         lore: `Of course I can swim. I simply wear this as a precaution, not because I'm afraid of the water. It is my duty to rescue the royal children should one start to drown, and it wouldn't do if I needed rescuing myself. Therefore, I must take every possible measure. Moreover, the thought of what might lurk in the depths is terrifyi-- No, never mind. The point being is I need your help too, Virago.`
     },
-{ //黒狐衣『ラヴィソント』 (Melia Farmable) - JP Complete
+{ //Fox Raiment 'Ravissante' - Missing Lore
         id: 108231,
-        name: `黒狐衣『ラヴィソント』`,
+        name: `Fox Raiment 'Ravissante'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22220,7 +22220,7 @@ const EquipInformation = [
             {
                 ability1: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Blaze Garb 'Akanehitoe' - Missing Lore
         id: 108241,
@@ -27069,9 +27069,9 @@ const EquipInformation = [
             },
         lore: `A decoration used in an otherworld festival known as "Christmas". Inside the crystal sphere is a miniaturized scene of Raktehelm, and shaking it recreates gentle snowfall. The small but captivating sight can provide entertainment for hours on end. A member of Reigrad Adventurer's Guild is known to be particularly vulnerable to its charm.`
     },
-{ //ジェノサイドヘルム (Emi Raid Equip) - JP Complete (109941 = Emi EV Equip)
+{ //Genocider’s Helm - Missing Lore (109941 = Emi EV Equip)
         id: 109901,
-        name: `ジェノサイドヘルム`,
+        name: `Genocider’s Helm`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27096,7 +27096,7 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Assault Architect' - Complete
         id: 109911,
@@ -27129,9 +27129,9 @@ const EquipInformation = [
             },
         lore: `The magic wand of famous conjurer Selia. The crystal at the top, made up of highly endothermic materials, approaches temperatures close to absolute Zero. This increases the strength of ice magic by a magnitude of over 1000%. However, the uninitiated should never touch it as a single mistake could leave them frozen solid.`
     },
-{ //極『ジェノサイドヘルム』 (Emi Raid Equip EV) - JP Complete
+{ //Genocider’s Helm EV - Missing Lore
         id: 109941,
-        name: `極『ジェノサイドヘルム』`,
+        name: `Genocider’s Helm EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27157,7 +27157,7 @@ const EquipInformation = [
                 ability1: `DEF 5% UP.`,
                 ability2: [`DMG to Light enemy 5% UP.`, `DMG to Light enemy 10% UP.`, `Magic resistance 5% UP.`, `Skill CT speed 5% UP.`, `ATK 5% UP.`, `Skill DMG 10% UP.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //極『ドスクラテル』 (Garm Raid Equip EV) - JP Complete
         id: 109951,
@@ -32082,10 +32082,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //天間器『ゼクスラスタ』レプリカ - JP Complete
+    { //Celestial Vessel 'Zexraster' Replica - Missing Lore
         id: 111621,
-        name: `天間器『ゼクスラスタ』レプリカ`,
-        translate: `Celestial Device 'Zex Lustre' Replica`,
+        name: `Celestial Vessel 'Zexraster' Replica`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -32110,12 +32109,11 @@ const EquipInformation = [
             {
                 ability1: `Seal Time Reduction & Seal Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //天間器『ゼクスラスタ』アレンジ - JP Complete
+{ //Celestial Vessel 'Zexraster' Custom - Missing Lore
         id: 111631,
-        name: `天間器『ゼクスラスタ』アレンジ`,
-        translate: `Celestial Device 'Zex Lustre' Custom`,
+        name: `Celestial Vessel 'Zexraster' Custom`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -32140,7 +32138,7 @@ const EquipInformation = [
             {
                 ability1: `BE Output 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //キルモンソード - JP Complete
         id: 111641,

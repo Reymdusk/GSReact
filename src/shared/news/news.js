@@ -1437,6 +1437,32 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 45,
+        date: `May 11, 2024`,
+        article: 
+        {
+            intro: `A new Raid has been released in Global with new equips, alongside a new farmable equip in Melia's Event! Moreover, a new Rainbow Summoners' Road has made its debut with 2 new 6☆ equips to obtain!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Genocider's Helm`, 109901],
+                        [`Genocider's Helm EV`, 109941],
+                        [`Fox Raiment 'Ravissante'`, 108231],
+                        [`Celestial Vessel 'Zexraster' Replica`, 111621],
+                        [`Celestial Vessel 'Zexraster' Custom`, 111631]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

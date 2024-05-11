@@ -10879,7 +10879,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "35000% Fire DMG (PHY). For 30s, increase own ATK by 200% & Skill CT REC by 100%.",
                 artsbreak: 2200,
-                truearts: "10000% Fire DMG (PHY). For 20s, increase own DMG by 200%, increase own DMG to Enemies in Break by 200%, increase Paralysis and Freeze RES by 100%.",
+                truearts: "100000% Fire DMG (PHY). For 20s, increase own DMG by 200%, increase own DMG to Enemies in Break by 200%, increase Paralysis and Freeze RES by 100%.",
                 trueartsbreak: 4800
             },
         passive: 
@@ -34317,7 +34317,7 @@ const UnitInformation = [
         trueweapon: 
             {
                 name: `Houka Inumuta's Goku Uniform`,
-                slot: "/db/Mines/thumbnail/physLB.png",
+                slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153371.png",
                 skill: `35s CT - For 10s, increase all allies' Arts by 3/s and Human allies' stats by 15%.`,
                 skillbreak: 0,
