@@ -43789,10 +43789,10 @@ const EquipInformation = [
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_153090.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_153091.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153090.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153091.png`
+                detail: `/db/Equipment/Detail/item_detail_153080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153081.png`
             },
         stats:
             {
@@ -44255,7 +44255,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 8200% Dark DMG (PHY). Increase own PHY DMG by 30% for 10s. If user is Dark, increase own PHY DMG by 60% instead.`,
+                skill: `45s CT - 8200% Dark DMG (Physical). Increase own Physical DMG by 30% for 10s. If user is Dark, increase own Physical DMG by 60% instead.`,
                 break: 700
             },
         passive: 
@@ -44285,13 +44285,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 8200% Dark DMG (PHY). Increase own PHY DMG by 30% for 10s. If user is Dark, increase own PHY DMG by 60% instead.`,
+                skill: `45s CT - 8200% Dark DMG (Physical). Increase own Physical DMG by 30% for 10s. If user is Dark, increase own Physical DMG by 60% instead.`,
                 break: 700
             },
         passive: 
             {
                 ability1: `When own HP is 90% or above, increase own Accuracy by 20%.`,
-                ability2: [`Increase own DMG against Humans by 20%.`, `Increase own DMG against Beasts by 20%.`, `Increase own Light RES by 10%.`, `Increase own Dark RES by 10%.`, `Increase own Skill CT Speed by 10%.`, `Increase own HP Recovery Amount by 10%.`]
+                ability2: [`Increase own DMG against Humans by 20%.`, `Increase own DMG against Beasts by 20%.`, `Increase own Light resistance by 10%.`, `Increase own Dark resistance by 10%.`, `Increase own Skill CT Speed by 10%.`, `Increase own HP Recovery Amount by 10%.`]
             },
         lore: `Currently unreleased in Global.`
     },
@@ -44316,7 +44316,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Earth DMG (PHY). Increase own PHY DMG by 60% for 12s. When used for the first time, increase own Arts by 50. If user is Human and when used for the first time, increase own Arts by 100 instead.`,
+                skill: `45s CT - 7000% Earth DMG (Physical). Increase own Physical DMG by 60% for 12s. When used for the first time, increase own Arts by 50. If user is Human and when used for the first time, increase own Arts by 100 instead.`,
                 break: 500
             },
         passive: 
@@ -44355,10 +44355,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*{ //??? - Missing Lore
+    { //蟇郡 苛の極制服 - Missing Lore
         id: 153271,
-        name: ``,
-        translate: ``,
+        name: `蟇郡 苛の極制服`,
+        translate: `Ira Gamagori's Goku Uniform`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -44376,7 +44376,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - For 10s, heal allies' HP by 200/s. For 20s, increase allies' Physical resistance by 30%.`,
                 break: 0
             },
         passive: 
@@ -44385,11 +44385,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //??? - Missing Lore
+    { //蛇崩 乃音の極制服 - Missing Lore
         id: 153281,
-        name: ``,
-        translate: ``,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        name: `蛇崩 乃音の極制服`,
+        translate: `Nonon Jakuzure's Goku Uniform`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -44401,20 +44401,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
-                def: 500
+                atk: 500,
+                def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 2000% Light DMG (Magic). For 15s, increase own Break Power by 50% and Light allies' Break Power by 30%.`,
+                break: 3500
             },
         passive: 
             {
                 ability1: ``
             },
         lore: `Currently unreleased in Global.`
-    },*/
+    },
     { //猿投山 渦の三都制圧襲学旅行ジャージ - Missing Lore
         id: 153291,
         name: `猿投山 渦の三都制圧襲学旅行ジャージ`,
@@ -44436,7 +44436,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 6000% Earth DMG (PHY). Reduce enemies' DMG RES by 25% for 10s. If user is Earth, reduce enemies' DMG RES by 50% instead.`,
+                skill: `60s CT - 6000% Earth DMG (Physical). Reduce enemies' DMG resistance by 25% for 10s. If user is Earth, reduce enemies' DMG resistance by 50% instead.`,
                 break: 500
             },
         passive: 
@@ -44466,7 +44466,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' Arts by 3/s and Water RES by 20% for 10s.`,
+                skill: `30s CT - Increase all allies' Arts by 3/s and Water resistance by 20% for 10s.`,
                 break: 0
             },
         passive: 
@@ -44475,10 +44475,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*{ //??? - Missing Lore
+    { //蟇郡 苛の三都制圧襲学旅行ジャージ - Missing Lore
         id: 153311,
-        name: ``,
-        translate: ``,
+        name: `蟇郡 苛の三都制圧襲学旅行ジャージ`,
+        translate: `Ira Gamagori's Tri-City Schools Raid Trip Jersey`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -44496,7 +44496,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - For 20s, increase target's Light resistance by 30%. When used for the first time, increase target's Arts by 50.`,
                 break: 0
             },
         passive: 
@@ -44505,11 +44505,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //??? - Missing Lore
+    { //蛇崩 乃音の三都制圧襲学旅行ジャージ - Missing Lore
         id: 153321,
-        name: ``,
-        translate: ``,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        name: `蛇崩 乃音の三都制圧襲学旅行ジャージ`,
+        translate: `Nonon Jakuzure's Tri-City Schools Raid Trip Jersey`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -44521,20 +44521,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
-                def: 500
+                atk: 500,
+                def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Light DMG (Magic). Increase own Arts by 30. For 10s, increase own Light DMG by 50%. Additionally when used for the first time, increase own Arts by 50.`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
         lore: `Currently unreleased in Global.`
-    },*/
+    },
     { //猿投山 渦の目隠し - Missing Lore
         id: 153331,
         name: `猿投山 渦の目隠し`,
@@ -44556,7 +44556,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' Earth RES by 30% for 20s. If user is Human, increase all allies' Earth RES by 45% instead.`,
+                skill: `30s CT - Increase all allies' Earth resistance by 30% for 20s. If user is Human, increase all allies' Earth resistance by 45% instead.`,
                 break: 0
             },
         passive: 
@@ -44595,11 +44595,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*{ //??? - Missing Lore
+    { //蛇崩 乃音の帽子 - Missing Lore
         id: 153351,
-        name: ``,
-        translate: ``,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        name: `蛇崩 乃音の帽子`,
+        translate: `Nonon Jakuzure's Hat`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -44610,13 +44610,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 500
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase target's Arts by 100. If user is Light, for 10s, increase target's DMG by 50%.`,
                 break: 0
             },
         passive: 
@@ -44624,7 +44624,7 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `Currently unreleased in Global.`
-    },*/
+    },
     { //真『猿投山 渦の極制服』 - Missing Lore
         id: 153361,
         name: `真『猿投山 渦の極制服』`,
@@ -44646,7 +44646,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8000% Earth DMG (PHY). Reduce enemies' Earth RES by 30% for 10s. If user is Human, reduce enemies' Earth RES by 50% instead.`,
+                skill: `50s CT - 8000% Earth DMG (Physical). Reduce enemies' Earth resistance by 30% for 10s. If user is Human, reduce enemies' Earth resistance by 50% instead.`,
                 break: 500
             },
         passive: 
@@ -44683,6 +44683,68 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `When equipped by Houka Inumuta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『蟇郡 苛の極制服』 - Missing Lore
+        id: 153381,
+        name: `真『蟇郡 苛の極制服』`,
+        translate: `True 'Ira Gamagori's Goku Uniform'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - For 15s, increase own DMG resistance by 20%. If used when own HP is below 50%, increase own DMG resistance by 30% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Ira Gamagori, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『蛇崩 乃音の極制服』 - Missing Lore
+        id: 153391,
+        name: `真『蛇崩 乃音の極制服』`,
+        translate: `True 'Nonon Jakuzure's Goku Uniform'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Light DMG (Magic). For 10s, reduce enemies' DMG resistance by 20%. If user is Light, reduce enemies' DMG resistance by an additional 10%. If user is Human, reduce enemies' DMG resistance by an additional 10%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Nonon Jakuzure, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
         lore: `Currently unreleased in Global.`

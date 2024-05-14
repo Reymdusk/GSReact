@@ -1463,6 +1463,37 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 46,
+        date: `May 14, 2024`,
+        article: 
+        {
+            intro: `Part 2 of the KLK Collab rerun has been released, bringing with it 2 new units and a variety of new KLK equips as well!`,
+            new: 
+                {
+                    units: [
+                        [`Ira Gamagori`, 107957512],
+                        [`Nonon Jakuzure`, 107967412]
+                    ],
+                    equips: [
+                        [`蟇郡 苛の極制服`, 153271],
+                        [`蛇崩 乃音の極制服`, 153281],
+                        [`蟇郡 苛の三都制圧襲学旅行ジャージ`, 153311],
+                        [`蛇崩 乃音の三都制圧襲学旅行ジャージ`, 153321],
+                        [`蛇崩 乃音の帽子`, 153351],
+                        [`真『蟇郡 苛の極制服』`, 153381],
+                        [`真『蛇崩 乃音の極制服』`, 153391]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

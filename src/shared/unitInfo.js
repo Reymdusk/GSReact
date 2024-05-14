@@ -34333,6 +34333,170 @@ const UnitInformation = [
                 evosuper: "Unreleased in Global."
             }
     },
+    { //Ira Gamagori - Missing Lore
+        id: 107957512,
+        name: `Ira Gamagori`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107956512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107957512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_795_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107956512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107957512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_795_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7700,
+                hpplus: 1450,
+                atk: 2730,
+                atkplus: 570,
+                def: 3625,
+                defplus: 630
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3000% Dark DMG (PHY). Increase own Arts by 40.`,
+                skillbreak: 700,
+                arts: `25000% Dark DMG (PHY). For 15s, reduce enemies' Dark RES by 50%.`,
+                artsbreak: 1000,
+                truearts: `50000% Dark DMG (PHY). For 30s, consume 2%/s of own Max HP. For 40s, increase own PHY RES by 30% and redirect Allies' DMG taken to self and gain a DMG barrier that negates 35000 DMG to self.`,
+                trueartsbreak: 1400,
+                superarts: `150000% Dark DMG (PHY). Ignores 100% of enemies' DEF for the duration of Super Arts. For 40s, increase own Freeze RES and Paralysis RES by 100%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG the lower own HP is (MAX: 200%). When taking lethal DMG for the first time, heal own HP by 50%. Does not stack with Abilities of the same name.`,
+                ability2: `When Near-death, increase own Equipment CT Speed by 20%.`,
+                ability3: `When Near-death, increase own DMG RES by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Ira's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Ira's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Ira Gamagori's Goku Uniform`,
+                slot: "/db/Mines/thumbnail/defLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153381.png",
+                skill: `30s CT - For 15s, increase own DMG RES by 20%. If used when own HP is below 50%, increase own DMG RES by 30% instead.`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When equipped by Ira Gamagori, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    },
+    { //Nonon Jakuzure - Missing Lore
+        id: 107967412,
+        name: `Nonon Jakuzure`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107966412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107967412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_796_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107966412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107967412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_796_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7423,
+                hpplus: 1399,
+                atk: 3788,
+                atkplus: 656,
+                def: 2821,
+                defplus: 606
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2000% Light DMG (MAG). For 8s, increase own Arts by 4/s. Additionally, increase own Arts by 20 if own Skill hits the Boss (1 HIT).`,
+                skillbreak: 500,
+                arts: `25000% Light DMG (MAG). Each time own Arts is used, permanently increase Light allies' DMG by 40% (MAX: 200%).`,
+                artsbreak: 1000,
+                truearts: `70000% Light DMG (MAG). Increase own DMG against non-Boss enemies by 200% for the duration of own True Arts. For 35s, increase allies' ATK by 100%.`,
+                trueartsbreak: 1800,
+                superarts: `160000% Light DMG (MAG). For 25s, reduce enemies' MAG RES by 130% and Break RES by 50%.`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `At the start of Battle (Wave), increase Light allies' Arts by 25 and Human allies' Arts by an additional 25. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [2 x own ATK/100]%.`,
+                ability3: `Increase own HP Recovery by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: `Nonon Jakuzure's Goku Uniform`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153391.png",
+                skill: `60s CT - 8000% Light DMG (MAG). For 10s, reduce enemies' DMG RES by 20%. If user is Light, reduce enemies' DMG RES by an additional 10%. If user is Human, reduce enemies' DMG RES by an additional 10%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Nonon Jakuzure, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Unreleased in Global.",
+                evosuper: "Unreleased in Global."
+            }
+    }
 ];
 
 export function getUnits() {
