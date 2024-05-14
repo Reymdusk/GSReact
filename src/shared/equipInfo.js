@@ -31035,7 +31035,7 @@ const EquipInformation = [
     },
 { //Gleaming Crux 'Fosbrace' Custom - Missing Lore
         id: 111271,
-        name: `Gleaming Crux 'Fosbrace' Replica`,
+        name: `Gleaming Crux 'Fosbrace' Custom`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
