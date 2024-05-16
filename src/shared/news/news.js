@@ -1494,6 +1494,47 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 47,
+        date: `May 18, 2024`,
+        article: 
+        {
+            intro: `The Overlord Collab has returned to Global, introducing 3 new Ascended Overlord units as well as various buffs and True Weapons for the 4 original Overlord units. As usual, there are also many new Overlord themed equips too!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Momon`, 107907512],
+                        [`Demiurge`, 107917112],
+                        [`Evileye`, 107927312]
+                    ],
+                    equips: [
+                        [`Momon's Greatsword`, 153061],
+                        [`Dark Plate Armor`, 153071],
+                        [`Járngreipr`, 153081],
+                        [`Necroplasmic Mantle`, 153091],
+                        [`Haste Boots`, 153101],
+                        [`Demiurge's Suit`, 153111],
+                        [`Demiurge's Glasses`, 153121],
+                        [`Lord of First Invern`, 153141],
+                        [`Evileye's Mask`, 153151],
+                        [`True 'Staff of Ainz Ooal Gown'`, 153161],
+                        [`True '3F'`, 153171],
+                        [`True 'Pipette Lance'`, 153181],
+                        [`True 'Keraunos Mk-III'`, 153191],
+                        [`True 'Momon's Greatsword'`, 153201],
+                        [`True 'Demiurge's Suit'`, 153211],
+                        [`True 'Evileye's Mask'`, 153221]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

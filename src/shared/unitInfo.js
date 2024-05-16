@@ -31913,7 +31913,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Albedo - Complete, Review done + JP ver
+    { // Albedo - Complete, Review done
         id: 107707512,
         name: "Albedo",
         attribute: "Dark",
@@ -31951,17 +31951,6 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: `23000% Dark DMG (PHY). Permanently increase Demon Allies' DMG & DMG RES by 10% (up to 30%).`,
                 artsbreak: 600,
-                truearts: `42000% Dark DMG (PHY). For 30s, increase Allies' PHY Res by 20% + Allies gain a DMG Barrier that negates 10000 DMG.`,
-                trueartsbreak: 1000,
-                superarts: `120000% Dark DMG (PHY). For 10s, increase own Critical Rate by 100% and Allies' DMG Res by 60%.`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30. If HP is above 70%, increase Arts by 60 instead.`,
-                skillbreak: 400,
-                arts: `23000% Dark DMG (PHY). Permanently increase Demon Allies' DMG & DMG RES by 10% (up to 30%).`,
-                artsbreak: 600,
                 truearts: `50000% Dark DMG (PHY). For 30s, increase Allies' PHY Res by 20% + Allies gain a DMG Barrier that negates 10000 DMG.`,
                 trueartsbreak: 1000,
                 superarts: `120000% Dark DMG (PHY). For 12s, increase own Critical Rate by 100% and Allies' DMG Res by 60%.`,
@@ -31984,7 +31973,7 @@ const UnitInformation = [
                     hover2: "Sinflow Soulgem"
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "3F",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -32021,7 +32010,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // Shalltear - Review done + JP ver
+    { // Shalltear - Review done
         id: 107717412,
         name: "Shalltear",
         attribute: "Light",
@@ -32059,17 +32048,6 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `26000% Light DMG (MAG). For 20s, reduce Enemies' Dark & Light RES by 40%.`,
                 artsbreak: 1300,
-                truearts: `90000% Light DMG (MAG). For 20s, increase own Critical DMG by 200%.`,
-                trueartsbreak: 2000,
-                superarts: `For 80s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).`,
-                superartsbreak: 0
-            },
-        skillsetJP: 
-            {
-                skill: `11s CT - 2500% Light DMG (MAG). For 10s, increase own Lifesteal by 3%.`,
-                skillbreak: 600,
-                arts: `26000% Light DMG (MAG). For 20s, reduce Enemies' Dark & Light RES by 40%.`,
-                artsbreak: 1300,
                 truearts: `110000% Light DMG (MAG). For 20s, increase own Critical DMG by 200%.`,
                 trueartsbreak: 2000,
                 superarts: `For 120s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).`,
@@ -32092,7 +32070,7 @@ const UnitInformation = [
                     hover2: "Eternaglit Soulgem"
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Pipette Lance",
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -32129,7 +32107,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Ainz - Complete, Review done + JP ver
+    { // Ainz - Complete, Review done
         id: 107697512,
         name: "Ainz",
         attribute: "Dark",
@@ -32167,17 +32145,6 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn for 15s. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
                 artsbreak: 900,
-                truearts: `50000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.`,
-                trueartsbreak: 1200,
-                superarts: `150000% Dark DMG (MAG). For 15s, increase all allies' CRI DMG by 100%. Increase Dark allies' CRI DMG by 200% instead.`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - 2500% Dark DMG (MAG). For 10s, reduce enemies' MAG RES by 20%.`,
-                skillbreak: 400,
-                arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn for 15s. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
-                artsbreak: 900,
                 truearts: `60000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.`,
                 trueartsbreak: 1200,
                 superarts: `170000% Dark DMG (MAG). For 15s, increase all allies' CRI DMG by 100%. Increase Dark allies' CRI DMG by 200% instead.`,
@@ -32200,7 +32167,7 @@ const UnitInformation = [
                     hover2: "Sinflow Soulgem"
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Staff of Ainz Ooal Gown",
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -32239,7 +32206,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Narberal - Complete, Review done + JP ver
+    { // Narberal - Complete, Review done
         id: 107727412,
         name: "Narberal",
         attribute: "Light",
@@ -32279,17 +32246,6 @@ const UnitInformation = [
                 artsbreak: 600,
                 truearts: `40000% Light DMG (MAG). For 25s, increase Allies' stats by 30%, and increase Leader Unit's Arts DMG by 200% & DMG RES by 30%.`,
                 trueartsbreak: 1200,
-                superarts: `130000% Light DMG (MAG). For 20s, reduce enemies' MAG RES by 100%.`,
-                superartsbreak: 1400
-            },
-        skillsetJP: 
-            {
-                skill: `10s CT - 1800% Light DMG (MAG). For 8s, increase Demon Allies' DMG by 30%.`,
-                skillbreak: 400,
-                arts: `13000% Light DMG (MAG). Increase Allies' Arts by 20. Increase Demon Allies' Arts by 30 instead. For 20s, increase Allies' MAG RES by 30%.`,
-                artsbreak: 600,
-                truearts: `40000% Light DMG (MAG). For 25s, increase Allies' stats by 30%, and increase Leader Unit's Arts DMG by 200% & DMG RES by 30%.`,
-                trueartsbreak: 1200,
                 superarts: `140000% Light DMG (MAG). For 20s, reduce enemies' MAG RES by 120%.`,
                 superartsbreak: 1400
             },
@@ -32310,7 +32266,7 @@ const UnitInformation = [
                     hover2: "Eternaglit Soulgem"
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Keraunos Mk-III",
                 slot: "/db/Mines/thumbnail/suppLB.png",
@@ -34001,8 +33957,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Demiurge - Missing Lore
@@ -34083,8 +34039,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Evileye - Missing Lore
@@ -34165,8 +34121,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Uzu Sanageyama - Missing Lore

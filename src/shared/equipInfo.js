@@ -12284,7 +12284,7 @@ const EquipInformation = [
     },
 { //Magical Outfit 'Pierrot Crimson' - Complete
         id: 104751,
-        name: `	Magical Outfit 'Pierrot Crimson'`,
+        name: `Magical Outfit 'Pierrot Crimson'`,
         location: `Rotating Event - Pierrot of Flames (Pientz)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -32992,11 +32992,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //トリック・オア・ダイ - JP Complete
+    { //ヴァレリーのまじりざステッキ - JP Complete
         id: 111921,
-        name: `トリック・オア・ダイ`,
-        translate: `Trick or Die`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
+        name: `ヴァレリーのまじりざステッキ`,   
+        translate: `Valerie's Mingled Stick`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -33004,6 +33004,36 @@ const EquipInformation = [
                 detailmax: `/db/Equipment/Detail/item_detail_111921.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_111920.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 8000% Water DMG (Magic). Increase own Magic DMG by 60% (stackable) and Human allies' Magic DMG by 40% (stackable) for 15s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //トリック・オア・ダイ - JP Complete
+        id: 111931,
+        name: `トリック・オア・ダイ`,
+        translate: `Trick or Die`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111931.png`
             },
         stats:
             {
@@ -33023,40 +33053,10 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     { //フォルテのドーリィドレス - JP Complete
-        id: 111931,
+        id: 111941,
         name: `フォルテのドーリィドレス`,
         translate: `Forte's Dolly Dress`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_111930.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_111931.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111930.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111931.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 500
-            },
-        skillset:  
-            {
-                skill: `30s CT - Heal all allies' HP by 200/s for 10s. Increase all allies' Light resistance by 30% for 20s.`,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: `Currently unreleased in Global.`
-    },
-    { //ヴァレリーのまじりざステッキ - JP Complete
-        id: 111941,
-        name: `ヴァレリーのまじりざステッキ`,
-        translate: `Valerie's Mingled Stick`,
-        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -33068,13 +33068,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
-                def: 0
+                atk: 0,
+                def: 500
             },
         skillset:  
             {
-                skill: `80s CT - 8000% Water DMG (Magic). Increase own Magic DMG by 60% (stackable) and Human allies' Magic DMG by 40% (stackable) for 15s.`,
-                break: 800
+                skill: `30s CT - Heal all allies' HP by 200/s for 10s. Increase all allies' Light resistance by 30% for 20s.`,
+                break: 0
             },
         passive: 
             {
@@ -33120,9 +33120,9 @@ const EquipInformation = [
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_111960.png`,
+                detail: ``,
                 detailmax: `/db/Equipment/Detail/item_detail_111961.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111960.png`,
+                thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111961.png`
             },
         stats:
@@ -43721,10 +43721,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //モモンズ・グレートソード - Missing Lore
+    { //Momon's Greatsword - Missing Lore
         id: 153061,
-        name: `モモンズ・グレートソード`,
-        translate: `Momon's Greatsword`,
+        name: `Momon's Greatsword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -43749,12 +43748,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //漆黒の全身鎧 - Missing Lore
+    { //Dark Plate Armor - Missing Lore
         id: 153071,
-        name: `漆黒の全身鎧`,
-        translate: `Jet Black Full-Body Armor`,
+        name: `Dark Plate Armor`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -43779,11 +43777,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //イルアン・グライベル - Missing Lore
+    { //Járngreipr - Missing Lore
         id: 153081,
-        name: `イルアン・グライベル`,
+        name: `Járngreipr`,
         translate: `Jarngreipr`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -43809,12 +43807,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ネクロプラズミックマント - Missing Lore
+    { //Necroplasmic Mantle - Missing Lore
         id: 153091,
-        name: `ネクロプラズミックマント`,
-        translate: `Necroplasmic Cloak`,
+        name: `Necroplasmic Mantle`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -43839,12 +43836,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //加速の靴 - Missing Lore
+    { //Haste Boots - Missing Lore
         id: 153101,
-        name: `加速の靴`,
-        translate: `Acceleration Boots`,
+        name: `Haste Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -43869,12 +43865,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own Skill DMG by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //デミウルゴスのスーツ - Missing Lore
+    { //Demiurge's Suit - Missing Lore
         id: 153111,
-        name: `デミウルゴスのスーツ`,
-        translate: `Demiurge's Suit`,
+        name: `Demiurge's Suit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -43899,12 +43894,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //デミウルゴスの眼鏡 - Missing Lore
+    { //Demiurge's Glasses - Missing Lore
         id: 153121,
-        name: `デミウルゴスの眼鏡`,
-        translate: `Demiurge's Glasses`,
+        name: `Demiurge's Glasses`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -43929,7 +43923,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //デミウルゴスのグローブ - Missing Lore
         id: 153131,
@@ -43961,10 +43955,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //イビルアイのローブ - Missing Lore
+    { //Lord of First Invern - Missing Lore
         id: 153141,
-        name: `イビルアイのローブ`,
-        translate: `Evileye's Robe`,
+        name: `Lord of First Invern`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -43989,12 +43982,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //イビルアイの仮面 - Missing Lore
+    { //Evileye's Mask - Missing Lore
         id: 153151,
-        name: `イビルアイの仮面`,
-        translate: `Evileye's Mask`,
+        name: `Evileye's Mask`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44019,7 +44011,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Staff of Ainz Ooal Gown' - Missing Lore
         id: 153161,
@@ -44049,7 +44041,7 @@ const EquipInformation = [
                 ability1: `When equipped by Ainz, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True '3F' - Missing Lore
         id: 153171,
@@ -44079,7 +44071,7 @@ const EquipInformation = [
                 ability1: `When equipped by Albedo, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Pipette Lance' - Missing Lore
         id: 153181,
@@ -44109,7 +44101,7 @@ const EquipInformation = [
                 ability1: `When equipped by Shalltear, Increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `When Near-death, heal 1% of own DMG dealt.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Keraunos Mk-III' - Missing Lore
         id: 153191,
@@ -44139,12 +44131,11 @@ const EquipInformation = [
                 ability1: `When equipped by Narberal, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『モモンズ・グレートソード』 - Missing Lore
+    { //True 'Momon's Greatsword' - Missing Lore
         id: 153201,
-        name: `真『モモンズ・グレートソード』`,
-        translate: `True 'Momon's Greatsword'`,
+        name: `True 'Momon's Greatsword'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44170,12 +44161,11 @@ const EquipInformation = [
                 ability1: `When equipped by Momon, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『デミウルゴスのスーツ』 - Missing Lore
+    { //True 'Demiurge's Suit' - Missing Lore
         id: 153211,
-        name: `真『デミウルゴスのスーツ』`,
-        translate: `True 'Demiurge's Suit'`,
+        name: `True 'Demiurge's Suit'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44201,12 +44191,11 @@ const EquipInformation = [
                 ability1: `When equipped by Demiurge, increase own Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『イビルアイの仮面』 - Missing Lore
+    { //True 'Evileye's Mask' - Missing Lore
         id: 153221,
-        name: `真『イビルアイの仮面』`,
-        translate: `True 'Evileye's Mask'`,
+        name: `True 'Evileye's Mask'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44232,7 +44221,7 @@ const EquipInformation = [
                 ability1: `When equipped by Evileye, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //蟇郡 苛の車 - Missing Lore
         id: 153231,
