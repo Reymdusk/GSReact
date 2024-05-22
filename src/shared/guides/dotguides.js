@@ -604,7 +604,7 @@ const TrialGuides = [
             <a href="https://www.grandsummoners.info/units/Sylphiette">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_107536412.png" alt="Sylphiette" class="unitThumb"/>
             </a>
-            <a href="https://www.grandsummoners.info/units/Hart">
+            <a href="https://www.grandsummoners.info/units/Hart%20(Earth)">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart Earth" class="unitThumb"/>
             </a>
             
@@ -1173,10 +1173,10 @@ const TrialGuides = [
 
             <b><center><h2>Sample Team Compositions</h2></center></b>
             <center>
-                <a href="https://www.grandsummoners.info/units/Hart">
+                <a href="https://www.grandsummoners.info/units/Hart%20(Earth)">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart" class="unitThumb"/>
                 </a>
-                <a href="https://www.grandsummoners.info/units/Yoh">
+                <a href="https://www.grandsummoners.info/units/Yoh%20Asakura">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_107476112.png" alt="Yoh" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Hao">
@@ -1342,7 +1342,7 @@ const TrialGuides = [
                 <br/>
                 <br/>
 
-                <a href="https://www.grandsummoners.info/units/Yoh">
+                <a href="https://www.grandsummoners.info/units/Yoh%20Asakura">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_107476112.png" alt="Yoh" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Cestina">

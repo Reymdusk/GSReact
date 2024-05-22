@@ -15631,7 +15631,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Fire Relic 'Bible of the Flaming Knight' is also equipped, Weak-Elemental DMG taken by Fire units 20% DOWN (Only once).`,
+                ability1: `When Fire Relic 'Bible of the Flaming Knight' is also equipped, Water DMG taken by Fire units 20% DOWN (Only once).`,
                 ability2: `When allies are equipped with 4 Fire Relic equipment, 'Unleashing the power of Fire Relics' is activated.`
             },
         lore: `Missing Lore.`
@@ -15662,7 +15662,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Water Relic 'Aqua Dragon's Quartz' is also equipped, Weak-Elemental DMG taken by Water units 20% DOWN (Only once).`,
+                ability1: `When Water Relic 'Aqua Dragon's Quartz' is also equipped, Fire DMG taken by Water units 20% DOWN (Only once).`,
                 ability2: `When allies are equipped with 4 Water Relic equipment, 'Unleashing the power of Water Relics' is activated.`
             },
         lore: `Missing Lore.`
@@ -15693,7 +15693,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Earth Relic 'Gran Forde' is also equipped, Weak-Elemental DMG taken by Earth units 20% DOWN (Only once).`,
+                ability1: `When Earth Relic 'Gran Forde' is also equipped, Water DMG taken by Earth units 20% DOWN (Only once).`,
                 ability2: `When allies are equipped with 4 Earth Relic equipment, 'Unleashing the power of Earth Relics' is activated.`
             },
         lore: `Missing Lore.`
@@ -16147,7 +16147,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Light Relic 'Tin Cane of Relief' is also equipped, Weak-Elemental DMG taken by Light units' 20% DOWN (Only once).`,
+                ability1: `When Light Relic 'Tin Cane of Relief' is also equipped, Dark DMG taken by Light units' 20% DOWN (Only once).`,
                 ability2: `When allies are equipped with 4 Light Relic equipment, "Unleashing the Power of Light Relics" is activated`
             },
         lore: `A Light Relic of a nation that believed the light would save all and was destroyed long ago. It was said that when the world is reborn, whoever holds one of these will also be restored. Lighter than air and radiating divinity, it can only be worn by those who are pure and honest. Any presence of sin and it will flee as if of its own will. When the fated hour is at hand, how many will be found bearing it.`
@@ -16178,7 +16178,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Dark Relic 'Nichts' is also equipped, Weak-Elemental DMG taken by Dark units' 20% DOWN (Only once).`,
+                ability1: `When Dark Relic 'Nichts' is also equipped, Light DMG taken by Dark units' 20% DOWN (Only once).`,
                 ability2: `When allies are equipped with 4 Dark Relic equipment, "Unleashing the Power of Dark Relics" is activated.`
             },
         lore: `A great sword used by one who swore allegiance to the "The Nameless'. His greatest joy of all was severing the heads of his victims. The weapon was forged wit superb durability, so it shows no use signs of wear despite heavy use. He firmly believed that the sensation of it separating head from body proved he was alive. It was said that the madness of his slaughter dyed the blade's edge not in the red of blood, but a darker violet hue.`
@@ -34351,6 +34351,36 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //燐光套『フォスブリオ』(Fosradius Raid Equip) - JP Complete
+        id: 112371,
+        name: `燐光套『フォスブリオ』`,
+        translate: `Phosphorescent Cloak 'Fosbrio'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112371.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - For 12s, increase allies' DMG RES by 15% and Light allies' DMG RES by an additional 15%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own HP Recovery by 25%.`
             },
         lore: `Currently unreleased in Global.`
     },

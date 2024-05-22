@@ -1535,6 +1535,28 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 48,
+        date: `May 22, 2024`,
+        article: 
+        {
+            intro: `Minor update this time as JP has gotten a new Raid boss with a new equip!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`燐光套『フォスブリオ』`, 112371]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
