@@ -6232,7 +6232,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Reduces all Allies' DMG Taken and Light Elemental DMG Taken by 20% for 20s.`,
+                skill: `30s CT - Reduces all Allies' DMG Taken by 10% and Light Elemental DMG Taken by 20% for 20s.`,
                 break: 0
             },
         passive: 
@@ -34375,7 +34375,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - For 12s, increase allies' DMG RES by 15% and Light allies' DMG RES by an additional 15%.`,
+                skill: `40s CT - For 12s, increase allies' DMG resistance by 15% and Light allies' DMG resistance by an additional 15%.`,
                 break: 0
             },
         passive: 
@@ -43955,10 +43955,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //デミウルゴスのグローブ - Missing Lore
+    { //Demiurge's Gloves - Missing Lore
         id: 153131,
-        name: `デミウルゴスのグローブ`,
-        translate: `Demiurge's Gloves`,
+        name: `Demiurge's Gloves`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -43983,7 +43982,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Lord of First Invern - Missing Lore
         id: 153141,

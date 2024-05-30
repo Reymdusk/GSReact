@@ -1552,9 +1552,33 @@ const NewsArticles = [
                 },
             globalUpdate:
                 {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
+    },
+    {
+        id: 49,
+        date: `May 31, 2024`,
+        article: 
+        {
+            intro: `Small update on GL with Part 2 of the Overlord collab introducing a new farmable equip. Moreover, Ragsherum has received his Dream Awakening!`,
+            new: 
+                {
                     units: [],
                     equips: [],
                     dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [
+                        [`Demiurge's Gloves`, 153131]
+                    ],
+                    dream: [
+                        [`Ragsherum`, 101086511]
+                    ]
                 }
         }
     }

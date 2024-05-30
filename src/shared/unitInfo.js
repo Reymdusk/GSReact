@@ -3124,7 +3124,7 @@ const UnitInformation = [
                 evoawk: "A sorcerer who chose to embrace the darkest parts of the Magus Empire of La Riiz. Her particular abilities and tendency toward rash, independent action invited dangerous misunderstandings. She fell into a trap, straining the faith of her friends, yet the unwavering trust of the adventurer broke through to her, and she resolved to face up to her past. Her sorcery thus broke away from her shadowy past to become something brilliant, something greater, something to protect those she held dear."
             }
     },
-    { //Ragsherum - Complete + JP Dream Evo
+    { //Ragsherum - Complete
         id: 101086511,
         name: "Ragsherum",
         rank: "F",
@@ -3140,15 +3140,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101086511.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 5,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -3166,16 +3157,7 @@ const UnitInformation = [
                 def: 2420,
                 defplus: 373
             },
-        skillset: 
-            {
-                skill: "9s CT - 3000% Dark DMG (PHY). Increase own Arts by 9.",
-                skillbreak: 1200,
-                arts: "18500% Dark DMG (PHY). Consumes 20% of own HP. 50% chance to inflict Faint for 5s.",
-                artsbreak: 1900,
-                truearts: "30050% Dark DMG (PHY). 100% chance to inflict Faint for 5s. Consumes 30% of own HP + For 25s, gain a DMG barrier that negates 3000 DMG to self.",
-                trueartsbreak: 4000
-            },
-        skillsetJP: 
+        skillset:
             {
                 skill: "9s CT - 3000% Dark DMG (PHY). Increase own Arts by 30.",
                 skillbreak: 1200,
@@ -3218,7 +3200,7 @@ const UnitInformation = [
                     hover5: "Ragsherum"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
