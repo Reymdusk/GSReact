@@ -34384,6 +34384,67 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『ライジング・ノヴァ』 - JP Complete
+        id: 112381,
+        name: `真『ライジング・ノヴァ』`,
+        translate: `True 'Rising Nova'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 9000% Water DMG (Physical). Reduce enemies' Water resistance by 40% for 10s. Additionally if user is Water, increase own Accuracy by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Star Swordswoman Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own HP Recovery by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //星剣『ライジング・ノヴァ』 - JP Complete
+        id: 112391,
+        name: `星剣『ライジング・ノヴァ』`,
+        translate: `Star Sword 'Rising Nova'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_11239 1.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Water DMG (Physical). Increase own ATK by 80% for 12s. Additionally if user is Water, increase own Skill CT Speed by 80% for 12s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

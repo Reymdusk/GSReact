@@ -1581,6 +1581,31 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 50,
+        date: `June 1, 2024`,
+        article: 
+        {
+            intro: `Chapter 29 has been released in JP, alongside a new unit and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Star Swordswoman Valerie`, 103897212]
+                    ],
+                    equips: [
+                        [`真『ライジング・ノヴァ』`, 112381],
+                        [`星剣『ライジング・ノヴァ』`, 112391]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -25738,6 +25738,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Star Swordswoman Valerie - Missing Lore (JP)
+        id: 103897212,
+        name: `Star Swordswoman Valerie`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103896212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103897212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103896212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103897212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7428,
+                hpplus: 1400,
+                atk: 3836,
+                atkplus: 663,
+                def: 2893,
+                defplus: 601
+            },
+        skillset: 
+            {
+                skill: `13s CT - 1500% Water DMG (PHY). For 10s, reduce enemies' DMG RES by 20% (stackable).`,
+                skillbreak: 500,
+                arts: `18000% Water DMG (PHY). For 30s, increase own ATK and Skill CT Speed by 150%.`,
+                artsbreak: 1000,
+                truearts: `70000% Water DMG (PHY). For 30s, allies ignore 100% of Enemies' DEF and increase Water allies' DMG by 200%.`,
+                trueartsbreak: 1500,
+                superarts: `180000% Water DMG (PHY). Increase current Super Arts DMG Multiplier by an additional [10 x own ATK]%. Additionally, heal lowest ally's HP by 60%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG by 60% for each ally above 70% HP (MAX: 240%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Arts by 5/s when above 90% HP.`,
+                ability3: `Increase own PHY Equip CT Speed by 20%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 220,
+                    hover2: `Frostsprite Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Rising Nova`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112381.png",
+                    skill: `50s CT - 9000% Water DMG (PHY). For 10s, reduce enemies' Water RES by 40%. Additionally if user is Water, for 10s, increase own Accuracy by 30%.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Star Swordswoman Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own HP Recovery by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
