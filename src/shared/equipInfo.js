@@ -34426,7 +34426,7 @@ const EquipInformation = [
                 detail: `/db/Equipment/Detail/item_detail_112390.png`,
                 detailmax: `/db/Equipment/Detail/item_detail_112391.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_112390.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_11239 1.png`
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112391.png`
             },
         stats:
             {
@@ -34442,6 +34442,67 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ディープ・ブラッド』 - JP Complete
+        id: 112401,
+        name: `真『ディープ・ブラッド』`,
+        translate: `True 'Deep Blood'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 7500% Fire DMG (Physical). If enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3). Reduce enemies' Physical resistance by 35% for 8s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `When equipped by Velzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //血鎌『ディープ・ブラッド』 - JP Complete
+        id: 112411,
+        name: `血鎌『ディープ・ブラッド』`,
+        translate: `Blood Scythe 'Deep Blood'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Fire DMG (Physical). Increase own CRI DMG by 50% for 8s. If user is Fire, increase own CRI DMG by 80% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When above 90% HP, increase all allies' Physical DMG by 20%. Does not stack with Abilities of the same name.`
             },
         lore: `Currently unreleased in Global.`
     },

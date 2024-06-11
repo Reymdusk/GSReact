@@ -1606,6 +1606,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 51,
+        date: `June 10, 2024`,
+        article: 
+        {
+            intro: `A second new unit has been released from Chapter 29 in JP, Velzard, alongside his farmable equip and even a new Secret Equip!`,
+            new: 
+                {
+                    units: [
+                        [`Velzard`, 103907112]
+                    ],
+                    equips: [
+                        [`真『ディープ・ブラッド』`, 112401],
+                        [`血鎌『ディープ・ブラッド』`, 112411]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

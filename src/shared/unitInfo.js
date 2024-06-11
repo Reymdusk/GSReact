@@ -7944,7 +7944,7 @@ const UnitInformation = [
     },
     { //Kazlaser - Missing Lore (JP)
         id: 101765411,
-        name: "Kazlaser",
+        name: "Kaz Laser",
         attribute: "Light",
         type: "Human",
         image: 
@@ -24096,8 +24096,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Aristela Orbis - Missing Lore
@@ -25808,6 +25808,84 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Star Swordswoman Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own HP Recovery by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Velzard - Missing Lore (JP)
+        id: 103907112,
+        name: `Velzard`,
+        attribute: `Fire`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103906112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103907112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103906112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103907112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 8030,
+                hpplus: 1510,
+                atk: 2750,
+                atkplus: 490,
+                def: 3150,
+                defplus: 650
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2000% Fire DMG (PHY). Increase own Arts by 25. Additionally if this Skill crits, increase all allies' Arts by 25 (1 HIT).`,
+                skillbreak: 700,
+                arts: `30000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
+                artsbreak: 1200,
+                truearts: `70000% Fire DMG (PHY). For 50s, increase own ATK by 150% and CRI rate by 100%.`,
+                trueartsbreak: 2700,
+                superarts: `170000% Fire DMG (PHY). For 30s, reduce enemies' Fire RES by [60 x # of Bleed stacks]% (MAX: 180%).`,
+                superartsbreak: 3200
+            },
+        passive: 
+            {
+                ability1: `Reduce all allies' DMG taken from enemies with 3 stacks of Bleed by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by 60% for every enemy killed by own attack (MAX: 300%). Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Healing received by 20% (except Lifesteal).`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 220,
+                    hover2: `Flametail Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Deep Blood`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112401.png",
+                    skill: `60s CT - 7500% Fire DMG (PHY). If enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3). For 8s, reduce enemies' PHY RES by 35%.`,
+                    skillbreak: 300,
+                    passive: 
+                        {
+                            ability1: `When equipped by Velzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own Accuracy by 10%.`
                         }
                 },
         lore:   
