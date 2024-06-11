@@ -7944,7 +7944,8 @@ const UnitInformation = [
     },
     { //Kazlaser - Missing Lore (JP)
         id: 101765411,
-        name: "Kaz Laser",
+        name: "Kazlaser",
+        translate: "Kaz Laser",
         attribute: "Light",
         type: "Human",
         image: 
