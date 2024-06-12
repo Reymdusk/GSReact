@@ -1631,6 +1631,39 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 52,
+        date: `June 13, 2024`,
+        article: 
+        {
+            intro: `A new Ninja, Long, has made his debut on GL, alongside Barossa and Dream Awakenings for other existing Ninjas!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Long`, 103557212],
+                        [`Barossa`, 102816512]
+                    ],  
+                    equips: [
+                        [`True 'Yamata'`, 111041],
+                        [`Coldsteel Claws 'Yamata'`, 111051],
+                        [`Cerulean Platemail 'Wrathscale'`, 111061],
+                        [`True 'Shadow Stella'`, 106521]
+                    ],
+                    dream: [
+                        [`Mizuki`, 102826212],
+                        [`Ginzo`, 102836512],
+                        [`Kisaragi`, 102876112],
+                        [`Saku`, 102886312]
+                    ]
+                }
+        }
     }
 ]
 

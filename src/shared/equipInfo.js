@@ -4743,12 +4743,11 @@ const EquipInformation = [
             },
         lore: `A relic, created by the alchemist Alishis, that can control the flow of time around it. It was completed just as his bitter rival Baron Cruze also unveiled a watch-based device of a similar nature. It is said that a woman was deeply involved in getting both of them into the control of time, but more detailed records have never been uncovered.`
     },
-    { //Flicker Bow Heavy Rain - Complete
+    { //Relic 'Petraskia' - Missing Lore
         id: 101691,
-        name: `Flicker Bow Heavy Rain`,
-        location: `General Equip Banner`,
+        name: `Relic 'Petraskia'`,
         type: `/db/Mines/thumbnail/magLB.png`,
-        star: 4,
+        star: 5,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_101690.png`,
@@ -4759,19 +4758,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 120,
+                atk: 250,
                 def: 0
             },
         skillset:  
             {
-                skill: `20s CT - 1500% Light DMG (Magic).`,
-                break: 0
+                skill: `60s CT - 4000% Fire DMG (Magic). 100% chance to inflict Burn for 10s.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own Blind resistance by 10%.`
             },
-        lore: `A battle bow that fires arrows at incredible speed. Numerous records concerning it smashing away multiple incoming foes in a single shot speak to its sheer destructive power. However, that power comes at a cost, meaning few can use it. "Flicker Hand" Lezetta is its most famous owner, handling it like an extra limb and filling her foes with merciless arrows.`
+        lore: `Missing Lore.`
     },
     { //Relic 'Framshilt' - Complete
         id: 101701,
@@ -17154,10 +17153,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『スタリサルダ』 (Barossa's TW) - JP Complete
+{ //True 'Shadow Stella' - Missing Lore
         id: 106521,
-        name: `真『スタリサルダ』`,
-        translate: `True 'Starisarta'`,
+        name: `True 'Shadow Stella'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17184,7 +17182,7 @@ const EquipInformation = [
                 ability1: `When equipped by Barossa, increase own Max HP by 20% and Arts gauge by 2/s (Only once).`,
                 ability2: `Break Power 6% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Arbasol' - Missing Lore
         id: 106531,
@@ -30385,10 +30383,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『八岐』 (Long's TW) - JP Complete
+{ //True 'Yamata' - Missing Lore
         id: 111041,
-        name: `真『八岐』`,
-        translate: `True 'Yamata'`,
+        name: `True 'Yamata'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -30415,12 +30412,11 @@ const EquipInformation = [
                 ability1: `When equipped by Long, increase own DMG by 40% (Only once).`,
                 ability2: `Physical resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //死突爪『八岐』 (Long's Farmable) - JP Complete
+{ //Coldsteel Claws 'Yamata' - Missing Lore
         id: 111051,
-        name: `死突爪『八岐』`,
-        translate: `'Yamata'`,
+        name: `Coldsteel Claws 'Yamata'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30445,11 +30441,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own Accuracy by 20% when HP is 90% or above.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //青藍甲『ラースルーラー』 (Long's Farmable) - JP Complete
+{ //Cerulean Platemail 'Wrathscale' - Missing Lore
         id: 111061,
-        name: `青藍甲『ラースルーラー』`,
+        name: `Cerulean Platemail 'Wrathscale'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -30474,7 +30470,7 @@ const EquipInformation = [
             {
                 ability1: `Disease Time Reduction & Disease Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Glacial Flail 'Dawn Devastator' Replica  - Missing Lore
         id: 111071,

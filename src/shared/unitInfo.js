@@ -15413,7 +15413,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Barossa - Missing Lore (JP)
+    { //Barossa - Missing Lore
         id: 102816512,
         name: "Barossa",
         attribute: "Dark",
@@ -15475,7 +15475,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Starisarta",
+                name: "Shadow Stella",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106521.png",
                 skill: "45s CT - 10000% Dark DMG (PHY). For 10s, increase Allies' DEF by 50%.",
@@ -15488,11 +15488,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "MCurrently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
-    { //Mizuki - Complete + JP ver.
+    { //Mizuki - Complete
         id: 102826212,
         name: "Mizuki",
         rank: "C",
@@ -15506,15 +15506,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102826212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
@@ -15536,26 +15527,12 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2400% Water DMG (PHY). Increase DMG of this Skill by 100% against non-Boss Enemies.",
                 skillbreak: 800,
-                arts: "20000% Water DMG (PHY). 50% chance to inflict Freeze for 3s. Increase own Arts by 20.",
-                artsbreak: 1500,
-                truearts: "For 90s, enter Third Eye. During Third Eye: 50000% Water DMG (PHY). Increase own Arts by 50.",
-                trueartsbreak: 3100
-            },
-        skillsetJP: 
-            {
-                skill: "8s CT - 2400% Water DMG (PHY). Increase DMG of this Skill by 100% against non-Boss Enemies.",
-                skillbreak: 800,
                 arts: "23000% Water DMG (PHY). 80% Chance to inflict Freeze for 4s. Increase own Arts by 20.",
                 artsbreak: 1500,
                 truearts: "For 180s, enter Third Eye. During Third Eye: 75000% Water DMG (PHY). Increase own Arts by 50.",
                 trueartsbreak: 3100
             },
         passive: 
-            {
-                ability1: "Increase Hellfire RES by 60%.",
-                ability2: "When in Third Eye, increase DMG to Fire Enemies by 180%. Heal own HP by 2% of DMG dealt."
-            }, 
-        passiveJP: 
             {
                 ability1: "Increase Hellfire RES by 70%.",
                 ability2: "When in Third Eye, increase DMG to Fire Enemies by 180%. Heal own HP by 2% of DMG dealt."
@@ -15579,7 +15556,7 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15632,7 +15609,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi who served as the leader of Imari Village. She has natural talent as a shinobi, and she was very respected because of that. With both pride and the future of the village on her shoulders, she continued to do assassination jobs in secret in order to sustain it. However, she was unable to hide her deeds forever. When she faced off against a Yoma in the depths of a dark cave, her sworn sisters Shiki and Kisaragi were badly hurt, forcing her to unleash her forbidden shinobi technique right in front of them."
             }
     },
-    { //Ginzo - Complete + JP ver.
+    { //Ginzo - Complete
         id: 102836512,
         name: "Ginzo",
         rank: "F",
@@ -15647,15 +15624,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102836512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -15674,15 +15642,6 @@ const UnitInformation = [
                 defplus: 338
             },
         skillset: 
-            {
-                skill: "10s CT - 3500% Dark DMG (PHY). Increase own Arts by 10.",
-                skillbreak: 900,
-                arts: "17000% Dark DMG (PHY). For 15s, reduce Enemies' PHY RES by 30%.",
-                artsbreak: 1600,
-                truearts: "For 150s, enter Third Eye. During Third Eye: 45000% Dark DMG (PHY). For 15s, increase own DMG by 100% against Light Enemies.",
-                trueartsbreak: 3000
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 3500% Dark DMG (PHY). Increase own Arts by 30.",
                 skillbreak: 900,
@@ -15712,7 +15671,7 @@ const UnitInformation = [
                     hover4: "Oldeus",
                 }
             },
-        dreamJP: {
+        dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -16165,7 +16124,7 @@ const UnitInformation = [
                 evoawk: "A high-ranking shinobi from Yakuno Village. The demon Fox that destroyed the village easily dodged all her attacks and disappeared, despite all the painful trials she had overcome. She lamented her weakness as she lay awake, half-conscious. However, she swore to become stronger in order to support her master after seeing her eyes burning with the flames of vengeance. She gained power almost on par with her master after going through a multitude of near-death experiences alongside her."
             }
     },
-    { //Kisaragi - Complete + JP ver.
+    { //Kisaragi - Complete
         id: 102876112,
         name: "Kisaragi",
         rank: "B-",
@@ -16179,16 +16138,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_102875112.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102876112.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
+        slots:
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -16207,15 +16157,6 @@ const UnitInformation = [
                 defplus: 327
             },
         skillset: 
-            {
-                skill: "14s CT - 4100% Fire DMG (PHY). For 7s, increase own ATK by 10%.",
-                skillbreak: 700,
-                arts: "20000% Fire DMG (PHY). For 15s, increase own ATK by 50% and BE Output by 60%.",
-                artsbreak: 1200,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 45000% Fire DMG (PHY). For 15s, increase Allies' ATK by 100%.",
-                trueartsbreak: 3000
-            },
-        skillsetJP: 
             {
                 skill: "14s CT - 4100% Fire DMG (PHY). For 10s, increase own ATK by 20%.",
                 skillbreak: 700,
@@ -16245,7 +16186,7 @@ const UnitInformation = [
                     hover4: "Flogassa",
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -16298,7 +16239,7 @@ const UnitInformation = [
                 evoawk: "A top-ranked shinobi with extremely powerful ninja technique from Imari Village, located in the east. She fell into despair after losing her apprentice due to her own bad judgement. She grieved, wondering why her apprentice with a bright future died instead of herself, a shinobi stuck in the ways of old. Of course, no matter how much she suffered with this question in her mind, the answer never came. The only thing she knew was that she had to live his share of life in addition to her own. Despite sometimes wavering on the path she had chosen, she continued to tell herself that she must never stop walking."
             }
     },
-    { //Saku - Complete + JP ver.
+    { //Saku - Complete
         id: 102886312,
         name: "Saku",
         rank: "C",
@@ -16312,15 +16253,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102886312.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -16339,15 +16271,6 @@ const UnitInformation = [
                 defplus: 386
             },
         skillset: 
-            {
-                skill: "10s CT - 1700% Earth DMG (PHY). Increase own Arts by 10.",
-                skillbreak: 600,
-                arts: "16400% Earth DMG (PHY). 80% chance to inflict Poison for 15s.",
-                artsbreak: 1000,
-                truearts: "For 150s, enter Third Eye. During Third Eye: 34000% Earth DMG (PHY). For 20s, increase Allies' Water RES by 30% and Freeze RES by 100%.",
-                trueartsbreak: 2200
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1700% Earth DMG (PHY). Increase own Arts by 20.",
                 skillbreak: 600,
@@ -16377,7 +16300,7 @@ const UnitInformation = [
                     hover4: "Flogassa",
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -23869,7 +23792,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { // Long - Missing Lore (JP)
+    { // Long - Missing Lore
         id: 103557212,
         name: "Long",
         attribute: "Water",
@@ -23943,8 +23866,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Miranda (Valentines) - Missing Lore + JP ver
