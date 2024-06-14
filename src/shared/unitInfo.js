@@ -24029,6 +24029,7 @@ const UnitInformation = [
         name: "Aristela Orbis",
         attribute: "Water",
         type: "Spirit",
+        rank: "A+",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103686212.png",
@@ -33946,6 +33947,7 @@ const UnitInformation = [
         name: `Momon`,
         attribute: `Dark`,
         type: `Demon`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107906512.png",
@@ -34028,6 +34030,7 @@ const UnitInformation = [
         name: `Demiurge`,
         attribute: `Fire`,
         type: `Demon`,
+        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107916112.png",
@@ -34110,6 +34113,7 @@ const UnitInformation = [
         name: `Evileye`,
         attribute: `Earth`,
         type: `Demon`,
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107926312.png",
