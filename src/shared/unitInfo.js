@@ -22950,7 +22950,7 @@ const UnitInformation = [
                 artsbreak: 1300,
                 truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.`,
                 trueartsbreak: 2600,
-                superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during True Arts. For 40s, increase own ATK by 100%.`,
+                superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during Super Arts. For 40s, increase own ATK by 100%.`,
                 superartsbreak: 1800
             },
         passive: 
