@@ -1684,7 +1684,7 @@ const NewsArticles = [
             globalUpdate:
                 {
                     units: [
-                        [`Luana`, 103557212]
+                        [`Luana`, 103337412]
                     ],  
                     equips: [
                         [`True 'Millenium Ark'`, 111491],
