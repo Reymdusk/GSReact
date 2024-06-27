@@ -31686,10 +31686,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ミレニアムアーク』 - JP Complete
+    { //True 'Millenium Ark' - Missing Lore
         id: 111491,
-        name: `真『ミレニアムアーク』`,
-        translate: `True 'Millenium Arc'`,
+        name: `True 'Millenium Ark'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31715,12 +31714,11 @@ const EquipInformation = [
                 ability1: `When equipped by Luana, Increase own Arts gauge by 4/s. Does not stack with Abilities of the same name.`,
                 ability2: `Skill DMG 20% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //千呪晶『ミレニアムアーク』 - JP Complete
+    { //Aged Crystal 'Millenium Arc' - Missing Lore
         id: 111501,
-        name: `千呪晶『ミレニアムアーク』`,
-        translate: `Childhood Memento 'Millenium Arc'`,
+        name: `Aged Crystal 'Millenium Arc'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31745,12 +31743,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own Accuracy by 20% when above 90% HP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //リブナルドベレー - JP Complete
+    { //Ribnald Beret - Missing Lore
         id: 111511,
-        name: `リブナルドベレー`,
-        translate: `Ribbed Beret`,
+        name: `Ribnald Beret`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31775,12 +31772,11 @@ const EquipInformation = [
             {
                 ability1: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //煌霊靴『エレメンツ・ロウ』 - JP Complete
+    { //Spirit Steps 'Elements Row' - Missing Lore
         id: 111521,
-        name: `煌霊靴『エレメンツ・ロウ』`,
-        translate: `Gleaming Shoes 'Elements Row'`,
+        name: `Spirit Steps 'Elements Row'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31805,7 +31801,7 @@ const EquipInformation = [
             {
                 ability1: `Heal own HP by 2/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //クレイヴ・ライトニング (Wilkes Raid equip) - JP Complete
         id: 111531,
@@ -34499,6 +34495,37 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `When above 90% HP, increase all allies' Physical DMG by 20%. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ツイン・ファルコン』 - JP Complete
+        id: 112421,
+        name: `真『ツイン・ファルコン』`,
+        translate: `True 'Twin Falcon'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Fire DMG (Physical). Increase own Physical DMG by 40% (stackable) for 8s.`,
+                break: 4000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Azuel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

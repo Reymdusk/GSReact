@@ -15724,7 +15724,7 @@ const UnitInformation = [
                 evoawk: "A spear-wielding warrior who was feared the among other shinobi as the \"Legend of Imari\" Completing his missions was everything to Ginzo, who had given up all of his sense of self. A single full-force strike from him has the power to smash through an enormous boulder. Serving the leader of Imari Village, his spearhead would glisten in the light of the moon as he sneaked through the night. In order to fulfill the mission assigned to him, and to protect his master, Ginzo continued swing his spear with secret feelings hidden in his heart."
             }
     },
-    { //Shiki - Complete + JP ver.
+    { //Shiki - Complete
         id: 102846412,
         name: "Shiki",
         rank: "C",
@@ -15738,15 +15738,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102846412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -15765,15 +15756,6 @@ const UnitInformation = [
                 defplus: 386
             },
         skillset: 
-            {
-                skill: "10s CT - 1600% Light DMG (MAG). 50% chance to inflict Burn on first usage, Poison on second usage, Blind on third usage, and repeat for 8s.",
-                skillbreak: 300,
-                arts: "14000% Light DMG (PHY). Increase DMG of this Arts against Enemies with Status Ailments by 35%. During Third Eye: 14000% Light DMG (PHY). For 10s, increase DMG of this Arts against Enemies with Status Ailments by 35%. Increase own Arts by 50.",
-                artsbreak: 1100,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 30000% Light DMG (PHY). For 20s, increase Allies' Arts by 2/s, reduce Enemies' Status RES by 30%.",
-                trueartsbreak: 1800
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1600% Light DMG (MAG). 50% chance to inflict Burn on first usage, Poison on second usage, Blind on third usage, and repeat for 8s.",
                 skillbreak: 300,
@@ -15803,7 +15785,7 @@ const UnitInformation = [
                     hover4: "Radachne",
                 }
             },
-        dreamJP: {
+        dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15856,7 +15838,7 @@ const UnitInformation = [
                 evoawk: "A noble girl who fought alongside the other shinobi to fight a great Demonic threat in a land in the Far East. Having defeated the Demon Fox once again, completing her mission, two paths were available to her: one where she could live alongside the shinobi of Imari Village, and the other... She did not hesitate in her decision. She put her foot on the ground and began to walk. At the end of a long journey, she arrived at her destination. \"I'm home.\" Her voice that echoed throughout her homeland marked the beginning of a new story."
             }
     },
-    { //Shuri - Complete + JP ver.
+    { //Shuri - Complete
         id: 102856512,
         name: "Shuri",
         rank: "B",
@@ -15870,16 +15852,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_102855512.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102856512.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -15898,15 +15871,6 @@ const UnitInformation = [
                 defplus: 312
             },
         skillset: 
-            {
-                skill: "12s CT - 3300% Dark DMG (PHY). For 6s, reduce Enemies' Faint RES by 30%.",
-                skillbreak: 1000,
-                arts: "18000% Dark DMG (PHY). 80% chance to inflict Faint for 3s + For 10s, reduce Enemies' DMG RES by 25%, if an Enemy was Fainted by this Arts, reduce that Enemy's DMG RES by 50% instead.",
-                artsbreak: 2200,
-                truearts: "For 100s, enter Third Eye. During Third Eye: 56000% Dark DMG (PHY). For 10s, increase Allies' PHY DMG by 50% + increase own DMG by 50% until Third Eye ends (stackable).",
-                trueartsbreak: 4000
-            },
-        skillsetJP: 
             {
                 skill: "12s CT - 3300% Dark DMG (PHY). For 6s, reduce Enemies' Faint RES by 30%.",
                 skillbreak: 1000,
@@ -15937,7 +15901,7 @@ const UnitInformation = [
                     hover4: "Code-XTF",
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15990,7 +15954,7 @@ const UnitInformation = [
                 evoawk: "When she hurried to flee from the rising flames in front of her, what was waiting for her was the sight of her village destroyed, the culprit unknown. Within this miserable situation, she found the shinobi with prosthetic legs collapsed on the ground, who spoke to her the truth. Shuri cursed herself for not being able to see the true meaning behind the Divine Blade. Having lost so much, she left behind the village burnt to the ground, her eyes filled with rage toward the Demon Fox who took everything from her."
             }
     },
-    { //Amane - Complete + JP ver.
+    { //Amane - Complete
         id: 102866412,
         name: "Amane",
         rank: "B-",
@@ -16005,15 +15969,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102866412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -16032,15 +15987,6 @@ const UnitInformation = [
                 defplus: 386
             },
         skillset: 
-            {
-                skill: "9s CT - 1700% Light DMG (PHY). Increase own Arts by 10. Increase own Arts by 4 each time own Skill crits.",
-                skillbreak: 800,
-                arts: "16000% Light DMG (PHY). For 20s, increase Allies' Accuracy by 50%, own Critical DMG by 150%.",
-                artsbreak: 1300,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 32000% Light DMG (PHY). For 20s, increase Light and Dark Allies' DMG by 120%.",
-                trueartsbreak: 2400
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1700% Light DMG (PHY). Increase own Arts by 10. Increase own Arts by 5 each time own Skill crits.",
                 skillbreak: 800,
@@ -16071,7 +16017,7 @@ const UnitInformation = [
                     hover4: "Wilkes",
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -16353,7 +16299,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi from Imari Village who lived for the sake of the person he loved. At the end of the battle with Yakuno Village, he was stabbed in the back by the blade of the enemy. Though his consciousness was fading, he found relief in knowing that his master was safe. Held in the arms of his beloved, he smiled softly before slowly closing his eyes as his life ended. The events that occurred during the conflict between the two villages were spoken of through generations as a tragedy embodying the pride and fate of the shinobi."
             }
     },
-    { //Tamae - Complete + JP ver.
+    { //Tamae - Complete
         id: 102896112,
         name: "Tamae",
         rank: "B",
@@ -16368,15 +16314,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102896112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -16395,15 +16332,6 @@ const UnitInformation = [
                 defplus: 392
             },
         skillset: 
-            {
-                skill: "12s CT - 4400% Dark DMG (MAG). 60% chance to inflict Blind for 12s.",
-                skillbreak: 600,
-                arts: "16000% Dark DMG (MAG). For 35s, reduce Enemies' ATK, PHY RES, and Blind RES by 10% (stackable). For 15s, increase Dark Allies' Arts by 2/s.",
-                artsbreak: 1300,
-                truearts: "50000% Fire DMG (PHY). For 60s, reduce Enemies' Fire RES by 20% (stackable).",
-                trueartsbreak: 2000
-            },
-        skillsetJP: 
             {
                 skill: "12s CT - 4400% Dark DMG (MAG). 60% Chance to inflict Blind for 12s.",
                 skillbreak: 600,
@@ -16437,7 +16365,7 @@ const UnitInformation = [
                     hover5: "Ragsherum Phantom"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -24348,7 +24276,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Luana - Missing Lore (JP)
+    { //Luana - Missing Lore
         id: 103337412,
         name: `Luana`,
         attribute: `Light`,
@@ -24357,8 +24285,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103336412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103337412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_333_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103336412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103337412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103337412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_333_1.png"
             },
         slots: 
             {
@@ -24394,6 +24324,14 @@ const UnitInformation = [
             {
                 ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
                 ability2: `When self is Leader, increase all Allies' Max HP by 30%.`,
+                ability3: `Increase own Curse RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Luana's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Luana's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
+                ability2: `When self is Leader, increase all Allies' Max HP by 30%.`,
                 ability3: `Increase own Curse RES by 100%.`
             }, 
         evolution: 
@@ -24409,7 +24347,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Millenium Ark`,
+                name: `Millenium Arc`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111491.png",
                 skill: `45s CT - 7000% Light DMG (MAG). For 10, Increase own Magic DMG & DMG to Giant Bosses by 35%.`,
@@ -24422,8 +24360,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Iris - Missing Lore (JP)
@@ -25811,6 +25749,84 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Velzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own Accuracy by 10%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Azuel - Missing Lore (JP)
+        id: 103917112,
+        name: `Azuel`,
+        attribute: `Fire`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103916112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103917112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103916112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103917112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7146,
+                hpplus: 1349,
+                atk: 3940,
+                atkplus: 680,
+                def: 3056,
+                defplus: 632
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2500% Fire DMG (PHY). Increase own Arts by 40 and Regalia Gauge by 40 (MAX: 300).`,
+                skillbreak: 1000,
+                arts: `20000% Fire DMG (PHY). For 30s, reduce enemies' Break RES by 40%.`,
+                artsbreak: 2000,
+                truearts: `65000% Fire DMG (PHY). For 30s, increase own DMG by 150%. Each time True Arts is used, permanently increase all allies' stats by 10% (MAX: 40%).`,
+                trueartsbreak: 3000,
+                superarts: `160000% Fire DMG (PHY). Consume current Regalia Gauge. For 30s, increase Fire allies' DMG by [1 x Regalia consumed]% (MAX: 300%). Additionally if 100 or more Regalia is consumed, for 30s, increase all Fire allies' Break Power by 150%. Additionally if 300 Regalia is consumed, for 30s, increase all Fire allies' Accuracy by 150%.`,
+                superartsbreak: 7000
+            },
+        passive: 
+            {
+                ability1: `Increase own Regalia Gauge by 4/s. When own HP is 100%, increase own Regalia Gauge by 8/s instead. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Freeze RES by 100%.`,
+                ability3: `Increase own DMG against enemies in BREAK by 50%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 220,
+                    hover2: `Flametail Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Twin Falcon`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112421.png",
+                    skill: `45s CT - 8000% Fire DMG (PHY). For 8s, increase own PHY DMG by 40% (stackable).`,
+                    skillbreak: 4000,
+                    passive: 
+                        {
+                            ability1: `When equipped by Azuel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own ATK by 5%.`
                         }
                 },
         lore:   
@@ -33868,8 +33884,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
     { //OiKatzo - Missing Lore
@@ -33938,8 +33954,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
     { //Momon - Missing Lore
@@ -34191,7 +34207,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Uzu Sanageyama - Missing Lore
+    { //Uzu Sanageyama - JP Complete
         id: 107937312,
         name: `Uzu Sanageyama`,
         attribute: `Earth`,
@@ -34269,11 +34285,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
-    { //Houka Inumuta - Missing Lore
+    { //Houka Inumuta - JP Complete
         id: 107947212,
         name: `Houka Inumuta`,
         attribute: `Water`,
@@ -34351,11 +34367,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
-    { //Ira Gamagori - Missing Lore
+    { //Ira Gamagori - JP Complete
         id: 107957512,
         name: `Ira Gamagori`,
         attribute: `Dark`,
@@ -34433,11 +34449,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
-    { //Nonon Jakuzure - Missing Lore
+    { //Nonon Jakuzure - JP Complete
         id: 107967412,
         name: `Nonon Jakuzure`,
         attribute: `Light`,
@@ -34515,8 +34531,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     }
 ];

@@ -1664,6 +1664,42 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 53,
+        date: `June 26, 2024`,
+        article: 
+        {
+            intro: `A new unit is introduced alongside the new content of Grand Battle in JP. Meanwhile on Global, Chapter 24 has been released with Luana and a bunch of Ninja Dream Awakenings!`,
+            new: 
+                {
+                    units: [
+                        [`Azuel`, 103917112]
+                    ],
+                    equips: [
+                        [`真『ツイン・ファルコン』`, 112421]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Luana`, 103557212]
+                    ],  
+                    equips: [
+                        [`True 'Millenium Ark'`, 111491],
+                        [`Aged Crystal 'Millenium Arc'`, 111501],
+                        [`Ribnald Beret`, 111511],
+                        [`Spirit Steps 'Elements Row'`, 111521]
+                    ],
+                    dream: [
+                        [`Shiki`, 102846412],
+                        [`Shuri`, 102856512],
+                        [`Amane`, 102866412],
+                        [`Tamae`, 102896112]
+                    ]
+                }
+        }
     }
 ]
 
