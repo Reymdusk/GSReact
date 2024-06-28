@@ -1700,6 +1700,38 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 54,
+        date: `June 28, 2024`,
+        article: 
+        {
+            intro: `Fate Collab is back in JP, but this time with a Summer twist!`,
+            new: 
+                {
+                    units: [
+                        [`Summer Chloe`, 107997412],
+                        [`Summer Bazett`, 108007212],
+                    ],
+                    equips: [
+                        [`真『クロエの水着』`, 153421],
+                        [`真『バゼットの水着』`, 153441],
+                        [`想い出のブレスレット`, 153471],
+                        [`クロエの水着`, 153541],
+                        [`クロエのスイムワンピ`, 153551],
+                        [`バゼットの水着`, 153581],
+                        [`バゼットのエプロン`, 153591],
+                        [`斬り抉る戦神の剣`, 153601]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

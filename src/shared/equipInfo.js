@@ -44912,6 +44912,756 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    /*
+    { // - Missing Lore
+        id: 153401,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153411,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //真『クロエの水着』 - Missing Lore
+        id: 153421,
+        name: `真『クロエの水着』`,
+        translate: `True 'Chloe's Swimsuit'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `25s CT - 5000% Light DMG (PHY). Reduce enemies' Light RES by 15% (stackable) for 15s. If user is Human, increase own Arts by 10.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Chloe, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { // - Missing Lore
+        id: 153431,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //真『バゼットの水着』 - Missing Lore
+        id: 153441,
+        name: `真『バゼットの水着』`,
+        translate: `True 'Bazett's Swimsuit'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 12000% Water DMG (PHY). If user is Water, reduce enemies' DMG RES by 20% for 10s. If user is Water and when own HP is above 80%, reduce enemies' DMG RES by 35% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Bazett, increase own DMG by 50% and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { // - Missing Lore
+        id: 153451,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153461,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //想い出のブレスレット - Missing Lore
+        id: 153471,
+        name: `想い出のブレスレット`,
+        translate: `Memory Bracelet`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 5000% Water DMG (MAG). Increase own Arts by 30. Increase own MAG DMG by 40% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own MAG RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { // - Missing Lore
+        id: 153481,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153481.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153491,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153501,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153511,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153511.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153521,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153531,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //クロエの水着 - Missing Lore
+        id: 153541,
+        name: `クロエの水着`,
+        translate: `Chloe's Swimsuit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 5000% Light DMG (PHY). Increase own PHY DMG by 40% for 12s. If user is Light, increase own PHY DMG by 80% instead. When used for the first time, increase own Arts by 70.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //クロエのスイムワンピ - Missing Lore
+        id: 153551,
+        name: `クロエのスイムワンピ`,
+        translate: `Chloe's Swim Onesie`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153551.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `25s CT - Heal all allies' HP by 2000 and cure all allies' Poison.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { // - Missing Lore
+        id: 153561,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153561.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153571,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //バゼットの水着 - Missing Lore
+        id: 153581,
+        name: `バゼットの水着`,
+        translate: `Bazett's Swimsuit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 5000% Water DMG (PHY). Reduce enemies' Water RES by 40% for 10s. When used for the first time, reduce enemies' Water RES by 60% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //バゼットのエプロン - Missing Lore
+        id: 153591,
+        name: `バゼットのエプロン`,
+        translate: `Bazett's Apron`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' HP by 1500. Increase all allies' PHY RES by 40% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //斬り抉る戦神の剣 - Missing Lore
+        id: 153601,
+        name: `斬り抉る戦神の剣`,
+        translate: `Fragarach`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Water DMG (PHY). Reduce enemies' PHY RES by 30% for 10s. If used when own HP is above 90%, reduce enemies' PHY RES by 50% instead.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { // - Missing Lore
+        id: 153611,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153621,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { // - Missing Lore
+        id: 153631,
+        name: ``,
+        translate: ``,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
 ]
 
 export function getEquips() {
