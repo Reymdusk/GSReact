@@ -116,7 +116,6 @@ function DisplayAccordion({unit}) {
             <DisplayRank unit={unit} rank="B-" />
             <DisplayRank unit={unit} rank="C" />
             <DisplayRank unit={unit} rank="F" />
-            <DisplayRank unit={unit} rank="TBD" />
         </UncontrolledAccordion>
     )
 }
@@ -124,14 +123,12 @@ function DisplayAccordion({unit}) {
 function DisplayLuck({unit}) {
     return (
         <UncontrolledAccordion flush defaultOpen={["SSS", "SS", "S", "A", "B", "C", "F", "TBD"]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
-            <DisplayLuckRank unit={unit} rank="SSS" />
             <DisplayLuckRank unit={unit} rank="SS" />
             <DisplayLuckRank unit={unit} rank="S" />
             <DisplayLuckRank unit={unit} rank="A" />
             <DisplayLuckRank unit={unit} rank="B" />
             <DisplayLuckRank unit={unit} rank="C" />
             <DisplayLuckRank unit={unit} rank="F" />
-            <DisplayLuckRank unit={unit} rank="TBD" />
         </UncontrolledAccordion>
     )
 }
