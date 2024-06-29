@@ -29737,7 +29737,7 @@ const UnitInformation = [
         id: 107436412,
         name: "New Years Milim",
         rank: "A",
-        luckrank: "SSS",
+        luckrank: "S",
         attribute: "Light",
         type: "Demon",
         image: 
