@@ -26855,7 +26855,7 @@ const UnitInformation = [
         name: "Rimuru (Human form)",
         attribute: "Water",
         rank: "S",
-        luckrank: "S",
+        luckrank: "A",
         type: "Demon",
         image: 
             {
@@ -27032,7 +27032,7 @@ const UnitInformation = [
         id: 107166112,
         name: "Milim",
         rank: "A-",
-        luckrank: "S",
+        luckrank: "A",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -27162,7 +27162,7 @@ const UnitInformation = [
         id: 107176112,
         name: "Benimaru",
         rank: "A-",
-        luckrank: "S",
+        luckrank: "A",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -27422,7 +27422,7 @@ const UnitInformation = [
     { //Priestess - Complete (+ JP version)
         id: 107196412,
         name: "Priestess",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "S",
         attribute: "Light",
         type: "Human",
@@ -27553,7 +27553,7 @@ const UnitInformation = [
     { //High Elf Archer - Complete (+ JP version)
         id: 107206312,
         name: "High Elf Archer",
-        luckrank: "SS",
+        luckrank: "S",
         rank: "A-",
         attribute: "Earth",
         type: "Spirit",
@@ -28256,7 +28256,7 @@ const UnitInformation = [
         id: 107286212,
         name: "Melty",
         rank: "A+",
-        luckrank: "SSS",
+        luckrank: "A",
         attribute: "Water",
         type: "Human",
         image: 
@@ -28775,7 +28775,7 @@ const UnitInformation = [
     { //Emilia - Complete (+ JP version), Review done
         id: 107346212,
         name: "Emilia",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "A",
         attribute: "Water",
         type: "God",
@@ -29098,7 +29098,7 @@ const UnitInformation = [
     { //Beatrice - Complete (+ JP version), Review done
         id: 107376512,
         name: "Beatrice",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "B",
         attribute: "Dark",
         type: "Spirit",
@@ -29213,7 +29213,7 @@ const UnitInformation = [
         id: 107396212,
         name: "Santa Rimuru",
         rank: "A+",
-        luckrank: "SSS",
+        luckrank: "A",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -29604,7 +29604,7 @@ const UnitInformation = [
         id: 107426512,
         name: "New Years Rimuru",
         rank: "A-",
-        luckrank: "SS",
+        luckrank: "A",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -30771,7 +30771,7 @@ const UnitInformation = [
     { //Lucy Heartfilia - Complete (+ JP version), Review done
         id: 107566412,
         name: "Lucy Heartfilia",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "A-",
         attribute: "Light",
         type: "Human",
@@ -30917,7 +30917,7 @@ const UnitInformation = [
         id: 107576212,
         name: "Gray Fullbuster",
         rank: "B+",
-        luckrank: "SSS",
+        luckrank: "S",
         attribute: "Water",
         type: "Human",
         image: 
@@ -31208,7 +31208,7 @@ const UnitInformation = [
         id: 107596512,
         name: "Nui Harime",
         rank: "A-",
-        luckrank: "SS",
+        luckrank: "A",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -33777,6 +33777,7 @@ const UnitInformation = [
         name: `Sunraku`,
         attribute: `Fire`,
         rank: `SS`,
+        luckrank: `SS`,
         type: `Human`,
         image: 
             {
@@ -33847,6 +33848,7 @@ const UnitInformation = [
         name: `Psyger-0`,
         attribute: `Light`,
         rank: `S`,
+        luckrank: `A`,
         type: `Human`,
         image: 
             {
@@ -33917,6 +33919,7 @@ const UnitInformation = [
         name: `Arthur Pencilgon`,
         attribute: `Dark`,
         rank: `SS`,
+        luckrank: `S`,
         type: `Human`,
         image: 
             {
@@ -33987,6 +33990,7 @@ const UnitInformation = [
         name: `OiKatzo`,
         attribute: `Fire`,
         rank: `S`,
+        luckrank: `A`,
         type: `Human`,
         image: 
             {
