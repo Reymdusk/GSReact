@@ -3698,7 +3698,7 @@ const EquipInformation = [
         id: 101291,
         name: `Metal Bangle`,
         location: `General Equip Banner`,
-        type: `/db/Mines/thumbnail/healLB.png`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
             {
