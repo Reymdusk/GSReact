@@ -3698,7 +3698,7 @@ const EquipInformation = [
         id: 101291,
         name: `Metal Bangle`,
         location: `General Equip Banner`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
             {
@@ -32132,10 +32132,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //キルモンソード - JP Complete
+    { //Kilmon Sword - Missing Lore
         id: 111641,
-        name: `キルモンソード`,
-        translate: `Kilmon Sword`,
+        name: `Kilmon Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32160,12 +32159,11 @@ const EquipInformation = [
             {
                 ability1: `Tasmon's Courage: When allies have all 3 Tasmon Equipment equipped, increase user's CRI DMG by 70%. (Only Once)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //デフモンシールド - JP Complete
+    { //Defmon Shield - Missing Lore
         id: 111651,
-        name: `デフモンシールド`,
-        translate: `Defmon Shield`,
+        name: `Defmon Shield`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32190,12 +32188,11 @@ const EquipInformation = [
             {
                 ability1: `Tasmon's Bond: When allies have all 3 Tasmon Equipment equipped, increase user's CRI resistance by 40%. (Only Once)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //タフモンロッド - JP Complete
+    { //Tufmod Rod - Missing Lore
         id: 111661,
-        name: `タフモンロッド`,
-        translate: `Tufmod Rod`,
+        name: `Tufmod Rod`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32220,7 +32217,7 @@ const EquipInformation = [
             {
                 ability1: `Tasmon's Wisdom: When allies have all 3 Tasmon Equipment equipped, increase user's Arts by 2/s. (Only Once)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //絶凍靴『フロストペイン』 - JP Complete
         id: 111671,

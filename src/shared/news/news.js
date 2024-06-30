@@ -1690,7 +1690,10 @@ const NewsArticles = [
                         [`True 'Millenium Ark'`, 111491],
                         [`Aged Crystal 'Millenium Arc'`, 111501],
                         [`Ribnald Beret`, 111511],
-                        [`Spirit Steps 'Elements Row'`, 111521]
+                        [`Spirit Steps 'Elements Row'`, 111521],
+                        [`Kilmon Sword`, 111641],
+                        [`Defmon Shield`, 111651],
+                        [`Tufmon Rod`, 111661],
                     ],
                     dream: [
                         [`Shiki`, 102846412],
