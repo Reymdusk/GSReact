@@ -43628,7 +43628,7 @@ const EquipInformation = [
     },
     { //Vorpal Chopper EV - Missing Lore
         id: 152971,
-        translate: `Vorpal Chopper EV`,
+        name: `Vorpal Chopper EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
