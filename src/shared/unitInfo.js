@@ -26313,7 +26313,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Saitama - Complete
+    { //Saitama - Complete + JP ver
         id: 107076412,
         name: "Saitama",
         luckrank: "B",
@@ -26324,10 +26324,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107075412.png",
                 detailawk: "/db/Units/Detail/unit_detail_107076412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_707_1.png",                            
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107075412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107076412.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107076412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_707_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -26347,6 +26358,15 @@ const UnitInformation = [
             },
         skillset: 
             {
+                skill: "8s CT - 3200% Light DMG (PHY). Increase own Arts by 20.",
+                skillbreak: 2000,
+                arts: "30000% Light DMG (PHY). For 40s, increase own Arts by 5/s.",
+                artsbreak: 2000,
+                truearts: "200000% Light DMG (PHY).",
+                trueartsbreak: 6000
+            },
+        skillsetJP: 
+            {
                 skill: "8s CT - 3200% Light DMG (PHY).",
                 skillbreak: 2000,
                 arts: "20000% Light DMG (PHY). For 30s, increase own Arts by 5/s.",
@@ -26355,6 +26375,14 @@ const UnitInformation = [
                 trueartsbreak: 6000
             },
         passive: 
+            {
+                ability1: "Increase DMG to Giant Bosses by 50%.",
+                ability2: "Increase DEF by 50% when under a DMG barrier.",
+                ability3: "Increase Status RES (except Faint) by 100%. When damaged while near-death, for 20s, gain a DMG barrier that negates 2800 DMG. Ability can only be activated once every 60s.",
+                ability4: `Unit EXP UP 20% UP. (When Saitama's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saitama's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase DMG to Giant Bosses by 50%.",
                 ability2: "Increase DEF by 50% when under a DMG barrier.",
@@ -26373,13 +26401,48 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
+        dream: 
+            {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 30,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 1,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Demons by 100%.`,
+                        ability2: `Increase own DMG against Dragons by 100%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 30,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 1,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Gods by 100%.`,
+                        ability2: `Increase own DMG against Beasts by 100%.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo5: "Originally only a Hero by hobby, Saitama eventually registered with the Hero Association. When younger, he was extremely weak. But after undergoing training so intense as to lose his hair, he achieved superhuman powers. Saitama is so strong some even say a god resides within his body.",
                 evoawk: "A professional Hero with superhuman powers. His powers are accurately described by his name, since Saitama is the most powerful man to exist, defeating his enemies in ONE PUNCH. However, few acknowledge his true strength."
             }
     },
-    { //Genos - Complete
+    { //Genos - Complete + JP ver
         id: 107086512,
         name: "Genos",
         rank: "F",
@@ -26413,11 +26476,20 @@ const UnitInformation = [
             },
         skillset: 
             {
+                skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 1400,
+                arts: "22000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
+                artsbreak: 2800,
+                truearts: "48000% Dark DMG (MAG). For 15s, reduce own Action Speed by 15% and increase Allies' (except self) Skill CT REC by 120%.",
+                trueartsbreak: 3500
+            },
+        skillsetJP: 
+            {
                 skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 5.",
                 skillbreak: 1400,
                 arts: "15000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
                 artsbreak: 2800,
-                truearts: "30000% Dark DMG (MAG). For 10s, reduce own Movement Speed by 15%, increase Allies' (except self) Skill CT REC by 100%.",
+                truearts: "30000% Dark DMG (MAG). For 10s, reduce own Action Speed by 15%, increase Allies' (except self) Skill CT REC by 100%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -26444,7 +26516,7 @@ const UnitInformation = [
                 evoawk: "A cyborg S-Class Hero with mechanized weapons of mass destruction embedded all over his body. Any enemy would fear of his destructive attacks that even risk Genos' own life."
             }
     },
-    { //Terrible Tornado - Complete
+    { //Terrible Tornado - Complete + JP ver
         id: 107096312,
         name: "Terrible Tornado",
         luckrank: "F",
@@ -26455,10 +26527,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107095312.png",
                 detailawk: "/db/Units/Detail/unit_detail_107096312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_709_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107095312.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107096312.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107096312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_709_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -26480,12 +26563,29 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2000% Earth DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
                 skillbreak: 2000,
+                arts: "22000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 25%.",
+                artsbreak: 4200,
+                truearts: "70000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 10s, increase all Allies' Break PWR by 100%.",
+                trueartsbreak: 8000
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2000% Earth DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
+                skillbreak: 2000,
                 arts: "17000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 25%.",
                 artsbreak: 4200,
                 truearts: "32000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 8s, increase all Allies' Break PWR by 50%.",
                 trueartsbreak: 8000
             },
         passive: 
+            {
+                ability1: "Increase Arts by 2/s.",
+                ability2: "Increase BE generation by 100% against Enemies in Break.",
+                ability3: "Increase MAG RES by 30%. Increase DMG by 200% to Enemies in Break.",
+                ability4: `Unit EXP UP 20% UP. (When Terrible Tornado's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Terrible Tornado's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase Arts by 2/s.",
                 ability2: "Increase BE generation by 100% against Enemies in Break.",
@@ -26504,13 +26604,46 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
+            dream: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 30,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 1,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Water enemies by 100%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 30,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 1,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo5: "She is registered with the Hero Association. She was given the nickname 'Terrible Tornado' due to her outstanding but terrifying abilities in battle. She is specialized in psychic skills, especially in wide-range telekinesis attacks.",
                 evoawk: "The S-Class Rank-2 Hero in the Hero Association. It's not an overstatement to say she's the Hero Association's last card against threats against humanity. Facing her infinite strength, her enemies cannot even raise a finger after the hurt they find themselves in."
             }
     },
-    { //Boros - Complete
+    { //Boros - Complete + JP ver
         id: 107106511,
         name: "Boros",
         luckrank: "F",
@@ -26544,14 +26677,28 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 1666% Dark DMG (PHY).  For 7s, increase own Skill CT REC by 20%.",
+                skill: "9s CT - 1666% Dark DMG (PHY). For 7s, increase own Skill CT REC by 20%.",
                 skillbreak: 1444,
-                arts: "14444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 50%, and Break Power by 50% against Enemies not in BREAK.",
+                arts: "24444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 100% and Break Power by 100% against Enemies not in BREAK.",
+                artsbreak: 2222,
+                truearts: "66666% Dark DMG (MAG). Consume 30% of own HP. For 15s, increase own True Arts' Critical Rate by 100%, and reduce Enemies' Fire, Water, Earth, Light and Dark RES by 30%.",
+                trueartsbreak: 4444
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1666% Dark DMG (PHY). For 7s, increase own Skill CT REC by 20%.",
+                skillbreak: 1444,
+                arts: "14444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 50% and Break Power by 50% against Enemies not in BREAK.",
                 artsbreak: 2222,
                 truearts: "26666% Dark DMG (MAG). Consume 30% of own HP. For 10s, increase own True Arts' Critical Rate by 100%, reduce Enemies' Fire, Water, Earth, Light and Dark RES by 20%.",
                 trueartsbreak: 4444
             },
         passive: 
+            {
+                ability1: "Increase Dark RES by 20%.",
+                ability2: "At the start of a Quest, for 60s, increase stats by 15%. Heal own HP by 200/s."
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase Dark RES by 20%.",
                 ability2: "At the start of a Quest, for 60s, increase stats by 15%. Heal own HP by 100/s."
@@ -27682,7 +27829,7 @@ const UnitInformation = [
                 evoawk: "A High Elf ranger. She's not skilled at close combat, but he marksmanship and physical abilities offer powerful support from the rear, so her Silver adventurer rank is well-earned. She left her home to see the world as an adventurer, and now her main goal is to show Goblin Slayer the joys of adventuring."
             }
     },
-    { //Sonic - Complete
+    { //Sonic - Complete + JP ver
         id: 107216512,
         name: "Sonic",
         luckrank: "F",
@@ -27693,10 +27840,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107215512.png",
                 detailawk: "/db/Units/Detail/unit_detail_107216512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_721_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107215512.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107216512.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107216512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_721_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -27718,12 +27876,28 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2100% Fire DMG (PHY). For 5s, reduce Enemies' DEF by 20%.",
                 skillbreak: 400,
+                arts: "25000% Dark DMG (PHY). For 20s, increase own PHY evasion by 30% and Arts by 5/s.",
+                artsbreak: 900,
+                truearts: "65000% Dark DMG (PHY). For 20s, increase own evasion by 30% and Critical Rate by 200%.",
+                trueartsbreak: 1200
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2100% Fire DMG (PHY). For 5s, reduce Enemies' DEF by 20%.",
+                skillbreak: 400,
                 arts: "18000% Dark DMG (PHY). For 15s, increase own PHY evasion by 30% and Arts by 3/s.",
                 artsbreak: 900,
                 truearts: "40000% Dark DMG (PHY). For 20s, increase own evasion by 30% and Critical Rate by 200%.",
                 trueartsbreak: 1200
             },
         passive: 
+            {
+                ability1: "Increase PHY evasion by 10%.",
+                ability2: "Increase Equipment CT REC by 20%. DMG increases by the magnitude of Critical Rate buffs.",
+                ability3: `Unit EXP UP 20% UP. (When Sonic's SP. Art is owned)`,
+                ability4: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sonic's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase PHY evasion by 10%.",
                 ability2: "Increase Equipment CT REC by 10%. DMG increases by the magnitude of Critical Rate buffs."
@@ -27741,13 +27915,47 @@ const UnitInformation = [
                     hover3: "Oldeus",
                 }
             },
+        dream: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 30,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                        mat3amt: 1,
+                        hover3: "Geo Zagnus",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase allies' PHY DMG by 30%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 30,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 1,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 60%.`,
+                        ability2: `Increase Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },    
         lore: 
             {   
                 evo5: "A ninja with absolute confidence in speed. He is obsessed with Saitama because he was once defeated by him. His objective is only to beat him as well.",
                 evoawk: "He is the self-proclaimed 'Strongest Ninja'. He is equal in ability as the S-Class Hero, Genos. His obsession to defeat Saitama is so deep, he is prepared to do anything."
             }
     },
-    { //Hellish Blizzard - Complete
+    { //Hellish Blizzard - Complete + JP ver
         id: 107226212,
         name: "Hellish Blizzard",
         luckrank: "F",
@@ -27758,10 +27966,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107225212.png",
                 detailawk: "/db/Units/Detail/unit_detail_107226212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_722_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107225212.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107226212.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107226212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_722_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -27783,12 +28002,29 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Movement Speed by 10%.",
                 skillbreak: 1000,
-                arts: "14000% Water DMG (MAG). 60% chance to inflict Faint for 3s. Increase Allies' BE generation by 80% for 10s.",
+                arts: "20000% Water DMG (MAG). 80% chance to inflict Faint for 5s. For 20s, increase Allies' BE Output by 100%.",
+                artsbreak: 2000,
+                truearts: "65000% Water DMG (MAG). For 15s, increase Allies' MAG DMG by 200% and reduce enemies' MAG RES by 30%.",
+                trueartsbreak: 2400
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Movement Speed by 10%.",
+                skillbreak: 1000,
+                arts: "14000% Water DMG (MAG). 60% chance to inflict Faint for 3s. For 10s, increase Allies' BE Output by 80% for 10s.",
                 artsbreak: 2000,
                 truearts: "30000% Water DMG (MAG). For 15s, increase Allies' MAG DMG by 120%.",
                 trueartsbreak: 2400
             },
         passive: 
+            {
+                ability1: "At the start of a Quest, gain a DMG barrier that negates 2500 DMG.",
+                ability2: "Increase Arts by 3/s.",
+                ability3: "Increase DMG to Fire Enemies by 100%.",
+                ability4: `Unit EXP UP 20% UP. (When Hellish Blizzard's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Hellish Blizzard's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "At the start of a Quest, gain a DMG barrier that negates 2500 DMG.",
                 ability2: "Increase Arts by 2/s.",
@@ -27807,13 +28043,47 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
+            dream: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 30,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 1,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Fire RES by 20%. Does not stack with Abilities of the same name.    `,
+                        ability2: `Increase own Break Power against Fire enemies by 100%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 30,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 1,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAG DMG by 40%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo5: "She is registered with the Hero Association. She is a B-Class Rank-1 Hero and the leader of the Blizzard group of B-Class Heroes.",
                 evoawk: "She is a B-Class Rank 1 Hero. She is a powerful psychic, and biological sister of the S-Class Rank 2 Hero, Terrible Tornado."
             }
     },
-    { //Garou - Complete
+    { //Garou - Complete + JP ver
         id: 107236512,
         name: "Garou",
         rank: "B+",
@@ -27824,10 +28094,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107235512.png",
                 detailawk: "/db/Units/Detail/unit_detail_107236512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_723_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107235512.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107236512.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107236512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_723_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -27849,12 +28130,28 @@ const UnitInformation = [
             {
                 skill: "7s CT - 1800% Dark DMG (PHY). For 4s, reduce Enemies' accuracy by 10%.",
                 skillbreak: 500,
-                arts: "19000% Dark DMG (PHY). For 20s, reduce Enemies' evasion by 30%, increase own accuracy by 50% and Skill CT REC by 70%.",
+                arts: "33000% Dark DMG (PHY). For 20s, reduce enemies' Evasion rate by 70%. For 40s, increase own Accuracy by 70% and Skill CT REC by 70%.",
+                artsbreak: 1700,
+                truearts: "80000% Dark DMG (PHY). Permanently increase own Arts DMG by 100% (up to 500%).",
+                trueartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 1800% Dark DMG (PHY). For 4s, reduce Enemies' accuracy by 10%.",
+                skillbreak: 500,
+                arts: "19000% Dark DMG (PHY). For 20s, reduce enemies' Evasion rate by 30%, increase own Accuracy by 50% and Skill CT REC by 70%.",
                 artsbreak: 1700,
                 truearts: "50000% Dark DMG (PHY). Permanently increase own Arts DMG by 60% (up to 300%).",
                 trueartsbreak: 3000
             },
         passive: 
+            {
+                ability1: "When near-death, increase DMG RES by 20%.",
+                ability2: "When near-death, increase Skill CT REC by 100%. Gradually increase ATK & DEF for first 60s of quest (Up to 100%).",
+                ability3: `Unit EXP UP 20% UP. (When Garou's SP. Art is owned)`,
+                ability4: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Garou's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "When near-death, increase DMG RES by 20%.",
                 ability2: "When near-death, increase Skill CT REC by 100%. Gradually increase ATK & DEF for first 60s of quest (Up to 50%)."
@@ -27870,6 +28167,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
                     mat3amt: 1,
                     hover3: "Valzandeth",
+                }
+            },
+        dream: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 30,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 1,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 5/s when Near-Death.`,
+                        ability2: `Increase own Status RES by 80% (except Faint).`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 30,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 1,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against enemies under 30% HP by 100%.`,
+                        ability2: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         lore: 

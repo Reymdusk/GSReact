@@ -1735,6 +1735,34 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 55,
+        date: `July 6, 2024`,
+        article: 
+        {
+            intro: `OPM Collab is back on Global with new Dream Awakenings as well as buffs for all the OPM units below!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Saitama`, 107076412],
+                        [`Genos`, 107086512],
+                        [`Terrible Tornado`, 107096312],
+                        [`Boros`, 107106511],
+                        [`Sonic`, 107216512],
+                        [`Hellish Blizzard`, 107226212],
+                        [`Garou`, 107236512]
+                    ],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
