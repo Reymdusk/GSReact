@@ -1664,6 +1664,105 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 53,
+        date: `June 26, 2024`,
+        article: 
+        {
+            intro: `A new unit is introduced alongside the new content of Grand Battle in JP. Meanwhile on Global, Chapter 24 has been released with Luana and a bunch of Ninja Dream Awakenings!`,
+            new: 
+                {
+                    units: [
+                        [`Azuel`, 103917112]
+                    ],
+                    equips: [
+                        [`真『ツイン・ファルコン』`, 112421]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Luana`, 103337412]
+                    ],  
+                    equips: [
+                        [`True 'Millenium Ark'`, 111491],
+                        [`Aged Crystal 'Millenium Arc'`, 111501],
+                        [`Ribnald Beret`, 111511],
+                        [`Spirit Steps 'Elements Row'`, 111521],
+                        [`Kilmon Sword`, 111641],
+                        [`Defmon Shield`, 111651],
+                        [`Tufmon Rod`, 111661],
+                    ],
+                    dream: [
+                        [`Shiki`, 102846412],
+                        [`Shuri`, 102856512],
+                        [`Amane`, 102866412],
+                        [`Tamae`, 102896112]
+                    ]
+                }
+        }
+    },
+    {
+        id: 54,
+        date: `June 28, 2024`,
+        article: 
+        {
+            intro: `Fate Collab is back in JP, but this time with a Summer twist!`,
+            new: 
+                {
+                    units: [
+                        [`Summer Chloe`, 107997412],
+                        [`Summer Bazett`, 108007212],
+                    ],
+                    equips: [
+                        [`真『クロエの水着』`, 153421],
+                        [`真『バゼットの水着』`, 153441],
+                        [`想い出のブレスレット`, 153471],
+                        [`クロエの水着`, 153541],
+                        [`クロエのスイムワンピ`, 153551],
+                        [`バゼットの水着`, 153581],
+                        [`バゼットのエプロン`, 153591],
+                        [`斬り抉る戦神の剣`, 153601]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
+    },
+    {
+        id: 55,
+        date: `July 6, 2024`,
+        article: 
+        {
+            intro: `OPM Collab is back on Global with new Dream Awakenings as well as buffs for all the OPM units below!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Saitama`, 107076412],
+                        [`Genos`, 107086512],
+                        [`Terrible Tornado`, 107096312],
+                        [`Boros`, 107106511],
+                        [`Sonic`, 107216512],
+                        [`Hellish Blizzard`, 107226212],
+                        [`Garou`, 107236512]
+                    ],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -3273,7 +3273,7 @@ const UnitInformation = [
     { //Grad - Complete
         id: 101096511,
         name: "Grad",
-        luckrank: "A",
+        luckrank: "C",
         rank: "F",
         attribute: "Dark",
         type: "Demon",
@@ -3367,7 +3367,7 @@ const UnitInformation = [
         id: 101106511,
         name: "Nier",
         rank: "C",
-        luckrank: "B",
+        luckrank: "F",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -3460,7 +3460,7 @@ const UnitInformation = [
         id: 101116111,
         name: "Ganan",
         rank: "B-",
-        luckrank: "A",
+        luckrank: "C",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -3595,7 +3595,7 @@ const UnitInformation = [
     { //Gilliam - Complete (+ JP version + Dream Evo)
         id: 101126311,
         name: "Gilliam",
-        luckrank: "B",
+        luckrank: "F",
         rank: "F",
         attribute: "Earth",
         type: "Human",
@@ -3974,7 +3974,7 @@ const UnitInformation = [
     { //Sophie - Complete (+ JP version)
         id: 101156111,
         name: "Sophie",
-        luckrank: "B",
+        luckrank: "C",
         rank: "F",
         attribute: "Fire",
         type: "Human",
@@ -6423,7 +6423,7 @@ const UnitInformation = [
     { //Edram - Complete (+ JP version)
         id: 101575412,
         name: "Edram",
-        luckrank: "B",
+        luckrank: "F",
         rank: "C",
         attribute: "Light",
         type: "Machine",
@@ -7521,7 +7521,7 @@ const UnitInformation = [
         id: 101716211,
         name: "Gaia",
         rank: "A-",
-        luckrank: "C",
+        luckrank: "F",
         attribute: "Water",
         type: "God",
         image: 
@@ -10533,7 +10533,7 @@ const UnitInformation = [
     { //Mako - Complete + JP ver.
         id: 102206412,
         name: "Mako",
-        luckrank: "S",
+        luckrank: "B",
         rank: "S",
         attribute: "Light",
         type: "Human",
@@ -10665,7 +10665,7 @@ const UnitInformation = [
         id: 102216212,
         name: "Satsuki",
         rank: "B+",
-        luckrank: "B",
+        luckrank: "F",
         attribute: "Water",
         type: "Human",
         image: 
@@ -10809,7 +10809,7 @@ const UnitInformation = [
         id: 102226112,
         name: "Ryuko",
         rank: "B-",
-        luckrank: "A",
+        luckrank: "B",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -10947,7 +10947,7 @@ const UnitInformation = [
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
-        luckrank: "C",
+        luckrank: "F",
         type: "Spirit",
         image: 
             {
@@ -11710,7 +11710,7 @@ const UnitInformation = [
         id: 102336411,
         name: "Nogia",
         rank: "C",
-        luckrank: "B",
+        luckrank: "F",
         attribute: "Light",
         type: "Spirit",
         image: 
@@ -12531,7 +12531,7 @@ const UnitInformation = [
         id: 102466211,
         name: "Granith",
         attribute: "Water",
-        luckrank: "C",
+        luckrank: "F",
         type: "Dragon",
         image: 
             {
@@ -12593,7 +12593,7 @@ const UnitInformation = [
     { //Altie - Complete
         id: 102476511,
         name: "Altie",
-        luckrank: "C",
+        luckrank: "F",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -13415,7 +13415,7 @@ const UnitInformation = [
     { //Vitz - Complete
         id: 102556211,
         name: "Vitz",
-        luckrank: "B",
+        luckrank: "F",
         rank: "F",
         attribute: "Water",
         type: "Human",
@@ -13699,7 +13699,7 @@ const UnitInformation = [
     { //Aesis - Complete
         id: 102596312,
         name: "Aesis",
-        luckrank: "A",
+        luckrank: "C",
         rank: "B-",
         attribute: "Earth",
         type: "Dragon",
@@ -15725,7 +15725,7 @@ const UnitInformation = [
                 evoawk: "A spear-wielding warrior who was feared the among other shinobi as the \"Legend of Imari\" Completing his missions was everything to Ginzo, who had given up all of his sense of self. A single full-force strike from him has the power to smash through an enormous boulder. Serving the leader of Imari Village, his spearhead would glisten in the light of the moon as he sneaked through the night. In order to fulfill the mission assigned to him, and to protect his master, Ginzo continued swing his spear with secret feelings hidden in his heart."
             }
     },
-    { //Shiki - Complete + JP ver.
+    { //Shiki - Complete
         id: 102846412,
         name: "Shiki",
         rank: "C",
@@ -15739,15 +15739,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102846412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -15766,15 +15757,6 @@ const UnitInformation = [
                 defplus: 386
             },
         skillset: 
-            {
-                skill: "10s CT - 1600% Light DMG (MAG). 50% chance to inflict Burn on first usage, Poison on second usage, Blind on third usage, and repeat for 8s.",
-                skillbreak: 300,
-                arts: "14000% Light DMG (PHY). Increase DMG of this Arts against Enemies with Status Ailments by 35%. During Third Eye: 14000% Light DMG (PHY). For 10s, increase DMG of this Arts against Enemies with Status Ailments by 35%. Increase own Arts by 50.",
-                artsbreak: 1100,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 30000% Light DMG (PHY). For 20s, increase Allies' Arts by 2/s, reduce Enemies' Status RES by 30%.",
-                trueartsbreak: 1800
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1600% Light DMG (MAG). 50% chance to inflict Burn on first usage, Poison on second usage, Blind on third usage, and repeat for 8s.",
                 skillbreak: 300,
@@ -15804,7 +15786,7 @@ const UnitInformation = [
                     hover4: "Radachne",
                 }
             },
-        dreamJP: {
+        dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15857,7 +15839,7 @@ const UnitInformation = [
                 evoawk: "A noble girl who fought alongside the other shinobi to fight a great Demonic threat in a land in the Far East. Having defeated the Demon Fox once again, completing her mission, two paths were available to her: one where she could live alongside the shinobi of Imari Village, and the other... She did not hesitate in her decision. She put her foot on the ground and began to walk. At the end of a long journey, she arrived at her destination. \"I'm home.\" Her voice that echoed throughout her homeland marked the beginning of a new story."
             }
     },
-    { //Shuri - Complete + JP ver.
+    { //Shuri - Complete
         id: 102856512,
         name: "Shuri",
         rank: "B",
@@ -15871,16 +15853,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_102855512.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102856512.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -15899,15 +15872,6 @@ const UnitInformation = [
                 defplus: 312
             },
         skillset: 
-            {
-                skill: "12s CT - 3300% Dark DMG (PHY). For 6s, reduce Enemies' Faint RES by 30%.",
-                skillbreak: 1000,
-                arts: "18000% Dark DMG (PHY). 80% chance to inflict Faint for 3s + For 10s, reduce Enemies' DMG RES by 25%, if an Enemy was Fainted by this Arts, reduce that Enemy's DMG RES by 50% instead.",
-                artsbreak: 2200,
-                truearts: "For 100s, enter Third Eye. During Third Eye: 56000% Dark DMG (PHY). For 10s, increase Allies' PHY DMG by 50% + increase own DMG by 50% until Third Eye ends (stackable).",
-                trueartsbreak: 4000
-            },
-        skillsetJP: 
             {
                 skill: "12s CT - 3300% Dark DMG (PHY). For 6s, reduce Enemies' Faint RES by 30%.",
                 skillbreak: 1000,
@@ -15938,7 +15902,7 @@ const UnitInformation = [
                     hover4: "Code-XTF",
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15991,7 +15955,7 @@ const UnitInformation = [
                 evoawk: "When she hurried to flee from the rising flames in front of her, what was waiting for her was the sight of her village destroyed, the culprit unknown. Within this miserable situation, she found the shinobi with prosthetic legs collapsed on the ground, who spoke to her the truth. Shuri cursed herself for not being able to see the true meaning behind the Divine Blade. Having lost so much, she left behind the village burnt to the ground, her eyes filled with rage toward the Demon Fox who took everything from her."
             }
     },
-    { //Amane - Complete + JP ver.
+    { //Amane - Complete
         id: 102866412,
         name: "Amane",
         rank: "B-",
@@ -16006,15 +15970,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102866412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -16033,15 +15988,6 @@ const UnitInformation = [
                 defplus: 386
             },
         skillset: 
-            {
-                skill: "9s CT - 1700% Light DMG (PHY). Increase own Arts by 10. Increase own Arts by 4 each time own Skill crits.",
-                skillbreak: 800,
-                arts: "16000% Light DMG (PHY). For 20s, increase Allies' Accuracy by 50%, own Critical DMG by 150%.",
-                artsbreak: 1300,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 32000% Light DMG (PHY). For 20s, increase Light and Dark Allies' DMG by 120%.",
-                trueartsbreak: 2400
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1700% Light DMG (PHY). Increase own Arts by 10. Increase own Arts by 5 each time own Skill crits.",
                 skillbreak: 800,
@@ -16072,7 +16018,7 @@ const UnitInformation = [
                     hover4: "Wilkes",
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -16354,7 +16300,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi from Imari Village who lived for the sake of the person he loved. At the end of the battle with Yakuno Village, he was stabbed in the back by the blade of the enemy. Though his consciousness was fading, he found relief in knowing that his master was safe. Held in the arms of his beloved, he smiled softly before slowly closing his eyes as his life ended. The events that occurred during the conflict between the two villages were spoken of through generations as a tragedy embodying the pride and fate of the shinobi."
             }
     },
-    { //Tamae - Complete + JP ver.
+    { //Tamae - Complete
         id: 102896112,
         name: "Tamae",
         rank: "B",
@@ -16369,15 +16315,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102896112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -16396,15 +16333,6 @@ const UnitInformation = [
                 defplus: 392
             },
         skillset: 
-            {
-                skill: "12s CT - 4400% Dark DMG (MAG). 60% chance to inflict Blind for 12s.",
-                skillbreak: 600,
-                arts: "16000% Dark DMG (MAG). For 35s, reduce Enemies' ATK, PHY RES, and Blind RES by 10% (stackable). For 15s, increase Dark Allies' Arts by 2/s.",
-                artsbreak: 1300,
-                truearts: "50000% Fire DMG (PHY). For 60s, reduce Enemies' Fire RES by 20% (stackable).",
-                trueartsbreak: 2000
-            },
-        skillsetJP: 
             {
                 skill: "12s CT - 4400% Dark DMG (MAG). 60% Chance to inflict Blind for 12s.",
                 skillbreak: 600,
@@ -16438,7 +16366,7 @@ const UnitInformation = [
                     hover5: "Ragsherum Phantom"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -17336,7 +17264,7 @@ const UnitInformation = [
         id: 102996112,
         name: "Radak",
         rank: "C",
-        luckrank: "C",
+        luckrank: "F",
         attribute: "Fire",
         type: "Beast",
         image: 
@@ -17529,7 +17457,7 @@ const UnitInformation = [
         id: 103016512,
         name: "Cygnet",
         rank: "F",
-        luckrank: "C",
+        luckrank: "F",
         attribute: "Dark",
         type: "Machine",
         image: 
@@ -17770,7 +17698,7 @@ const UnitInformation = [
         id: 103036212,
         name: "Virago",
         rank: "F",
-        luckrank: "B",
+        luckrank: "F",
         attribute: "Water",
         type: "Dragon",
         image: 
@@ -18028,7 +17956,7 @@ const UnitInformation = [
     { //Chloe (GS) - Complete, Review done
         id: 103056511,
         name: "Chloe (GS)",
-        luckrank: "A",
+        luckrank: "C",
         rank: "B+",
         attribute: "Dark",
         type: "Human",
@@ -22330,6 +22258,7 @@ const UnitInformation = [
         attribute: "Dark",
         type: "Human",
         rank: "C",
+        luckrank: `C`,
         twrequire: "favorable",
         image: 
             {
@@ -22951,7 +22880,7 @@ const UnitInformation = [
                 artsbreak: 1300,
                 truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.`,
                 trueartsbreak: 2600,
-                superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during True Arts. For 40s, increase own ATK by 100%.`,
+                superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during Super Arts. For 40s, increase own ATK by 100%.`,
                 superartsbreak: 1800
             },
         passive: 
@@ -23293,7 +23222,7 @@ const UnitInformation = [
         id: 103566311,
         name: "Hakuro",
         rank: "C",
-        luckrank: "B",
+        luckrank: "C",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -24351,7 +24280,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Luana - Missing Lore (JP)
+    { //Luana - Missing Lore
         id: 103337412,
         name: `Luana`,
         attribute: `Light`,
@@ -24361,8 +24290,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103336412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103337412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_333_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103336412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103337412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103337412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_333_1.png"
             },
         slots: 
             {
@@ -24398,6 +24329,14 @@ const UnitInformation = [
             {
                 ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
                 ability2: `When self is Leader, increase all Allies' Max HP by 30%.`,
+                ability3: `Increase own Curse RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Luana's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Luana's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
+                ability2: `When self is Leader, increase all Allies' Max HP by 30%.`,
                 ability3: `Increase own Curse RES by 100%.`
             }, 
         evolution: 
@@ -24413,7 +24352,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Millenium Ark`,
+                name: `Millenium Arc`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111491.png",
                 skill: `45s CT - 7000% Light DMG (MAG). For 10, Increase own Magic DMG & DMG to Giant Bosses by 35%.`,
@@ -24426,8 +24365,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Iris - Missing Lore (JP)
@@ -25823,6 +25762,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Azuel - Missing Lore (JP)
+        id: 103917112,
+        name: `Azuel`,
+        attribute: `Fire`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103916112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103917112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103916112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103917112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7146,
+                hpplus: 1349,
+                atk: 3940,
+                atkplus: 680,
+                def: 3056,
+                defplus: 632
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2500% Fire DMG (PHY). Increase own Arts by 40 and Regalia Gauge by 40 (MAX: 300).`,
+                skillbreak: 1000,
+                arts: `20000% Fire DMG (PHY). For 30s, reduce enemies' Break RES by 40%.`,
+                artsbreak: 2000,
+                truearts: `65000% Fire DMG (PHY). For 30s, increase own DMG by 150%. Each time True Arts is used, permanently increase all allies' stats by 10% (MAX: 40%).`,
+                trueartsbreak: 3000,
+                superarts: `160000% Fire DMG (PHY). Consume current Regalia Gauge. For 30s, increase Fire allies' DMG by [1 x Regalia consumed]% (MAX: 300%). Additionally if 100 or more Regalia is consumed, for 30s, increase all Fire allies' Break Power by 150%. Additionally if 300 Regalia is consumed, for 30s, increase all Fire allies' Accuracy by 150%.`,
+                superartsbreak: 7000
+            },
+        passive: 
+            {
+                ability1: `Increase own Regalia Gauge by 4/s. When own HP is 100%, increase own Regalia Gauge by 8/s instead. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Freeze RES by 100%.`,
+                ability3: `Increase own DMG against enemies in BREAK by 50%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 220,
+                    hover2: `Flametail Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Twin Falcon`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112421.png",
+                    skill: `45s CT - 8000% Fire DMG (PHY). For 8s, increase own PHY DMG by 40% (stackable).`,
+                    skillbreak: 4000,
+                    passive: 
+                        {
+                            ability1: `When equipped by Azuel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own ATK by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -26300,10 +26317,10 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Saitama - Complete
+    { //Saitama - Complete + JP ver
         id: 107076412,
         name: "Saitama",
-        luckrank: "S",
+        luckrank: "B",
         rank: "B+",
         attribute: "Light",
         type: "Human",
@@ -26311,10 +26328,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107075412.png",
                 detailawk: "/db/Units/Detail/unit_detail_107076412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_707_1.png",                            
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107075412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107076412.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107076412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_707_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -26334,6 +26362,15 @@ const UnitInformation = [
             },
         skillset: 
             {
+                skill: "8s CT - 3200% Light DMG (PHY). Increase own Arts by 20.",
+                skillbreak: 2000,
+                arts: "30000% Light DMG (PHY). For 40s, increase own Arts by 5/s.",
+                artsbreak: 2000,
+                truearts: "200000% Light DMG (PHY).",
+                trueartsbreak: 6000
+            },
+        skillsetJP: 
+            {
                 skill: "8s CT - 3200% Light DMG (PHY).",
                 skillbreak: 2000,
                 arts: "20000% Light DMG (PHY). For 30s, increase own Arts by 5/s.",
@@ -26342,6 +26379,14 @@ const UnitInformation = [
                 trueartsbreak: 6000
             },
         passive: 
+            {
+                ability1: "Increase DMG to Giant Bosses by 50%.",
+                ability2: "Increase DEF by 50% when under a DMG barrier.",
+                ability3: "Increase Status RES (except Faint) by 100%. When damaged while near-death, for 20s, gain a DMG barrier that negates 2800 DMG. Ability can only be activated once every 60s.",
+                ability4: `Unit EXP UP 20% UP. (When Saitama's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saitama's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase DMG to Giant Bosses by 50%.",
                 ability2: "Increase DEF by 50% when under a DMG barrier.",
@@ -26360,13 +26405,48 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
+        dream: 
+            {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 30,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 1,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Demons by 100%.`,
+                        ability2: `Increase own DMG against Dragons by 100%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 30,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 1,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Gods by 100%.`,
+                        ability2: `Increase own DMG against Beasts by 100%.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo5: "Originally only a Hero by hobby, Saitama eventually registered with the Hero Association. When younger, he was extremely weak. But after undergoing training so intense as to lose his hair, he achieved superhuman powers. Saitama is so strong some even say a god resides within his body.",
                 evoawk: "A professional Hero with superhuman powers. His powers are accurately described by his name, since Saitama is the most powerful man to exist, defeating his enemies in ONE PUNCH. However, few acknowledge his true strength."
             }
     },
-    { //Genos - Complete
+    { //Genos - Complete + JP ver
         id: 107086512,
         name: "Genos",
         rank: "F",
@@ -26400,11 +26480,20 @@ const UnitInformation = [
             },
         skillset: 
             {
+                skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 1400,
+                arts: "22000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
+                artsbreak: 2800,
+                truearts: "48000% Dark DMG (MAG). For 15s, reduce own Action Speed by 15% and increase Allies' (except self) Skill CT REC by 120%.",
+                trueartsbreak: 3500
+            },
+        skillsetJP: 
+            {
                 skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 5.",
                 skillbreak: 1400,
                 arts: "15000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
                 artsbreak: 2800,
-                truearts: "30000% Dark DMG (MAG). For 10s, reduce own Movement Speed by 15%, increase Allies' (except self) Skill CT REC by 100%.",
+                truearts: "30000% Dark DMG (MAG). For 10s, reduce own Action Speed by 15%, increase Allies' (except self) Skill CT REC by 100%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -26431,10 +26520,10 @@ const UnitInformation = [
                 evoawk: "A cyborg S-Class Hero with mechanized weapons of mass destruction embedded all over his body. Any enemy would fear of his destructive attacks that even risk Genos' own life."
             }
     },
-    { //Terrible Tornado - Complete
+    { //Terrible Tornado - Complete + JP ver
         id: 107096312,
         name: "Terrible Tornado",
-        luckrank: "A",
+        luckrank: "F",
         rank: "B",
         attribute: "Earth",
         type: "Human",
@@ -26442,10 +26531,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107095312.png",
                 detailawk: "/db/Units/Detail/unit_detail_107096312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_709_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107095312.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107096312.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107096312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_709_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -26467,12 +26567,29 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2000% Earth DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
                 skillbreak: 2000,
+                arts: "22000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 25%.",
+                artsbreak: 4200,
+                truearts: "70000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 10s, increase all Allies' Break PWR by 100%.",
+                trueartsbreak: 8000
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2000% Earth DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
+                skillbreak: 2000,
                 arts: "17000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 25%.",
                 artsbreak: 4200,
                 truearts: "32000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 8s, increase all Allies' Break PWR by 50%.",
                 trueartsbreak: 8000
             },
         passive: 
+            {
+                ability1: "Increase Arts by 2/s.",
+                ability2: "Increase BE generation by 100% against Enemies in Break.",
+                ability3: "Increase MAG RES by 30%. Increase DMG by 200% to Enemies in Break.",
+                ability4: `Unit EXP UP 20% UP. (When Terrible Tornado's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Terrible Tornado's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase Arts by 2/s.",
                 ability2: "Increase BE generation by 100% against Enemies in Break.",
@@ -26491,16 +26608,49 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
+            dream: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 30,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 1,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Water enemies by 100%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 30,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 1,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo5: "She is registered with the Hero Association. She was given the nickname 'Terrible Tornado' due to her outstanding but terrifying abilities in battle. She is specialized in psychic skills, especially in wide-range telekinesis attacks.",
                 evoawk: "The S-Class Rank-2 Hero in the Hero Association. It's not an overstatement to say she's the Hero Association's last card against threats against humanity. Facing her infinite strength, her enemies cannot even raise a finger after the hurt they find themselves in."
             }
     },
-    { //Boros - Complete
+    { //Boros - Complete + JP ver
         id: 107106511,
         name: "Boros",
-        luckrank: "C",
+        luckrank: "F",
         rank: "F",
         attribute: "Dark",
         type: "Demon",
@@ -26531,14 +26681,28 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 1666% Dark DMG (PHY).  For 7s, increase own Skill CT REC by 20%.",
+                skill: "9s CT - 1666% Dark DMG (PHY). For 7s, increase own Skill CT REC by 20%.",
                 skillbreak: 1444,
-                arts: "14444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 50%, and Break Power by 50% against Enemies not in BREAK.",
+                arts: "24444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 100% and Break Power by 100% against Enemies not in BREAK.",
+                artsbreak: 2222,
+                truearts: "66666% Dark DMG (MAG). Consume 30% of own HP. For 15s, increase own True Arts' Critical Rate by 100%, and reduce Enemies' Fire, Water, Earth, Light and Dark RES by 30%.",
+                trueartsbreak: 4444
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1666% Dark DMG (PHY). For 7s, increase own Skill CT REC by 20%.",
+                skillbreak: 1444,
+                arts: "14444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 50% and Break Power by 50% against Enemies not in BREAK.",
                 artsbreak: 2222,
                 truearts: "26666% Dark DMG (MAG). Consume 30% of own HP. For 10s, increase own True Arts' Critical Rate by 100%, reduce Enemies' Fire, Water, Earth, Light and Dark RES by 20%.",
                 trueartsbreak: 4444
             },
         passive: 
+            {
+                ability1: "Increase Dark RES by 20%.",
+                ability2: "At the start of a Quest, for 60s, increase stats by 15%. Heal own HP by 200/s."
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase Dark RES by 20%.",
                 ability2: "At the start of a Quest, for 60s, increase stats by 15%. Heal own HP by 100/s."
@@ -26696,7 +26860,7 @@ const UnitInformation = [
         id: 107136512,
         name: "Hijikata",
         rank: "F",
-        luckrank: "B",
+        luckrank: "F",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -26843,7 +27007,7 @@ const UnitInformation = [
         name: "Rimuru (Human form)",
         attribute: "Water",
         rank: "S",
-        luckrank: "S",
+        luckrank: "A",
         type: "Demon",
         image: 
             {
@@ -27020,7 +27184,7 @@ const UnitInformation = [
         id: 107166112,
         name: "Milim",
         rank: "A-",
-        luckrank: "S",
+        luckrank: "A",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -27150,7 +27314,7 @@ const UnitInformation = [
         id: 107176112,
         name: "Benimaru",
         rank: "A-",
-        luckrank: "S",
+        luckrank: "A",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -27280,7 +27444,7 @@ const UnitInformation = [
         id: 107186512,
         name: "Goblin Slayer",
         rank: "A-",
-        luckrank: "B",
+        luckrank: "C",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -27410,7 +27574,7 @@ const UnitInformation = [
     { //Priestess - Complete (+ JP version)
         id: 107196412,
         name: "Priestess",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "S",
         attribute: "Light",
         type: "Human",
@@ -27541,7 +27705,7 @@ const UnitInformation = [
     { //High Elf Archer - Complete (+ JP version)
         id: 107206312,
         name: "High Elf Archer",
-        luckrank: "SS",
+        luckrank: "S",
         rank: "A-",
         attribute: "Earth",
         type: "Spirit",
@@ -27669,10 +27833,10 @@ const UnitInformation = [
                 evoawk: "A High Elf ranger. She's not skilled at close combat, but he marksmanship and physical abilities offer powerful support from the rear, so her Silver adventurer rank is well-earned. She left her home to see the world as an adventurer, and now her main goal is to show Goblin Slayer the joys of adventuring."
             }
     },
-    { //Sonic - Complete
+    { //Sonic - Complete + JP ver
         id: 107216512,
         name: "Sonic",
-        luckrank: "A",
+        luckrank: "F",
         rank: "B-",
         attribute: "Dark",
         type: "Human",
@@ -27680,10 +27844,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107215512.png",
                 detailawk: "/db/Units/Detail/unit_detail_107216512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_721_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107215512.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107216512.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107216512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_721_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -27705,12 +27880,28 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2100% Fire DMG (PHY). For 5s, reduce Enemies' DEF by 20%.",
                 skillbreak: 400,
+                arts: "25000% Dark DMG (PHY). For 20s, increase own PHY evasion by 30% and Arts by 5/s.",
+                artsbreak: 900,
+                truearts: "65000% Dark DMG (PHY). For 20s, increase own evasion by 30% and Critical Rate by 200%.",
+                trueartsbreak: 1200
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2100% Fire DMG (PHY). For 5s, reduce Enemies' DEF by 20%.",
+                skillbreak: 400,
                 arts: "18000% Dark DMG (PHY). For 15s, increase own PHY evasion by 30% and Arts by 3/s.",
                 artsbreak: 900,
                 truearts: "40000% Dark DMG (PHY). For 20s, increase own evasion by 30% and Critical Rate by 200%.",
                 trueartsbreak: 1200
             },
         passive: 
+            {
+                ability1: "Increase PHY evasion by 10%.",
+                ability2: "Increase Equipment CT REC by 20%. DMG increases by the magnitude of Critical Rate buffs.",
+                ability3: `Unit EXP UP 20% UP. (When Sonic's SP. Art is owned)`,
+                ability4: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sonic's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "Increase PHY evasion by 10%.",
                 ability2: "Increase Equipment CT REC by 10%. DMG increases by the magnitude of Critical Rate buffs."
@@ -27728,16 +27919,50 @@ const UnitInformation = [
                     hover3: "Oldeus",
                 }
             },
+        dream: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 30,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                        mat3amt: 1,
+                        hover3: "Geo Zagnus",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase allies' PHY DMG by 30%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 30,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 1,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 60%.`,
+                        ability2: `Increase Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },    
         lore: 
             {   
                 evo5: "A ninja with absolute confidence in speed. He is obsessed with Saitama because he was once defeated by him. His objective is only to beat him as well.",
                 evoawk: "He is the self-proclaimed 'Strongest Ninja'. He is equal in ability as the S-Class Hero, Genos. His obsession to defeat Saitama is so deep, he is prepared to do anything."
             }
     },
-    { //Hellish Blizzard - Complete
+    { //Hellish Blizzard - Complete + JP ver
         id: 107226212,
         name: "Hellish Blizzard",
-        luckrank: "A",
+        luckrank: "F",
         rank: "C",
         attribute: "Water",
         type: "Human",
@@ -27745,10 +27970,21 @@ const UnitInformation = [
             {
                 detail5: "/db/Units/Detail/unit_detail_107225212.png",
                 detailawk: "/db/Units/Detail/unit_detail_107226212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_722_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107225212.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107226212.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107226212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_722_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -27770,12 +28006,29 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Movement Speed by 10%.",
                 skillbreak: 1000,
-                arts: "14000% Water DMG (MAG). 60% chance to inflict Faint for 3s. Increase Allies' BE generation by 80% for 10s.",
+                arts: "20000% Water DMG (MAG). 80% chance to inflict Faint for 5s. For 20s, increase Allies' BE Output by 100%.",
+                artsbreak: 2000,
+                truearts: "65000% Water DMG (MAG). For 15s, increase Allies' MAG DMG by 200% and reduce enemies' MAG RES by 30%.",
+                trueartsbreak: 2400
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Movement Speed by 10%.",
+                skillbreak: 1000,
+                arts: "14000% Water DMG (MAG). 60% chance to inflict Faint for 3s. For 10s, increase Allies' BE Output by 80% for 10s.",
                 artsbreak: 2000,
                 truearts: "30000% Water DMG (MAG). For 15s, increase Allies' MAG DMG by 120%.",
                 trueartsbreak: 2400
             },
         passive: 
+            {
+                ability1: "At the start of a Quest, gain a DMG barrier that negates 2500 DMG.",
+                ability2: "Increase Arts by 3/s.",
+                ability3: "Increase DMG to Fire Enemies by 100%.",
+                ability4: `Unit EXP UP 20% UP. (When Hellish Blizzard's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Hellish Blizzard's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "At the start of a Quest, gain a DMG barrier that negates 2500 DMG.",
                 ability2: "Increase Arts by 2/s.",
@@ -27794,27 +28047,72 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
+            dream: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 30,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 1,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Fire RES by 20%. Does not stack with Abilities of the same name.    `,
+                        ability2: `Increase own Break Power against Fire enemies by 100%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 30,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 1,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAG DMG by 40%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo5: "She is registered with the Hero Association. She is a B-Class Rank-1 Hero and the leader of the Blizzard group of B-Class Heroes.",
                 evoawk: "She is a B-Class Rank 1 Hero. She is a powerful psychic, and biological sister of the S-Class Rank 2 Hero, Terrible Tornado."
             }
     },
-    { //Garou - Complete
+    { //Garou - Complete + JP ver
         id: 107236512,
         name: "Garou",
         rank: "B+",
-        luckrank: "B",
+        luckrank: "F",
         attribute: "Dark",
         type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_107235512.png",
                 detailawk: "/db/Units/Detail/unit_detail_107236512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_723_1.png", 
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107235512.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107236512.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107236512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_723_1.png",
             },
         slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -27836,12 +28134,28 @@ const UnitInformation = [
             {
                 skill: "7s CT - 1800% Dark DMG (PHY). For 4s, reduce Enemies' accuracy by 10%.",
                 skillbreak: 500,
-                arts: "19000% Dark DMG (PHY). For 20s, reduce Enemies' evasion by 30%, increase own accuracy by 50% and Skill CT REC by 70%.",
+                arts: "33000% Dark DMG (PHY). For 20s, reduce enemies' Evasion rate by 70%. For 40s, increase own Accuracy by 70% and Skill CT REC by 70%.",
+                artsbreak: 1700,
+                truearts: "80000% Dark DMG (PHY). Permanently increase own Arts DMG by 100% (up to 500%).",
+                trueartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 1800% Dark DMG (PHY). For 4s, reduce Enemies' accuracy by 10%.",
+                skillbreak: 500,
+                arts: "19000% Dark DMG (PHY). For 20s, reduce enemies' Evasion rate by 30%, increase own Accuracy by 50% and Skill CT REC by 70%.",
                 artsbreak: 1700,
                 truearts: "50000% Dark DMG (PHY). Permanently increase own Arts DMG by 60% (up to 300%).",
                 trueartsbreak: 3000
             },
         passive: 
+            {
+                ability1: "When near-death, increase DMG RES by 20%.",
+                ability2: "When near-death, increase Skill CT REC by 100%. Gradually increase ATK & DEF for first 60s of quest (Up to 100%).",
+                ability3: `Unit EXP UP 20% UP. (When Garou's SP. Art is owned)`,
+                ability4: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Garou's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: "When near-death, increase DMG RES by 20%.",
                 ability2: "When near-death, increase Skill CT REC by 100%. Gradually increase ATK & DEF for first 60s of quest (Up to 50%)."
@@ -27857,6 +28171,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
                     mat3amt: 1,
                     hover3: "Valzandeth",
+                }
+            },
+        dream: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 30,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 1,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 5/s when Near-Death.`,
+                        ability2: `Increase own Status RES by 80% (except Faint).`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 30,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 1,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against enemies under 30% HP by 100%.`,
+                        ability2: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         lore: 
@@ -27934,7 +28282,7 @@ const UnitInformation = [
         id: 107256411,
         name: "Naofumi",
         rank: "A",
-        luckrank: "B",
+        luckrank: "F",
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -28054,7 +28402,7 @@ const UnitInformation = [
     { //Raphtalia - Complete, Review done
         id: 107266412,
         name: "Raphtalia",
-        luckrank: "A",
+        luckrank: "F",
         rank: "C",
         attribute: "Light",
         type: "Beast",
@@ -28148,7 +28496,7 @@ const UnitInformation = [
     { //Filo - Complete, Review done
         id: 107276312,
         name: "Filo",
-        luckrank: "S",
+        luckrank: "C",
         rank: "B+",
         attribute: "Earth",
         type: "Demon",
@@ -28244,7 +28592,7 @@ const UnitInformation = [
         id: 107286212,
         name: "Melty",
         rank: "A+",
-        luckrank: "SSS",
+        luckrank: "A",
         attribute: "Water",
         type: "Human",
         image: 
@@ -28337,7 +28685,7 @@ const UnitInformation = [
     { // Fitoria - Complete, Review done
         id: 107606312,
         name: "Fitoria",
-        luckrank: "SS",
+        luckrank: "B",
         rank: "S",
         attribute: "Earth",
         type: "Demon",
@@ -28433,7 +28781,7 @@ const UnitInformation = [
     { //Yusuke - Complete
         id: 107296212,
         name: "Yusuke",
-        luckrank: "S",
+        luckrank: "B",
         rank: "B-",
         attribute: "Water",
         type: "Human",
@@ -28499,7 +28847,7 @@ const UnitInformation = [
     { //Kazuma - Complete
         id: 107306412,
         name: "Kazuma",
-        luckrank: "S",
+        luckrank: "B",
         rank: "C",
         attribute: "Light",
         type: "Human",
@@ -28565,7 +28913,7 @@ const UnitInformation = [
     { //Kurama - Complete
         id: 107316312,
         name: "Kurama",
-        luckrank: "S",
+        luckrank: "B",
         rank: "B",
         attribute: "Earth",
         type: "Human",
@@ -28631,7 +28979,7 @@ const UnitInformation = [
     { //Hiei - Complete
         id: 107326512,
         name: "Hiei",
-        luckrank: "S",
+        luckrank: "C",
         rank: "B-",
         attribute: "Dark",
         type: "Demon",
@@ -28698,7 +29046,7 @@ const UnitInformation = [
         id: 107336512,
         name: "Toguro",
         rank: "C",
-        luckrank: "A",
+        luckrank: "B",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -28763,7 +29111,7 @@ const UnitInformation = [
     { //Emilia - Complete (+ JP version), Review done
         id: 107346212,
         name: "Emilia",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "A",
         attribute: "Water",
         type: "God",
@@ -28872,7 +29220,7 @@ const UnitInformation = [
     { //Rem (RE:ZERO) - Complete (+ JP version), Review done
         id: 107356212,
         name: "Rem (RE:ZERO)",
-        luckrank: "S",
+        luckrank: "C",
         rank: "B",
         attribute: "Water",
         type: "Demon",
@@ -28979,7 +29327,7 @@ const UnitInformation = [
         id: 107366312,
         name: "Ram",
         rank: "A-",
-        luckrank: "B",
+        luckrank: "F",
         twrequire: "favorable",
         attribute: "Earth",
         type: "Demon",
@@ -29086,7 +29434,7 @@ const UnitInformation = [
     { //Beatrice - Complete (+ JP version), Review done
         id: 107376512,
         name: "Beatrice",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "B",
         attribute: "Dark",
         type: "Spirit",
@@ -29201,7 +29549,7 @@ const UnitInformation = [
         id: 107396212,
         name: "Santa Rimuru",
         rank: "A+",
-        luckrank: "SSS",
+        luckrank: "A",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -29331,7 +29679,7 @@ const UnitInformation = [
         id: 107406112,
         name: "Santa Milim",
         rank: "A-",
-        luckrank: "A",
+        luckrank: "F",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -29592,7 +29940,7 @@ const UnitInformation = [
         id: 107426512,
         name: "New Years Rimuru",
         rank: "A-",
-        luckrank: "SS",
+        luckrank: "A",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -29724,7 +30072,7 @@ const UnitInformation = [
         id: 107436412,
         name: "New Years Milim",
         rank: "A",
-        luckrank: "SSS",
+        luckrank: "S",
         attribute: "Light",
         type: "Demon",
         image: 
@@ -29924,7 +30272,7 @@ const UnitInformation = [
     { //Sakura Miku - Complete
         id: 107466312,
         name: "Sakura Miku",
-        luckrank: "S",
+        luckrank: "B",
         rank: "A-",
         attribute: "Earth",
         type: "Machine",
@@ -30614,7 +30962,7 @@ const UnitInformation = [
     { //Natsu Dragneel - Complete, Review done + JP ver
         id: 107556112,
         name: "Natsu Dragneel",
-        luckrank: "A",
+        luckrank: "B",
         rank: "B+",
         attribute: "Fire",
         type: "Demon",
@@ -30759,7 +31107,7 @@ const UnitInformation = [
     { //Lucy Heartfilia - Complete (+ JP version), Review done
         id: 107566412,
         name: "Lucy Heartfilia",
-        luckrank: "SS",
+        luckrank: "A",
         rank: "A-",
         attribute: "Light",
         type: "Human",
@@ -30905,7 +31253,7 @@ const UnitInformation = [
         id: 107576212,
         name: "Gray Fullbuster",
         rank: "B+",
-        luckrank: "SSS",
+        luckrank: "S",
         attribute: "Water",
         type: "Human",
         image: 
@@ -31049,7 +31397,7 @@ const UnitInformation = [
     { //Erza Scarlet - Complete (+ JP version), Review done
         id: 107586412,
         name: "Erza Scarlet",
-        luckrank: "S",
+        luckrank: "B",
         rank: "A+",
         attribute: "Light",
         type: "Human",
@@ -31196,7 +31544,7 @@ const UnitInformation = [
         id: 107596512,
         name: "Nui Harime",
         rank: "A-",
-        luckrank: "SS",
+        luckrank: "A",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -32370,7 +32718,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Illya - Complete, Review Done
+    { // Illya - Complete, Review Done + JP ver
         id: 107737412,
         name: "Illya",
         attribute: "Light",
@@ -32415,9 +32763,28 @@ const UnitInformation = [
                 superarts: `150000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2200% Light DMG (MAG). Increase own Arts by 30.`,
+                skillbreak: 500,
+                arts: `18000% Light DMG (MAG). For 15s, reduce Enemies' Light RES by 50%.`,
+                artsbreak: 800,
+                truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.`,
+                trueartsbreak: 1500,
+                superarts: `170000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 90%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Dark Enemies by 20%.`,
+                ability3: `Increase own accuracy by 30%.`,
+                ability4: `Increase Unit EXP by 20% (When Illya's SP. Art is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Illya's SP. Art is owned).`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 80%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against Dark Enemies by 20%.`,
                 ability3: `Increase own accuracy by 30%.`,
                 ability4: `Increase Unit EXP by 20% (When Illya's SP. Art is owned).`,
@@ -32474,7 +32841,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Rin & Luvia - Review Done
+    { // Rin & Luvia - Review Done + JP ver
         id: 107767112,
         name: "Rin & Luvia",
         attribute: "Fire",
@@ -32518,6 +32885,17 @@ const UnitInformation = [
                 truearts: `50000% Fire DMG (MAG). For 25s, reduce Enemies' DMG RES by 70% & Burn RES by 50%.`,
                 trueartsbreak: 2500,
                 superarts: `120000% Fire DMG (MAG). For 40s, increase Allies' MAG DMG by 150% & reduce Enemies' MAG RES by 100%.`,
+                superartsbreak: 3500
+            },
+        skillsetJP: 
+            {
+                skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
+                skillbreak: 1000,
+                arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn for 20s. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
+                artsbreak: 1800,
+                truearts: `50000% Fire DMG (MAG). For 25s, reduce Enemies' DMG RES by 70% & Burn RES by 50%.`,
+                trueartsbreak: 2500,
+                superarts: `130000% Fire DMG (MAG). For 40s, increase Allies' MAG DMG by 160% & reduce Enemies' MAG RES by 100%.`,
                 superartsbreak: 3500
             },
         passive: 
@@ -32585,7 +32963,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Miyu - Review Done
+    { //Miyu - Review Done + JP ver
         id: 107747512,
         name: `Miyu`,
         attribute: `Dark`,
@@ -32630,9 +33008,28 @@ const UnitInformation = [
                 superarts: `185000% Dark DMG (MAG). For 20s, all allies ignore 100% of Enemies' DEF and increase Human allies' DMG by 200%.`,
                 superartsbreak: 1800
             },
+        skillsetJP: 
+            {
+                skill: `13s CT - 4200% Dark DMG (MAG). For 10s, increase own Arts gauge by 3/s`,
+                skillbreak: 500,
+                arts: `25000% Dark DMG (MAG). For 20s, reduce enemies' Dark RES by 50%.`,
+                artsbreak: 1000,
+                truearts: `90000% Dark DMG (MAG). For 30s, increase own ATK and Accuracy rate by 150%.`,
+                trueartsbreak: 1500,
+                superarts: `190000% Dark DMG (MAG). For 20s, all allies ignore 100% of Enemies' DEF and increase Human allies' DMG by 200%.`,
+                superartsbreak: 1800
+            },
         passive: 
             {
                 ability1: `For first 120s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%.`,
+                ability2: `Paralysis RES 100% UP.`,
+                ability3: `DMG 20% UP against enemies below 30% HP.`,
+                ability4: `Increase Unit EXP by 20% (When Miyu's SP. Art is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Miyu's SP. Art is owned).`
+            }, 
+        passiveJP: 
+            {
+                ability1: `For first 150s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%.`,
                 ability2: `Paralysis RES 100% UP.`,
                 ability3: `DMG 20% UP against enemies below 30% HP.`,
                 ability4: `Increase Unit EXP by 20% (When Miyu's SP. Art is owned).`,
@@ -32690,7 +33087,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Shirou Emiya - Review Done
+    { //Shirou Emiya - Review Done + JP ver
         id: 107777212,
         name: `Shirou Emiya`,
         attribute: `Water`,
@@ -32725,6 +33122,21 @@ const UnitInformation = [
                 defplus: 640
             },
         skillset: 
+            {
+                skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.\n
+                During Unlimited Blade Works: 8s CT - 2000% Water DMG (PHY). increase own Arts by 60.`,
+                skillbreak: 600,
+                arts: `For 10s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.\n
+                During Unlimited Blade Works: For 20s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.`,
+                artsbreak: 0,
+                truearts: `40000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.\n
+                During Unlimited Blade Works: 80000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.`,
+                trueartsbreak: 1500,
+                superarts: `For 180s, Enter Unlimited Blade Works.\n
+                During Unlimited Blade Works: 165000% Water DMG (PHY). For 35s, Increase own ATK & DMG Up by 200%.`,
+                superartsbreak: 2200
+            },
+        skillsetJP: 
             {
                 skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.\n
                 During Unlimited Blade Works: 8s CT - 2000% Water DMG (PHY). increase own Arts by 60.`,
@@ -32798,7 +33210,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Chloe Fate - Review Done
+    { //Chloe Fate - Review Done + JP ver
         id: 107757112,
         name: `Chloe (Fate)`,
         twrequire: "favorable",
@@ -32842,6 +33254,17 @@ const UnitInformation = [
                 truearts: `35000% Fire DMG (PHY). For 20s, Increase allies' Arts by 5/s & BREAK PWR by 70%.`,
                 trueartsbreak: 6000,
                 superarts: `100000% Fire DMG (PHY). For 20s, reduce enemies' Fire RES by 100%`,
+                superartsbreak: 12000
+            },
+        skillsetJP: 
+            {
+                skill: `11s CT - 2200% Fire DMG (PHY). For 8s, lower enemy's Evasion by 20%.`,
+                skillbreak: 1000,
+                arts: `16000% Fire DMG (PHY). For 35s, lower enemies' BREAK RES by 40%.`,
+                artsbreak: 3000,
+                truearts: `40000% Fire DMG (PHY). For 20s, Increase allies' Arts by 5/s & BREAK PWR by 70%.`,
+                trueartsbreak: 6000,
+                superarts: `100000% Fire DMG (PHY). For 25s, reduce enemies' Fire RES by 100%`,
                 superartsbreak: 12000
             },
         passive: 
@@ -32902,7 +33325,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { //Saber Alter - Review done
+    { //Saber Alter - Review done + JP ver
         id: 107787512,
         name: `Saber Alter`,
         attribute: `Dark`,
@@ -32947,14 +33370,33 @@ const UnitInformation = [
                 superarts: `170000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%.`,
                 superartsbreak: 2200
             },
+        skillsetJP: 
+            {
+                skill: `11s CT - 3000% Dark DMG (PHY). Increase own Arts by 50. If this Skill crits, increase Arts by an additional 30.`,
+                skillbreak: 500,
+                arts: `26000% Dark DMG (PHY). For 20s, increase all allies' STATS by 30%.`,
+                artsbreak: 1000,
+                truearts: `64000% Dark DMG (PHY). For 30s, Increase own DMG by 100% & Reduce enemies' Dark RES by 70%.`,
+                trueartsbreak: 1500,
+                superarts: `185000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%.`,
+                superartsbreak: 2200
+            },
         passive: 
             {
-                ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%. Decrease own Accuracy by 30% if affected by Status Ailments`,
+                ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%. Reduce own Accuracy by 30% if affected by Status Ailments`,
                 ability2: `Poison RES 40% Up`,
                 ability3: `Increase own ATK by 25% when HP is above 90%.`,
                 ability4: `Unit EXP UP 20% UP. (When Saber Alter's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saber Alter's SP. Art is owned)`
             }, 
+        passiveJP: 
+            {
+                ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%.`,
+                ability2: `Poison RES 40% Up`,
+                ability3: `Increase own ATK by 25% when HP is above 90%.`,
+                ability4: `Unit EXP UP 20% UP. (When Saber Alter's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saber Alter's SP. Art is owned)`
+            },
         evolution: 
             {
                 evoawksuper:
@@ -33671,6 +34113,7 @@ const UnitInformation = [
         name: `Sunraku`,
         attribute: `Fire`,
         rank: `SS`,
+        luckrank: `SS`,
         type: `Human`,
         image: 
             {
@@ -33741,6 +34184,7 @@ const UnitInformation = [
         name: `Psyger-0`,
         attribute: `Light`,
         rank: `S`,
+        luckrank: `A`,
         type: `Human`,
         image: 
             {
@@ -33811,6 +34255,7 @@ const UnitInformation = [
         name: `Arthur Pencilgon`,
         attribute: `Dark`,
         rank: `SS`,
+        luckrank: `S`,
         type: `Human`,
         image: 
             {
@@ -33872,8 +34317,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
     { //OiKatzo - Missing Lore
@@ -33881,6 +34326,7 @@ const UnitInformation = [
         name: `OiKatzo`,
         attribute: `Fire`,
         rank: `S`,
+        luckrank: `A`,
         type: `Human`,
         image: 
             {
@@ -33942,8 +34388,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
     { //Momon - Missing Lore
@@ -34195,7 +34641,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Uzu Sanageyama - Missing Lore
+    { //Uzu Sanageyama - JP Complete
         id: 107937312,
         name: `Uzu Sanageyama`,
         attribute: `Earth`,
@@ -34273,11 +34719,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
-    { //Houka Inumuta - Missing Lore
+    { //Houka Inumuta - JP Complete
         id: 107947212,
         name: `Houka Inumuta`,
         attribute: `Water`,
@@ -34355,11 +34801,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
-    { //Ira Gamagori - Missing Lore
+    { //Ira Gamagori - JP Complete
         id: 107957512,
         name: `Ira Gamagori`,
         attribute: `Dark`,
@@ -34437,11 +34883,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     },
-    { //Nonon Jakuzure - Missing Lore
+    { //Nonon Jakuzure - JP Complete
         id: 107967412,
         name: `Nonon Jakuzure`,
         attribute: `Light`,
@@ -34519,10 +34965,506 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Unreleased in Global.",
-                evosuper: "Unreleased in Global."
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    /*
+    { //Summer Illya - JP Complete
+        id: 107977212,
+        name: `Summer Illya`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107976212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107977212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_797_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107976212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107977212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_797_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: ``,
+                skillbreak: 0,
+                arts: ``,
+                artsbreak: 0,
+                truearts: ``,
+                trueartsbreak: 0,
+                superarts: ``,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: ``,
+                slot: "/db/Mines/thumbnail/LB.png",
+                detail: "/db/Equipment/Detail/item_detail_.png",
+                skill: ``,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: ``,
+                        ability2: ``
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Summer Miyu - JP Complete
+        id: 107987112,
+        name: `Summer Miyu`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107986112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107987112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_798_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107986112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107987112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_798_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: ``,
+                skillbreak: 0,
+                arts: ``,
+                artsbreak: 0,
+                truearts: ``,
+                trueartsbreak: 0,
+                superarts: ``,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: ``,
+                slot: "/db/Mines/thumbnail/LB.png",
+                detail: "/db/Equipment/Detail/item_detail_.png",
+                skill: ``,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: ``,
+                        ability2: ``
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     }
+    */
+    { //Summer Chloe - JP Complete
+        id: 107997412,
+        name: `Summer Chloe`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107996412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107997412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_799_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107996412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107997412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_799_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 8050,
+                hpplus: 1450,
+                atk: 2970,
+                atkplus: 590,
+                def: 3220,
+                defplus: 610
+            },
+        skillset: 
+            {
+                skill: `12s CT - 1200% Light DMG (PHY). For 7s, reduce enemies' DMG RES by 20%.`,
+                skillbreak: 800,
+                arts: `22000% Light DMG (PHY). For 15s, increase all allies' Status RES (except Faint) by 100% and reduce enemies' Light RES by 50%.`,
+                artsbreak: 1500,
+                truearts: `50000% Light DMG (PHY). For 20s, increase all allies' HP Recovery amount by 100% and Arts by 5/s. For 20s, increase Light allies' Arts by an additional 2/s.`,
+                trueartsbreak: 2200,
+                superarts: `130000% Light DMG (PHY). For 25s, increase allies' DMG by 150% and Human allies' DMG by 100%.`,
+                superartsbreak: 2800
+            },
+        passive: 
+            {
+                ability1: `Heal all allies' HP by 400/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 30%.`,
+                ability3: `Increase own MAG RES by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Chloe's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Chloe's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: `Chloe's Swimsuit`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153421.png",
+                skill: `25s CT - 5000% Light DMG (PHY). For 15s, reduce enemies' Light RES by 15% (stackable). If user is Human, increase own Arts by 10.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Summer Chloe, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }  
+    },
+    { //Summer Bazett - JP Complete
+        id: 108007212,
+        name: `Summer Bazett`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108006212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108007212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_800_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108006212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108007212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_800_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7299,
+                hpplus: 1377,
+                atk: 3937,
+                atkplus: 680,
+                def: 2941,
+                defplus: 610
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2700% Water DMG (PHY). Increase own Arts by 50. For 8s, increase own Paralysis RES and Freeze RES by 100%.`,
+                skillbreak: 500,
+                arts: `30000% Water DMG (PHY). For 20s, increase all allies' stats by 30% and PHY RES by 20%.`,
+                artsbreak: 900,
+                truearts: `80000% Water DMG (PHY). When True Arts is used, reduce own remaining DEF Equip CT by half. For 20s, reduce enemies' Water RES by 80%.`,
+                trueartsbreak: 1800,
+                superarts: `160000% Water DMG (PHY). Increase own Super Arts DMG by 250% and Accuracy by 100% for the duration of Super Arts. If Super Arts is used while enemy is using Arts, increase own Super Arts DMG by 500% and Accuracy by 200% for the duration of Super Arts instead.`,
+                superartsbreak: 2100
+            },
+        passive: 
+            {
+                ability1: `Reduce own Seal RES by 100%. When own HP is 70% or higher, ignore 100% of enemies' DEF. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Arts by 50 at the Start of Quest.`,
+                ability3: `Increase own Evasion rate by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Bazett's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Bazett's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Bazett's Swimsuit`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153441.png",
+                skill: `50s CT - 12000% Water DMG (PHY). If user is Water, for 10s, reduce enemies' DMG RES by 20%. If user is Water and when own HP is above 80%, reduce enemies' DMG RES by 35% instead.`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Summer Bazett, increase own DMG by 50% and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }  
+    },
+    /*
+    { //Summer Rin & Luvia - JP Complete
+        id: 108017312,
+        name: `Summer Rin & Luvia`,
+        attribute: `Earth`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108016312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108017312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_801_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108016312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108017312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_801_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: ``,
+                skillbreak: 0,
+                arts: ``,
+                artsbreak: 0,
+                truearts: ``,
+                trueartsbreak: 0,
+                superarts: ``,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: ``,
+                slot: "/db/Mines/thumbnail/LB.png",
+                detail: "/db/Equipment/Detail/item_detail_.png",
+                skill: ``,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: ``,
+                        ability2: ``
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Summer Sakura Matou - JP Complete
+        id: 108027512,
+        name: `Summer Sakura Matou`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108026512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108027512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_802_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108026512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108027512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_802_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: ``,
+                skillbreak: 0,
+                arts: ``,
+                artsbreak: 0,
+                truearts: ``,
+                trueartsbreak: 0,
+                superarts: ``,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglit Soulgem`,
+                }
+            },
+        trueweapon: 
+            {
+                name: ``,
+                slot: "/db/Mines/thumbnail/LB.png",
+                detail: "/db/Equipment/Detail/item_detail_.png",
+                skill: ``,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: ``,
+                        ability2: ``
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    }
+    */
 ];
 
 export function getUnits() {

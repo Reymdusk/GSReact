@@ -131,8 +131,8 @@ const RenderUnits = ({ units, filters, query, sortOrder, unitsPerPage, currentPa
 
         //Check for Server
         const hasMatchingServer = (isGlobalChecked && isJapanChecked)
-        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
-        || ((isJapanChecked && !isGlobalChecked) && (unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') || unit.lore.evo5?.toLowerCase().includes('currently unreleased in global.')) );
+        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
+        || ((isJapanChecked && !isGlobalChecked) && (unit.lore.evoawk?.toLowerCase().includes('unreleased in global.') || unit.lore.evo5?.toLowerCase().includes('unreleased in global.')) );
 
         //Check for Attributes
         const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
