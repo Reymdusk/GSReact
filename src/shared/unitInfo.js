@@ -15418,6 +15418,7 @@ const UnitInformation = [
         name: "Barossa",
         attribute: "Dark",
         type: "Dragon",
+        rank: `B-`,
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_102815512.png",
@@ -23708,6 +23709,7 @@ const UnitInformation = [
         name: "Noble Flare Mira",
         translate: "Searing Petal Mira",
         attribute: "Fire",
+        rank: `S`,
         type: "Human",
         image: 
             {
@@ -23797,6 +23799,7 @@ const UnitInformation = [
         name: "Long",
         attribute: "Water",
         type: "Demon",
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103556212.png",
@@ -24353,6 +24356,7 @@ const UnitInformation = [
         name: `Luana`,
         attribute: `Light`,
         type: `Human`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103336412.png",
