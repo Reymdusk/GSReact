@@ -34317,8 +34317,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //OiKatzo - Missing Lore
@@ -34388,8 +34388,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Momon - Missing Lore

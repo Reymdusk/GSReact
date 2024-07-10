@@ -41759,7 +41759,7 @@ const EquipInformation = [
                 ability1: `DEF 5% UP.`,
                 ability2: [`Blind Time Reduction & Blind Evasion rate 20% UP.`, `Blind Time Reduction & Blind Evasion rate 10% UP.`, `Magic resistance 5% UP.`, `Physical resistance 5% UP.`, `ATK 5% UP.`, `Unit EXP 10% UP.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Rimuru's Clothes EV - Complete
         id: 152311,
