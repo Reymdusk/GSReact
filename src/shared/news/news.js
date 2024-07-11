@@ -1763,7 +1763,39 @@ const NewsArticles = [
                     dream: []
                 }
         }
-    }
+    },
+    {
+        id: 56,
+        date: `July 11, 2024`,
+        article: 
+        {
+            intro: `Part 2 of the Fate Collab Rerun is out, featuring 2 new Summer units as well as new equips!`,
+            new: 
+                {
+                    units: [
+                        [`Summer Miyu`, 107987112],
+                        [`Summer Luvia & Rin`, 108017312],
+                    ],
+                    equips: [
+                        [`真『美遊の水着』`, 153411],
+                        [`真『ルヴィアの水着』`, 153431],
+                        [`穂群原学園小等部の夏制服`, 153481],
+                        [`破戒すべき全ての符`, 153501],
+                        [`美遊の水着`, 153521],
+                        [`美遊の麦わら帽子`, 153531],
+                        [`遠坂凛の水着`, 153561],
+                        [`ルヴィアの水着`, 153571],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
+    },
 ]
 
 export function getNews() {

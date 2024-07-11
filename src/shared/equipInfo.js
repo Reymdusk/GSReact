@@ -44940,11 +44940,11 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
-    },
-    { // - Missing Lore
+    },*/
+    { //真『美遊の水着』 - Missing Lore
         id: 153411,
-        name: ``,
-        translate: ``,
+        name: `真『美遊の水着』`,
+        translate: `True 'Miyu's Swimsuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44962,17 +44962,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5000% Fire DMG (PHY). Reduce enemies' Fire RES by 40% and increase own ATK by 40% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `When equipped by Summer Miyu, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own PHY RES by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //真『クロエの水着』 - Missing Lore
         id: 153421,
         name: `真『クロエの水着』`,
@@ -45004,11 +45003,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //真『ルヴィアの水着』 - Missing Lore
         id: 153431,
-        name: ``,
-        translate: ``,
+        name: `真『ルヴィアの水着』`,
+        translate: `True 'Luvia's Swimsuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45026,17 +45024,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 9000% Earth DMG (PHY). Increase own Arts by 30. Additionally if user is Earth, increase all stats by 30% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `When equipped by Summer Luvia & Rin, increase own ATK by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //真『バゼットの水着』 - Missing Lore
         id: 153441,
         name: `真『バゼットの水着』`,
@@ -45162,11 +45159,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //穂群原学園小等部の夏制服 - Missing Lore
         id: 153481,
-        name: ``,
-        translate: ``,
+        name: `穂群原学園小等部の夏制服`,
+        translate: `Homuhara Academy Elemenetary School Summer Uniform`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45184,16 +45180,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increase allies' Arts by 30. Increase Human allies' DMG by 20% (stackable) for 40s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
+    /*
     { // - Missing Lore
         id: 153491,
         name: ``,
@@ -45225,10 +45221,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    */
+    { //破戒すべき全ての符 - Missing Lore
         id: 153501,
-        name: ``,
-        translate: ``,
+        name: `破戒すべき全ての符`,
+        translate: `Rule Breaker`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45246,16 +45243,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Water DMG (PHY). Increase own Break Power by 60% for 8s. Increase own Break Power by 90% against enemies affected by Status ailments instead.`,
+                break: 4000
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
+    /*
     { // - Missing Lore
         id: 153511,
         name: ``,
@@ -45287,10 +45284,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    */
+    { //美遊の水着 - Missing Lore
         id: 153521,
-        name: ``,
-        translate: ``,
+        name: `美遊の水着`,
+        translate: `Miyu's Swimsuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45308,20 +45306,19 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 13500% Fire DMG (PHY). Increase own ATK by 100% for 10s. If user is above 80% HP, increase own ATK by 150% instead.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    { //美遊の麦わら帽子 - Missing Lore
         id: 153531,
-        name: ``,
-        translate: ``,
+        name: `美遊の麦わら帽子`,
+        translate: `Miyu's Straw Hat`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45339,17 +45336,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8000% Fire DMG (MAG). If user is Fire, increase own CRI rate by 100% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `Increase own MAX HP by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //クロエの水着 - Missing Lore
         id: 153541,
         name: `クロエの水着`,
@@ -45410,11 +45405,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //遠坂凛の水着 - Missing Lore
         id: 153561,
-        name: ``,
-        translate: ``,
+        name: `遠坂凛の水着`,
+        translate: `Tohsaka Rin's Swimsuit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45432,20 +45426,19 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increase allies' Arts by 3/s and Earth allies' Skill CT Speed by 80% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    { //ルヴィアの水着 - Missing Lore
         id: 153571,
-        name: ``,
-        translate: ``,
+        name: `ルヴィアの水着`,
+        translate: `Luvia's Swimsuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45463,17 +45456,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3000% Earth DMG (PHY). Reduce enemies' Earth RES by 20% (stackable) for 20s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //バゼットの水着 - Missing Lore
         id: 153581,
         name: `バゼットの水着`,

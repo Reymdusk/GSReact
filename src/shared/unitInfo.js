@@ -938,8 +938,8 @@ const UnitInformation = [
                 evo2: "A knight of the Raven's Aegis, a troop of La Riiz dedicated to protecting sorcerers. While the troop emphasized defense, Regulus opted not to carry a shield, focusing on offense instead. Nonetheless, he remained in the troop, both because his sword skills saved more sorcerers than any shield, and because he lacked the capacity for magic himself. He would later achieve renown as one of the Twin Knights of the Morning Star.",
                 evo3: "A member of the Twin Knights of the Morning Star, duo famous after the Ancient War. Just before the start of the Ancient War, when tensions between Gods and Demons were at their peak, Regulus spent time away from his fellow knights. Records of his battles with knights across the land suggest this was a training pilgrimage, but it's also rumored that he recieved a secret mission from La Riiz' High Council to visit Human-controlled lands.",
                 evo4: "A member of the Twin Knights of the Morning Star, duo famous after the Ancient War. Regulus challenged not just Humans during his travels, but countless other races as well. One of his famous achievement was the battle against the Flamewyrm Dargeon, which lasted three days and three nights before the final draw, that made his name renowned even among Dragons. This only incremented his opponents, who, regardless of race, challenged him, increasing his skills to the apex.",
-                evo5: "When the Ancient War broke out, Regulus returned to La Riiz to rejoin his troop. A veteran of battles agaisnt all the races, Regulus inspired bravery in his companions and countrymen. After Gods and Demons vanished from the world at the end of the war, he traveled with a lady knight to help those in need: a duo that came to be known as the Twin Knights of the Morning Star. Strangely, no records of his deeds after this point remains...",
-                evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood agaisnt the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
+                evo5: "When the Ancient War broke out, Regulus returned to La Riiz to rejoin his troop. A veteran of battles against all the races, Regulus inspired bravery in his companions and countrymen. After Gods and Demons vanished from the world at the end of the war, he traveled with a lady knight to help those in need: a duo that came to be known as the Twin Knights of the Morning Star. Strangely, no records of his deeds after this point remains...",
+                evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood against the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
             }
     },
     { //Dargeon - Complete + DreamEvo
@@ -3554,7 +3554,7 @@ const UnitInformation = [
                         hover2: `Warrior Soulgem`
                     },
                     passive: {
-                        ability1: `Increase own Break Power agaisnt Earth Enemies by 60%.`,
+                        ability1: `Increase own Break Power against Earth Enemies by 60%.`,
                         ability2: `When Near-Death, increase own DMG RES by 20%.`
                     }
                 },
@@ -14321,7 +14321,7 @@ const UnitInformation = [
                     hover3: "Goldola",
                 },
                 passive: {
-                    ability1: `Increase own DMG agaisnt Gods by 100%.`,
+                    ability1: `Increase own DMG against Gods by 100%.`,
                     ability2: `Increase own Equipment CT Speed by 15%.`
                 }
             }
@@ -23633,7 +23633,7 @@ const UnitInformation = [
                 evosuper: "Liza after claiming the magistone scepter Mercurius. She enclosed herself in the barrier it created when the royal castle was razed. Although having yet to speak of the event, it is easy to imagine how she felt while helplessly watching diaster befall her nation, her people, and her siblings. Regardless, she lets her cheerful attitude shine through like a guiding star, as bright as Mercurius itself."
             }
     },
-    { // Noble Flare Mira - Missing Lore
+    { // Noble Flare Mira - Complete
         id: 103657112,
         name: "Noble Flare Mira",
         translate: "Searing Petal Mira",
@@ -23719,8 +23719,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `The Principality of Bamint's third princess garbed in the traditional attire of the nation's founder. Although normally a privilege of the eldest daughter, she is being confined for high treason, and the second-eldest is a truant. Her own talent is more than sufficient, but she still feels inferior to her siblings. Regardless, the inextinguishable fire in her heart will surely rise as bright as a phoenix.`,
+                evosuper: `After dueling with the oldest sister again, she identified the emotion deep inside her heart. She was daunted but not discouraged in the least. That frustration was pure, always driving her to improve, to surpass any challenge. Her hands gripped harder. Her attacks grew stronger. Her heart burned redder, hotter, fiercer. She regained her old self-confidence.`
             }
     },
     { // Long - Missing Lore
@@ -23802,7 +23802,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { // Miranda (Valentines) - Missing Lore + JP ver
+    { // Miranda (Valentines) - Complete
         id: 103667412,
         name: "Miranda (Valentines)",
         translate: "Valentines Miranda",
@@ -23875,11 +23875,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `A teacher from Simon's Hill. Gifted with brains and beauty, she is perfect at first glance. However, her cooking, as fearsome as an enchanted bullet, can make the average stomach revolt with a single bite. She decided to try making chocolates for Valentine's Day, oblivious to the threat her products would pose.`,
+                evosuper: `To get into the mood of the occasion, she tried on her old school uniform. It fit surprisingly well despite not having worn it in over a decade. Reminiscing in front of the mirror, scenes and emotions from her time as a student returned as clear as day. She then resumed making chocolates. Her feelings for him had not changed, and she would prove it.`
             }
     },
-    { // Priscilla (Valentines) - Missing Lore
+    { // Priscilla (Valentines) - Complete
         id: 103677112,
         name: "Priscilla (Valentines)",
         translate: "Valentines Priscilla",
@@ -23952,8 +23952,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `With Valentine's Day around the corner, Priscilla was more concerned about her appearance than usual. Like every other adolescent girl, she stood before the mirror fighting her bangs for an hour in hopes of drawing the attention of her childhood friend. That effort would sadly go unrewarded; boys pay little heed to a girl's changes -- doubly so for one as oblivious as Hart. She can only pray for better luck next year.`,
+                evosuper: `"If I'm afraid of getting hurt, I'll never succeed!" Miranda's talk with Priscilla steeled her resolve. Even if the road was fraught with thorns, even if her enemy was as foreboding as a game's final boss, she would forge ahead with full force. She would proudly share her precious feelings with her precious friend. Miranda was a role model, but she was also her H(e)art's rival.`
             }
     },
     { // Aristela Orbis - Missing Lore
@@ -24035,7 +24035,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { // Demon Lord Vox - Missing Lore
+    { // Demon Lord Vox - Complete
         id: 103697512,
         name: "Demon Lord Vox",
         translate: "Demon King Vox",
@@ -24115,8 +24115,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "To protect both Juno and her country, Vox tapped into the forbidden power of Auge. This amplified strength came with amplified arrogance and aggression as well. Although he is clearly no longer the same captain of the Templars, his core remains untouched along with his oath to the late queen.",
+                evosuper: "Vox of Granadia after obtaining the might of Auge. Juno's blood allowed him to harness it, but his own fortitude prevented that evil influence from taking over after her blood ran out. He is sustained by his oath to the queen, driven to fight in defense of what she left behind."
             }
     },
     { // Jay - Missing Lore
@@ -33805,7 +33805,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Demon Lord Rimuru - Missing Lore (GL), Review Done
+    { //Demon Lord Rimuru - Complete
         id: 107837512,
         name: `Demon Lord Rimuru`,
         attribute: `Dark`,
@@ -33884,8 +33884,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "To revive comrades killed by humans. Rimuru Tempest decided to become a true Demon Lord. However, a great number of sacrifices were necessary to provide the nutrients, so the Harvest Festival began.",
+                evosuper: `The newest member of Octagram, eight Demon Lords that rule the world. is a Slime known as Rimuru Tempest. The Unique Skill "Great Sage" also evolved into its ultimate form, "Raphael".`
             },
         review:
             {
@@ -34007,7 +34007,7 @@ const UnitInformation = [
                 author: `damino_`
             }
     },
-    { //Diablo - Missing Lore (GL), Review Done
+    { //Diablo - Complete
         id: 107857512,
         name: `Diablo`,
         attribute: `Dark`,
@@ -34086,8 +34086,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An Arch Daemon summoned by Rimuru Tempest to serve as bodyguard. The extent of his power exceeded even his master's expectations. When Rimuru became a Demon Lord, he received his current name and swore absolute loyalty in response.",
+                evosuper: "His true identity is Noir, one of seven Primordial Daemons. After being named by Rimuru, he became a Demon Lord, giving him nearly equivalent strength."
             },
         review:
             {
@@ -34108,7 +34108,7 @@ const UnitInformation = [
                 author: `damino_`
             }
     },
-    { //Sunraku - Missing Lore
+    { //Sunraku - Complete
         id: 107867112,
         name: `Sunraku`,
         attribute: `Fire`,
@@ -34175,11 +34175,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `In real life, he is a high schooler named Rakuro Hizutome. He loves broken, bug-riddled games so much that he earned the nickname "Kusoge (crappy game) Hunter", but he started playing a high-quality full-dive VR game "Shangri-La Frontier" at a friend's recommendation. His job is Mercenary (Twin Swords) and race is Human, and he is armed with nothing but his weapons and a funny-looking bird mask.`,
+                evosuper: `He has outstanding skills and razor-sharp reactions from mastering so many unfairly balanced games. In "Shangri-La Frontier", they earned him the cursed marks of the Unique Monster Lycagon the Nightslayer, setting him on a course unseen by any other player.`
             }
     },
-    { //Psyger-0 - Missing Lore
+    { //Psyger-0 - Missing Lore (GL)
         id: 107877412,
         name: `Psyger-0`,
         attribute: `Light`,
@@ -34246,11 +34246,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `In the full-dive VR game "Shangri-La Frontier", she is one of the strongest players with the title of "Attack Master". Instantly recognizable for her white armor and black sword, she prefers to let her actions speak for themselves.`,
+                evosuper: `Missing Lore.`
             }
     },
-    { //Arthur Pencilgon - Missing Lore
+    { //Arthur Pencilgon - Complete
         id: 107887512,
         name: `Arthur Pencilgon`,
         attribute: `Dark`,
@@ -34317,11 +34317,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `In the full-dive VR game "Shangri-la Frontier", she is second-in-command of the PK clan Asura Kai. Her ability to ambush and defeat stronger players has given her the nickname "Giant Killer". Her main job is Magic Lancer, but her sub-job is unknown.`,
+                evosuper: `She has a history with Sunraku and OiKatzo from previous games. Her reign as the Dystopian Empress in one particular MMORPG ended when the two of them led a revolution that unseated her from power.`
             }
     },
-    { //OiKatzo - Missing Lore
+    { //OiKatzo - Complete
         id: 107897112,
         name: `OiKatzo`,
         attribute: `Fire`,
@@ -34388,8 +34388,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `The alter-ego of professional gamer Kei Uomi in the full-dive VR game "Shangri-La Frontier". When he saw how much Sunraku was enjoying it, he decided to join the action. His job is Monk with an Archaeologist sub-job.`,
+                evosuper: `Making headlines as a professional gamer, his forte is fighting games. This means he even enjoys broken, buggy ones like Berserk Online Passion in his off-time. That predilection can be seen in his character choice of Monk with a close-quarters HP/VIT build.`
             }
     },
     { //Momon - Missing Lore
@@ -34475,7 +34475,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Demiurge - Missing Lore
+    { //Demiurge - Complete
         id: 107917112,
         name: `Demiurge`,
         attribute: `Fire`,
@@ -34554,8 +34554,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Guardian of the Great Tomb of Nazarick's seventh floor. He was created by Ulbert, the most committed to evil among the forty-one guild members. With the sharpest mind of Nazarick's NPCs, he devises all number of schemes and strategies.`,
+                evosuper: `As the brains of Nazarick, he enacts an intricate web of plots for the sake of his sworn master Ainz Ooal Gown. He shows no mercy to anyone who interferes, even his own peers.`
             }
     },
     { //Evileye - Missing Lore
@@ -35051,7 +35051,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
-    },
+    },*/
     { //Summer Miyu - JP Complete
         id: 107987112,
         name: `Summer Miyu`,
@@ -35069,40 +35069,40 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 6,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/healLB.png",
-                slot32type: "/db/Mines/thumbnail/suppLB.png"
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7150,
+                hpplus: 1350,
+                atk: 3968,
+                atkplus: 685,
+                def: 3039,
+                defplus: 629
             },
         skillset: 
             {
-                skill: ``,
-                skillbreak: 0,
-                arts: ``,
-                artsbreak: 0,
-                truearts: ``,
-                trueartsbreak: 0,
-                superarts: ``,
-                superartsbreak: 0
+                skill: `12s CT - 2000% Fire DMG (PHY). For 7s. increase own Accuracy by 30%.`,
+                skillbreak: 700,
+                arts: `28000% Fire DMG (PHY). For 15s, reduce enemies' Fire RES by 60%.`,
+                artsbreak: 1200,
+                truearts: `65000% Fire DMG (PHY). Increase allies' Arts by 30. For 50s, increase allies' PHY DMG by 80% (stackable).`,
+                trueartsbreak: 1500,
+                superarts: `170000% Fire DMG (PHY). Increase own CRI rate by 100% and Super CRI rate by 50% for the duration of Super Arts.`,
+                superartsbreak: 2000
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``,
-                ability3: ``,
-                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+                ability1: `At the Start of Battle, increase own Arts by 200 and ATK by 50% (MAX: 300%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Paralysis RES by 100%.`,
+                ability3: `Increase own MAG RES by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Miyu's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Miyu's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -35110,22 +35110,22 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 100,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon: 
             {
-                name: ``,
-                slot: "/db/Mines/thumbnail/LB.png",
-                detail: "/db/Equipment/Detail/item_detail_.png",
-                skill: ``,
-                skillbreak: 0,
+                name: `Miyu's Swimsuit`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153411.png",
+                skill: `50s CT - 5000% Fire DMG (PHY). For 10s, reduce enemies' Fire RES by 40% and increase own ATK by 40%.`,
+                skillbreak: 500,
                 passive: 
                     {
-                        ability1: ``,
-                        ability2: ``
+                        ability1: `When equipped by Summer Miyu, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
                     }
             },
         lore: 
@@ -35133,8 +35133,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
-    }
-    */
+    },
     { //Summer Chloe - JP Complete
         id: 107997412,
         name: `Summer Chloe`,
@@ -35299,10 +35298,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }  
     },
-    /*
-    { //Summer Rin & Luvia - JP Complete
+    { //Summer Luvia & Rin - JP Complete
         id: 108017312,
-        name: `Summer Rin & Luvia`,
+        name: `Summer Luvia & Rin`,
         attribute: `Earth`,
         type: `Human`,
         image: 
@@ -35317,40 +35315,40 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 6,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
                 slot31type: "/db/Mines/thumbnail/healLB.png",
-                slot32type: "/db/Mines/thumbnail/suppLB.png"
+                slot32type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7368,
+                hpplus: 1360,
+                atk: 3260,
+                atkplus: 629,
+                def: 3244,
+                defplus: 614
             },
         skillset: 
             {
-                skill: ``,
-                skillbreak: 0,
-                arts: ``,
-                artsbreak: 0,
-                truearts: ``,
-                trueartsbreak: 0,
-                superarts: ``,
-                superartsbreak: 0
+                skill: `12s CT - 2000% Earth DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 800,
+                arts: `27000% Earth DMG (PHY). For 20s, increase allies' PHY RES by 20% and reduce enemies' PHY RES by 40%.`,
+                artsbreak: 1300,
+                truearts: `60000% Earth DMG (PHY). Consumes 30% of own MAX HP. For 25s, increase all allies' PHY DMG by 220%.`,
+                trueartsbreak: 2200,
+                superarts: `155000% Earth DMG (PHY). For 20s, reduce enemies' DMG RES by 100%. Additionally if used when unaffected by Status ailments, for 20s, reduce enemies' Earth RES by 100%.`,
+                superartsbreak: 2800
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``,
-                ability3: ``,
-                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+                ability1: `When Near-Death, increase all allies' Arts by 200. Additionally, for 15s, increase allies' DMG RES by 30%. Can only be activated once per quest.`,
+                ability2: `Increase own HP Recovery Amount by 15%.`,
+                ability3: `Increase own Burn RES by 30%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Luvia & Rin's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Luvia & Rin's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -35358,22 +35356,22 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                     mat2amt: 100,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Smogdragon Soulgem`
                 }
             },
         trueweapon: 
             {
-                name: ``,
-                slot: "/db/Mines/thumbnail/LB.png",
-                detail: "/db/Equipment/Detail/item_detail_.png",
-                skill: ``,
-                skillbreak: 0,
+                name: `Luvia's Swimsuit`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153431.png",
+                skill: `40s CT - 9000% Earth DMG (PHY). Increase own Arts by 30. Additionally if user is Earth, for 10s, increase all stats by 30%.`,
+                skillbreak: 800,
                 passive: 
                     {
-                        ability1: ``,
-                        ability2: ``
+                        ability1: `When equipped by Summer Luvia & Rin, increase own ATK by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
                     }
             },
         lore: 
@@ -35381,7 +35379,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
-    },
+    }/*,
     { //Summer Sakura Matou - JP Complete
         id: 108027512,
         name: `Summer Sakura Matou`,
