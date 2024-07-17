@@ -33254,10 +33254,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ラディカルソード』 (Evil Pola TW) - JP Complete
+    { //True 'Radical Edge' - Missing Lore
         id: 112011,
-        name: `真『ラディカルソード』`,
-        translate: `True 'Radical Sword'`,
+        name: `True 'Radical Edge'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33280,15 +33279,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Evil Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Anti-Heroine Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ラディカルソード (Evil Pola Farmable) - JP Complete
+    { //Radical Edge - Missing Lore
         id: 112021,
-        name: `ラディカルソード`,
-        translate: `Radical Sword`,
+        name: `Radical Edge`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33313,12 +33311,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //セルフィードレス (Evil Pola Farmable) - JP Complete
+    { //Center of Attention - Missing Lore
         id: 112031,
-        name: `セルフィードレス`,
-        translate: `Selfie Dress`,
+        name: `Center of Attention`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -33343,7 +33340,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own BE Output by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //蒼機盾『ツヴァイトシルト』 - JP Complete
         id: 112041,

@@ -1796,6 +1796,32 @@ const NewsArticles = [
                 }
         }
     },
+    {
+        id: 57,
+        date: `July 17, 2024`,
+        article: 
+        {
+            intro: `Anti-Heroine Pola makes her debut in Global with her respective event equips!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Anti-Heroine Pola`, 103817312]
+                    ],  
+                    equips: [
+                        [`True 'Radical Edge'`, 112011],
+                        [`Radical Edge`, 112021],
+                        [`Center of Attention`, 112031]
+                    ],
+                    dream: []
+                }
+        }
+    },
 ]
 
 export function getNews() {

@@ -25001,9 +25001,10 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Evil Pola - Missing Lore (JP)
+    { //Anti-Heroine Pola - Missing Lore
         id: 103817312,
-        name: `Evil Pola`,
+        name: `Anti-Heroine Pola`,
+        translate: `Evil Pola`,
         attribute: `Earth`,
         type: `Demon`,
         image: 
@@ -25062,21 +25063,21 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Radical Sword`,
+                name: `Radical Edge`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_112011.png",
                 skill: `40s CT - 6000% Earth DMG (PHY). 70% Chance to inflict Poison for 12s. If user is Earth, for 12s, increase own DMG by 35%.`,
                 skillbreak: 600,
                 passive: 
                     {
-                        ability1: `When equipped by Evil Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Anti-Heroine Pola, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     { //Holy Knight Roy - Missing Lore (JP)
@@ -34179,7 +34180,7 @@ const UnitInformation = [
                 evosuper: `He has outstanding skills and razor-sharp reactions from mastering so many unfairly balanced games. In "Shangri-La Frontier", they earned him the cursed marks of the Unique Monster Lycagon the Nightslayer, setting him on a course unseen by any other player.`
             }
     },
-    { //Psyger-0 - Missing Lore (GL)
+    { //Psyger-0 - Complete
         id: 107877412,
         name: `Psyger-0`,
         attribute: `Light`,
@@ -34247,7 +34248,7 @@ const UnitInformation = [
         lore: 
             {   
                 evoawk: `In the full-dive VR game "Shangri-La Frontier", she is one of the strongest players with the title of "Attack Master". Instantly recognizable for her white armor and black sword, she prefers to let her actions speak for themselves.`,
-                evosuper: `Missing Lore.`
+                evosuper: `Despite her reputation as a powerful warrior in "Shangri-La Frontier", she is a high schooler named Rei Saiga in real life. Hoping to form a closer bond with her classmate Rakuro, she seeks out his character Sunraku.`
             }
     },
     { //Arthur Pencilgon - Complete
