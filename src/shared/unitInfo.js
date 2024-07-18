@@ -24285,7 +24285,7 @@ const UnitInformation = [
         name: `Luana`,
         attribute: `Light`,
         type: `Human`,
-        rank: `A+`,
+        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103336412.png",
@@ -26321,8 +26321,8 @@ const UnitInformation = [
     { //Saitama - Complete + JP ver
         id: 107076412,
         name: "Saitama",
-        luckrank: "B",
-        rank: "B+",
+        luckrank: "A",
+        rank: "A-",
         attribute: "Light",
         type: "Human",
         image: 
@@ -26524,8 +26524,8 @@ const UnitInformation = [
     { //Terrible Tornado - Complete + JP ver
         id: 107096312,
         name: "Terrible Tornado",
-        luckrank: "F",
-        rank: "B",
+        luckrank: "C",
+        rank: "A-",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -27837,8 +27837,8 @@ const UnitInformation = [
     { //Sonic - Complete + JP ver
         id: 107216512,
         name: "Sonic",
-        luckrank: "F",
-        rank: "B-",
+        luckrank: "A",
+        rank: "A-",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -27963,8 +27963,8 @@ const UnitInformation = [
     { //Hellish Blizzard - Complete + JP ver
         id: 107226212,
         name: "Hellish Blizzard",
-        luckrank: "F",
-        rank: "C",
+        luckrank: "A",
+        rank: "A",
         attribute: "Water",
         type: "Human",
         image: 
@@ -28091,8 +28091,8 @@ const UnitInformation = [
     { //Garou - Complete + JP ver
         id: 107236512,
         name: "Garou",
-        rank: "B+",
-        luckrank: "F",
+        rank: "A-",
+        luckrank: "A",
         attribute: "Dark",
         type: "Human",
         image: 
