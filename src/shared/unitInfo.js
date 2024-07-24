@@ -34970,7 +34970,6 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    /*
     { //Summer Illya - JP Complete
         id: 107977212,
         name: `Summer Illya`,
@@ -34992,36 +34991,36 @@ const UnitInformation = [
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/healLB.png",
-                slot32type: "/db/Mines/thumbnail/suppLB.png"
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7150,
+                hpplus: 1350,
+                atk: 3968,
+                atkplus: 685,
+                def: 3039,
+                defplus: 629
             },
         skillset: 
             {
-                skill: ``,
-                skillbreak: 0,
-                arts: ``,
-                artsbreak: 0,
-                truearts: ``,
-                trueartsbreak: 0,
-                superarts: ``,
-                superartsbreak: 0
+                skill: `12s CT - 2500% Water DMG (MAG). For 7s, increase own Arts by 5/s.`,
+                skillbreak: 600,
+                arts: `20000% Water DMG (MAG). For 20s, increase own ATK by 100% and reduce enemies' Evasion rate by 50%.`,
+                artsbreak: 1200,
+                truearts: `70000% Water DMG (MAG). Heal all allies' Burn. For 45s, increase allies' Water DMG by 100% and Burn RES by 100%.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Water DMG (MAG). Increase own Arts by [25 x # of times Super Arts has been used] (MAX: 150). For 30s, reduce enemies' MAG RES by 100% (stackable).`,
+                superartsbreak: 2800
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``,
-                ability3: ``,
-                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+                ability1: `When own HP is above 80%, increase own DMG by 100% and increase own Freeze/Paralysis RES by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own MAG RES by 10%.`,
+                ability3: `Increase own BE Output by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Illya's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Illya's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -35029,22 +35028,22 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 100,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: "Frostsprite Soulgem"
                 }
             },
         trueweapon: 
             {
-                name: ``,
-                slot: "/db/Mines/thumbnail/LB.png",
-                detail: "/db/Equipment/Detail/item_detail_.png",
-                skill: ``,
-                skillbreak: 0,
+                name: `Illya's Swimsuit`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153401.png",
+                skill: `55s CT - 8000% Water DMG (MAG). For 10s, increase own MAG DMG by 50%. If user is Water, increase own MAG DMG by 100% instead.`,
+                skillbreak: 800,
                 passive: 
                     {
-                        ability1: ``,
-                        ability2: ``
+                        ability1: `When equipped by Summer Illya, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
@@ -35052,7 +35051,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
-    },*/
+    },
     { //Summer Miyu - JP Complete
         id: 107987112,
         name: `Summer Miyu`,
@@ -35380,7 +35379,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
-    }/*,
+    },
     { //Summer Sakura Matou - JP Complete
         id: 108027512,
         name: `Summer Sakura Matou`,
@@ -35400,38 +35399,38 @@ const UnitInformation = [
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot31type: "/db/Mines/thumbnail/magLB.png",
                 slot32type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7031,
+                hpplus: 1300,
+                atk: 3375,
+                atkplus: 650,
+                def: 3450,
+                defplus: 650
             },
         skillset: 
             {
-                skill: ``,
-                skillbreak: 0,
-                arts: ``,
-                artsbreak: 0,
-                truearts: ``,
-                trueartsbreak: 0,
-                superarts: ``,
-                superartsbreak: 0
+                skill: `12s CT - 2000% Dark DMG (MAG). Increase own Arts by 30.`,
+                skillbreak: 500,
+                arts: `28000% Dark DMG (MAG). Increase allies' Arts by 20. 90% chance of inflicting Blind for 15s.`,
+                artsbreak: 1000,
+                truearts: `65000% Dark DMG (MAG). For 30s, increase allies' MAG DMG by 150% and MAG RES by 30%.`,
+                trueartsbreak: 2000,
+                superarts: `160000% Dark DMG (MAG). For 30s, reduce enemies' Dark RES by 150%. If enemy was Blinded, reduce enemies' Dark RES by 200% instead.`,
+                superartsbreak: 2500
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``,
-                ability3: ``,
-                ability4: `Unit EXP UP 20% UP. (When Nonon's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Nonon's SP. Art is owned)`
+                ability1: `Increase Leader's DMG by 150% and Arts by 5/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Blind RES by 100%.`,
+                ability3: `Increase DMG against Humans by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Sakura Matou's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Sakura Matou's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -35439,22 +35438,22 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon: 
             {
-                name: ``,
-                slot: "/db/Mines/thumbnail/LB.png",
-                detail: "/db/Equipment/Detail/item_detail_.png",
-                skill: ``,
-                skillbreak: 0,
+                name: `Sakura Matou's Swimsuit`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153451.png",
+                skill: `50s CT - 8000% Dark DMG (MAG). For 10s, reduce enemies' Dark RES by 30%. If user is Human, reduce enemies' Dark RES by 50% instead.`,
+                skillbreak: 500,
                 passive: 
                     {
-                        ability1: ``,
-                        ability2: ``
+                        ability1: `When equipped by Summer Sakura Matou, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
@@ -35463,7 +35462,6 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     }
-    */
 ];
 
 export function getUnits() {

@@ -1822,6 +1822,38 @@ const NewsArticles = [
                 }
         }
     },
+    {
+        id: 58,
+        date: `July 24, 2024`,
+        article: 
+        {
+            intro: `Part 3 of JP's Fate Summer collab rerun has been released, bringing with it new units and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Summer Illya`, 107977212],
+                        [`Summer Sakura Matou`, 108027512]
+                    ],
+                    equips: [
+                        [`真『イリヤの水着』`, 153401],
+                        [`真『間桐桜の水着』`, 153451],
+                        [`イリヤの水着`, 153461],
+                        [`ヘカテの錫杖`, 153491],
+                        [`アレストチェーン`, 153511],
+                        [`間桐桜の水着`, 153611],
+                        [`間桐桜の仮面`, 153621],
+                        [`間桐桜の制服`, 153631]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
+    },
 ]
 
 export function getNews() {

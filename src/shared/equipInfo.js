@@ -44906,11 +44906,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //真『イリヤの水着』 - Missing Lore
         id: 153401,
-        name: ``,
-        translate: ``,
+        name: `真『イリヤの水着』`,
+        translate: `True 'Illya's Swimsuit'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44928,16 +44927,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 8000% Water DMG (Magic). Increase own Magic DMG by 50% for 10s. If user is Water, increase own Magic DMG by 100% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `When equipped by Summer Illya, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
-    },*/
+    },
     { //真『美遊の水着』 - Missing Lore
         id: 153411,
         name: `真『美遊の水着』`,
@@ -44959,13 +44958,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 5000% Fire DMG (PHY). Reduce enemies' Fire RES by 40% and increase own ATK by 40% for 10s.`,
+                skill: `50s CT - 5000% Fire DMG (Physical). Reduce enemies' Fire resistance by 40% and increase own ATK by 40% for 10s.`,
                 break: 500
             },
         passive: 
             {
                 ability1: `When equipped by Summer Miyu, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own PHY RES by 5%.`
+                ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -44990,7 +44989,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `25s CT - 5000% Light DMG (PHY). Reduce enemies' Light RES by 15% (stackable) for 15s. If user is Human, increase own Arts by 10.`,
+                skill: `25s CT - 5000% Light DMG (Physical). Reduce enemies' Light resistance by 15% (stackable) for 15s. If user is Human, increase own Arts by 10.`,
                 break: 500
             },
         passive: 
@@ -45021,7 +45020,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 9000% Earth DMG (PHY). Increase own Arts by 30. Additionally if user is Earth, increase all stats by 30% for 10s.`,
+                skill: `40s CT - 9000% Earth DMG (Physical). Increase own Arts by 30. Additionally if user is Earth, increase all stats by 30% for 10s.`,
                 break: 800
             },
         passive: 
@@ -45052,7 +45051,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 12000% Water DMG (PHY). If user is Water, reduce enemies' DMG RES by 20% for 10s. If user is Water and when own HP is above 80%, reduce enemies' DMG RES by 35% instead.`,
+                skill: `50s CT - 12000% Water DMG (Physical). If user is Water, reduce enemies' DMG resistance by 20% for 10s. If user is Water and when own HP is above 80%, reduce enemies' DMG resistance by 35% instead.`,
                 break: 800
             },
         passive: 
@@ -45062,11 +45061,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //真『間桐桜の水着』 - Missing Lore
         id: 153451,
-        name: ``,
-        translate: ``,
+        name: `真『間桐桜の水着』`,
+        translate: `True 'Sakura Matou's Swimsuit'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45084,20 +45082,20 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8000% Dark DMG (Magic). Reduce enemies' Dark resistance by 30% for 10s. If user is Human, reduce enemies' Dark resistance by 50% instead.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `When equipped by Summer Sakura Matou, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    { //イリヤの水着 - Missing Lore
         id: 153461,
-        name: ``,
-        translate: ``,
+        name: `イリヤの水着`,
+        translate: `Illya's Swimsuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45115,17 +45113,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6000% Water DMG (Magic). Increase all stats by 10% for 12s. If user is Water, increase all stats by 20% instead.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //想い出のブレスレット - Missing Lore
         id: 153471,
         name: `想い出のブレスレット`,
@@ -45147,12 +45143,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 5000% Water DMG (MAG). Increase own Arts by 30. Increase own MAG DMG by 40% for 15s.`,
+                skill: `60s CT - 5000% Water DMG (Magic). Increase own Arts by 30. Increase own Magic DMG by 40% for 15s.`,
                 break: 500
             },
         passive: 
             {
-                ability1: `Increase own MAG RES by 5%.`
+                ability1: `Increase own Magic resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -45186,11 +45182,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //ヘカテの錫杖 - Missing Lore
         id: 153491,
-        name: ``,
-        translate: ``,
+        name: `ヘカテの錫杖`,
+        translate: `Hecate's Staff`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45208,17 +45203,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 3000% Water DMG (Magic). Reduce enemies' Magic resistance by 35% for 10s. Additionally if user is Human, reduce enemies' DMG resistance by 35% for 10s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //破戒すべき全ての符 - Missing Lore
         id: 153501,
         name: `破戒すべき全ての符`,
@@ -45240,7 +45233,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 4000% Water DMG (PHY). Increase own Break Power by 60% for 8s. Increase own Break Power by 90% against enemies affected by Status ailments instead.`,
+                skill: `40s CT - 4000% Water DMG (Physical). Increase own Break Power by 60% for 8s. Increase own Break Power by 90% against enemies affected by Status ailments instead.`,
                 break: 4000
             },
         passive: 
@@ -45249,11 +45242,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //アレストチェーン - Missing Lore
         id: 153511,
-        name: ``,
-        translate: ``,
+        name: `アレストチェーン`,
+        translate: `Arrest Chain`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45271,17 +45263,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increase Water allies' DMG by 40% (stackable) for 40s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //美遊の水着 - Missing Lore
         id: 153521,
         name: `美遊の水着`,
@@ -45303,7 +45293,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 13500% Fire DMG (PHY). Increase own ATK by 100% for 10s. If user is above 80% HP, increase own ATK by 150% instead.`,
+                skill: `80s CT - 13500% Fire DMG (Physical). Increase own ATK by 100% for 10s. If user is above 80% HP, increase own ATK by 150% instead.`,
                 break: 1000
             },
         passive: 
@@ -45333,7 +45323,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 8000% Fire DMG (MAG). If user is Fire, increase own CRI rate by 100% for 10s.`,
+                skill: `60s CT - 8000% Fire DMG (Magic). If user is Fire, increase own CRI rate by 100% for 10s.`,
                 break: 800
             },
         passive: 
@@ -45363,7 +45353,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 5000% Light DMG (PHY). Increase own PHY DMG by 40% for 12s. If user is Light, increase own PHY DMG by 80% instead. When used for the first time, increase own Arts by 70.`,
+                skill: `45s CT - 5000% Light DMG (Physical). Increase own Physical DMG by 40% for 12s. If user is Light, increase own Physical DMG by 80% instead. When used for the first time, increase own Arts by 70.`,
                 break: 800
             },
         passive: 
@@ -45453,7 +45443,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 3000% Earth DMG (PHY). Reduce enemies' Earth RES by 20% (stackable) for 20s.`,
+                skill: `20s CT - 3000% Earth DMG (Physical). Reduce enemies' Earth resistance by 20% (stackable) for 20s.`,
                 break: 300
             },
         passive: 
@@ -45483,7 +45473,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 5000% Water DMG (PHY). Reduce enemies' Water RES by 40% for 10s. When used for the first time, reduce enemies' Water RES by 60% instead.`,
+                skill: `60s CT - 5000% Water DMG (Physical). Reduce enemies' Water resistance by 40% for 10s. When used for the first time, reduce enemies' Water resistance by 60% instead.`,
                 break: 500
             },
         passive: 
@@ -45513,7 +45503,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Heal all allies' HP by 1500. Increase all allies' PHY RES by 40% for 20s.`,
+                skill: `40s CT - Heal all allies' HP by 1500. Increase all allies' Physical resistance by 40% for 20s.`,
                 break: 0
             },
         passive: 
@@ -45543,7 +45533,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 10000% Water DMG (PHY). Reduce enemies' PHY RES by 30% for 10s. If used when own HP is above 90%, reduce enemies' PHY RES by 50% instead.`,
+                skill: `50s CT - 10000% Water DMG (Physical). Reduce enemies' Physical resistance by 30% for 10s. If used when own HP is above 90%, reduce enemies' Physical resistance by 50% instead.`,
                 break: 1000
             },
         passive: 
@@ -45552,11 +45542,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { // - Missing Lore
+    { //間桐桜の水着 - Missing Lore
         id: 153611,
-        name: ``,
-        translate: ``,
+        name: `間桐桜の水着`,
+        translate: `Sakura Matou's Swimsuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45574,20 +45563,19 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5000% Dark DMG (Magic). Increase own Magic DMG by 60% for 15s. When used for the first time, increase own Arts by 80.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    { //間桐桜の仮面 - Missing Lore
         id: 153621,
-        name: ``,
-        translate: ``,
+        name: `間桐桜の仮面`,
+        translate: `Sakura Matou's Mask`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45605,20 +45593,19 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5000% Dark DMG (Magic). Increase own Magic DMG by 60% for 10s. Additionally if user is Human, increase own Equip CT Speed by 30% for 10s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `Increase own Dark resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    { // - Missing Lore
+    { //間桐桜の制服 - Missing Lore
         id: 153631,
-        name: ``,
-        translate: ``,
+        name: `間桐桜の制服`,
+        translate: `Sakura Matou's Uniform`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -45636,17 +45623,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase allies' Light resistance by 30% for 15s. When used for the first time, increase Human allies' Arts by 20.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
-    */
 ]
 
 export function getEquips() {
