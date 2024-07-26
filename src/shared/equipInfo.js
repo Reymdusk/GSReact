@@ -31116,10 +31116,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『九宝』 (Kokuri TW) - JP Complete
+    { //True 'Kubou' - Missing Lore
         id: 111301,
-        name: `真『九宝』`,
-        translate: `True '9 Treasures'`,
+        name: `True 'Kubou'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -31146,12 +31145,11 @@ const EquipInformation = [
                 ability1: `When equipped by Kokuri, increase own Arts by 3/s and Equip CT REC by 20%. Does not stack with Abilities of the same name (Only once).`,
                 ability2: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //亡珠魂『九宝』 (Kokuri Farmable) - JP Complete
+    { //Conflagrant Pearls 'Kubou' - Missing Lore
         id: 111311,
-        name: `亡珠魂『九宝』`,
-        translate: `Dead Soul '9 Treasures'`,
+        name: `Conflagrant Pearls 'Kubou'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31176,12 +31174,11 @@ const EquipInformation = [
             {
                 ability1: `Curse Time Reduction & Curse Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //魔着『リュバンリアン』 (Kokuri Farmable) - JP Complete
+    { //Magical Garb 'Ruban le Lien' - Missing Lore
         id: 111321,
-        name: `魔着『リュバンリアン』`,
-        translate: `Devil Suit 'Ryubenlian'`,
+        name: `Magical Garb 'Ruban le Lien'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31206,7 +31203,7 @@ const EquipInformation = [
             {
                 ability1: `Magic DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //烈脚装『テラウィンド』(Riviera Farmable) - JP Complete
         id: 111331,

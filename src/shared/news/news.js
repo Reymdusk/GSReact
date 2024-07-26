@@ -1854,6 +1854,36 @@ const NewsArticles = [
                 }
         }
     },
+    {
+        id: 59,
+        date: `July 26, 2024`,
+        article: 
+        {
+            intro: `Kokuri makes her debut on Global, alongside her respective equips. Moreover, some Summer variant units have been buffed!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Kokuri`, 103537112],
+                        [`Summer Juno`, 103376212],
+                        [`Summer Leone`, 103386312],
+                        [`Summer Cestina`, 103596112],
+                        [`Summer Liza`, 103606212]
+                    ],  
+                    equips: [
+                        [`True 'Kubou'`, 111301],
+                        [`Conflagrant Pearls 'Kubou'`, 111311],
+                        [`Magical Garb 'Ruban le Lien'`, 111321]
+                    ],
+                    dream: []
+                }
+        }
+    }
 ]
 
 export function getNews() {

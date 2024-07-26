@@ -20977,7 +20977,7 @@ const UnitInformation = [
                 author: `Praying Patrick`
             }
     },
-    { //Summer Juno - Complete, Review done
+    { //Summer Juno - Complete
         id: 103376212,
         name: "Summer Juno",
         rank: "A",
@@ -21012,27 +21012,12 @@ const UnitInformation = [
             {
                 skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
                 skillbreak: 800,
-                arts: "20000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
-                artsbreak: 1300,
-                truearts: "75000% Water DMG (MAG). For 50s, increase Allies' MAG DMG and Water Allies' DMG by 40% (stackable).",
-                trueartsbreak: 2200
-            },
-        skillsetJP: 
-            {
-                skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
-                skillbreak: 800,
                 arts: "24000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
                 artsbreak: 1300,
                 truearts: "82000% Water DMG (MAG). For 60s, increase Allies' MAG DMG and Water Allies' DMG by 50% (stackable).",
                 trueartsbreak: 2200
-            },
-        passive: 
-            {
-                ability1: "When HP is Above 80%, increase own Arts by 3/s.",
-                ability2: "Increase own Arts by 3/s if unafflicted by Status Ailments.",
-                ability3: "Increase DMG to Giant Bosses by 30%."
             }, 
-        passiveJP: 
+        passive: 
             {
                 ability1: "When HP is Above 80%, increase own Arts by 3/s.",
                 ability2: "Increase own Arts by 5/s if unafflicted by Status Ailments.",
@@ -21125,15 +21110,6 @@ const UnitInformation = [
                 defplus: 417
             },
         skillset: 
-            {
-                skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 15.",
-                skillbreak: 500,
-                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' DMG by 50%. Increase Earth Allies' next True Arts' DMG by 200% instead.",
-                artsbreak: 1000,
-                truearts: "58000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 3/s.",
-                trueartsbreak: 2200
-            },
-        skillsetJP: 
             {
                 skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 30.",
                 skillbreak: 500,
@@ -22625,7 +22601,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Summer Cestina - Complete, Review done
+    { // Summer Cestina - Complete + JP ver
         id: 103596112,
         name: "Summer Cestina",
         rank: "B+",
@@ -22657,15 +22633,6 @@ const UnitInformation = [
                 defplus: 399
             },
         skillset: 
-            {
-                skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 20%.",
-                skillbreak: 300,
-                arts: "15000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
-                artsbreak: 1000,
-                truearts: "[Current HP x 20]% Fire DMG (PHY).",
-                trueartsbreak: 1200
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
                 skillbreak: 300,
@@ -22733,7 +22700,7 @@ const UnitInformation = [
             }
             
     },
-    { // Summer Liza - Complete, Review done
+    { // Summer Liza - Complete
         id: 103606212,
         name: "Summer Liza",
         rank: "A-",
@@ -22765,15 +22732,6 @@ const UnitInformation = [
                 defplus: 436
             },
         skillset: 
-            {
-                skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1000.",
-                skillbreak: 200,
-                arts: "10000% Water DMG (MAG). Increase own Arts by 20. For 40s, reduce Enemies' DMG RES by 15% (Stackable)",
-                artsbreak: 2200,
-                truearts: "36000% Water DMG (MAG). For 15s, increase Allies' MAG and Critical DMG by 100%.",
-                trueartsbreak: 1300
-            },
-        skillsetJP: 
             {
                 skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1000.",
                 skillbreak: 200,
@@ -23454,7 +23412,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `9 Treasures`,
+                name: `Kubou`,
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111301.png",
                 skill: `30s CT - Increase all allies' Arts gauge by 20. For 8s, increase all Fire allies' ATK and DMG by 30%.`,
@@ -23467,8 +23425,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Hazuki - Missing Lore (GL)
@@ -25005,6 +24963,7 @@ const UnitInformation = [
         id: 103817312,
         name: `Anti-Heroine Pola`,
         translate: `Evil Pola`,
+        rank: "A+",
         attribute: `Earth`,
         type: `Demon`,
         image: 
