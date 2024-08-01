@@ -1878,7 +1878,9 @@ const NewsArticles = [
                     equips: [
                         [`True 'Kubou'`, 111301],
                         [`Conflagrant Pearls 'Kubou'`, 111311],
-                        [`Magical Garb 'Ruban le Lien'`, 111321]
+                        [`Magical Garb 'Ruban le Lien'`, 111321],
+                        [`Golcat King Crown`, 111831],
+                        [`Metal Chicken Tiara`, 111841]
                     ],
                     dream: []
                 }

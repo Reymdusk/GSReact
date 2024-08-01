@@ -32702,10 +32702,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //ゴルネコクラウン - JP Complete
+    { //Golcat King Crown - Missing Lore
         id: 111831,
-        name: `ゴルネコクラウン`,
-        translate: `Golcat's Crown`,
+        name: `Golcat King Crown`,
         location: `Dark Elemental Ruins F16 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -32729,14 +32728,13 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Metallic Tiara (Light Ruins F16 equip) is equipped on the party, increase own Heal Amount by 60% (No duplication).`
+                ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Metal Chicken Tiara (Light Ruins F16 equip) is equipped on the party, increase own Heal Amount by 60% (No duplication).`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Golcat King Crown.`
     },
-    { //メタチキティアラ - JP Complete
+    { //Metal Chicken Tiara - Missing Lore
         id: 111841,
-        name: `メタチキティアラ`,
-        translate: `Metallic Tiara`,
+        name: `Metal Chicken Tiara`,
         location: `Light Elemental Ruins F16 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -32760,7 +32758,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Golcat's Crown (Dark Ruins F16 equip) is equipped on the party, increase own CRI rate by 100% (No duplication).`
+                ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Golcat King Crown (Dark Ruins F16 equip) is equipped on the party, increase own CRI rate by 100% (No duplication).`
             },
         lore: `Currently unreleased in Global.`
     },
