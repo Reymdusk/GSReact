@@ -1885,6 +1885,47 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 60,
+        date: `August 10, 2024`,
+        article: 
+        {
+            intro: `Grad can finally Dream Awaken in JP and Kill La Kill collab rerun has arrived in Global, bringing a bunch of new units and equips, as well as buffs to the exisitng cast of Kill La Kill units!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Grad`, 101096511]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Uzu Sanageyama`, 107937312],
+                        [`Houka Inumuta`, 107947212]
+                    ],  
+                    equips: [
+                        [`Ira's Hot Rod`, 153231],
+                        [`Ira's Hot Rod EV`, 153241],
+                        [`Blade Regalia`, 153251],
+                        [`Probe Regalia`, 153261],
+                        [`Uzu's Raid Tracksuit`, 153291],
+                        [`Houka's Raid Tracksuit`, 153301],
+                        [`Uzu's Eye Mask`, 153331],
+                        [`Houka's Eyeglasses`, 153341],
+                        [`True 'Blade Regalia'`, 153361],
+                        [`True 'Probe Regalia'`, 153371],
+                    ],
+                    dream: [
+                        [`Mako`, 102206412],
+                        [`Satsuki`, 102216212],
+                        [`Ryuko`, 102226112],
+                        [`Nui Harime`, 107596512]
+                    ]
+                }
+        }
     }
 ]
 

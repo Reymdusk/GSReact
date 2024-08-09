@@ -44386,10 +44386,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //蟇郡 苛の車 - Missing Lore
+    { //Ira's Hot Rod - Missing Lore
         id: 153231,
-        name: `蟇郡 苛の車`,
-        translate: `Ira Gamagori's Car`,
+        name: `Ira's Hot Rod`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44414,12 +44413,11 @@ const EquipInformation = [
             {
                 ability1: `When own HP is 90% or above, increase own Accuracy by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『蟇郡 苛の車』 - Missing Lore
+    { //Ira's Hot Rod EV - Missing Lore
         id: 153241,
-        name: `極『蟇郡 苛の車』`,
-        translate: `Ira Gamagori's Car EV`,
+        name: `Ira's Hot Rod EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44445,12 +44443,11 @@ const EquipInformation = [
                 ability1: `When own HP is 90% or above, increase own Accuracy by 20%.`,
                 ability2: [`Increase own DMG against Humans by 20%.`, `Increase own DMG against Beasts by 20%.`, `Increase own Light resistance by 10%.`, `Increase own Dark resistance by 10%.`, `Increase own Skill CT Speed by 10%.`, `Increase own HP Recovery Amount by 10%.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //猿投山 渦の極制服 - Missing Lore
+    { //Blade Regalia - Missing Lore
         id: 153251,
-        name: `猿投山 渦の極制服`,
-        translate: `Uzu Sanageyama's Goku Uniform`,
+        name: `Blade Regalia`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44475,12 +44472,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //犬牟田 宝火の極制服 - Missing Lore
+    { //Probe Regalia - Missing Lore
         id: 153261,
-        name: `犬牟田 宝火の極制服`,
-        translate: `Houka Inumuta's Goku Uniform`,
+        name: `Probe Regalia`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -44505,7 +44501,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //蟇郡 苛の極制服 - Missing Lore
         id: 153271,
@@ -44567,10 +44563,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //猿投山 渦の三都制圧襲学旅行ジャージ - Missing Lore
+    { //Uzu's Raid Tracksuit - Missing Lore
         id: 153291,
-        name: `猿投山 渦の三都制圧襲学旅行ジャージ`,
-        translate: `Uzu Sanageyama's Tri-City Schools Raid Trip Jersey`,
+        name: `Uzu's Raid Tracksuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44595,12 +44590,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //犬牟田 宝火の三都制圧襲学旅行ジャージ - Missing Lore
+    { //Houka's Raid Tracksuit - Missing Lore
         id: 153301,
-        name: `犬牟田 宝火の三都制圧襲学旅行ジャージ`,
-        translate: `Houka Inumuta's Tri-City Schools Raid Trip Jersey`,
+        name: `Houka's Raid Tracksuit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -44625,7 +44619,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //蟇郡 苛の三都制圧襲学旅行ジャージ - Missing Lore
         id: 153311,
@@ -44687,10 +44681,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //猿投山 渦の目隠し - Missing Lore
+    { //Uzu's Eye Mask - Missing Lore
         id: 153331,
-        name: `猿投山 渦の目隠し`,
-        translate: `Uzu Sanageyama's Blindfold`,
+        name: `Uzu's Eye Mask`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -44715,12 +44708,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //犬牟田 宝火の眼鏡 - Missing Lore
+    { //Houka's Eyeglasses - Missing Lore
         id: 153341,
-        name: `犬牟田 宝火の眼鏡`,
-        translate: `Houka Inumuta's Glasses`,
+        name: `Houka's Eyeglasses`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -44745,7 +44737,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //蛇崩 乃音の帽子 - Missing Lore
         id: 153351,
@@ -44777,10 +44769,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『猿投山 渦の極制服』 - Missing Lore
+    { //True 'Blade Regalia' - Missing Lore
         id: 153361,
-        name: `真『猿投山 渦の極制服』`,
-        translate: `True 'Uzu Sanageyama's Goku Uniform'`,
+        name: `True 'Blade Regalia'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -44806,12 +44797,11 @@ const EquipInformation = [
                 ability1: `When equipped by Uzu Sanageyama, increase own CRI DMG by 70%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『犬牟田 宝火の極制服』 - Missing Lore
+    { //True 'Probe Regalia' - Missing Lore
         id: 153371,
-        name: `真『犬牟田 宝火の極制服』`,
-        translate: `True 'Houka Inumuta's Goku Uniform'`,
+        name: `True 'Probe Regalia'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -44837,7 +44827,7 @@ const EquipInformation = [
                 ability1: `When equipped by Houka Inumuta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『蟇郡 苛の極制服』 - Missing Lore
         id: 153381,

@@ -3270,7 +3270,7 @@ const UnitInformation = [
                 evoawk: "The divisional commander of the six great Demon Generals that revived at the Sealed Fortress Gormarey. At first, Demons were reviving sparsely. However, since they considered power the most, they never worked as groups and fought against themselves. One day Ragsherum had suppressed all the others and started his plan to revive Auge at Gormarey. Not only that, he desired to get the heart of Humans, the winner of the Ancient War, and to put them in fear and despair."
             }
     },
-    { //Grad - Complete
+    { //Grad - Complete + JP ver.
         id: 101096511,
         name: "Grad",
         luckrank: "C",
@@ -3295,6 +3295,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 7999,
@@ -3308,9 +3317,20 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2666% Dark DMG (PHY).",
                 skillbreak: 666,
-                arts: "16666% Dark DMG (PHY). For 5s, increase Allies' Critical Rate by 100%, Fire, Water and Earth RES by 50%.",
+                arts: "16666% Dark DMG (PHY). For 5s, increase Allies' Critical Rate by 100%, and Fire, Water and Earth RES by 50%.",
                 artsbreak: 1666,
                 truearts: "44444% Dark DMG (PHY). Consume 50% of own HP + For 30s, reduce own DMG RES by 40%, increase own DMG by 50%, increase own Crit Rate by 100% and heal own HP for 1% of DMG dealt.",
+                trueartsbreak: 2666,
+                crossarts: "66666% Dark DMG (PHY). For 99s, increase Grad and Nier's DMG by 66%, Critical DMG by 99%.",
+                crossartsbreak: 2666
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2666% Dark DMG (PHY).",
+                skillbreak: 666,
+                arts: "24444% Dark DMG (PHY). For 10s, increase Allies' Critical Rate by 100%, and Fire, Water and Earth RES by 50%.",
+                artsbreak: 1666,
+                truearts: "66666% Dark DMG (PHY). For 30s, increase own DMG by 50%, CRI rate by 100%, and heal own HP by 1% of DMG dealt.",
                 trueartsbreak: 2666,
                 crossarts: "66666% Dark DMG (PHY). For 99s, increase Grad and Nier's DMG by 66%, Critical DMG by 99%.",
                 crossartsbreak: 2666
@@ -3320,6 +3340,12 @@ const UnitInformation = [
                 ability1: "Increase Blind RES by 50%.",
                 ability2: "Increase Demon Allies' DMG against God Enemies by 20%. Does not stack with Abilities of the same name.",
                 ability3: "When at MAX HP, increase ATK by 100%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase Blind RES by 50%.",
+                ability2: "Increase Demon Allies' DMG against God Enemies by 20%. Does not stack with Abilities of the same name.",
+                ability3: "When above 80% HP, increase ATK by 100%."
             }, 
         evolution: 
             {
@@ -3341,6 +3367,47 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragGrad.png",
                     mat3amt: 20,
                     hover3: "Grad",
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GradDream.png`,
+                        mat2amt: 100,
+                        hover2: `Soulgem of Desire`
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 100%.`,
+                        ability2: `Increase own Arts by 3/s when above 80% HP.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GradDream.png`,
+                        mat2amt: 100,
+                        hover2: `Soulgem of Desire`
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Gods by 150%.`,
+                        ability2: `Increase own Arts by 4/s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GradDream.png`,
+                        mat2amt: 100,
+                        hover2: `Soulgem of Desire`
+                    },
+                    passive: {
+                        ability1: `Increase all allies' MAX HP by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Demon allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: 
@@ -10530,7 +10597,7 @@ const UnitInformation = [
                 evoawk: "The side of Marzex which embodies hate. The endlessly increasing powers of the Dark could eventually be used by the adventurer, who had been blessed by the merciful Marzex. How did the god feel,to help the adventurer who once defeated him? Hate still grows silently inside him, who stands beside the adventurer..."
             }
     },
-    { //Mako - Complete + JP ver.
+    { //Mako - Complete
         id: 102206412,
         name: "Mako",
         luckrank: "B",
@@ -10544,16 +10611,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_102205412.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102206412.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
@@ -10572,15 +10630,6 @@ const UnitInformation = [
                 defplus: 343
             },
         skillset: 
-            {
-                skill: "8s CT - 1800% Light DMG (PHY). Increase own Arts by 8.",
-                skillbreak: 1000,
-                arts: "16000% Light DMG (PHY). For 10s, increase own Skill CT REC by 150%, reduce Enemies' DMG RES and Movement Speed by 30%.",
-                artsbreak: 2200,
-                truearts: "For 15s, heal Allies' HP by 350/s, increase Allies' Arts by 4/s and Arts DMG by 90%.",
-                trueartsbreak: 0
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1800% Light DMG (PHY). Increase own Arts by 10.",
                 skillbreak: 1000,
@@ -10608,7 +10657,7 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -10661,7 +10710,7 @@ const UnitInformation = [
                 evoawk: "Mako Mankanshoku, Ryuko Matoi's best friend, has obtained the true powers of the Fight Club Spec Two-Star Goku Uniform. To maintain her social status, she fights evenly with Ryuko. However, once remembering why she fights, she is able to shake the earth with her fists. The ability shown when fighting Ryuko is but a shadow to her newly unleashed powers."
             }
     },
-    { //Satsuki - Complete + JP ver.
+    { //Satsuki - Complete
         id: 102216212,
         name: "Satsuki",
         rank: "B+",
@@ -10676,15 +10725,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102216212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -10703,15 +10743,6 @@ const UnitInformation = [
                 defplus: 364
             },
         skillset: 
-            {
-                skill: "6s CT - 2200% Water DMG (PHY). Increase own Arts by 15.",
-                skillbreak: 2500,
-                arts: "16000% Water DMG (PHY). Increase Break PWR of this Arts by 250% during Enemy Arts. For 25s, reduce Enemies' Break RES by 20%.",
-                artsbreak: 4000,
-                truearts: "50000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 10s. For 20s, increase Status RES (except Faint) by 100% for self.",
-                trueartsbreak: 8500
-            },
-        skillsetJP: 
             {
                 skill: "6s CT - 2200% Water DMG (PHY). Increase own Arts by 30.",
                 skillbreak: 2500,
@@ -10739,7 +10770,7 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -10778,19 +10809,6 @@ const UnitInformation = [
                 name: "Bakuzan",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_151331.png",
-                skill: "50s CT - 7500% Water DMG (PHY).",
-                skillbreak: 5000,
-                passive: 
-                    {
-                        ability1: "When equipped by Satsuki, increase user's Break PWR by 60%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase ATK by 5%."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
-            {
-                name: "Bakuzan",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_151331.png",
                 skill: "40s CT - 7500% Water DMG (PHY).",
                 skillbreak: 5000,
                 passive: 
@@ -10805,7 +10823,7 @@ const UnitInformation = [
                 evoawk: "The student principal of Honnouji Academy. Through the fight against her true enemies and thanks to her encounter with Ryuko Matoi, she realizes the mistakes made in the past and recognizes the support of those close to her. With this newfound clarity, surely no one can defeat her."
             }
     },
-    { //Ryuko - Complete + JP ver.
+    { //Ryuko - Complete
         id: 102226112,
         name: "Ryuko",
         rank: "B-",
@@ -10821,15 +10839,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102226112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -10847,16 +10856,7 @@ const UnitInformation = [
                 def: 2260,
                 defplus: 355
             },
-        skillset: 
-            {
-                skill: "8s CT - 2200% Fire DMG (PHY). Increase BE generated by this Skill by 80%.",
-                skillbreak: 1200,
-                arts: "16000% Fire DMG (PHY). For 20s, increase own ATK by 200% & Skill CT REC by 100%.",
-                artsbreak: 2150,
-                truearts: "60000% Fire DMG (PHY). For 20s, increase own DMG by 100%, increase own DMG to Enemies in Break by 200%, increase Paralysis and Freeze RES by 100%.",
-                trueartsbreak: 3800
-            },
-        skillsetJP: 
+        skillset:
             {
                 skill: "8s CT - 2200% Fire DMG (PHY). Increase BE generated by this Skill by 100%.",
                 skillbreak: 1200,
@@ -10869,13 +10869,7 @@ const UnitInformation = [
             {
                 ability1: "When near-death, increase Arts by 3/s.",
                 ability2: "When near-death, heal HP by 40/s.",
-                ability3: "Increase accuracy by 50%, Arts DMG by 30%."
-            }, 
-        passiveJP: 
-            {
-                ability1: "When near-death, increase Arts by 3/s.",
-                ability2: "When near-death, heal HP by 40/s.",
-                ability3: "Increase accuracy by 100%, Arts DMG by 30%."
+                ability3: "Increase Accuracy by 100% and Arts DMG by 30%."
             }, 
         evolution: 
             {
@@ -10890,7 +10884,7 @@ const UnitInformation = [
                     hover3: "Flogassa",
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -22170,7 +22164,7 @@ const UnitInformation = [
             {
                 ability1: "Increase Hellfire RES by 60%.",
                 ability2: "When entering Third Eye, if enemy is Demon or Dragon Boss, activate True Third Eye instead. During True Third Eye, increase DMG to Demon and Dragon Enemies by 200%.",
-                ability3: "When entering True Third Eye, increase Allies' Arts by 100. During Third Eye/True Third Eye, increase own ATK and Skill CT REC by 100%."
+                ability3: "When entering Third Eye/True Third Eye, increase Allies' Arts by 100. During Third Eye/True Third Eye, increase own ATK and Skill CT REC by 100%."
             }, 
         evolution: 
             {
@@ -25489,16 +25483,16 @@ const UnitInformation = [
             }
     },
     { //Elenore - Missing Lore (JP)
-        id: 103886312,
+        id: 103887312,
         name: `Elenore`,
-        attribute: `Earth`,
+        attribute: `Earth`, 
         type: `Demon`,
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_detail_103887312.png",
-                detailsuper: "/db/Units/Detail/unit_detail_103886312.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103887312.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103886312.png"
+                detailawk: "/db/Units/Detail/unit_detail_103886312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103887312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103886312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103887312.png"
             },
         slots: 
             {
@@ -31500,7 +31494,7 @@ const UnitInformation = [
                 author: `Praying Patrick`
             }
     },
-    { // Nui Harime - Complete + JP ver.
+    { // Nui Harime - Complete
         id: 107596512,
         name: "Nui Harime",
         rank: "A-",
@@ -31515,15 +31509,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107596512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 5,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -31542,15 +31527,6 @@ const UnitInformation = [
                 defplus: 419
             },
         skillset: 
-            {
-                skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 30.",
-                skillbreak: 500,
-                arts: "17000% Dark DMG (MAG). Every time this Arts is activated, increase Dark Allies' DMG by 30% (up to 120%). When this unit takes damage during this Arts, Enemies take 3000% Elementless DMG (MAG).",
-                artsbreak: 1000,
-                truearts: "68000% Dark DMG (MAG). For 15s, Allies ignore 100% of Enemies' DEF. Increase the Arts of the Ally with the least Arts (except self) by 100.",
-                trueartsbreak: 1300
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 30.",
                 skillbreak: 500,
@@ -31578,7 +31554,7 @@ const UnitInformation = [
                     hover3: "Oldeus"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -34601,7 +34577,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Uzu Sanageyama - JP Complete
+    { //Uzu Sanageyama - Missing Lore
         id: 107937312,
         name: `Uzu Sanageyama`,
         attribute: `Earth`,
@@ -34666,7 +34642,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Uzu Sanageyama's Goku Uniform`,
+                name: `Blade Regalia`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153361.png",
                 skill: `50s CT - 8000% Earth DMG (PHY). For 10s, reduce enemies' Earth RES by 30%. If user is Human, reduce enemies' Earth RES by 50% instead.`,
@@ -34679,11 +34655,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
-    { //Houka Inumuta - JP Complete
+    { //Houka Inumuta - Missing Lore
         id: 107947212,
         name: `Houka Inumuta`,
         attribute: `Water`,
@@ -34748,7 +34724,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Houka Inumuta's Goku Uniform`,
+                name: `Probe Regalia`,
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153371.png",
                 skill: `35s CT - For 10s, increase all allies' Arts by 3/s and Human allies' stats by 15%.`,
@@ -34761,8 +34737,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     { //Ira Gamagori - JP Complete
