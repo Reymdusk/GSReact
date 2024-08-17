@@ -66,6 +66,9 @@ const Equips = () => {
     const [equipsPerPage, setEquipsPerPage] = useState(100)
     const [currentPage, setCurrentPage] = useState(1)
 
+    //Render Type
+    const [currentRender, setCurrentRender] = useState("card")
+
     //Display Equipment Thumbnails
     return (
         <>
@@ -111,21 +114,24 @@ const Equips = () => {
                     <Col md="3">
                         <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder} />
                     </Col>
-                    <Col md="8">
+                    <Col md="6">
                         <RenderSortRarity sortRarity={sortRarity} setSortRarity={setSortRarity} />
+                    </Col>
+                    <Col>
+                        <RenderShowType currentView={currentRender} onChangeView={setCurrentRender} />
                     </Col>
                     <Col>
                         <RenderEquipAmount equips={equips} setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} setCurrentPage={setCurrentPage} />
                     </Col>
                 </Row>
                 <RenderEquips equips={equips} filters={filters} query={query} sortOrder={sortOrder} sortRarity={sortRarity}
-                        setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage} />
+                        setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage}  currentView={currentRender} />
             </Container>
         </>
     )
 }
 
-const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPerPage, currentPage, setCurrentPage }) => {
+const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPerPage, currentPage, setCurrentPage, currentView }) => {
     const filteredEquips = equips
         .filter(equip => {
             const isGlobalChecked = filters.server.Global
@@ -237,8 +243,11 @@ const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPer
                     </PaginationItem>
                 </Pagination>
             </div>
+
+
             {
-                equipsToShow.map(equip => {
+                currentView === "card" ? (
+                    equipsToShow.map(equip => {
                     return (
                         <>
                             { equip.name !== "???" &&
@@ -257,6 +266,44 @@ const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPer
                         </>
                     )
                 })
+                ) : (
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><center>Equip</center></th>
+                                <th><center>Description</center></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                equipsToShow.map(equip => {
+                                    return (
+                                        <tr>
+                                            { equip.name !== "???" &&
+                                                <td style={{paddingTop: "1em"}}>
+                                                    <center>
+                                                    <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
+                                                        <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
+                                                        <p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p>
+                                                    </Link>
+                                                    </center>
+                                                </td>
+                                            }
+                                            {
+                                                equip.name !== "???" &&
+                                                <td>
+                                                    <center>
+                                                    <p>{equip.skillset.skill}</p></center>
+                                                </td>
+                                            }
+                                        </tr>
+                                    )
+                                })
+                            }
+                        </tbody>
+                    </table>
+                )
+                
             }
             <div style={{ overflowX: "auto"}}>
                 <Pagination aria-label="Equip Pages">
@@ -325,6 +372,30 @@ const RenderSortOptions = ({ sortOrder, setSortOrder }) => {
                         checked={ sortOrder === "type" }
                         onChange={() => setSortOrder("type")} />
                 <center>Type</center>
+            </label>
+        </div>
+    )
+}
+
+const RenderShowType = ({ currentView, onChangeView }) => {
+    return (
+        <div className="sort-options">
+            <div style={{ marginRight: ".2rem"}}>View Mode:</div>
+
+            <label style={{ backgroundColor: currentView === "card" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="default"
+                        checked={ currentView === "card" }
+                        onChange={() => onChangeView("card")} 
+                        />
+                <center>Card</center>
+            </label>
+            <label style={{ backgroundColor: currentView === "type" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="type"
+                        checked={ currentView === "type" }
+                        onChange={() => onChangeView("type")} />
+                <center>Table</center>
             </label>
         </div>
     )
