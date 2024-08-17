@@ -1926,6 +1926,33 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 61,
+        date: `August 17, 2024`,
+        article: 
+        {
+            intro: `Small update on JP, featuring new Dream Awakenings for 4 Summer unit variants as well as a new Mines equip from Omega Marzex!`,
+            new: 
+                {
+                    units: [],
+                    equips: [
+                        [`絶元甲『ゼクスヴェーダ』`, 112431]
+                    ],
+                    dream: [
+                        [`Summer Juno`, 103376212],
+                        [`Summer Leone`, 103386312],
+                        [`Summer Cestina`, 103596112],
+                        [`Summer Liza`, 103606212]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

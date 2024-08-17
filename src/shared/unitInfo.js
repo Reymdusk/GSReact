@@ -20971,7 +20971,7 @@ const UnitInformation = [
                 author: `Praying Patrick`
             }
     },
-    { //Summer Juno - Complete
+    { //Summer Juno - Complete + JP ver.
         id: 103376212,
         name: "Summer Juno",
         rank: "A",
@@ -20987,6 +20987,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -21009,6 +21018,15 @@ const UnitInformation = [
                 arts: "24000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
                 artsbreak: 1300,
                 truearts: "82000% Water DMG (MAG). For 60s, increase Allies' MAG DMG and Water Allies' DMG by 50% (stackable).",
+                trueartsbreak: 2200
+            }, 
+        skillsetJP: 
+            {
+                skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
+                skillbreak: 800,
+                arts: "27000% Water DMG (MAG). For 20s, Increase Allies' Skill CT Speed by 100% and reduce enemies' Water RES by 30%.",
+                artsbreak: 1300,
+                truearts: "82000% Water DMG (MAG). For 60s, increase allies' MAG DMG and Water allies' DMG by 60% (stackable).",
                 trueartsbreak: 2200
             }, 
         passive: 
@@ -21034,6 +21052,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat5amt: 2,
                     hover5: "Flogassa"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Fire enemies by 150%.`,
+                        ability2: `Increase own Status ailment RES by 30% (except Faint).`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI rate by 50% when above 80% HP.`,
+                        ability2: `At the Start of a Quest, increase own Arts by 150. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -21072,7 +21124,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { //Summer Leone - Complete, Review done
+    { //Summer Leone - Complete, Review done + JP ver
         id: 103386312,
         name: "Summer Leone",
         rank: "B+",
@@ -21088,6 +21140,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -21110,6 +21171,15 @@ const UnitInformation = [
                 arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 150%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 300% instead.",
                 artsbreak: 1000,
                 truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.",
+                trueartsbreak: 2200
+            },
+        skillsetJP: 
+            {
+                skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 30.",
+                skillbreak: 500,
+                arts: "15000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 160%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 320% instead.",
+                artsbreak: 1000,
+                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 30. For 25s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.",
                 trueartsbreak: 2200
             },
         passive: 
@@ -21135,6 +21205,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat5amt: 2,
                     hover5: "Fosradius"
+                }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Disease RES by 50%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase Demon allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Paralysis RES by 50%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22617,6 +22721,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 7000,
@@ -22631,6 +22744,15 @@ const UnitInformation = [
                 skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
                 skillbreak: 300,
                 arts: "20000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
+                artsbreak: 1000,
+                truearts: "[Current HP x 25]% Fire DMG (PHY).",
+                trueartsbreak: 1200
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
+                skillbreak: 300,
+                arts: "25000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
                 artsbreak: 1000,
                 truearts: "[Current HP x 25]% Fire DMG (PHY).",
                 trueartsbreak: 1200
@@ -22655,6 +22777,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
                     mat4amt: 2,
                     hover4: "Degilmagna"
+                }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own Accuracy by 50%.`,
+                        ability2: `Increase own Heal Amount by 20% (excluding Lifesteal).`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase own BE Output by 35%.`,
+                        ability2: `Increase own Skill CT Speed by 20%.`
+                    }
                 }
             },
         trueweaponJP: //If no TW, may delete this section
@@ -22694,7 +22850,7 @@ const UnitInformation = [
             }
             
     },
-    { // Summer Liza - Complete
+    { // Summer Liza - Complete + JP ver
         id: 103606212,
         name: "Summer Liza",
         rank: "A-",
@@ -22716,6 +22872,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6391,
@@ -22729,10 +22894,19 @@ const UnitInformation = [
             {
                 skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1000.",
                 skillbreak: 200,
-                arts: "16000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 20% (Stackable)",
+                arts: "16000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 20% (Stackable).",
                 artsbreak: 2200,
                 truearts: "47000% Water DMG (MAG). For 30s, increase Allies' MAG and Critical DMG by 100%.",
                 trueartsbreak: 1300
+            },
+        skillsetJP: 
+            {
+                skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1500.",
+                skillbreak: 200,
+                arts: "22000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 30% (stackable).",
+                artsbreak: 2200,
+                truearts: "52000% Water DMG (MAG). For 30s, increase Allies' MAG and CRI DMG by 150%.",
+                trueartsbreak: 3000
             },
         passive: 
             {
@@ -22754,6 +22928,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragPalamicia.png",
                     mat4amt: 2,
                     hover4: "Palamicia"
+                }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase Water allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DMG by 30% against enemies under 30% HP.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 2,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Break Power by 40%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own HP Recovery Amount by 50% (excluding Lifesteal).`
+                    }
                 }
             },
         trueweaponJP: //If no TW, may delete this section

@@ -34518,6 +34518,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //絶元甲『ゼクスヴェーダ』 - JP Complete
+        id: 112431,
+        name: `絶元甲『ゼクスヴェーダ』`,
+        translate: `Absolute Armor 'Zex Veda'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112431.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heal Light allies' HP by 250/s and God allies' HP by 250/s for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduce own MAX HP by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
