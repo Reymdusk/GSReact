@@ -32041,10 +32041,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //フェンのビッグウェーブ - JP Complete
+    { //Fen's Wavecutter - JP Complete
         id: 111611,
-        name: `フェンのビッグウェーブ`,
-        translate: `Fen's Big Wave`,
+        name: `Fen's Wavecutter`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32069,7 +32068,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own HP Recovery Amount by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Celestial Vessel 'Zexraster' Replica - Missing Lore
         id: 111621,
@@ -34545,6 +34544,97 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Reduce own MAX HP by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『白玄両儀』 - JP Complete
+        id: 112441,
+        name: `真『白玄両儀』`,
+        translate: `True 'Hakugen Ryogi'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 4000% Dark DMG (Physical). Reduce enemies' Physical resistance by 30% for 10s. Additionally if user is God, increase own Arts by 10.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Sword God Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Skill DMG by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //龍神刀『白玄両儀』 - JP Complete
+        id: 112451,
+        name: `龍神刀『白玄両儀』`,
+        translate: `Dragon God Sword 'Hakugen Ryogi'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 10000% Dark DMG (Physical). Reduce enemies' Dark resistance by 40% for 7s. Additionally if user is God, increase own BE Output by 40% for 7s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Reduce own Arts by 2/s when below 80% HP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Dragon God Clothes 'Naru Tenki' - JP Complete
+        id: 112461,
+        name: `龍神衣『鳴天葵威』`,
+        translate: `Dragon God Clothes 'Naru Tenki'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Dark DMG (Magic). Increase own Arts by 20. Increase own CRI DMG by 50% for 10s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase own Skill CT Speed by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -44533,10 +44623,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //蟇郡 苛の極制服 - Missing Lore
+    { //Shackle Regalia - Missing Lore
         id: 153271,
-        name: `蟇郡 苛の極制服`,
-        translate: `Ira Gamagori's Goku Uniform`,
+        name: `Shackle Regalia`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -44561,12 +44650,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //蛇崩 乃音の極制服 - Missing Lore
+    { //Symphony Regalia - Missing Lore
         id: 153281,
-        name: `蛇崩 乃音の極制服`,
-        translate: `Nonon Jakuzure's Goku Uniform`,
+        name: `Symphony Regalia`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44591,7 +44679,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Uzu's Raid Tracksuit - Missing Lore
         id: 153291,
@@ -44651,10 +44739,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //蟇郡 苛の三都制圧襲学旅行ジャージ - Missing Lore
+    { //Ira's Raid Tracksuit - Missing Lore
         id: 153311,
-        name: `蟇郡 苛の三都制圧襲学旅行ジャージ`,
-        translate: `Ira Gamagori's Tri-City Schools Raid Trip Jersey`,
+        name: `Ira's Raid Tracksuit`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -44679,12 +44766,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //蛇崩 乃音の三都制圧襲学旅行ジャージ - Missing Lore
+    { //Nonon's Raid Tracksuit - Missing Lore
         id: 153321,
-        name: `蛇崩 乃音の三都制圧襲学旅行ジャージ`,
-        translate: `Nonon Jakuzure's Tri-City Schools Raid Trip Jersey`,
+        name: `Nonon's Raid Tracksuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44709,7 +44795,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Uzu's Eye Mask - Missing Lore
         id: 153331,
@@ -44769,10 +44855,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //蛇崩 乃音の帽子 - Missing Lore
+    { //Nonon's Hat - Missing Lore
         id: 153351,
-        name: `蛇崩 乃音の帽子`,
-        translate: `Nonon Jakuzure's Hat`,
+        name: `Nonon's Hat`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -44797,7 +44882,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Blade Regalia' - Missing Lore
         id: 153361,
@@ -44859,10 +44944,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『蟇郡 苛の極制服』 - Missing Lore
+    { //True 'Shackle Regalia' - Missing Lore
         id: 153381,
-        name: `真『蟇郡 苛の極制服』`,
-        translate: `True 'Ira Gamagori's Goku Uniform'`,
+        name: `True 'Shackle Regalia'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -44885,15 +44969,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Ira Gamagori, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Ira Gamagoori, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『蛇崩 乃音の極制服』 - Missing Lore
+    { //True 'Symphony Regalia' - Missing Lore
         id: 153391,
-        name: `真『蛇崩 乃音の極制服』`,
-        translate: `True 'Nonon Jakuzure's Goku Uniform'`,
+        name: `True 'Symphony Regalia'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -44919,7 +45002,7 @@ const EquipInformation = [
                 ability1: `When equipped by Nonon Jakuzure, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『イリヤの水着』 - Missing Lore
         id: 153401,

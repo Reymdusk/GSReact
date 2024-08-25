@@ -1953,6 +1953,45 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 62,
+        date: `August 25, 2024`,
+        article: 
+        {
+            intro: `Chapter 30 is out in JP, alongside Sword God Luahn and his respective equips! On Global, Part 2 of the KLK collab rerun is out, introducing new units and equips. Moreover, Summer Fen has also made his debut with an exclusive SP. Art!`,
+            new: 
+                {
+                    units: [
+                        [`Sword God Luahn`, 103997512]
+                    ],
+                    equips: [
+                        [`真『白玄両儀』`, 112441],
+                        [`龍神刀『白玄両儀』`, 112451],
+                        [`龍神衣『鳴天葵威』`, 112461]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Ira Gamagoori`, 107957512],
+                        [`Nonon Jakuzure`, 107967412],
+                        [`Summer Fen`, 103736212],
+                    ],  
+                    equips: [
+                        [`Shackle Regalia`, 153271],
+                        [`Symphony Regalia`, 153281],
+                        [`Ira's Raid Tracksuit`, 153311],
+                        [`Nonon's Raid Tracksuit`, 153321],
+                        [`Nonon's Hat`, 153351],
+                        [`True 'Shackle Regalia'`, 153381],
+                        [`True 'Symphony Regalia'`, 153391],
+                        [`Fen's Wavecutter`, 111611]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

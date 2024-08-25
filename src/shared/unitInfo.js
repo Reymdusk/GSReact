@@ -24594,17 +24594,20 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Summer Fen - Missing Lore (JP)
+    { //Summer Fen - Missing Lore
         id: 103736212,
         name: `Summer Fen`,
+        translate: `Wave Master Fen`,
         attribute: `Water`,
         type: `Human`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103736212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103737212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_373_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103736212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103737212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103737212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_373_1.png"
             },
         slots: 
             {
@@ -24640,6 +24643,14 @@ const UnitInformation = [
             {
                 ability1: `At the Start of Quest, increase own Arts gauge by 100 and Increase own Arts gauge by 1 every time this unit is Hit.`,
                 ability2: `Increase own Burn RES by 100%.`,
+                ability3: `Increase own CRI DMG by 150%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Fen's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Fen's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `At the Start of Quest, increase own Arts gauge by 100 and Increase own Arts gauge by 1 every time this unit is Hit.`,
+                ability2: `Increase own Burn RES by 100%.`,
                 ability3: `Increase own CRI DMG by 150%.`
             }, 
         evolution: 
@@ -24655,8 +24666,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Riviera - Missing Lore (JP)
@@ -25994,6 +26005,84 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Azuel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Sword God Luahn - Missing Lore (JP)
+        id: 103997512,
+        name: `Sword God Luahn`,
+        attribute: `Dark`,
+        type: `God`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103996512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103997512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103996512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103997512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7143,
+                hpplus: 1320,
+                atk: 3656,
+                atkplus: 700,
+                def: 3185,
+                defplus: 604
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2500% Dark DMG (PHY). For 5s, increase Dark allies' Arts by 3/s.`,
+                skillbreak: 700,
+                arts: `[Current HP x 7]% Dark DMG (PHY). For 10s, reduce enemies' PHY RES by 30%.`,
+                artsbreak: 1000,
+                truearts: `60000% Dark DMG (PHY). For 20s, increase all allies' stats by 30% and PHY DMG by 100%.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Dark DMG (PHY). For [15 x # of Allies alive of Unique races]s, increase own Super CRI rate by 50% and all allies' CRI rate by 100% (MAX: 60s).`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `When set as Leader, increase all allies' Equip CT Speed by 50% for first 100s of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase all allies' CRI DMG by 50%. Does not stack with Abilities of the same name.`,
+                ability3: `At the Start of Quest, increase own Arts by 100.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Hakugen Ryogi`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112441.png",
+                    skill: `20s CT - 4000% Dark DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. Additionally if user is God, increase own Arts by 10.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Sword God Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own Skill DMG by 10%.`
                         }
                 },
         lore:   
@@ -34949,9 +35038,9 @@ const UnitInformation = [
                 evosuper: `Missing Lore.`
             }
     },
-    { //Ira Gamagori - JP Complete
+    { //Ira Gamagoori - Missing Lore
         id: 107957512,
-        name: `Ira Gamagori`,
+        name: `Ira Gamagoori`,
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -35014,24 +35103,24 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Ira Gamagori's Goku Uniform`,
+                name: `Shackle Regalia`,
                 slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153381.png",
                 skill: `30s CT - For 15s, increase own DMG RES by 20%. If used when own HP is below 50%, increase own DMG RES by 30% instead.`,
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: `When equipped by Ira Gamagori, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Ira Gamagoori, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own DEF by 10%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Nonon Jakuzure - JP Complete
+    { //Nonon Jakuzure - Missing Lore
         id: 107967412,
         name: `Nonon Jakuzure`,
         attribute: `Light`,
@@ -35096,7 +35185,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Nonon Jakuzure's Goku Uniform`,
+                name: `Symphony Regalia`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153391.png",
                 skill: `60s CT - 8000% Light DMG (MAG). For 10s, reduce enemies' DMG RES by 20%. If user is Light, reduce enemies' DMG RES by an additional 10%. If user is Human, reduce enemies' DMG RES by an additional 10%.`,
@@ -35109,8 +35198,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Illya - JP Complete
