@@ -31830,10 +31830,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //ミラの巫女ミニビキニ - JP Complete
+{ //Mira’s Essential Purifier - Missing Lore
         id: 111541,
-        name: `ミラの巫女ミニビキニ`,
-        translate: `Mira's Miko Mini Bikini`,
+        name: `Mira’s Essential Purifier`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31858,12 +31857,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ケインのインディペンデンスサマー - JP Complete
+{ //Kane’s Independence Day - Missing Lore
         id: 111551,
-        name: `ケインのインディペンデンスサマー`,
-        translate: `Kane's Independent Summer`,
+        name: `Kane’s Independence Day`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31888,12 +31886,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //セラのサマーアテンダント - JP Complete
+{ //Serah’s Outdoor Attendant - Missing Lore
         id: 111561,
-        name: `セラのサマーアテンダント`,
-        translate: `Serah's Summer Attendant`,
+        name: `Serah’s Outdoor Attendant`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31918,12 +31915,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //マリカの毬柄マリンワンピ - JP Complete
+{ //Marika’s Mari-Style Mariner - Missing Lore
         id: 111571,
-        name: `マリカの毬柄マリンワンピ`,
-        translate: `Marika's Ball Pattern Marine One-Piece`,
+        name: `Marika’s Mari-Style Mariner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31948,12 +31944,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //シャルのズッ友フリル - JP Complete
+{ //Lotte’s Friendship Frills - Missing Lore
         id: 111581,
-        name: `シャルのズッ友フリル`,
-        translate: `Char's Zutto Frill`,
+        name: `Lotte’s Friendship Frills`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31978,12 +31973,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ヴァレリーのズッ友フリル - JP Complete
+{ //Valerie’s Friendship Frills - Missing Lore
         id: 111591,
-        name: `ヴァレリーのズッ友フリル`,
-        translate: `Valerie's Zutto Frill`,
+        name: `Valerie’s Friendship Frills`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32008,15 +32002,14 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //イリスのドリームロケット
+    { //Iris' Dream Rocket - Missing Lore
         id: 111601,
-        name: `イリスのドリームロケット`,
-        translate: `Iris' Dream Rocket`,
+        name: `Iris' Dream Rocket`,
         location: `Summer Treasure (7th Summer Event)`,
         type: `/db/Mines/thumbnail/magLB.png`,
-        star: 3,
+        star: 5,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111600.png`,
@@ -32039,9 +32032,9 @@ const EquipInformation = [
             {
                 ability1: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Fen's Wavecutter - JP Complete
+    { //Fen's Wavecutter - Missing Lore
         id: 111611,
         name: `Fen's Wavecutter`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -34635,6 +34628,248 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Skill CT Speed by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Mira's Swelling Mermaid' - JP Complete
+        id: 112471,
+        name: `真『ミラのもりもりマーメイド』`,
+        translate: `True 'Mira's Swelling Mermaid'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 12000% Water DMG (Physical). Increase own DMG by 50% and Water DMG by 70% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Mira, increase own ATK and Accuracy by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical DMG by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Celia's Rosy Parasol' - JP Complete
+        id: 112481,
+        name: `真『シーリアのぱらいそパラソル』`,
+        translate: `True 'Celia's Rosy Parasol'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Dark DMG (Physical). Reduce enemies' Dark resistance by 40% for 12s. Additionally if user is Dark, increase own Accuracy by 30% for 12s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Celia, increase own Arts by 3/s and DMG by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against enemies in BREAK by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Mira's Swelling Mermaid - JP Complete
+        id: 112491,
+        name: `ミラのもりもりマーメイド`,
+        translate: `Mira's Swelling Mermaid`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Water DMG (Physical). Reduce enemies' Water resistance by 40% for 12s. Additionally if user is Water, increase own Accuracy by 40% for 12s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Mira's Critical Bikini - JP Complete
+        id: 112501,
+        name: `ミラのクリティカルビキニ`,
+        translate: `Mira's Critical Bikini`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1125061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_1125060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112501.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `55s CT - Increase all allies' Arts by 4/s and Water allies' CRI rate by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Mira's Heartful Glasses - JP Complete
+        id: 112511,
+        name: `ミラのハートフルグラス`,
+        translate: `Mira's Heartful Glasses`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3000% Water DMG (Physical). Increase own DMG against Giant Bosses by 30% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Celia's Rosy Parasol - JP Complete
+        id: 112521,
+        name: `シーリアのぱらいそパラソル`,
+        translate: `Celia's Rosy Parasol`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Dark DMG (Physical). Reduce enemies' Physical resistance by 40% for 10s. Additionally if enemies are inflicted with Status ailment(s), reduce enemies' Physical resistance by an additional 20% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Family's Selection 2024 - JP Complete
+        id: 112531,
+        name: `眷属'sセレクション2024`,
+        translate: `Family's Selection 2024`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112531.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal Human allies' HP by 300/s for 20s. Additionally when used for the first time, increase all allies' Arts by 20.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Celia's Glasses - JP Complete
+        id: 112541,
+        name: `シーリアのおめがね`,
+        translate: `Celia's Glasses`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112541.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 15. Additionally if user is Dark, increase all allies' DMG resistance by 10% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

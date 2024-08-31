@@ -24529,17 +24529,20 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Iris - Missing Lore (JP)
+    { //Summer Iris - Missing Lore + JP ver
         id: 103727112,
         name: `Summer Iris`,
+        translate: `Iris, Bursting Jubilation`,
         attribute: `Fire`,
         type: `God`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103726112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103727112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_372_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103726112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103727112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103727112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_372_1.png"
             },
         slots: 
             {
@@ -24575,6 +24578,14 @@ const UnitInformation = [
             {
                 ability1: `Increase all allies' DMG RES by 15% and all Fire allies' DMG RES by an additional 15% (No Duplication).`,
                 ability2: `Increase DMG during Break by 20%.`,
+                ability3: `Increase DMG against Giant Bosses by 30%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Iris' SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Iris' SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase all allies' DMG RES by 15% and all Fire allies' DMG RES by an additional 15% (No Duplication).`,
+                ability2: `Increase DMG during Break by 20%.`,
                 ability3: `Increase DMG against Giant Bosses by 30%.`
             }, 
         evolution: 
@@ -24590,11 +24601,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Summer Fen - Missing Lore
+    { //Summer Fen - Missing Lore + JP ver
         id: 103736212,
         name: `Summer Fen`,
         translate: `Wave Master Fen`,
@@ -26083,6 +26094,162 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Sword God Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own Skill DMG by 10%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Summer Mira - Missing Lore (JP)
+        id: 104007212,
+        name: `Summer Mira`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104006212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104007212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104006212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104007212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7256,
+                hpplus: 1340,
+                atk: 3487,
+                atkplus: 670,
+                def: 3197,
+                defplus: 606
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3200% Water DMG (PHY). For 10s, increase own ATK by 20%.`,
+                skillbreak: 600,
+                arts: `20000% Water DMG (PHY). Heal all allies' Status ailements (except Faint). For 20s, increase all allies' Freeze RES and Paralysis RES by 100%.`,
+                artsbreak: 800,
+                truearts: `65000% Water DMG (PHY). For 25s, increase all allies' Accuracy by 80% and own Accuracy by an additional 80%.`,
+                trueartsbreak: 1400,
+                superarts: `160000% Water DMG (PHY). For 30s, increase Water allies' DMG by 150% and DMG RES by 40%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG by [2 x Accuracy buffs]% and Arts by [Accuracy buffs ÷ 20]/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Paralysis RES by 80%.`,
+                ability3: `Increase Hellfire RES by 40%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 220,
+                    hover2: `Frostsprite Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Mira's Swelling Mermaid`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112471.png",
+                    skill: `70s CT - 12000% Water DMG (PHY). For 15s, increase own DMG by 50% and Water DMG by 70%.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Summer Mira, increase own ATK and Accuracy by 30%. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own PHY DMG by 20%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Summer Celia - Missing Lore (JP)
+        id: 104017512,
+        name: `Summer Celia`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104016512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104017512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104016512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104017512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 8338,
+                hpplus: 1439,
+                atk: 2977,
+                atkplus: 591,
+                def: 2645,
+                defplus: 531
+            },
+        skillset: 
+            {
+                skill: `10s CT - 3000% Dark DMG (PHY). For 8s, increase own Accuracy by 20%.`,
+                skillbreak: 700,
+                arts: `Increase all allies' Arts by 30. For 30s, allies gain a DMG barrier that negates 5000 DMG.`,
+                artsbreak: 0,
+                truearts: `50000% Dark DMG (PHY). Increase all allies' Arts by 50. For 20s, reduce enemies' DMG RES by 60%.`,
+                trueartsbreak: 1600,
+                superarts: `140000% Dark DMG (MAG). 100% chance to inflict Burn and Blind for 30s. For 30s, heal all allies' HP by 1000/s and Dark allies by an additional 1000/s.`,
+                superartsbreak: 2300
+            },
+        passive: 
+            {
+                ability1: `Increase own CRI rate by 100% and Super CRI rate by 20% against enemies affected by Status ailment(s). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Burn RES by 70%.`,
+                ability3: `Increase own Blind RES by 70%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Celia's Rosy Parasol`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112481.png",
+                    skill: `45s CT - 8000% Dark DMG (PHY). For 12s, reduce enemies' Dark RES by 40%. Additionally if user is Dark, for 12s, increase own Accuracy by 30%.`,
+                    skillbreak: 800,
+                    passive: 
+                        {
+                            ability1: `When equipped by Summer Celia, increase own Arts by 3/s and DMG by 30%. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own DMG against enemies in BREAK by 20%.`
                         }
                 },
         lore:   

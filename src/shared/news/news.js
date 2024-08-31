@@ -1992,6 +1992,48 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 63,
+        date: `August 31, 2024`,
+        article: 
+        {
+            intro: `Big updates for both JP and Global this time around! 2 new Summer units have been released on JP, alongside various Summer-themed equips! Meanwhile on Global, Summer Iris makes her debut with an exclusive SP. Art, as well as a bunch of new Summer-themed equips too!`,
+            new: 
+                {
+                    units: [
+                        [`Summer Mira`, 104007212],
+                        [`Summer Celia`, 104017512],
+                    ],
+                    equips: [
+                        [`真『ミラのもりもりマーメイド』`, 112471],
+                        [`真『シーリアのぱらいそパラソル』`, 112481],
+                        [`ミラのもりもりマーメイド`, 112491],
+                        [`ミラのクリティカルビキニ`, 112501],
+                        [`ミラのハートフルグラス`, 112511],
+                        [`シーリアのぱらいそパラソル`, 112521],
+                        [`眷属'sセレクション2024`, 112531],
+                        [`シーリアのおめがね`, 112541],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Iris`, 103727112]
+                    ],  
+                    equips: [
+                        [`Mira’s Essential Purifier`, 111541],
+                        [`Kane’s Independence Day`, 111551],
+                        [`Serah’s Outdoor Attendant`, 111561],
+                        [`Marika’s Mari-Style Mariner`, 111571],
+                        [`Lotte’s Friendship Frills`, 111581],
+                        [`Valerie’s Friendship Frills`, 111591],
+                        [`Iris' Dream Rocket`, 111601]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
