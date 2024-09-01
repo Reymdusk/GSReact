@@ -32179,9 +32179,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Tufmod Rod - Missing Lore
+    { //Tufmon Rod - Missing Lore
         id: 111661,
-        name: `Tufmod Rod`,
+        name: `Tufmon Rod`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
