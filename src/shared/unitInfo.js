@@ -182,7 +182,7 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
                         mat3amt: 2,
                         hover3: "Ifrit",
@@ -454,7 +454,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -745,7 +745,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragValzandeth.png`,
                         mat3amt: 2,
                         hover3: `Valzandeth`
@@ -909,7 +909,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
                         mat3amt: 2,
                         hover3: `Mavroskia`
@@ -1552,7 +1552,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                         mat3amt: 2,
                         hover3: "Ragsherum Phantom",
@@ -1832,7 +1832,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
                         mat3amt: 2,
                         hover3: `Mavroskia`
@@ -2258,7 +2258,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                         mat3amt: 2,
                         hover3: "Oldeus",
@@ -3094,7 +3094,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
                         mat3amt: 2,
                         hover3: `Mavroskia`
@@ -3239,7 +3239,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -3911,7 +3911,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -4745,7 +4745,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragOldeus.png`,
                         mat3amt: 2,
                         hover3: `Oldeus`
@@ -5091,7 +5091,7 @@ const UnitInformation = [
                 evoawk: "A Demon warrior who sought to acquire the power of a dark god. With his original plan foiled, he decided to kill the blacksmith, who had a martial artist apprentice. He hoped the apprentice's anger would be enough to free the evil deity, but it instead brought his ambition -- and his life -- to an ironic end. The pugilist's fist pierced Leon's chest with astonishing strength, killing him before the shock faded from his eyes."
             }
     },
-    { //Zoroas - Complete
+    { //Zoroas - Complete + JP ver
         id: 101266512,
         name: "Zoroas",
         rank: "F",
@@ -5109,6 +5109,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
@@ -5133,10 +5142,53 @@ const UnitInformation = [
                 truearts: "34000% Dark DMG (PHY). For 15s, increase own Critical Rate by 100%, own DMG to Demon Enemies by 150%.",
                 trueartsbreak: 2500
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1900% Dark DMG (PHY). Increase Arts by 20 if own Skill crits.",
+                skillbreak: 1200,
+                arts: "25000% Dark DMG (PHY). For 15s, increase Allies' DMG by 70%.",
+                artsbreak: 1800,
+                truearts: "60000% Dark DMG (PHY). For 25s, increase own Critical Rate by 100% and DMG against Demon Enemies by 200%.",
+                trueartsbreak: 2500
+            },
         passive: 
             {
                 ability1: "Increase DMG to Demon Enemies by 100%."
             }, 
+        dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 50%.`,
+                        ability2: `When above 80% HP, increase own Arts by 3/s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Accuracy by 30%.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo45:
@@ -5320,7 +5372,7 @@ const UnitInformation = [
                 evoawk: "The slain fire Dragon resurrected as a flame elemental. Zecht fought back, but its massive power was impossible to endure in his wounded state. Defeat seemed certain until his friends risked their lives to lend him strength. Grateful, he used that additional might to awaken Nigreid's true form, allowing it to absorb the Dragon's flames. By combining that energy with his spirit, it released an awesome blast which destroyed his archenemy for good."
             }
     },
-    { //Aristela - Complete
+    { //Aristela - Complete + JP ver
         id: 101296212,
         name: "Aristela",
         rank: "A-",
@@ -5338,6 +5390,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/healLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -5362,11 +5423,54 @@ const UnitInformation = [
                 truearts: "17800% Water DMG (MAG). Heal Allies' by 50% of their max HP + For 20s, heal Allies' HP by 200/s.",
                 trueartsbreak: 2500
             },
+        skillsetJP: 
+            {
+                skill: "9s CT - 800% Water DMG (MAG). Heal Allies' HP by 120.",
+                skillbreak: 400,
+                arts: "Heal Allies' by 40% of their max HP, cure Allies' status ailments (except Faint and Disease).",
+                artsbreak: 0,
+                truearts: "40000% Water DMG (MAG). Heal Allies' by 50% of their max HP + For 20s, heal Allies' HP by 200/s.",
+                trueartsbreak: 2500
+            },
         passive: 
             {
                 ability1: "Increase MAG RES by 25%.",
                 ability2: "Increase Allies' max HP and MAG DMG by 15%. Does not stack with Abilities of the same name."
             }, 
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase own Freeze RES by 100%.`,
+                        ability2: `Increase own Heal Amount by 25% (excluding Lifesteal).`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 2/s.`,
+                        ability2: `Increase allies' Skill CT Speed by 10%. Does not stack with Abilties of the same name.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo45:
@@ -5402,7 +5506,7 @@ const UnitInformation = [
                 evoawk: "While on a journey with her four companions. she heard tell of a beast that would devour the world, and they ventured to find it without pausing for thought. She faced the immensely powerful creature and prepared all her power to unleash a sorcerers attack. Yet the only result was that the monster absorbed the attack and grew even more powerful. Seeing that mere force would not defeat the beast, she focused the power offered by her comrades. Together, they manipulated the ancient power of the seals to banish it to another world, yet the cost was the lives of her comrades."
             }
     },
-    { //Zoldes - Complete
+    { //Zoldes - Complete + JP ver
         id: 101306112,
         name: "Zoldes",
         rank: "F",
@@ -5426,6 +5530,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 6151,
@@ -5441,7 +5554,16 @@ const UnitInformation = [
                 skillbreak: 2400,
                 arts: "8000% Fire DMG (PHY). For 5s, increase Allies' (except self) DMG RES by 100%.",
                 artsbreak: 3000,
-                truearts: "[27000% + 3% per DEF of this unit]  Fire DMG (PHY). For 20s, gain a 3000 Barrier to self.",
+                truearts: "[27000% + 3% per DEF of this unit] Fire DMG (PHY). For 20s, gain a 3000 Barrier to self.",
+                trueartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2400% Fire DMG (PHY). Increase DMG RES by 10% during Skill.",
+                skillbreak: 2400,
+                arts: "8000% Fire DMG (PHY). For 6s, increase Allies' (except self) DMG RES by 100%.",
+                artsbreak: 3000,
+                truearts: "[50000% + 5% per DEF of this unit] Fire DMG (PHY). For 20s, gain a 5000 Barrier to self.",
                 trueartsbreak: 3000
             },
         passive: 
@@ -5470,6 +5592,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
                     mat3amt: 2,
                     hover3: "Degilmagna",
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase Fire allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Burn RES by 100%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                        mat3amt: 2,
+                        hover3: "Mavroskia",
+                    },
+                    passive: {
+                        ability1: `When Near-Death, increase own DMG RES by 20%.`,
+                        ability2: `Increase own Arts by 3/s.`
+                    }
                 }
             },
         lore: 
@@ -5556,7 +5712,7 @@ const UnitInformation = [
                 evoawk: "The Dragon blacksmith Rhodia and her former student Saar, a young half-Beast half-Demon man, fought a desperate battle against Demon warrior Leon. When Leon struck down with his great axe, Rhodia rushed in to take the blow for Saar, but she suffered a fatal injury. Rhodia knew that her end was nigh, so she confirmed that her student was safe and gave him the armour that she had spent half her life to create. Afterwards, she smiled contentedly and closed her eyes."
     }
     },
-    { //Olgeth - Complete
+    { //Olgeth - Complete + JP ver
         id: 101326312,
         name: "Olgeth",
         rank: "F",
@@ -5574,6 +5730,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -5598,12 +5763,53 @@ const UnitInformation = [
                 truearts: "28000% Earth DMG (PHY). For 20s, increase Earth Allies' DMG by 100%.",
                 trueartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1900% Earth DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 1200,
+                arts: "16000% Earth DMG (PHY). Increase Allies' (except self) Arts by 30.",
+                artsbreak: 1800,
+                truearts: "48000% Earth DMG (PHY). For 20s, increase Earth Allies' DMG by 150%.",
+                trueartsbreak: 2000
+            },
         passive: 
             {
                 ability1: "Increase PHY RES by 30%.",
                 ability2: "Increase DMG to Machine Enemies by 100%.",
                 ability3: "Increase Allies' max HP by 500 and DMG to Water Enemies by 25%. Does not stack with Abilities of the same name."
-            }, 
+            },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `When above 80% HP, increase own Arts by 5/s.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Machines by 300%.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo45:
@@ -7584,7 +7790,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Complete, Review done
+    { //Gaia - Complete, Review done + JP ver
         id: 101716211,
         name: "Gaia",
         rank: "A-",
@@ -7609,6 +7815,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 6783,
@@ -7624,7 +7839,16 @@ const UnitInformation = [
                 skillbreak: 1700,
                 arts: "12000% Water DMG (MAG). For 20s,  Allies gain a DMG barrier that negates [# of Water Allies x 1000] DMG.",
                 artsbreak: 2400,
-                truearts: "24000% Water DMG (MAG)  For 20s, increase Allies' DMG RES by 20% and Water Allies' DMG by 30%.",
+                truearts: "24000% Water DMG (MAG). For 20s, increase Allies' DMG RES by 20% and Water Allies' DMG by 30%.",
+                trueartsbreak: 2700
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2050% Water DMG (PHY). Heal own HP by 150.",
+                skillbreak: 1700,
+                arts: "18000% Water DMG (MAG). For 20s, Allies gain a DMG barrier that negates [# of Water Allies x 1300] DMG.",
+                artsbreak: 2400,
+                truearts: "33000% Water DMG (MAG). For 20s, increase Allies' DMG RES by 30% and Water Allies' DMG by 30%.",
                 trueartsbreak: 2700
             },
         passive: 
@@ -7653,6 +7877,32 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragGaia.png",
                     mat3amt: 20,
                     hover3: "Gaia",
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GaiaDream.png`,
+                        mat2amt: 100
+                    },
+                    passive: {
+                        ability1: `Increase allies' Fire RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 3/s.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_GaiaDream.png`,
+                        mat2amt: 100
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equip CT Speed by 20%.`
+                    }
                 }
             },
         trueweapon: 
@@ -10680,7 +10930,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                         mat3amt: 2,
                         hover3: "Ragsherum Phantom",
@@ -14528,7 +14778,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                     mat2amt: 50,
-                    hover2: `Sinful Soulgem`,
+                    hover2: `Sinflow Soulgem`,
                     mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat3amt: 2,
                     hover3: "Ragsherum Phantom",
@@ -15689,7 +15939,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -15803,7 +16053,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragOldeus.png`,
                         mat3amt: 2,
                         hover3: `Oldeus`
@@ -15919,7 +16169,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
                         mat3amt: 2,
                         hover3: `Mavroskia`
@@ -17640,7 +17890,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
                         mat3amt: 2,
                         hover3: "Mavroskia",
@@ -17900,7 +18150,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                         mat3amt: 2,
                         hover3: "Oldeus",
@@ -18283,7 +18533,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -18450,7 +18700,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
                         mat3amt: 2,
                         hover3: "Valzandeth",
@@ -21230,7 +21480,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                         mat3amt: 2,
                         hover3: "Ragsherum Phantom",
@@ -27538,7 +27788,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                     mat2amt: 50,
-                    hover2: `Sinful Soulgem`,
+                    hover2: `Sinflow Soulgem`,
                     mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                     mat3amt: 2,
                     hover3: `Ragsherum Phantom`
@@ -27798,7 +28048,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -27972,7 +28222,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
                         mat3amt: 2,
                         hover3: "Valzandeth",
@@ -28234,7 +28484,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                     mat2amt: 50,
-                    hover2: `Sinful Soulgem`,
+                    hover2: `Sinflow Soulgem`,
                     mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat3amt: 2,
                     hover3: "Oldeus",
@@ -28360,7 +28610,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 30,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                         mat3amt: 1,
                         hover3: "Ragsherum Phantom",
@@ -28614,7 +28864,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 30,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                         mat3amt: 1,
                         hover3: "Oldeus",
@@ -30293,7 +30543,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragOldeus.png`,
                         mat3amt: 2,
                         hover3: `Oldeus`
@@ -30424,7 +30674,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -31488,7 +31738,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 30,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
                         mat3amt: 1,
                         hover3: "Valzandeth",
@@ -31778,7 +32028,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 30,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                         mat3amt: 1,
                         hover3: "Oldeus",
@@ -31837,7 +32087,7 @@ const UnitInformation = [
                 slot3: 5,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
-        slotsJJP: 
+        slotsJP: 
             {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -32041,7 +32291,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Soulgem`,
+                        hover2: `Sinflow Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                         mat3amt: 2,
                         hover3: "Oldeus",
@@ -33805,7 +34055,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Soulgem"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon: 
@@ -34084,7 +34334,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Soulgem"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         lore: 
@@ -34266,7 +34516,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Soulgem"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon: 
@@ -34468,7 +34718,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Soulgem"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon: 

@@ -2034,6 +2034,32 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 64,
+        date: `September 5, 2024`,
+        article: 
+        {
+            intro: `Small update on JP with 5 units getting their Dream Awakening!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Aristela`, 101296212],
+                        [`Zoroas`, 101266512],
+                        [`Zoldes`, 101306112],
+                        [`Olgeth`, 101326312],
+                        [`Gaia`, 101716211],
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
