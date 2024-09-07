@@ -3127,7 +3127,7 @@ const UnitInformation = [
     { //Ragsherum - Complete
         id: 101086511,
         name: "Ragsherum",
-        rank: "F",
+        rank: "A-",
         attribute: "Dark",
         type: "Demon",
         image: 
