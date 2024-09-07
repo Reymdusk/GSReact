@@ -24785,6 +24785,7 @@ const UnitInformation = [
         translate: `Iris, Bursting Jubilation`,
         attribute: `Fire`,
         type: `God`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103726112.png",
@@ -24861,6 +24862,7 @@ const UnitInformation = [
         translate: `Wave Master Fen`,
         attribute: `Water`,
         type: `Human`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103736212.png",
@@ -32211,8 +32213,8 @@ const UnitInformation = [
     { // Nui Harime - Complete
         id: 107596512,
         name: "Nui Harime",
-        rank: "A-",
-        luckrank: "A",
+        rank: "A",
+        luckrank: "S",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -35296,6 +35298,7 @@ const UnitInformation = [
         name: `Uzu Sanageyama`,
         attribute: `Earth`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107936312.png",
@@ -35378,6 +35381,7 @@ const UnitInformation = [
         name: `Houka Inumuta`,
         attribute: `Water`,
         type: `Human`,
+        rank: `SSS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107946212.png",
@@ -35460,6 +35464,7 @@ const UnitInformation = [
         name: `Ira Gamagoori`,
         attribute: `Dark`,
         type: `Human`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107956512.png",
@@ -35542,6 +35547,7 @@ const UnitInformation = [
         name: `Nonon Jakuzure`,
         attribute: `Light`,
         type: `Human`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107966412.png",
