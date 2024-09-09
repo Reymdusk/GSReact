@@ -15972,7 +15972,7 @@ const UnitInformation = [
     { //Shiki - Complete
         id: 102846412,
         name: "Shiki",
-        rank: "C",
+        rank: "A",
         attribute: "Light",
         type: "Human",
         image: 
@@ -23808,6 +23808,7 @@ const UnitInformation = [
         name: `Kokuri`,
         attribute: `Fire`,
         type: `Demon`,
+        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103536112.png",
