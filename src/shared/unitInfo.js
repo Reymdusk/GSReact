@@ -24826,6 +24826,17 @@ const UnitInformation = [
                 superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).`,
                 superartsbreak: 2500
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - Increase own Arts gauge by 50% of the difference between her current Arts gauge and Maximum Arts gauge. (MAX: 150)`,
+                skillbreak: 0,
+                arts: `17000% Fire DMG (MAG). For 20s, increase all allies' Skill CT Speed by 70% and all Fire allies' Skill CT Speed by an additional 50%.`,
+                artsbreak: 1000,
+                truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
+                trueartsbreak: 1700,
+                superarts: `165000% Fire DMG (MAG). For 10s, increase all Fire allies' Arts gauge by 10. For 30s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).`,
+                superartsbreak: 2500
+            },
         passive: 
             {
                 ability1: `Increase all allies' DMG RES by 15% and all Fire allies' DMG RES by an additional 15% (No Duplication).`,
@@ -24833,13 +24844,7 @@ const UnitInformation = [
                 ability3: `Increase DMG against Giant Bosses by 30%.`,
                 ability4: `Unit EXP UP 20% UP. (When Summer Iris' SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Iris' SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `Increase all allies' DMG RES by 15% and all Fire allies' DMG RES by an additional 15% (No Duplication).`,
-                ability2: `Increase DMG during Break by 20%.`,
-                ability3: `Increase DMG against Giant Bosses by 30%.`
-            }, 
+            },
         evolution: 
             {
                 evoawksuper:
@@ -24850,6 +24855,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Flametail Soulgem"
                 }
+            },
+        trueweaponJP: 
+            {
+                name: `Iris' Dream Rocket`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112551.png",
+                skill: `50s CT - 8000% Fire DMG (MAG). For 8s, reduce enemies' Fire RES by 40%. Additionally if user is God, for 8s, reduce enemies' Evasion rate by 30%.`,
+                skillbreak: 400,
+                passive: 
+                    {
+                        ability1: `When equipped by Summer Iris, increase own Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
             },
         lore: 
             {   
@@ -24903,6 +24921,17 @@ const UnitInformation = [
                 superarts: `120000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 100%. For 60s, increase own Arts gauge by 8.`,
                 superartsbreak: 2100
             },
+        skillsetJP: 
+            {
+                skill: `10s CT - 2400% Water DMG (PHY). Heal allies' HP by 20%.`,
+                skillbreak: 400,
+                arts: `15000% Water DMG (PHY). For 20s, increase own Heal Equipment CT Speed by 40% & Heal Amount by 60%.`,
+                artsbreak: 900,
+                truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 50%.`,
+                trueartsbreak: 1700,
+                superarts: `130000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 150%. For 60s, increase own Arts gauge by 8.`,
+                superartsbreak: 2100
+            },
         passive: 
             {
                 ability1: `At the Start of Quest, increase own Arts gauge by 100 and Increase own Arts gauge by 1 every time this unit is Hit.`,
@@ -24910,12 +24939,6 @@ const UnitInformation = [
                 ability3: `Increase own CRI DMG by 150%.`,
                 ability4: `Unit EXP UP 20% UP. (When Summer Fen's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Fen's SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `At the Start of Quest, increase own Arts gauge by 100 and Increase own Arts gauge by 1 every time this unit is Hit.`,
-                ability2: `Increase own Burn RES by 100%.`,
-                ability3: `Increase own CRI DMG by 150%.`
             }, 
         evolution: 
             {
@@ -24927,6 +24950,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Frostsprite Soulgem"
                 }
+            },
+        trueweaponJP: 
+            {
+                name: `Fen's Wavecutter`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112561.png",
+                skill: `50s CT - 8000% Water DMG (PHY). For 10s, reduce enemies' Water RES by 30%. If user is Human, reduce enemies' Water RES by 50% instead.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Summer Fen, increase own stats by 20% and Healing Amount by 15% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
             },
         lore: 
             {   
@@ -24943,8 +24979,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103746112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103747112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_374_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103746112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103747112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103747112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_374_1.png"
             },
         slots: 
             {
@@ -24971,16 +25009,18 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `25000% Fire DMG (PHY). For 20s, increase Equipment CT REC of own PHY Equipment and own ATK by 50%.`,
                 artsbreak: 1500,
-                truearts: `68000% Fire DMG (PHY). For 25s, Allies ignore 100% of Enemies' DEF + reduce Enemies' Fire RES by 70%.`,
+                truearts: `68000% Fire DMG (PHY). For 40s, Allies ignore 100% of Enemies' DEF + reduce Enemies' Fire RES by 100%.`,
                 trueartsbreak: 2000,
-                superarts: `160000% Fire DMG (PHY). During Super Arts, increase own DMG by 100% for each Ally above 90% HP (up to 400%).`,
+                superarts: `180000% Fire DMG (PHY). During Super Arts, increase own DMG by 100% for each Ally above 90% HP (up to 400%).`,
                 superartsbreak: 2700
             },
         passive: 
             {
                 ability1: `When Summer Riviera is near death, recover Allies' HP by 100% HP + For 20s, Allies gain a DMG barrier that negates 5000 DMG. Can only occur once per Quest.`,
                 ability2: `Increase DMG to Water Enemies by 30%.`,
-                ability3: `Increase Freeze RES by 80%.`
+                ability3: `Increase Freeze RES by 80%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Riviera's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Riviera's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -24992,6 +25032,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Flametail Soulgem"
                 }
+            },
+        trueweapon: 
+            {
+                name: `Riviera's Dynamite Attack`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112581.png",
+                skill: `50s CT - 6000% Fire DMG (PHY). For 15s, increase own Fire DMG by 50%. If user is Demon, increase own Fire DMG by 80% instead.`,
+                skillbreak: 600,
+                passive: 
+                    {
+                        ability1: `When equipped by Summer Riviera, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own MAG RES by 5%.`
+                    }
             },
         lore: 
             {   
@@ -25008,8 +25061,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103756512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103757512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_375_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103756512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103757512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103757512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_374_1.png"
             },
         slots: 
             {
@@ -25036,16 +25091,18 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `18000% Dark DMG (MAG). For 20s, increase Allies' stats by 30%.`,
                 artsbreak: 1200,
-                truearts: `50000% Dark DMG (MAG). For 25s, reduce Enemies' MAG RES by 80% and increase >50% HP Allies' Arts gauge by 4/s.`,
+                truearts: `50000% Dark DMG (MAG). For 25s, reduce Enemies' MAG RES by 90% and increase >50% HP Allies' Arts gauge by 4/s.`,
                 trueartsbreak: 1800,
-                superarts: `130000% Dark DMG (MAG). For 20s, increase Dark Allies' DMG by 150% and Demon Allies' DMG by 150%.`,
+                superarts: `140000% Dark DMG (MAG). For 20s, increase Dark Allies' DMG by 150% and Demon Allies' DMG by 150%.`,
                 superartsbreak: 2500
             },
         passive: 
             {
                 ability1: `When unafflicted with any Status ailment, increase Allies' Heal Equip's CT Speed by 30% and Heal Equip's Heal Amount by 60% (Excluding Lifesteal). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [2% × own ATK/100].`,
-                ability3: `Increase Paralysis RES by 80%.`
+                ability3: `Increase Paralysis RES by 80%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Rosetta's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Rosetta's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -25058,23 +25115,39 @@ const UnitInformation = [
                     hover2: "Sinflow Soulgem"
                 }
             },
+        trueweapon: 
+            {
+                name: `Rosetta's Innerwear (Slim)`,
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112571.png",
+                skill: `35s CT - For 10s, increase all allies' Arts by 3/s and Demon allies' stats by 15%.`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When equipped by Summer Rosetta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 10%.`
+                    }
+            },
         lore: 
             {   
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Goddess Celia - Missing Lore (JP)
+    { //Goddess Celia - Missing Lore
         id: 103767412,
         name: `Goddess Celia`,
+        translate: `Celia the Exalted`,
         attribute: `Light`,
         type: `Human`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103766412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103767412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_376_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103766412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103767412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103767412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_376_1.png"
             },
         slots: 
             {
@@ -25110,6 +25183,14 @@ const UnitInformation = [
             {
                 ability1: `For each kin killed or sacrificed throughout battle, increase own DMG by 30% (MAX: 600%). Does not stack with Abilities of the same name.`,
                 ability2: `When HP is above 90%, increase own Arts by 5/s.`,
+                ability3: `Increase own Heal Amount by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Goddess Celia's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Goddess Celia's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `For each kin killed or sacrificed throughout battle, increase own DMG by 30% (MAX: 600%). Does not stack with Abilities of the same name.`,
+                ability2: `When HP is above 90%, increase own Arts by 5/s.`,
                 ability3: `Increase own Heal Amount by 10%.`
             }, 
         evolution: 
@@ -25138,8 +25219,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Halloween Charlotte - Missing Lore (JP)

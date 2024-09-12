@@ -2060,6 +2060,43 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 65,
+        date: `September 12, 2024`,
+        article: 
+        {
+            intro: `JP has been updated with a new Raid and various buffs for certain Summer units, each getting respective buffs, True Weapons and their very own SP. Art! Meanwhile on Global, Chapter 25 of the Main Story has been released, alongside Ascended Celia and her farmable equips!`,
+            new: 
+                {
+                    units: [
+                        [`Summer Iris`, 103727112],
+                        [`Summer Fen`, 103736212],
+                        [`Summer Riviera`, 103747112],
+                        [`Summer Rosetta`, 103757512]
+                    ],
+                    equips: [
+                        [`真『イリスのドリームロケット』`, 112551],
+                        [`真『フェンのビッグウェーブ』`, 112561],
+                        [`真『ロゼッタインナー(スリム用)』`, 112571],
+                        [`真『リヴィエラ・ダイナマイト』`, 112581],
+                        [`封魂の魔晶瓶`, 112591],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Goddess Celia`, 103767412]
+                    ],  
+                    equips: [
+                        [`True 'Shangri-La'`, 111871],
+                        [`Skybound Sword 'Shangri-La'`, 111881],
+                        [`Jeweled Finery 'Emerodite'`, 111891],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

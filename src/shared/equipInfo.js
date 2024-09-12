@@ -32815,10 +32815,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『シャングリラ』 - JP Complete
+    { //True 'Shangri-La' - Missing Lore
         id: 111871,
-        name: `真『シャングリラ』`,
-        translate: `True 'Shangri-La'`,
+        name: `True 'Shangri-La'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32842,14 +32841,13 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `When equipped by Goddess Celia, increase own DMG and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
-                ability2: ``
+                ability2: `Increase own CRI DMG by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //天耀剣『シャングリラ』 - JP Complete
+    { //Skybound Sword 'Shangri-La' - Missing Lore
         id: 111881,
-        name: `天耀剣『シャングリラ』`,
-        translate: `Sacred Sword 'Shangri-La'`,
+        name: `Skybound Sword 'Shangri-La'`,
         location: `Chapter 25 Secret Weapon`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -32875,12 +32873,11 @@ const EquipInformation = [
             {
                 ability1: `When own HP is 80% or less, reduce own Arts by 1/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //煌玉装『エメロディーテ』 - JP Complete
+    { //Jeweled Finery 'Emerodite' - Missing Lore
         id: 111891,
-        name: `煌玉装『エメロディーテ』`,
-        translate: `Glittering Jade Dress 'Emerodite'`,
+        name: `Jeweled Finery 'Emerodite'`,
         location: `Chapter 25 Farmable Equip`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -32906,7 +32903,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //シャルのガオおてて - JP Complete
         id: 111901,
@@ -34870,6 +34867,160 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『イリスのドリームロケット』 - JP Complete
+        id: 112551,
+        name: `真『イリスのドリームロケット』`,
+        translate: `True 'Iris' Dream Rocket'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Fire DMG (Magic). Reduce enemies' Fire resistance by 40% for 8s. Additionally if user is God, reduce enemies' Evasion rate by 30% for 8s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Iris, increase own Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『フェンのビッグウェーブ』 - JP Complete
+        id: 112561,
+        name: `真『フェンのビッグウェーブ』`,
+        translate: `True 'Fen's Wavecutter'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Water DMG (Physical). Reduce enemies' Water resistance by 30% for 10s. If user is Human, reduce enemies' Water resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Fen, increase own stats by 20% and Healing Amount by 15% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ロゼッタインナー(スリム用)』 - JP Complete
+        id: 112571,
+        name: `真『ロゼッタインナー(スリム用)』`,
+        translate: `True 'Rosetta's Innerwear (Slim)'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112571.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 3/s and Demon allies' stats by 15% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Rosetta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『リヴィエラ・ダイナマイト』 - JP Complete
+        id: 112581,
+        name: `真『リヴィエラ・ダイナマイト』`,
+        translate: `True 'Riviera's Dynamite Attack'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Fire DMG (Physical). Increase own Fire DMG by 50% for 15s. If user is Demon, increase own Fire DMG by 80% instead.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `When equipped by Summer Riviera, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //封魂の魔晶瓶 - JP Complete
+        id: 112591,
+        name: `封魂の魔晶瓶`,
+        translate: `Soul Sealing Crystal Flask`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112591.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - 4500% Dark DMG (Magic). If enemy is Light, reduce enemies' CRI resistance by 30% for 5s.`,
+                break: 1250
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG against Light enemies by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
