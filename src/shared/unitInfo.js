@@ -21822,7 +21822,7 @@ const UnitInformation = [
         id: 103426412,
         name: "Emperor Isliid",
         attribute: "Light",
-        rank: "SSS",
+        rank: "SS",
         type: "Human",
         image: 
             {
@@ -22478,7 +22478,7 @@ const UnitInformation = [
         id: 103496212,
         name: "Mizuki the Twelfth",
         attribute: "Water",
-        rank: "SS",
+        rank: "S",
         type: "Human",
         image: 
             {
@@ -23727,7 +23727,7 @@ const UnitInformation = [
         name: "Demon Edge Berwick",
         translate: "Sword Demon Berwick",
         attribute: "Fire",
-        rank: "S",
+        rank: "A+",
         twrequire: "reliance",
         type: "Demon",
         image: 
@@ -23967,7 +23967,7 @@ const UnitInformation = [
         translate: `Star God Liza`,
         attribute: "Light",
         type: "God",
-        rank: `SSS`,
+        rank: `SS`,
         lb7require: true,
         image: 
             {
@@ -25140,6 +25140,7 @@ const UnitInformation = [
         translate: `Celia the Exalted`,
         attribute: `Light`,
         type: `Human`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103766412.png",
@@ -34362,7 +34363,7 @@ const UnitInformation = [
         name: `Yuzuriha`,
         attribute: `Dark`,
         type: `Human`,
-        rank: `SS`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107816512.png",
