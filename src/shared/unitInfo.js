@@ -25064,7 +25064,7 @@ const UnitInformation = [
                 detailspecial: "/db/Units/Special/Detail/unit_sp_detail_375_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103756512.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103757512.png",
-                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_374_1.png"
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_375_1.png"
             },
         slots: 
             {
