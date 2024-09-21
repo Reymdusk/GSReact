@@ -11076,7 +11076,7 @@ const UnitInformation = [
     { //Ryuko - Complete
         id: 102226112,
         name: "Ryuko",
-        rank: "B-",
+        rank: "A-",
         luckrank: "B",
         twrequire: "favorable",
         attribute: "Fire",
@@ -22660,7 +22660,7 @@ const UnitInformation = [
         name: "Riviera (Dark)",
         attribute: "Dark",
         type: "Demon",
-        rank: "A+",
+        rank: "A",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103575512.png",
@@ -29344,7 +29344,7 @@ const UnitInformation = [
     { //Melty - Complete, Review done
         id: 107286212,
         name: "Melty",
-        rank: "A+",
+        rank: "A",
         luckrank: "A",
         attribute: "Water",
         type: "Human",
@@ -33068,7 +33068,7 @@ const UnitInformation = [
         name: "Albedo",
         attribute: "Dark",
         type: "Demon",
-        rank: "S",
+        rank: "A+",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107706512.png",
@@ -33165,7 +33165,7 @@ const UnitInformation = [
         name: "Shalltear",
         attribute: "Light",
         type: "Demon",
-        rank: "S",
+        rank: "A+",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107716412.png",
