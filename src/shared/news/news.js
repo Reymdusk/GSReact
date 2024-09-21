@@ -2097,6 +2097,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 66,
+        date: `September 21, 2024`,
+        article: 
+        {
+            intro: `A new Rabbits Platoon saga has begun on JP, introducing a new variant of Charlotte and new equips! Meanwhile, Fate collab has been rerun on Global, with the first part bringing buffs for the old Fate units!`,
+            new: 
+                {
+                    units: [
+                        [`Fiery Platoon Leader Charlotte`, 104027112]
+                    ],
+                    equips: [
+                        [`真『ディード・イクス・フラム』`, 112601],
+                        [`地灼剣『ディード・イクス・フラム』`, 112611]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Illya`, 107737412],
+                        [`Rin & Luvia`, 107767112],
+                        [`Miyu`, 107747512],
+                        [`Shirou Emiya`, 107777212],
+                        [`Chloe (Fate)`, 107757112],
+                        [`Saber Alter`, 107787512]
+                    ],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

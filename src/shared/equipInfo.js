@@ -35024,6 +35024,67 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『ディード・イクス・フラム』 - JP Complete
+        id: 112601,
+        name: `真『ディード・イクス・フラム』`,
+        translate: `True 'Deed, Ix, Flam'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 10000% Fire DMG (Magic). Reduce enemies' Fire resistance by 30% for 8s. Additionally if user is Human, reduce enemies' DMG resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Fiery Platoon Leader Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //地灼剣『ディード・イクス・フラム』 - JP Complete
+        id: 112611,
+        name: `地灼剣『ディード・イクス・フラム』`,
+        translate: `Earth-Shattering Sword 'Deed, Ix, Flam'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT- 8000% Fire DMG (Magic). Increase own Magic DMG by 40% and Fire allies' DMG by 20% for 12s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Increase own BE Output by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

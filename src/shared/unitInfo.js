@@ -26593,6 +26593,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Fiery Platoon Leader Charlotte - Missing Lore (JP)
+        id: 104027112,
+        name: `Fiery Platoon Leader Charlotte`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104026112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104027112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104026112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104027112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7425,
+                hpplus: 1400,
+                atk: 3875,
+                atkplus: 670,
+                def: 2877,
+                defplus: 598
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2200% Fire DMG (MAG). Increase own Arts by 25. If this skill crits, increase own Arts by 50 instead (1 HIT only).`,
+                skillbreak: 700,
+                arts: `27000% Fire DMG (MAG). Increase all allies' next True Arts or Super Arts DMG by 170%.`,
+                artsbreak: 1200,
+                truearts: `63000% Fire DMG (MAG). 80% chance of inflicting Faint for 5s. For 30s, increase all allies' stats by 30% and Fire allies' stats by an additional 30%.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Fire DMG (MAG). For 30s, increase all allies' CRI rate by 100%. Additionally, increase own Super CRI rate during Super Arts duration depending on current HP remaining (MAX: 100%).`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When set as Leader of the party, increase all allies' Arts by 10/s for the first 20s of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% × own ATK/100].`,
+                ability3: `Increase own Paralysis RES by 100%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Deed, Ix, Flam`,
+                    slot: "/db/Mines/thumbnail/magLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112601.png",
+                    skill: `55s CT - 10000% Fire DMG (MAG). For 8s, reduce enemies' Fire RES by 30%. Additionally if user is Human, for 8s, reduce enemies' DMG RES by 20%.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Fiery Platoon Leader Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own MAG RES by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -33453,7 +33531,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Illya - Complete, Review Done + JP ver
+    { // Illya - Complete, Review Done
         id: 107737412,
         name: "Illya",
         attribute: "Light",
@@ -33495,29 +33573,10 @@ const UnitInformation = [
                 artsbreak: 800,
                 truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.`,
                 trueartsbreak: 1500,
-                superarts: `150000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - 2200% Light DMG (MAG). Increase own Arts by 30.`,
-                skillbreak: 500,
-                arts: `18000% Light DMG (MAG). For 15s, reduce Enemies' Light RES by 50%.`,
-                artsbreak: 800,
-                truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.`,
-                trueartsbreak: 1500,
                 superarts: `170000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
                 superartsbreak: 2000
             },
         passive: 
-            {
-                ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 90%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own DMG against Dark Enemies by 20%.`,
-                ability3: `Increase own accuracy by 30%.`,
-                ability4: `Increase Unit EXP by 20% (When Illya's SP. Art is owned).`,
-                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Illya's SP. Art is owned).`
-            }, 
-        passiveJP: 
             {
                 ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 80%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against Dark Enemies by 20%.`,
@@ -33576,7 +33635,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Rin & Luvia - Review Done + JP ver
+    { // Rin & Luvia - Review Done
         id: 107767112,
         name: "Rin & Luvia",
         attribute: "Fire",
@@ -33612,17 +33671,6 @@ const UnitInformation = [
                 defplus: 580
             },
         skillset: 
-            {
-                skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
-                skillbreak: 1000,
-                arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn for 20s. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
-                artsbreak: 1800,
-                truearts: `50000% Fire DMG (MAG). For 25s, reduce Enemies' DMG RES by 70% & Burn RES by 50%.`,
-                trueartsbreak: 2500,
-                superarts: `120000% Fire DMG (MAG). For 40s, increase Allies' MAG DMG by 150% & reduce Enemies' MAG RES by 100%.`,
-                superartsbreak: 3500
-            },
-        skillsetJP: 
             {
                 skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
                 skillbreak: 1000,
@@ -33698,7 +33746,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Miyu - Review Done + JP ver
+    { //Miyu - Review Done
         id: 107747512,
         name: `Miyu`,
         attribute: `Dark`,
@@ -33740,29 +33788,10 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `90000% Dark DMG (MAG). For 30s, increase own ATK and Accuracy rate by 150%.`,
                 trueartsbreak: 1500,
-                superarts: `185000% Dark DMG (MAG). For 20s, all allies ignore 100% of Enemies' DEF and increase Human allies' DMG by 200%.`,
-                superartsbreak: 1800
-            },
-        skillsetJP: 
-            {
-                skill: `13s CT - 4200% Dark DMG (MAG). For 10s, increase own Arts gauge by 3/s`,
-                skillbreak: 500,
-                arts: `25000% Dark DMG (MAG). For 20s, reduce enemies' Dark RES by 50%.`,
-                artsbreak: 1000,
-                truearts: `90000% Dark DMG (MAG). For 30s, increase own ATK and Accuracy rate by 150%.`,
-                trueartsbreak: 1500,
                 superarts: `190000% Dark DMG (MAG). For 20s, all allies ignore 100% of Enemies' DEF and increase Human allies' DMG by 200%.`,
                 superartsbreak: 1800
             },
         passive: 
-            {
-                ability1: `For first 120s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%.`,
-                ability2: `Paralysis RES 100% UP.`,
-                ability3: `DMG 20% UP against enemies below 30% HP.`,
-                ability4: `Increase Unit EXP by 20% (When Miyu's SP. Art is owned).`,
-                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Miyu's SP. Art is owned).`
-            }, 
-        passiveJP: 
             {
                 ability1: `For first 150s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%.`,
                 ability2: `Paralysis RES 100% UP.`,
@@ -33822,7 +33851,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Shirou Emiya - Review Done + JP ver
+    { //Shirou Emiya - Review Done
         id: 107777212,
         name: `Shirou Emiya`,
         attribute: `Water`,
@@ -33857,21 +33886,6 @@ const UnitInformation = [
                 defplus: 640
             },
         skillset: 
-            {
-                skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.\n
-                During Unlimited Blade Works: 8s CT - 2000% Water DMG (PHY). increase own Arts by 60.`,
-                skillbreak: 600,
-                arts: `For 10s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.\n
-                During Unlimited Blade Works: For 20s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.`,
-                artsbreak: 0,
-                truearts: `40000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.\n
-                During Unlimited Blade Works: 80000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.`,
-                trueartsbreak: 1500,
-                superarts: `For 180s, Enter Unlimited Blade Works.\n
-                During Unlimited Blade Works: 165000% Water DMG (PHY). For 35s, Increase own ATK & DMG Up by 200%.`,
-                superartsbreak: 2200
-            },
-        skillsetJP: 
             {
                 skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.\n
                 During Unlimited Blade Works: 8s CT - 2000% Water DMG (PHY). increase own Arts by 60.`,
@@ -33945,7 +33959,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { //Chloe Fate - Review Done + JP ver
+    { //Chloe Fate - Review Done
         id: 107757112,
         name: `Chloe (Fate)`,
         twrequire: "favorable",
@@ -33981,17 +33995,6 @@ const UnitInformation = [
                 defplus: 574
             },
         skillset: 
-            {
-                skill: `11s CT - 2200% Fire DMG (PHY). For 8s, lower enemy's Evasion by 20%.`,
-                skillbreak: 1000,
-                arts: `16000% Fire DMG (PHY). For 35s, lower enemies' BREAK RES by 40%.`,
-                artsbreak: 3000,
-                truearts: `35000% Fire DMG (PHY). For 20s, Increase allies' Arts by 5/s & BREAK PWR by 70%.`,
-                trueartsbreak: 6000,
-                superarts: `100000% Fire DMG (PHY). For 20s, reduce enemies' Fire RES by 100%`,
-                superartsbreak: 12000
-            },
-        skillsetJP: 
             {
                 skill: `11s CT - 2200% Fire DMG (PHY). For 8s, lower enemy's Evasion by 20%.`,
                 skillbreak: 1000,
@@ -34060,7 +34063,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { //Saber Alter - Review done + JP ver
+    { //Saber Alter - Review done
         id: 107787512,
         name: `Saber Alter`,
         attribute: `Dark`,
@@ -34102,29 +34105,10 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `64000% Dark DMG (PHY). For 30s, Increase own DMG by 100% & Reduce enemies' Dark RES by 70%.`,
                 trueartsbreak: 1500,
-                superarts: `170000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%.`,
-                superartsbreak: 2200
-            },
-        skillsetJP: 
-            {
-                skill: `11s CT - 3000% Dark DMG (PHY). Increase own Arts by 50. If this Skill crits, increase Arts by an additional 30.`,
-                skillbreak: 500,
-                arts: `26000% Dark DMG (PHY). For 20s, increase all allies' STATS by 30%.`,
-                artsbreak: 1000,
-                truearts: `64000% Dark DMG (PHY). For 30s, Increase own DMG by 100% & Reduce enemies' Dark RES by 70%.`,
-                trueartsbreak: 1500,
                 superarts: `185000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%.`,
                 superartsbreak: 2200
             },
         passive: 
-            {
-                ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%. Reduce own Accuracy by 30% if affected by Status Ailments`,
-                ability2: `Poison RES 40% Up`,
-                ability3: `Increase own ATK by 25% when HP is above 90%.`,
-                ability4: `Unit EXP UP 20% UP. (When Saber Alter's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saber Alter's SP. Art is owned)`
-            }, 
-        passiveJP: 
             {
                 ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%.`,
                 ability2: `Poison RES 40% Up`,
