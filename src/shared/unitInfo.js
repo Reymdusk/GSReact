@@ -36102,9 +36102,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Summer Sakura Matou - JP Complete
+    { //Summer Sakura - JP Complete
         id: 108027512,
-        name: `Summer Sakura Matou`,
+        name: `Summer Sakura`,
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -36151,8 +36151,8 @@ const UnitInformation = [
                 ability1: `Increase Leader's DMG by 150% and Arts by 5/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Blind RES by 100%.`,
                 ability3: `Increase DMG against Humans by 50%.`,
-                ability4: `Unit EXP UP 20% UP. (When Summer Sakura Matou's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Sakura Matou's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Summer Sakura's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Sakura's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -36176,6 +36176,170 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Summer Sakura Matou, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Shadow - JP Complete
+        id: 108037512,
+        name: `Shadow`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108036512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108037512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_803_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108036512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108037512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_803_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7093,
+                hpplus: 1311,
+                atk: 3462,
+                atkplus: 665,
+                def: 3345,
+                defplus: 631
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3000% Dark DMG (PHY). For 8s, increase all stats by 20%.`,
+                skillbreak: 800,
+                arts: `20000% Dark DMG (PHY). For 20s, increase own ATK by 100% and all allies' Freeze RES and Paralysis RES by 100%.`,
+                artsbreak: 1500,
+                truearts: `60000% Dark DMG (PHY). Increase all allies' Arts by 30. For 40s, reduce enemies' PHY RES by 60% (stackable) and Evasion rate by 30% (stackable).`,
+                trueartsbreak: 2000,
+                superarts: `180000% Dark DMG (PHY). For 30s, allies ignore 100% of Enemies' DEF and increase allies not affected by Status ailments' DMG by 200%.`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `When above 70% HP, increase Dark allies' Arts by 5/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Light enemies by 35%.`,
+                ability3: `Increase own PHY Equipment CT Speed by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Shadow's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Shadow's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Shadow's Sword`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153641.png",
+                skill: `60s CT - 8000% Dark DMG (PHY). For 8s, reduce enemies' Dark RES by 40%. Additionally if user is Human, for 8s, increase own DMG by 50%.`,
+                skillbreak: 1700,
+                passive: 
+                    {
+                        ability1: `When equipped by Shadow, increase own DMG by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Evasion rate by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Beta - JP Complete
+        id: 108057212,
+        name: `Beta`,
+        attribute: `Water`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108056212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108057212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_805_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108056212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108057212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_805_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7820,
+                hpplus: 1410,
+                atk: 2860,
+                atkplus: 570,
+                def: 3565,
+                defplus: 670
+            },
+        skillset: 
+            {
+                skill: `12s CT - 1800% Water DMG (MAG). For 9s, reduce enemies' DMG RES by 20%.`,
+                skillbreak: 600,
+                arts: `Heal Water allies' HP by 25%. For 25s, Allies gain a DMG barrier that negates 8000 DMG.`,
+                artsbreak: 0,
+                truearts: `For 30s, increase all allies' DMG RES by 40% and >50% HP Allies' Arts by 5/s.`,
+                trueartsbreak: 0,
+                superarts: `150000% Water DMG (MAG). For 20s, increase all allies' MAG DMG by [# of Water allies x 80]% (MAX: 320%).`,
+                superartsbreak: 1500
+            },
+        passive: 
+            {
+                ability1: `Increase Ally to the left of Beta's DMG by 150%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Curse RES by 100%.`,
+                ability3: `Increase DMG to Human Enemies by 40%.`,
+                ability4: `Unit EXP UP 20% UP. (When Beta's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Beta's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Beta's Bow`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153651.png",
+                skill: `50s CT - 9000% Water DMG (MAG). For 10s, reduce enemies' Water RES by 30%. If user is Spirit, reduce enemies' Water RES by 50% instead.`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Beta, increase own ATK by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
                     }
             },
         lore: 

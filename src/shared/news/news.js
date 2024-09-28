@@ -2129,6 +2129,40 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 677,
+        date: `September 28, 2024`,
+        article: 
+        {
+            intro: `Part 1 of The Eminence in Shadow Collab has been released on JP, featuring new units and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Shadow`, 108037512],
+                        [`Beta`, 108057212],
+                    ],
+                    equips: [
+                        [`真『シャドウの剣』`, 153641],
+                        [`真『ベータの弓』`, 153651],
+                        [`シャドウのブーツ`, 153661],
+                        [`シャドウの剣`, 153671],
+                        [`シャドウのスーツ`, 153681],
+                        [`ベータの弓`, 153691],
+                        [`ベータのスーツ`, 153701],
+                        [`ベータのメガネ`, 153711],
+                        [`ガンマのぬいぐるみ`, 153721],
+                        [`ゼータのぬいぐるみ`, 153731],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

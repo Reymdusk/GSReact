@@ -45632,7 +45632,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Summer Sakura Matou, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Summer Sakura, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
@@ -46177,6 +46177,308 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『シャドウの剣』 - Missing Lore
+        id: 153641,
+        name: `真『シャドウの剣』`,
+        translate: `True 'Shadow's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Dark DMG (Physical). Reduce enemies' Dark resistance by 40% for 8s. Additionally if user is Human, increase own DMG by 50% for 8s.`,
+                break: 1700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Shadow, increase own DMG by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Evasion rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ベータの弓』 - Missing Lore
+        id: 153651,
+        name: `真『ベータの弓』`,
+        translate: `True 'Beta's Bow'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 9000% Water DMG (Magic). Reduce enemies' Water resistance by 30% for 10s. If user is Spirit, reduce enemies' Water resistance by 50% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Beta, increase own ATK by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シャドウのブーツ - Missing Lore
+        id: 153661,
+        name: `シャドウのブーツ`,
+        translate: `Shadow's Boots'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 5800% Dark DMG (Physical). Increase Dark allies' ATK by 20% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG against Light enemies by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シャドウの剣 - Missing Lore
+        id: 153671,
+        name: `シャドウの剣`,
+        translate: `Shadow's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Dark DMG (Physical). Increase own Physical DMG by 60% for 12s. When used for the first time, increase own Arts by 50. Additionally, if user is Dark, increase own Arts by 50.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シャドウのスーツ - Missing Lore
+        id: 153681,
+        name: `シャドウのスーツ`,
+        translate: `Shadow's Suit'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Dark DMG (Magic). Increase Dark allies' BE Output by 80% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ベータの弓 - Missing Lore
+        id: 153691,
+        name: `ベータの弓`,
+        translate: `Beta's Bow'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `65s CT - 5000% Water DMG (Magic). Reduce enemies' Magic resistance by 30% for 10s. If user is not Human, God, or Demon, reduce enemies' Magic resistance by 60% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ベータのスーツ - Missing Lore
+        id: 153701,
+        name: `ベータのスーツ`,
+        translate: `Beta's Suit'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153701.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts by 2/s and Water allies' Break Power by 50% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ベータのメガネ - Missing Lore
+        id: 153711,
+        name: `ベータのメガネ`,
+        translate: `Beta's Glasses'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 2000% Water DMG (Magic). Increase own Magic DMG and Magic resistance by 10% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ガンマのぬいぐるみ - Missing Lore
+        id: 153721,
+        name: `ガンマのぬいぐるみ`,
+        translate: `Gamma's Stuffed Animal'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 7000% Earth DMG (Magic). Increase own CRI rate by 100% for 10s. Additionally if user is not affected by Status ailment(s), increase own CRI DMG by 50% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ゼータのぬいぐるみ - Missing Lore
+        id: 153731,
+        name: `ゼータのぬいぐるみ`,
+        translate: `Zeta's Stuffed Animal'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153731.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal Fire allies' HP by 200/s for 20s. When used for the first time, increase Leader unit's Arts by 50.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    }
 ]
 
 export function getEquips() {
