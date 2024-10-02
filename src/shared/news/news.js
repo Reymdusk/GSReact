@@ -2131,7 +2131,7 @@ const NewsArticles = [
         }
     },
     {
-        id: 677,
+        id: 67,
         date: `September 28, 2024`,
         article: 
         {
@@ -2160,6 +2160,42 @@ const NewsArticles = [
                 {
                     units: [],  
                     equips: [],
+                    dream: []
+                }
+        }
+    },
+    {
+        id: 68,
+        date: `October 2, 2024`,
+        article: 
+        {
+            intro: `Small update on JP with the release of 4 new Dream Awakenings. Meanwhile on Global, new Halloween variants of units have been released, alongside new Halloween-themed equips!`,
+            new: 
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Vultee`, 103406212],
+                        [`Priscilla`, 103326112],
+                        [`Simon`, 103306512],
+                        [`Hart (Dark)`, 103286512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Halloween Charlotte`, 103777112],
+                        [`Halloween Valerie`, 103787212],
+                        [`Halloween Forte`, 103797512]
+                    ],  
+                    equips: [
+                        [`Lotte's Fluffy Mitts`, 111901],
+                        [`Lotte's Clawed Paws`, 111911],
+                        [`Valerie's Lizalee Staff`, 111921],
+                        [`Trick the Trickster`, 111931],
+                        [`Forte's Dolly Dress`, 111941],
+                        [`Forte's Funny Hat`, 111951]
+                    ],
                     dream: []
                 }
         }

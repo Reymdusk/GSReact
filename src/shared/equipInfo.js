@@ -32905,10 +32905,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //シャルのガオおてて - JP Complete
+    { //Lotte's Fluffy Mitts - Missing Lore
         id: 111901,
-        name: `シャルのガオおてて`,
-        translate: `Char's Gao Claw`,
+        name: `Lotte's Fluffy Mitts`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32933,12 +32932,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シャルのガオおみあし - JP Complete
+    { //Lotte's Clawed Paws - Missing Lore
         id: 111911,
-        name: `シャルのガオおみあし`,
-        translate: `Char's Gao Feet`,
+        name: `Lotte's Clawed Paws`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32963,12 +32961,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ヴァレリーのまじりざステッキ - JP Complete
+    { //Valerie's Lizalee Staff - Missing Lore
         id: 111921,
-        name: `ヴァレリーのまじりざステッキ`,   
-        translate: `Valerie's Mingled Stick`,
+        name: `Valerie's Lizalee Staff`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32993,12 +32990,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //トリック・オア・ダイ - JP Complete
+    { //Trick the Trickster - Missing Lore
         id: 111931,
-        name: `トリック・オア・ダイ`,
-        translate: `Trick or Die`,
+        name: `Trick the Trickster`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33023,12 +33019,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //フォルテのドーリィドレス - JP Complete
+    { //Forte's Dolly Dress - Missing Lore
         id: 111941,
-        name: `フォルテのドーリィドレス`,
-        translate: `Forte's Dolly Dress`,
+        name: `Forte's Dolly Dress`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33053,12 +33048,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //フォルテのちっちゃいぼうし - JP Complete
+    { //Forte's Funny Hat - Missing Lore
         id: 111951,
-        name: `フォルテのちっちゃいぼうし`,
-        translate: `Forte's Small Hat`,
+        name: `Forte's Funny Hat`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -33083,7 +33077,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Poison resistance by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //極『カボシェルムのぬいぐるみ』(Jack-o-Sherum Plushie EV) - JP Complete
         id: 111961,

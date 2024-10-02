@@ -20445,9 +20445,10 @@ const UnitInformation = [
                 author: `Elric`
             }
     },
-    { //Hart (Dark) - Complete, Review done
+    { //Hart (Dark) - Complete, Review done + JP ver
         id: 103286512,
         name: "Hart (Dark)",
+        translate: `Dark Hart`,
         rank: "B",
         attribute: "Dark",
         type: "Human",
@@ -20461,6 +20462,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -20485,6 +20495,17 @@ const UnitInformation = [
                 truearts: "50000% Dark DMG (MAG). For 20s, increase Allies' Critical DMG by 100%.",
                 trueartsbreak: 1500,
                 phantombullet: "70000% Dark DMG (MAG). For 60s, reduce Enemies' Dark RES by 50%. Phantom Bullet can only be activated three times in a Quest.",
+                phantombulletbreak: 2100
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1500% Dark DMG (MAG). 70% chance to inflict a stack of Bleed (up to 3).",
+                skillbreak: 500,
+                arts: "17000% Dark DMG (MAG). Increase own Arts by 20 + For 15s, increase Allies' Skill CT REC by 150%.",
+                artsbreak: 900,
+                truearts: "60000% Dark DMG (MAG). For 20s, increase Allies' Critical DMG by 150%.",
+                trueartsbreak: 1500,
+                phantombullet: "90000% Dark DMG (MAG). For 60s, reduce Enemies' DMG RES by 100%. Phantom Bullet can only be activated three times in a Quest.",
                 phantombulletbreak: 2100
             },
         passive: 
@@ -20521,6 +20542,40 @@ const UnitInformation = [
                         ability1: "When equipped by Hart (Dark), increase ATK by 30% and Arts by 3/s.",
                         ability2: "Increase accuracy by 10%."
                     }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 2,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `When own HP is above 80%, increase own Accuracy by 100%.`,
+                        ability2: `When own HP is above 80%, increase own Arts by 4/s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increases Phantom Bullet's DMG Multiplier to 150000% Dark DMG (MAG) instead.`,
+                        ability2: `Increase own ATK by 15%.`
+                    }
+                }
             },
         lore: 
             {   
@@ -20645,7 +20700,7 @@ const UnitInformation = [
                 author: `Icee`
             }
     },
-    { //Simon - Complete, Review done
+    { //Simon - Complete, Review done + JP ver
         id: 103306512,
         name: "Simon",
         rank: "A-",
@@ -20661,6 +20716,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -20685,6 +20749,17 @@ const UnitInformation = [
                 truearts: "36000% Dark DMG (PHY). Increase own Arts by 50. For 15s, reduce Enemies' Dark and PHY RES by 30%.",
                 trueartsbreak: 900,
                 phantombullet: "100000% Dark DMG (PHY). Increase own accuracy by 100% and ignore 100% of Enemies' DEF during Phantom Bullet. Phantom Bullet can only be activated three times in a Quest.",
+                phantombulletbreak: 1300
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 1800% Dark DMG (PHY). For 8s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 600,
+                arts: "18000% Dark DMG (PHY). For 20s, increase DMG by 30%. If this Arts is reactivated before this effect expires, refresh the duration of this effect and increase DMG by a further 30% (up to 240%).",
+                artsbreak: 600,
+                truearts: "50000% Dark DMG (PHY). Increase own Arts by 50. For 15s, reduce Enemies' Dark and PHY RES by 45%.",
+                trueartsbreak: 900,
+                phantombullet: "120000% Dark DMG (PHY). Increase own accuracy by 100% and ignore 100% of Enemies' DEF during Phantom Bullet. Phantom Bullet can only be activated three times in a Quest.",
                 phantombulletbreak: 1300
             },
         passive: 
@@ -20724,6 +20799,40 @@ const UnitInformation = [
                         ability1: "When equipped by Simon, increase ATK by 50% and increase Status RES by 20%.",
                         ability2: "Increase DMG to Giant Bosses by 10%."
                     }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 2/s.`,
+                        ability2: `Increase own True Arts' duration by an additional 15s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Humans by 120%.`,
+                        ability2: `Increase own Accuracy by 50%.`
+                    }
+                }
             },
         lore: 
             {   
@@ -20850,9 +20959,9 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Priscilla (Fire) - Complete, Review done
+    { //Priscilla - Complete, Review done + JP ver
         id: 103326112,
-        name: "Priscilla (Fire)",
+        name: "Priscilla",
         rank: "B+",
         twrequire: "favorable",
         attribute: "Fire",
@@ -20867,6 +20976,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -20889,6 +21007,15 @@ const UnitInformation = [
                 arts: "16000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30%.",
                 artsbreak: 1000,
                 truearts: "62000% Fire DMG (PHY). For 20s, increase Allies' Critical Rate by 100%, and increase Allies' Critical DMG by [30% × # of Fire Allies in Party].",
+                trueartsbreak: 1400
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1600% Fire DMG (PHY). Increase own Arts by 20 + If own HP is above 90%, increase own Arts by an additional 20.",
+                skillbreak: 300,
+                arts: "23000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30%.",
+                artsbreak: 1000,
+                truearts: "72000% Fire DMG (PHY). For 20s, increase Allies' Critical Rate by 100%, and increase Allies' Critical DMG by [50% × # of Fire Allies in Party].",
                 trueartsbreak: 1400
             },
         passive: 
@@ -20928,6 +21055,40 @@ const UnitInformation = [
                         ability1: "When equipped by Priscilla, increase DMG and accuracy by 50%. Does not stack with Abilities of the same name.",
                         ability2: "Increase ATK by 5%."
                     }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 3/s.`,
+                        ability2: `When own HP is above 80%, increase own ATK by 50%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Accuracy by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DMG by 50% against enemies below 30% HP.`
+                    }
+                }
             },
         lore: 
             {   
@@ -21612,9 +21773,9 @@ const UnitInformation = [
                 evoawk: "A cunning priest set her up as the founder of a religion until she escaped. She then travelled around the world to rescue her lost relatives, eventually joining the lithomancer Yulong's crew. Long isolation gave her a stunted vocabulary, and she often punctuates her sentences with \"rawr\"."
             }
     },
-    { //Vultee (Water) - Complete, Review done
+    { //Vultee - Complete, Review done + JP ver
         id: 103406212,
-        name: "Vultee (Water)",
+        name: "Vultee",
         rank: "B",
         attribute: "Water",
         type: "Human",
@@ -21628,6 +21789,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -21652,9 +21822,24 @@ const UnitInformation = [
                 truearts: "60000% Water DMG (MAG). For 20s, Allies ignore Enemies' DEF by 100%, and increase Allies' Arts DMG by [30% × # of Water Allies in party].",
                 trueartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: "15s CT - 1500% Water DMG (MAG).  Increase own Arts by 10. For 15s, reduce Enemies' MAG RES by 10% (stackable).",
+                skillbreak: 600,
+                arts: "25000% Water DMG (MAG). For 20s, increase own Skill CT REC by 120% and Equip CT REC by 30%.",
+                artsbreak: 1200,
+                truearts: "77000% Water DMG (MAG). For 20s, Allies ignore Enemies' DEF by 100%, and increase Allies' Arts DMG by [50% × # of Water Allies in party].",
+                trueartsbreak: 2000
+            },
         passive: 
             {
                 ability1: "When own HP is above 80%, increase ATK by 80%.",
+                ability2: "Increase Hellfire RES by 40%.",
+                ability3: "When Vultee joins the battle from the 2nd party in Cross Battle, he gains the Change Buff for Same Race regardless of the unit he replaces."
+            }, 
+        passiveJP: 
+            {
+                ability1: "When own HP is above 80%, increase ATK by 120%.",
                 ability2: "Increase Hellfire RES by 40%.",
                 ability3: "When Vultee joins the battle from the 2nd party in Cross Battle, he gains the Change Buff for Same Race regardless of the unit he replaces."
             }, 
@@ -21686,9 +21871,43 @@ const UnitInformation = [
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: "When equipped by Vultee (Water), increase own Arts by 3/s.",
+                        ability1: "When equipped by Vultee, increase own Arts by 3/s.",
                         ability2: "Increase MAG DMG by 10%."
                     }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Fire RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DMG against Fire enemies by 50%.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equip CT Speed by 10%.`
+                    }
+                }   
             },
         lore: 
             {   
@@ -25224,9 +25443,10 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Halloween Charlotte - Missing Lore (JP)
+    { //Halloween Charlotte - Missing Lore
         id: 103777112,
         name: `Halloween Charlotte`,
+        translate: `Wild Side Charlotte`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -25285,13 +25505,14 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Halloween Valerie - Missing Lore (JP)
+    { //Halloween Valerie - Missing Lore
         id: 103787212,
         name: `Halloween Valerie`,
+        translate: `Mighty Magical Valerie`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -25350,13 +25571,14 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Halloween Forte - Missing Lore (JP)
+    { //Halloween Forte - Missing Lore
         id: 103797512,
         name: `Halloween Forte`,
+        translate: `Pianissimo Figure Forte`,
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -25415,8 +25637,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Beyond Fate, Emperor Isliid - JP Complete
