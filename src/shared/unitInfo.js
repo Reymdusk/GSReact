@@ -24963,12 +24963,6 @@ const UnitInformation = [
                 ability4: `Unit EXP UP 20% UP. (When Luana's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Luana's SP. Art is owned)`
             }, 
-        passiveJP: 
-            {
-                ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
-                ability2: `When self is Leader, increase all Allies' Max HP by 30%.`,
-                ability3: `Increase own Curse RES by 100%.`
-            }, 
         evolution: 
             {
                 evoawksuper:
