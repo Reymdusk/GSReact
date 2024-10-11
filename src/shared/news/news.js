@@ -2199,6 +2199,52 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 69,
+        date: `October 11, 2024`,
+        article: 
+        {
+            intro: `Part 2 of The Eminence in Shadow Collab is released on JP, with new units and equips! Meanwhile on Global, Part 1 of the Summer variants of Fate Collab has been released with new units and equips too!`,
+            new: 
+                {
+                    units: [
+                        [`Alpha`, 108047412],
+                        [`Delta`, 108067112],
+                    ],
+                    equips: [
+                        [`真『アルファの剣』`, 153741],
+                        [`真『デルタのスーツ』`, 153751],
+                        [`デルタの髪飾り`, 153761],
+                        [`アルファの剣`, 153771],
+                        [`アルファの剣`, 153781],
+                        [`アルファのブーツ`, 153791],
+                        [`デルタのスーツ`, 153801],
+                        [`デルタのブーツ`, 153811],
+                        [`イプシロンのぬいぐるみ`, 153821],
+                        [`イータのぬいぐるみ`, 153831],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Illya`, 107977212],
+                        [`Summer Luvia & Rin`, 108017312]
+                    ],  
+                    equips: [
+                        [`True 'Illya's Swimsuit'`, 153401],
+                        [`True 'Luvia's Swimsuit'`, 153431],
+                        [`Illya's Swimsuit`, 153461],
+                        [`Keepsake Bracelet`, 153471],
+                        [`Hecate's Staff`, 153491],
+                        [`Arrest Chain`, 153511],
+                        [`Rin's Swimsuit`, 153561],
+                        [`Luvia's Swimsuit`, 153571]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

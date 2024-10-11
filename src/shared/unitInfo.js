@@ -60,7 +60,7 @@
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: 
@@ -166,7 +166,7 @@
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
                         mat3amt: 2,
                         hover3: "Ifrit",
@@ -313,7 +313,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -728,7 +728,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragFosradius.png`,
                         mat3amt: 2,
@@ -892,7 +892,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
@@ -1057,7 +1057,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -1430,7 +1430,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFosradius.png`,
                         mat3amt: 2,
                         hover3: `Fosradius`
@@ -1678,7 +1678,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                         mat3amt: 2,
                         hover3: "Fosraidus",
@@ -1970,7 +1970,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -2107,7 +2107,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                         mat3amt: 2,
                         hover3: "Fosradius",
@@ -3895,7 +3895,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -5162,7 +5162,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                         mat3amt: 2,
                         hover3: "Wilkes",
@@ -5800,7 +5800,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                         mat3amt: 2,
                         hover3: "Fosradius",
@@ -10914,7 +10914,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                         mat3amt: 2,
                         hover3: "Wilkes",
@@ -13375,7 +13375,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 50,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                     mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                     mat3amt: 2,
                     hover3: "Wilkes",
@@ -14762,7 +14762,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 50,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                     mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat3amt: 2,
                     hover3: "Fosradius",
@@ -16037,7 +16037,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -16285,7 +16285,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -16400,7 +16400,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -17874,7 +17874,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                         mat3amt: 2,
                         hover3: "Fosradius",
@@ -18135,7 +18135,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                         mat3amt: 2,
                         hover3: "Wilkes",
@@ -18383,7 +18383,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.pn`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -23271,7 +23271,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
                         mat3amt: 2,
                         hover3: "Radachne",
@@ -24158,7 +24158,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -24241,7 +24241,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -24500,7 +24500,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         lore: 
@@ -24971,7 +24971,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: 
@@ -25415,7 +25415,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: 
@@ -25694,7 +25694,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 220,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -25952,7 +25952,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 220,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                 }
             },
         trueweapon: 
@@ -27452,7 +27452,7 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
-        dream: 
+        dreamGL: 
             {
                 fire: {
                     evolution: {
@@ -27476,7 +27476,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 30,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                         mat3amt: 1,
                         hover3: "Wilkes",
@@ -27655,7 +27655,7 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
-            dream: {
+            dreamGL: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -27677,7 +27677,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 30,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                         mat3amt: 1,
                         hover3: "Wilkes",
@@ -28151,7 +28151,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 50,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                     mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                     mat3amt: 2,
                     hover3: `Wilkes`
@@ -28732,7 +28732,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 50,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                     mat3: "/db/Icons/dungeon_drops/fragWikes.png",
                     mat3amt: 2,
                     hover3: "Wilkes",
@@ -28966,7 +28966,7 @@ const UnitInformation = [
                     hover3: "Oldeus",
                 }
             },
-        dream: {
+        dreamGL: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -29094,7 +29094,7 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
-            dream: {
+            dreamGL: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -29220,7 +29220,7 @@ const UnitInformation = [
                     hover3: "Valzandeth",
                 }
             },
-        dream: {
+        dreamGL: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -30662,7 +30662,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -30792,7 +30792,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 50,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                     mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                     mat3amt: 2,
                     hover3: `Radachne`
@@ -31185,7 +31185,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -32094,7 +32094,7 @@ const UnitInformation = [
                     hover3: "Flogassa",
                 }
             },
-        dream: {
+        dreamGL: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -32239,7 +32239,7 @@ const UnitInformation = [
                     hover3: "Radachne",
                 }
             },
-            dream: {
+            dreamGL: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -32262,7 +32262,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 30,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
                         mat3amt: 1,
                         hover3: "Wilkes",
@@ -32384,7 +32384,7 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
-            dream: {
+            dreamGL: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -32529,7 +32529,7 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
-            dream: {
+            dreamGL: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -32552,7 +32552,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 30,
-                        hover2: `Eternaglit Soulgem`,
+                        hover2: `Eternaglint Soulgem`,
                         mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                         mat3amt: 1,
                         hover3: "Fosradius",
@@ -33511,7 +33511,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -33707,7 +33707,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -33822,7 +33822,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         lore: 
@@ -34710,7 +34710,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         lore: 
@@ -35176,7 +35176,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         lore: 
@@ -35886,7 +35886,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 100,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                 }
             },
         trueweapon: 
@@ -35908,7 +35908,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Illya - JP Complete
+    { //Summer Illya - Missing Lore
         id: 107977212,
         name: `Summer Illya`,
         attribute: `Water`,
@@ -35986,8 +35986,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Miyu - JP Complete
@@ -36132,7 +36132,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 100,
-                    hover2: `Eternaglit Soulgem`,
+                    hover2: `Eternaglint Soulgem`,
                 }
             },
         trueweapon: 
@@ -36236,7 +36236,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }  
     },
-    { //Summer Luvia & Rin - JP Complete
+    { //Summer Luvia & Rin - Missing Lore
         id: 108017312,
         name: `Summer Luvia & Rin`,
         attribute: `Earth`,
@@ -36314,8 +36314,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Sakura - JP Complete
@@ -36556,6 +36556,170 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Beta, increase own ATK by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own DEF by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Alpha - JP Complete
+        id: 108047412,
+        name: `Alpha`,
+        attribute: `Light`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108046412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108047412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_804_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108046412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108047412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_804_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7085,
+                hpplus: 1309,
+                atk: 3362,
+                atkplus: 647,
+                def: 3413,
+                defplus: 643
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2500% Light DMG (PHY). Increase own Arts by 20. If used when HP is above 80%, increase own Arts by 40 instead.`,
+                skillbreak: 700,
+                arts: `25000% Light DMG (PHY). For 15s, reduce enemies' Light RES by 60%.`,
+                artsbreak: 1200,
+                truearts: `65000% Light DMG (PHY). For 25s, increase all allies' Arts by 6/s and reduce enemies' CRI RES by 100%.`,
+                trueartsbreak: 1800,
+                superarts: `150000% Light DMG (PHY). For 30s, increase all allies' PHY DMG by 100%. If used while the effects of own Super Arts is active, refreshes effect duration and increase PHY DMG buff by an additional 100% (MAX: 400%).`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When Near-Death, heal all allies' HP by 100%. Additionally, for 10s, increase all allies' DMG RES by 50% (Only once). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own CRI DMG by 50%.`,
+                ability3: `Increase own Heal Equip CT Speed by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Alpha's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Alpha's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglint Soulgem`
+                }
+            },
+        trueweapon: 
+            {
+                name: `Alpha's Sword`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153741.png",
+                skill: `55s CT - 8000% Light DMG (PHY). For 10s, increase own CRI DMG by 50%. If user is Light, increase own CRI DMG by 100% instead.`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Alpha, increase own ATK by 20%. Increase own Arts by 100 at the Start of a Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own MAG RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Delta - JP Complete
+        id: 108067112,
+        name: `Alpha`,
+        attribute: `Light`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108066112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108067112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_806_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108066112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108067112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_806_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7645,
+                hpplus: 1440,
+                atk: 3812,
+                atkplus: 660,
+                def: 2740,
+                defplus: 572
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3500% Fire DMG (PHY). Heal ally with the lowest HP by 20%.`,
+                skillbreak: 600,
+                arts: `20000% Fire DMG (PHY). For 20s, increase own Skill CT Speed by 100% and Physical Equip CT Speed by 30%.`,
+                artsbreak: 1000,
+                truearts: `60000% Fire DMG (PHY). For 40s, increase own ATK by 50% (stackable) and enemies' Fire RES by 50% (stackable).`,
+                trueartsbreak: 1600,
+                superarts: `170000% Fire DMG (PHY). For 20s, ignore enemies' DEF by 100%. If used when above 50% HP, for 20s, increase own DMG by 150%. Additionally if used when ownself is not affected by Status ailment(s), for 20s, increase own DMG by 150%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase own Arts based on current HP (MAX: 10/s). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [2% × own ATK/100].`,
+                ability3: `Increase Fire allies' BE Output by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Delta's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Delta's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Delta's Suit`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_153751.png",
+                skill: `70s CT - 12000% Fire DMG (PHY). For 15s, increase own DMG by 50% and Fire DMG by 70%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Delta, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
                     }
             },
         lore: 

@@ -45445,10 +45445,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『イリヤの水着』 - Missing Lore
+    { //True 'Illya's Swimsuit' - Missing Lore
         id: 153401,
-        name: `真『イリヤの水着』`,
-        translate: `True 'Illya's Swimsuit'`,
+        name: `True 'Illya's Swimsuit'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45474,7 +45473,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Illya, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『美遊の水着』 - Missing Lore
         id: 153411,
@@ -45538,10 +45537,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ルヴィアの水着』 - Missing Lore
+    { //True 'Luvia's Swimsuit' - Missing Lore
         id: 153431,
-        name: `真『ルヴィアの水着』`,
-        translate: `True 'Luvia's Swimsuit'`,
+        name: `True 'Luvia's Swimsuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45567,7 +45565,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Luvia & Rin, increase own ATK by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『バゼットの水着』 - Missing Lore
         id: 153441,
@@ -45631,10 +45629,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //イリヤの水着 - Missing Lore
+    { //Illya's Swimsuit - Missing Lore
         id: 153461,
-        name: `イリヤの水着`,
-        translate: `Illya's Swimsuit`,
+        name: `Illya's Swimsuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45659,12 +45656,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore .`
     },
-    { //想い出のブレスレット - Missing Lore
+    { //Keepsake Bracelet - Missing Lore
         id: 153471,
-        name: `想い出のブレスレット`,
-        translate: `Memory Bracelet`,
+        name: `Keepsake Bracelet`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45689,7 +45685,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //穂群原学園小等部の夏制服 - Missing Lore
         id: 153481,
@@ -45721,10 +45717,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //ヘカテの錫杖 - Missing Lore
+    { //Hecate's Staff - Missing Lore
         id: 153491,
-        name: `ヘカテの錫杖`,
-        translate: `Hecate's Staff`,
+        name: `Hecate's Staff`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45749,7 +45744,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //破戒すべき全ての符 - Missing Lore
         id: 153501,
@@ -45781,10 +45776,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //アレストチェーン - Missing Lore
+    { //Arrest Chain - Missing Lore
         id: 153511,
-        name: `アレストチェーン`,
-        translate: `Arrest Chain`,
+        name: `Arrest Chain`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45809,7 +45803,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //美遊の水着 - Missing Lore
         id: 153521,
@@ -45931,10 +45925,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //遠坂凛の水着 - Missing Lore
+    { //Rin's Swimsuit - Missing Lore
         id: 153561,
-        name: `遠坂凛の水着`,
-        translate: `Tohsaka Rin's Swimsuit`,
+        name: `Rin's Swimsuit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45959,12 +45952,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ルヴィアの水着 - Missing Lore
+    { //Luvia's Swimsuit - Missing Lore
         id: 153571,
-        name: `ルヴィアの水着`,
-        translate: `Luvia's Swimsuit`,
+        name: `Luvia's Swimsuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45989,7 +45981,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //バゼットの水着 - Missing Lore
         id: 153581,
@@ -46466,6 +46458,308 @@ const EquipInformation = [
             {
                 skill: `40s CT - Heal Fire allies' HP by 200/s for 20s. When used for the first time, increase Leader unit's Arts by 50.`,
                 break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『アルファの剣』 - Missing Lore
+        id: 153741,
+        name: `真『アルファの剣』`,
+        translate: `True 'Alpha's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 8000% Light DMG (Physical). Increase own CRI DMG by 50% for 10s. If user is Light, increase own CRI DMG by 100% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Alpha, increase own ATK by 20%. Increase own Arts by 100 at the Start of a Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『デルタのスーツ』 - Missing Lore
+        id: 153751,
+        name: `真『デルタのスーツ』`,
+        translate: `True 'Delta's Suit'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 12000% Fire DMG (Physical). Increase own DMG by 50% and Fire DMG by 70% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Delta, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //デルタの髪飾り - Missing Lore
+        id: 153761,
+        name: `デルタの髪飾り`,
+        translate: `Delta's Hairpin`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 5000% Fire DMG (Magic). Reduce Giant Boss' Fire resistance by 20% for 10s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG against Giants by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //アルファの剣 - Missing Lore
+        id: 153771,
+        name: `アルファの剣`,
+        translate: `Alpha's Suit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Light DMG (Physical). Increase own Physical DMG by 30% for 12s. Additionally if used when own Arts is below 200, increase own Arts by 50.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //アルファの剣 - Missing Lore
+        id: 153781,
+        name: `アルファの剣`,
+        translate: `Alpha's Suit`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153781.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' Status ailments (except Faint). For 20s, heal Light allies' HP by 300/s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //アルファのブーツ - Missing Lore
+        id: 153791,
+        name: `アルファのブーツ`,
+        translate: `Alpha's Boots`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4000% Light DMG (Physical). Increase own CRI DMG by 30% for 10s. Additionally when used for the first time, increase own Arts by 30.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //デルタのスーツ - Missing Lore
+        id: 153801,
+        name: `デルタのスーツ`,
+        translate: `Delta's Suit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `65s CT - 5000% Fire DMG (Physical). Reduce enemies' Physical resistance by 30% for 10s. If user is not Human, God or Demon, reduce enemies' Physical resistance by 60% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //デルタのブーツ - Missing Lore
+        id: 153811,
+        name: `デルタのブーツ`,
+        translate: `Delta's Boots`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 3000% Fire DMG (Physical). Reduce enemies' Physical resistance by 15% (stackable) for 30s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //イプシロンのぬいぐるみ - Missing Lore
+        id: 153821,
+        name: `イプシロンのぬいぐるみ`,
+        translate: `Epsilon's Plush`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153821.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts by 30. Additionally if user is Water, increase all allies' MAX HP by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //イータのぬいぐるみ - Missing Lore
+        id: 153831,
+        name: `イータのぬいぐるみ`,
+        translate: `Eta's Plush`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_1533831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 7000% Dark DMG (Magic). Increase own Magic DMG by 70% and all allies' Magic DMG by 40% for 12s.`,
+                break: 700
             },
         passive: 
             {
