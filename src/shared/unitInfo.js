@@ -36648,9 +36648,9 @@ const UnitInformation = [
     },
     { //Delta - JP Complete
         id: 108067112,
-        name: `Alpha`,
-        attribute: `Light`,
-        type: `Spirit`,
+        name: `Delta`,
+        attribute: `Fire`,
+        type: `Beast`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_108066112.png",
