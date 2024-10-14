@@ -9864,7 +9864,7 @@ const UnitInformation = [
             {
                 name: "Forester",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104711.png",
                 skill: "40s CT - 2222% Earth DMG (PHY). If user is Earth, increase own Arts by 20 + For 10s, increase Allies' evasion and accuracy by 30%.",
                 skillbreak: 500,
                 passive: 
