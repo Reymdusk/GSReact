@@ -35079,6 +35079,96 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //True 'Forte's Dolly Dress' - JP Complete
+        id: 112621,
+        name: `True 'Forte's Dolly Dress'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' DMG resistance by 20% for 15s. If user is Dark, increase all allies' DMG resistance by 30% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Halloween Forte, increase HP Recovery amount by 10% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Magical Muscles Valerie' - JP Complete
+        id: 112631,
+        name: `True 'Magical Muscles Valerie'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 7000% Water DMG (Magic). Increase own Water DMG by 30% for 15s. Additionally if user is Human, increase all allies' Magic DMG by 40% (stackable) for 15s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Halloween Valerie, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Lotte's Fluffy Mitts' - JP Complete
+        id: 112641,
+        name: `True 'Lotte's Fluffy Mitts'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5000% Fire DMG (Physical). If enemy is Bleeding, increase Bleed level by 1 (MAX: 3). Additionally if user is Human, reduce enemies' Fire resistance by 30% for 8s.`,
+                break: 200
+            },
+        passive: 
+            {
+                ability1: `When equipped by Halloween Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

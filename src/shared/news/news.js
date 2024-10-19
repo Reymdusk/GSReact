@@ -2245,6 +2245,34 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 70,
+        date: `October 19, 2024`,
+        article: 
+        {
+            intro: `Small update for JP as Halloween units have been buffed and received new True Weapons!`,
+            new: 
+                {
+                    units: [
+                        [`Halloween Charlotte`, 103777112],
+                        [`Halloween Valerie`, 103787212],
+                        [`Halloween Forte`, 103797512]
+                    ],
+                    equips: [
+                        [`True 'Lotte's Fluffy Mitts'`, 112621],
+                        [`True 'Magical Muscles Valerie'`, 112631],
+                        [`True 'Forte's Dolly Dress'`, 112641]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

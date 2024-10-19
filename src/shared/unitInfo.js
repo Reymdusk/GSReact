@@ -25437,7 +25437,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Halloween Charlotte - Missing Lore
+    { //Halloween Charlotte - Missing Lore + JP ver
         id: 103777112,
         name: `Halloween Charlotte`,
         translate: `Wild Side Charlotte`,
@@ -25480,10 +25480,27 @@ const UnitInformation = [
                 superarts: `185000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 50%.`,
                 superartsbreak: 2200
             },
+        skillsetJP: 
+            {
+                skill: `10s CT - 2200% Fire DMG (PHY). Increase own Arts by 30. If this skill crits, increase own Arts by 60 instead.`,
+                skillbreak: 300,
+                arts: `23000% Fire DMG (PHY). For 60s, increase own CRI DMG by 150%.`,
+                artsbreak: 800,
+                truearts: `80000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
+                trueartsbreak: 1800,
+                superarts: `185000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 70%.`,
+                superartsbreak: 2200
+            },
         passive: 
             {
                 ability1: `Increase own CRI rate by 100% against enemies with 1 or more stacks of Bleed.`,
                 ability2: `Increase own Accuracy by 100% against enemies with 3 stacks of Bleed.`,
+                ability3: `Increase own Freeze RES by 80%.`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase own CRI rate by 100% against enemies with 1 or more stacks of Bleed.`,
+                ability2: `Increase own Accuracy by 150% against enemies with 3 stacks of Bleed.`,
                 ability3: `Increase own Freeze RES by 80%.`
             }, 
         evolution: 
@@ -25497,13 +25514,26 @@ const UnitInformation = [
                     hover2: "Flametail Soulgem"
                 }
             },
+        trueweaponJP: 
+            {
+                name: `Lotte's Fluffy Mitts`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112621.png",
+                skill: `50s CT - 5000% Fire DMG (PHY). If enemy is Bleeding, increase Bleed level by 1 (MAX: 3). Additionally if user is Human, for 8s, reduce enemies' Fire RES by 30%.`,
+                skillbreak: 200,
+                passive: 
+                    {
+                        ability1: `When equipped by Halloween Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
         lore: 
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
             }
     },
-    { //Halloween Valerie - Missing Lore
+    { //Halloween Valerie - Missing Lore + JP ver
         id: 103787212,
         name: `Halloween Valerie`,
         translate: `Mighty Magical Valerie`,
@@ -25546,6 +25576,17 @@ const UnitInformation = [
                 superarts: `165000% Water DMG (MAG). For 20s, increase own DMG by 200% and ignore 100% of Enemies' DEF. Additionally when used for the first time, resets the cooldown of own Magic Equips.`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `11s CT - 1700% Water DMG (MAG). Increase own Arts by 30. If self is unafflicted by Status Ailments, increase Arts by 50 instead.`,
+                skillbreak: 500,
+                arts: `22000% Water DMG (MAG). For 25s, increase own ATK by 120%.`,
+                artsbreak: 700,
+                truearts: `60000% Water DMG (MAG). For 45s, reduce enemies' MAG RES by 70% (stackable).`,
+                trueartsbreak: 1500,
+                superarts: `165000% Water DMG (MAG). For 20s, increase own DMG by 250% and ignore 100% of Enemies' DEF. Additionally when used for the first 2 times, resets the cooldown of own Magic Equips.`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `Increase all Allies' DMG RES with respect to how high own % of HP is (MAX: 30%). Does not stack with Abilities of the same name.`,
@@ -25563,13 +25604,26 @@ const UnitInformation = [
                     hover2: `Frostsprite Soulgem`
                 }
             },
+        trueweaponJP: 
+            {
+                name: `Magical Muscles Valerie`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112631.png",
+                skill: `70s CT - 7000% Water DMG (MAG). For 15s, increase own Water DMG by 30%. Additionally if user is Human, for 15s, increase all allies' MAG DMG by 40% (stackable).`,
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: `When equipped by Halloween Valerie, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
         lore: 
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
             }
     },
-    { //Halloween Forte - Missing Lore
+    { //Halloween Forte - Missing Lore + JP ver
         id: 103797512,
         name: `Halloween Forte`,
         translate: `Pianissimo Figure Forte`,
@@ -25612,9 +25666,26 @@ const UnitInformation = [
                 superarts: `120000% Dark DMG (MAG). For 15s, increase all Dark allies' DMG and Break Power by 200%.`,
                 superartsbreak: 3500
             },
+        skillsetJP: 
+            {
+                skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.`,
+                skillbreak: 700,
+                arts: `16000% Dark DMG (MAG). For 25s, increase all Allies' ATK and Equip CT Speed by 40%.`,
+                artsbreak: 1300,
+                truearts: `43000% Dark DMG (MAG). For 25s, increase all Allies' Arts by 5/s and reduce enemies' Dark RES by 100%.`,
+                trueartsbreak: 2000,
+                superarts: `120000% Dark DMG (MAG). For 20s, increase all Dark allies' DMG and Break Power by 250%.`,
+                superartsbreak: 3500
+            },
         passive: 
             {
                 ability1: `Increase all Allies' DMG by [30 x # of Unique Races in the Party]% (MAX: 120%).`,
+                ability2: `Increase own Curse RES by 60%.`,
+                ability3: `Increase own Seal RES by 60%.`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase all Allies' DMG by [50 x # of Unique Races in the Party]% (MAX: 200%).`,
                 ability2: `Increase own Curse RES by 60%.`,
                 ability3: `Increase own Seal RES by 60%.`
             }, 
@@ -25628,6 +25699,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Sinflow Soulgem"
                 }
+            },
+        trueweaponJP: 
+            {
+                name: `Forte's Dolly Dress`,
+                slot: "/db/Mines/thumbnail/defLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112641.png",
+                skill: `35s CT - For 15s, increase all allies' DMG RES by 20%. If user is Dark, increase all allies' DMG RES by 30% instead.`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When equipped by Halloween Forte, increase HP Recovery amount by 10% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
             },
         lore: 
             {   
