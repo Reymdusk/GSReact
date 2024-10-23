@@ -27781,11 +27781,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『冥府ノ喉』 (WarGinzo TW) - JP Complete
+{ //True 'Hell's Throat' - Missing Lore
         id: 110161,
-        name: `真『冥府ノ喉』`,
-        translate: `True 'Throat of the Underworld'`,
-        location: `War Ginzo Stage Clear Reward`,
+        name: `True 'Hell's Throat'`,
+        location: `Ginzo: Battle Form Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27808,10 +27807,10 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by War Ginzo, increase own stats by 30% and Arts gauge by 1/s (Only once).`,
+                ability1: `When equipped by Ginzo: Battle Form, increase own stats by 30% and Arts gauge by 1/s (Only once).`,
                 ability2: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Resonant Blades 'Mukudori' - Missing Lore
         id: 110171,
