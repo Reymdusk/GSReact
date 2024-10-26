@@ -12905,9 +12905,9 @@ const UnitInformation = [
                 evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a 'friend.' With that understanding, she gladly went among the teeming spirtis."
             }
     },
-    { //Berwick (Magic) - Complete (+ JP ver.)
+    { //Berwick - Complete (+ JP ver.)
         id: 102486112,
-        name: "Berwick (Magic)",
+        name: "Berwick",
         rank: "B+",
         twrequire: "favorable",
         attribute: "Fire",
@@ -12959,9 +12959,9 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
                 skillbreak: 1000,
-                arts: "16000% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.",
+                arts: "22000% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 3/s.",
                 artsbreak: 2100,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 47000% Fire DMG (MAG). For 25s, increase Allies' DMG by 60%, for Fire Allies, increase DMG by 120% instead.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 65000% Fire DMG (MAG). For 25s, increase Allies' DMG by 60%, for Fire Allies, increase DMG by 120% instead.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -13032,7 +13032,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 passive: 
                     {
-                        ability1: "When equipped by Berwick (Magic), increase stats and DMG by 30%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Berwick, increase stats and DMG by 30%. Does not stack with Abilities of the same name.",
                         ability2: "Increase DMG to Earth Enemies by 20%."
                     }
             },
@@ -13095,9 +13095,9 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2800% Earth DMG (PHY). Increase own Arts by 20.",
                 skillbreak: 1000,
-                arts: "22000% Earth DMG (PHY). Permanently increase own Critical Rate by 20% (up to 80%).",
+                arts: "28000% Earth DMG (PHY). Permanently increase own Critical Rate by 20% (up to 80%).",
                 artsbreak: 2000,
-                truearts: "For 120s, enter Magia Drive. During Magia Drive: 53000% Earth DMG (PHY). Increase own Super CRI rate by 30% for the duration of True Arts and Increase own Arts by 100.",
+                truearts: "For 120s, enter Magia Drive. During Magia Drive: 70000% Earth DMG (PHY). Increase own Super CRI rate by 30% for the duration of True Arts and Increase own Arts by 100.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -13184,7 +13184,7 @@ const UnitInformation = [
                 evoawk: "Self-proclaimed commander of the \"Vanguard Battalion\" of the Juno Templars. She was a wandering warrior who traveled to many countries with her double axes and decided to stay in Granadia after a long journey. On the battlefield, she attacks in all directions and knocks down her opponents, but she's well knwon by many people for her bright and lively personality. After the coronation of the Little Lady subsequently to the Princess' death, her intent is to protect the kingdom with no mercy to those who try to take advantage of the situation and attempt to hurt the Royal family."
             }
     },
-    { //Thetis - Complete
+    { //Thetis - Complete + JP ver
         id: 102506212,
         name: "Thetis",
         rank: "S",
@@ -13207,6 +13207,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 7682,
@@ -13223,6 +13232,15 @@ const UnitInformation = [
                 arts: "8000% Water DMG (PHY). ATK of this Arts is increased by [DEF x 1.5] + For 15s, increase Allies' Break PWR by 30%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 10000 DMG to self.",
                 artsbreak: 3000,
                 truearts: "For 120s, enter Magia Drive. During Magia Drive: 30000% Water DMG (PHY). Cure own Poison and Burn + For 30s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 25000 DMG to self.",
+                trueartsbreak: 5800
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1500% Water DMG (PHY). For 7s, reduces Enemies' Break RES by 15%.",
+                skillbreak: 1800,
+                arts: "8000% Water DMG (PHY). ATK of this Arts is increased by [DEF x 1.5] + For 15s, increase Allies' Break PWR by 30%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 10000 DMG to self.",
+                artsbreak: 3000,
+                truearts: "For 120s, enter Magia Drive. During Magia Drive: 40000% Water DMG (PHY). Cure own Poison and Burn + For 30s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 30000 DMG to self.",
                 trueartsbreak: 5800
             },
         passive: 
@@ -13248,6 +13266,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragPalamicia.png",
                     mat5amt: 1,
                     hover5: "Palamicia"
+                }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                        mat3amt: 2,
+                        hover3: "Geo Zagnus",
+                    },
+                    passive: {
+                        ability1: `Increase Magia Drive duration by an additional 80s.`,
+                        ability2: `When Near-death, increase own DMG RES by 15%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                        mat3amt: 2,
+                        hover3: "Mavroskia",
+                    },
+                    passive: {
+                        ability1: `Increase Demon allies' Break Power by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -13324,7 +13376,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: "18000% Water DMG (PHY). For 12s, increase Allies' stats by 30%.",
                 artsbreak: 2800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 62000% Water DMG (PHY). For 20s, increase Allies' Critical Rate by 100%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 82000% Water DMG (PHY). For 25s, increase Allies' Critical Rate by 100%.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -13406,7 +13458,7 @@ const UnitInformation = [
                 evoawk: "A lightning-fast swordsman who is the leader of the Juno Templars. He pierced deep into enemy lines to overwhelm the Gods army, but took a sword blow to the back to protect his mistress, Princess Leone. As his consciousness faded, he recalled the promise he made to his former mistress, Princess Juno, and griped the memento she had given him. That feather held the power to accomplish a single miracle, a power destined to change the fate of Granadia."
             }
     },
-    { //Duke - Complete
+    { //Duke - Complete + JP ver
         id: 102526512,
         name: "Duke",
         rank: "B+",
@@ -13422,6 +13474,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -13446,6 +13507,15 @@ const UnitInformation = [
                 truearts: "For 120s, enter Magia Drive. During Magia Drive: 38000% Dark DMG (PHY). Increase own True Arts' Break PWR by 5% of own True Arts' DMG dealt.",
                 trueartsbreak: 9900
             },
+        skillsetJP: 
+            {
+                skill: "12s CT - 2200% Dark DMG (PHY). During Magia Drive: For 8s, reduce Enemies' Break RES by 30% + Increase own Arts by 20 & Skill's Break Power by 1000.",
+                skillbreak: 2400,
+                arts: "18000% Dark DMG (PHY). For 20s, reduce Enemies' DMG RES by 30% and reduce DMG RES of Enemies in Break by an additional 30%.",
+                artsbreak: 3500,
+                truearts: "For 120s, enter Magia Drive. During Magia Drive: 65000% Dark DMG (PHY). Increase own True Arts' Break PWR by 5% of own True Arts' DMG dealt.",
+                trueartsbreak: 9900
+            },
         passive: 
             {
                 ability1: "Giant Boss' Break Bar is halved at the beginning of battle. Raid Bosses' Break Bars take 20000 Break DMG instead. Ability can only be activated once per Quest.",
@@ -13468,6 +13538,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat5amt: 1,
                     hover5: "Freydal"
+                }
+            },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG by [2% × own ATK/100].`,
+                        ability2: `When HP is above 80%, increase own ATK by 25%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase Dark allies' Break Power by 40%. Does not stack with Abilities of the same name.`,
+                        ability2: `When HP is above 80%, increase own Arts by 2/s.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -14452,10 +14556,9 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Berwick (Physical) - Complete (+ JP ver.)
+    { //Swordsman Berwick - Complete (+ JP ver.)
         id: 102666112,
-        name: "Berwick (Physical)",
-        translate: `Swordsman Berwick`,
+        name: "Swordsman Berwick",
         rank: "B+",
         attribute: "Fire",
         type: "Demon",
@@ -14499,7 +14602,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "12000% Fire DMG (PHY). For 10s, increase Allies' Arts by 3/s.",
                 artsbreak: 1800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20%, PHY DMG by 100%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20% amd PHY DMG by 100%.",
                 trueartsbreak: 3500
             },
         skillsetJP: 
@@ -14508,7 +14611,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "18000% Fire DMG (PHY). For 15s, increase Allies' Arts by 3/s.",
                 artsbreak: 1800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 52000% Fire DMG (PHY). For 20s, increase Allies' Max HP by 30%, PHY DMG by 130%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 75000% Fire DMG (PHY). For 20s, increase Allies' Max HP by 30% and PHY DMG by 170%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -14580,7 +14683,7 @@ const UnitInformation = [
                 passive: 
                     {
                         ability1: "When equipped by Vox, increase stats and Critical Rate by 20%, and evasion by 10%. Does not stack with Abilities of the same name.",
-                        ability2: "When equipped by Sword Berwick, increase DMG by 30%. At the start of a Battle, increase own Arts by 30. Does not stack with Abilities of the same name.",
+                        ability2: "When equipped by Swordsman Berwick, increase DMG by 30%. At the start of a Battle, increase own Arts by 30. Does not stack with Abilities of the same name.",
                         ability3: "Increase BE generation by 15%."
                     }
             },
@@ -14590,7 +14693,7 @@ const UnitInformation = [
                 evoawk: "The blazing-fast swordsman of the Leone Templars. A former sorcerer, he began following the path of the sword when he inherited Zanketsu, the beloved blade of his former captain, who had perished on the battlefield. He had long studied the sword techniques used by his old captain, and this imitation helped him become dizzying-fast. His skills with the blade are lightning-quick, but he takes no pride in them; he simply continues to follow his former leader's footsteps."
             }
     },
-    { //Rosetta (Water) - Complete
+    { //Rosetta (Water) - Complete + JP ver
         id: 102676212,
         name: "Rosetta (Water)",
         rank: "A+",
@@ -14613,6 +14716,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 7453,
@@ -14626,9 +14738,18 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1400% Water DMG (MAG). For 5s, reduce Enemies' evasion by 10%.",
                 skillbreak: 700,
-                arts: "8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. During Magia Drive: 8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. Increase the duration of own Magia Drive by 30s.",
+                arts: "8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. Additionally when used during Magia Drive, increase the duration of own Magia Drive by 30s.",
                 artsbreak: 1700,
-                truearts: "For 50s, enter Magia Drive. During Magia Drive: 30000% Water DMG (MAG). For 15s, reduce Enemies' Water and MAG RES by 35%. For 25s, increase Allies' (except self) Arts by 4/s.",
+                truearts: "For 50s, enter Magia Drive. During Magia Drive: 30000% Water DMG (MAG). For 15s, reduce Enemies' Water RES and MAG RES by 35%. For 25s, increase Allies' (except self) Arts by 4/s.",
+                trueartsbreak: 2800
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1400% Water DMG (MAG). For 5s, reduce Enemies' evasion by 10%.",
+                skillbreak: 700,
+                arts: "8000% Water DMG (MAG). 70% chance to inflict Paralysis for 3s. Additionally when used during Magia Drive, increase the duration of own Magia Drive by 30s.",
+                artsbreak: 1700,
+                truearts: "For 50s, enter Magia Drive. During Magia Drive: 55000% Water DMG (MAG). For 25s, reduce Enemies' Water RES and MAG RES by 45% (stackable) and increase Allies' (except self) Arts by 4/s.",
                 trueartsbreak: 2800
             },
         passive: 
@@ -14654,6 +14775,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat5amt: 2,
                     hover5: "Aerugraxes"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Accuracy by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Demon allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Each time Arts is used during Magia Drive, increase Magia Drive's duration by 60s instead.`,
+                        ability2: `Increase Water allies' Arts by 2/s. Does not stack with Abilities of the same name.  `
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -14729,9 +14884,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2200% Light DMG (MAG). Heal own HP by 3% of DMG dealt by this Skill.",
                 skillbreak: 700,
-                arts: "27000% Light DMG (MAG). Consume 15% of own HP + For 30s, increase own Critical DMG by 100%.",
+                arts: "27000% Light DMG (MAG). Consume 15% of own HP + For 30s, increase own Critical DMG by 200%.",
                 artsbreak: 2500,
-                truearts: "For 120s, enter Demonic True Eclipse. During Demonic True Eclipse: 65000% Dark DMG (MAG). Consume 25% of own HP.",
+                truearts: "For 120s, enter Demonic True Eclipse. During Demonic True Eclipse: 90000% Dark DMG (MAG). Consume 25% of own HP.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -19892,7 +20047,7 @@ const UnitInformation = [
                 evoawk: "Adopted into a noble family who later arranged for him to become a knight. He was selected for the Zero Guard during the previous emperor's reign. His disgust with the unsavory ruling class grew over time, in part because he knew he himself was not much different. That is why he respects straightforward people like Noel and Rayas who he silently uses to lift his spirit. He keeps his collection of knives in top shape by visiting local blacksmiths between missions."
             }
     },
-    { //Juno - Complete
+    { //Juno - Complete + JP ver
         id: 103226412,
         name: "Juno",
         rank: "A+",
@@ -19909,6 +20064,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
@@ -19933,11 +20097,26 @@ const UnitInformation = [
                 truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 52000% Dark DMG (MAG). For 15s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.",
                 trueartsbreak: 1800
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1500% Light DMG (MAG). Heal own HP by 5% of DMG dealt by own Skill.",
+                skillbreak: 500,
+                arts: "16000% Light DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%, Status RES by 20%.",
+                artsbreak: 1300,
+                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 70000% Dark DMG (MAG). For 20s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.",
+                trueartsbreak: 1800
+            },
         passive: 
             {
                 ability1: "During Demonic True Eclipse, increase own Arts by 5/s, own DMG and accuracy by 100%.",
                 ability2: "Increase Demon Allies' stats by 10%. Does not stack with Abilities of the same name.",
                 ability3: "Increase own ATK and DMG by [10% × # of Demon Allies in party, excluding self]."
+            }, 
+        passiveJP: 
+            {
+                ability1: "During Demonic True Eclipse, increase own Arts by 5/s, own DMG and accuracy by 100%.",
+                ability2: "Increase Demon Allies' stats by 10%. Does not stack with Abilities of the same name.",
+                ability3: "Increase own ATK and DMG by [30% × # of Demon Allies in party, excluding self]."
             }, 
         evolution: 
             {
@@ -19953,6 +20132,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 3,
                     hover4: "Radachne",
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase True Arts' DMG Multiplier to 120000% Dark DMG (MAG) instead.`,
+                        ability2: `Increases True Arts' HP consumption to 3%/s instead.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase Demon allies' stats by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Demon allies' Arts by 1/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22270,7 +22483,7 @@ const UnitInformation = [
                 evoawk: "A mysterious conjurer who appeared all over Raktehelm with winter's approach. Regardless of her mass popularity, no one ever learned her true origins since she answered every question with a lie. However, her revision of the Grimm Stella works which position her as the central focus contains some measure of truth. She also wrote many poetry collections about winter and practiced lithomancy."
             }
     },
-    { //Rosetta (Earth) - Complete, Review Done
+    { //Rosetta (Earth) - Complete, Review Done + JP ver
         id: 103446312,
         name: "Rosetta (Earth)",
         rank: "B+",
@@ -22286,6 +22499,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
@@ -22308,6 +22530,15 @@ const UnitInformation = [
                 arts: "13000% Earth DMG (MAG). For 15s, reduce Enemies' Earth RES by 30%. During Magia Drive: 13000% Earth DMG (MAG). If this Arts has been activated twice during the duration of the current Magia Drive, activate Magia Drive: Unlimited for the duration of the current Magia Drive. For 15s, reduce Enemies' Earth RES by 30%. During Magia Drive: Unlimited: 26000% Earth DMG (MAG). For 15s, reduce Enemies' Earth RES by 50%.",
                 artsbreak: 1000,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Earth DMG (MAG). For 20s, increase Allies' Equip CT REC and MAG DMG by 50%. During Magia Drive: Unlimited: 80000% Earth DMG (MAG). For 20s, increase Allies' Equip CT REC and MAG DMG by 50%.",
+                trueartsbreak: 1400
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1800% Earth DMG (MAG). Increase own Arts by 20.",
+                skillbreak: 500,
+                arts: "13000% Earth DMG (MAG). For 15s, reduce Enemies' Earth RES by 30%. During Magia Drive: 13000% Earth DMG (MAG). Enter Magia Drive: Unlimited for remaining duration. For 15s, reduce Enemies' Earth RES by 30%. During Magia Drive: Unlimited: 26000% Earth DMG (MAG). For 15s, reduce Enemies' Earth RES by 70%.",
+                artsbreak: 1000,
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 60000% Earth DMG (MAG). For 20s, increase Allies' Equip CT Speed by 50% and MAG DMG by 100%. During Magia Drive: Unlimited: 120000% Earth DMG (MAG). For 20s, increase Allies' Equip CT Speed by 50% and MAG DMG by 100%.",
                 trueartsbreak: 1400
             },
         passive: 
@@ -22333,6 +22564,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat5amt: 1,
                     hover5: "Flogassa"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Fire RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `When HP is above 80%, increase own Arts by 2/s.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 3/s.`,
+                        ability2: `Increase own DMG by [1% × own ATK/100].`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22874,7 +23139,7 @@ const UnitInformation = [
                 evoawk: "His name is legendary among the shinobi's long history. Instead of free will, loyalty and duty led him to attain their ideal form. None know his true origins, but the tales describe how the struggle between the shinobi around the time of Ugetsu's defeat caused a marked change in him. What he witnessed then may have granted his existence new meaning."
             }
     },
-    { //Riviera (Dark) - Review done
+    { //Riviera (Dark) - Complete, Review done + JP ver
         id: 103576512,
         name: "Riviera (Dark)",
         attribute: "Dark",
@@ -22890,6 +23155,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
@@ -22914,9 +23188,24 @@ const UnitInformation = [
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 60000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 60%.",
                 trueartsbreak: 1200
             },
+        skillsetJP: 
+            {
+                skill: "13s CT - 1800% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
+                skillbreak: 400,
+                arts: "25000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: 25000% Dark DMG (MAG). Enter Magia Drive: Unlimited for remaining duration of Magia Arts. For 40s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: Unlimited: 25000% Dark DMG (MAG). For 40s, reduce Enemies' Dark RES by 50% (stackable).",
+                artsbreak: 800,
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 70000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 100%.",
+                trueartsbreak: 1200
+            },
         passive: 
             {
                 ability1: "During Magia Drive, increase own DMG to Demons by 50%.",
+                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.",
+                ability3: "Increase Paralysis RES by 90%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "During Magia Drive, increase own DMG to Demons by 120%.",
                 ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.",
                 ability3: "Increase Paralysis RES by 90%."
             }, 
@@ -22934,6 +23223,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragElpneumas.png",
                     mat4amt: 2,
                     hover4: "Elpneumas"
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 3/s.`,
+                        ability2: `Increase own DMG against Light enemies by 100%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                        mat3amt: 2,
+                        hover3: "Mavroskia",
+                    },
+                    passive: {
+                        ability1: `Increase Dark allies' Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DMG against Demon enemies by 100%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22972,7 +23295,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Thetis (Light) - Review done
+    { //Thetis (Light) - Complete, Review done + JP ver
         id: 103586412,
         name: "Thetis (Light)",
         attribute: "Light",
@@ -22988,6 +23311,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -23012,10 +23344,25 @@ const UnitInformation = [
                 truearts: "For 120s, enter Magia Drive. During Magia Drive: 100000% Light DMG (PHY).",
                 trueartsbreak: 1000
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Light DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 300,
+                arts: "During Magia Drive: 17000% Light DMG (PHY). Enter Magia Drive: Unlimited for the duration of the current Magia Drive. During Magia Drive: Unlimited: 17000% Light DMG (PHY). For 25s, increase Allies' PHY DMG by 120%.",
+                artsbreak: 700,
+                truearts: "For 120s, enter Magia Drive. During Magia Drive: 130000% Light DMG (PHY).",
+                trueartsbreak: 1000
+            },
         passive: 
             {
                 ability1: "During Magia Drive, increase own ATK and DEF by 50%.",
                 ability2: "During Magia Drive: Unlimited, increase own Critical Rate by 150%.",
+                ability3: "Increase Accuracy by 20%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "During Magia Drive, increase own ATK and DEF by 50%.",
+                ability2: "During Magia Drive: Unlimited, increase own Critical Rate by 220%.",
                 ability3: "Increase Accuracy by 20%."
             }, 
         evolution: 
@@ -23032,6 +23379,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat4amt: 2,
                     hover4: "Aerugraxes"
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 5/s.`,
+                        ability2: `Increase own DMG by 30% against enemies below 30% HP.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Dark RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Skill CT Speed by 35%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section 
@@ -26653,6 +27034,72 @@ const UnitInformation = [
                             ability2: `Increase own ATK by 5%.`
                         }
                 },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Vena - Missing Lore (JP)
+        id: 103927311,
+        name: `Vena`,
+        attribute: `Earth`,
+        type: `Beast`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103926311.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103927311.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103926311.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103927311.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7245,
+                hpplus: 1310,
+                atk: 3187,
+                atkplus: 629,
+                def: 3119,
+                defplus: 592
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2500% Earth DMG (PHY). Cure Poison and Disease for ownself.`,
+                skillbreak: 400,
+                arts: `20000% Earth DMG (PHY). For 20s, Allies gain a DMG barrier that negates 2000 DMG. If used while Regalia Gauge is 100 or higher, allies gain a DMG barrier that negates 4000 DMG instead.`,
+                artsbreak: 1000,
+                truearts: `58000% Earth DMG (PHY). For 20s, increase Earth allies' ATK by 150%. If used while Regalia Gauge is 200 or higher, increase Earth allies' ATK by 300% instead.`,
+                trueartsbreak: 1700,
+                superarts: `110000% Earth DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. If used while Regalia Gauge is at 300, reduce enemies' PHY RES by 200% instead.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase own Physical Evasion rate by 10%.`,
+                ability2: `Increase own Arts by 4/s.`,
+                ability3: `Increase own Regalia Gauge by 1/s. During Grand Battle, increase own Regalia Gauge by 2/s instead (MAX: 300). Does not stack with Abilities of the same name.`,
+                ability4: `Increase Earth allies' DMG RES by [0.1 x current Regalia Gauge]% (MAX: 30%). Does not stack with Abilities of the same name.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_134953.png`,
+                    mat2amt: 20,
+                    hover2: `Vena Soulgem`,
+                }
+            },
         lore:   
             {   
                 evoawk: "Currently unreleased in Global.",
@@ -36074,7 +36521,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Miyu - JP Complete
+    { //Summer Miyu - Missing Lore
         id: 107987112,
         name: `Summer Miyu`,
         attribute: `Fire`,
@@ -36152,8 +36599,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Chloe - JP Complete
@@ -36402,7 +36849,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Sakura - JP Complete
+    { //Summer Sakura - Missing Lore
         id: 108027512,
         name: `Summer Sakura`,
         attribute: `Dark`,
@@ -36467,21 +36914,21 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Sakura Matou's Swimsuit`,
+                name: `Sakura's Swimsuit`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153451.png",
                 skill: `50s CT - 8000% Dark DMG (MAG). For 10s, reduce enemies' Dark RES by 30%. If user is Human, reduce enemies' Dark RES by 50% instead.`,
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Summer Sakura Matou, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Summer Sakura, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Shadow - JP Complete

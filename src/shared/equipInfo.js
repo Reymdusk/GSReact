@@ -45564,10 +45564,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『美遊の水着』 - Missing Lore
+    { //True 'Miyu's Swimsuit' - Missing Lore
         id: 153411,
-        name: `真『美遊の水着』`,
-        translate: `True 'Miyu's Swimsuit'`,
+        name: `True 'Miyu's Swimsuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45593,7 +45592,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Miyu, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『クロエの水着』 - Missing Lore
         id: 153421,
@@ -45687,10 +45686,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『間桐桜の水着』 - Missing Lore
+    { //True 'Sakura's Swimsuit' - Missing Lore
         id: 153451,
-        name: `真『間桐桜の水着』`,
-        translate: `True 'Sakura Matou's Swimsuit'`,
+        name: `True 'Sakura's Swimsuit'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45716,7 +45714,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Sakura, increase own ATK by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Illya's Swimsuit - Missing Lore
         id: 153461,
@@ -45776,11 +45774,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //穂群原学園小等部の夏制服 - Missing Lore
+    { //Homurabara E. Summer Uniform - Missing Lore
         id: 153481,
-        name: `穂群原学園小等部の夏制服`,
-        translate: `Homuhara Academy Elemenetary School Summer Uniform`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
+        name: `Homurabara E. Summer Uniform`,
+        type: `/db/Mines/thumbnail/suppLB.png`, 
         star: 5,
         image: 
             {
@@ -45804,7 +45801,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Hecate's Staff - Missing Lore
         id: 153491,
@@ -45835,10 +45832,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //破戒すべき全ての符 - Missing Lore
+    { //Rule Breaker - Missing Lore
         id: 153501,
-        name: `破戒すべき全ての符`,
-        translate: `Rule Breaker`,
+        name: `Rule Breaker`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45863,7 +45859,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Arrest Chain - Missing Lore
         id: 153511,
@@ -45894,10 +45890,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //美遊の水着 - Missing Lore
+    { //Miyu's Swimsuit - Missing Lore
         id: 153521,
-        name: `美遊の水着`,
-        translate: `Miyu's Swimsuit`,
+        name: `Miyu's Swimsuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45922,12 +45917,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //美遊の麦わら帽子 - Missing Lore
+    { //Miyu's Straw Hat - Missing Lore
         id: 153531,
-        name: `美遊の麦わら帽子`,
-        translate: `Miyu's Straw Hat`,
+        name: `Miyu's Straw Hat`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45952,7 +45946,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own MAX HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //クロエの水着 - Missing Lore
         id: 153541,
@@ -46162,10 +46156,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //間桐桜の水着 - Missing Lore
+    { //Sakura's Swimsuit - Missing Lore
         id: 153611,
-        name: `間桐桜の水着`,
-        translate: `Sakura Matou's Swimsuit`,
+        name: `Sakura's Swimsuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46190,7 +46183,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //間桐桜の仮面 - Missing Lore
         id: 153621,
@@ -46222,10 +46215,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //間桐桜の制服 - Missing Lore
+    { //Sakura's Uniform - Missing Lore
         id: 153631,
-        name: `間桐桜の制服`,
-        translate: `Sakura Matou's Uniform`,
+        name: `Sakura's Uniform`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -46250,7 +46242,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『シャドウの剣』 - Missing Lore
         id: 153641,

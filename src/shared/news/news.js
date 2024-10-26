@@ -2273,6 +2273,53 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 71,
+        date: `October 19, 2024`,
+        article: 
+        {
+            intro: `Bunch of new Dream Awakenings/buffs for KoB units and a new unit from Grand Battle EP3 in JP. Meanwhile on Global, Part 2 of Summer Fate has been released with new units and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Vena`, 103927311]
+                    ],
+                    equips: [],
+                    dream: [
+                        [`Thetis`, 102506212],
+                        [`Duke`, 102526512],
+                        [`Rosetta (Water)`, 102676212],
+                        [`Juno`, 103226412],
+                        [`Rosetta (Earth)`, 103446312],
+                        [`Thetis (Light)`, 103586412],
+                        [`Riviera (Dark)`, 103576512],
+                        [`Vox`, 102516212],
+                        [`Berwick`, 102486112],
+                        [`Swordsman Berwick`, 102666112],
+                        [`Riviera (Earth)`, 102496312],
+                        [`Leone`, 102686412]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Miyu`, 107987112],
+                        [`Summer Sakura`, 108027512]
+                    ],  
+                    equips: [
+                        [`True 'Miyu's Swimsuit'`, 153411],
+                        [`True 'Sakura's Swimsuit'`, 153451],
+                        [`Homurabara E. Summer Uniform`, 153481],
+                        [`Rule Breaker`, 153501],
+                        [`Miyu's Swimsuit`, 153521],
+                        [`Miyu's Straw Hat`, 153531],
+                        [`Sakura's Swimsuit`, 153611],
+                        [`Sakura's Uniform`, 153631]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
