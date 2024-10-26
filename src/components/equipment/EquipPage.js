@@ -59,6 +59,7 @@ const Equips = () => {
     };
 
     //Sort Options
+    const [searchType, setSearchType] = useState("name")
     const [sortOrder, setSortOrder] = useState("default")
     const [sortRarity, setSortRarity] = useState("default")
 
@@ -111,6 +112,9 @@ const Equips = () => {
 
                 <Row style={{ marginLeft: "5%", marginRight: "5%"}}>
                     <RenderSearch setQuery={setQuery} setCurrentPage={setCurrentPage} />
+                    <Col md="12">
+                        <RenderSearchType searchType={searchType} setSearchType={setSearchType} />
+                    </Col>
                     <Col md="3">
                         <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder} />
                     </Col>
@@ -124,14 +128,14 @@ const Equips = () => {
                         <RenderEquipAmount equips={equips} setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} setCurrentPage={setCurrentPage} />
                     </Col>
                 </Row>
-                <RenderEquips equips={equips} filters={filters} query={query} sortOrder={sortOrder} sortRarity={sortRarity}
+                <RenderEquips equips={equips} filters={filters} query={query} sortOrder={sortOrder} sortRarity={sortRarity} searchType={searchType}
                         setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage}  currentView={currentRender} />
             </Container>
         </>
     )
 }
 
-const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPerPage, currentPage, setCurrentPage, currentView }) => {
+const RenderEquips = ({ equips, searchType, filters, query, sortOrder, sortRarity, equipsPerPage, currentPage, setCurrentPage, currentView }) => {
     const filteredEquips = equips
         .filter(equip => {
             const isGlobalChecked = filters.server.Global
@@ -172,8 +176,8 @@ const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPer
             })
         
         //Check for Search
-        const hasMatchingName = equip.name?.toLowerCase().includes(query.toLowerCase())
-        const hasMatchingTranslate = equip.translate?.toLowerCase().includes(query.toLowerCase())
+        const hasMatchingName = searchType === 'name' ? equip.name?.toLowerCase().includes(query.toLowerCase()) : equip.skillset.skill?.toLowerCase().includes(query.toLowerCase())
+        const hasMatchingTranslate = searchType === 'name' ? equip.translate?.toLowerCase().includes(query.toLowerCase()) : false
         
 
         return hasMatchingServer && hasMatchingTypes && (hasMatchingName || hasMatchingTranslate) && hasMatchingRarities 
@@ -351,6 +355,29 @@ const RenderSearch = ({ setQuery, setCurrentPage }) => {
                         alignItems: "center"
                     }} />
         </center>
+    )
+}
+
+const RenderSearchType = ({ searchType, setSearchType }) => {
+    return (
+        <div className="sort-options">
+            <div style={{ marginRight: ".2rem"}}>Search By:</div>
+            <label style={{ backgroundColor: searchType === "name" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="name"
+                        checked={ searchType === "name" }
+                        onChange={() => setSearchType("name")} 
+                        />
+                <center>Name</center>
+            </label>
+            <label style={{ backgroundColor: searchType === "skill" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="skill"
+                        checked={ searchType === "skill" }
+                        onChange={() => setSearchType("skill")} />
+                <center>Skillset</center>
+            </label>
+        </div>
     )
 }
 
