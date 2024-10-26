@@ -45422,7 +45422,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153360.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533361.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153361.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153360.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153361.png`
             },
@@ -45452,7 +45452,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153370.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533371.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153371.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153370.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153371.png`
             },
@@ -45482,7 +45482,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153380.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533381.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153381.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153380.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153381.png`
             },
@@ -45512,7 +45512,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153390.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533391.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153391.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153390.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153391.png`
             },
@@ -45542,7 +45542,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153400.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533401.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153401.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153400.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153401.png`
             },
@@ -45572,7 +45572,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153410.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533411.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153411.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153410.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153411.png`
             },
@@ -45603,7 +45603,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153420.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533421.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153421.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153420.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153421.png`
             },
@@ -45633,7 +45633,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153430.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533431.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153431.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153430.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153431.png`
             },
@@ -45664,7 +45664,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153440.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533441.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153441.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153440.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153441.png`
             },
@@ -45694,7 +45694,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153450.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533451.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153451.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153450.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153451.png`
             },
@@ -45724,7 +45724,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153460.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533461.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153461.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153460.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153461.png`
             },
@@ -45753,7 +45753,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153470.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533471.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153471.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153470.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153471.png`
             },
@@ -45782,7 +45782,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153480.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533481.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153481.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153480.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153481.png`
             },
@@ -45811,7 +45811,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153490.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533491.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153491.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153490.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153491.png`
             },
@@ -45840,7 +45840,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153500.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533501.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153501.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153500.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153501.png`
             },
@@ -45869,7 +45869,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153510.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533511.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153511.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153510.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153511.png`
             },
@@ -45898,7 +45898,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153520.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533521.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153521.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153520.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153521.png`
             },
@@ -45927,7 +45927,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153530.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533531.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153531.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153530.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153531.png`
             },
@@ -45957,7 +45957,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153540.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533541.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153541.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153540.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153541.png`
             },
@@ -45987,7 +45987,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153550.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533551.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153551.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153550.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153551.png`
             },
@@ -46016,7 +46016,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153560.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533561.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153561.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153560.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153561.png`
             },
@@ -46045,7 +46045,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153570.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533571.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153571.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153570.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153571.png`
             },
@@ -46075,7 +46075,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153580.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533581.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153581.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153580.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153581.png`
             },
@@ -46105,7 +46105,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153590.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533591.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153591.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153590.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153591.png`
             },
@@ -46135,7 +46135,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153600.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533601.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153601.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153600.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153601.png`
             },
@@ -46164,7 +46164,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153610.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533611.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153611.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153610.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153611.png`
             },
@@ -46194,7 +46194,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153620.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533621.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153621.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153620.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153621.png`
             },
@@ -46223,7 +46223,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153630.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533631.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153631.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153630.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153631.png`
             },
@@ -46253,7 +46253,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153640.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533641.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153641.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153640.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153641.png`
             },
@@ -46284,7 +46284,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153650.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533651.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153651.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153650.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153651.png`
             },
@@ -46315,7 +46315,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153660.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533661.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153661.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153660.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153661.png`
             },
@@ -46345,7 +46345,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153670.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533671.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153671.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153670.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153671.png`
             },
@@ -46375,7 +46375,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153680.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533681.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153681.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153680.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153681.png`
             },
@@ -46405,7 +46405,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153690.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533691.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153691.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153690.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153691.png`
             },
@@ -46435,7 +46435,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153700.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533701.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153701.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153700.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153701.png`
             },
@@ -46465,7 +46465,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153710.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533711.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153711.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153710.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153711.png`
             },
@@ -46495,7 +46495,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153720.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533721.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153721.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153720.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153721.png`
             },
@@ -46525,7 +46525,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153730.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533731.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153731.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153730.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153731.png`
             },
@@ -46555,7 +46555,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153740.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533741.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153741.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153740.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153741.png`
             },
@@ -46586,7 +46586,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153750.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533751.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153751.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153750.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153751.png`
             },
@@ -46617,7 +46617,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153760.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533761.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153761.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153760.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153761.png`
             },
@@ -46647,7 +46647,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153770.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533771.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153771.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153770.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153771.png`
             },
@@ -46677,7 +46677,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153780.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533781.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153781.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153780.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153781.png`
             },
@@ -46707,7 +46707,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153790.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533791.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153791.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153790.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153791.png`
             },
@@ -46737,7 +46737,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153800.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533801.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153801.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153800.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153801.png`
             },
@@ -46767,7 +46767,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153810.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533811.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153811.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153810.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153811.png`
             },
@@ -46797,7 +46797,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153820.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533821.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153821.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153820.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153821.png`
             },
@@ -46827,7 +46827,7 @@ const EquipInformation = [
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_153830.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_1533831.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153831.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_153830.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153831.png`
             },
