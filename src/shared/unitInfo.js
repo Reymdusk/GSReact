@@ -25822,6 +25822,7 @@ const UnitInformation = [
         id: 103777112,
         name: `Halloween Charlotte`,
         translate: `Wild Side Charlotte`,
+        rank: `S`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -25918,6 +25919,7 @@ const UnitInformation = [
         id: 103787212,
         name: `Halloween Valerie`,
         translate: `Mighty Magical Valerie`,
+        rank: `A+`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -26008,6 +26010,7 @@ const UnitInformation = [
         id: 103797512,
         name: `Halloween Forte`,
         translate: `Pianissimo Figure Forte`,
+        rank: `S`,
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -36443,6 +36446,7 @@ const UnitInformation = [
         id: 107977212,
         name: `Summer Illya`,
         attribute: `Water`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -36771,6 +36775,7 @@ const UnitInformation = [
         id: 108017312,
         name: `Summer Luvia & Rin`,
         attribute: `Earth`,
+        rank: `SS`,
         type: `Human`,
         image: 
             {
