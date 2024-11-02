@@ -2320,6 +2320,43 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 72,
+        date: `November 2, 2024`,
+        article: 
+        {
+            intro: `Shangri-La collab buffs have been released in JP. Meanwhile on Global, Part 3 of the Summer Fate collab has been released with new units and equips!`,
+            new: 
+                {
+                    units: [
+                        [`Sunraku`, 107867112],
+                        [`Psyger-0`, 107877412],
+                        [`Arthur Pencilgon`, 107887512],
+                        [`OiKatzo`, 107897112]
+                    ],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Chloe`, 107997412],
+                        [`Summer Bazett`, 108007212]
+                    ],  
+                    equips: [
+                        [`True 'Chloe's Swimsuit'`, 153421],
+                        [`True 'Bazett's Swimsuit'`, 153441],
+                        [`Chloe's Swimsuit`, 153541],
+                        [`Chloe's Swim Dress`, 153551],
+                        [`Bazett's Swimsuit`, 153581],
+                        [`Bazett's Apron`, 153591],
+                        [`Fragarach`, 153601],
+                        [`Sakura's Mask`, 153621],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

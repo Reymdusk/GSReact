@@ -35577,7 +35577,7 @@ const UnitInformation = [
                 author: `damino_`
             }
     },
-    { //Sunraku - Complete
+    { //Sunraku - Complete + JP ver
         id: 107867112,
         name: `Sunraku`,
         attribute: `Fire`,
@@ -35623,11 +35623,30 @@ const UnitInformation = [
                 superarts: `160000% Fire DMG (PHY). Increase own CRI rate by 100% and Super CRI rate by 50% for the duration of Super Arts. Permanently increases own ATK by 50% (MAX: 200%).`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `11s CT - 2500% Fire DMG (PHY). Increase own Arts by 30. If this Skill crits, increase own Arts by 60 instead.`,
+                skillbreak: 500,
+                arts: `27000% Fire DMG (PHY). For 30s, reduce enemies' PHY RES and Evasion by 50%.`,
+                artsbreak: 800,
+                truearts: `75000% Fire DMG (PHY). For 25s, increases allies' Arts by 6/s and reduces enemies' CRI RES by 100%.`,
+                trueartsbreak: 1300,
+                superarts: `170000% Fire DMG (PHY). Increase own CRI rate by 100% and Super CRI rate by 50% for the duration of Super Arts. Permanently increases own ATK by 50% (MAX: 200%).`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `Increase Fire allies' DMG RES by 15%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Evasion by 20%.`,
                 ability3: `Increase own Skill CT Speed by 50% when Near-Death.`,
+                ability4: `Unit EXP UP 20% UP. (When Sunraku's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sunraku's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase Fire allies' DMG RES by 15%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Evasion by 20%.`,
+                ability3: `Increase own Skill CT Speed by 60% when Near-Death.`,
                 ability4: `Unit EXP UP 20% UP. (When Sunraku's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sunraku's SP. Art is owned)`
             }, 
@@ -35648,7 +35667,7 @@ const UnitInformation = [
                 evosuper: `He has outstanding skills and razor-sharp reactions from mastering so many unfairly balanced games. In "Shangri-La Frontier", they earned him the cursed marks of the Unique Monster Lycagon the Nightslayer, setting him on a course unseen by any other player.`
             }
     },
-    { //Psyger-0 - Complete
+    { //Psyger-0 - Complete + JP ver
         id: 107877412,
         name: `Psyger-0`,
         attribute: `Light`,
@@ -35694,9 +35713,28 @@ const UnitInformation = [
                 superarts: `200000% Light DMG (PHY). Ignore 100% of Enemies' DEF for the duration of Super Arts.`,
                 superartsbreak: 1800
             },
+        skillsetJP: 
+            {
+                skill: `14s CT - 5000% Light DMG (PHY). Increase own Arts by 20. For 8s, increase own Accuracy by 20%.`,
+                skillbreak: 500,
+                arts: `30000% Light DMG (PHY). Increase all allies' Arts by 20. For 25s, Allies gain a DMG barrier that negates 5000 DMG.`,
+                artsbreak: 900,
+                truearts: `70000% Light DMG (PHY). For 30s, increases own DMG by 100% and all allies' DMG by [30% x # of Humans in the Party].`,
+                trueartsbreak: 1400,
+                superarts: `220000% Light DMG (PHY). Ignore 100% of Enemies' DEF for the duration of Super Arts.`,
+                superartsbreak: 1800
+            },
         passive: 
             {
                 ability1: `When using Super Arts for the first time, double its damage multiplier to 400000% instead. When using Super Arts for the second time and onwards, for 20s, increase own Arts by 5/s.`,
+                ability2: `Increase own Defence Equip CT Speed by 20%.`,
+                ability3: `Increase own Paralysis RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Psyger-0's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Psyger-0's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `When using Super Arts for the first time, double its damage multiplier to 440000% instead. When using Super Arts for the second time and onwards, for 25s, increase own Arts by 6/s.`,
                 ability2: `Increase own Defence Equip CT Speed by 20%.`,
                 ability3: `Increase own Paralysis RES by 100%.`,
                 ability4: `Unit EXP UP 20% UP. (When Psyger-0's SP. Art is owned)`,
@@ -35719,7 +35757,7 @@ const UnitInformation = [
                 evosuper: `Despite her reputation as a powerful warrior in "Shangri-La Frontier", she is a high schooler named Rei Saiga in real life. Hoping to form a closer bond with her classmate Rakuro, she seeks out his character Sunraku.`
             }
     },
-    { //Arthur Pencilgon - Complete
+    { //Arthur Pencilgon - Complete + JP ver
         id: 107887512,
         name: `Arthur Pencilgon`,
         attribute: `Dark`,
@@ -35765,6 +35803,17 @@ const UnitInformation = [
                 superarts: `130000% Dark DMG (PHY). When Super Arts is used right after Arts has been used, increase current Super Arts' Break Power by 150%. When Super Arts is used right after True Arts has been used, increase current Super Arts' DMG by 300%.`,
                 superartsbreak: 12000
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2500% Dark DMG (PHY). For 10s, increase own Arts by 4/s.`,
+                skillbreak: 1000,
+                arts: `17000% Dark DMG (MAG). For 40s, reduce enemies' Break RES by 40%.`,
+                artsbreak: 3000,
+                truearts: `52000% Dark DMG (PHY). For 30s, reduce enemies' Dark RES by 80% and increase >50% HP Allies' Arts by 5/s.`,
+                trueartsbreak: 5000,
+                superarts: `130000% Dark DMG (PHY). When Super Arts is used right after Arts has been used, increase current Super Arts' Break Power by 200%. When Super Arts is used right after True Arts has been used, increase current Super Arts' DMG by 350%.`,
+                superartsbreak: 12000
+            },
         passive: 
             {
                 ability1: `When boss is broken, resets all allies' PHY Equip CT. Does not stack with Abilities of the same name.`,
@@ -35790,7 +35839,7 @@ const UnitInformation = [
                 evosuper: `She has a history with Sunraku and OiKatzo from previous games. Her reign as the Dystopian Empress in one particular MMORPG ended when the two of them led a revolution that unseated her from power.`
             }
     },
-    { //OiKatzo - Complete
+    { //OiKatzo - Complete + JP ver
         id: 107897112,
         name: `OiKatzo`,
         attribute: `Fire`,
@@ -35836,10 +35885,29 @@ const UnitInformation = [
                 superarts: `170000% Fire DMG (MAG). For 25s, increase all allies' Freeze RES and Paralysis RES by 100%. When ownself is above 80% HP, for 25s, reduce enemies' MAG RES by 150%.`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `10s CT - 4300% Fire DMG (PHY). 10% chance to inflict Faint for 6s.`,
+                skillbreak: 500,
+                arts: `25000% Fire DMG (MAG). For 20s, reduce enemies' Fire RES by 20% (stackable) and increase all allies' stats by 30%.`,
+                artsbreak: 1000,
+                truearts: `65000% Fire DMG (MAG). For 30s, increase own Accuracy by 150%. Additionally if used when ownself is above 80% HP, for 30s, reduce enemies' DMG RES by 70%. Additionally if used when ownself is above 50% HP, for 30s, increase own Arts by 5/s.`,
+                trueartsbreak: 1600,
+                superarts: `170000% Fire DMG (MAG). For 30s, increase all allies' Freeze RES and Paralysis RES by 100%. Additionally if used when ownself is above 80% HP, for 30s, reduce enemies' MAG RES by 150%.`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `When Near-Death, increase own Arts by 200 and heal own HP by 100%. Can only be activated once per Quest.`,
                 ability2: `Increase own DMG by [2% x own ATK and DEF/100].`,
+                ability3: `When above 80% HP, increase own Arts by 4/s.`,
+                ability4: `Unit EXP UP 20% UP. (When OiKatzo's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When OiKatzo's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `When Near-Death, increase own Arts by 200 and heal own HP by 100%. Can only be activated once per Quest.`,
+                ability2: `Increase own DMG by [3% x own ATK and DEF/100].`,
                 ability3: `When above 80% HP, increase own Arts by 4/s.`,
                 ability4: `Unit EXP UP 20% UP. (When OiKatzo's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When OiKatzo's SP. Art is owned)`
@@ -36607,7 +36675,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Chloe - JP Complete
+    { //Summer Chloe - Missing Lore
         id: 107997412,
         name: `Summer Chloe`,
         attribute: `Light`,
@@ -36685,11 +36753,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }  
     },
-    { //Summer Bazett - JP Complete
+    { //Summer Bazett - Missing Lore
         id: 108007212,
         name: `Summer Bazett`,
         attribute: `Water`,
@@ -36767,8 +36835,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }  
     },
     { //Summer Luvia & Rin - Missing Lore
