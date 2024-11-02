@@ -45594,10 +45594,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『クロエの水着』 - Missing Lore
+    { //True 'Chloe's Swimsuit' - Missing Lore
         id: 153421,
-        name: `真『クロエの水着』`,
-        translate: `True 'Chloe's Swimsuit'`,
+        name: `True 'Chloe's Swimsuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45623,7 +45622,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Chloe, increase own Arts by 100 at the start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Luvia's Swimsuit' - Missing Lore
         id: 153431,
@@ -45655,10 +45654,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『バゼットの水着』 - Missing Lore
+    { //True 'Bazett's Swimsuit' - Missing Lore
         id: 153441,
-        name: `真『バゼットの水着』`,
-        translate: `True 'Bazett's Swimsuit'`,
+        name: `True 'Bazett's Swimsuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45684,7 +45682,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Bazett, increase own DMG by 50% and Skill CT Speed by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Sakura's Swimsuit' - Missing Lore
         id: 153451,
@@ -45948,10 +45946,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //クロエの水着 - Missing Lore
+    { //Chloe's Swimsuit - Missing Lore
         id: 153541,
-        name: `クロエの水着`,
-        translate: `Chloe's Swimsuit`,
+        name: `Chloe's Swimsuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45976,12 +45973,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //クロエのスイムワンピ - Missing Lore
+    { //Chloe's Swim Dress - Missing Lore
         id: 153551,
-        name: `クロエのスイムワンピ`,
-        translate: `Chloe's Swim Onesie`,
+        name: `Chloe's Swim Dress`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -46006,7 +46002,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Rin's Swimsuit - Missing Lore
         id: 153561,
@@ -46066,10 +46062,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //バゼットの水着 - Missing Lore
+    { //Bazett's Swimsuit - Missing Lore
         id: 153581,
-        name: `バゼットの水着`,
-        translate: `Bazett's Swimsuit`,
+        name: `Bazett's Swimsuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46094,12 +46089,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //バゼットのエプロン - Missing Lore
+    { //Bazett's Apron - Missing Lore
         id: 153591,
-        name: `バゼットのエプロン`,
-        translate: `Bazett's Apron`,
+        name: `Bazett's Apron`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -46124,12 +46118,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //斬り抉る戦神の剣 - Missing Lore
+    { //Fragarach - Missing Lore
         id: 153601,
-        name: `斬り抉る戦神の剣`,
-        translate: `Fragarach`,
+        name: `Fragarach`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46154,7 +46147,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Sakura's Swimsuit - Missing Lore
         id: 153611,
@@ -46185,10 +46178,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //間桐桜の仮面 - Missing Lore
+    { //Sakura's Mask - Missing Lore
         id: 153621,
-        name: `間桐桜の仮面`,
-        translate: `Sakura Matou's Mask`,
+        name: `Sakura's Mask`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46213,7 +46205,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Dark resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Sakura's Uniform - Missing Lore
         id: 153631,
