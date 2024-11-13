@@ -206,6 +206,18 @@ function RenderPassives({ unitPassive, isReview, unitReview }) {
                         {isReview && unitReview.ability5 && <UnitReviews review={unitReview.ability5} />}
                     </> 
                 }
+                { unitPassive.ability6 && 
+                    <>
+                        <li style={{marginBottom: "1rem"}}>{unitPassive.ability6}</li>
+                        {isReview && unitReview.ability6 && <UnitReviews review={unitReview.ability6} />}
+                    </> 
+                }
+                { unitPassive.ability7 && 
+                    <>
+                        <li style={{marginBottom: "1rem"}}>{unitPassive.ability7}</li>
+                        {isReview && unitReview.ability7 && <UnitReviews review={unitReview.ability7} />}
+                    </> 
+                }
             </List>
         </Row>
     )
