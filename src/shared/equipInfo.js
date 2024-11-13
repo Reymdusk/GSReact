@@ -33109,10 +33109,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ルーンマスター』 (True 'Rune Master') - JP Complete
+    { //True 'Rune Sovereign' - Missing Lore
         id: 111971,
-        name: `真『ルーンマスター』`,
-        translate: `True 'Rune Master'`,
+        name: `True 'Rune Sovereign'`,
         type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         image: 
@@ -33135,15 +33134,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Beyond Fate Emperor Isliid, increase own DMG by 80%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Isliid, Human Pinnacle, increase own DMG by 80%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『フォルコメンドライ』 (True 'Vollkommen Drei') - JP Complete
+    { //True 'Komplettes Trio' - Missing Lore
         id: 111981,
-        name: `真『フォルコメンドライ』`,
-        translate: `True 'Vollkommen Drei'`,
+        name: `True 'Komplettes Trio'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33166,15 +33164,15 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Beyond Fate Emperor Isliid, increase own ATK by 50%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Isliid, Human Pinnacle, increase own ATK by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    { //フォルコメンドライ・レプリカ - JP Complete
+    { //Komplettes Trio Replica - Missing Lore
         id: 111991,
         name: `フォルコメンドライ・レプリカ`,
-        translate: `Vollkommen Drei Replica`,
+        translate: `Komplettes Trio Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33199,12 +33197,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own BE Output by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ルーンマスター・レプリカ - JP Complete
+    { //Rune Sovereign Replica - Missing Lore
         id: 112001,
-        name: `ルーンマスター・レプリカ`,
-        translate: `Rune Master Replica`,
+        name: `Rune Sovereign Replica`,
         type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         image: 
@@ -33227,9 +33224,9 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `If own HP is 80% or higher, increase all allies' Magic DMG by 20%.`
+                ability1: `When own HP is 80% or higher, increase all allies' Magic DMG by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Radical Edge' - Missing Lore
         id: 112011,
@@ -35165,6 +35162,97 @@ const EquipInformation = [
             {
                 ability1: `When equipped by Halloween Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『トロイメライ』 - JP Complete
+        id: 112651,
+        name: `真『トロイメライ』`,
+        translate: `True 'Traumerei'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `65s CT - 6000% Light DMG (Physical). Reduce enemies' Light resistance by 30% for 8s.`,
+                break: 6000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Phantom Saintess Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //幻聖剣『トロイメライ』 - JP Complete
+        id: 112661,
+        name: `幻聖剣『トロイメライ』`,
+        translate: `Phantom Holy Sword 'Traumerei'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 3000% Light DMG (Physical). Increase own Break Power by 50% for 10s. If enemy is Dark, increase own Break Power by 100% instead.`,
+                break: 6000
+            },
+        passive: 
+            {
+                ability1: `When own HP is less than 80%, reduce own Arts by 1/s.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //共鳴装『カンパネラ』 - JP Complete
+        id: 112671,
+        name: `共鳴装『カンパネラ』`,
+        translate: `Echoing Outfit 'Campanella'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase target's Dark resistance and Magic resistance by 20% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

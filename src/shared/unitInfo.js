@@ -7346,7 +7346,7 @@ const UnitInformation = [
                 evoawk: "Enraged by the swordsman's pity, Mizyna focuses solely on becoming stronger than him. However, she realized during their battle that strength alone wouldn't be sufficient. Through rigorous discipline, she pushes her skill to the limits in mastering the art of the spear to one day prove herself worthy."
             }
     },
-    { //Nies - Complete
+    { //Nies - Complete + JP ver
         id: 101666212,
         name: "Nies",
         rank: "B-",
@@ -7371,6 +7371,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 7596,
@@ -7389,9 +7398,24 @@ const UnitInformation = [
                 truearts: "35000% Water DMG (PHY). For 3s, increase Allies' DMG RES by 80%. For 15s, increase Water Allies' Skill CT REC and Skill DMG by 120%.",
                 trueartsbreak: 4400
             },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2000% Water DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
+                skillbreak: 1400,
+                arts: "16000% Water DMG (PHY). For 15s, increase Allies' Fire RES by 20%, heal Allies' HP by 500/s, increase Water Allies' Arts by 3/s.",
+                artsbreak: 2400,
+                truearts: "55000% Water DMG (PHY). For 5s, increase Allies' DMG RES by 80%. For 15s, increase Water Allies' Skill CT REC and Skill DMG by 120%.",
+                trueartsbreak: 4400
+            },
         passive: 
             {
                 ability1: "Increase Allies' DEF by 500 and DMG to Fire Enemies by 25%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Burn RES by 100%.",
+                ability3: "Ignore 35% of Enemies' DEF."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase Allies' DEF by 1000 and DMG to Fire Enemies by 50%. Does not stack with Abilities of the same name.",
                 ability2: "Increase Burn RES by 100%.",
                 ability3: "Ignore 35% of Enemies' DEF."
             }, 
@@ -7420,6 +7444,40 @@ const UnitInformation = [
                     hover4: "Freydal",
                 }
             },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Freeze RES by 30%.`,
+                        ability2: `Increase own HP Recovery amount by 30% (excluding Lifesteal).`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 2/s.`
+                    }
+                }
+            },
         trueweapon:
             {
                 name: "Saint Blaze",
@@ -7440,7 +7498,7 @@ const UnitInformation = [
                 evoawk: "An invincible warrior and former leader of the Divine Knights. He fought to carve out the path he felt right, and they say his skill with the blade made him the match for any army. Still, they tell tales of his deeds. His life was often chaotic, and they say that when he saved a Demon because it was the right, he was forced to fight his brethren in arms. His great faith led to endless admiration for deeds surpassing mere race, and his name was honored for eternity throughout the land."
             }
     },
-    { //Sanstone - Complete
+    { //Sanstone - Complete + JP ver
         id: 101676112,
         name: "Sanstone",
         rank: "A+",
@@ -7465,6 +7523,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 7416,
@@ -7481,6 +7548,15 @@ const UnitInformation = [
                 arts: "12400% Fire DMG (PHY). For 25s, Allies gain a DMG barrier that negates 3800 DMG.",
                 artsbreak: 2400,
                 truearts: "24000% Fire DMG (PHY). For 20s, increase Allies' DMG RES by 30% and Critical RES by 20%.",
+                trueartsbreak: 3700
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1700% Fire DMG (PHY). 60% chance to inflict Burn for 10s.",
+                skillbreak: 1300,
+                arts: "14000% Fire DMG (PHY). For 30s, Allies gain a DMG barrier that negates 5000 DMG.",
+                artsbreak: 2400,
+                truearts: "30000% Fire DMG (PHY). For 30s, increase Allies' DMG RES by 30% and Critical RES by 20%.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -7514,6 +7590,40 @@ const UnitInformation = [
                     hover4: "Degilmagna",
                 }
             },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 200 at Start of Quest.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 2/s.`,
+                        ability2: `Increase all allies' Break Power by 25%. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         trueweapon: 
             {
                 name: "Flambardo",
@@ -7534,7 +7644,7 @@ const UnitInformation = [
                 evoawk: "As a vice-commander of the Divine Guardian Divine Knights, she serves Platina without reserve, and fights ever on the front line to guard her commander and fellow knights without regard to her own safety. She bears the name \"Invincible Shield\" for her history of withstanding Demonic attacks, and holds herself alone responsible for the safety of the Divine Knights. However, her motivation comes from the deep need to keep one special person safe."
             }
     },
-    { //Platina - Complete
+    { //Platina - Complete + JP ver
         id: 101686412,
         name: "Platina",
         rank: "B+",
@@ -7552,6 +7662,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -7576,9 +7695,24 @@ const UnitInformation = [
                 truearts: "34000% Light DMG (PHY). 100% chance to inflict Faint for 5s. For 20s, reduce Enemies' Break Bar by 10% of total Break Bar each time they are hit by own Skill.",
                 trueartsbreak: 8500
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Light DMG (PHY). For 8s, reduce Enemies' Break RES by 30%.",
+                skillbreak: 2100,
+                arts: "18000% Light DMG (PHY). For 15s, when the Boss' Break Bar is 70% or less, increase own Break PWR by 100%.",
+                artsbreak: 4000,
+                truearts: "50000% Light DMG (PHY). 100% chance to inflict Faint for 5s. For 20s, reduce Enemies' Break Bar by 10% of remaining Break Bar each time they are hit by own Skill.",
+                trueartsbreak: 9500
+            },
         passive: 
             {
                 ability1: "When an Ally is near-death, cure that Ally's Status Ailments (except Faint) and that Ally gains a DMG barrier that negates 2000 DMG for 10s. Can be activated only once every 70s.",
+                ability2: "Increase own Skill CT REC based on own Break PWR buffs.",
+                ability3: "Increase Allies' Break PWR by 10%. Does not stack with Abilities of the same name."
+            }, 
+        passiveJP: 
+            {
+                ability1: "When an Ally is near-death, cure that Ally's Status Ailments (except Faint) and that Ally gains a DMG barrier that negates 3000 DMG for 20s. Can be activated only once every 70s.",
                 ability2: "Increase own Skill CT REC based on own Break PWR buffs.",
                 ability3: "Increase Allies' Break PWR by 10%. Does not stack with Abilities of the same name."
             }, 
@@ -7610,6 +7744,40 @@ const UnitInformation = [
                     hover5: "Palamicia"
                 }
             },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own Equip CT Speed by 20%.`,
+                        ability2: `Increase God allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Demons by 70%.`,
+                        ability2: `When enemy is below 30% HP, increase own DMG by 100%.`
+                    }
+                }
+            },
         trueweapon: 
             {
                 name: "Knight's Glow",
@@ -7630,7 +7798,7 @@ const UnitInformation = [
                 evoawk: "The proud knight who became the new commander of the Divine Knights. She holds the safety of the Divine Guardian Uther her top priority, and she will allow none to oppose him. She has trained ceaselessly at the sword to prove her worth as a knight, and is now able to cut light itself. She respects those with honor, and is strict but not heartless, so her way of living has earned her admiration and a name that rings throughtout the land."
             }
     },
-    { //Parlot - Complete
+    { //Parlot - Complete + JP ver
         id: 101696312,
         name: "Parlot",
         rank: "A-",
@@ -7648,6 +7816,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -7672,9 +7849,18 @@ const UnitInformation = [
                 truearts: "Heal all Allies by 60% of their max HP + Increase Allies' Arts by 30.",
                 trueartsbreak: 0
             },
+        skillsetJP: 
+            {
+                skill: "9s CT - Heal Allies' HP by 500 + Increase Allies' Arts by 10.",
+                skillbreak: 0,
+                arts: "12000% Earth DMG (MAG). Heal Allies by 40% of their max HP + For 20s, increase Allies' Water RES by 20%.",
+                artsbreak: 2100,
+                truearts: "Heal all Allies by 70% of their MAX HP + Increase Allies' Arts by 40.",
+                trueartsbreak: 0
+            },
         passive: 
             {
-                ability1: "Increase Allies' max HP by 500 and DMG to Water Enemies by 25%. Does not stack with Abilities of the same name.",
+                ability1: "Increase Allies' MAX HP by 500 and DMG to Water Enemies by 25%. Does not stack with Abilities of the same name.",
                 ability2: "Increase Equipment CT REC by 10%.",
                 ability3: "Increase Freeze RES by 100%."
             }, 
@@ -7700,6 +7886,40 @@ const UnitInformation = [
                     hover3: "Elpneumas",
                 }
             },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Status RES by 50% (except Faint).`,
+                        ability2: `Increase own Arts by 2/s.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' MAG DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase all allies' MAX HP by 15%. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo4: "One of the members of the Divine Knights who served the Divine Guardian Uther during the first part of the Ancient War. He was always calm and worked as the right-hand of the captain. He was the oldest of the group and thanks to his friendly personality, was considered as a big brother. He was always the one to sedate the frequent conflicts between the captain and the vice-captain. When the captain was criticized concerning the treatment of a Demon who tried to kill the Divine Guardian, Parlot defended him until the very end and helped him escape.",
@@ -7707,7 +7927,7 @@ const UnitInformation = [
                 evoawk: "The severe vice-leader for the first time decided to contrast the boss' orders and intentionally overlooked the leader and the Demon. When the punitive squad came back, Parlor gave the Demon a magical communicating device and told her to contact him whenever she was in trouble. After this, the vice-leader sealed her feelings for the leader and became the new leader of the Holy Knights,protecting the boss for all her life. Nobody knew that she secretly kept contact with the former leader through a confidant."
             }
     },
-    { //Dahlia - Complete
+    { //Dahlia - Complete + JP ver
         id: 101706512,
         name: "Dahlia",
         rank: "F",
@@ -7731,6 +7951,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6844,
@@ -7744,15 +7973,30 @@ const UnitInformation = [
             {
                 skill: "7s CT - 1850% Dark DMG (PHY). For 7s, reduce Enemies' Status RES by 30%.",
                 skillbreak: 1300,
-                arts: "14800% Dark DMG (PHY). Deals more DMG and has a higher Critical Rate the more Status Ailments an Enemy has (damage varies on each individual Enemy and their Statuses).",
+                arts: "14800% Dark DMG (PHY). Increase CRI rate by 100% against enemies with Status ailment(s) for the duration of Arts. Additionally when used against enemies with Status ailment(s), multiply the DMG Multiplier of current Arts by [1.5 + 0.25 x # of unique Status ailments on enemy].",
                 artsbreak: 3100,
-                truearts: "28800% Dark DMG (MAG). For 20s, increase own Arts by [2 × # of Statuses on Enemy with the most Statuses]/s, and increase Allies' DMG by [40% × # of Statuses on Enemy with the most Statuses].",
+                truearts: "28800% Dark DMG (MAG). For 20s, increase own Arts by [2 × # of unique Status ailments on Enemy with the most Status ailments]/s, and all Allies' DMG by [40% × # of unique Status ailments on Enemy with the most Status ailments].",
+                trueartsbreak: 3600
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2000% Dark DMG (PHY). For 7s, reduce Enemies' Status RES by 30%.",
+                skillbreak: 1300,
+                arts: "25000% Dark DMG (PHY). Increase CRI rate by 100% against enemies with Status ailment(s) for the duration of Arts. Additionally when used against enemies with Status ailment(s), multiply the DMG Multiplier of current Arts by [1.5 + 0.5 x # of unique Status ailments on enemy].",
+                artsbreak: 3100,
+                truearts: "67000% Dark DMG (MAG). For 20s, increase own Arts by [3 × # of unique Status ailments on Enemy with the most Status ailments]/s, and all Allies' DMG by [50% × # of unique Status ailments on Enemy with the most Status ailments].",
                 trueartsbreak: 3600
             },
         passive: 
             {
                 ability1: "Increase Allies' evasion by 10%.",
                 ability2: "All attacks have a 4% chance to inflict Blind (except equipment) for 8s.",
+                ability3: "Increase DMG to Human Enemies by 80%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase Allies' evasion by 10%.",
+                ability2: "All attacks have a 8% chance to inflict Blind (except equipment) for 8s.",
                 ability3: "Increase DMG to Human Enemies by 80%."
             }, 
         evolution: 
@@ -7781,6 +8025,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat5amt: 1,
                     hover5: "Freydal"
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Gods by 150%.`,
+                        ability2: `Increase all allies' Arts by 30 at Start of Quest. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 2/s.`,
+                        ability2: `Increase all allies' Arts DMG by 40%. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         lore: 
@@ -24698,12 +24976,6 @@ const UnitInformation = [
                 ability4: `Unit EXP UP 20% UP. (When Noble Flare Mira's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Noble Flare Mira's SP. Art is owned)`
             },
-        passiveJP: 
-            {
-                ability1: `Increase own Super Critical Rate by 50% against Enemies under 50% HP.`,
-                ability2: `Increase Poison RES 80%.`,
-                ability3: `Increase DMG by 50% against Enemies under 30% HP.`
-            }, 
         evolution: 
             {
                 evoawksuper:
@@ -26100,18 +26372,19 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Beyond Fate, Emperor Isliid - JP Complete
+    { //Isliid, Human Pinnacle - Missing Lore + JP ver
         id: 103807412,
-        name: "Beyond Fate, Emperor Isliid",
-        translate: "Beyond Fate Emperor Isliid",
+        name: "Isliid, Human Pinnacle",
         attribute: "Light",
         type: "Human",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103806412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103807412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_380_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103806412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103807412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103807412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_380_1.png"
             },
         slots: 
             {
@@ -26136,7 +26409,7 @@ const UnitInformation = [
             {
                 skill: `11s CT - 2500% Light DMG (PHY). Increase own Arts by 20. For 8s, increase own Paralysis RES and Freeze RES by 100%.`,
                 skillbreak: 800,
-                arts: `27000% Light DMG (PHY). An additional effect occurs depending on the Sword Mode he is in when Arts is activated.`,
+                arts: `27000% Light DMG (PHY). An additional effect occurs depending on Isliid's unit position (refer to Unit Passives below).`,
                 artsbreak: 1200,
                 truearts: `60000% Light DMG (PHY). For 8s, increase all allies' Arts by 10/s. For 20s, reduce enemies' DMG RES by 60%. If enemy is Human, God or Demon, reduce enemies' DMG RES by 120% instead.`,
                 trueartsbreak: 1800,
@@ -26146,12 +26419,22 @@ const UnitInformation = [
         passive: 
             {
                 ability1: `If unaffected by Status Ailments, increase own Arts by 7/s.`,
-                ability2: `When in Skylight Sword Mode, activations of own Arts increase Allies' Magic Equip CT Speed by 30% and own DMG against Gods by 180% for 25s. If he is in the 1st position, he will only use this mode.`,
-                ability3: `When in Terra Master Sword Mode, activations of own Arts increase Allies' Support Equip CT Speed by 30% and own DMG against Humans by 180% for 25s. If he is in the 2nd position, he will only use this mode.`,
-                ability4: `When in Darkbringer Sword Mode, activations of own Arts increase Allies' Physical Equip CT Speed by 30% and own DMG against Demons by 180% for 25s. If he is in the 3rd position, he will only use this mode.`,
-                ability5: `NOTE: If Beyond Fate Emperor Isliid is in the 4th position, he will change modes every Arts (in the order of Skylight -> Terra Master -> Darkbringer -> repeat).`
+                ability2: `When Arts is used while Isliid is in the 1st unit position, increase Allies' Magic Equip CT Speed by 30% and own DMG against Gods by 180% for 25s.`,
+                ability3: `When Arts is used while Isliid is in the 2nd unit position, increase Allies' Support Equip CT Speed by 30% and own DMG against Humans by 180% for 25s.`,
+                ability4: `When Arts is used while Isliid is in the 3rd unit position, increase Allies' Physical Equip CT Speed by 30% and own DMG against Demons by 180% for 25s.`,
+                ability5: `When Arts is used while Isliid is in the 4th unit position, effect rotates between the 1st, 2nd and 3rd unit positions.`,
+                ability6: `Unit EXP UP 20% UP. (When Isliid, Human Pinnacle's SP. Art is owned)`,
+                ability7: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Isliid, Human Pinnacle's SP. Art is owned)`
             }, 
-        evolution: 
+        passiveJP: 
+            {
+                ability1: `If unaffected by Status Ailments, increase own Arts by 7/s.`,
+                ability2: `When Arts is used while Isliid is in the 1st unit position, increase Allies' Magic Equip CT Speed by 30% and own DMG against Gods by 180% for 25s.`,
+                ability3: `When Arts is used while Isliid is in the 2nd unit position, increase Allies' Support Equip CT Speed by 30% and own DMG against Humans by 180% for 25s.`,
+                ability4: `When Arts is used while Isliid is in the 3rd unit position, increase Allies' Physical Equip CT Speed by 30% and own DMG against Demons by 180% for 25s.`,
+                ability5: `When Arts is used while Isliid is in the 4th unit position, effect rotates between the 1st, 2nd and 3rd unit positions.`
+            }, 
+        evolution:
             {
                 evoawksuper:
                 {
@@ -26166,7 +26449,7 @@ const UnitInformation = [
             {
                 true1: 
                 {
-                    name: "Rune Master",
+                    name: "Rune Sovereign",
                     slot: "/db/Mines/thumbnail/magLB6.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_111971.png",
                     detail: "/db/Equipment/Detail/item_detail_111971.png",
@@ -26174,13 +26457,13 @@ const UnitInformation = [
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: "When equipped by Beyond Fate Emperor Isliid, increase own DMG by 80%. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Isliid, Human Pinnacle, increase own DMG by 80%. Does not stack with Abilities of the same name.",
                             ability2: "Increase own MAG RES by 5%."
                         }
                 },
                 true2: 
                 {
-                    name: "Vollkommen Drei",
+                    name: "Komplettes Trio",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_111981.png",
                     detail: "/db/Equipment/Detail/item_detail_111981.png",
@@ -26188,15 +26471,15 @@ const UnitInformation = [
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: "When equipped by Beyond Fate Emperor Isliid, increase own ATK by 50%. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Isliid, Human Pinnacle, increase own ATK by 50%. Does not stack with Abilities of the same name.",
                             ability2: "Increase own PHY RES by 5%."
                         }
                 }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Anti-Heroine Pola - Missing Lore
@@ -27409,6 +27692,84 @@ const UnitInformation = [
                     passive: 
                         {
                             ability1: `When equipped by Fiery Platoon Leader Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own MAG RES by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Phantom Saintess Platina - Missing Lore (JP)
+        id: 104047412,
+        name: `Fiery Platoon Leader Charlotte`,
+        attribute: `Light`,
+        type: `God`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104046412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104047412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104046412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104047412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7392,
+                hpplus: 1394,
+                atk: 3551,
+                atkplus: 667,
+                def: 3071,
+                defplus: 584
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Light DMG (PHY). Increase own Arts by 40. If used while enemy is in BREAK, increase own Arts by 200 instead.`,
+                skillbreak: 2000,
+                arts: `21000% Light DMG (PHY). For 20s, increase all allies' ATK by 100% and Physical Equip CT Speed by 30%.`,
+                artsbreak: 3500,
+                truearts: `60000% Light DMG (PHY). For 30s, reduce enemies' Break RES and Physical RES by 40% (stackable).`,
+                trueartsbreak: 5500,
+                superarts: `140000% Light DMG (PHY). For 20s, increase all allies' CRI rate by 100% and DMG against Enemies in Break by 200%.`,
+                superartsbreak: 15000
+            },
+        passive: 
+            {
+                ability1: `When own HP is above 80%, increase own Freeze RES and Paralysis RES by 100%.`,
+                ability2: `Giant Boss' Break Bar is halved at the beginning of battle. Raid Bosses' Break Bars take 20000 Break DMG instead. Ability can only be activated once per Quest.`,
+                ability3: `Increase own Break Power by [2% × own ATK/100].`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Traumerei`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112661.png",
+                    skill: `65s CT - 6000% Light DMG (PHY). For 8s, reduce enemies' Light RES by 30%.`,
+                    skillbreak: 6000,
+                    passive: 
+                        {
+                            ability1: `When equipped by Phantom Saintess Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own MAG RES by 5%.`
                         }
                 },
