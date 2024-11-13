@@ -2357,6 +2357,45 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 73,
+        date: `November 13, 2024`,
+        article: 
+        {
+            intro: `Chapter 31 has been released on JP with a new unit and equips, alongside a new batch of Dream Awakenings! Meanwhile on Global, Chapter 26 has been released with a new unit and equips!`,
+            new:
+                {
+                    units: [
+                       [`Phantom Saintess Platina`, 104047412] 
+                    ],
+                    equips: [
+                        [`真『トロイメライ』`, 112651],
+                        [`幻聖剣『トロイメライ』`, 112661],
+                        [`共鳴装『カンパネラ』`, 112671]
+                    ],
+                    dream: [
+                        [`Nies`, 101666212],
+                        [`Sanstone`, 101676112],
+                        [`Platina`, 101686412],
+                        [`Parlot`, 101696312],
+                        [`Dahlia`, 101706512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Isliid, Human Pinnacle`, 103807412]
+                    ],  
+                    equips: [
+                        [`True 'Rune Sovereign'`, 111971],
+                        [`True 'Komplettes Trio'`, 111981],
+                        [`Komplettes Trio Replica`, 111991],
+                        [`Rune Sovereign Replica`, 112001]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
