@@ -27706,7 +27706,7 @@ const UnitInformation = [
     },
     { //Phantom Saintess Platina - Missing Lore (JP)
         id: 104047412,
-        name: `Fiery Platoon Leader Charlotte`,
+        name: `Phantom Saintess Platina`,
         attribute: `Light`,
         type: `God`,
         image: 
