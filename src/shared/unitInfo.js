@@ -37650,7 +37650,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `20000% Fire DMG (PHY). For 20s, increase own Skill CT Speed by 100% and Physical Equip CT Speed by 30%.`,
                 artsbreak: 1000,
-                truearts: `60000% Fire DMG (PHY). For 40s, increase own ATK by 50% (stackable) and enemies' Fire RES by 50% (stackable).`,
+                truearts: `60000% Fire DMG (PHY). For 40s, increase own ATK by 50% (stackable) and reduce enemies' Fire RES by 50% (stackable).`,
                 trueartsbreak: 1600,
                 superarts: `170000% Fire DMG (PHY). For 20s, ignore enemies' DEF by 100%. If used when above 50% HP, for 20s, increase own DMG by 150%. Additionally if used when ownself is not affected by Status ailment(s), for 20s, increase own DMG by 150%.`,
                 superartsbreak: 2000
