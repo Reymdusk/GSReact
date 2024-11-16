@@ -310,11 +310,11 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
                 :
                 <>
                     <RenderDetail detail={unitImage.detailawk} />
-                    <h1><strong>{unitName}</strong></h1>
-                    <p><i>{unitAtt} , {unitType}</i></p>
+                    
                 </>
             }
-                
+                <h1><strong>{unitName}</strong></h1>
+                <p><i>{unitAtt} , {unitType}</i></p>
             </>
         )
     }
