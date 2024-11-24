@@ -26375,7 +26375,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Isliid, Human Pinnacle - Missing Lore + JP ver
+    { //Isliid, Human Pinnacle - Missing Lore
         id: 103807412,
         name: "Isliid, Human Pinnacle",
         attribute: "Light",
@@ -26428,15 +26428,7 @@ const UnitInformation = [
                 ability5: `When Arts is used while Isliid is in the 4th unit position, effect rotates between the 1st, 2nd and 3rd unit positions.`,
                 ability6: `Unit EXP UP 20% UP. (When Isliid, Human Pinnacle's SP. Art is owned)`,
                 ability7: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Isliid, Human Pinnacle's SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `If unaffected by Status Ailments, increase own Arts by 7/s.`,
-                ability2: `When Arts is used while Isliid is in the 1st unit position, increase Allies' Magic Equip CT Speed by 30% and own DMG against Gods by 180% for 25s.`,
-                ability3: `When Arts is used while Isliid is in the 2nd unit position, increase Allies' Support Equip CT Speed by 30% and own DMG against Humans by 180% for 25s.`,
-                ability4: `When Arts is used while Isliid is in the 3rd unit position, increase Allies' Physical Equip CT Speed by 30% and own DMG against Demons by 180% for 25s.`,
-                ability5: `When Arts is used while Isliid is in the 4th unit position, effect rotates between the 1st, 2nd and 3rd unit positions.`
-            }, 
+            },
         evolution:
             {
                 evoawksuper:
@@ -27774,6 +27766,84 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Phantom Saintess Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own MAG RES by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Natasha: Spiritia 05 - Missing Lore (JP)
+        id: 104057512,
+        name: `Natasha: Spiritia 05`,
+        attribute: `Dark`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104056512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104057512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104056512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104057512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7092,
+                hpplus: 1339,
+                atk: 3836,
+                atkplus: 663,
+                def: 3150,
+                defplus: 650
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2500% Dark DMG (PHY). Increase own Arts by 40.`,
+                skillbreak: 800,
+                arts: `23000% Dark DMG (PHY). For 20s, increase all allies' DMG RES by 20%. Each time Arts is used again while the previous Arts effect is still active, increase all allies' DMG RES by an additional 20% for 20s instead (MAX: 60%).`,
+                artsbreak:  1300,
+                truearts: `68000% Dark DMG (PHY). For 30s, reduce enemies' Evasion rate by 50% and increase Dark allies' DMG by 150%.`,
+                trueartsbreak: 2000,
+                superarts: `180000% Dark DMG (PHY). For 20s, increase own ATK by 100% and reduce enemies' PHY RES by 100%. Each time Super Arts is used again while the previous Super Arts effect is still active, increase own ATK and reduce enemies' PHY RES by an additional 100% for 20s instead (MAX: 300%).`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When own HP is above 70%, ignore 100% of enemies' DEF. Does not stack with Abilities of the same name.`,
+                ability2: `Increase all Allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own DMG against Giant Bosses by 20%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                    mat2amt: 220,
+                    hover2: `Sinflow Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Lightning Mare III`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112681.png",
+                    skill: `60s CT - 8000% Dark DMG (PHY). For 10s, reduce enemies' DMG RES by 20%. If user is a Spirit, reduce enemies' DMG RES by an additional 10%. Additionally if user is Dark, reduce enemies' DMG RES by an additional 10%.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Natasha: Spiritia 05, increase the duration of Arts and Super Arts by an additional 5s and increase own Arts by 1/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own DEF by 5%.`
                         }
                 },
         lore:   
@@ -37365,7 +37435,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Shadow - JP Complete
+    { //Shadow - Missing Lore
         id: 108037512,
         name: `Shadow`,
         attribute: `Dark`,
@@ -37443,11 +37513,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Beta - JP Complete
+    { //Beta - Missing Lore
         id: 108057212,
         name: `Beta`,
         attribute: `Water`,
@@ -37525,8 +37595,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Alpha - JP Complete

@@ -33224,7 +33224,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When own HP is 80% or higher, increase all allies' Magic DMG by 20%.`
+                ability1: `Increase allies' Magic DMG by 20% when their HP is above 80%. Does not stack with Abilities of the same name.`
             },
         lore: `Missing Lore.`
     },
@@ -35249,6 +35249,67 @@ const EquipInformation = [
             {
                 skill: `40s CT - Increase target's Dark resistance and Magic resistance by 20% for 10s.`,
                 break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ライトニング・メアⅢ』 - JP Complete
+        id: 112681,
+        name: `真『ライトニング・メアⅢ』`,
+        translate: `True 'Lightning Mare III'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Dark DMG (PHY). Reduce enemies' DMG RES by 20% for 10s. If user is a Spirit, reduce enemies' DMG RES by an additional 10%. Additionally if user is Dark, reduce enemies' DMG RES by an additional 10%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Natasha: Spiritia 05, increase the duration of Arts and Super Arts by an additional 5s and increase own Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //紫雷の戦棍『ライトニング・メアⅢ』 - JP Complete
+        id: 112691,
+        name: `紫雷の戦棍『ライトニング・メアⅢ』`,
+        translate: `Purple Lightning War Mace 'Lightning Mare III'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Dark DMG (PHY). Increase own PHY DMG by 40% for 10s. Additionally if user is Dark, increase own Skill CT Speed by 40% for 10s.`,
+                break: 500
             },
         passive: 
             {
@@ -46324,10 +46385,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『シャドウの剣』 - Missing Lore
+    { //True 'Shadow's Sword' - Missing Lore
         id: 153641,
-        name: `真『シャドウの剣』`,
-        translate: `True 'Shadow's Sword'`,
+        name: `True 'Shadow's Sword'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46353,12 +46413,11 @@ const EquipInformation = [
                 ability1: `When equipped by Shadow, increase own DMG by 40% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Evasion rate by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『ベータの弓』 - Missing Lore
+    { //True 'Beta's Bow' - Missing Lore
         id: 153651,
-        name: `真『ベータの弓』`,
-        translate: `True 'Beta's Bow'`,
+        name: `True 'Beta's Bow'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46384,12 +46443,11 @@ const EquipInformation = [
                 ability1: `When equipped by Beta, increase own ATK by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シャドウのブーツ - Missing Lore
+    { //Shadow's Boots - Missing Lore
         id: 153661,
-        name: `シャドウのブーツ`,
-        translate: `Shadow's Boots'`,
+        name: `Shadow's Boots`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -46414,12 +46472,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own DMG against Light enemies by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シャドウの剣 - Missing Lore
+    { //Shadow's Sword - Missing Lore
         id: 153671,
-        name: `シャドウの剣`,
-        translate: `Shadow's Sword'`,
+        name: `Shadow's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46444,12 +46501,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シャドウのスーツ - Missing Lore
+    { //Shadow's Bodysuit - Missing Lore
         id: 153681,
-        name: `シャドウのスーツ`,
-        translate: `Shadow's Suit'`,
+        name: `Shadow's Bodysuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46474,12 +46530,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ベータの弓 - Missing Lore
+    { //Beta's Bow - Missing Lore
         id: 153691,
-        name: `ベータの弓`,
-        translate: `Beta's Bow'`,
+        name: `Beta's Bow`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46504,12 +46559,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ベータのスーツ - Missing Lore
+    { //Beta's Bodysuit - Missing Lore
         id: 153701,
-        name: `ベータのスーツ`,
-        translate: `Beta's Suit'`,
+        name: `Beta's Bodysuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46534,12 +46588,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ベータのメガネ - Missing Lore
+    { //Beta's Spectacles - Missing Lore
         id: 153711,
-        name: `ベータのメガネ`,
-        translate: `Beta's Glasses'`,
+        name: `Beta's Spectacles`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -46564,12 +46617,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ガンマのぬいぐるみ - Missing Lore
+    { //Gamma Plushie - Missing Lore
         id: 153721,
-        name: `ガンマのぬいぐるみ`,
-        translate: `Gamma's Stuffed Animal'`,
+        name: `Gamma Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46594,12 +46646,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ゼータのぬいぐるみ - Missing Lore
+    { //Zeta Plushie - Missing Lore
         id: 153731,
-        name: `ゼータのぬいぐるみ`,
-        translate: `Zeta's Stuffed Animal'`,
+        name: `Zeta Plushie`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -46617,14 +46668,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Heal Fire allies' HP by 200/s for 20s. When used for the first time, increase Leader unit's Arts by 50.`,
-                break: 0
+                skill: `40s CT - Heal Fire allies' HP by 300/s for 20s. When used for the first time, increase Leader unit's Arts by 50.`,
+                break: 0    
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『アルファの剣』 - Missing Lore
         id: 153741,

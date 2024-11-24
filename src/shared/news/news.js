@@ -2396,6 +2396,45 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 74,
+        date: `November 24, 2024`,
+        article: 
+        {
+            intro: `Another member of the Rabbids Platoon, Natasha, has been released on JP with her respective equips! Meanwhile on Global, Part 1 of The Eminence in Shadow Collab has been released, featuring Shadow and Beta, alongside new equips!`,
+            new:
+                {
+                    units: [
+                       [`Natasha: Spiritia 05`, 104057512] 
+                    ],
+                    equips: [
+                        [`真『ライトニング・メアⅢ』`, 112681],
+                        [`紫雷の戦棍『ライトニング・メアⅢ』`, 112691]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Shadow`, 108037512],
+                        [`Beta`, 108057212],
+                    ],  
+                    equips: [
+                        [`True 'Shadow's Sword'`, 153641],
+                        [`True 'Beta's Bow'`, 153651],
+                        [`Shadow's Boots`, 153661],
+                        [`Shadow's Sword`, 153671],
+                        [`Shadow's Bodysuit`, 153681],
+                        [`Beta's Bow`, 153691],
+                        [`Beta's Bodysuit`, 153701],
+                        [`Beta's Spectacles`, 153711],
+                        [`Gamma Plushie`, 153721],
+                        [`Zeta Plushie`, 153731],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
