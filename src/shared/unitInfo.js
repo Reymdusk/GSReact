@@ -26379,6 +26379,7 @@ const UnitInformation = [
         id: 103807412,
         name: "Isliid, Human Pinnacle",
         attribute: "Light",
+        rank: `SSS`,
         type: "Human",
         image: 
             {
@@ -37028,6 +37029,7 @@ const UnitInformation = [
         id: 107987112,
         name: `Summer Miyu`,
         attribute: `Fire`,
+        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -37109,6 +37111,7 @@ const UnitInformation = [
     { //Summer Chloe - Missing Lore
         id: 107997412,
         name: `Summer Chloe`,
+        rank: `SS`,
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -37192,6 +37195,7 @@ const UnitInformation = [
         id: 108007212,
         name: `Summer Bazett`,
         attribute: `Water`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -37356,6 +37360,7 @@ const UnitInformation = [
     { //Summer Sakura - Missing Lore
         id: 108027512,
         name: `Summer Sakura`,
+        rank: `S`,
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -37438,6 +37443,7 @@ const UnitInformation = [
     { //Shadow - Missing Lore
         id: 108037512,
         name: `Shadow`,
+        rank: `SS`,
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -37520,6 +37526,7 @@ const UnitInformation = [
     { //Beta - Missing Lore
         id: 108057212,
         name: `Beta`,
+        rank: `SSS`,
         attribute: `Water`,
         type: `Spirit`,
         image: 
