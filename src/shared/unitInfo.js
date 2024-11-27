@@ -37572,7 +37572,7 @@ const UnitInformation = [
             {
                 ability1: `Increase Ally to the left of Beta's DMG by 150%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Curse RES by 100%.`,
-                ability3: `Increase DMG to Human Enemies by 40%.`,
+                ability3: `Increase DMG to Giant Enemies by 40%.`,
                 ability4: `Unit EXP UP 20% UP. (When Beta's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Beta's SP. Art is owned)`
             }, 
