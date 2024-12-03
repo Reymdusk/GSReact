@@ -35317,6 +35317,127 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //超『エクス・クランベルジュ』 - JP Complete
+        id: 112701,
+        name: `超『エクス・クランベルジュ』`,
+        translate: `Super 'Ex Granverge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_112701.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `6s CT - 20000% Light DMG (PHY). Increase all allies' Arts by 20.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『エクス・クランベルジュ』 - JP Complete
+        id: 112711,
+        name: `真『エクス・クランベルジュ』`,
+        translate: `True 'Ex Granverge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Light DMG (PHY). If user is Light, reduce enemies' DMG RES by 20% for 15s. Additionally if used when own HP is above 80%, reduce enemies' DMG RES by an additional 15%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Orvell D. Granverge, increase own DMG by 50%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //双王剣『エクス・クランベルジュ』 - JP Complete
+        id: 112721,
+        name: `双王剣『エクス・クランベルジュ』`,
+        translate: `Twin King Swords 'Ex Granverge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 15000% Light DMG (PHY). If user is God, increase own DMG and Accuracy rate by 80% for 20s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Reduce own Arts by 2/s when HP is below 80%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //煌王鎧『アルファダイン』 - JP Complete
+        id: 112731,
+        name: `煌王鎧『アルファダイン』`,
+        translate: `Brilliant Jewel Armor 'Alphadine'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Light RES and PHY RES by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.  `
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

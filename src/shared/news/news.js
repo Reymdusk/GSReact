@@ -2435,6 +2435,33 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 75,
+        date: `December 3, 2024`,
+        article: 
+        {
+            intro: `Chapter 32 has debut on JP with Orvell D. Granverge as the newest unit, alongside new equips associated to him!`,
+            new:
+                {
+                    units: [
+                       [`Orvell D. Granverge`, 104067412] 
+                    ],
+                    equips: [
+                        [`超『エクス・クランベルジュ』`, 112701],
+                        [`真『エクス・クランベルジュ』`, 112711],
+                        [`双王剣『エクス・クランベルジュ』`, 112721],
+                        [`煌王鎧『アルファダイン』`, 112731]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
