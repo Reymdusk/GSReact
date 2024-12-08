@@ -2494,7 +2494,7 @@ const NewsArticles = [
                     ],  
                     equips: [
                         [`True 'Alpha's Sword'`, 153741],
-                        [`True 'Delta's Suit'`, 153751],
+                        [`True 'Delta's Bodysuit'`, 153751],
                         [`Delta's Hairpiece`, 153761],
                         [`Alpha's Sword`, 153771],
                         [`Alpha's Bodysuit`, 153781],

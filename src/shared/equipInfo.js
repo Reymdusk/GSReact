@@ -46828,9 +46828,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Delta's Suit' - Missing Lore
+    { //True 'Delta's Bodysuit' - Missing Lore
         id: 153751,
-        name: `True 'Delta's Suit'`,
+        name: `True 'Delta's Bodysuit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
