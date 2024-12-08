@@ -46685,7 +46685,7 @@ const EquipInformation = [
     { //Beta's Bodysuit - Missing Lore
         id: 153701,
         name: `Beta's Bodysuit`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -46798,10 +46798,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『アルファの剣』 - Missing Lore
+    { //True 'Alpha's Sword' - Missing Lore
         id: 153741,
-        name: `真『アルファの剣』`,
-        translate: `True 'Alpha's Sword'`,
+        name: `True 'Alpha's Sword'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46827,12 +46826,11 @@ const EquipInformation = [
                 ability1: `When equipped by Alpha, increase own ATK by 20%. Increase own Arts by 100 at the Start of a Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『デルタのスーツ』 - Missing Lore
+    { //True 'Delta's Suit' - Missing Lore
         id: 153751,
-        name: `真『デルタのスーツ』`,
-        translate: `True 'Delta's Suit'`,
+        name: `True 'Delta's Suit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46858,12 +46856,11 @@ const EquipInformation = [
                 ability1: `When equipped by Delta, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //デルタの髪飾り - Missing Lore
+    { //Delta's Hairpiece - Missing Lore
         id: 153761,
-        name: `デルタの髪飾り`,
-        translate: `Delta's Hairpin`,
+        name: `Delta's Hairpiece`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -46888,12 +46885,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own DMG against Giants by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アルファの剣 - Missing Lore
+    { //Alpha's Sword - Missing Lore
         id: 153771,
-        name: `アルファの剣`,
-        translate: `Alpha's Suit`,
+        name: `Alpha's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46918,12 +46914,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アルファの剣 - Missing Lore
+    { //Alpha's Bodysuit - Missing Lore
         id: 153781,
-        name: `アルファの剣`,
-        translate: `Alpha's Suit`,
+        name: `Alpha's Bodysuit`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -46948,12 +46943,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アルファのブーツ - Missing Lore
+    { //Alpha's Boots - Missing Lore
         id: 153791,
-        name: `アルファのブーツ`,
-        translate: `Alpha's Boots`,
+        name: `Alpha's Boots`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -46978,12 +46972,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //デルタのスーツ - Missing Lore
+    { //Delta's Bodysuit - Missing Lore
         id: 153801,
-        name: `デルタのスーツ`,
-        translate: `Delta's Suit`,
+        name: `Delta's Bodysuit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47008,12 +47001,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //デルタのブーツ - Missing Lore
+    { //Delta's Boots - Missing Lore
         id: 153811,
-        name: `デルタのブーツ`,
-        translate: `Delta's Boots`,
+        name: `Delta's Boots`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47038,12 +47030,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //イプシロンのぬいぐるみ - Missing Lore
+    { //Epsilon Plushie - Missing Lore
         id: 153821,
-        name: `イプシロンのぬいぐるみ`,
-        translate: `Epsilon's Plush`,
+        name: `Epsilon Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -47068,12 +47059,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //イータのぬいぐるみ - Missing Lore
+    { //Eta Plushie - Missing Lore
         id: 153831,
-        name: `イータのぬいぐるみ`,
-        translate: `Eta's Plush`,
+        name: `Eta Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -47098,7 +47088,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     }
 ]
 

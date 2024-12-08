@@ -17835,7 +17835,7 @@ const UnitInformation = [
                 evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The \"Imperial Gun Arts\" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
             }
     },
-    { //Cestina - Complete, Review done
+    { //Cestina - Complete, Review done + JP ver
         id: 102986312,
         name: "Cestina (Earth)",
         rank: "A+",
@@ -17852,6 +17852,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -17878,6 +17887,17 @@ const UnitInformation = [
                 crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.",
                 crossartsbreak: 5000
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2400% Earth DMG (PHY). For 3s, reduce Enemies’ Accuracy by 10%.",
+                skillbreak: 800,
+                arts: "16000% Earth DMG (PHY). Increase Allies’ Arts by 25 + For 20s, Allies gain a DMG barrier that negates 5000 DMG.",
+                artsbreak: 1200,
+                truearts: "55000% Earth DMG (PHY). For 20s, increase all Allies’ PHY DMG by 150% and reduce Enemies’ DMG RES by 30%.",
+                trueartsbreak: 2000,
+                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.",
+                crossartsbreak: 5000
+            },
         passive: 
             {
                 ability1: "Increase Allies’ Max HP by 10%. Does not stack with Abilities of the same name.",
@@ -17898,6 +17918,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat4amt: 2,
                     hover4: "Goldola",
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                        mat3amt: 2,
+                        hover3: "Palamicia",
+                    },
+                    passive: {
+                        ability1: `Increase own Freeze RES by 100%.`,
+                        ability2: `Increase own Arts by 2/s.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 2,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Demons by 100%.`,
+                        ability2: `Increase own Equip CT Speed by 10%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -18029,7 +18083,7 @@ const UnitInformation = [
                 author: `The True Pepe`
             }
     },
-    { //Liza - Complete, Review done
+    { //Liza - Complete, Review done + JP ver
         id: 103006412,
         name: "Liza",
         rank: "S",
@@ -18051,6 +18105,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6869,
@@ -18066,7 +18129,18 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "10000% Light DMG (MAG). For 10s, increase Allies' Arts by 4/s.",
                 artsbreak: 900,
-                truearts: "30000% Light DMG (MAG). For 20s, increase Allies' Equipment CT REC by 50%, reduce Enemies' Light and MAG RES by 35%.",
+                truearts: "30000% Light DMG (MAG). For 20s, increase Allies' Equipment CT Speed by 50%, reduce Enemies' Light and MAG RES by 35%.",
+                trueartsbreak: 1800,
+                crossarts: "77000% Light DMG (MAG). Liza and Cygnet heal 50% of DMG taken during this Cross Arts + For 60s, increase Allies' DMG to Enemies they have an Elemental Advantage against by 250%.",
+                crossartsbreak: 3500
+            },
+        skillsetJP: 
+            {
+                skill: "11s CT - 2000% Light DMG (MAG). For 5s, reduce Enemies' MAG RES by 10%.",
+                skillbreak: 400,
+                arts: "15000% Light DMG (MAG). For 10s, increase Allies' Arts by 5/s.",
+                artsbreak: 900,
+                truearts: "42000% Light DMG (MAG). For 25s, increase Allies' Equipment CT Speed by 50%, reduce Enemies' Light and MAG RES by 40%.",
                 trueartsbreak: 1800,
                 crossarts: "77000% Light DMG (MAG). Liza and Cygnet heal 50% of DMG taken during this Cross Arts + For 60s, increase Allies' DMG to Enemies they have an Elemental Advantage against by 250%.",
                 crossartsbreak: 3500
@@ -18091,6 +18165,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragTonetaurus.png",
                     mat4amt: 2,
                     hover4: "Tonetaurus",
+                }
+            },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' MAG RES by 10%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase all allies' MAX HP by 20%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' MAG DMG by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `At Start of Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -18260,7 +18368,7 @@ const UnitInformation = [
             {
                 skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
                 skillbreak: 700,
-                arts: "20000% Light DMG (PHY). For 15s, increase own Accuracy by 35% and reduce Enemies' PHY RES by 25%.",
+                arts: "20000% Light DMG (PHY). For 15s, increase own Accuracy by 35% and reduce Enemies' PHY RES by 30%.",
                 artsbreak: 1200,
                 truearts: "65000% Light DMG (PHY). For 15s, increase stats by 50%. Additionally when there are 5 stacks of Testament to the King, for 15s, ignore 100% of Enemies' DEF.",
                 trueartsbreak: 1900,
@@ -18271,7 +18379,7 @@ const UnitInformation = [
             {
                 skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
                 skillbreak: 700,
-                arts: "20000% Light DMG (PHY). For 15s, increase own Accuracy by 40% and reduce Enemies' PHY RES by 35%.",
+                arts: "25000% Light DMG (PHY). For 15s, increase own Accuracy by 60% and reduce Enemies' PHY RES by 30%.",
                 artsbreak: 1200,
                 truearts: "80000% Light DMG (PHY). For 20s, increase stats by 50%. Additionally when there are 5 stacks of Testament to the King, for 15s, ignore 100% of Enemies' DEF.",
                 trueartsbreak: 1900,
@@ -18280,10 +18388,16 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "On use of Arts, gain a stack of Testament to the King (Max 5 stacks). For each stack, increase DMG by 40% and Skill CT REC by 20%.",
+                ability1: "On use of Arts, gain a stack of Testament to the King (Max 5 stacks). For each stack, increase DMG by 40% and Skill CT Speed by 20%.",
                 ability2: "Increase Freeze and Paralyze RES by 100%. Less likely to be knocked back.",
                 ability3: "When near-death, increase DMG by 10%."
-            }, 
+            },
+        passiveJP: 
+            {
+                ability1: "On use of Arts, gain a stack of Testament to the King (Max 5 stacks). For each stack, increase DMG by 60% and Skill CT Speed by 20%.",
+                ability2: "Increase Freeze and Paralyze RES by 100%. Less likely to be knocked back.",
+                ability3: "When near-death, increase DMG by 10%."
+            },
         evolution: 
             {
                 evo5awk:
@@ -18524,24 +18638,24 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: "12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30 + Increase own Arts by 20 if this Skill crits.",
+                skill: "12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30 + Increase own Arts by 30 if this Skill crits.",
                 skillbreak: 600,
                 arts: "20000% Dark DMG (PHY). Inflicts a stack of Bleed (up to 3 stacks).",
                 artsbreak: 1200,
-                truearts: "65000% Dark DMG (PHY). Increase own Arts by 20. For 20s, increase Allies' Critical Rate by 100%.",
+                truearts: "70000% Dark DMG (PHY). Increase own Arts by 50. For 20s, increase Allies' Critical Rate by 100%.",
                 trueartsbreak: 2700,
                 crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.",
                 crossartsbreak: 3000
             },
         passive: 
             {
-                ability1: "Increase Allies' Critical DMG by 30%. Does not stack with Abilities of the same name.",
+                ability1: "Increase Allies' CRI DMG by 30%. Does not stack with Abilities of the same name.",
                 ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 100%.",
                 ability3: "Heal own HP by 1% of DMG dealt to Enemies with 3 stacks of Bleed."
             }, 
         passiveJP: 
             {
-                ability1: "Increase Allies' Critical DMG by 30%. Does not stack with Abilities of the same name.",
+                ability1: "Increase Allies' CRI DMG by 40%. Does not stack with Abilities of the same name.",
                 ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 150%.",
                 ability3: "Heal own HP by 1% of DMG dealt to Enemies with 3 stacks of Bleed."
             }, 
@@ -18727,7 +18841,7 @@ const UnitInformation = [
                 author: `Orixy`
             }
     },
-    { //Angelas - Complete, Review done
+    { //Angelas - Complete, Review done + JP ver
         id: 103066112,
         name: "Angelas",
         rank: "B+",
@@ -18766,6 +18880,15 @@ const UnitInformation = [
                 arts: "20000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 15s, reduce Enemies' Burn RES by 50%.",
                 artsbreak: 1000,
                 truearts: "35000% Fire DMG (PHY). Reduce Dragon Flame Count to 0. Increase own Arts Gauge by [Original Dragon Flame Count × 25], increase this True Arts' Multiplier by [Original Dragon Flame Count × 12000%].",
+                trueartsbreak: 1500
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. Chance (50%) to inflict Burn.",
+                skillbreak: 600,
+                arts: "20000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 20s, reduce Enemies' Burn RES by 60%.",
+                artsbreak: 1000,
+                truearts: "50000% Fire DMG (PHY). Increase own Arts Gauge by [Original Dragon Flame Count × 25] and increase this True Arts' DMG Multiplier by [Original Dragon Flame Count × 15000%]. Reduce Dragon Flame Count to 0 afterwards.",
                 trueartsbreak: 1500
             },
         passive: 
@@ -18863,7 +18986,7 @@ const UnitInformation = [
                 author: `Elric`
             }
     },
-    { //Eagle - Complete, Review done
+    { //Eagle - Complete, Review done + JP ver
         id: 103076312,
         name: "Eagle",
         rank: "A-",
@@ -18901,6 +19024,15 @@ const UnitInformation = [
                 arts: "16000% Earth DMG (PHY). For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 10000 DMG to self. During Avenger Mode: For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 14000 DMG to self.",
                 artsbreak: 1200,
                 truearts: "30000% Earth DMG (PHY). For 15s, increase own DMG RES by 25%. During Avenger Mode: 110000% Earth DMG (PHY). For 15s, increase own DMG RES by 25% + Steal 100% of Enemies' Arts and exit Avenger Mode.",
+                trueartsbreak: 2000
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Earth DMG (PHY). For 7s, increase own DEF by 30%.",
+                skillbreak: 600,
+                arts: "20000% Earth DMG (PHY). For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 10000 DMG to self. If used during Avenger Mode, gain a DMG barrier that negates 14000 DMG to self instead.",
+                artsbreak: 1200,
+                truearts: "40000% Earth DMG (PHY). For 30s, increase own DMG RES by 25%. During Avenger Mode: 130000% Earth DMG (PHY). For 30s, increase own DMG RES by 25% + Steal 100% of Enemies' Arts and exit Avenger Mode.",
                 trueartsbreak: 2000
             },
         passive: 
@@ -19065,9 +19197,9 @@ const UnitInformation = [
             {
                 skill: "11s CT - 2200% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
                 skillbreak: 500,
-                arts: "20000% Dark DMG (MAG). For 15s, reduce Enemies' DEF and Dark RES by 40%.",
+                arts: "20000% Dark DMG (MAG). For 20s, reduce Enemies' DEF and Dark RES by 50%.",
                 artsbreak: 1100,
-                truearts: "55000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 50 + For 15s, increase Allies' (except target) Arts by 5/s and MAG DMG by 300%.",
+                truearts: "60000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 50 + For 20s, increase Allies' (except target) Arts by 6/s and MAG DMG by 300%.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -19179,7 +19311,7 @@ const UnitInformation = [
                 author: `Unex`
             }
     },
-    { //Victoire - Complete, Review done
+    { //Victoire - Complete, Review done + JP ver
         id: 103096412,
         name: "Victoire",
         rank: "B",
@@ -19196,6 +19328,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -19220,6 +19361,15 @@ const UnitInformation = [
                 truearts: "36000% Light DMG (MAG). For 15s, increase Allies' stats and accuracy by 30%, for Light Allies, increase stats and accuracy by 60% instead.",
                 trueartsbreak: 1300
             },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2400% Light DMG (MAG). For 10s, increase Allies' DMG by 10% (stackable).",
+                skillbreak: 600,
+                arts: "25000% Light DMG (MAG). For 20s, increase Allies' Skill CT Speed by 100% and Light Allies' Skill CT Speed by an additional 100%.",
+                artsbreak: 1000,
+                truearts: "47000% Light DMG (MAG). For 20s, increase Allies' stats and Accuracy by 40% and Light Allies' stats and Accuracy by an additional 40%.",
+                trueartsbreak: 1300
+            },
         passive: 
             {
                 ability1: "After Skill is used three times, for 10s, reduce Enemies' action speed 20%. Does not stack with Abilities of the same name.",
@@ -19242,6 +19392,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat5amt: 1,
                     hover5: "Oldeus"
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Disease RES by 60%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Light allies' Accuracy by 50%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Dark enemies by 65%.`,
+                        ability2: `Increase Light allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22918,7 +23102,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { // Orvell (Fire) - Complete, Review done
+    { // Orvell (Fire) - Complete, Review done + JP ver
         id: 103456112,
         name: "Orvell (Fire)",
         attribute: "Fire",
@@ -22934,6 +23118,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -22962,6 +23155,19 @@ const UnitInformation = [
                 superequiptype: "/db/Mines/thumbnail/magLB.png",
                 superequipname: "Gramlude"
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Fire DMG (MAG). For 7s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 800,
+                arts: "26000% Fire DMG (MAG). For 20s, increase Allies' Equipment DMG by 60%, and Fire Allies' Equipment DMG by an additional 60%.",
+                artsbreak: 1200,
+                truearts: `62000% Fire DMG (MAG). For 20s, replace the equipment in his first slot with Super Equip "Gramlude". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.`,
+                trueartsbreak: 1800,
+                superequip: "2s CT - 6000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
+                superequipbreak: 600,
+                superequiptype: "/db/Mines/thumbnail/magLB.png",
+                superequipname: "Gramlude"
+            },
         passive: 
             {
                 ability1: "Increase Critical RES by 30%.",
@@ -22982,6 +23188,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat4amt: 3,
                     hover4: "Flogassa"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' CRI DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equip CT Speed by 10%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Demon enemies by 70%.`,
+                        ability2: `Increase own Equipment DMG by 50%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -23043,6 +23283,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 6847,
@@ -23060,20 +23309,20 @@ const UnitInformation = [
                 artsbreak: 800,
                 truearts: `45000% Light DMG (PHY). For 15s, replace the equipment in her first slot with Ultra Equip "Eisenstern". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.`,
                 trueartsbreak: 1500,
-                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable). ",
+                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable).",
                 superequipbreak: 300,
                 superequiptype: "/db/Mines/thumbnail/physLB.png",
                 superequipname: "Eisenstern"
-            },
+            },  
         skillsetJP: 
             {
                 skill: "9s CT - 1400% Light DMG (PHY). For 5s, increase own ATK by 15%.",
                 skillbreak: 600,
-                arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
+                arts: "20000% Light DMG (PHY). For 20s, increase Allies' PHY DMG by 60% and God Allies' Accuracy by 40%.",
                 artsbreak: 800,
                 truearts: `45000% Light DMG (PHY). For 15s, replace the equipment in her first slot with Ultra Equip "Eisenstern". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.`,
                 trueartsbreak: 1500,
-                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 15s, reduce Enemies' PHY RES by 5% (stackable). ",
+                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1200. For 15s, reduce Enemies' PHY RES by 5% (stackable).",
                 superequipbreak: 300,
                 superequiptype: "/db/Mines/thumbnail/physLB.png",
                 superequipname: "Eisenstern"
@@ -23098,6 +23347,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 2,
                     hover4: "Radachne"
+                }
+            },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 2,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase own Status ailment RES (except Faint) by 40%.`,
+                        ability2: `Increase own HP Recovery amount by 30% (excluding Lifesteal).`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' PHY DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equip CT Speed by 10%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -37688,7 +37971,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Alpha - JP Complete
+    { //Alpha - Missing Lore
         id: 108047412,
         name: `Alpha`,
         attribute: `Light`,
@@ -37766,11 +38049,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Delta - JP Complete
+    { //Delta - Missing Lore
         id: 108067112,
         name: `Delta`,
         attribute: `Fire`,
@@ -37835,7 +38118,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Delta's Suit`,
+                name: `Delta's Bodysuit`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153751.png",
                 skill: `70s CT - 12000% Fire DMG (PHY). For 15s, increase own DMG by 50% and Fire DMG by 70%.`,
@@ -37848,8 +38131,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     }
 ];

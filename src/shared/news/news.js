@@ -2462,6 +2462,51 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 76,
+        date: `December 8, 2024`,
+        article: 
+        {
+            intro: `JP has received more Dream Awakenings and buffs, while Part 2 of the Eminence in Shadow collab has been released on Global!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Cestina (Earth)`, 102986312],
+                        [`Liza`, 103006412],
+                        [`Victoire`, 103096412],
+                        [`Orvell (Fire)`, 103456112],
+                        [`Cestina (Light)`, 103466412],
+                        [`Orvell`, 103026412],
+                        [`Luahn`, 103046512],
+                        [`Angelas`, 103066112],
+                        [`Eagle`, 103076312],
+                        [`Bakoo`, 103086512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Alpha`, 108047412],
+                        [`Delta`, 108067112],
+                    ],  
+                    equips: [
+                        [`True 'Alpha's Sword'`, 153741],
+                        [`True 'Delta's Suit'`, 153751],
+                        [`Delta's Hairpiece`, 153761],
+                        [`Alpha's Sword`, 153771],
+                        [`Alpha's Bodysuit`, 153781],
+                        [`Alpha's Boots`, 153791],
+                        [`Delta's Bodysuit`, 153801],
+                        [`Delta's Boots`, 153811],
+                        [`Epsilon Plushie`, 153821],
+                        [`Eta Plushie`, 153831]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
