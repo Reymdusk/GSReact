@@ -23363,7 +23363,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase own Status ailment RES (except Faint) by 40%.`,
-                        ability2: `Increase own HP Recovery amount by 30% (excluding Lifesteal).`
+                        ability2: `Increase own Heal Amount by 30% (excluding Lifesteal).`
                     }
                 },
                 light: {
