@@ -31417,10 +31417,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //グローディベオネット (Jay Farmable) - JP Complete
+    { //Neon Bayonet - Missing Lore
         id: 111401,
-        name: `グローディベオネット`,
-        translate: `'Neon Bayonet'`,
+        name: `Neon Bayonet`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31447,10 +31446,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //ブルージャケット (Jay Farmable) - JP Complete
+    { //Blue Jacket - Missing Lore
         id: 111411,
-        name: `ブルージャケット`,
-        translate: `'Blue Jacket'`,
+        name: `Blue Jacket`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -32626,7 +32624,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Canary, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Canaria, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical Evasion by 5%`
             },
         lore: `Currently unreleased in Global.`
@@ -32665,7 +32663,7 @@ const EquipInformation = [
     { //ブルージャケット(カナリア仕様) - JP Complete
         id: 111821,
         name: `ブルージャケット(カナリア仕様)`,
-        translate: `Blue Jacket (Canary Custom)`,
+        translate: `Blue Jacket (Canaria Custom)`,
         location: `Limited Event - Blue Jacket Part 2`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -33439,10 +33437,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //聖飾剣『スターライト』 - JP Complete
+    { //Garland Sword 'Star Light' - Missing Lore
         id: 112081,
-        name: `聖飾剣『スターライト』`,
-        translate: `Holy Ornament Sword 'Skylight'`,
+        name: `Garland Sword 'Star Light'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35277,7 +35274,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 8000% Dark DMG (PHY). Reduce enemies' DMG RES by 20% for 10s. If user is a Spirit, reduce enemies' DMG RES by an additional 10%. Additionally if user is Dark, reduce enemies' DMG RES by an additional 10%.`,
+                skill: `60s CT - 8000% Dark DMG (Physical). Reduce enemies' DMG resistance by 20% for 10s. If user is a Spirit, reduce enemies' DMG resistance by an additional 10%. Additionally if user is Dark, reduce enemies' DMG resistance by an additional 10%.`,
                 break: 500
             },
         passive: 
@@ -35308,7 +35305,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Dark DMG (PHY). Increase own PHY DMG by 40% for 10s. Additionally if user is Dark, increase own Skill CT Speed by 40% for 10s.`,
+                skill: `45s CT - 7000% Dark DMG (Physical). Increase own Physical DMG by 40% for 10s. Additionally if user is Dark, increase own Skill CT Speed by 40% for 10s.`,
                 break: 500
             },
         passive: 
@@ -35338,7 +35335,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `6s CT - 20000% Light DMG (PHY). Increase all allies' Arts by 20.`,
+                skill: `6s CT - 20000% Light DMG (Physical). Increase all allies' Arts by 20.`,
                 break: 1000
             },
         passive: 
@@ -35368,12 +35365,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 10000% Light DMG (PHY). If user is Light, reduce enemies' DMG RES by 20% for 15s. Additionally if used when own HP is above 80%, reduce enemies' DMG RES by an additional 15%.`,
+                skill: `60s CT - 10000% Light DMG (Physical). If user is Light, reduce enemies' DMG resistance by 20% for 15s. Additionally if used when own HP is above 80%, reduce enemies' DMG resistance by an additional 15%.`,
                 break: 500
             },
         passive: 
             {
-                ability1: `When equipped by Orvell D. Granverge, increase own DMG by 50%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Orvell D. Granverge, increase own DMG by 50%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
@@ -35399,7 +35396,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 15000% Light DMG (PHY). If user is God, increase own DMG and Accuracy rate by 80% for 20s.`,
+                skill: `70s CT - 15000% Light DMG (Physical). If user is God, increase own DMG and Accuracy rate by 80% for 20s.`,
                 break: 500
             },
         passive: 
@@ -35429,12 +35426,73 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase all allies' Light RES and PHY RES by 20% for 20s.`,
+                skill: `40s CT - Increase all allies' Light resistance and Physical resistance by 20% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `Increase own DEF by 5%.  `
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『マルチプル』 - JP Complete
+        id: 112741,
+        name: `真『マルチプル』`,
+        translate: `True 'Multiple'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 10000% Fire DMG (Physical). Reduce enemies' Fire RES by 30% for 10s. If user is Spirit, reduce enemies' Fire RES by 60% instead.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Menas, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //万能刃『マルチプル』 - JP Complete
+        id: 112751,
+        name: `万能刃『マルチプル』`,
+        translate: `Multi-purpose Blade 'Multiple'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Fire DMG (PHY). Increase own PHY DMG by 50% for 10s. Additionally if user is not Human, God or Demon, increase own Equip CT Speed by 30% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase own Water RES by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

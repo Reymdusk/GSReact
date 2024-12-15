@@ -2507,6 +2507,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 77,
+        date: `December 16, 2024`,
+        article: 
+        {
+            intro: `JP debuts a new saga for its 8th Anniversary along with a new unit and equips!`,
+            new:
+                {
+                    units: [
+                        [`Menas`, 104077112]
+                    ],
+                    equips: [
+                        [`真『マルチプル』`, 112741],
+                        [`万能刃『マルチプル』`, 112751]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

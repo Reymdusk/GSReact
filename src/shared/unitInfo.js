@@ -5631,7 +5631,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "A Giant warrior who fought prior to the Great War. Zoldes was a famous fighter among the Giants renowned for his many battlefield feats. However, after many years of fighting against other races, he reacted violently to a perceived insult after the end of hostilities and struck down the emissary of another race. Upset about the perceived weakness of his fellow Giants, Zoldes left with his brother Olgeth on a rampage of destruction.",
-                evo5: "A Giant warrior who went on a rampage prior to the Great War. One day, a young girl delivered a devastating defeat to him, deflecting all of his mighty blows with magic. Driven to rage, he unleashed blow after blow, destroying everything around him. Wen he awoke inside the collapsed castle, he realized the girl had protected him from a falling rock with magic. Admitting his defeat, he asked to travel with the girl from that day onward.",
+                evo5: "A Giant warrior who went on a rampage prior to the Great War. One day, a young girl delivered a devastating defeat to him, deflecting all of his mighty blows with magic. Driven to rage, he unleashed blow after blow, destroying everything around him. When he awoke inside the collapsed castle, he realized the girl had protected him from a falling rock with magic. Admitting his defeat, he asked to travel with the girl from that day onward.",
                 evoawk: "Realizing their disadvantage against the Magibeast horde, the elder of the giant brothers decides to fight solo to protect his brother and the young Spirit girl. Possessed by some divine strength, he slaughters the enemy host without letting a single enemy touch the others. After the carnage, he looks to see the girl running towards him, tears in her eyes. He gazes upwards, and with a hearty laugh, falls into an eternal slumber."
             }
     },
@@ -24883,7 +24883,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Demon Edge Berwick - Missing Lore (GL)
+    { // Demon Edge Berwick - Complete
         id: 103636112,
         name: "Demon Edge Berwick",
         translate: "Sword Demon Berwick",
@@ -24960,8 +24960,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A swordsman who protected Granadia as vice captain of the Leone Templars during the Ancient War. Holding Zanketsu, the previous captain’s blade, his furious command of the battlefield held the Gods to call him the Demon Edge. As the Templars drifted apart after Leone’s death, he grew both dispirited and antagonistic towards Rosetta for hastening their division. His current objective is seeking out the World Drops.",
+                evosuper: "A soldier from Granadia who wields Zanketsu, a memento of his late captain. He encountered Rosetta while searching for the World Drops, and she shared her desire to revive Leone with their power. He then argued it was more important to carry on the will of the departed rather than try to bring them back. By turning his blade even upon comrades to protect what he valued most, he proved both Vox and his swordplay lived on."
             }
     },
     {
@@ -25764,9 +25764,10 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Canary - Missing Lore (JP)
+    { //Canaria - Missing Lore (JP)
         id: 103717212,
-        name: `Canary`,
+        name: `Canaria`,
+        translate: `Canary`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -25836,7 +25837,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Canary, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Canaria, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own PHY Evasion by 5%`
                     }
             },
@@ -26373,7 +26374,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Halloween Charlotte - Missing Lore + JP ver
+    { //Halloween Charlotte - Complete + JP ver
         id: 103777112,
         name: `Halloween Charlotte`,
         translate: `Wild Side Charlotte`,
@@ -26466,8 +26467,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An apprentice knight who admires her grandfather Zeorg, lauded as the Hero of Famelle...most of the time. For Halloween, she has invented the alter ego Charwolflotte, a creature who only reveals her true form on moonlit nights. She coaxes a mountain of treats from the townsfolk with her handmade costume and cute howls. Energetic, savvy, and unashamed, Halloween is her time to shine.",
+                evosuper: "Charwolflotte, cohort of the all-feared dark witch who secretly plots to destroy the world. One swipe of her claws can cut down a great tree, and her legs can run miles in a single night. She dislikes raw meat, but sweets are irresistible. For whatever reason, she decided to include actual food preferences to her invented backstory, unintentionally ruining the tough image she wanted."
             }
     },
     { //Halloween Valerie - Missing Lore + JP ver
@@ -27746,7 +27747,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Summer Mira - Missing Lore (JP)
+    { //Summer Mira - Complete
         id: 104007212,
         name: `Summer Mira`,
         attribute: `Water`,
@@ -28209,6 +28210,84 @@ const UnitInformation = [
                     passive: 
                         {
                             ability1: `When equipped by Orvell D. Granverge, increase own DMG by 50%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own ATK by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Menas - Missing Lore (JP)
+        id: 104077112,
+        name: `Menas`,
+        attribute: `Fire`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104076112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104077112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104076112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104077112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7480,
+                hpplus: 1410,
+                atk: 4062,
+                atkplus: 700,
+                def: 2740,
+                defplus: 572
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2200% Fire DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 600,
+                arts: `24000% Fire DMG (PHY). For 15s, increase all allies' Arts by 4/s (Type B) and Fire allies' Arts by 2/s (Type D). Additionally when Arts is used, refresh own Support and Heal Equip currently on cooldown (MAX: 1 time).`,
+                artsbreak:  1700,
+                truearts: `60000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 60%. If enemy is not a Human, God or Demon, reduce enemies' PHY RES by 120% instead. Additionally when True Arts is used, refresh own Defence Equip currently on cooldown (MAX: 2 times).`,
+                trueartsbreak: 2800,
+                superarts: `200000% Fire DMG (PHY). Refreshes own Physical Equip currently on cooldown if Super Arts has been used an odd number of times during Quest.`,
+                superartsbreak: 4000
+            },
+        passive: 
+            {
+                ability1: `Increase own CRI rate by 100% when not affected by Status ailment(s). Additionally, increase own CRI DMG based on own remaining HP (MAX: 200%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% × own ATK/100].`,
+                ability3: `When own HP is above 90%, increase own Arts by 2/s.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 220,
+                    hover2: `Flametail Soulgem`
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Multiple`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112741.png",
+                    skill: `75s CT - 10000% Fire DMG (PHY). For 10s, reduce enemies' Fire RES by 30%. If user is Spirit, reduce enemies' Fire RES by 60% instead.`,
+                    skillbreak: 1000,
+                    passive: 
+                        {
+                            ability1: `When equipped by Menas, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
                         }
                 },
@@ -37469,8 +37548,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A perfect elementary school student who is skilled in studying, art, cooking, sports, and everything else. After making a contract with a Kaleidostick, she became Magical Sapphire. She gathers the Class Cards in the place of the Kaleidostick’s owner Luvia while also working as her maid. Now, she’s back in a swimsuit! Her rich-kid allowance lets her buy as many ice pops as she wants. Jealous?",
+                evosuper: "The God Child from a parallel world to Illya’s. With the power to freely grant the wishes of others, she tries to save her home. However, summer vacation isn’t the time to worry about major crises like that!"
             }
     },
     { //Summer Chloe - Missing Lore
