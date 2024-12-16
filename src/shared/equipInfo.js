@@ -30031,9 +30031,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //天真爛漫シャルサンタ (PSS Xmas Equip) - JP Complete
+{ //Innocent Santa Lotte - Missing Lore
         id: 110921,
-        name: `天真爛漫シャルサンタ`,
+        name: `Innocent Santa Lotte`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30058,11 +30058,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //以心伝心ヴァレリーサンタ (PSS Xmas Equip) - JP Complete
+{ //Thoughtful Santa Valerie - Missing Lore
         id: 110931,
-        name: `以心伝心ヴァレリーサンタ`,
+        name: `Thoughtful Santa Valerie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30087,11 +30087,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //マリカのものぐさ雪だるま (PSS Xmas Equip) - JP Complete
+{ //Lethargic Snow Marika - Missing Lore
         id: 110941,
-        name: `マリカのものぐさ雪だるま`,
+        name: `Lethargic Snow Marika`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -30116,11 +30116,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //セラのメイドインギフト (PSS Xmas Equip) - JP Complete
+{ //Serving Serah Doll - Missing Lore
         id: 110951,
-        name: `セラのメイドインギフト`,
+        name: `Serving Serah Doll`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -30145,11 +30145,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ワンチャンアルカナトナカイ (PSS Xmas Equip) - JP Complete
+{ //Restless Reindeer Arcana - Missing Lore
         id: 110961,
-        name: `ワンチャンアルカナトナカイ`,
+        name: `Restless Reindeer Arcana`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30167,14 +30167,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - Increase all allies' CRI rate by 100% for 10s & increase Human allies' Arts gauge by 30.`,
+                skill: `60s CT - Increase Human allies' Arts gauge by 30 and all allies' CRI rate by 100% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Yule Staff 'Merecrimus' - Missing Lore
         id: 110971,
@@ -31444,7 +31444,7 @@ const EquipInformation = [
             {
                 ability1: `Increase ATK by 10% when above 90% HP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Blue Jacket - Missing Lore
         id: 111411,
@@ -31473,7 +31473,7 @@ const EquipInformation = [
             {
                 ability1: `Paralysis Time reduction & Paralysis Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Sword God's Proof - Missing Lore
         id: 111421,
@@ -33466,10 +33466,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //忠勇無双ノエルトナカイ - JP Complete
+    { //Resolute Reindeer Noel - Missing Lore
         id: 112091,
-        name: `忠勇無双ノエルトナカイ`,
-        translate: `Loyal and Brave Noel Reindeer`,
+        name: `Resolute Reindeer Noel`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33494,12 +33493,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //全知全能陛下サンタ - JP Complete
+    { //Perfect Santa Emperor - Missing Lore
         id: 112101,
-        name: `全知全能陛下サンタ`,
-        translate: `Omnipotent Majesty Santa`,
+        name: `Perfect Santa Emperor`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33524,12 +33522,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //愛と雪の公女 - JP Complete
+    { //Loving Snow Princess - Missing Lore
         id: 112111,
-        name: `愛と雪の公女`,
-        translate: `Princess of Love and Snow`,
+        name: `Loving Snow Princess`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33554,12 +33551,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //聖夜の狩人ジェイサンタ - JP Complete
+    { //Hunting Santa Jay - Missing Lore
         id: 112121,
-        name: `聖夜の狩人ジェイサンタ`,
-        translate: `Hunter of the Holy Night Jay Santa`,
+        name: `Hunting Santa Jay`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -33584,12 +33580,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //狩人の監視者カナリアトナカイ - JP Complete
+    { //Watchful Reindeer Canaria - Missing Lore
         id: 112131,
-        name: `狩人の監視者カナリアトナカイ`,
-        translate: `Hunter's Observer Canary Reindeer`,
+        name: `Watchful Reindeer Canaria`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33614,7 +33609,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //マッドネスサイス - JP Complete (Groitz' raid equip)
         id: 112141,

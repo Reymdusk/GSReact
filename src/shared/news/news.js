@@ -2532,6 +2532,40 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 78,
+        date: `December 17, 2024`,
+        article: 
+        {
+            intro: `Christmas has come to Global with a variety of new equips! Moreover, Jay's event has also been released for the first time with his equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [
+                        [`Neon Bayonet`, 111401],
+                        [`Blue Jacket`, 111411],
+                        [`Innocent Santa Lotte`, 110921],
+                        [`Thoughtful Santa Valerie`, 110931],
+                        [`Lethargic Snow Marika`, 110941],
+                        [`Serving Serah Doll`, 110951],
+                        [`Restless Reindeer Arcana`, 110961],
+                        [`Garland Sword 'Star Light'`, 112081],
+                        [`Resolute Reindeer Noel`, 112091],
+                        [`Perfect Santa Emperor`, 112101],
+                        [`Loving Snow Princess`, 112111],
+                        [`Hunting Santa Jay`, 112121],
+                        [`Watchful Reindeer Canaria`, 112131],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
