@@ -33224,7 +33224,7 @@ const EquipInformation = [
             {
                 ability1: `Increase allies' Magic DMG by 20% when their HP is above 80%. Does not stack with Abilities of the same name.`
             },
-        lore: `Missing Lore.`
+        lore: `Although presumed to be the oldest of the Ancients' Crest Blades, no specific mention of that could be found in their records. They were powerful enough to destroy matter effortlessly, but it possesses sheer cutting ability unseen among their other artifacts. Its very existence, to say nothing of its purpose, is yet steeped in mystery.`
     },
     { //True 'Radical Edge' - Missing Lore
         id: 112011,
