@@ -33371,7 +33371,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Holy Knight Roy, increase own Arts by 2/s. At the start of a Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Ultimate Paladin Roy, increase own Arts by 2/s. At the start of a Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
         lore: `Currently unreleased in Global.`
