@@ -453,7 +453,7 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
                                         <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
                                         <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
                                         {
-                                            unitDreamGL && <Dream dream={unitDreamGL} />
+                                            (unitDreamGL || unitDream) && <Dream dream={unitDreamGL ? unitDreamGL : unitDream} />
                                         }
                                         {
                                             review ? 
@@ -485,7 +485,7 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
                                             unitPassiveJP ? <RenderPassives unitPassive={unitPassiveJP} unitReview={unitReview} isReview={review} /> : <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
                                         }
                                         {
-                                            unitDreamJP && <Dream dream={unitDreamJP} />
+                                            (unitDreamJP || unitDream) && <Dream dream={unitDreamJP ? unitDreamJP : unitDream} />
                                         }
                                         {
                                             review ? 
