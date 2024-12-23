@@ -35491,6 +35491,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //翠輪装『ファイザード』 - JP Complete
+        id: 112821,
+        name: `翠輪装『ファイザード』`,
+        translate: `Green Ring 'Faizard'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112821.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase target's Arts by 30. For 10s, increase target's ATK by 70% and reduce target's DMG RES by 30%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Poison RES by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
