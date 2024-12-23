@@ -11611,7 +11611,7 @@ const EquipInformation = [
             {
                 ability1: `CRI DMG 10% UP.`
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
 { //True 'Glamerald' - Missing Lore
         id: 104461,
