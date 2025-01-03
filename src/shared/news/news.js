@@ -2566,6 +2566,55 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 79,
+        date: `January 3, 2025`,
+        article: 
+        {
+            intro: `HAPPY NEW YEAR! New units and equips have been introduced with the rerun of Tensura collab on JP, alongside many existing buffs. Meanwhile on Global, Chapter 27 of the Main Story has been released with Ultimate Paladin Roy and his equips!`,
+            new:
+                {
+                    units: [
+                        [`Demon Lord Rimuru (New Years)`, 108077512],
+                        [`Shuna (New Years)`, 108087412]
+                    ],
+                    equips: [
+                        [`フィリルの平々トナカイ`, 112761],
+                        [`アズエルのワイルドサンタ`, 112771],
+                        [`ヴェナのモフモフサンタ`, 112781],
+                        [`ルアーナのうさンタドレス`, 112791],
+                        [`聖紋剣『ホーリーマスター』`, 112801],
+                        [`雪逢刃『スノーシティ』`, 112811],
+                        [`翠輪装『ファイザード』`, 112821],
+                        [`氷竜珠『エルスフィア』`, 112831],
+                        [`真『魔王リムルの侍刀』`, 153841],
+                        [`真『シュナの着物』`, 153851],
+                        [`魔王リムルの侍刀`, 153861],
+                        [`魔王リムルの袴`, 153871],
+                        [`魔王リムルのぬいぐるみ`, 153881],
+                        [`シュナの着物`, 153891],
+                        [`シュナのアクセサリー`, 153901],
+                        [`シュナのぬいぐるみ`, 153911],
+                        [`スライムリムルのぬいぐるみ`, 153921],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Ultimate Paladin Roy`, 103827212]
+                    ],  
+                    equips: [
+                        [`Blaze Fan 'Magnigate'`, 110051],
+                        [`Magnigate EV`, 110061],
+                        [`True 'Gladius'`, 112051],
+                        [`Sainted Sword 'Gladius'`, 112061],
+                        [`Sainted Armor 'Aeolus'`, 112071],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

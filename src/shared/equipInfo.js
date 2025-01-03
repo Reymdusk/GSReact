@@ -27454,9 +27454,9 @@ const EquipInformation = [
             },
         lore: `Rabbit-shaped headgear belonging to Charlotte. It absorbs magic energy in the air to relieve the wearer's fatigue. Many believe this is what lets her wield a sword the size of her body with ease. However, she keeps it on even outside of battle for the simple reason that she likes bunnies.`
     },
-{ //焔扇『マグニゲイト』 (Flogassa Raid Equip) - JP Complete (110061 = Flogassa EV Equip)
+{ //Blaze Fan 'Magnigate' - Missing Lore
         id: 110051,
-        name: `焔扇『マグニゲイト』`,
+        name: `Blaze Fan 'Magnigate'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -27481,11 +27481,11 @@ const EquipInformation = [
             {
                 ability1: `Burn Time Reduction & Burn Evasion rate 10% UP`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //極『マグニゲイト』 (Flogassa Raid Equip EV) - JP Complete
+{ // Magnigate EV - Missing Lore
         id: 110061,
-        name: `極『マグニゲイト』`,
+        name: `Magnigate EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -27511,7 +27511,7 @@ const EquipInformation = [
                 ability1: `Burn Time Reduction & Burn Evasion rate 10% UP`,
                 ability2: [`DMG to Beasts 10% UP.`, `Water resistance 5% UP.`, `DMG to enemy in Break 10% UP.`, `ATK 5% UP.`, `DEF 5% UP.`, `ATK 10% UP when own HP is 90% or above.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Super 'Gramlude' - Missing Lore
         id: 110070,
@@ -33345,10 +33345,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『グラディウス』(HKRoy TW) - JP Complete
+    { //True 'Gladius' - Missing Lore
         id: 112051,
-        name: `真『グラディウス』`,
-        translate: `True 'Gladius'`,
+        name: `True 'Gladius'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33374,12 +33373,11 @@ const EquipInformation = [
                 ability1: `When equipped by Ultimate Paladin Roy, increase own Arts by 2/s. At the start of a Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //聖剣『グラディウス』(HKRoy secret equip) - JP Complete
+    { //Sainted Sword 'Gladius' - Missing Lore
         id: 112061,
-        name: `聖剣『グラディウス』`,
-        translate: `Holy Sword 'Gladius'`,
+        name: `Sainted Sword 'Gladius'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33405,12 +33403,11 @@ const EquipInformation = [
                 ability1: `Ignore enemies' DEF by 20%.`,
                 ability2: `Increase all allies' Water DMG by 20%. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //聖装『アイオロス』(HKRoy farmable) - JP Complete
+    { //Sainted Armor 'Aeolus' - Missing Lore
         id: 112071,
-        name: `聖装『アイオロス』`,
-        translate: `Holy Equipment 'Aiolus'`,
+        name: `Sainted Armor 'Aeolus'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33435,7 +33432,7 @@ const EquipInformation = [
             {
                 ability1: `Ignore own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Garland Sword 'Star Light' - Missing Lore
         id: 112081,
@@ -35451,7 +35448,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `75s CT - 10000% Fire DMG (Physical). Reduce enemies' Fire RES by 30% for 10s. If user is Spirit, reduce enemies' Fire RES by 60% instead.`,
+                skill: `75s CT - 10000% Fire DMG (Physical). Reduce enemies' Fire resistance by 30% for 10s. If user is Spirit, reduce enemies' Fire resistance by 60% instead.`,
                 break: 1000
             },
         passive: 
@@ -35482,12 +35479,192 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 6000% Fire DMG (PHY). Increase own PHY DMG by 50% for 10s. Additionally if user is not Human, God or Demon, increase own Equip CT Speed by 30% for 10s.`,
+                skill: `50s CT - 6000% Fire DMG (Physical). Increase own Physical DMG by 50% for 10s. Additionally if user is not Human, God or Demon, increase own Equip CT Speed by 30% for 10s.`,
                 break: 300
             },
         passive: 
             {
-                ability1: `Increase own Water RES by 5%.`
+                ability1: `Increase own Water resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //フィリルの平々トナカイ - JP Complete
+        id: 112761,
+        name: `フィリルの平々トナカイ`,
+        translate: `Firil's Flat Reindeer`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Water DMG (Physical). Reduce enemies' Water resistance by 30% for 12s. If own HP is above 90%, reduce Water resistance by 50% instead.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //アズエルのワイルドサンタ - JP Complete
+        id: 112771,
+        name: `アズエルのワイルドサンタ`,
+        translate: `Wild Santa Azuel`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heal all allies' HP by 2000. Increase allies' Fire resistance by 30% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ヴェナのモフモフサンタ - JP Complete
+        id: 112781,
+        name: `ヴェナのモフモフサンタ`,
+        translate: `Fluffy Santa Vena`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase allies' Magic resistance by 30% for 15s. Additionally when used for the first time, increase Leader's Arts by 50.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ルアーナのうさンタドレス - JP Complete
+        id: 112791,
+        name: `ルアーナのうさンタドレス`,
+        translate: `Luana's Bunny Dress`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 12000% Light DMG (Magic). Increase own Arts DMG by 50% and Light allies' DMG by 60% for 20s.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖紋剣『ホーリーマスター』 - JP Complete
+        id: 112801,
+        name: `聖紋剣『ホーリーマスター』`,
+        translate: `Holy Crest Sword 'Holy Master'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Light DMG (Magic). Reduce enemies' DMG resistance by 25% for 10s. If user is Light, reduce enemies' DMG resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //雪逢刃『スノーシティ』 - JP Complete
+        id: 112811,
+        name: `雪逢刃『スノーシティ』`,
+        translate: `Snow Aiming Blade 'Snow City'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Light DMG (Physical). Increase own Arts by 30. Increase own ATK by 50% for 10s. When used for the first time, increase own Arts by an additional 30.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
@@ -35512,12 +35689,42 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Increase target's Arts by 30. For 10s, increase target's ATK by 70% and reduce target's DMG RES by 30%.`,
+                skill: `35s CT - Increase target's Arts by 30. For 10s, increase target's ATK by 70% and reduce target's DMG resistance by 30%.`,
                 break: 0
             },
         passive: 
             {
-                ability1: `Increase own Poison RES by 10%.`
+                ability1: `Increase own Poison resistance by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //氷竜珠『エルスフィア』 - JP Complete
+        id: 112831,
+        name: `氷竜珠『エルスフィア』`,
+        translate: `Ice Dragon Sphere 'Elsphere'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112831.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - 2000% Water DMG (Magic). If user's HP is above 90%, for 35s, increase own Water DMG by 35% (Stackable).`,
+                break: 200
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG against Fire Enemies by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -47172,6 +47379,278 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `Missing Lore.`
+    },
+    { //真『魔王リムルの侍刀』 - JP Complete
+        id: 153841,
+        name: `真『魔王リムルの侍刀』`,
+        translate: `True 'Demon Lord Rimuru's Samurai Sword'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Dark DMG (Physical). Reduce enemies' Dark resistance by 30% for 10s. If user is Demon, reduce enemies' Dark resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Demon Lord Rimuru (New Years), increase own ATK and DMG by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『シュナの着物』 - JP Complete
+        id: 153851,
+        name: `真『シュナの着物』`,
+        translate: `True 'Shuna's Kimono'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153851.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 3/s for 10s. Additionally if user is Demon, increase all allies' Stats by 10% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Shuna (New Years), increase own MAX HP by 20%. Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //魔王リムルの侍刀 - JP Complete
+        id: 153861,
+        name: `魔王リムルの侍刀`,
+        translate: `Demon Lord Rimuru's Samurai Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 8000% Dark DMG (Physical). Reduce enemy's Physical resistance by 40% for 10s. If user is Demon, reduce enemies' Physical resistance by 60% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //魔王リムルの袴 - JP Complete
+        id: 153871,
+        name: `魔王リムルの袴`,
+        translate: `Demon Lord Rimuru's Hakama`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153871.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Arts by 2/s, all allies' ATK by 20% and Dark allies' ATK by an additional 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //魔王リムルのぬいぐるみ - JP Complete
+        id: 153881,
+        name: `魔王リムルのぬいぐるみ`,
+        translate: `Demon Lord Rimuru's Plushie`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153881.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' HP by 150/s for 20s. Additionally if user is Demon, increase all allies' Heal Amount by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シュナの着物 - JP Complete
+        id: 153891,
+        name: `シュナの着物`,
+        translate: `Shuna's Kimono`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153891.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase target's Magic resistance by 20% and Arts by 8/s for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シュナのアクセサリー - JP Complete
+        id: 153901,
+        name: `シュナのアクセサリー`,
+        translate: `Shuna's Accessories`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153901.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heal Light allies' HP by 300/s for 20s. Additionally when used for the first time, increase Leader's Arts by 50.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シュナのぬいぐるみ - JP Complete
+        id: 153911,
+        name: `シュナのぬいぐるみ`,
+        translate: `Shuna's Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153911.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 30. Increase Demon allies' DMG by 20% (Stackable) for 40s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //スライムリムルのぬいぐるみ - JP Complete
+        id: 153921,
+        name: `スライムリムルのぬいぐるみ`,
+        translate: `Stuffed Slime Rimuru Toy`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153921.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase all allies' Arts by 1/s and Water allies' Skill CT Speed by 50% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own Skill DMG by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 
