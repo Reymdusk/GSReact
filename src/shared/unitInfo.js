@@ -17838,7 +17838,7 @@ const UnitInformation = [
     { //Cestina - Complete, Review done + JP ver
         id: 102986312,
         name: "Cestina (Earth)",
-        rank: "A+",
+        rank: "A",
         twrequire: "favorable",
         attribute: "Earth",
         type: "God",
@@ -18086,7 +18086,7 @@ const UnitInformation = [
     { //Liza - Complete, Review done + JP ver
         id: 103006412,
         name: "Liza",
-        rank: "S",
+        rank: "A+",
         attribute: "Light",
         type: "God",
         image: 
@@ -24888,7 +24888,7 @@ const UnitInformation = [
         name: "Demon Edge Berwick",
         translate: "Sword Demon Berwick",
         attribute: "Fire",
-        rank: "A+",
+        rank: "A",
         twrequire: "reliance",
         type: "Demon",
         image: 
@@ -25294,7 +25294,7 @@ const UnitInformation = [
         name: "Long",
         attribute: "Water",
         type: "Demon",
-        rank: `S`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103556212.png",
@@ -26378,7 +26378,7 @@ const UnitInformation = [
         id: 103777112,
         name: `Halloween Charlotte`,
         translate: `Wild Side Charlotte`,
-        rank: `S`,
+        rank: `A+`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -26846,6 +26846,7 @@ const UnitInformation = [
         id: 103827212,
         name: `Ultimate Paladin Roy`,
         attribute: `Water`,
+        rank: `SSS`,
         type: `Human`,
         image: 
             {
@@ -31192,7 +31193,7 @@ const UnitInformation = [
         id: 107606312,
         name: "Fitoria",
         luckrank: "B",
-        rank: "S",
+        rank: "A+",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -35106,7 +35107,7 @@ const UnitInformation = [
         name: "Ainz",
         attribute: "Dark",
         type: "Demon",
-        rank: "SS",
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107696512.png",
@@ -35302,7 +35303,7 @@ const UnitInformation = [
         name: "Illya",
         attribute: "Light",
         type: "Human",
-        rank: "SS",
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107736412.png",
@@ -35834,7 +35835,7 @@ const UnitInformation = [
         name: `Saber Alter`,
         attribute: `Dark`,
         type: `Human`,
-        rank: `S`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107786512.png",
@@ -35935,7 +35936,7 @@ const UnitInformation = [
     { //Gabimaru - Complete, Review done
         id: 107797112,
         name: `Gabimaru`,
-        rank: `S`,
+        rank: `A+`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -36025,7 +36026,7 @@ const UnitInformation = [
         name: `Sagiri`,
         attribute: `Earth`,
         type: `Human`,
-        rank: `S`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107806312.png",
@@ -36659,7 +36660,7 @@ const UnitInformation = [
         id: 107867112,
         name: `Sunraku`,
         attribute: `Fire`,
-        rank: `SS`,
+        rank: `S`,
         luckrank: `SS`,
         type: `Human`,
         image: 
@@ -37261,7 +37262,7 @@ const UnitInformation = [
         name: `Uzu Sanageyama`,
         attribute: `Earth`,
         type: `Human`,
-        rank: `S`,
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107936312.png",
@@ -38255,6 +38256,7 @@ const UnitInformation = [
     { //Alpha - Missing Lore
         id: 108047412,
         name: `Alpha`,
+        rank: `S`,
         attribute: `Light`,
         type: `Spirit`,
         image: 
@@ -38337,6 +38339,7 @@ const UnitInformation = [
     { //Delta - Missing Lore
         id: 108067112,
         name: `Delta`,
+        rank: `S`,
         attribute: `Fire`,
         type: `Beast`,
         image: 
