@@ -26852,8 +26852,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103826212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103827212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_382_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103826212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103827212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103827212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_382_1.png"
             },
         slots: 
             {
