@@ -21020,7 +21020,7 @@ const UnitInformation = [
     },
     { //Hart (Earth) - Complete, Review done
         id: 103276312,
-        rank: "SS",
+        rank: "S",
         twrequire: "favorable",
         name: "Hart (Earth)",
         attribute: "Earth",
@@ -22716,7 +22716,7 @@ const UnitInformation = [
         id: 103426412,
         name: "Emperor Isliid",
         attribute: "Light",
-        rank: "SS",
+        rank: "S",
         type: "Human",
         image: 
             {
@@ -25450,7 +25450,7 @@ const UnitInformation = [
         name: "Priscilla (Valentines)",
         translate: "Valentines Priscilla",
         attribute: "Fire",
-        rank: "SS",
+        rank: "S",
         type: "Human",
         image: 
             {
@@ -26031,7 +26031,7 @@ const UnitInformation = [
         translate: `Wave Master Fen`,
         attribute: `Water`,
         type: `Human`,
-        rank: `A+`,
+        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103736212.png",
@@ -26290,7 +26290,7 @@ const UnitInformation = [
         translate: `Celia the Exalted`,
         attribute: `Light`,
         type: `Human`,
-        rank: `A+`,
+        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103766412.png",
@@ -36207,7 +36207,7 @@ const UnitInformation = [
         name: `Chobe`,
         attribute: `Light`,
         type: `Human`,
-        rank: `S`,
+        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107826412.png",
@@ -37760,7 +37760,7 @@ const UnitInformation = [
     { //Summer Chloe - Missing Lore
         id: 107997412,
         name: `Summer Chloe`,
-        rank: `SS`,
+        rank: `S`,
         attribute: `Light`,
         type: `Human`,
         image: 
