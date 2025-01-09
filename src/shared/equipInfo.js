@@ -47651,6 +47651,248 @@ const EquipInformation = [
                 ability1: `Increase own Skill DMG by 10%.`
             },
         lore: `Currently unreleased in Global.`
+    },
+    { //真『ヴェルドラのマント』 - JP Complete
+        id: 153931,
+        name: `真『ヴェルドラのマント』`,
+        translate: `True 'Veldora's Cloak'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Earth DMG (Magic). Increase own Magic DMG by 50% for 10s. Additionally if user is Earth, increase own ATK by 50% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Veldora, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『シズの剣』 - JP Complete
+        id: 153941,
+        name: `真『シズの剣』`,
+        translate: `True 'Shizu's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Fire DMG (Physical). Reduce enemies' DMG resistance by 20% for 10s. If user is Fire, reduce enemies' DMG resistance by an additional 10%. If user is Human, reduce enemies' DMG resistance by an additional 10%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Shizu, increase own DMG, Heal Amount, and HP Recovery Amount by 30% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ヴェルドラのマント - JP Complete
+        id: 153951,
+        name: `ヴェルドラのマント`,
+        translate: `Veldora's Cloak`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 3000% Earth DMG (Magic). For 20s, reduce enemies' Earth resistance by 20% (stackable).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ヴェルドラの手袋 - JP Complete
+        id: 153961,
+        name: `ヴェルドラの手袋`,
+        translate: `Veldora's Gloves`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Magic resistance by 30% for 20s. If user is not Human, God or Demon, increase all allies' Magic resistance by 45% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シズの剣 - JP Complete
+        id: 153971,
+        name: `シズの剣`,
+        translate: `Shizu's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Fire DMG (Physical). Increase Fire allies' BE Output by 50% for 12s. When used for the first time, increase Fire allies' BE Output by 80% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シズの服 - JP Complete
+        id: 153981,
+        name: `シズの服`,
+        translate: `Shizu's Clothes`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7000% Fire DMG (Magic). 100% chance to Burn enemies for 10s. If enemy was Burned by this equip, reduce enemy's Magic resistance by 40% for 10s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //シズのぬいぐるみ - JP Complete
+        id: 153991,
+        name: `シズのぬいぐるみ`,
+        translate: `Shizu Plushie`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_153990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_153991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_153990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_153991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Fire DMG (Magic). Increase own Magic DMG by 60% for 12s. When used for the first time, increase own Arts by 50. Additionally if user is Fire and when used for the first time, increase own Arts by 100 instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ヴェルドラのぬいぐるみ - JP Complete
+        id: 154001,
+        name: `ヴェルドラのぬいぐるみ`,
+        translate: `Veldora Plushie`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Earth DMG (Physical). Increase own Skill CT Speed by 20% for 10s. If user is Earth, increase own Skill CT Speed by 40% instead.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 

@@ -2615,6 +2615,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 80,
+        date: `January 9, 2025`,
+        article: 
+        {
+            intro: `Part 2 of the Tensura Collab rerun has been released, alongside Veldora and Shizu with a variety of new equips! Meanwhile on Global, a Shangri-La Collab rerun has been announced with buffs for the 4 existing Collab units!`,
+            new:
+                {
+                    units: [
+                        [`Veldora`, 108097312],
+                        [`Shizu`, 108107112]
+                    ],
+                    equips: [
+                        [`真『ヴェルドラのマント』`, 153931],
+                        [`真『シズの剣』`, 153941],
+                        [`ヴェルドラのマント`, 153951],
+                        [`ヴェルドラの手袋`, 153961],
+                        [`シズの剣`, 153971],
+                        [`シズの服`, 153981],
+                        [`シズのぬいぐるみ`, 153991],
+                        [`ヴェルドラのぬいぐるみ`, 1540001],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
