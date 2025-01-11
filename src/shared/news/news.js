@@ -2636,7 +2636,33 @@ const NewsArticles = [
                         [`シズの剣`, 153971],
                         [`シズの服`, 153981],
                         [`シズのぬいぐるみ`, 153991],
-                        [`ヴェルドラのぬいぐるみ`, 1540001],
+                        [`ヴェルドラのぬいぐるみ`, 154001],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
+    },
+    {
+        id: 81,
+        date: `January 11, 2025`,
+        article: 
+        {
+            intro: `Small update this time on JP as 5 new equips have been released, obtainable from tickets from the regularly recurring Human Ruins.`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`渇望の杖『オウンサースト』`, 112841],
+                        [`人族史書『ロストピア』`, 112851],
+                        [`合理の剣『アンダーマキナ』`, 112861],
+                        [`叡智の薬瓶『オッドマーク』`, 112871],
+                        [`静寂の兜『ウィルシード』`, 112881]
                     ],
                     dream: []
                 },

@@ -35728,6 +35728,156 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //渇望の杖『オウンサースト』 - JP Complete
+        id: 112841,
+        name: `渇望の杖『オウンサースト』`,
+        translate: `Staff of Desire 'Own Thirst'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 5000% Dark DMG (MAG). If enemy is God or Demon, reduce enemy's DMG RES by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //人族史書『ロストピア』 - JP Complete
+        id: 112851,
+        name: `人族史書『ロストピア』`,
+        translate: `Book of Human History 'Lostopia'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112851.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts by 25. Increase all allies' DMG against Gods and Demons by 40% for 13s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //合理の剣『アンダーマキナ』 - JP Complete
+        id: 112861,
+        name: `合理の剣『アンダーマキナ』`,
+        translate: `Sword of Reason 'Under Machina'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Fire DMG (PHY). Increase own DMG against God and Demon enemies by 80% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //叡智の薬瓶『オッドマーク』 - JP Complete
+        id: 112871,
+        name: `叡智の薬瓶『オッドマーク』`,
+        translate: `Vials of Wisdom 'Odd Mark'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112871.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' HP by 3000. Allies heal for 10% of DMG Taken from Gods and Demons for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },  
+    { //静寂の兜『ウィルシード』 - JP Complete
+        id: 112881,
+        name: `静寂の兜『ウィルシード』`,
+        translate: `Silent Helmet 'Will Seed'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `35s CT - Reduce all allies' DMG Taken from Gods and Demons by 30% for 13s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
