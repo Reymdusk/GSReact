@@ -24964,7 +24964,7 @@ const UnitInformation = [
                 evosuper: "A soldier from Granadia who wields Zanketsu, a memento of his late captain. He encountered Rosetta while searching for the World Drops, and she shared her desire to revive Leone with their power. He then argued it was more important to carry on the will of the departed rather than try to bring them back. By turning his blade even upon comrades to protect what he valued most, he proved both Vox and his swordplay lived on."
             }
     },
-    {
+    { // Kokuri - Complete
         id: 103537112,
         name: `Kokuri`,
         attribute: `Fire`,
@@ -25039,11 +25039,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `One of the Demons thrust into Raktehelm after the Great Seal's removal. Wandering the land aimlessly, she was kidnapped by a slave trader and sold off to be a spectacle in a show. She was forced to fight monsters to entertain onlookers before a passing Mizuki saved her and brought her to Imari. While the Humans viewed Demons as inherently evil, Kokuri's compassion gradually moved their rigid hearts.`,
+                evosuper: `A Demon enslaved by a cruel troupe who was rescued by the shinobi Mizuki and harbored the soul of the evil apparition Ugetsu. That same great specter would manifest in times of peril and distress. Their connection may be made clear as the shinobi pave their way into a new future.`
             }
     },
-    { // Hazuki - Missing Lore (GL)
+    { // Hazuki - Complete
         id: 103547412,
         name: "Hazuki",
         attribute: "Light",
@@ -25118,8 +25118,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Shinobi of Imari Village and younger sister to its current leader, Mizuki the Twelfth, though details of their relation are known only to Hakuro. The string of mysterious deaths that occurred on the day of her birth branded her as a cursed child. The villagers' faint but persistent distrust also took its toll, changing her into a truly cold killer.`,
+                evosuper: `A shinobi known as the "Shinigami of Imari". Details surrounding her ancestry are cloudy at best. Her emotional development was choked by Hakuro's strict instruction, leaving her void of empathy and individuality. While these cold-blooded qualities made her into an ideal shinobi, they have become a curse in the new age dawning upon the world. `
             }
     },
     { // Sublime Supernova Liza - Missing Lore
@@ -25289,7 +25289,7 @@ const UnitInformation = [
                 evosuper: `After dueling with the oldest sister again, she identified the emotion deep inside her heart. She was daunted but not discouraged in the least. That frustration was pure, always driving her to improve, to surpass any challenge. Her hands gripped harder. Her attacks grew stronger. Her heart burned redder, hotter, fiercer. She regained her old self-confidence.`
             }
     },
-    { // Long - Missing Lore
+    { // Long - Complete
         id: 103557212,
         name: "Long",
         attribute: "Water",
@@ -25364,8 +25364,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `One of the Demons thrust into Raktehelm after the Great Seal's removal. Although his bloody rampages have brought many a Human city to the brink of despair, no record of him from the Ancient War exists. That explanation may lie in the pale blue magic that causes his long hair to dance like a dragon.`,
+                evosuper: `A Demon coming to the fore of the chaotic world resulting from the Great Seal's destruction. The tears he sheds in admiration of virtue is juxtaposed by his own cruel and murderous actions - a trait believed to stem from treatment as a weakling during his youth. Unable to form meaningful bonds with others, he indiscriminately carves a road of ruin.`
             }
     },
     { // Miranda (Valentines) - Complete
@@ -25522,7 +25522,7 @@ const UnitInformation = [
                 evosuper: `"If I'm afraid of getting hurt, I'll never succeed!" Miranda's talk with Priscilla steeled her resolve. Even if the road was fraught with thorns, even if her enemy was as foreboding as a game's final boss, she would forge ahead with full force. She would proudly share her precious feelings with her precious friend. Miranda was a role model, but she was also her H(e)art's rival.`
             }
     },
-    { // Aristela Orbis - Missing Lore
+    { // Aristela Orbis - Complete
         id: 103687212,
         name: "Aristela Orbis",
         attribute: "Water",
@@ -25597,8 +25597,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `A Spirit battle sorceress skilled in healing magic. One of her greatest tales is of how she singlehandedly subdued two Giant brothers in their own lair. With her confident smile and culinary talent, she put their minds at ease and became hired as a cook. However, she soothed more than their minds with her first meal; their bodies relaxed until they could not stand. She had employed her usual method: slipping a sleep-inducing concoction mixed into the food.`,
+                evosuper: `She brought the tamed Giants along to seal away the World-Devouring Monster. Despite her reputation as the "Annihilation Witch" for being able to destroy tangible and intangible objects, there were a few things she could not, like the bonds with her two allies. Although she warmly mentioned this truth, her biographer noticed the Giants' pained reaction to it.`
             }
     },
     { // Demon Lord Vox - Complete
@@ -26284,7 +26284,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Goddess Celia - Missing Lore
+    { //Goddess Celia - Complete
         id: 103767412,
         name: `Goddess Celia`,
         translate: `Celia the Exalted`,
@@ -26370,8 +26370,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Bamint's first princess, imprisoned for treason, used Batiste of the imperial Zero Guard to escape. She then traveled to the continent of Iscator to defeat Emperor Isliid before he annihilated Raktehelm with the World Drops. Although she helped Rayas to that end, her ultimate goal was unchanged: to establish world peace as an omnipotent ruler.`,
+                evosuper: `Ancient blood gave her the power of command. Known as the D-Factor, it materializes residual thoughts of the warfallen as her servants. Bitterness, vengeance, jealousy, cunning, devotion, treason, resentment, self-destruction, smothering, ruin, returning to bitterness -- In order to end this foul cycle and prevent further tragedy, her sword and her orders lead swift and sure.`
             }
     },
     { //Halloween Charlotte - Complete + JP ver
@@ -26659,7 +26659,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Isliid, Human Pinnacle - Missing Lore
+    { //Isliid, Human Pinnacle - Complete
         id: 103807412,
         name: "Isliid, Human Pinnacle",
         attribute: "Light",
@@ -26758,11 +26758,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Reigns over the empire of Isliid. The four Human kings confined one half of him behind the Great Seal, but he destroyed it with the Imperial Blades to become complete once more. Having regained his immense strength at long last, he yet remained on Iscator. Rayas is unsure of what he plans to do, but intuition tells him something of fathomless enormity will unfold.`,
+                evosuper: `His compete form, exceeding the limits of fate itself. Nirshanal's Orb - able to perceive magic, Prima Ether, and thoughts -- along with Rune Sovereign - able to cut through matter, time, space, events, and consequence - have made him omnipotent, a miracle he spared nothing to accomplish. Seeing the planet's orbit with the Orb and using the Crest Blade as a key, he is prepared to open a path into the new world.`
             }
     },
-    { //Anti-Heroine Pola - Missing Lore
+    { //Anti-Heroine Pola - Complete
         id: 103817312,
         name: `Anti-Heroine Pola`,
         translate: `Evil Pola`,
@@ -26838,8 +26838,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `One of the Great Six Witches of Grimm Stella. She has the ability to transform her body and heart at will. Although this caused even that master author great difficulty in portraying her accurately, he still managed to make readers feel like they were in her shoes from beginning to end. She is always the focus, charisma on full display, whether in humor or tragedy.`,
+                evosuper: `Took advantage of her malleability to indulge in a new obsession: sword-fighting. The strength of her conviction translates directly into actual power. She is also adorable enough to catch the eyes and excite the heart of anyone and everyone. That is largely the effects of magic at work, but her natural charm means less need to rely on her mystical charm.`
             }
     },
     { //Ultimate Paladin Roy - Missing Lore
@@ -37191,7 +37191,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Uzu Sanageyama - Missing Lore
+    { //Uzu Sanageyama - Complete
         id: 107937312,
         name: `Uzu Sanageyama`,
         attribute: `Earth`,
@@ -37270,8 +37270,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `A member of the Honnouji Academy's Elite Four who oversees all of the athletic clubs. No one else in the school can touch him with his kendo mastery. Satsuki defeated him soundly three years ago, but he believes that he has trained enough since then to beat her as she was then.`,
+                evosuper: `Empowered by defeat, he gains further strength from his custom Goku Uniform, the Blade Regalia. All of his senses besides sight are honed razor-sharp, granting him Shingantsu which allows for instant reactions. When fighting Ryuko a second time, he overwhelmed her with his improved abilities, techniques, and resolve.`
             }
     },
     { //Houka Inumuta - Missing Lore
@@ -37357,7 +37357,7 @@ const UnitInformation = [
                 evosuper: `Missing Lore.`
             }
     },
-    { //Ira Gamagoori - Missing Lore
+    { //Ira Gamagoori - Complete
         id: 107957512,
         name: `Ira Gamagoori`,
         attribute: `Dark`,
@@ -37436,11 +37436,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `A member of the Honnouji Academy's Elite Four, chair of the disciplinary committee. His towering build daunts opponents. When Satsuki defeated him five years ago, he swore absolute loyalty to her. She gladly accepted, impressed by his inexhaustible determination.`,
+                evosuper: `Honnouji Academy's disciplinary leader in his personal Goku Uniform. It has two forms: the Shackle Regalia built for defense, and the Scourge Regalia which returns all inflicted attacks through a storm of whips. Tough in body and spirit, he laughs even when under fierce enemy assault.`
             }
     },
-    { //Nonon Jakuzure - Missing Lore
+    { //Nonon Jakuzure - Complete
         id: 107967412,
         name: `Nonon Jakuzure`,
         attribute: `Light`,
@@ -37519,11 +37519,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `A member of the Honnouji Academy's Elite Four, overseeing the cultural clubs. As Satsuki's classmate since kindergarten, she is convinced no one understands her better. The other Elite Four members are tied to her by loyalty, but their tie is more akin to friendship.`,
+                evosuper: `Infamous among the academy students for her hostile attitude. She wears a Goku Uniform that can transform into the enormous Grave mode, the airborne Presto mode, or the relatively simple Da Capo mode. This last one releases powerful sound waves from her shako-style hat. It was how she manipulated Ryuko's Life Fibers to gain an advantage.`
             }
     },
-    { //Summer Illya - Missing Lore
+    { //Summer Illya - Complete
         id: 107977212,
         name: `Summer Illya`,
         attribute: `Water`,
@@ -37602,8 +37602,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Illyasviel von Einzbern, an average elementary school girl. That was until Magical Ruby, a Kaleidostick, tricked her into making a contract to became a magical girl. In place of her proper owner Rin Tohsaka, she sets out to recover the Class Cards. Now, she's back in a swimsuit! Summer means a beach vacation!`,
+                evosuper: `Magical Girl Kaleid Liner Prisma Illya, alter ego of Illyasviel von Einzbern, in her beach-ready form. She bought this swimsuit with her friends from school. Since children are not allowed to play in the water unsupervised, her (actually Miyu's) beloved older brother Shirou joins them.`
             }
     },
     { //Summer Miyu - Missing Lore
@@ -37689,7 +37689,7 @@ const UnitInformation = [
                 evosuper: "The God Child from a parallel world to Illya’s. With the power to freely grant the wishes of others, she tries to save her home. However, summer vacation isn’t the time to worry about major crises like that!"
             }
     },
-    { //Summer Chloe - Missing Lore
+    { //Summer Chloe - Complete
         id: 107997412,
         name: `Summer Chloe`,
         rank: `S`,
@@ -37768,11 +37768,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Identical to Illya except for her tanned skin and mischievous nature. She causes a lot of trouble at school stealing kisses from the girls. The others have a hard time telling if she is friend or foe at times. Now, she's back in a swimsuit! No one's mana is safe from her!`,
+                evosuper: `Nicknamed "Kuro". Her true identity is a power sealed within Illya given physical form. Although once at odds with Illya, they recently became friends. At this point, she has made herself at home at the Einzbern estate and even grown close enough to join her on the beach.`
             }  
     },
-    { //Summer Bazett - Missing Lore
+    { //Summer Bazett - Complete
         id: 108007212,
         name: `Summer Bazett`,
         attribute: `Water`,
@@ -37851,8 +37851,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `The first one ordered to gather the Class Cards. A master of hand-to-hand combat, she overpowered Illya's group largely using her fists alone. This so-called "Berserker Woman" makes her Grand Summoners debut in a swimsuit!`,
+                evosuper: `After losing to Illya and her friends, she ended up homeless in Japan. She currently peddles ice pops for Gakumazawa Beach House wearing their swimsuit-and-apron uniform, taking advantage of tourists by selling them at 300 yen apiece.`
             }  
     },
     { //Summer Luvia & Rin - Missing Lore
@@ -38021,7 +38021,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Shadow - Missing Lore
+    { //Shadow - Complete
         id: 108037512,
         name: `Shadow`,
         rank: `SS`,
@@ -38100,11 +38100,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `Cid Kagenou, the unremarkable second child of rural nobility. No one knew that beneath his average appearance and average abilities, he was the leader of Shadow Garden, a secret organization. Keeping his real name hidden, he fights against the Cult of Diablos' machinations...or so he imagined.`,
+                evosuper: `Determined to become a shadowbroker. someone who manipulates events behind the scenes, he trained his mind and body to their peak. An impulsive accident caused him to be reincarnated in another world where swords and magic were commonplace. They let him take advantage of the efforts from his previous life and realize his ambitions. However, he did not know his invented foe actually existed.`
             }
     },
-    { //Beta - Missing Lore
+    { //Beta - Complete
         id: 108057212,
         name: `Beta`,
         rank: `SSS`,
@@ -38183,8 +38183,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `The second member of the Seven Shadows, overseers of Shadow Garden. An elf proud of her silver hair, blue eyes, beauty mark, and most of all, her leader. She follows him around and keeps record of his exploits, titled "The Chronicles of Master Shadow".`,
+                evosuper: `The public knows her as Natsume Kafka, a hit author. She takes advantage of that fame to gather intel for Shadow Garden. However, her works are no more than shameless copies of the stories Cid shared with her.`
             }
     },
     { //Alpha - Missing Lore
@@ -38270,7 +38270,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Delta - Missing Lore
+    { //Delta - Complete
         id: 108067112,
         name: `Delta`,
         rank: `S`,
@@ -38349,8 +38349,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: `The fourth member of the Seven Shadows of Shadow Garden. The strongest among them, her gifts as a canine therianthrope make her a beastly warrior in every sense of the term: high offense, low intelligence.`,
+                evosuper: `The daughter of a tribal chief, she was exiled after becoming one of the Possessed. Shadow then saved her, and she calls him "Bossman" out of appreciation. He greatly values her talents, saying she could even rule the world were she not so scatter-brained.`
             }
     },
     { //Demon Lord Rimuru (New Years) - JP Missing Lore
