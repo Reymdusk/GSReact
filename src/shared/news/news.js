@@ -2673,6 +2673,28 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 82,
+        date: `January 18, 2025`,
+        article: 
+        {
+            intro: `Small update on JP with a new Mines boss and new equip!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`絶耀具『マグナヘリオス』`, 112891]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

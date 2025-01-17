@@ -35749,7 +35749,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 5000% Dark DMG (MAG). If enemy is God or Demon, reduce enemy's DMG RES by 30% for 10s.`,
+                skill: `55s CT - 5000% Dark DMG (Magic). If enemy is God or Demon, reduce enemy's DMG resistance by 30% for 10s.`,
                 break: 500
             },
         passive: 
@@ -35809,7 +35809,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8000% Fire DMG (PHY). Increase own DMG against God and Demon enemies by 80% for 10s.`,
+                skill: `50s CT - 8000% Fire DMG (Physical). Increase own DMG against God and Demon enemies by 80% for 10s.`,
                 break: 800
             },
         passive: 
@@ -35875,6 +35875,36 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //絶耀具『マグナヘリオス』 - JP Complete
+        id: 112891,
+        name: `絶耀具『マグナヘリオス』`,
+        translate: `Shining Tool 'Magna Helios'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 4000% Light DMG (Magic). Reduce all allies' and enemies' Status resistance by 30%, and increase own DMG against enemies with Status ailment(s) by 40% for 10s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic resistance by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
