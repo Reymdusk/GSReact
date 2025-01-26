@@ -33970,10 +33970,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //綺想箒『エトワールV』 - JP Complete
+    { //Silk Loving Broom 'Etoile V' - Missing Lore
         id: 112261,
-        name: `綺想箒『エトワールV』`,
-        translate: `Beautiful Broom 'Etoile V'`,
+        name: `Silk Loving Broom 'Etoile V'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33998,7 +33997,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //焔竜兜『デグルロア』 - JP Complete
         id: 112271,

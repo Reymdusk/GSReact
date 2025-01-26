@@ -2695,6 +2695,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 83,
+        date: `January 25, 2025`,
+        article: 
+        {
+            intro: `New Valentines units have made their debut on Global, along with a new Valentines farmable equip too!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Liza (Valentines)`, 103857312],
+                        [`Cestina (Valentines)`, 103867212],
+                    ],  
+                    equips: [
+                        [`Silk Loving Broom 'Etoile V'`, 112261]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

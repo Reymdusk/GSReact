@@ -27090,18 +27090,20 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Liza (Valentines) - Missing Lore (JP)
+    { //Liza (Valentines) - Missing Lore
         id: 103857312,
         name: `Liza (Valentines)`,
-        translate: `Valentines Liza`,
+        translate: `Cute Confectioner Liza`,
         attribute: `Earth`,
         type: `God`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103856312.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103857312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_385_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103856312.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103857312.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103857312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_385_1.png"
             },
         slots: 
             {
@@ -27137,6 +27139,14 @@ const UnitInformation = [
             {
                 ability1: `Increase own Burn RES by 80%.`,
                 ability2: `When Near-death, increase own DMG RES by 20%.`,
+                ability3: `When self is Leader, increase all allies' HP Recovery by 20% for 100s. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Liza's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Liza's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase own Burn RES by 80%.`,
+                ability2: `When Near-death, increase own DMG RES by 20%.`,
                 ability3: `When self is Leader, increase all allies' HP Recovery by 20% for 100s. Does not stack with Abilities of the same name.`
             }, 
         evolution: 
@@ -27152,22 +27162,24 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Cestina (Valentines) - Missing Lore (JP)
+    { //Cestina (Valentines) - Missing Lore
         id: 103867212,
         name: `Cestina (Valentines)`,
-        translate: `Valentines Cestina`,
+        translate: `Pretty Patissière Cestina`,
         attribute: `Water`,
         type: `God`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103866212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103867212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_386_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103866212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103867212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103867212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_386_1.png"
             },
         slots: 
             {
@@ -27203,6 +27215,14 @@ const UnitInformation = [
             {
                 ability1: `Increase Paralysis RES by 100%.`,
                 ability2: `When Near-death, increase own Arts by 6/s.`,
+                ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Cestina's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Cestina's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase Paralysis RES by 100%.`,
+                ability2: `When Near-death, increase own Arts by 6/s.`,
                 ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`
             }, 
         evolution: 
@@ -27218,8 +27238,8 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Lark - Missing Lore (JP)
