@@ -38472,7 +38472,7 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 6,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
