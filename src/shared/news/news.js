@@ -2720,6 +2720,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 84,
+        date: `February 6, 2025`,
+        article: 
+        {
+            intro: `Star Swordswoman Rosetta makes her debut with a new Main Story chapter and new equips! Meanwhile on Global, Hart the Fabricator alongside Chapter 28 has been released!`,
+            new:
+                {
+                    units: [
+                        [`Star Swordswoman Rosetta`, 104087212]
+                    ],
+                    equips: [
+                        [`真『7thアルテミス』`, 112901],
+                        [`星章剣『7thアルテミス』`, 112911],
+                        [`星翔衣『アルペンステラ』`, 112921],
+                        ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Hart the Fabricator`, 103847512],
+                    ],  
+                    equips: [
+                        [`True 'Asgard's Casket'`, 112201],
+                        [`Asgard's Casket`, 112211],
+                        [`Ritual Greaves 'Blenfate'`, 112221]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

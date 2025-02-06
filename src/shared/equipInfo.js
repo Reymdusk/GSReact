@@ -33789,10 +33789,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『アスガルドの柩』 - JP Complete
+    { //True 'Asgard's Casket' - Missing Lore
         id: 112201,
-        name: `真『アスガルドの柩』`,
-        translate: `True 'Coffin of Asgard'`,
+        name: `True 'Asgard's Casket'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33818,12 +33817,11 @@ const EquipInformation = [
                 ability1: `When equipped by Fictional Mage Hart, increase own Arts by 100 at start of quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アスガルドの柩 - JP Complete
+    { //Asgard's Casket - Missing Lore
         id: 112211,
-        name: `アスガルドの柩`,
-        translate: `Coffin of Asgard`,
+        name: `Asgard's Casket`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33848,12 +33846,11 @@ const EquipInformation = [
             {
                 ability1: `Reduce own DMG resistance by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //古礼靴 『ブレンフェイト』 - JP Complete
+    { //Ritual Greaves 'Blenfate' - Missing Lore
         id: 112221,
-        name: `古礼靴 『ブレンフェイト』`,
-        translate: `Traditional Shoes 'Brain Fate'`,
+        name: `Ritual Greaves 'Blenfate'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33878,7 +33875,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //火竜神の剣 - JP Complete
         id: 112231,
@@ -35904,6 +35901,97 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Magic resistance by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『7thアルテミス』 - JP Complete
+        id: 112901,
+        name: `真『7thアルテミス』`,
+        translate: `True '7th Artemis'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 8000% Water DMG (Magic). Increase own CRI DMG by 50% for 10s. If user is Water, increase own CRI DMG by 100% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `When equipped by Star Swordswoman Rosetta, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //星章剣『7thアルテミス』 - JP Complete
+        id: 112911,
+        name: `星章剣『7thアルテミス』`,
+        translate: `Star Sword '7th Artemis'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 12000% Water DMG (Magic). Increase own Magic DMG by 50% for 12s. Additionally if user is Water, increase own stats by 30% for 12s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Reduce own Status resistance by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //星翔衣『アルペンステラ』 - JP Complete
+        id: 112921,
+        name: `星翔衣『アルペンステラ』`,
+        translate: `Star Costume 'Alpine Stella'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4000% Water DMG (Magic). If enemy is God, reduce enemies' Water resistance by 25% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own MAX HP by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
