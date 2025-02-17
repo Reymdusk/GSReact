@@ -4855,7 +4855,7 @@ const UnitInformation = [
                 evoawk: "A machine gunner with the Demonic Warrior in her sights, locked and loaded, is out for revenge. The strong-willed shooter needs to team up with the Beast Martial Artist and hone her technique. Unaware of her ebbing endurance, she slowly ripped herself apart in battle. Right before her functions halted, the Beast combatant bested the Demon with his martial prowess. After exacting her revenge, fading in and out of consciousness, she cried for the first time in her life."
             }
     },
-    { //Saar - Complete
+    { //Saar - Complete + JP ver
         id: 101236212,
         name: "Saar",
         rank: "C",
@@ -4879,6 +4879,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 6504,
@@ -4894,7 +4903,16 @@ const UnitInformation = [
                 skillbreak: 900,
                 arts: "12000% Water DMG (PHY). Permanently increase DMG and Critical Rate by 20% (Up to 100%).",
                 artsbreak: 1950,
-                truearts: "28000% Water DMG (PHY). For 15s, increase own Skill CT REC and Critical DMG by 100%.",
+                truearts: "28000% Water DMG (PHY). For 15s, increase own Skill CT Speed and CRI DMG by 100%.",
+                trueartsbreak: 3500
+            },
+        skillsetJP: 
+            {
+                skill: "6s CT - 1750% Water DMG (PHY). Increase own Arts by 20. If this Skill crits, reduce Enemies' accuracy by 30% for 5s.",
+                skillbreak: 900,
+                arts: "21000% Water DMG (PHY). Permanently increase DMG and Critical Rate by 20% (Up to 200%).",
+                artsbreak: 1950,
+                truearts: "55000% Water DMG (PHY). For 20s, increase own Skill CT Speed and CRI DMG by 150%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -4902,6 +4920,40 @@ const UnitInformation = [
                 ability1: "Increase MAG RES by 20%.",
                 ability2: "Increase PHY evasion by 30%."
             }, 
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                        mat3amt: 2,
+                        hover3: "Geo Zagnus",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG agianst Fire enemies by 75%.`,
+                        ability2: `When own HP is above 80%, increase own Arts by 3/s.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 2,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase Beast allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase allies' MAX HP by 10%. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo45:
@@ -4931,7 +4983,7 @@ const UnitInformation = [
                 evoawk: "Some time after putting a stop to the battle between the witch and the musketeers, Saar saw that blacksmith to whom he owed so much was feuding with the mysterious Demons. When he rushed to the battlefield and learned the truth behind their conflict, Saar's searing rage awakened the slumbering powers of his dual heritage. The witch and musketeers joined the fight against the demons, but the blacksmith fell at the height of the battle protecting Saar. Entrusted with the smith's legacy and with a mighty roar, Saar now unleashes secret Dragon techniques in his war against the Demons and their schemes."
             }
     },
-    { //Pola - Complete
+    { //Pola - Complete + JP ver
         id: 101246312,
         name: "Pola",
         rank: "C",
@@ -4949,6 +5001,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -4973,6 +5034,15 @@ const UnitInformation = [
                 truearts: "20200% Earth DMG (PHY). Heal own HP by 3% of DMG dealt by own True Arts + For 20s, reduce Enemies' Paralysis and Poison RES by 35%.",
                 trueartsbreak: 3750
             },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2280% Earth DMG (PHY). 25% chance to inflict Paralysis for 3s. Increase own Arts by 15.",
+                skillbreak: 1250,
+                arts: "20000% Earth DMG (PHY). 100% chance to inflict Poison for 15s. Increase DMG of Poison based on Enemies' HP.",
+                artsbreak: 2100,
+                truearts: "38000% Earth DMG (PHY). Heal own HP by 3% of DMG dealt by own True Arts + For 20s, reduce Enemies' Paralysis and Poison RES by 40%.",
+                trueartsbreak: 3750
+            },
         passive: 
             {
                 ability1: "Increase Water RES by 50%.",
@@ -4980,6 +5050,39 @@ const UnitInformation = [
                 ability3: "Heal own HP by 10/s.",
                 ability4: "Increase accuracy by 30% against Paralyzed or Poisoned Enemies. Does not stack with Abilities of the same name."
             }, 
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                        mat3amt: 2,
+                        hover3: "Ifrit",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts DMG against Poisoned/Paralyzed enemies by 200%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Paralysis RES by 50%.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo45:
@@ -5015,7 +5118,7 @@ const UnitInformation = [
                 evoawk: "Her protector is a half-Beast half-Demon youth who saved her on a whim. She was completely dumbfounded by this, but she used her special plant based defensive magic to protect an overwhelmed automaton that had changed its target to the Demons. Until then, their only choice had been to fight alongside their enemy. And for some reason, this helped her power grow far beyong her previous limits. No one knows how the battle ended or what happened to her later, but the name Witch of Funeral Flowers never appeared in the histories again."
             }
     },
-    { //Leon - Complete
+    { //Leon - Complete + JP ver
         id: 101256512,
         name: "Leon",
         rank: "C",
@@ -5033,6 +5136,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -5057,11 +5169,54 @@ const UnitInformation = [
                 truearts: "30000% Dark DMG (MAG). For 13s, increase Dark Allies' Arts by 2/s, and Demon Allies' DMG by 30%.",
                 trueartsbreak: 2800
             },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1800% Dark DMG (MAG). 15% chance to inflict Blind for 8s.",
+                skillbreak: 2000,
+                arts: "20000% Dark DMG (MAG). 100% chance to inflict Blind for 8s. For 20s, reduce Enemies' ATK and DEF by 30%.",
+                artsbreak: 2600,
+                truearts: "50000% Dark DMG (MAG). For 15s, increase Dark Allies' Arts by 3/s, and Demon Allies' DMG by 100%.",
+                trueartsbreak: 2800
+            },
         passive: 
             {
                 ability1: "Increase Curse RES by 30%.",
                 ability2: "Increase Disease RES by 30%."
             }, 
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase own Disease RES by 100%.`,
+                        ability2: `Increase own DMG against God enemies by 200%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Increase own Curse RES by 100%.`,
+                        ability2: `Increase Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo45:
@@ -10221,7 +10376,7 @@ const UnitInformation = [
                 evoawk: "The only family who shared her late father's memory had became mad with power. Looking at the deranged beast, she recalled the past and realized the least she could do for her former guardian was grant him a swift death. The dancer drew her sword in resignation, but the mage who accompanied her managed to restore his mind first. Although she never spoke of what happened to him afterwards, she took his spirit to heart and continued in her efforts to liberate the country."
             }
     },
-    { //Rohst - Complete
+    { //Rohst - Complete + JP ver
         id: 101996511,
         name: "Rohst",
         attribute: "Dark",
@@ -10239,6 +10394,15 @@ const UnitInformation = [
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 6,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
@@ -10261,11 +10425,48 @@ const UnitInformation = [
                 truearts: "15500% Dark DMG (PHY). For 9s, Allies heal their HP by 4% of their DMG dealt.",
                 trueartsbreak: 3000
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1900% Dark DMG (PHY). Heal Dark allies HP by 800.",
+                skillbreak: 700,
+                arts: "15000% Dark DMG (PHY). For 10s, increase Allies' DMG by 50% and Dragon Allies' DMG by an additional 80%.",
+                artsbreak: 1800,
+                truearts: "40000% Dark DMG (PHY). For 12s, Allies heal their HP by 4% of their DMG dealt.",
+                trueartsbreak: 3000
+            },
         passive: 
             {
                 ability1: "Increase DMG to Demon Enemies by 40%.",
                 ability2: "Increase Dragon Allies' stats by 15%."
             }, 
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160455.png`,
+                        mat2amt: 100,
+                        hover2: `Rohst Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase Dragon allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase allies' DMG against Demon enemies by 50%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160455.png`,
+                        mat2amt: 100,
+                        hover2: `Rohst Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase allies' Dark RES by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `When own HP is above 80%, increase own Arts by 2/s.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo5awk:
@@ -10278,6 +10479,19 @@ const UnitInformation = [
                     mat3amt: 20,
                     hover3: "Rohst",
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Dragon Age",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_112991.png",
+                skill: "65s CT - 8000% Dark DMG (PHY). For 10s, increase own DMG by 40% and own DMG against Demon enemies by an additional 40%.",
+                skillbreak: 400,
+                passive: 
+                    {
+                        ability1: "When equipped by Rohst, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Equip CT Speed by 5%."
+                    }
             },
         lore: 
             {   
@@ -25368,7 +25582,7 @@ const UnitInformation = [
                 evosuper: `A Demon coming to the fore of the chaotic world resulting from the Great Seal's destruction. The tears he sheds in admiration of virtue is juxtaposed by his own cruel and murderous actions - a trait believed to stem from treatment as a weakling during his youth. Unable to form meaningful bonds with others, he indiscriminately carves a road of ruin.`
             }
     },
-    { // Miranda (Valentines) - Complete
+    { // Miranda (Valentines) - Complete + JP ver
         id: 103667412,
         name: "Miranda (Valentines)",
         translate: "Valentines Miranda",
@@ -25414,6 +25628,17 @@ const UnitInformation = [
                 superarts: `144444% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 80%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 160% instead.`,
                 superartsbreak: 1600
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - Heal all allies' HP by 1500. For 6s, increase own Arts by 8/s.`,
+                skillbreak: 0,
+                arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
+                artsbreak: 600,
+                truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison for 20s. For 25s, Allies ignore 100% of Enemies' DEF.`,
+                trueartsbreak: 1500,
+                superarts: `177777% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 120%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 240% instead.`,
+                superartsbreak: 1600
+            },
         passive: 
             {
                 ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
@@ -25424,9 +25649,11 @@ const UnitInformation = [
             },
         passiveJP: 
             {
-                ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
+                ability1: `Increase own DMG by 200% against Poisoned Enemies.`,
                 ability2: `Increase own Disease RES by 70%.`,
-                ability3: `Increase Healing Taken by 10%.`
+                ability3: `Increase Healing Taken by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Miranda's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Miranda's SP. Art is owned)`
             },
         evolution: 
             {
@@ -25445,7 +25672,7 @@ const UnitInformation = [
                 evosuper: `To get into the mood of the occasion, she tried on her old school uniform. It fit surprisingly well despite not having worn it in over a decade. Reminiscing in front of the mirror, scenes and emotions from her time as a student returned as clear as day. She then resumed making chocolates. Her feelings for him had not changed, and she would prove it.`
             }
     },
-    { // Priscilla (Valentines) - Complete
+    { // Priscilla (Valentines) - Complete + JP ver
         id: 103677112,
         name: "Priscilla (Valentines)",
         translate: "Valentines Priscilla",
@@ -25491,6 +25718,17 @@ const UnitInformation = [
                 superarts: `80000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
                 superartsbreak: 1500
             },
+        skillsetJP: 
+            {
+                skill: `13s CT - 1300% Fire DMG (PHY). For 8s, increase Allies' accuracy by 20%.`,
+                skillbreak: 400,
+                arts: `Heal Allies by 50% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
+                artsbreak: 0,
+                truearts: `45000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.`,
+                trueartsbreak: 1200,
+                superarts: `90000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
+                superartsbreak: 1500
+            },
         passive: 
             {
                 ability1: `Increase own Arts by 4/s. If own HP is 80% or above, increase own Freeze & Paralysis RES by 100%.`,
@@ -25498,12 +25736,6 @@ const UnitInformation = [
                 ability3: `Increase Allies' Fire DMG by 30%. Does not stack with Abilities of the same name.`,
                 ability4: `Unit EXP UP 20% UP. (When Valentines Priscilla's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Priscilla's SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `Increase own Arts by 4/s. If own HP is 80% or above, increase own Freeze & Paralysis RES by 100%.`,
-                ability2: `Increase own Accuracy by 30%.`,
-                ability3: `Increase Allies' Fire DMG by 30%. Does not stack with Abilities of the same name.`
             }, 
         evolution: 
             {
@@ -27100,7 +27332,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Liza (Valentines) - Missing Lore
+    { //Liza (Valentines) - Missing Lore + JP ver
         id: 103857312,
         name: `Liza (Valentines)`,
         translate: `Cute Confectioner Liza`,
@@ -27145,6 +27377,17 @@ const UnitInformation = [
                 superarts: `180000% Earth DMG (MAG). For 30s, increase all allies' DMG by 100% and increase God allies' DMG by an additional 100%.`,
                 superartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.`,
+                skillbreak: 400,
+                arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
+                artsbreak: 800,
+                truearts: `45000% Earth DMG (MAG). Increase all allies' Arts by 50. For 12s, heal all allies' HP by 10%/s.`,
+                trueartsbreak: 1200,
+                superarts: `180000% Earth DMG (MAG). For 30s, increase all allies' DMG by 120% and increase God allies' DMG by an additional 120%.`,
+                superartsbreak: 2000
+            },
         passive: 
             {
                 ability1: `Increase own Burn RES by 80%.`,
@@ -27157,7 +27400,9 @@ const UnitInformation = [
             {
                 ability1: `Increase own Burn RES by 80%.`,
                 ability2: `When Near-death, increase own DMG RES by 20%.`,
-                ability3: `When self is Leader, increase all allies' HP Recovery by 20% for 100s. Does not stack with Abilities of the same name.`
+                ability3: `When self is Leader, increase all allies' HP Recovery by 30% for 120s. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Liza's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Liza's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -27221,6 +27466,17 @@ const UnitInformation = [
                 superarts: `80000% Water DMG (PHY). For 60s, increase all allies' DMG RES and MAG RES by 20% and Allies gain a DMG barrier that negates 6000 DMG.`,
                 superartsbreak: 2800
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 5/s.`,
+                skillbreak: 400,
+                arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 60%.`,
+                artsbreak: 1300,
+                truearts: `40000% Water DMG (PHY). For 35s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 36000 DMG to self.`,
+                trueartsbreak: 2100,
+                superarts: `100000% Water DMG (PHY). For 60s, increase all allies' DMG RES and MAG RES by 25% and Allies gain a DMG barrier that negates 9000 DMG.`,
+                superartsbreak: 2800
+            },
         passive: 
             {
                 ability1: `Increase Paralysis RES by 100%.`,
@@ -27228,12 +27484,6 @@ const UnitInformation = [
                 ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`,
                 ability4: `Unit EXP UP 20% UP. (When Valentines Cestina's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Cestina's SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `Increase Paralysis RES by 100%.`,
-                ability2: `When Near-death, increase own Arts by 6/s.`,
-                ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`
             }, 
         evolution: 
             {
@@ -29534,15 +29784,6 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "15000% Water DMG (PHY). 80% chance to inflict Paralysis for 3s.",
                 artsbreak: 2000,
-                truearts: "35000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 30%.",
-                trueartsbreak: 3600
-            },
-        skillsetJP: 
-            {
-                skill: "7s CT - 1500% Water DMG (MAG). Increase own Arts by 20.",
-                skillbreak: 800,
-                arts: "15000% Water DMG (PHY). 80% chance to inflict Paralysis for 3s.",
-                artsbreak: 2000,
                 truearts: "45000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 50%.",
                 trueartsbreak: 3600
             },
@@ -29620,15 +29861,6 @@ const UnitInformation = [
                 defplus: 384
             },
         skillset: 
-            {
-                skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
-                skillbreak: 1200,
-                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 15s, increase Allies' Status RES (except Faint) by 100%.",
-                artsbreak: 0,
-                truearts: "42000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
-                trueartsbreak: 3700
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
                 skillbreak: 1200,
@@ -29810,27 +30042,12 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
                 skillbreak: 1000,
-                arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 3/s.",
-                artsbreak: 3500,
-                truearts: "63000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
-                trueartsbreak: 7000
-            },
-        skillsetJP: 
-            {
-                skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
-                skillbreak: 1000,
                 arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 4/s.",
                 artsbreak: 3500,
                 truearts: "90000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
                 trueartsbreak: 7000
             },
         passive: 
-            {
-                ability1: "Whenever this unit takes damage more than 10% of its HP, increase Arts by 5.",
-                ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 50%).",
-                ability3: "Increase own DMG by 50% during Break."
-            },
-        passiveJP: 
             {
                 ability1: "Whenever this unit takes damage more than 10% of its HP, increase Arts by 5.",
                 ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 100%).",
@@ -29952,15 +30169,6 @@ const UnitInformation = [
                 defplus: 343
             },
         skillset: 
-            {
-                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
-                skillbreak: 900,
-                arts: "23000% Fire DMG (MAG). For 20s, increase all Allies' Skill CT REC by 50% and DMG by 50%.",                
-                artsbreak: 1800,
-                truearts: "62000% Fire DMG (MAG). 100% chance to inflict Burn for 16s + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 120%.",
-                trueartsbreak: 3900
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
                 skillbreak: 900,
@@ -32201,15 +32409,6 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
                 artsbreak: 1200,
-                truearts: "45000% Water DMG (MAG). For 20s, increase Allies' DMG and MAG DMG by 80%.",
-                trueartsbreak: 2300
-            },
-        skillsetJP: 
-            {
-                skill: "12s CT - On first use, increase Allies' Arts by 3/s for 7s. On second use, increase Allies' ATK by 30% for 7s. On third use, heal Allies' HP by 3%/s for 7s. Cycle repeats afterwards.",
-                skillbreak: 0,
-                arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
-                artsbreak: 1200,
                 truearts: "65000% Water DMG (MAG). For 20s, increase Allies' DMG and MAG DMG by 100%.",
                 trueartsbreak: 2300
             },
@@ -32335,15 +32534,6 @@ const UnitInformation = [
                 defplus: 448
             },
         skillset: 
-            {
-                skill: "12s CT - Increase own Arts by 30 + For 10s, increase own stats by 10%.",
-                skillbreak: 0,
-                arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 40%.",
-                artsbreak: 1600,
-                truearts: "60000% Fire DMG (PHY). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 4/s.",
-                trueartsbreak: 3100
-            },
-        skillsetJP: 
             {
                 skill: "12s CT - Increase own Arts by 30 + For 10s, increase own stats by 10%.",
                 skillbreak: 0,
@@ -32479,25 +32669,10 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "23000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
                 artsbreak: 1600,
-                truearts: "100000% Dark DMG (PHY). For 10s, increase own Accuracy by 120%.",
-                trueartsbreak: 3500
-            },
-        skillsetJP: 
-            {
-                skill: "14s CT - 6000% Dark DMG (PHY). Increase BE generation of this Skill by 100%.",
-                skillbreak: 400,
-                arts: "23000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
-                artsbreak: 1600,
                 truearts: "120000% Dark DMG (PHY). For 10s, increase own Accuracy by 120%.",
                 trueartsbreak: 3500
             },
         passive: 
-            {
-                ability1: "Increase Freeze RES by 100%.",
-                ability2: "While near-death, increase DMG RES by 10%.",
-                ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 40% (up to 200%)."
-            },
-        passiveJP: 
             {
                 ability1: "Increase Freeze RES by 100%.",
                 ability2: "While near-death, increase DMG RES by 10%.",
@@ -32625,15 +32800,6 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "22000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
                 artsbreak: 1600,
-                truearts: "60000% Dark DMG (PHY). For 60s, increase Allies' PHY DMG by 60% (stackable).",
-                trueartsbreak: 2800
-            },
-        skillsetJP: 
-            {
-                skill: "10s CT - 1700% Dark DMG (PHY). If this skill crits, increase own Arts by 60.",
-                skillbreak: 500,
-                arts: "22000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
-                artsbreak: 1600,
                 truearts: "75000% Dark DMG (PHY). For 60s, increase Allies' PHY DMG by 70% (stackable).",
                 trueartsbreak: 2800
             },
@@ -32644,40 +32810,6 @@ const UnitInformation = [
                 ability3: "Increase Critical Rate by 100% while unaffected by status ailments."
             }, 
         dream: {
-                water: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        mat2amt: 50,
-                        hover2: `Frostsprite Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/fragPalamicia.png`,
-                        mat3amt: 2,
-                        hover3: `Palamicia`
-                    },
-                    passive: {
-                        ability1: `Increase own Equipment CT Speed by 10%.`,
-                        ability2: `Increase all allies' Max HP by 10%. Does not stack with Abilities of the same name.`
-                    }
-                },
-                dark: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
-                        mat2amt: 50,
-                        hover2: `Sinflow Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
-                        mat3amt: 2,
-                        hover3: `Ragsherum Phantom`
-                    },
-                    passive: {
-                        ability1: `Increase own Status RES (except Faint) by 30%.`,
-                        ability2: `Increase own CRI DMG by 60%.`
-                    }
-                }
-            },
-        dreamJP: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -32800,25 +32932,10 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "24000% Light DMG (PHY). For 20s, increase own Accuracy by 60% and own DMG by 60%.",
                 artsbreak: 1300,
-                truearts: "85000% Light DMG (PHY). For 15s, reduce Enemies' Light RES by 70%.",
-                trueartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: "10s CT - 2000% Light DMG (PHY). For 7s, increase own ATK by 20%.",
-                skillbreak: 500,
-                arts: "24000% Light DMG (PHY). For 20s, increase own Accuracy by 60% and own DMG by 60%.",
-                artsbreak: 1300,
                 truearts: "85000% Light DMG (PHY). For 20s, reduce Enemies' Light RES by 80%.",
                 trueartsbreak: 2000
             },
         passive: 
-            {
-                ability1: "At the start of a Quest, for 60s, increase Allies' ATK by 50%.",
-                ability2: "At the start of a Quest, increase Allies' Arts by 50.",
-                ability3: "Increase MAG RES by 10%."
-            },
-        passiveJP: 
             {
                 ability1: "At the start of a Quest, for 90s, increase Allies' ATK by 80%.",
                 ability2: "At the start of a Quest, increase Allies' Arts by 50.",
@@ -36444,17 +36561,6 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `60000% Dark DMG (MAG). For 40s, reduce enemies' DMG RES by 70% (stackable).`,
                 trueartsbreak: 1800,
-                superarts: `160000% Dark DMG (MAG). Increase own Super Critical Rate by 40% for the duration of Super Arts. For 30s, increase all allies' Dark DMG by 120% (stackable).`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - 3000% Dark DMG (MAG). For 7s, increase own Stats by 20%.`,
-                skillbreak: 500,
-                arts: `17000% Dark DMG (MAG). For 45s, increase own CRI rate by 100%. The next time this unit's Super Arts is used, increase own Arts by 150.`,
-                artsbreak: 1000,
-                truearts: `60000% Dark DMG (MAG). For 40s, reduce enemies' DMG RES by 70% (stackable).`,
-                trueartsbreak: 1800,
                 superarts: `170000% Dark DMG (MAG). Increase own Super Critical Rate by 40% for the duration of Super Arts. For 30s, increase all allies' Dark DMG by 130% (stackable).`,
                 superartsbreak: 2000
             },
@@ -36554,31 +36660,12 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: `22000% Fire DMG (PHY). Heals own Status ailments (except Faint, Paralysis, Seal, Freeze). For 20s, increase all allies' Paralysis RES & Freeze RES by 100%.`,
                 artsbreak: 700,
-                truearts: `30000% Fire DMG (PHY). Each time True Arts is used, increase Break Power of this True Arts by 3000 (MAX: 15000). When Super Arts is used, resets the Break Power of this True Arts back to 3000.`,
-                trueartsbreak: 3000,
-                superarts: `170000% Fire DMG (PHY). Each time Super Arts is used, increase the DMG Multiplier of this Super Arts by an additional 170000% (MAX: 510000%). When Arts or True Arts is used, resets the DMG Multiplier of this Super Arts back to 170000%.`,
-                superartsbreak: 1500
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - 3000% Fire DMG (PHY). For 10s, reduce enemies' DMG RES by 10%.`,
-                skillbreak: 300,
-                arts: `22000% Fire DMG (PHY). Heals own Status ailments (except Faint, Paralysis, Seal, Freeze). For 20s, increase all allies' Paralysis RES & Freeze RES by 100%.`,
-                artsbreak: 700,
                 truearts: `30000% Fire DMG (PHY). Each time True Arts is used, increase Break Power of this True Arts by 4000 (MAX: 20000). When Super Arts is used, resets the Break Power of this True Arts back to 4000.`,
                 trueartsbreak: 4000,
                 superarts: `180000% Fire DMG (PHY). Each time Super Arts is used, increase the DMG Multiplier of this Super Arts by an additional 180000% (MAX: 540000%). When Arts or True Arts is used, resets the DMG Multiplier of this Super Arts back to 180000%.`,
                 superartsbreak: 1500
             },
         passive: 
-            {
-                ability1: `Tyrant of Destruction: When not affected by Status ailments, increase own DMG and Break Power by 50%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own Arts by 1/s.`,
-                ability3: `Increase own Arts by 200 at start of quest.`,
-                ability4: `Unit EXP UP 20% UP. (When Combat Form Milim's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Combat Form Milime's SP. Art is owned)`
-            }, 
-        passiveJP: 
             {
                 ability1: `Tyrant of Destruction: When not affected by Status ailments, increase own DMG and Break Power by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Arts by 2/s.`,
@@ -36676,29 +36763,10 @@ const UnitInformation = [
                 artsbreak: 900,
                 truearts: `50000% Dark DMG (PHY). For 20s, reduce enemies' Evasion by 40% and PHY RES by 80%.`,
                 trueartsbreak: 1500,
-                superarts: `130000% Dark DMG (PHY). 100% Chance to inflict Blind for 30s. For 30s, reduce enemies' Dark RES by 120%.`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: `11s CT - 1700% Dark DMG (PHY). Increase own Arts by 40.`,
-                skillbreak: 500,
-                arts: `17000% Dark DMG (PHY). For 20s, increase all Allies' DEF Equip CT Speed by 30% and reduce enemies' ATK by 30%.`,
-                artsbreak: 900,
-                truearts: `50000% Dark DMG (PHY). For 20s, reduce enemies' Evasion by 40% and PHY RES by 80%.`,
-                trueartsbreak: 1500,
                 superarts: `150000% Dark DMG (PHY). 100% Chance to inflict Blind for 30s. For 30s, reduce enemies' Dark RES by 130%.`,
                 superartsbreak: 2000
             },
         passive: 
-            {
-                ability1: `Seducer: When own HP is 90% or more, increase the Arts gauge of the units to the Left and Right of Diablo by 6/s. Does not stack with Abilities of the same name. (Lv. 1)`,
-                ability2: `Increase own Blind RES by 100%. (Lv. 110)`,
-                ability3: `Increase own DMG to Blinded Enemies by 80%. (Lv. 120)`,
-                ability4: `Unit EXP UP 20% UP. (When Diablo's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Diablo's SP. Art is owned)`
-            }, 
-        passiveJP: 
             {
                 ability1: `Seducer: When own HP is 80% or more, increase the Arts gauge of the units to the Left and Right of Diablo by 6/s. Does not stack with Abilities of the same name. (Lv. 1)`,
                 ability2: `Increase own Blind RES by 100%. (Lv. 110)`,
@@ -36718,19 +36786,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: 
-            {
-                name: `Diablo's Suit`,
-                slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "/db/Equipment/Detail/item_detail_152891.png",
-                skill: `40s CT - For 15s, increase all Allies' DMG RES by 30%.`,
-                skillbreak: 0,
-                passive: 
-                    {
-                        ability1: `When equipped by Diablo, reduce the amount of HP required for his Seducer Passive Ability to 80% HP or higher instead. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase own PHY RES by 5%.`
-                    }
-            },
-        trueweaponJP: 
             {
                 name: `Diablo's Suit`,
                 slot: "/db/Mines/thumbnail/defLB.png",
@@ -38462,9 +38517,9 @@ const UnitInformation = [
                 evosuper: `The daughter of a tribal chief, she was exiled after becoming one of the Possessed. Shadow then saved her, and she calls him "Bossman" out of appreciation. He greatly values her talents, saying she could even rule the world were she not so scatter-brained.`
             }
     },
-    { //Demon Lord Rimuru (New Years) - JP Missing Lore
+    { //Demon Lord Samurai Rimuru - JP Missing Lore
         id: 108077512,
-        name: `Demon Lord Rimuru (New Years)`,
+        name: `Demon Lord Samurai Rimuru`,
         attribute: `Dark`,
         type: `Demon`,
         image: 
@@ -38511,8 +38566,8 @@ const UnitInformation = [
                 ability1: `When self is Leader, at the start of a Quest, increase Allies' DMG RES by 20% for 70s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Status RES by 50%.`,
                 ability3: `Increase own Lifesteal RES by 20%.`,
-                ability4: `Unit EXP UP 20% UP. (When Demon Lord Rimuru (New Years)'s SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Demon Lord Rimuru (New Years)'s SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Demon Lord Samurai Rimuru's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Demon Lord Samurai Rimuru's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -38534,7 +38589,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Demon Lord Rimuru (New Years), increase own ATK and DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Demon Lord Samurai Rimuru, increase own ATK and DMG by 30%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
@@ -38544,9 +38599,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Shuna (New Years) - JP Missing Lore
+    { //Shuna - JP Missing Lore
         id: 108087412,
-        name: `Shuna (New Years)`,
+        name: `Shuna`,
         attribute: `Light`,
         type: `Demon`,
         image: 
@@ -38593,8 +38648,8 @@ const UnitInformation = [
                 ability1: `When unaffected by Status Ailments, increase own Arts by 3/s and Heal Equip CT Speed by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase Paralysis RES by 100%.`,
                 ability3: `Increase Freeze RES by 100%.`,
-                ability4: `Unit EXP UP 20% UP. (When Shuna (New Years)'s SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Shuna (New Years)'s SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Shuna's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Shuna's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -38616,7 +38671,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: `When equipped by Shuna (New Years), increase own MAX HP by 20%. Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Shuna, increase own MAX HP by 20%. Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own DEF by 10%.`
                     }
             },
@@ -38691,7 +38746,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Veldora's Cloak`,
+                name: `Veldora's Cape`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153931.png",
                 skill: `50s CT - 10000% Earth DMG (MAG). For 10s, increase own MAG DMG by 50%. Additionally if user is Earth, for 10s, increase own ATK by 50%.`,

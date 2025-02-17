@@ -35995,6 +35995,217 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //沈黙の杖『ドーンプライヤー』 - JP Complete
+        id: 112931,
+        name: `沈黙の杖『ドーンプライヤー』`,
+        translate: `Staff of Silence 'Dawnplier'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 5000% Dark DMG (Magic). If enemy is Human or Demon, reduce enemy's DMG resistance by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //神族史書『レジェンズ』 - JP Complete
+        id: 112941,
+        name: `神族史書『レジェンズ』`,
+        translate: `Book of Gods 'Legends'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112941.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts by 25. Increase all allies' DMG against Humans and Demons by 40% for 13s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //比翼の剣『ヘブンズセレナ』 - JP Complete
+        id: 112951,
+        name: `比翼の剣『ヘブンズセレナ』`,
+        translate: `Sword of Dual Wings 'Heaven's Serena'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Fire DMG (Physical). Increase own DMG against Human and Demon enemies by 80% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //神秘の秘薬『ハーミットペイン』 - JP Complete
+        id: 112961,
+        name: `神秘の秘薬『ハーミットペイン』`,
+        translate: `Vials of Mystery 'Hermit Pain'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112961.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' HP by 3000. All allies heal for 10% of DMG Taken from Humans and Demons for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //摂理の兜『ヴィジョンズオール』 - JP Complete
+        id: 112971,
+        name: `摂理の兜『ヴィジョンズオール』`,
+        translate: `Providence Helmet 'Visions All'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `35s CT - Reduce all allies' DMG Taken from Humans and Demons by 30% for 13s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //炎焔杖『アグニマグニ』 - JP Complete
+        id: 112981,
+        name: `炎焔杖『アグニマグニ』`,
+        translate: `Flame Staff 'Agni Magni'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 4000% Fire DMG (Magic). If enemy is Fire, reduce enemies' DMG resistance by 20% for 10s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Increase own Burn resistance by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ドラゴンエイジ』 - JP Complete
+        id: 112991,
+        name: `真『ドラゴンエイジ』`,
+        translate: `True 'Dragon Age'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_112990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_112991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_112990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_112991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `65s CT - 8000% Dark DMG (Physical). Increase own DMG by 40% and own DMG against Demon enemies by an additional 40% for 10s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `When equipped by Rohst, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Equip CT Speed by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -44887,7 +45098,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Diablo, reduce the amount of HP required for his Seducer Passive Ability to 80% HP or higher instead. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Diablo, reduce the amount of HP required for his Seducer Passive Ability to 50% HP or higher instead. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Missing Lore.`
@@ -47673,7 +47884,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Demon Lord Rimuru (New Years), increase own ATK and DMG by 30%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Demon Lord Samurai Rimuru, increase own ATK and DMG by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
@@ -47704,7 +47915,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Shuna (New Years), increase own MAX HP by 20%. Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Shuna, increase own MAX HP by 20%. Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
         lore: `Currently unreleased in Global.`
@@ -47922,7 +48133,7 @@ const EquipInformation = [
     { //真『ヴェルドラのマント』 - JP Complete
         id: 153931,
         name: `真『ヴェルドラのマント』`,
-        translate: `True 'Veldora's Cloak'`,
+        translate: `True 'Veldora's Cape'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
