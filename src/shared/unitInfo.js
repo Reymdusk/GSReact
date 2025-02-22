@@ -11413,6 +11413,40 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equipment CT Speed by 20%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Max HP by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase all allies' PHY RES by 10%. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own Equipment CT Speed by 10%.`
                     }
                 },
