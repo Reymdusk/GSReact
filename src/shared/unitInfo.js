@@ -11447,7 +11447,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase own Equipment CT Speed by 10%.`
+                        ability2: `Increase own Equipment CT Speed by 20%.`
                     }
                 },
                 dark: {
