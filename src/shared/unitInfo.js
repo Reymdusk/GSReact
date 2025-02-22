@@ -2321,7 +2321,7 @@ const UnitInformation = [
                 skillbreak: "1450 (800)",
                 arts: "9000% Light DMG (PHY). For 40s, increase Allies' ATK by 50%. During Ex-Force mode: 17000% Light DMG (PHY). For 15s, increase Allies' max HP by 20% and Allies gain a DMG barrier that negates 1000 DMG.",
                 artsbreak: "1800 (1200)",
-                truearts: "For 60s, enter Ex-Force mode. During Ex-Force mode: 52000% Light DMG (PHY). For 20s, increase Allies' PHY DMG by 120% and increase own Arts by 3/s.",
+                truearts: "For 60s, enter Ex-Force mode. During Ex-Force mode: 52000% Light DMG (PHY). For 20s, increase Allies' PHY DMG by 120% and increase own Arts by 3/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 1800
             },
         passive: 
@@ -2808,7 +2808,7 @@ const UnitInformation = [
                 skillbreak: 1150,
                 arts: "13000% Earth DMG (PHY). For 20s, increase Allies' Equipment CT REC by 25%.",
                 artsbreak: 2200,
-                truearts: "21500% Earth DMG (PHY). For 20s, increase Allies' Arts by 3/s, increase Allies' Equipment DMG by 50%.",
+                truearts: "21500% Earth DMG (PHY). For 20s, increase Allies' Arts by 3/s, increase Allies' Equipment DMG by 50%.\nNote: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen.",
                 trueartsbreak: 4600
             },
         passive: 
@@ -4500,7 +4500,7 @@ const UnitInformation = [
                 skillbreak: 1600,
                 arts: "15000% Earth DMG (PHY). For 15s, increase Allies’ evasion by 30%.",
                 artsbreak: 2000,
-                truearts: "30000% Earth DMG (PHY). Cure Allies’ Status Ailments (Except Faint) + For 20s, increase Earth Allies’ Arts by 3/s.",
+                truearts: "30000% Earth DMG (PHY). Cure Allies’ Status Ailments (Except Faint) + For 20s, increase Earth Allies’ Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 3400
             },
         passive: 
@@ -4684,7 +4684,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1600% Dark DMG (MAG). During this Skill, increase own BE generation by 60%.",
                 skillbreak: 1350,
-                arts: "13000% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts + For 15s, increase Allies' Arts by 3/s.",
+                arts: "13000% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts + For 15s, increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 2100,
                 truearts: "30000% Dark DMG (MAG). Consume 10% of own HP, increase Allies' Arts by 40 + For 10s, increase Allies' MAG DMG by 30%.",
                 trueartsbreak: 4400
@@ -5166,7 +5166,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "13000% Dark DMG (MAG). 80% chance to inflict Blind for 8s + For 20s, reduce Enemies' ATK and DEF by 30%.",
                 artsbreak: 2600,
-                truearts: "30000% Dark DMG (MAG). For 13s, increase Dark Allies' Arts by 2/s, and Demon Allies' DMG by 30%.",
+                truearts: "30000% Dark DMG (MAG). For 13s, increase Dark Allies' Arts by 2/s, and Demon Allies' DMG by 30%.\nNote: This unit's Arts Gen is Type C and will not stack with other Type C Arts Gen.",
                 trueartsbreak: 2800
             },
         skillsetJP: 
@@ -5175,7 +5175,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "20000% Dark DMG (MAG). 100% chance to inflict Blind for 8s. For 20s, reduce Enemies' ATK and DEF by 30%.",
                 artsbreak: 2600,
-                truearts: "50000% Dark DMG (MAG). For 15s, increase Dark Allies' Arts by 3/s, and Demon Allies' DMG by 100%.",
+                truearts: "50000% Dark DMG (MAG). For 15s, increase Dark Allies' Arts by 3/s, and Demon Allies' DMG by 100%.\nNote: This unit's Arts Gen is Type C and will not stack with other Type C Arts Gen.",
                 trueartsbreak: 2800
             },
         passive: 
@@ -5412,7 +5412,7 @@ const UnitInformation = [
                 skillbreak: 2300,
                 arts: "10000% Light DMG (PHY). Increase own Arts by 50.",
                 artsbreak: 3700,
-                truearts: "26000% Light DMG (PHY). For 25s, increase own Arts by 5/s and increase Break PWR by 100%.",
+                truearts: "26000% Light DMG (PHY). For 25s, increase own Arts by 5/s and increase Break PWR by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -6494,7 +6494,7 @@ const UnitInformation = [
                 skillbreak: 1900,
                 arts: "16000% Fire DMG (PHY). For 12s, increase Allies' DMG and evasion by 20%.",
                 artsbreak: 2400,
-                truearts: "30000% Fire DMG (PHY). For 15s, increase Fire Allies' ATK by 80%, increase Human and Beast Allies' Arts by 2/s.",
+                truearts: "30000% Fire DMG (PHY). For 15s, increase Fire Allies' ATK by 80%, increase Human and Beast Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 4800
             },
         passive: 
@@ -7548,7 +7548,7 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2000% Water DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
                 skillbreak: 1400,
-                arts: "14500% Water DMG (PHY). For 15s, increase Allies' Fire RES by 15%, heal Allies' HP by 200/s, increase Water Allies' Arts by 2/s.",
+                arts: "14500% Water DMG (PHY). For 15s, increase Allies' Fire RES by 15%, heal Allies' HP by 200/s, increase Water Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 artsbreak: 2400,
                 truearts: "35000% Water DMG (PHY). For 3s, increase Allies' DMG RES by 80%. For 15s, increase Water Allies' Skill CT REC and Skill DMG by 120%.",
                 trueartsbreak: 4400
@@ -7557,7 +7557,7 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2000% Water DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
                 skillbreak: 1400,
-                arts: "16000% Water DMG (PHY). For 15s, increase Allies' Fire RES by 20%, heal Allies' HP by 500/s, increase Water Allies' Arts by 3/s.",
+                arts: "16000% Water DMG (PHY). For 15s, increase Allies' Fire RES by 20%, heal Allies' HP by 500/s, increase Water Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 artsbreak: 2400,
                 truearts: "55000% Water DMG (PHY). For 5s, increase Allies' DMG RES by 80%. For 15s, increase Water Allies' Skill CT REC and Skill DMG by 120%.",
                 trueartsbreak: 4400
@@ -8130,7 +8130,7 @@ const UnitInformation = [
                 skillbreak: 1300,
                 arts: "14800% Dark DMG (PHY). Increase CRI rate by 100% against enemies with Status ailment(s) for the duration of Arts. Additionally when used against enemies with Status ailment(s), multiply the DMG Multiplier of current Arts by [1.5 + 0.25 x # of unique Status ailments on enemy].",
                 artsbreak: 3100,
-                truearts: "28800% Dark DMG (MAG). For 20s, increase own Arts by [2 × # of unique Status ailments on Enemy with the most Status ailments]/s, and all Allies' DMG by [40% × # of unique Status ailments on Enemy with the most Status ailments].",
+                truearts: "28800% Dark DMG (MAG). For 20s, increase own Arts by [2 × # of unique Status ailments on Enemy with the most Status ailments]/s, and all Allies' DMG by [40% × # of unique Status ailments on Enemy with the most Status ailments].\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 3600
             },
         skillsetJP: 
@@ -8139,7 +8139,7 @@ const UnitInformation = [
                 skillbreak: 1300,
                 arts: "25000% Dark DMG (PHY). Increase CRI rate by 100% against enemies with Status ailment(s) for the duration of Arts. Additionally when used against enemies with Status ailment(s), multiply the DMG Multiplier of current Arts by [1.5 + 0.5 x # of unique Status ailments on enemy].",
                 artsbreak: 3100,
-                truearts: "67000% Dark DMG (MAG). For 20s, increase own Arts by [3 × # of unique Status ailments on Enemy with the most Status ailments]/s, and all Allies' DMG by [50% × # of unique Status ailments on Enemy with the most Status ailments].",
+                truearts: "67000% Dark DMG (MAG). For 20s, increase own Arts by [3 × # of unique Status ailments on Enemy with the most Status ailments]/s, and all Allies' DMG by [50% × # of unique Status ailments on Enemy with the most Status ailments].\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 3600
             },
         passive: 
@@ -9540,7 +9540,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - Increase Allies' Arts by 5 + For 8s, increase Allies' Skill CT REC by 20%.",
                 skillbreak: 0,
-                arts: "7900% Light DMG (MAG). For 15s, increase Allies' Arts by 2/s.",
+                arts: "7900% Light DMG (MAG). For 15s, increase Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 2100,
                 truearts: "20800% Light DMG (MAG). For 12s, increase Allies' Paralysis and Freeze RES by 100%, Arts DMG by 30%, for Earth and Light Allies, increase Arts DMG by 60% instead.",
                 trueartsbreak: 3600
@@ -9833,7 +9833,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "Activates after using True Arts. For 50s, increase Arts by 2/s, increase Arts DMG to Raid Bosses by 100% and increase Skill CT REC by 30%. Can be activated multiple times.",
+                ability1: "Activates after using True Arts. For 50s, increase Arts by 2/s, increase Arts DMG to Raid Bosses by 100% and increase Skill CT REC by 30%. Can be activated multiple times.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 ability2: "When near-death, heal own HP by 6% of DMG dealt."
             }, 
         evolution: 
@@ -10598,7 +10598,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - Heal all Allies' HP by 300. For 3s, increase Allies' Arts by 2/s.",
+                skill: "8s CT - Heal all Allies' HP by 300. For 3s, increase Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 skillbreak: 0,
                 arts: "Increase own Arts by 50 + For 15s, increase Allies' (except self) accuracy and Critical Rate by 70%, and MAG DMG by 50%.",
                 artsbreak: 0,
@@ -10982,7 +10982,7 @@ const UnitInformation = [
                 skillbreak: 2000,
                 arts: "14000% Earth DMG (MAG). 80% chance to inflict Paralysis for 6s. For 6s, increase own DMG to Paralyzed Enemies by 100%.",
                 artsbreak: 2800,
-                truearts: "32600% Earth DMG (MAG). Increase Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s. For 30s, increase own stats by 50%.",
+                truearts: "32600% Earth DMG (MAG). Increase Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s. For 30s, increase own stats by 50%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 5000
             },
         passive: 
@@ -11139,7 +11139,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1850% Earth DMG (PHY). For 5s, increase own Arts by 1/s.",
+                skill: "8s CT - 1850% Earth DMG (PHY). For 5s, increase own Arts by 1/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 skillbreak: 900,
                 arts: "16200% Earth DMG (MAG). 80% chance to inflict Paralysis for 3s.",
                 artsbreak: 2400,
@@ -11377,7 +11377,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: "18000% Light DMG (PHY). For 15s, increase own Skill CT REC by 150%, reduce Enemies' DMG RES and Movement Speed by 30%.",
                 artsbreak: 2200,
-                truearts: "For 15s, heal Allies' HP by 400/s, increase Allies' Arts by 4/s and Arts DMG by 130%.",
+                truearts: "For 15s, heal Allies' HP by 400/s, increase Allies' Arts by 4/s and Arts DMG by 130%.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 0
             },
         passive: 
@@ -12077,7 +12077,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "17200% Water DMG (PHY). For 20s, increase Allies' Equipment CT REC by 30%.",
                 artsbreak: 2300,
-                truearts: "30000% Water DMG (PHY). For 20s, increase Allies' Arts by 3/s, increase Allies' Equipment DMG by 60%.",
+                truearts: "30000% Water DMG (PHY). For 20s, increase Allies' Arts by 3/s, increase Allies' Equipment DMG by 60%.\nNote: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -12242,7 +12242,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: "17000% Water DMG (MAG). 80% chance to inflict Ultimate Freeze for 10s.",
                 artsbreak: 2200,
-                truearts: "28000% Dark DMG (MAG). 100% chance to inflict Disease for 12s. For 20s, increase own Arts by 5/s.",
+                truearts: "28000% Dark DMG (MAG). 100% chance to inflict Disease for 12s. For 20s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 5000
             },
         passive: 
@@ -12323,7 +12323,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "Enter Counterattack Mode for 5s. Counterattack: 15000% Water DMG (PHY). Increase own Arts' Critical Rate by 100%, reduce Enemies' Break Bar by 15%.",
                 artsbreak: 2000,
-                truearts: "27000% Water DMG (PHY). Increase next Counterattack's DMG by 100% + For 15s, increase Allies' Arts by 3/s and Healing Taken by 50%.",
+                truearts: "27000% Water DMG (PHY). Increase next Counterattack's DMG by 100% + For 15s, increase Allies' Arts by 3/s and Healing Taken by 50%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 5500
             },
         passive: 
@@ -12829,6 +12829,7 @@ const UnitInformation = [
     { //Mira (Earth) - Complete
         id: 102396312,
         name: "Mira (Earth)",
+        translate: "Sakura Mira",
         rank: "B-",
         twrequire: "favorable",
         attribute: "Earth",
@@ -12860,7 +12861,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "7s CT - 2000% Earth DMG (PHY). For 7s, increase Earth Allies' Arts by 1/s.",
+                skill: "7s CT - 2000% Earth DMG (PHY). For 7s, increase Earth Allies' Arts by 1/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 skillbreak: 1800,
                 arts: "15500% Earth DMG (PHY). For 10s, increase Earth Allies' DMG by 30% and Critical Rate by 80%.",
                 artsbreak: 2400,
@@ -13442,7 +13443,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
                 skillbreak: 1000,
-                arts: "14400% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.",
+                arts: "14400% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
                 artsbreak: 2100,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 37000% Fire DMG (MAG). For 15s, increase Allies' DMG by 50%, for Fire Allies, increase DMG by 100% instead.",
                 trueartsbreak: 4000
@@ -13451,7 +13452,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
                 skillbreak: 1000,
-                arts: "22000% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 3/s.",
+                arts: "22000% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
                 artsbreak: 2100,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 65000% Fire DMG (MAG). For 25s, increase Allies' DMG by 60%, for Fire Allies, increase DMG by 120% instead.",
                 trueartsbreak: 4000
@@ -14206,7 +14207,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: "18000% Dark DMG (MAG). For 15s, increase Allies' Arts DMG by 50%.",
                 artsbreak: 1400,
-                truearts: "43000% Dark DMG (PHY). For 10s, increase Allies' Arts by 3/s. When Ancient Blood Count is 5: 43000% Dark DMG (PHY). For 20s, increase Allies' Arts by 6/s.",
+                truearts: "43000% Dark DMG (PHY). For 10s, increase Allies' Arts by 3/s. When Ancient Blood Count is 5: 43000% Dark DMG (PHY). For 20s, increase Allies' Arts by 6/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 2500
             },
         passive: 
@@ -14290,7 +14291,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "14000% Water DMG (MAG). 70% chance to inflict Freeze for 4s. If Enemy was Frozen by this Arts, for 10s, reduce their MAG RES by 35%.",
                 artsbreak: 1500,
-                truearts: "33000% Water DMG (MAG). For 10s, increase Allies' Arts by 2/s, increase DMG to Fire Enemies by 50%.",
+                truearts: "33000% Water DMG (MAG). For 10s, increase Allies' Arts by 2/s, increase DMG to Fire Enemies by 50%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 2700
             },
         passive: 
@@ -14358,7 +14359,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - Increase own Arts by 10.",
                 skillbreak: 0,
-                arts: "For 15s, increase Allies' Equipment CT REC by 25% and Arts by 2/s.",
+                arts: "For 15s, increase Allies' Equipment CT REC by 25% and Arts by 2/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 0,
                 truearts: "Heal the Ally with the lowest current HP by 100% of their max HP + For 15s, increase Allies' Water RES by 25%, heal Allies' HP by 350/s.",
                 trueartsbreak: 0
@@ -14506,7 +14507,7 @@ const UnitInformation = [
                 skillbreak: 1500,
                 arts: "15000% Fire DMG (PHY). For 15s, increase Allies' accuracy by 25%, Allies ignore 50% of Enemy DEF.",
                 artsbreak: 2800,
-                truearts: "32000% Fire DMG (PHY). During own True Arts, increase own accuracy by 100%. If own HP is over 90%, increase DMG of that True Arts by 75% + For 20s, increase own Arts by 5/s.",
+                truearts: "32000% Fire DMG (PHY). During own True Arts, increase own accuracy by 100%. If own HP is over 90%, increase DMG of that True Arts by 75% + For 20s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 4500
             },
         passive: 
@@ -14708,7 +14709,7 @@ const UnitInformation = [
                 skillbreak: 1300,
                 arts: "15000% Dark DMG (MAG). For 15s, reduce Enemies' ATK by 50%, increase Allies' ATK by 50%.",
                 artsbreak: 2300,
-                truearts: "30000% Dark DMG (MAG). For 15s, reduce Enemies' Dark RES by 30% + For 10s, increase Dark Allies' Arts by 4/s.",
+                truearts: "30000% Dark DMG (MAG). For 15s, reduce Enemies' Dark RES by 30% + For 10s, increase Dark Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type C and will not stack with other Type C Arts Gen.",
                 trueartsbreak: 4100
             },
         passive: 
@@ -14850,7 +14851,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - For 6s, heal Allies' HP by 50/s and increase Allies' Arts by 1/s.",
+                skill: "8s CT - For 6s, heal Allies' HP by 50/s and increase Allies' Arts by 1/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 skillbreak: 0,
                 arts: "Cure Allies' Poison and Burn + For 12s, increase Allies' DMG and BE generation by 80%.",
                 artsbreak: 0,
@@ -15092,7 +15093,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 1600% Fire DMG (PHY). Increase own Arts by 20. During Magia Drive: 1600% Fire DMG (PHY). Increase own Arts by 40.",
                 skillbreak: 700,
-                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' Arts by 3/s.",
+                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 1800,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20% amd PHY DMG by 100%.",
                 trueartsbreak: 3500
@@ -15232,7 +15233,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. Additionally when used during Magia Drive, increase the duration of own Magia Drive by 30s.",
                 artsbreak: 1700,
-                truearts: "For 50s, enter Magia Drive. During Magia Drive: 30000% Water DMG (MAG). For 15s, reduce Enemies' Water RES and MAG RES by 35%. For 25s, increase Allies' (except self) Arts by 4/s.",
+                truearts: "For 50s, enter Magia Drive. During Magia Drive: 30000% Water DMG (MAG). For 15s, reduce Enemies' Water RES and MAG RES by 35%. For 25s, increase Allies' (except self) Arts by 4/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 2800
             },
         skillsetJP: 
@@ -15241,7 +15242,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "8000% Water DMG (MAG). 70% chance to inflict Paralysis for 3s. Additionally when used during Magia Drive, increase the duration of own Magia Drive by 30s.",
                 artsbreak: 1700,
-                truearts: "For 50s, enter Magia Drive. During Magia Drive: 55000% Water DMG (MAG). For 25s, reduce Enemies' Water RES and MAG RES by 45% (stackable) and increase Allies' (except self) Arts by 4/s.",
+                truearts: "For 50s, enter Magia Drive. During Magia Drive: 55000% Water DMG (MAG). For 25s, reduce Enemies' Water RES and MAG RES by 45% (stackable) and increase Allies' (except self) Arts by 4/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 2800
             },
         passive: 
@@ -15854,7 +15855,7 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "13000% Dark DMG (MAG). Increases DMG of this Arts by magnitude of accuracy buffs on self.",
                 artsbreak: 1700,
-                truearts: "31000% Dark DMG (MAG). 80% chance to inflict Blind for 10s. Increase Dark Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s, increase Allies' accuracy by 30%.",
+                truearts: "31000% Dark DMG (MAG). 80% chance to inflict Blind for 10s. Increase Dark Allies' Arts by 20 + For 20s, increase Allies' Arts by 3/s, increase Allies' accuracy by 30%.\nNote: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen.",
                 trueartsbreak: 3300
             },
         passive: 
@@ -16144,7 +16145,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "12800% Water DMG (PHY). Hit Count for this Arts is doubled + For 10s, increase Allies' ATK and DEF by 50%.",
                 artsbreak: 2000,
-                truearts: "34800% Water DMG (PHY). For 10s, increase own stats by 30%, increase own Arts by 3/s. When own Hit Counter is at 99: Reduce Hit Counter by 77 + For 20s, increase all Allies' stats by 30% and all Allies' Arts gauge by 3/s.",
+                truearts: "34800% Water DMG (PHY). For 10s, increase own stats by 30%, increase own Arts by 3/s. When own Hit Counter is at 99: Reduce Hit Counter by 77 + For 20s, increase all Allies' stats by 30% and all Allies' Arts gauge by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 3000
             },
         passive: 
@@ -16653,7 +16654,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: "17000% Light DMG (PHY). For 10s, increase DMG of this Arts against Enemies with Status Ailments by 50%. During Third Eye: 17000% Light DMG (PHY). For 10s, increase DMG of this Arts against Enemies with Status Ailments by 50%. Increase own Arts by 50.",
                 artsbreak: 1100,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 35000% Light DMG (PHY). For 20s, increase Allies' Arts by 4/s, reduce Enemies' Status RES by 30%.",
+                truearts: "For 120s, enter Third Eye. During Third Eye: 35000% Light DMG (PHY). For 20s, increase Allies' Arts by 4/s, reduce Enemies' Status RES by 30%.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 1800
             },
         passive: 
@@ -17227,7 +17228,7 @@ const UnitInformation = [
             {
                 skill: "12s CT - 4400% Dark DMG (MAG). 60% Chance to inflict Blind for 12s.",
                 skillbreak: 600,
-                arts: "21000% Dark DMG (MAG). For 50s, reduce Enemies' ATK, PHY RES, and Blind RES by 10% (stackable). For 15s, increase Dark Allies' Arts by 2/s.",
+                arts: "21000% Dark DMG (MAG). For 50s, reduce Enemies' ATK, PHY RES, and Blind RES by 10% (stackable). For 15s, increase Dark Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type C and will not stack with other Type C Arts Gen.",
                 artsbreak: 1300,
                 truearts: "60000% Fire DMG (PHY). For 60s, reduce Enemies' Fire RES by 30% (stackable).",
                 trueartsbreak: 2000
@@ -18098,7 +18099,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "42000% Earth DMG (PHY). For 15s, increase all Allies’ PHY DMG by 100%, reduce Enemies’ DMG RES by 30%.",
                 trueartsbreak: 2000,
-                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.",
+                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.\n\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
                 crossartsbreak: 5000
             },
         skillsetJP: 
@@ -18109,7 +18110,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "55000% Earth DMG (PHY). For 20s, increase all Allies’ PHY DMG by 150% and reduce Enemies’ DMG RES by 30%.",
                 trueartsbreak: 2000,
-                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.",
+                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.\n\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
                 crossartsbreak: 5000
             },
         passive: 
@@ -18245,7 +18246,7 @@ const UnitInformation = [
                 artsbreak: 1500,
                 truearts: "32000% Fire DMG (PHY). For 15s, Increase Allies' DMG by 30%, reduce Enemies' Fire RES by 35%.",
                 trueartsbreak: 2300,
-                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.",
+                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
                 crossartsbreak: 5000
             },
         passive: 
@@ -18341,7 +18342,7 @@ const UnitInformation = [
             {
                 skill: "11s CT - 2000% Light DMG (MAG). For 5s, reduce Enemies' MAG RES by 10%.",
                 skillbreak: 400,
-                arts: "10000% Light DMG (MAG). For 10s, increase Allies' Arts by 4/s.",
+                arts: "10000% Light DMG (MAG). For 10s, increase Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 900,
                 truearts: "30000% Light DMG (MAG). For 20s, increase Allies' Equipment CT Speed by 50%, reduce Enemies' Light and MAG RES by 35%.",
                 trueartsbreak: 1800,
@@ -18352,7 +18353,7 @@ const UnitInformation = [
             {
                 skill: "11s CT - 2000% Light DMG (MAG). For 5s, reduce Enemies' MAG RES by 10%.",
                 skillbreak: 400,
-                arts: "15000% Light DMG (MAG). For 10s, increase Allies' Arts by 5/s.",
+                arts: "15000% Light DMG (MAG). For 10s, increase Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 900,
                 truearts: "42000% Light DMG (MAG). For 25s, increase Allies' Equipment CT Speed by 50%, reduce Enemies' Light and MAG RES by 40%.",
                 trueartsbreak: 1800,
@@ -18847,7 +18848,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "48000% Dark DMG (PHY). Increase own Arts by 20. For 15s, increase Allies' Critical Rate by 100%.",
                 trueartsbreak: 2700,
-                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.",
+                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 crossartsbreak: 3000
             },
         skillsetJP: 
@@ -18858,7 +18859,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "70000% Dark DMG (PHY). Increase own Arts by 50. For 20s, increase Allies' Critical Rate by 100%.",
                 trueartsbreak: 2700,
-                crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.",
+                crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 crossartsbreak: 3000
             },
         passive: 
@@ -18998,7 +18999,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "30000% Dark DMG (PHY). For 20s, reduce Enemies' ATK, Dark RES, and PHY RES by 30%.",
                 trueartsbreak: 2000,
-                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.",
+                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 crossartsbreak: 3000
             },
         skillsetJP: 
@@ -19009,7 +19010,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "30000% Dark DMG (PHY). For 20s, reduce Enemies' ATK, Dark RES, and PHY RES by 30%.",
                 trueartsbreak: 2000,
-                crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.",
+                crossarts: "100000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 6/s, Skill CT Speed and ATK by 100%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 crossartsbreak: 3000
             },
         passive: 
@@ -19404,7 +19405,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "16000% Dark DMG (MAG). For 10s, reduce Enemies' DEF and Dark RES by 30%.",
                 artsbreak: 1100,
-                truearts: "40000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 30 + For 15s, increase Allies' (except target) Arts by 4/s and MAG DMG by 200%.",
+                truearts: "40000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 30 + For 15s, increase Allies' (except target) Arts by 4/s and MAG DMG by 200%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1600
             },
         skillsetJP: 
@@ -19413,7 +19414,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "20000% Dark DMG (MAG). For 20s, reduce Enemies' DEF and Dark RES by 50%.",
                 artsbreak: 1100,
-                truearts: "60000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 50 + For 20s, increase Allies' (except target) Arts by 6/s and MAG DMG by 300%.",
+                truearts: "60000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 50 + For 20s, increase Allies' (except target) Arts by 6/s and MAG DMG by 300%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -19798,7 +19799,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "12000% Fire DMG (MAG). For 10s, increase Allies' MAG DMG by [10% + (# of Spirit Foxes × 5%)].",
                 artsbreak: 1000,
-                truearts: "21000% Fire DMG (MAG). For 15s, increase Allies' Arts by 3/s, heal Allies' HP by 120/s. When there are 10 Spirit Foxes: 21000% Fire DMG (MAG). Reduce # of Spirit Foxes by 5 + Increase Allies' Arts by 100 + For 15s, increase Allies' Arts by 3/s, heal Allies' HP by 120/s.",
+                truearts: "21000% Fire DMG (MAG). For 15s, increase Allies' Arts by 3/s, heal Allies' HP by 120/s. When there are 10 Spirit Foxes: 21000% Fire DMG (MAG). Reduce # of Spirit Foxes by 5 + Increase Allies' Arts by 100 + For 15s, increase Allies' Arts by 3/s, heal Allies' HP by 120/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -20450,7 +20451,7 @@ const UnitInformation = [
                 skillbreak: 1700,
                 arts: "20000% Fire DMG (MAG). For 15s, increase Allies' Break PWR by 25%. When attacking an enemy they have an Elemental Advantage against, increase BREAK PWR by 50% instead.",
                 artsbreak: 4000,
-                truearts: "45000% Fire DMG (MAG). For 20s, increase Allies' DMG by 50% + When activated against an Enemy in BREAK, for 5s, increase Allies' Arts by 10/s.",
+                truearts: "45000% Fire DMG (MAG). For 20s, increase Allies' DMG by 50% + When activated against an Enemy in BREAK, for 5s, increase Allies' Arts by 10/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 6600
             },
         passive: 
@@ -20551,7 +20552,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1600% Light DMG (PHY). Inflicts a stack of Vector (up to 6 stacks).",
                 skillbreak: 800,
-                arts: "16000% Light DMG (PHY). For 12s, increase own Skill CT REC by 120% and Arts by 3/s.",
+                arts: "16000% Light DMG (PHY). For 12s, increase own Skill CT REC by 120% and Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 1800,
                 truearts: "40000% Light DMG (PHY). Increase DMG of this True Arts by [50% × # of Marked Stacks on Enemy]. Cleanse Enemies' Marked Stacks after this True Arts is concluded.",
                 trueartsbreak: 2500
@@ -20770,7 +20771,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "16000% Light DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%, Status RES by 20%.",
                 artsbreak: 1300,
-                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 52000% Dark DMG (MAG). For 15s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.",
+                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 52000% Dark DMG (MAG). For 15s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1800
             },
         skillsetJP: 
@@ -20779,7 +20780,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "16000% Light DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%, Status RES by 20%.",
                 artsbreak: 1300,
-                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 70000% Dark DMG (MAG). For 20s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.",
+                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 70000% Dark DMG (MAG). For 20s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1800
             },
         passive: 
@@ -21270,7 +21271,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "11000% Earth DMG (MAG). For 20s, increase Allies' Arts DMG by 50%, reduce Enemies' Earth RES by 30%.",
                 artsbreak: 1000,
-                truearts: "36000% Earth DMG (MAG). For 13s, heal Allies' HP by 6%/s and increase Allies' Arts by 5/s. For Human Allies, increase Arts by 7/s instead.",
+                truearts: "36000% Earth DMG (MAG). For 13s, heal Allies' HP by 6%/s and increase Allies' Arts by 5/s. For Human Allies, increase Arts by 7/s instead.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1300
             },
         passive: 
@@ -22470,7 +22471,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 150%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 300% instead.",
                 artsbreak: 1000,
-                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.",
+                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 2200
             },
         skillsetJP: 
@@ -22479,7 +22480,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "15000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 160%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 320% instead.",
                 artsbreak: 1000,
-                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 30. For 25s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.",
+                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 30. For 25s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 2200
             },
         passive: 
@@ -22859,7 +22860,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "15000% Water DMG (PHY). For 15s, reduce Enemies' evasion and Accuracy by 30%.",
                 artsbreak: 900,
-                truearts: "42000% Water DMG (PHY). For 15s, increase Allies' Arts by 5/s and PHY DMG by 50%.",
+                truearts: "42000% Water DMG (PHY). For 15s, increase Allies' Arts by 5/s and PHY DMG by 50%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1200,
                 phantombullet: "75000% Water DMG (PHY). During Phantom Bullet, Increase Own Critical Rate by 100%. For 90s, reduce Enemies' Water RES by 60%. Phantom Bullet can only be activated one time in a Quest.",
                 phantombulletbreak: 1700
@@ -22963,7 +22964,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "18000% Light DMG (PHY). For 10s, increase Allies' stats by 30% and reduce Enemies' PHY RES by 20%.",
                 artsbreak: 1100,
-                truearts: "67000% Light DMG (PHY). Sacrifice 10% of own MAX HP. For 15s, increase Allies' Arts by 6/s. An additional effect occurs depending on the Sword Mode Emperor Isliid is in when True Arts is activated.",
+                truearts: "67000% Light DMG (PHY). Sacrifice 10% of own MAX HP. For 15s, increase Allies' Arts by 6/s. An additional effect occurs depending on the Sword Mode Emperor Isliid is in when True Arts is activated.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1700
             },
         passive: 
@@ -23770,7 +23771,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: "18000% Water DMG (PHY). Cure Allies' Status Ailments (except Faint) + For 15s, increase Allies' Status RES (except Faint) by 100%. During True Third Eye, further increase Water Allies' DMG by 100%.",
                 artsbreak: 1200,
-                truearts: "For 120s, enter Third Eye. During Third Eye: 55000% Water DMG (PHY). For 15s, reduce Enemies' PHY RES by 60% and increase >50% HP Allies' Arts by 4/s.",
+                truearts: "For 120s, enter Third Eye. During Third Eye: 55000% Water DMG (PHY). For 15s, reduce Enemies' PHY RES by 60% and increase >50% HP Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
                 trueartsbreak: 2000
             },
         passive: 
@@ -23960,7 +23961,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "16000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: 16000% Dark DMG (PHY). Activate Magia Drive: Unlimited for the duration of the current Magia Drive. For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: Unlimited: 16000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 40% (stackable).",
                 artsbreak: 800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 60000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 60%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 60000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 60%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1200
             },
         skillsetJP: 
@@ -23969,19 +23970,19 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "25000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: 25000% Dark DMG (MAG). Enter Magia Drive: Unlimited for remaining duration of Magia Arts. For 40s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: Unlimited: 25000% Dark DMG (MAG). For 40s, reduce Enemies' Dark RES by 50% (stackable).",
                 artsbreak: 800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 70000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 100%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 70000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1200
             },
         passive: 
             {
                 ability1: "During Magia Drive, increase own DMG to Demons by 50%.",
-                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.",
+                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 ability3: "Increase Paralysis RES by 90%."
             }, 
         passiveJP: 
             {
                 ability1: "During Magia Drive, increase own DMG to Demons by 120%.",
-                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.",
+                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 ability3: "Increase Paralysis RES by 90%."
             }, 
         evolution: 
@@ -24368,7 +24369,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
                 skillbreak: 300,
-                arts: "20000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
+                arts: "20000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
                 artsbreak: 1000,
                 truearts: "[Current HP x 25]% Fire DMG (PHY).",
                 trueartsbreak: 1200
@@ -24377,7 +24378,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2000% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
                 skillbreak: 300,
-                arts: "25000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
+                arts: "25000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
                 artsbreak: 1000,
                 truearts: "[Current HP x 25]% Fire DMG (PHY).",
                 trueartsbreak: 1200
@@ -24663,7 +24664,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: `26000% Earth DMG (PHY). For 20s, increase Allies' accuracy and Equipment CT REC by 40%.`,
                 artsbreak: 1300,
-                truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.`,
+                truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.\nNote: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen.`,
                 trueartsbreak: 2600,
                 superarts: `160000% Earth DMG (PHY). Increase own Super Critical Rate by 40% and Critical Rate by 100% during Super Arts. For 40s, increase own ATK by 100%.`,
                 superartsbreak: 1800
@@ -25374,7 +25375,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 1800% Light DMG (MAG). Increase own Arts by 30. For 8s, increase Allies' Arts by 3/s.`,
+                skill: `12s CT - 1800% Light DMG (MAG). Increase own Arts by 30. For 8s, increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type G and will not stack with other Type G Arts Gen.`,
                 skillbreak: 500,
                 arts: `23000% Light DMG (MAG). For 25s, reduce Enemies' MAG RES by 50%.`,
                 artsbreak: 900,
@@ -25460,7 +25461,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: `20000% Fire DMG (PHY). For 20s, reduce Enemies' PHY RES by 60%.`,
                 artsbreak: 1000,
-                truearts: `60000% Fire DMG (PHY). For 17s, increase Allies' Arts by 6/s. Increase Fire Allies' Arts by 8/s instead.`,
+                truearts: `60000% Fire DMG (PHY). For 17s, increase Allies' Arts by 6/s. Increase Fire Allies' Arts by 8/s instead.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2200,
                 superarts: `160000% Fire DMG (PHY). For 30s, increase own Critical Rate and ATK by 100%.`,
                 superartsbreak: 2400
@@ -25619,7 +25620,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - Heal all allies' HP by 1000. For 6s, increase own Arts by 7/s.`,
+                skill: `12s CT - Heal all allies' HP by 1000. For 6s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 0,
                 arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
                 artsbreak: 600,
@@ -25630,7 +25631,7 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: `12s CT - Heal all allies' HP by 1500. For 6s, increase own Arts by 8/s.`,
+                skill: `12s CT - Heal all allies' HP by 1500. For 6s, increase own Arts by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 0,
                 arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
                 artsbreak: 600,
@@ -25713,7 +25714,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: `Heal Allies by 50% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
                 artsbreak: 0,
-                truearts: `40000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.`,
+                truearts: `40000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 1200,
                 superarts: `80000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
                 superartsbreak: 1500
@@ -25724,7 +25725,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: `Heal Allies by 50% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
                 artsbreak: 0,
-                truearts: `45000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.`,
+                truearts: `45000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 1200,
                 superarts: `90000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
                 superartsbreak: 1500
@@ -25790,7 +25791,7 @@ const UnitInformation = [
             {
                 skill: `13s CT - 2000% Water DMG (MAG). For 7s, reduce Enemies' evasion by 20%.`,
                 skillbreak: 800,
-                arts: `17000% Water DMG (MAG). For 15s, increase Allies' Arts by 4/s.`,
+                arts: `17000% Water DMG (MAG). For 15s, increase Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 artsbreak: 2000,
                 truearts: `40000% Water DMG (MAG). For 15s, reduce Enemies' MAG RES and Break RES by 80%.`,
                 trueartsbreak: 8000,
@@ -25957,7 +25958,7 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `70000% Water DMG (PHY). For 30s, reduce Enemies' DMG RES by 40%. If used when own HP is 90% or more, reduce Enemies' DMG RES by 80% instead.`,
                 trueartsbreak: 2000,
-                superarts: `150000% Water DMG (PHY). For 60s, increase own DMG by 50% and own Arts by 2/s (stackable). If used within first 120s from the Start of the Quest, increase own DMG by 100% and own Arts by 4/s (stackable) instead.`,
+                superarts: `150000% Water DMG (PHY). For 60s, increase own DMG by 50% and own Arts by 2/s (stackable). If used within first 120s from the Start of the Quest, increase own DMG by 100% and own Arts by 4/s (stackable) instead.\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.`,
                 superartsbreak: 4000
             },
         passive: 
@@ -26032,8 +26033,8 @@ const UnitInformation = [
             {
                 skill: `12s CT - 1800% Current Element DMG (PHY). Increase own Arts gauge by [(Maximum Arts gauge - Current Arts gauge)/2] (up to 150).`,
                 skillbreak: 500,
-                arts: `15000% Current Element DMG (PHY). Changes own Element in the order of (Water -> Earth -> Fire -> Water...) [Starts Quest as Water Element].
-                For 30s, increase own DMG by 50% & Arts gauge by 3/s.`,
+                arts: `15000% Current Element DMG (PHY). Changes own Element in the order of (Water -> Earth -> Fire -> Water...) [Starts Quest as Water Element].\n
+                For 30s, increase own DMG by 50% & Arts gauge by 3/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 artsbreak: 1000,
                 truearts: `60000% Current Element DMG (PHY).\n
                 If own element is Water: 100% Chance to inflict Disease for 25s.\n
@@ -26205,7 +26206,7 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
                 trueartsbreak: 1700,
-                superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).`,
+                superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.`,
                 superartsbreak: 2500
             },
         skillsetJP: 
@@ -26216,7 +26217,7 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
                 trueartsbreak: 1700,
-                superarts: `165000% Fire DMG (MAG). For 10s, increase all Fire allies' Arts gauge by 10. For 30s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).`,
+                superarts: `165000% Fire DMG (MAG). For 10s, increase all Fire allies' Arts gauge by 10. For 30s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.`,
                 superartsbreak: 2500
             },
         passive: 
@@ -26300,7 +26301,7 @@ const UnitInformation = [
                 artsbreak: 900,
                 truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 40%.`,
                 trueartsbreak: 1700,
-                superarts: `120000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 100%. For 60s, increase own Arts gauge by 8.`,
+                superarts: `120000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 100%. For 60s, increase own Arts gauge by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 superartsbreak: 2100
             },
         skillsetJP: 
@@ -26311,7 +26312,7 @@ const UnitInformation = [
                 artsbreak: 900,
                 truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 50%.`,
                 trueartsbreak: 1700,
-                superarts: `130000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 150%. For 60s, increase own Arts gauge by 8.`,
+                superarts: `130000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 150%. For 60s, increase own Arts gauge by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 superartsbreak: 2100
             },
         passive: 
@@ -26387,7 +26388,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 3200% Fire DMG (PHY). For 3s, increase all Allies' Arts by 8/s.`,
+                skill: `12s CT - 3200% Fire DMG (PHY). For 3s, increase all Allies' Arts by 8/s.\nNote: This unit's Arts Gen is Type G and will not stack with other Type G Arts Gen.`,
                 skillbreak: 700,
                 arts: `25000% Fire DMG (PHY). For 20s, increase Equipment CT REC of own PHY Equipment and own ATK by 50%.`,
                 artsbreak: 1500,
@@ -26473,7 +26474,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `18000% Dark DMG (MAG). For 20s, increase Allies' stats by 30%.`,
                 artsbreak: 1200,
-                truearts: `50000% Dark DMG (MAG). For 25s, reduce Enemies' MAG RES by 90% and increase >50% HP Allies' Arts gauge by 4/s.`,
+                truearts: `50000% Dark DMG (MAG). For 25s, reduce Enemies' MAG RES by 90% and increase >50% HP Allies' Arts gauge by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 1800,
                 superarts: `140000% Dark DMG (MAG). For 20s, increase Dark Allies' DMG by 150% and Demon Allies' DMG by 150%.`,
                 superartsbreak: 2500
@@ -26829,22 +26830,22 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.`,
+                skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 700,
                 arts: `16000% Dark DMG (MAG). For 20s, increase all Allies' ATK and Equip CT Speed by 40%.`,
                 artsbreak: 1300,
-                truearts: `43000% Dark DMG (MAG). For 18s, increase all Allies' Arts by 4/s and reduce enemies' Dark RES by 100%.`,
+                truearts: `43000% Dark DMG (MAG). For 18s, increase all Allies' Arts by 4/s and reduce enemies' Dark RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2000,
                 superarts: `120000% Dark DMG (MAG). For 15s, increase all Dark allies' DMG and Break Power by 200%.`,
                 superartsbreak: 3500
             },
         skillsetJP: 
             {
-                skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.`,
+                skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 700,
                 arts: `16000% Dark DMG (MAG). For 25s, increase all Allies' ATK and Equip CT Speed by 40%.`,
                 artsbreak: 1300,
-                truearts: `43000% Dark DMG (MAG). For 25s, increase all Allies' Arts by 5/s and reduce enemies' Dark RES by 100%.`,
+                truearts: `43000% Dark DMG (MAG). For 25s, increase all Allies' Arts by 5/s and reduce enemies' Dark RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2000,
                 superarts: `120000% Dark DMG (MAG). For 20s, increase all Dark allies' DMG and Break Power by 250%.`,
                 superartsbreak: 3500
@@ -26931,7 +26932,7 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: `27000% Light DMG (PHY). An additional effect occurs depending on Isliid's unit position (refer to Unit Passives below).`,
                 artsbreak: 1200,
-                truearts: `60000% Light DMG (PHY). For 8s, increase all allies' Arts by 10/s. For 20s, reduce enemies' DMG RES by 60%. If enemy is Human, God or Demon, reduce enemies' DMG RES by 120% instead.`,
+                truearts: `60000% Light DMG (PHY). For 8s, increase all allies' Arts by 10/s. For 20s, reduce enemies' DMG RES by 60%. If enemy is Human, God or Demon, reduce enemies' DMG RES by 120% instead.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 1800,
                 superarts: `150000% Light DMG (MAG). When Super Arts is activated, reduce own remaining Equip CT by half. For 20s, increase Allies unaffected by Status Ailments' Equipment CT Speed by 30%.`,
                 superartsbreak: 2000
@@ -27033,7 +27034,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `16000% Earth DMG (PHY). For 15s, increase all allies' stats by 30% and reduce all allies' DMG Taken from Poisoned enemies by 30%.`,
                 artsbreak: 1000,
-                truearts: `50000% Earth DMG (PHY). For 30s, increase >50% HP Allies' Arts by 4/s and reduce enemies' Poison RES by 50%.`,
+                truearts: `50000% Earth DMG (PHY). For 30s, increase >50% HP Allies' Arts by 4/s and reduce enemies' Poison RES by 50%.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 2000,
                 superarts: `150000% Earth DMG (PHY). 100% Chance to inflict Poison for 30s. For 30s, increase allies' PHY DMG with respect to how high own % of HP is (MAX: 150%).`,
                 superartsbreak: 3200
@@ -27116,7 +27117,7 @@ const UnitInformation = [
                 artsbreak: 1500,
                 truearts: `60000% Water DMG (PHY). For 30s, increase Water allies' Break Power by 100%.`,
                 trueartsbreak: 3300,
-                superarts: `180000% Water DMG (PHY). For 20s, increase all allies' Arts by 7/s and PHY DMG by 150%.`,
+                superarts: `180000% Water DMG (PHY). For 20s, increase all allies' Arts by 7/s and PHY DMG by 150%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 superartsbreak: 4000,
                 phantombullet: "Can be activated instead of Super Arts - 250000% Water DMG (PHY). For 100s, reduce enemies' PHY RES by 120%. When used for the first time, increase all allies' Arts by 200. When used for the second time, heal all allies' HP by 100% (Can only be used 2 times per Quest).",
                 phantombulletbreak: 8000
@@ -27283,7 +27284,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `22000% Dark DMG (MAG). Consumes 30% of own HP. For 20s, reduce enemies' Dark RES by 60%.`,
                 artsbreak: 1300,
-                truearts: `50000% Dark DMG (MAG). For 100s, increase own Arts by 5/s and ATK by 120%.`,
+                truearts: `50000% Dark DMG (MAG). For 100s, increase own Arts by 5/s and ATK by 120%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 trueartsbreak: 1800,
                 superarts: `180000% Dark DMG (MAG). Increase all allies' Arts by 50. Increase own Arts based on how low own HP is (MAX: 150). For 25s, consume 3%/s of own Max HP.`,
                 superartsbreak: 2500
@@ -27368,7 +27369,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.`,
+                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
                 artsbreak: 800,
@@ -27379,7 +27380,7 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.`,
+                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
                 artsbreak: 800,
@@ -27457,7 +27458,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 4/s.`,
+                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 50%.`,
                 artsbreak: 1300,
@@ -27468,7 +27469,7 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 5/s.`,
+                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 60%.`,
                 artsbreak: 1300,
@@ -27992,7 +27993,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `11s CT - 2500% Dark DMG (PHY). For 5s, increase Dark allies' Arts by 3/s.`,
+                skill: `11s CT - 2500% Dark DMG (PHY). For 5s, increase Dark allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type C and will not stack with other Type C Arts Gen.`,
                 skillbreak: 700,
                 arts: `[Current HP x 7]% Dark DMG (PHY). For 10s, reduce enemies' PHY RES by 30%.`,
                 artsbreak: 1000,
@@ -28544,7 +28545,7 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2200% Fire DMG (PHY). Increase own Arts by 30.`,
                 skillbreak: 600,
-                arts: `24000% Fire DMG (PHY). For 15s, increase all allies' Arts by 4/s (Type B) and Fire allies' Arts by 2/s (Type D). Additionally when Arts is used, refresh own Support and Heal Equip currently on cooldown (MAX: 1 time).`,
+                arts: `24000% Fire DMG (PHY). For 15s, increase all allies' Arts by 4/s (Type B) and Fire allies' Arts by 2/s (Type D). Additionally when Arts is used, refresh own Support and Heal Equip currently on cooldown (MAX: 1 time).\nNote: This unit's Arts Gen is Type B / D and will not stack with other Type B / D Arts Gen.`,
                 artsbreak:  1700,
                 truearts: `60000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 60%. If enemy is not a Human, God or Demon, reduce enemies' PHY RES by 120% instead. Additionally when True Arts is used, refresh own Defence Equip currently on cooldown (MAX: 2 times).`,
                 trueartsbreak: 2800,
@@ -28624,7 +28625,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `20000% Water DMG (MAG). For 15s, reduce enemies' MAG RES by 70%. If used during Magia Drive: Unlimited, reduce enemies' MAG RES by 140% instead.`,
                 artsbreak:  1200,
-                truearts: `55000% Water DMG (MAG). For 25s, increase allies' Arts by 4/s. Additionally if used during Magia Drive/Magia Drive: Unlimited, increase Water allies' Arts by 40.`,
+                truearts: `55000% Water DMG (MAG). For 25s, increase allies' Arts by 4/s. Additionally if used during Magia Drive/Magia Drive: Unlimited, increase Water allies' Arts by 40.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2000,
                 superarts: `When used during Magia Drive: Unlimited: 170000% Water DMG (MAG). Each time Super Arts is used, permanently increase allies' MAG DMG by 100% (MAX: 300%).`,
                 superartsbreak: 2800
@@ -28657,6 +28658,84 @@ const UnitInformation = [
                     passive: 
                         {
                             ability1: `When equipped by Star Swordswoman Rosetta, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own ATK by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Misette - Missing Lore (JP)
+        id: 104037412,
+        name: `Misette`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104036412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104037412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104036412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104037412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7650,
+                hpplus: 1410,
+                atk: 3262,
+                atkplus: 630,
+                def: 3013,
+                defplus: 574
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Light DMG (PHY). Increase own Arts by 40.`,
+                skillbreak: 1000,
+                arts: `20000% Light DMG (PHY). For 20s, increase allies' Heal Equip CT Speed by 40% and allies' PHY RES by 30%.`,
+                artsbreak:  1300,
+                truearts: `60000% Light DMG (PHY). For 45s, reduce enemies' DMG RES by 70% (stackable).`,
+                trueartsbreak: 2300,
+                superarts: `200000% Light DMG (PHY). For 30s, increase allies' PHY Equip CT Speed by 50% and allies' PHY DMG by 200%.`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `For the first 100s of Quest, negates 30000 DMG taken for each ally. Does not stack with Abilities of the same name.`,
+                ability2: `When not affected by Status ailments, increase own HP Recovery by 20% (excluding Lifesteal).`,
+                ability3: `Increase own DMG against Human enemies by 50%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `No Reply`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_113001.png",
+                    skill: `60s CT - For 10s, reduce enemies' PHY RES by 35%. Additionally if user is Light, for 10s, reduce enemies' Evasion rate by 25%.`,
+                    skillbreak: 400,
+                    passive: 
+                        {
+                            ability1: `When equipped by Misette, increase own HP Recovery by 20% (excluding Lifesteal) and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
                         }
                 },
@@ -29190,7 +29269,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 3200% Light DMG (PHY). Increase own Arts by 20.",
                 skillbreak: 2000,
-                arts: "30000% Light DMG (PHY). For 40s, increase own Arts by 5/s.",
+                arts: "30000% Light DMG (PHY). For 40s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 2000,
                 truearts: "200000% Light DMG (PHY).",
                 trueartsbreak: 6000
@@ -29199,7 +29278,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 3200% Light DMG (PHY).",
                 skillbreak: 2000,
-                arts: "20000% Light DMG (PHY). For 30s, increase own Arts by 5/s.",
+                arts: "20000% Light DMG (PHY). For 30s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 2000,
                 truearts: "120000% Light DMG (PHY).",
                 trueartsbreak: 6000
@@ -29308,7 +29387,7 @@ const UnitInformation = [
             {
                 skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 10.",
                 skillbreak: 1400,
-                arts: "22000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
+                arts: "22000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 2800,
                 truearts: "48000% Dark DMG (MAG). For 15s, reduce own Action Speed by 15% and increase Allies' (except self) Skill CT REC by 120%.",
                 trueartsbreak: 3500
@@ -29317,7 +29396,7 @@ const UnitInformation = [
             {
                 skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 5.",
                 skillbreak: 1400,
-                arts: "15000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.",
+                arts: "15000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 2800,
                 truearts: "30000% Dark DMG (MAG). For 10s, reduce own Action Speed by 15%, increase Allies' (except self) Skill CT REC by 100%.",
                 trueartsbreak: 3500
@@ -29866,7 +29945,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 20s, increase Allies' Status RES (except Faint) by 100%.",
                 artsbreak: 0,
-                truearts: "50000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
+                truearts: "50000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -30042,7 +30121,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
                 skillbreak: 1000,
-                arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 4/s.",
+                arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 artsbreak: 3500,
                 truearts: "90000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
                 trueartsbreak: 7000
@@ -30322,7 +30401,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "22000% Water DMG (PHY). For 20s, reduce Enemies' Break RES and DMG RES by 30%.",
                 artsbreak: 2800,
-                truearts: "70000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 3/s.",
+                truearts: "70000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 3/s (stackable).\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.",
                 trueartsbreak: 5000
             },
         skillsetJP: 
@@ -30331,7 +30410,7 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "16000% Water DMG (PHY). For 10s, reduce Enemies' Break RES by 25% and DMG RES by 20%.",
                 artsbreak: 2800,
-                truearts: "42000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 200%) + For 60s, increases own Arts by 2/s.",
+                truearts: "42000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 200%) + For 60s, increases own Arts by 2/s (stackable).\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.",
                 trueartsbreak: 3000
             },
         passive: 
@@ -30706,7 +30785,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2100% Fire DMG (PHY). For 5s, reduce Enemies' DEF by 20%.",
                 skillbreak: 400,
-                arts: "25000% Dark DMG (PHY). For 20s, increase own PHY evasion by 30% and Arts by 5/s.",
+                arts: "25000% Dark DMG (PHY). For 20s, increase own PHY evasion by 30% and Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 artsbreak: 900,
                 truearts: "65000% Dark DMG (PHY). For 20s, increase own evasion by 30% and Critical Rate by 200%.",
                 trueartsbreak: 1200
@@ -30715,7 +30794,7 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2100% Fire DMG (PHY). For 5s, reduce Enemies' DEF by 20%.",
                 skillbreak: 400,
-                arts: "18000% Dark DMG (PHY). For 15s, increase own PHY evasion by 30% and Arts by 3/s.",
+                arts: "18000% Dark DMG (PHY). For 15s, increase own PHY evasion by 30% and Arts by 3/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
                 artsbreak: 900,
                 truearts: "40000% Dark DMG (PHY). For 20s, increase own evasion by 30% and Critical Rate by 200%.",
                 trueartsbreak: 1200
@@ -31450,7 +31529,7 @@ const UnitInformation = [
             {
                 skill: "10s CT - Heal Allies’ HP by 250 and increase Allies' Arts by 10.",
                 skillbreak: 0,
-                arts: "15000% Water DMG (MAG). For 15s, increase Allies’ ATK by 40%, Arts by 3/s.",
+                arts: "15000% Water DMG (MAG). For 15s, increase Allies’ ATK by 40%, Arts by 3/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 artsbreak: 1000,
                 truearts: "35000% Water DMG (MAG). For 20s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 60%.",
                 trueartsbreak: 1500
@@ -31542,7 +31621,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - For 7s, heal Allies' HP by 200/s and increase Allies' Arts by 3/s.",
+                skill: "12s CT - For 7s, heal Allies' HP by 200/s and increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type G and will not stack with other Type G Arts Gen.",
                 skillbreak: 0,
                 arts: "For 15s, increase Allies' DMG RES by 30%, Allies' Water RES by 20%, and Allies gain a DMG barrier that negates 2000 DMG.",
                 artsbreak: 0,
@@ -31642,7 +31721,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "15000% Water DMG (MAG). Permanently increase own DMG by 20% (up to 200%).",
                 artsbreak: 1500,
-                truearts: "55000% Water DMG (MAG). For 8s, increase Allies' Arts by 5/s.",
+                truearts: "55000% Water DMG (MAG). For 8s, increase Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 2800
             },
         passive: 
@@ -31772,7 +31851,7 @@ const UnitInformation = [
             {
                 skill: "11s CT - 1700% Earth DMG (MAG). If this Skill crits, increase own Arts by 30.",
                 skillbreak: 400,
-                arts: "12000% Earth DMG (MAG). For 16s, increase Allies' Arts by 2/s and Critical DMG by 30%.",
+                arts: "12000% Earth DMG (MAG). For 16s, increase Allies' Arts by 2/s and Critical DMG by 30%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 1000,
                 truearts: "40000% Earth DMG (MAG). 80% chance to inflict Poison for 25s and 80% chance to inflict Disease for 25s. For 25s, reduce Enemies' Earth RES by 35%.",
                 trueartsbreak: 1300
@@ -32045,7 +32124,7 @@ const UnitInformation = [
     },
     { //Rem (RE:ZERO) - Complete (+ JP version), Review done
         id: 107356212,
-        name: "Rem (RE:ZERO)",
+        name: "Rem (Re:Zero)",
         luckrank: "C",
         rank: "B",
         attribute: "Water",
@@ -32090,7 +32169,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "20000% Water DMG (MAG). For 10s, increase own ATK by 50%.",
                 artsbreak: 1100,
-                truearts: "70000% Water DMG (PHY). For 50s, consume 2%/s of own max HP (stackable), increase own Critical DMG by 130% (stackable), and increase own Arts by 3/s (stackable).",
+                truearts: "70000% Water DMG (PHY). For 50s, consume 2%/s of own max HP (stackable), increase own Critical DMG by 130% (stackable), and increase own Arts by 3/s (stackable).\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.",
                 trueartsbreak: 1800
             },
         passive: 
@@ -32405,7 +32484,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - On first use, increase Allies' Arts by 3/s for 7s. On second use, increase Allies' ATK by 30% for 7s. On third use, heal Allies' HP by 3%/s for 7s. Cycle repeats afterwards.",
+                skill: "12s CT - On first use, increase Allies' Arts by 3/s for 7s. On second use, increase Allies' ATK by 30% for 7s. On third use, heal Allies' HP by 3%/s for 7s. Cycle repeats afterwards.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 skillbreak: 0,
                 arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
                 artsbreak: 1200,
@@ -32539,7 +32618,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 40%.",
                 artsbreak: 1600,
-                truearts: "70000% Fire DMG (PHY). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 5/s.",
+                truearts: "70000% Fire DMG (PHY). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 3100
             },
         passive: 
@@ -33067,7 +33146,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "10000% Water DMG (MAG). For 15s, reduce Enemies' DMG and Critical Rate by 30%.",
                 artsbreak: 900,
-                truearts: "32000% Water DMG (MAG). For 20s, increase Allies' Arts by 4/s, and increase Water Allies' Skill CT REC by 100%.",
+                truearts: "32000% Water DMG (MAG). For 20s, increase Allies' Arts by 4/s, and increase Water Allies' Skill CT REC by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1200
             },
         passive: 
@@ -33133,7 +33212,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "13000% Earth DMG (MAG). Heal Allies' Disease, Freeze and Blind. Increase Allies' Arts by [50 × # of status ailments cured on that ally].",
                 artsbreak: 1000,
-                truearts: "36000% Earth DMG (MAG). For 20s, increase Allies' Arts by 4/s, and increase Earth Allies' ATK by 100%.",
+                truearts: "36000% Earth DMG (MAG). For 20s, increase Allies' Arts by 4/s, and increase Earth Allies' ATK by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1400
             },
         passive: 
@@ -33198,7 +33277,7 @@ const UnitInformation = [
                 skillbreak: 900,
                 arts: "25000% Fire DMG (PHY). For 15s, increase Allies' PHY DMG by [20% × # of times this Arts has been activated] (up to 120%).",
                 artsbreak: 1300,
-                truearts: "48000% Fire DMG (PHY). For 20s, increase Allies' Arts by 4/s, Fire Allies' ATK by 100%.",
+                truearts: "48000% Fire DMG (PHY). For 20s, increase Allies' Arts by 4/s, Fire Allies' ATK by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 2000
             },
         skillsetJP: 
@@ -33207,7 +33286,7 @@ const UnitInformation = [
                 skillbreak: 900,
                 arts: "22000% Fire DMG (PHY). For 15s, increase Allies' PHY DMG by [20% × # of times this Arts has been activated] (up to 120%).",
                 artsbreak: 1300,
-                truearts: "48000% Fire DMG (PHY). For 20s, increase Allies' Arts by 4/s, Fire Allies' ATK by 100%.",
+                truearts: "48000% Fire DMG (PHY). For 20s, increase Allies' Arts by 4/s, Fire Allies' ATK by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 2000
             },
         passive: 
@@ -33979,7 +34058,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: "15000% Water DMG (MAG). Permanently increase allies' Magic DMG by 30% (stackable, up to 150%).",
                 artsbreak: 800,
-                truearts: "50000% Light DMG (MAG). For 20s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by [1 × # of Light Allies in the party]/s.",
+                truearts: "50000% Light DMG (MAG). For 20s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by [1 × # of Light Allies in the party]/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1600
             },
         skillsetJP: 
@@ -33988,7 +34067,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: "12000% Water DMG (MAG). Permanently increase allies' Magic DMG by 20% (stackable, up to 100%).",
                 artsbreak: 800,
-                truearts: "45000% Light DMG (MAG). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by [1 × # of Light Allies in the party]/s.",
+                truearts: "45000% Light DMG (MAG). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by [1 × # of Light Allies in the party]/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -34681,7 +34760,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "22000% Light DMG (PHY). For 20s, reduce Enemies' DMG RES by 30%.",
                 artsbreak: 1000,
-                truearts: "50000% Light DMG (PHY). For 40s, reduce Enemies' PHY RES by 30% (stackable). For 15s, increase Allies' Arts by 2/s.",
+                truearts: "50000% Light DMG (PHY). For 40s, reduce Enemies' PHY RES by 30% (stackable). For 15s, increase Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1500
             },
         passive: 
@@ -34845,7 +34924,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "18000% Water DMG (PHY). For 20 seconds, increase Allies' Physical Equipment CT REC by 40%.",
                 artsbreak: 1100,
-                truearts: "55000% Water DMG (PHY). For 20s, increase Allies' Arts by 4/s and ATK by 120%.",
+                truearts: "55000% Water DMG (PHY). For 20s, increase Allies' Arts by 4/s and ATK by 120%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1700
             },
         passive: 
@@ -34927,7 +35006,7 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: "20000% Water DMG (PHY). For 60s, reduce Enemies' PHY and Water RES by 10% (Stackable).",
                 artsbreak: 1200,
-                truearts: "78000% Water DMG (PHY). For 15s, reduce Enemies' Critical RES by 100%. For 7s, increase Allies' Arts by [2 × # of Water Allies in the party]/s.",
+                truearts: "78000% Water DMG (PHY). For 15s, reduce Enemies' Critical RES by 100%. For 7s, increase Allies' Arts by [2 × # of Water Allies in the party]/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 1900
             },
         passive: 
@@ -35273,7 +35352,7 @@ const UnitInformation = [
                 artsbreak: 1300,
                 truearts: `110000% Light DMG (MAG). For 20s, increase own Critical DMG by 200%.`,
                 trueartsbreak: 2000,
-                superarts: `For 120s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).`,
+                superarts: `For 120s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 superartsbreak: 0
             },
         passive: 
@@ -35368,7 +35447,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn for 15s. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
                 artsbreak: 900,
-                truearts: `60000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.`,
+                truearts: `60000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 1200,
                 superarts: `170000% Dark DMG (MAG). For 15s, increase all allies' CRI DMG by 100%. Increase Dark allies' CRI DMG by 200% instead.`,
                 superartsbreak: 2000
@@ -35566,7 +35645,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: `18000% Light DMG (MAG). For 15s, reduce Enemies' Light RES by 50%.`,
                 artsbreak: 800,
-                truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.`,
+                truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 1500,
                 superarts: `170000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
                 superartsbreak: 2000
@@ -35667,7 +35746,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
+                skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.\nNote: This unit's Arts Gen is Type G and will not stack with other Type G Arts Gen.`,
                 skillbreak: 1000,
                 arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn for 20s. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
                 artsbreak: 1800,
@@ -35777,7 +35856,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `13s CT - 4200% Dark DMG (MAG). For 10s, increase own Arts gauge by 3/s`,
+                skill: `13s CT - 4200% Dark DMG (MAG). For 10s, increase own Arts gauge by 3/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 500,
                 arts: `25000% Dark DMG (MAG). For 20s, reduce enemies' Dark RES by 50%.`,
                 artsbreak: 1000,
@@ -35995,7 +36074,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: `16000% Fire DMG (PHY). For 35s, lower enemies' BREAK RES by 40%.`,
                 artsbreak: 3000,
-                truearts: `40000% Fire DMG (PHY). For 20s, Increase allies' Arts by 5/s & BREAK PWR by 70%.`,
+                truearts: `40000% Fire DMG (PHY). For 20s, Increase allies' Arts by 5/s & BREAK Power by 70%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 6000,
                 superarts: `100000% Fire DMG (PHY). For 25s, reduce enemies' Fire RES by 100%`,
                 superartsbreak: 12000
@@ -36289,7 +36368,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: `16000% Earth DMG (PHY). For 20s, increase Allies' PHY DMG and Break PWR by 75%.`,
                 artsbreak: 1800,
-                truearts: `50000% Earth DMG (PHY). Increase Allies' Arts by 20. For 30s, increase Allies' Arts by 3/s and increase Allies' PHY RES by 30%.`,
+                truearts: `50000% Earth DMG (PHY). Increase Allies' Arts by 20. For 30s, increase Allies' Arts by 3/s and increase Allies' PHY RES by 30%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 2500,
                 superarts: `150000% Earth DMG (PHY). For 30s, reduce Enemies' Earth RES by 120%.`,
                 superartsbreak: 4200
@@ -36377,7 +36456,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `15000% Dark DMG (PHY). For 25s, increase own Max HP by 60% and redirect 40% of Allies' DMG taken to self. `,
                 artsbreak: 1000,
-                truearts: `52000% Dark DMG (PHY). For 25s, reduce enemies' Dark RES by 80% and increase Arts gauge of all allies unaffected by status ailments by 4/s.`,
+                truearts: `52000% Dark DMG (PHY). For 25s, reduce enemies' Dark RES by 80% and increase Arts gauge of all allies unaffected by status ailments by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.`,
                 trueartsbreak: 1600,
                 superarts: `140000% Dark DMG (PHY). For 20s, reduce enemies' PHY RES based on how high this unit's HP is when Super Arts is activated (MAX: 200%).`,
                 superartsbreak: 2000
@@ -36468,9 +36547,9 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: `20000% Light DMG (PHY). For 25s, reduce enemies' Break RES by 40%.`,
                 artsbreak: 2000,
-                truearts: `55000% Light DMG (PHY). For 65s, increase own Arts gauge by 1/s and own Break Power by 30% (Stackable).`,
+                truearts: `55000% Light DMG (PHY). For 65s, increase own Arts gauge by 1/s and own Break Power by 30% (Stackable).\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.`,
                 trueartsbreak: 4200,
-                superarts: `160000% Light DMG (PHY). For 65s, increase own DMG by 60% and own Arts gauge by 2/s (Stackable).`,
+                superarts: `160000% Light DMG (PHY). For 65s, increase own DMG by 60% and own Arts gauge by 2/s (Stackable).\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.`,
                 superartsbreak: 4500
             },
         passive: 
@@ -36863,7 +36942,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: `27000% Fire DMG (PHY). For 30s, reduce enemies' PHY RES and Evasion by 50%.`,
                 artsbreak: 800,
-                truearts: `75000% Fire DMG (PHY). For 25s, increases allies' Arts by 6/s and reduces enemies' CRI RES by 100%.`,
+                truearts: `75000% Fire DMG (PHY). For 25s, increases allies' Arts by 6/s and reduces enemies' CRI RES by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 1300,
                 superarts: `170000% Fire DMG (PHY). Increase own CRI rate by 100% and Super CRI rate by 50% for the duration of Super Arts. Permanently increases own ATK by 50% (MAX: 200%).`,
                 superartsbreak: 2000
@@ -37001,11 +37080,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2500% Dark DMG (PHY). For 10s, increase own Arts by 4/s.`,
+                skill: `12s CT - 2500% Dark DMG (PHY). For 10s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 1000,
                 arts: `17000% Dark DMG (MAG). For 40s, reduce enemies' Break RES by 40%.`,
                 artsbreak: 3000,
-                truearts: `52000% Dark DMG (PHY). For 30s, reduce enemies' Dark RES by 80% and increase >50% HP Allies' Arts by 5/s.`,
+                truearts: `52000% Dark DMG (PHY). For 30s, reduce enemies' Dark RES by 80% and increase >50% HP Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 5000,
                 superarts: `130000% Dark DMG (PHY). When Super Arts is used right after Arts has been used, increase current Super Arts' Break Power by 200%. When Super Arts is used right after True Arts has been used, increase current Super Arts' DMG by 350%.`,
                 superartsbreak: 12000
@@ -37076,7 +37155,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: `25000% Fire DMG (MAG). For 20s, reduce enemies' Fire RES by 20% (stackable) and increase all allies' stats by 30%.`,
                 artsbreak: 1000,
-                truearts: `65000% Fire DMG (MAG). For 30s, increase own Accuracy by 150%. Additionally if used when ownself is above 80% HP, for 30s, reduce enemies' DMG RES by 70%. Additionally if used when ownself is above 50% HP, for 30s, increase own Arts by 5/s.`,
+                truearts: `65000% Fire DMG (MAG). For 30s, increase own Accuracy by 150%. Additionally if used when ownself is above 80% HP, for 30s, reduce enemies' DMG RES by 70%. Additionally if used when ownself is above 50% HP, for 30s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 trueartsbreak: 1600,
                 superarts: `170000% Fire DMG (MAG). For 30s, increase all allies' Freeze RES and Paralysis RES by 100%. Additionally if used when ownself is above 80% HP, for 30s, reduce enemies' MAG RES by 150%.`,
                 superartsbreak: 2000
@@ -37225,7 +37304,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 3500% Fire DMG (MAG). For 8s, increase own Arts by 5/s.`,
+                skill: `12s CT - 3500% Fire DMG (MAG). For 8s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 500,
                 arts: `25000% Fire DMG (MAG). For 30s, reduce enemies' MAG RES by 50%.`,
                 artsbreak: 1200,
@@ -37314,7 +37393,7 @@ const UnitInformation = [
                 artsbreak: 0,
                 truearts: `50000% Earth DMG (MAG). For 60s, increase own ATK by 150% and Freeze RES & Paralysis RES by 100%.`,
                 trueartsbreak: 1600,
-                superarts: `150000% Earth DMG (MAG). For 20s, increase all allies' Arts by 6/s and MAG DMG by 200%.`,
+                superarts: `150000% Earth DMG (MAG). For 20s, increase all allies' Arts by 6/s and MAG DMG by 200%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 superartsbreak: 2000
             },
         passive: 
@@ -37480,7 +37559,7 @@ const UnitInformation = [
                 artsbreak: 500,
                 truearts: `55000% Water DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and Water RES by 80%.`,
                 trueartsbreak: 1600,
-                superarts: `For 25s, increase all allies' Arts by 7/s and CRI DMG by 300%. Increase Leader's Arts by an additional 3/s for 25s.`,
+                superarts: `For 25s, increase all allies' Arts by 7/s and CRI DMG by 300%. Increase Leader's Arts by an additional 3/s for 25s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 superartsbreak: 0
             },
         passive: 
@@ -37640,7 +37719,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `13s CT - 2000% Light DMG (MAG). For 8s, increase own Arts by 4/s. Additionally, increase own Arts by 20 if own Skill hits the Boss (1 HIT).`,
+                skill: `13s CT - 2000% Light DMG (MAG). For 8s, increase own Arts by 4/s. Additionally, increase own Arts by 20 if own Skill hits the Boss (1 HIT).\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 500,
                 arts: `25000% Light DMG (MAG). Each time own Arts is used, permanently increase Light allies' DMG by 40% (MAX: 200%).`,
                 artsbreak: 1000,
@@ -37723,7 +37802,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2500% Water DMG (MAG). For 7s, increase own Arts by 5/s.`,
+                skill: `12s CT - 2500% Water DMG (MAG). For 7s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 600,
                 arts: `20000% Water DMG (MAG). For 20s, increase own ATK by 100% and reduce enemies' Evasion rate by 50%.`,
                 artsbreak: 1200,
@@ -37893,7 +37972,7 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: `22000% Light DMG (PHY). For 15s, increase all allies' Status RES (except Faint) by 100% and reduce enemies' Light RES by 50%.`,
                 artsbreak: 1500,
-                truearts: `50000% Light DMG (PHY). For 20s, increase all allies' HP Recovery amount by 100% and Arts by 5/s. For 20s, increase Light allies' Arts by an additional 2/s.`,
+                truearts: `50000% Light DMG (PHY). For 20s, increase all allies' HP Recovery amount by 100% and Arts by 5/s. For 20s, increase Light allies' Arts by an additional 2/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 2200,
                 superarts: `130000% Light DMG (PHY). For 25s, increase allies' DMG by 150% and Human allies' DMG by 100%.`,
                 superartsbreak: 2800
@@ -38308,7 +38387,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `Heal Water allies' HP by 25%. For 25s, Allies gain a DMG barrier that negates 8000 DMG.`,
                 artsbreak: 0,
-                truearts: `For 30s, increase all allies' DMG RES by 40% and >50% HP Allies' Arts by 5/s.`,
+                truearts: `For 30s, increase all allies' DMG RES by 40% and >50% HP Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 0,
                 superarts: `150000% Water DMG (MAG). For 20s, increase all allies' MAG DMG by [# of Water allies x 80]% (MAX: 320%).`,
                 superartsbreak: 1500
@@ -38391,7 +38470,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `25000% Light DMG (PHY). For 15s, reduce enemies' Light RES by 60%.`,
                 artsbreak: 1200,
-                truearts: `65000% Light DMG (PHY). For 25s, increase all allies' Arts by 6/s and reduce enemies' CRI RES by 100%.`,
+                truearts: `65000% Light DMG (PHY). For 25s, increase all allies' Arts by 6/s and reduce enemies' CRI RES by 100%.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 1800,
                 superarts: `150000% Light DMG (PHY). For 30s, increase all allies' PHY DMG by 100%. If used while the effects of own Super Arts is active, refreshes effect duration and increase PHY DMG buff by an additional 100% (MAX: 400%).`,
                 superartsbreak: 2500
@@ -38556,7 +38635,7 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: `25000% Dark DMG (PHY). For 30s, increase all allies' MAX HP by 30%. Additionally, increase all allies' next Super Arts' DMG by 150%.`,
                 artsbreak: 1500,
-                truearts: `66000% Dark DMG (PHY). For 20s, increase >50% HP allies' Arts by 6/s and reduce enemies' PHY RES by 100%.`,
+                truearts: `66000% Dark DMG (PHY). For 20s, increase >50% HP allies' Arts by 6/s and reduce enemies' PHY RES by 100%.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 2200,
                 superarts: `180000% Dark DMG (PHY). Increase the DMG Multiplier of the current Super Arts by 40000% for each ally above 80% HP (MAX: +160000%).`,
                 superartsbreak: 3500
@@ -38638,7 +38717,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: `Heal all allies by 50% of their MAX HP. For 15s, increase all allies' Dark RES by 20%.`,
                 artsbreak: 0,
-                truearts: `50000% Light DMG (MAG). Cure all allies' status ailments (except Faint). For 25s, increase all allies' Arts by 5/s and Demon Allies Arts by an additional 1/s.`,
+                truearts: `50000% Light DMG (MAG). Cure all allies' status ailments (except Faint). For 25s, increase all allies' Arts by 5/s and Demon Allies Arts by an additional 1/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 800,
                 superarts: `130000% Light DMG (MAG). Revives 1 Fallen Ally with 100% of their MAX HP (60s CT). For 30s, reduce enemies' MAG RES by 150%.`,
                 superartsbreak: 2700
@@ -38718,7 +38797,7 @@ const UnitInformation = [
             {
                 skill: `8s CT - 4000% Earth DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.`,
                 skillbreak: 700,
-                arts: `30000% Earth DMG (PHY). For 60s, increase own Arts by 7/s.`,
+                arts: `30000% Earth DMG (PHY). For 60s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 artsbreak: 1000,
                 truearts: `80000% Earth DMG (MAG). For 30s, increase all allies' ATK by 200% and Earth allies' Paralysis RES and Freeze RES by 100%.`,
                 trueartsbreak: 2000,

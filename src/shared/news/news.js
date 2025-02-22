@@ -2785,6 +2785,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 86,
+        date: `February 22, 2025`,
+        article: 
+        {
+            intro: `New unit has debut on JP with her respective equips!`,
+            new:
+                {
+                    units: [
+                        [`Misette`, 104037412]
+                    ],
+                    equips: [
+                        [`真『ノーリプライ』`, 113001],
+                        [`月仮面『ノーリプライ』`, 113011]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

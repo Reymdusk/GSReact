@@ -36206,6 +36206,67 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『ノーリプライ』 - JP Complete
+        id: 113001,
+        name: `真『ノーリプライ』`,
+        translate: `True 'No Reply'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Light DMG (Physical). Reduce enemies' Physical resistance by 35% for 10s. Additionally if user is Light, reduce enemies' Evasion rate by 25% for 10s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `When equipped by Misette, increase own HP Recovery by 20% (excluding Lifesteal) and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //月仮面『ノーリプライ』 - JP Complete
+        id: 113011,
+        name: `月仮面『ノーリプライ』`,
+        translate: `Moon Mask 'No Reply'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Light DMG (Physical). If user is Light, increase own CRI rate by 100% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase own MAX HP by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
