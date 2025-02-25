@@ -2810,6 +2810,39 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 87,
+        date: `February 26, 2025`,
+        article: 
+        {
+            intro: `New Tensura units have been released on Global, alongside new equips too!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Demon Lord Samurai Rimuru`, 108077512],
+                        [`Shuna`, 108087412]                        
+                    ],  
+                    equips: [
+                        [`True 'Demon Lord Rimuru's Katana'`, 153841],
+                        [`True 'Shuna's Kimono'`, 153851],
+                        [`Demon Lord Rimuru's Katana`, 153861],
+                        [`Demon Lord Rimuru's Hakama`, 153871],
+                        [`Demon Lord Rimuru Plushie`, 153881],
+                        [`Shuna's Kimono`, 153891],
+                        [`Shuna's Accessory`, 153901],
+                        [`Shuna Plushie`, 153911],
+                        [`Slime Rimuru Plushie`, 153921]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

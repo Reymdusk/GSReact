@@ -47919,11 +47919,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『魔王リムルの侍刀』 - JP Complete
+    { //True 'Demon Lord Rimuru's Katana' - Missing Lore
         id: 153841,
-        name: `真『魔王リムルの侍刀』`,
-        translate: `True 'Demon Lord Rimuru's Samurai Sword'`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        name: `True 'Demon Lord Rimuru's Katana'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -47948,12 +47947,11 @@ const EquipInformation = [
                 ability1: `When equipped by Demon Lord Samurai Rimuru, increase own ATK and DMG by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『シュナの着物』 - JP Complete
+    { //True 'Shuna's Kimono' - Missing Lore
         id: 153851,
-        name: `真『シュナの着物』`,
-        translate: `True 'Shuna's Kimono'`,
+        name: `True 'Shuna's Kimono'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -47979,12 +47977,11 @@ const EquipInformation = [
                 ability1: `When equipped by Shuna, increase own MAX HP by 20%. Increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //魔王リムルの侍刀 - JP Complete
+    { //Demon Lord Rimuru's Katana - Missing Lore
         id: 153861,
-        name: `魔王リムルの侍刀`,
-        translate: `Demon Lord Rimuru's Samurai Sword`,
+        name: `Demon Lord Rimuru's Katana`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48009,12 +48006,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //魔王リムルの袴 - JP Complete
+    { //Demon Lord Rimuru's Hakama - Missing Lore
         id: 153871,
-        name: `魔王リムルの袴`,
-        translate: `Demon Lord Rimuru's Hakama`,
+        name: `Demon Lord Rimuru's Hakama`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -48039,12 +48035,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //魔王リムルのぬいぐるみ - JP Complete
+    { //Demon Lord Rimuru Plushie - Missing Lore
         id: 153881,
-        name: `魔王リムルのぬいぐるみ`,
-        translate: `Demon Lord Rimuru's Plushie`,
+        name: `Demon Lord Rimuru Plushie`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -48069,12 +48064,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シュナの着物 - JP Complete
+    { //Shuna's Kimono - Missing Lore
         id: 153891,
-        name: `シュナの着物`,
-        translate: `Shuna's Kimono`,
+        name: `Shuna's Kimono`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -48099,12 +48093,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シュナのアクセサリー - JP Complete
+    { //Shuna's Accessory - Missing Lore
         id: 153901,
-        name: `シュナのアクセサリー`,
-        translate: `Shuna's Accessories`,
+        name: `Shuna's Accessory`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -48129,12 +48122,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シュナのぬいぐるみ - JP Complete
+    { //Shuna Plushie - Missing Lore
         id: 153911,
-        name: `シュナのぬいぐるみ`,
-        translate: `Shuna's Plushie`,
+        name: `Shuna Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -48159,12 +48151,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //スライムリムルのぬいぐるみ - JP Complete
+    { //Slime Rimuru Plushie - Missing Lore
         id: 153921,
-        name: `スライムリムルのぬいぐるみ`,
-        translate: `Stuffed Slime Rimuru Toy`,
+        name: `Slime Rimuru Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -48189,7 +48180,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Skill DMG by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『ヴェルドラのマント』 - JP Complete
         id: 153931,

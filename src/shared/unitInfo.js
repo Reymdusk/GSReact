@@ -11447,7 +11447,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase own Equipment CT Speed by 20%.`
+                        ability2: `Increase own Equipment CT Speed by 10%.`
                     }
                 },
                 dark: {
@@ -38630,7 +38630,7 @@ const UnitInformation = [
                 evosuper: `The daughter of a tribal chief, she was exiled after becoming one of the Possessed. Shadow then saved her, and she calls him "Bossman" out of appreciation. He greatly values her talents, saying she could even rule the world were she not so scatter-brained.`
             }
     },
-    { //Demon Lord Samurai Rimuru - JP Missing Lore
+    { //Demon Lord Samurai Rimuru - Missing Lore
         id: 108077512,
         name: `Demon Lord Samurai Rimuru`,
         attribute: `Dark`,
@@ -38695,7 +38695,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Demon Lord Rimuru's Samurai Sword`,
+                name: `Demon Lord Rimuru's Katana`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_153841.png",
                 skill: `50s CT - 8000% Dark DMG (PHY). For 10s, reduce enemies' Dark RES by 30%. If user is Demon, reduce enemies' Dark RES by 50% instead.`,
@@ -38708,11 +38708,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Shuna - JP Missing Lore
+    { //Shuna - Missing Lore
         id: 108087412,
         name: `Shuna`,
         attribute: `Light`,
@@ -38790,8 +38790,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Veldora - JP Missing Lore
