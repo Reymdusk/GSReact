@@ -38794,7 +38794,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Veldora - JP Missing Lore
+    { //Veldora - Missing Lore
         id: 108097312,
         name: `Veldora`,
         attribute: `Earth`,
@@ -38872,11 +38872,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Shizu - JP Missing Lore
+    { //Shizu - Missing Lore
         id: 108107112,
         name: `Shizu`,
         attribute: `Fire`,
@@ -38950,6 +38950,170 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Shizu, increase own DMG, Heal Amount, and HP Recovery Amount by 30% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
                         ability2: `Increase own DEF by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
+            }
+    },
+    { //Himura Kenshin - Missing Lore
+        id: 108117412,
+        name: `Himura Kenshin`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108116412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108117412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_811_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108116412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108117412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_811_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7335,
+                hpplus: 1354,
+                atk: 3318,
+                atkplus: 640,
+                def: 3236,
+                defplus: 612
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3000% Light DMG (PHY). Increase own Arts by 30. If Skill crits, increase own Arts by an additional 20.`,
+                skillbreak: 800,
+                arts: `27000% Light DMG (PHY). Increase allies' next Super Arts DMG by 100%.`,
+                artsbreak: 1200,
+                truearts: `65000% Light DMG (PHY). Each time True Arts is used, permanently increase Light allies' ATK by 50% (MAX: 200%). For 20s, increase >50% HP allies' Arts by 6/s.\nNote: This Unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                trueartsbreak: 2000,
+                superarts: `180000% Light DMG (PHY). Increase own Super CRI rate by 50% for the duration of Super Arts. For 30s, increase allies' CRI rate by 100%.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `For the first [30 × # of Humans in Party]s of the Quest, increase allies' DMG RES by [10 x # of Light allies in Party]% (MAX: 120s, 40%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% x own ATK/100].`,
+                ability3: `Increase own Paralysis RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Himura Kenshin's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Himura Kenshin's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                    mat2amt: 100,
+                    hover2: `Eternaglint Soulgem`
+                }
+            },
+        trueweapon: 
+            {
+                name: `Sakabato`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154011.png",
+                skill: `55s CT - 10000% Light DMG (PHY). For 8s, reduce enemies' Light RES by 30%. Additionally if user is Human, for 8s, reduce enemies' DMG RES by 20%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Himura Kenshin, increase own CRI DMG by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Sagara Sanosuke - Missing Lore
+        id: 108127212,
+        name: `Sagara Sanosuke`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108126212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108127212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_812_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108126212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108127212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_812_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7491,
+                hpplus: 1412,
+                atk: 3962,
+                atkplus: 684,
+                def: 2782,
+                defplus: 580
+            },
+        skillset: 
+            {
+                skill: `14s CT - 5000% Water DMG (PHY). Increase own Arts by 40.`,
+                skillbreak: 1200,
+                arts: `25000% Water DMG (PHY). Increase allies' Arts by 20. For 20s, increase allies' Paralysis RES and Freeze RES by 100%.`,
+                artsbreak: 1600,
+                truearts: `70000% Water DMG (PHY). For 30s, increase allies' Skill CT Speed and BE Output by 75%, and Water allies' Skill CT Speed and BE Output by an additional 75%.`,
+                trueartsbreak: 2200,
+                superarts: `200000% Water DMG (PHY). Ignores enemies' DEF for duration of Super Arts. Additionally if used when above 80% HP, for 70s, increase own Super Arts DMG by 150% (stackable).`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `When Near-death, heal allies' HP by 100% and Arts by 100. Can only be activated once per quest.`,
+                ability2: `Increase own DMG against Giant Bosses by 50%.`,
+                ability3: `Increase own DMG against enemies in BREAK by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Sagara Sanosuke's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sagara Sanosuke's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Sagara Sanosuke's Clothes`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154021.png",
+                skill: `50s CT - 8000% Water DMG (PHY). For 10s, reduce enemies' Water RES by 40%. Additionally if user is Human, for 10s, increase own Accuracy by 30%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Sagara Sanosuke, increase own DMG by 40% and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
                     }
             },
         lore: 

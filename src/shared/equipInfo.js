@@ -48182,10 +48182,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『ヴェルドラのマント』 - JP Complete
+    { //True 'Veldora's Cape' - Missing Lore
         id: 153931,
-        name: `真『ヴェルドラのマント』`,
-        translate: `True 'Veldora's Cape'`,
+        name: `True 'Veldora's Cape'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -48211,12 +48210,11 @@ const EquipInformation = [
                 ability1: `When equipped by Veldora, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『シズの剣』 - JP Complete
+    { //True 'Shizu's Sword' - Missing Lore
         id: 153941,
-        name: `真『シズの剣』`,
-        translate: `True 'Shizu's Sword'`,
+        name: `True 'Shizu's Sword'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48242,12 +48240,11 @@ const EquipInformation = [
                 ability1: `When equipped by Shizu, increase own DMG, Heal Amount, and HP Recovery Amount by 30% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ヴェルドラのマント - JP Complete
+    { //Veldora's Cape - Missing Lore
         id: 153951,
-        name: `ヴェルドラのマント`,
-        translate: `Veldora's Cloak`,
+        name: `Veldora's Cape`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -48274,10 +48271,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //ヴェルドラの手袋 - JP Complete
+    { //Veldora's Gloves - Missing Lore
         id: 153961,
-        name: `ヴェルドラの手袋`,
-        translate: `Veldora's Gloves`,
+        name: `Veldora's Gloves`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -48302,12 +48298,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シズの剣 - JP Complete
+    { //Shizu's Sword - Missing Lore
         id: 153971,
-        name: `シズの剣`,
-        translate: `Shizu's Sword`,
+        name: `Shizu's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48332,12 +48327,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シズの服 - JP Complete
+    { //Shizu's Outfit - Missing Lore
         id: 153981,
-        name: `シズの服`,
-        translate: `Shizu's Clothes`,
+        name: `Shizu's Outfit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -48362,12 +48356,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //シズのぬいぐるみ - JP Complete
+    { //Shizu Plushie - Missing Lore
         id: 153991,
-        name: `シズのぬいぐるみ`,
-        translate: `Shizu Plushie`,
+        name: `Shizu Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -48392,12 +48385,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ヴェルドラのぬいぐるみ - JP Complete
+    { //Veldora Plushie - Missing Lore
         id: 154001,
-        name: `ヴェルドラのぬいぐるみ`,
-        translate: `Veldora Plushie`,
+        name: `Veldora Plushie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -48422,8 +48414,341 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
+        lore: `Missing Lore.`
+    },
+    { //True 'Sakabato' - Missing Lore
+        id: 154011,
+        name: `真『逆刃刀』`,
+        translate: `True 'Sakabato'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 10000% Light DMG (Physical). Reduce enemies' Light resistance by 30% for 8s. Additionally if user is Human, reduce enemies' DMG resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Himura Kenshin, increase own CRI DMG by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
         lore: `Currently unreleased in Global.`
-    }
+    },
+    { //真『相楽左之助の服』 - Missing Lore
+        id: 154021,
+        name: `真『相楽左之助の服』`,
+        translate: `True 'Sagara Sanosuke's Clothes'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Water DMG (Physical). Reduce enemies' Water resistance by 40% for 10s. Additionally if user is Human, increase own Accuracy by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Sagara Sanosuke, increase own DMG by 40% and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //逆刃刀 - Missing Lore
+        id: 154031,
+        name: `逆刃刀`,
+        translate: `Sakaboto`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Light DMG (Physical). Reduce enemies' Light resistance by [15 x # of Light allies in Party]% (MAX: 60%) for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //緋村剣心の着物 - Missing Lore
+        id: 154041,
+        name: `緋村剣心の着物`,
+        translate: `Kenshin Himura's Kimino`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 3000% Light DMG (Physical). Increase Light allies' ATK by 20% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //極『緋村剣心の着物』 - Missing Lore
+        id: 154051,
+        name: `極『緋村剣心の着物』`,
+        translate: `Kenshin Himura's Kimino EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_154051.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 3000% Light DMG (Physical). Increase Light allies' ATK by 20% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: [`Increase own Arts by 10 at Start of Quest.`, `Increase own Arts by 20 at Start of Quest.`, `Increase own ATK by 5%.`, `Increase own ATK by 10%.`, `Increase own DMG against Dark enemies by 5%.`, `Increase own DMG against Dark enemies by 10%.`]
+            },
+        lore: `Missing Lore.`
+    },
+    { //緋村剣心の草履 - Missing Lore
+        id: 154061,
+        name: `緋村剣心の草履`,
+        translate: `Kenshin Himura's Sandals`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase allies' Physical resistance by 30% for 15s. Additionally, increase ally with the lowest HP's DMG resistance by an additional 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //斬馬刀 - Missing Lore
+        id: 154071,
+        name: `斬馬刀`,
+        translate: `Zanbato`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 10000% Water DMG (Physical). Increase own Physical DMG and Equipment DMG by 50% for 20s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //相楽左之助の鉢巻 - Missing Lore
+        id: 154081,
+        name: `相楽左之助の鉢巻`,
+        translate: `Sanosuke Sagara's Headband`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Water DMG (Physical). Increase own Physical DMG by 60% for 10s. Additionally if user is Water, increase own Paralysis resistance and Freeze resistance by 100% for 10s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //相楽左之助の服 - Missing Lore
+        id: 154091,
+        name: `相楽左之助の服`,
+        translate: `Sanosuke Sagara's Clothes`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 10000% Water DMG (Physical). Increase own stats by 25% for 10s. Additionally if user is Water, increase own ATK by 25% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //明神弥彦の竹刀 - Missing Lore
+        id: 154101,
+        name: `明神弥彦の竹刀`,
+        translate: `Myojin Yahiko's Shinai`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154101.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase target's Break Power by 50% and Human allies' Break Power by an additional 50% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //明神弥彦の着物 - Missing Lore
+        id: 154111,
+        name: `明神弥彦の着物`,
+        translate: `Myojin Yahiko's Kimono`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154111.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase allies' Arts by 4/s, and Water and Light allies' DMG by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 ]
 
 export function getEquips() {

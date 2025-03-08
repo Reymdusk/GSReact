@@ -2843,6 +2843,53 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 88,
+        date: `March 8, 2025`,
+        article: 
+        {
+            intro: `New Rurouni Kenshin collab has been released on JP with new units and equips! Meanwhile on Global, Part 2 of the Tensura Collab rerun has been released with 2 new Ascended units and many collab-limited equips too!`,
+            new:
+                {
+                    units: [
+                        [`Himura Kenshin`, 108117412],
+                        [`Sagara Sanosuke`, 108127212]
+                    ],
+                    equips: [
+                        [`真『逆刃刀』`, 154011],
+                        [`真『相楽左之助の服』`, 154021],
+                        [`逆刃刀`, 154031],
+                        [`緋村剣心の着物`, 154041],
+                        [`極『緋村剣心の着物』`, 154051],
+                        [`緋村剣心の草履`, 154061],
+                        [`斬馬刀`, 154071],
+                        [`相楽左之助の鉢巻`, 154081],
+                        [`相楽左之助の服`, 154091],
+                        [`明神弥彦の竹刀`, 154101],
+                        [`明神弥彦の着物`, 154111],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Veldora`, 108097312],
+                        [`Shizu`, 108107112]                        
+                    ],  
+                    equips: [
+                        [`True 'Veldora's Cape'`, 153931],
+                        [`True 'Shizu's Sword'`, 153941],
+                        [`Veldora's Cape`, 153951],
+                        [`Veldora's Gloves`, 153961],
+                        [`Shizu's Sword`, 153971],
+                        [`Shizu's Outfit`, 153981],
+                        [`Shizu Plushie`, 153991],
+                        [`Veldora Plushie`, 154001],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
