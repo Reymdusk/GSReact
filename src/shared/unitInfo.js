@@ -27284,6 +27284,7 @@ const UnitInformation = [
         name: `Hart the Fabricator`,
         attribute: `Dark`,
         type: `Human`,
+        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103846512.png",
