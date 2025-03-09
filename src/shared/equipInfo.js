@@ -48539,7 +48539,7 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     { //極『緋村剣心の着物』 - Missing Lore
-        id: 154051,
+        id: 154050,
         name: `極『緋村剣心の着物』`,
         translate: `Kenshin Himura's Kimino EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -48547,9 +48547,9 @@ const EquipInformation = [
         image: 
             {
                 detail: ``,
-                detailmax: `/db/Equipment/Detail/item_detail_154051.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154050.png`,
                 thumb: ``,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154051.png`
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154050.png`
             },
         stats:
             {

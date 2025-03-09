@@ -27363,8 +27363,8 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Liza (Valentines) - Missing Lore + JP ver
