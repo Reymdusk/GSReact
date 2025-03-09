@@ -30703,7 +30703,7 @@ const EquipInformation = [
             {
                 ability1: `Heal Amount 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Iceshard Shield 'Aeruscale' Replica - Missing Lore
         id: 111151,
@@ -32749,7 +32749,7 @@ const EquipInformation = [
             {
                 ability1: `When a Tasmon equip (Fire/Water/Earth Ruins F16 equip) and Golcat King Crown (Dark Ruins F16 equip) is equipped on the party, increase own CRI rate by 100% (No duplication).`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //現忍足『守弐韋袈』 - JP Complete
         id: 111851,
@@ -33165,7 +33165,7 @@ const EquipInformation = [
                 ability1: `When equipped by Isliid, Human Pinnacle, increase own ATK by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Komplettes Trio Replica - Missing Lore
         id: 111991,
@@ -33461,7 +33461,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Resolute Reindeer Noel - Missing Lore
         id: 112091,
@@ -35060,10 +35060,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Forte's Dolly Dress' - JP Complete
+    { //True 'Lotte's Fluffy Mitts' - JP Complete
         id: 112621,
-        name: `True 'Forte's Dolly Dress'`,
-        type: `/db/Mines/thumbnail/defLB.png`,
+        name: `True 'Lotte's Fluffy Mitts'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -35075,18 +35075,18 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
-                def: 500
+                atk: 500,
+                def: 0
             },
         skillset:  
             {
-                skill: `35s CT - Increase all allies' DMG resistance by 20% for 15s. If user is Dark, increase all allies' DMG resistance by 30% instead.`,
-                break: 0
+                skill: `50s CT - 5000% Fire DMG (Physical). If enemy is Bleeding, increase Bleed level by 1 (MAX: 3). Additionally if user is Human, reduce enemies' Fire resistance by 30% for 8s.`,
+                break: 200
             },
         passive: 
             {
-                ability1: `When equipped by Halloween Forte, increase HP Recovery amount by 10% and Arts by 2/s. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own DEF by 5%.`
+                ability1: `When equipped by Halloween Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -35120,10 +35120,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Lotte's Fluffy Mitts' - JP Complete
+    { //True 'Forte's Dolly Dress' - JP Complete
         id: 112641,
-        name: `True 'Lotte's Fluffy Mitts'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        name: `True 'Forte's Dolly Dress'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -35135,18 +35135,18 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
-                def: 0
+                atk: 0,
+                def: 500
             },
         skillset:  
             {
-                skill: `50s CT - 5000% Fire DMG (Physical). If enemy is Bleeding, increase Bleed level by 1 (MAX: 3). Additionally if user is Human, reduce enemies' Fire resistance by 30% for 8s.`,
-                break: 200
+                skill: `35s CT - Increase all allies' DMG resistance by 20% for 15s. If user is Dark, increase all allies' DMG resistance by 30% instead.`,
+                break: 0
             },
         passive: 
             {
-                ability1: `When equipped by Halloween Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own ATK by 5%.`
+                ability1: `When equipped by Halloween Forte, increase HP Recovery amount by 10% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -48269,7 +48269,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Veldora's Gloves - Missing Lore
         id: 153961,
