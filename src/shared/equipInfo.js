@@ -34477,7 +34477,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Azuel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Azel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
@@ -35517,7 +35517,7 @@ const EquipInformation = [
     { //アズエルのワイルドサンタ - JP Complete
         id: 112771,
         name: `アズエルのワイルドサンタ`,
-        translate: `Wild Santa Azuel`,
+        translate: `Wild Santa Azel`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36264,6 +36264,156 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own MAX HP by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //侵蝕の杖『ディープレイ』 - JP Complete
+        id: 113021,
+        name: `侵蝕の杖『ディープレイ』`,
+        translate: `Staff of Erosion 'Deep Ray'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 5000% Dark DMG (Magic). If enemy is Human or God, reduce enemy's DMG resistance by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //魔族史書『デスコード』 - JP Complete
+        id: 113031,
+        name: `魔族史書『デスコード』`,
+        translate: `Book of Demon History 'Death Code'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113031.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts by 25. Increase all allies' DMG against Humans and Gods by 40% for 13s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //千骸の剣『ウォークライ』 - JP Complete
+        id: 113041,
+        name: `千骸の剣『ウォークライ』`,
+        translate: `Sword of Thousand Skeletons 'Warcry'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Fire DMG (Physical). Increase own DMG against Human and God enemies by 80% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //選定の薬瓶『アナザーワン』 - JP Complete
+        id: 113051,
+        name: `選定の薬瓶『アナザーワン』`,
+        translate: `Vials of Choice 'Another One'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113051.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heal all allies' HP by 3000. All allies heal for 10% of DMG Taken from Humans and Gods for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //断絶の兜『ルナティックラグ』 - JP Complete
+        id: 113061,
+        name: `断絶の兜『ルナティックラグ』`,
+        translate: `Disintegration Helmet 'Lunatic Rag'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `35s CT - Reduce all allies' DMG Taken from Humans and Gods by 30% for 13s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -48741,6 +48891,309 @@ const EquipInformation = [
         skillset:  
             {
                 skill: `40s CT - Increase allies' Arts by 4/s, and Water and Light allies' DMG by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『斎藤一の刀』 - Missing Lore
+        id: 154121,
+        name: `真『斎藤一の刀』`,
+        translate: `True 'Saito Hajime's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 12000% Dark DMG (Physical). Increase own DMG by 50% and Dark DMG by 70% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Saito Hajime, increase own ATK, DEF and Break Power by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『志々雄真実の刀』 - Missing Lore
+        id: 154131,
+        name: `真『志々雄真実の刀』`,
+        translate: `True 'Shishio Makoto's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7500% Fire DMG (Physical). Increase own Fire DMG by 50% and reduce enemies' Physical resistance by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Shishio Makoto, increase own DMG by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //斎藤一の刀 - Missing Lore
+        id: 154141,
+        name: `斎藤一の刀`,
+        translate: `Saito Hajime's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 2000% Dark DMG (Physical). Increase own Break Power by 50% and Dark allies' Break Power by 30% for 15s.`,
+                break: 3500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //斎藤一の服 - Missing Lore
+        id: 154151,
+        name: `斎藤一の服`,
+        translate: `Saito Hajime's Clothes`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase allies' Dark resistance by 15% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //極『斎藤一の服』 - Missing Lore
+        id: 154160,
+        name: `極『斎藤一の服』`,
+        translate: `Saito Hajime's Clothes EV`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_154060.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154060.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase allies' Dark resistance by 15% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: [`When own HP is above 90%, increase own Accuracy by 10%.`, `When own HP is above 90%, increase own Accuracy by 20%.`, `Increase own Physical resistance by 5%.`, `Increase own Physical resistance by 10%.`, `Increase own Magic resistance by 5%.`, `Increase own Magic resistance by 10%.`]
+            },
+        lore: `Missing Lore.`
+    },
+    { //斎藤一の靴 - Missing Lore
+        id: 154171,
+        name: `斎藤一の靴`,
+        translate: `Hajime Saito's Shoes`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154171.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase allies' Arts by 3/s and Human allies' Accuracy by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //志々雄真実の刀 - Missing Lore
+        id: 154181,
+        name: `志々雄真実の刀`,
+        translate: `Shishio Makoto's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Fire DMG (Physical). Increase next Super Arts' DMG used by ownself by 100%. If user is Fire, increase next Super Arts' DMG by 150% instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //志々雄真実の着物 - Missing Lore
+        id: 154191,
+        name: `志々雄真実の着物`,
+        translate: `Shishio Makoto's Kimono`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 3000% Fire DMG (Magic). Reduce enemies' Fire resistance by 35% for 8s. Additionally if used for the first time, increase own Arts by 80.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //神谷薫の着物 - Missing Lore
+        id: 154201,
+        name: `神谷薫の着物`,
+        translate: `Kaoru Kamiya's Kimono`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase target's Dark resistance by 30% for 20s. Additionally if used for the first time, increase target's Arts by 50.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //神谷薫の髪飾り - Missing Lore
+        id: 154211,
+        name: `神谷薫の髪飾り`,
+        translate: `Kaoru Kamiya's Hairpin`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154211.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Cure all allies' Poison. Increase units cured by this equip's Arts by 20.`,
                 break: 0
             },
         passive: 

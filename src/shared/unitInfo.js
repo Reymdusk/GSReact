@@ -27851,9 +27851,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Azuel - Missing Lore (JP)
+    { //Azel - Missing Lore (JP)
         id: 103917112,
-        name: `Azuel`,
+        name: `Azel`,
         attribute: `Fire`,
         type: `Demon`,
         image: 
@@ -27919,7 +27919,7 @@ const UnitInformation = [
                     skillbreak: 4000,
                     passive: 
                         {
-                            ability1: `When equipped by Azuel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Azel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
                         }
                 },
@@ -39123,6 +39123,170 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Saito Hajime - Missing Lore
+        id: 108137512,
+        name: `Saito Hajime`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108136512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108137512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_813_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108136512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108137512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_813_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7381,
+                hpplus: 1392,
+                atk: 3887,
+                atkplus: 672,
+                def: 2904,
+                defplus: 603
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2800% Dark DMG (PHY). Increase own Arts by 40.`,
+                skillbreak: 700,
+                arts: `27000% Dark DMG (PHY). For 25s, increase Human allies' stats by 20% and own stats by an additional 20%.`,
+                artsbreak: 1200,
+                truearts: `70000% Dark DMG (PHY). Increase allies' Arts by 30. For 25s, reduce enemies' PHY RES by 100%.`,
+                trueartsbreak: 2500,
+                superarts: `230000% Dark DMG (PHY). Increase own Accuracy by 100% for the duration of Super Arts. Additionally for 20s, reduce enemies' DMG RES by 75%. If ownself is not affected by Status ailment(s), reduce enemies' DMG RES by 150% instead.`,
+                superartsbreak: 4500
+            },
+        passive: 
+            {
+                ability1: `At Start of Battle, increase next Skill's Arts UP by 100 instead and double next Super Arts' DMG Multiplier and Break Power. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% x own ATK and DEF/ 100].`,
+                ability3: `Increase Dark allies' BE Output by 15%. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When Saito Hajime's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saito Hajime's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Saito Hajime's Sword`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154121.png",
+                skill: `70s CT - 12000% Dark DMG (PHY). For 15s, increase own DMG by 50% and Dark DMG by 70%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Saito Hajime, increase own ATK, DEF and Break Power by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Shishio Makoto - Missing Lore
+        id: 108147112,
+        name: `Shishio Makoto`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108146112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108147112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_814_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108146112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108147112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_814_1.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7348,
+                hpplus: 1386,
+                atk: 4116,
+                atkplus: 708,
+                def: 2841,
+                defplus: 586
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2800% Fire DMG (PHY). For 8s, reduce enemies' Burn RES by 30%.`,
+                skillbreak: 500,
+                arts: `24000% Fire DMG (PHY). For 25s, increase allies' DMG RES by 30% against enemies with Status ailment(s).`,
+                artsbreak: 700,
+                truearts: `60000% Fire DMG (PHY). Consumes 25% of own MAX HP. For 25s, reduce enemies' DMG RES by 150%.`,
+                trueartsbreak: 1800,
+                superarts: `180000% Fire DMG (PHY). 100% Chance to inflict Burn for 20s. For 20s, increase Fire allies' DMG by 200%. Additionally if own HP is below 50%, burn ownself for 60s.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `Increase Fire allies' Arts by 3/s. If ownself is Leader, increase Fire allies' Arts by 5/s instead. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG the lower own HP is (MAX: 300%).`,
+                ability3: `When ownself is Burning, increase own DMG by 150%.`,
+                ability4: `Unit EXP UP 20% UP. (When Shishio Makoto's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Shishio Makoto's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Shishio Makoto's Sword`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154131.png",
+                skill: `45s CT - 7500% Fire DMG (PHY). For 10s, increase own Fire DMG by 50% and reduce enemies' PHY RES by 30%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Shishio Makoto, increase own DMG by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    }
 ];
 
 export function getUnits() {
