@@ -63,6 +63,10 @@ return (
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>GUIDES</p></b>
                                     </NavLink>
                                 </NavItem>
+                                <NavItem>
+                                    <a className="nav-link" href="https://docs.google.com/document/d/14ztpoBP4MUjuFB1guR0shvLpERMz1r2H4DpfUdcnBMI/edit?tab=t.0#heading=h.fw5dvlf347po" 
+                                        style={{paddingTop: "11px", marginBottom: "0rem", marginLeft: "0px", whiteSpace: "nowrap"}}><b>GRAND CRUSADE</b></a>
+                                </NavItem>
                             </Nav>
                             <NavbarText>
                                 <a href="https://discord.gg/grandsummoners" id="discordLink"><FaDiscord /></a>
