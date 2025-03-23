@@ -34451,10 +34451,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ツイン・ファルコン』 - JP Complete
+    { //True 'Twin Falcons - Missing Lore
         id: 112421,
-        name: `真『ツイン・ファルコン』`,
-        translate: `True 'Twin Falcon'`,
+        name: `True 'Twin Falcons'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34480,7 +34479,7 @@ const EquipInformation = [
                 ability1: `When equipped by Azel, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //絶元甲『ゼクスヴェーダ』 - JP Complete
         id: 112431,

@@ -2929,6 +2929,30 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 90,
+        date: `March 22, 2025`,
+        article: 
+        {
+            intro: `Grand Crusade has finally come to Global, alongside Azel and his True Weapon. As there are many new Fusion Equips with varying effects, they will not be listed on the Equips page, however, they are listed on the new "Grand Crusade" tab!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Azel`, 103917112]
+                    ],  
+                    equips: [
+                        [`True 'Twin Falcons`, 112421]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

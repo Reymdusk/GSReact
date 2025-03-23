@@ -27851,7 +27851,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Azel - Missing Lore (JP)
+    { //Azel - Missing Lore
         id: 103917112,
         name: `Azel`,
         attribute: `Fire`,
@@ -27912,7 +27912,7 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Twin Falcon`,
+                    name: `Twin Falcons`,
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "/db/Equipment/Detail/item_detail_112421.png",
                     skill: `45s CT - 8000% Fire DMG (PHY). For 8s, increase own PHY DMG by 40% (stackable).`,
@@ -27925,8 +27925,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Vena - Missing Lore (JP)
