@@ -39208,7 +39208,7 @@ const UnitInformation = [
     { //Shishio Makoto - Missing Lore
         id: 108147112,
         name: `Shishio Makoto`,
-        attribute: `Dark`,
+        attribute: `Fire`,
         type: `Human`,
         image: 
             {
