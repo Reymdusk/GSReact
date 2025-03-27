@@ -28780,6 +28780,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Erens - Missing Lore (JP)
+        id: 104097312,
+        name: `Erens`,
+        attribute: `Earth`,
+        type: `Dragon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104096312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104097312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104096312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104097312.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7183,
+                hpplus: 1356,
+                atk: 3775,
+                atkplus: 654,
+                def: 3112,
+                defplus: 642
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2800% Earth DMG (PHY). Increase own Arts by 30. For 8s, reduce enemies' Evasion rate by 10%.`,
+                skillbreak: 700,
+                arts: `22000% Earth DMG (PHY). For 60s, increase own DMG by 150% and Physical Equip CT Speed by 30%.`,
+                artsbreak:  1200,
+                truearts: `72000% Earth DMG (MAG). 100% chance to inflict Disease for 25s. For 25s, increase allies' DMG against enemies with Status ailment(s) by 200%. Increase allies' DMG against Diseased enemies by an additional 100%.`,
+                trueartsbreak: 1800,
+                superarts: `190000% Earth DMG (PHY). For 25s, reduce enemies' PHY RES by 150% and Disease RES by 50%.`,
+                superartsbreak: 2200
+            },
+        passive: 
+            {
+                ability1: `At the Start of Quest and every 10s, heal allies' HP by 25%. Increases Arts of ally with the lowest Arts gauge by 50. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 30%.`,
+                ability3: `Increase own Disease RES by 100%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
+                    mat2amt: 220,
+                    hover2: "Smogdragon Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Earth Claim`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_113071.png",
+                    skill: `50s CT - 8000% Earth DMG (PHY). For 10s, reduce enemies' Earth RES by 30%. If user is Dragon, reduce enemies' Earth RES by 50% instead.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Erens, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own ATK by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -36422,9 +36500,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
-                    mat3amt: 100,
-                    hover3: "Smogdragon Soulgem"
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
+                    mat2amt: 100,
+                    hover2: "Smogdragon Soulgem"
                 }
             },
         lore: 

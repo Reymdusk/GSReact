@@ -36416,6 +36416,37 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『アースクレイム』 - JP Complete
+        id: 113071,
+        name: `真『アースクレイム』`,
+        translate: `True 'Earth Claim'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Earth DMG (Physical). Reduce enemies' Earth resistance by 30% for 10s. If user is Dragon, reduce enemies' Earth resistance by 50% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Erens, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,

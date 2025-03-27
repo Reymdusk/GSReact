@@ -2953,6 +2953,30 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 91,
+        date: `March 27, 2025`,
+        article: 
+        {
+            intro: `Grand Crusade EP4 debuts in JP with a new unit!`,
+            new:
+                {
+                    units: [
+                        [`Erens`, 104097312]
+                    ],
+                    equips: [
+                        [`真『アースクレイム』`, 113071]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
