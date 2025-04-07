@@ -4378,7 +4378,7 @@ const UnitInformation = [
                 evoawk: "A warrior who gained great power from dracosis. As he fought an archer, the seal placed over his half-dragon self broke and Arosdea realized his true power, but he lost his senses and rampaged to scorch the whole world. Unable to stand by, the witch solved the problem with an ice age. This is now passed down in legends as the Winter of Thaumazein."
             }
     },
-    { //Selia (Regular) - Complete
+    { //Selia - Complete + JP Dream Evo
         id: 101186212,
         name: "Selia",
         rank: "C",
@@ -4402,6 +4402,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6499,
@@ -4418,6 +4427,15 @@ const UnitInformation = [
                 arts: "12800% Water DMG (MAG). 80% chance to inflict Freeze for 6s. Cleanse Allies' and Enemies' Burn.",
                 artsbreak: 2100,
                 truearts: "25000% Water DMG (MAG). 100% chance to inflict Freeze for 8s. Cleanse Allies' and Enemies' Burn + For 8s, reduce Enemies' Water RES by 20%.",
+                trueartsbreak: 3800
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1700% Water DMG (MAG). 50% chance to reduce Enemies' DMG by 20% + For 8s, reduce Enemies' Freeze RES by 15%.",
+                skillbreak: 1350,
+                arts: "17000% Water DMG (MAG). 80% chance to inflict Freeze for 6s. Cleanse Allies' and Enemies' Burn.",
+                artsbreak: 2100,
+                truearts: "42000% Water DMG (MAG). 100% chance to inflict Freeze for 8s. Cleanse Allies' and Enemies' Burn + For 8s, reduce Enemies' Water RES by 30%.",
                 trueartsbreak: 3800
             },
         passive: 
@@ -4452,6 +4470,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat5amt: 1,
                     hover5: "Oldeus"
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                        mat3amt: 2,
+                        hover3: "Geo Zagnus",
+                    },
+                    passive: {
+                        ability1: `Increase own MAG DMG against Frozen enemies by 150%.`,
+                        ability2: `When own HP is 80% or higher, increase own Arts by 3/s.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Heal Amount by 25% (excluding Lifesteal).`
+                    }
                 }
             },
         lore: 
@@ -4571,7 +4623,7 @@ const UnitInformation = [
                 evoawk: "The fiery Thaumazein Plain was once transformed into a frigid wasteland by the Witch of Disaster. The disgrace at being saved by his target and the anger at his own weakness that allowed it awakened the power sleeping within him. He fired an arrow with the whole of that strength, intending to bring the chase to an end. However, all that accomplished was ridding the Plain of her cold magic, making him its unwitting saviour."
             }
     },
-    { //Duran - Complete
+    { //Duran - Complete + JP Dream Evo
         id: 101206412,
         name: "Duran",
         rank: "B-",
@@ -4595,6 +4647,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 6792,
@@ -4611,6 +4672,15 @@ const UnitInformation = [
                 arts: "For 10s, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY) + For 15s, heal Allies' HP by 300/s & Allies gain a DMG barrier that negates 1200 DMG.",
                 artsbreak: 0,
                 truearts: "For 10s, take all DMG dealt to Allies instead, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY), and gain a DMG barrier that negates 9000 DMG to self. During True Arts, increase Paralysis and Freeze RES by 100%.",
+                trueartsbreak: 0
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 3300% Light DMG (PHY). During this Skill, increase own DMG RES by 30%.",
+                skillbreak: 2400,
+                arts: "For 10s, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY) + For 20s, heal Allies' HP by 400/s & Allies gain a DMG barrier that negates 1200 DMG.",
+                artsbreak: 0,
+                truearts: "For 15s, take all DMG dealt to Allies instead, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY), gain a DMG barrier that negates 15000 DMG to self, and increase own Paralysis RES and Freeze RES by 100%.",
                 trueartsbreak: 0
             },
         passive: 
@@ -4638,6 +4708,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat3amt: 4,
                     hover3: "Code-XTF",
+                }
+            },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                        mat3amt: 2,
+                        hover3: "Tonetaurus",
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAX HP by 25%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Heal Amount by 30% (excluding Lifesteal).`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase DMG barrier gained from True Arts to 25000 instead.`,
+                        ability2: `Increase own Arts by 5 for every 10% of MAX HP lost.`
+                    }
                 }
             },
         lore: 
@@ -4776,7 +4880,7 @@ const UnitInformation = [
                 evoawk: "Zenon loathed the whole world, so took up his cursed sword and made blood rain throughout the land. And then a single knight rose to stop him. The battle that suddenly erupted in the city streets was so fierce it changed the very shape of the land. During the battle. Zenon finally understood the reason his cursed sword came to his hand. And that understanding released the true power of the blade. The attack then unleashed, fueled by the hatred and bloodlust of the blade's will. destroyed everything in the area--including his own life."
             }
     },
-    { //Soleil - Complete
+    { //Soleil - Complete + JP Dream Evo
         id: 101226112,
         name: "Soleil",
         rank: "F",
@@ -4800,6 +4904,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6424,
@@ -4811,17 +4924,31 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2000% Fire DMG (MAG). If a Burning enemy is present, deal 3000% Fire DMG (MAG) instead.",
+                skill: "10s CT - [2000 + 1000 x # of Burning enemies]% Fire DMG (MAG).",
                 skillbreak: 1000,
                 arts: "14000% Fire DMG (MAG). 70% chance to inflict Burn for 15s, Burn self + For 20s, increase own Critical Rate by 100% while Burned.",
                 artsbreak: 1800,
                 truearts: "33000% Fire DMG (MAG). For 15s, reduce Burned Enemies' DMG RES by 25% and increase own DMG by 100% while Burned.",
                 trueartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - [2000 + 1000 x # of Burning enemies]% Fire DMG (MAG). Increase own Arts by 20.",
+                skillbreak: 1000,
+                arts: "18000% Fire DMG (MAG). 80% chance to inflict Burn for 20s. Burns ownself for 20s. For 20s, increase own CRI rate by 100% while ownself is Burned.",
+                artsbreak: 1800,
+                truearts: "50000% Fire DMG (MAG). For 15s, reduce Burned Enemies' DMG RES by 60% and increase own DMG by 120% while Burned.",
+                trueartsbreak: 2200
+            },
         passive: 
             {
                 ability1: "Increase DMG to Beast Enemies by 30%.",
-                ability2: "Overheat: Every 3rd Skill used, apply Burn to self. While Burned, increase Skill CT REC by 100% and Freeze RES by 100%."
+                ability2: "Overheat: On every 3rd Skill used, burn ownself for 10s. While Burned, increase Skill CT Speed and Freeze RES by 100%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase DMG to Beast Enemies by 30%.",
+                ability2: "Overheat: On every 3rd Skill used, burn ownself for 20s. While Burned, increase Skill CT Speed and Freeze RES by 100%."
             }, 
         evolution: 
             {
@@ -4846,6 +4973,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat4amt: 1,
                     hover4: "Flogassa"
+                }
+            },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `When ownself is Burning, increase own DMG by 100%.`,
+                        ability2: `Increase own Equip CT Speed by 20%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `When ownself is Burning, increase own Arts by 2/s.`,
+                        ability2: `Increase own DMG against Beast enemies by 250%.`
+                    }
                 }
             },
         lore: 
@@ -26031,10 +26192,9 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Canaria - Missing Lore (JP)
+    { //Canaria - Missing Lore
         id: 103717212,
         name: `Canaria`,
-        translate: `Canary`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -26097,7 +26257,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `KAGEGIRI`,
+                name: `Shadow Cutter`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_111801.png",
                 skill: `20s CT - 4000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If user is Human, increase own Arts gauge by 10. `,
@@ -26110,8 +26270,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Luana - Missing Lore
@@ -28850,6 +29010,84 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Erens, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Original Witch Selia - Missing Lore (JP)
+        id: 104107212,
+        name: `Original Witch Selia`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104106212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104107212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104106212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104107212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7128,
+                hpplus: 1346,
+                atk: 3802,
+                atkplus: 658,
+                def: 3139,
+                defplus: 648
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2800% Water DMG (MAG). Increase own Arts by 30.`,
+                skillbreak: 600,
+                arts: `20000% Water DMG (MAG). For 40s, increase allies' Equip CT Speed by 20%. Additionally when used for the first time, increase allies' Arts by 100.`,
+                artsbreak: 1200,
+                truearts: `55000% Water DMG (MAG). For 25s, reduce enemies' Water RES by 80% and increase >50% HP Allies' Arts by 5/s.\n>Note: This Unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                trueartsbreak: 1800,
+                superarts: `160000% Water DMG (MAG). 100% chance to inflict Freeze for 5s. Increase own CRI rate by 100%, Super CRI rate by 50%, and Super CRI rate by an additional 50% against Frozen enemies for the duration of Super Arts.`,
+                superartsbreak: 2400
+            },
+        passive: 
+            {
+                ability1: `Increase Human allies' Status ailment RES (except Faint) by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own MAG RES by 20%.`,
+                ability3: `Increase DMG against Enemies under 30% HP by 20%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                    mat2amt: 220,
+                    hover2: `Frostsprite Soulgem`,
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Grimm Stella`,
+                    slot: "/db/Mines/thumbnail/magLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_113081.png",
+                    skill: `50s CT - 7000% Water DMG (MAG). For 10s, increase own CRI DMG by 50% and reduce enemies' MAG RES by 30%.`,
+                    skillbreak: 900,
+                    passive: 
+                        {
+                            ability1: `When equipped by Original Witch Selia, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own MAG RES by 5%.`
                         }
                 },
         lore:   

@@ -2977,6 +2977,41 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 92,
+        date: `April 7, 2025`,
+        article: 
+        {
+            intro: `Part 6 of the Grimm Stella saga has been released on JP with a new unit and equips. Moreover, 3 new Dream Awakenings debut as well. Meanwhile on Global, Canaria makes her grand debut with her respective equips!`,
+            new:
+                {
+                    units: [
+                        [`Original Witch Selia`, 104107212]
+                    ],
+                    equips: [
+                        [`真『グリムステラ』`, 113081],
+                        [`写本『グリムステラ』`, 113091]
+                    ],
+                    dream: [
+                        [`Soleil`, 101226112],
+                        [`Selia`, 101186212],
+                        [`Duran`, 101206412],
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Canaria`, 103717212]
+                    ],  
+                    equips: [
+                        [`True 'Shadow Cutter'`, 111801],
+                        [`Shadow Cutter`, 111811],
+                        [`Canaria's Blue Jacket`, 111821]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

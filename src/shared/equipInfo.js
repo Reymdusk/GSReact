@@ -32597,10 +32597,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『影斬り』- JP Complete
+    { //True 'Shadow Cutter' - Missing Lore
         id: 111801,
-        name: `真『影斬り』`,
-        translate: `True 'KAGEGIRI'`,
+        name: `True 'Shadow Cutter'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -32627,12 +32626,11 @@ const EquipInformation = [
                 ability1: `When equipped by Canaria, increase own ATK by 100% & Skill CT by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical Evasion by 5%`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //影斬り - JP Complete
+    { //Shadow Cutter - Missing Lore
         id: 111811,
-        name: `影斬り`,
-        translate: `KAGEGIRI Shadow Slasher Slicer`,
+        name: `Shadow Cutter`,
         location: `Limited Event - Blue Jacket Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -32658,12 +32656,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own Skill DMG by 20%,`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ブルージャケット(カナリア仕様) - JP Complete
+    { //Canaria's Blue Jacket - Missing Lore
         id: 111821,
-        name: `ブルージャケット(カナリア仕様)`,
-        translate: `Blue Jacket (Canaria Custom)`,
+        name: `Canaria's Blue Jacket`,
         location: `Limited Event - Blue Jacket Part 2`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -32689,7 +32686,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Hellfire resistance by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Golcat King Crown - Missing Lore
         id: 111831,
@@ -34451,7 +34448,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Twin Falcons - Missing Lore
+    { //True 'Twin Falcons' - Missing Lore
         id: 112421,
         name: `True 'Twin Falcons'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -36444,6 +36441,67 @@ const EquipInformation = [
             {
                 ability1: `When equipped by Erens, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『グリムステラ』 - JP Complete
+        id: 113081,
+        name: `真『グリムステラ』`,
+        translate: `True 'Grimm Stella'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7000% Water DMG (Magic). Increase own CRI DMG by 50% and reduce enemies' Magic resistance by 30% for 10s.`,
+                break: 900
+            },
+        passive: 
+            {
+                ability1: `When equipped by Original Witch Selia, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //写本『グリムステラ』 - JP Complete
+        id: 113091,
+        name: `写本『グリムステラ』`,
+        translate: `Manuscript 'Grimm Stella'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Water DMG (Magic). Increase own Magic DMG by 35% and reduce enemies' Water resistance by 25% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic DMG by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
