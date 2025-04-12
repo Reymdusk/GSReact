@@ -48656,8 +48656,7 @@ const EquipInformation = [
     },
     { //True 'Sakabato' - Missing Lore
         id: 154011,
-        name: `真『逆刃刀』`,
-        translate: `True 'Sakabato'`,
+        name: `True 'Sakabato'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48680,15 +48679,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Himura Kenshin, increase own CRI DMG by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Kenshin Himura, increase own CRI DMG by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『相楽左之助の服』 - Missing Lore
+    { //True 'Sanosuke's Outfit' - Missing Lore
         id: 154021,
-        name: `真『相楽左之助の服』`,
-        translate: `True 'Sagara Sanosuke's Clothes'`,
+        name: `True 'Sanosuke's Outfit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48711,15 +48709,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Sagara Sanosuke, increase own DMG by 40% and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Sanosuke Sagara, increase own DMG by 40% and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //逆刃刀 - Missing Lore
+    { //Sakabato - Missing Lore
         id: 154031,
-        name: `逆刃刀`,
-        translate: `Sakaboto`,
+        name: `Sakabato`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48744,12 +48741,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //緋村剣心の着物 - Missing Lore
+    { //Kenshin's Kimino - Missing Lore
         id: 154041,
-        name: `緋村剣心の着物`,
-        translate: `Kenshin Himura's Kimino`,
+        name: `Kenshin's Kimino`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -48774,12 +48770,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『緋村剣心の着物』 - Missing Lore
+    { //Kenshin's Kimino EV - Missing Lore
         id: 154050,
-        name: `極『緋村剣心の着物』`,
-        translate: `Kenshin Himura's Kimino EV`,
+        name: `Kenshin's Kimino EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -48807,10 +48802,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //緋村剣心の草履 - Missing Lore
+    { //Kenshin's Zori - Missing Lore
         id: 154061,
-        name: `緋村剣心の草履`,
-        translate: `Kenshin Himura's Sandals`,
+        name: `Kenshin's Zori`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -48835,12 +48829,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //斬馬刀 - Missing Lore
+    { //Zanbato - Missing Lore
         id: 154071,
-        name: `斬馬刀`,
-        translate: `Zanbato`,
+        name: `Zanbato`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48865,12 +48858,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //相楽左之助の鉢巻 - Missing Lore
+    { //Sanosuke's Headband - Missing Lore
         id: 154081,
-        name: `相楽左之助の鉢巻`,
-        translate: `Sanosuke Sagara's Headband`,
+        name: `Sanosuke's Headband`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48895,12 +48887,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //相楽左之助の服 - Missing Lore
+    { //Sanosuke's Outfit - Missing Lore
         id: 154091,
-        name: `相楽左之助の服`,
-        translate: `Sanosuke Sagara's Clothes`,
+        name: `Sanosuke's Outfit`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48925,12 +48916,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //明神弥彦の竹刀 - Missing Lore
+    { //Yahiko's Shinai - Missing Lore
         id: 154101,
-        name: `明神弥彦の竹刀`,
-        translate: `Myojin Yahiko's Shinai`,
+        name: `Yahiko's Shinai`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -48955,12 +48945,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //明神弥彦の着物 - Missing Lore
+    { //Yahiko's Kimono - Missing Lore
         id: 154111,
-        name: `明神弥彦の着物`,
-        translate: `Myojin Yahiko's Kimono`,
+        name: `Yahiko's Kimono`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -48985,7 +48974,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『斎藤一の刀』 - Missing Lore
         id: 154121,

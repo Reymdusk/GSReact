@@ -3012,6 +3012,41 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 93,
+        date: `April 12, 2025`,
+        article: 
+        {
+            intro: `Rurouni Kenshin has come to Global! 2 new units and a variety of equips have been added as part of the collab.`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Kenshin Himura`, 108117412],
+                        [`Sanosuke Sagara`, 108127212],
+                    ],  
+                    equips: [
+                        [`True 'Sakabato'`, 154011],
+                        [`True 'Sanosuke's Outfit'`, 154021],
+                        [`Sakabato`, 154031],
+                        [`Kenshin's Kimino`, 154041],
+                        [`Kenshin's Kimino EV`, 154051],
+                        [`Kenshin's Zori`, 154061],
+                        [`Zanbato`, 154071],
+                        [`Sanosuke's Headband`, 154081],
+                        [`Sanosuke's Outfit`, 154091],
+                        [`Yahiko's Shinai`, 154101],
+                        [`Yahiko's Kimono`, 154111]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

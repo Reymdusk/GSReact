@@ -39275,9 +39275,9 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Himura Kenshin - Missing Lore
+    { //Kenshin Himura - Missing Lore
         id: 108117412,
-        name: `Himura Kenshin`,
+        name: `Kenshin Himura`,
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -39324,8 +39324,8 @@ const UnitInformation = [
                 ability1: `For the first [30 × # of Humans in Party]s of the Quest, increase allies' DMG RES by [10 x # of Light allies in Party]% (MAX: 120s, 40%). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [1% x own ATK/100].`,
                 ability3: `Increase own Paralysis RES by 100%.`,
-                ability4: `Unit EXP UP 20% UP. (When Himura Kenshin's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Himura Kenshin's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Kenshin Himura's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Kenshin Himura's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -39347,19 +39347,19 @@ const UnitInformation = [
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Himura Kenshin, increase own CRI DMG by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Kenshin Himura, increase own CRI DMG by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Sagara Sanosuke - Missing Lore
+    { //Sanosuke Sagara - Missing Lore
         id: 108127212,
-        name: `Sagara Sanosuke`,
+        name: `Sanosuke Sagara`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -39406,8 +39406,8 @@ const UnitInformation = [
                 ability1: `When Near-death, heal allies' HP by 100% and Arts by 100. Can only be activated once per quest.`,
                 ability2: `Increase own DMG against Giant Bosses by 50%.`,
                 ability3: `Increase own DMG against enemies in BREAK by 50%.`,
-                ability4: `Unit EXP UP 20% UP. (When Sagara Sanosuke's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sagara Sanosuke's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Sanosuke Sagara's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sanosuke Sagara's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -39422,21 +39422,21 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Sagara Sanosuke's Clothes`,
+                name: `Sanosuke's Outfit`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154021.png",
                 skill: `50s CT - 8000% Water DMG (PHY). For 10s, reduce enemies' Water RES by 40%. Additionally if user is Human, for 10s, increase own Accuracy by 30%.`,
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Sagara Sanosuke, increase own DMG by 40% and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Sanosuke Sagara, increase own DMG by 40% and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own PHY RES by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Saito Hajime - Missing Lore
