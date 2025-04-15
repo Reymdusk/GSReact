@@ -3036,7 +3036,7 @@ const NewsArticles = [
                         [`True 'Sanosuke's Outfit'`, 154021],
                         [`Sakabato`, 154031],
                         [`Kenshin's Kimino`, 154041],
-                        [`Kenshin's Kimino EV`, 154051],
+                        [`Kenshin's Kimino EV`, 154050],
                         [`Kenshin's Zori`, 154061],
                         [`Zanbato`, 154071],
                         [`Sanosuke's Headband`, 154081],
@@ -3044,6 +3044,31 @@ const NewsArticles = [
                         [`Yahiko's Shinai`, 154101],
                         [`Yahiko's Kimono`, 154111]
                     ],
+                    dream: []
+                }
+        }
+    },
+    {
+        id: 94,
+        date: `April 15, 2025`,
+        article: 
+        {
+            intro: `Mena Soars High Chapter 2 debuts on JP with a new unit and equips!`,
+            new:
+                {
+                    units: [
+                        [`Huma`, 104127512]
+                    ],
+                    equips: [
+                        [`真『ジャスティス』`, 113101],
+                        [`正義の剣『ジャスティス』`, 113111],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
                     dream: []
                 }
         }

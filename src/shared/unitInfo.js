@@ -29096,6 +29096,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Huma - Missing Lore (JP)
+        id: 104127512,
+        name: `Huma`,
+        attribute: `Dark`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104126512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104127512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104126512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104127512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7535,
+                hpplus: 1420,
+                atk: 3425,
+                atkplus: 598,
+                def: 2809,
+                defplus: 585
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2400% Dark DMG (PHY). Increase own Arts by 20. If used when ownself is not affected by Status ailments, increase own Arts by an additional 20.`,
+                skillbreak: 800,
+                arts: `25000% Dark DMG (PHY). Increase allies' Arts by 25. For 20s, increase allies' Evasion rate by 25%.`,
+                artsbreak: 1000,
+                truearts: `57000% Dark DMG (PHY). Each time own True Arts is used, permanently increase own Heal Equip CT Speed by 10% (MAX: 50%). For 30s, increase Spirit allies' stats by 50%.`,
+                trueartsbreak: 2000,
+                superarts: `170000% Dark DMG (PHY). Each time own Super Arts is used, permanently increase own Physical Equip CT Speed by 10% (MAX: 50%). For 25s, increase allies' PHY DMG by 200%.`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `For each Dark ally alive, increase allies' Arts by 1/s (MAX: 4/s). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own CRI RES by 30%.`,
+                ability3: `When own HP is 90% or higher, increase own Accuracy by 30%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Justice`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_113101.png",
+                    skill: `55s CT - 10000% Dark DMG (PHY). For 8s, reduce enemies' Dark RES by 30%. Additionally if user is Spirit, reduce enemies' DMG RES by 20%.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Huma, increase own Heal Amount by 20% (except Lifesteal) and Arts by 1/s. Does not stack with Abilties of the same name.`,
+                            ability2: `Increase own PHY RES by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",

@@ -36505,6 +36505,67 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『ジャスティス』 - JP Complete
+        id: 113101,
+        name: `真『ジャスティス』`,
+        translate: `True 'Justice'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 10000% Dark DMG (Physical). Reduce enemies' Dark resistance by 30% for 8s. Additionally if user is Spirit, reduce enemies' DMG resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Huma, increase own Heal Amount by 20% (except Lifesteal) and Arts by 1/s. Does not stack with Abilties of the same name.`,
+                ability2: `Increase own Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //正義の剣『ジャスティス』 - JP Complete
+        id: 113111,
+        name: `正義の剣『ジャスティス』`,
+        translate: `Sword of Justice 'Justice'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5000% Dark DMG (Physical). Increase own Dark DMG by 40% for 10s. Additionally if user is below 70% HP, heal ownself by 10%.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
