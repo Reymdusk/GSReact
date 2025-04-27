@@ -3072,6 +3072,56 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 95,
+        date: `April 27, 2025`,
+        article: 
+        {
+            intro: `OPM reruns on JP with buffs to existing units! Meanwhile on Global, Part 2 of the Rurouni Kenshin Collab has been released with new units and equips, alongside 4 new Mines Bosses with their respective equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`ジェノスのぬいぐるみ`, 154261],                        
+                        [`True 'Sonic's Katana'`, 154281],
+                        [`True 'Esper Dress'`, 154291],
+                        [`True 'Hellish Blizzard's Dress'`, 154301],
+                        [`True 'Hero Belt'`, 154311],
+                    ],
+                    dream: [
+                        [`Saitama`, 107076412],
+                        [`Genos`, 107086512],
+                        [`Terrible Tornado`, 107096312],
+                        [`Boros`, 107106511],
+                        [`Sonic`, 107216512],
+                        [`Hellish Blizzard`, 107226212],
+                        [`Garou`, 107236512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Hajime Saito`, 108137512],
+                        [`Shishio Makoto`, 108147112]
+                    ],  
+                    equips: [
+                        [`Sub-Zero Soles 'Chilblains'`, 111451],
+                        [`Glacial Soles 'Frostpain'`, 111671],
+                        [`True 'Saito's Katana'`, 154121],
+                        [`True 'Shishio's Katana'`, 154131],
+                        [`Saito's Katana`, 154141],
+                        [`Saito's Uniform`, 154151],
+                        [`Saito's Uniform EV`, 154160],
+                        [`Saito's Shoes`, 154171],
+                        [`Shishio's Katana`, 154181],
+                        [`Shishio's Kimono`, 154191],
+                        [`Kaoru's Kimono`, 154201],
+                        [`Kaoru's Kamikazari`, 154211]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

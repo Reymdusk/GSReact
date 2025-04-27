@@ -31562,10 +31562,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //剣聖の証【翠】(Stiria Mines Equip) - JP Complete
+    { //Sub-Zero Soles 'Chilblains' - Missing Lore
         id: 111451,
-        name: `氷精靴『フロストヴァイト』`,
-        translate: `Ice Boots 'Frostbite'`,
+        name: `Sub-Zero Soles 'Chilblains'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31590,7 +31589,7 @@ const EquipInformation = [
             {
                 ability1: `Increase MAX HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Luminous Tiara - Missing Lore
         id: 111461,
@@ -32205,10 +32204,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //絶凍靴『フロストペイン』 - JP Complete
+    { //Glacial Soles 'Frostpain' - Missing Lore
         id: 111671,
-        name: `絶凍靴『フロストペイン』`,
-        translate: `Frost Boots 'Frost Pain'`,
+        name: `Glacial Soles 'Frostpain'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32233,7 +32231,7 @@ const EquipInformation = [
             {
                 ability1: `Max HP 10% Up.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //リヴィエラのヨーソローマント - JP Complete
         id: 111681,
@@ -49037,10 +49035,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『斎藤一の刀』 - Missing Lore
+    { //True 'Saito's Katana' - Missing Lore
         id: 154121,
-        name: `真『斎藤一の刀』`,
-        translate: `True 'Saito Hajime's Sword'`,
+        name: `True 'Saito's Katana'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49063,15 +49060,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Saito Hajime, increase own ATK, DEF and Break Power by 30%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Hajime Saito, increase own ATK, DEF and Break Power by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『志々雄真実の刀』 - Missing Lore
+    { //True 'Shishio's Katana' - Missing Lore
         id: 154131,
-        name: `真『志々雄真実の刀』`,
-        translate: `True 'Shishio Makoto's Sword'`,
+        name: `True 'Shishio's Katana'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49094,15 +49090,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Shishio Makoto, increase own DMG by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Makoto Shishio, increase own DMG by 30% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //斎藤一の刀 - Missing Lore
+    { //Saito's Katana - Missing Lore
         id: 154141,
-        name: `斎藤一の刀`,
-        translate: `Saito Hajime's Sword`,
+        name: `Saito's Katana`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49127,12 +49122,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //斎藤一の服 - Missing Lore
+    { //Saito's Uniform - Missing Lore
         id: 154151,
-        name: `斎藤一の服`,
-        translate: `Saito Hajime's Clothes`,
+        name: `Saito's Uniform`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -49157,12 +49151,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //極『斎藤一の服』 - Missing Lore
+    { //Saito's Uniform EV - Missing Lore
         id: 154160,
-        name: `極『斎藤一の服』`,
-        translate: `Saito Hajime's Clothes EV`,
+        name: `Saito's Uniform EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -49190,10 +49183,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //斎藤一の靴 - Missing Lore
+    { //Saito's Shoes - Missing Lore
         id: 154171,
-        name: `斎藤一の靴`,
-        translate: `Hajime Saito's Shoes`,
+        name: `Saito's Shoes`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -49218,12 +49210,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //志々雄真実の刀 - Missing Lore
+    { //Shishio's Katana - Missing Lore
         id: 154181,
-        name: `志々雄真実の刀`,
-        translate: `Shishio Makoto's Sword`,
+        name: `Shishio's Katana`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49248,12 +49239,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //志々雄真実の着物 - Missing Lore
+    { //Shishio's Kimono - Missing Lore
         id: 154191,
-        name: `志々雄真実の着物`,
-        translate: `Shishio Makoto's Kimono`,
+        name: `Shishio's Kimono`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49278,12 +49268,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //神谷薫の着物 - Missing Lore
+    { //Kaoru's Kimono - Missing Lore
         id: 154201,
-        name: `神谷薫の着物`,
-        translate: `Kaoru Kamiya's Kimono`,
+        name: `Kaoru's Kimono`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -49308,12 +49297,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //神谷薫の髪飾り - Missing Lore
+    { //Kaoru's Kamikazari - Missing Lore
         id: 154211,
-        name: `神谷薫の髪飾り`,
-        translate: `Kaoru Kamiya's Hairpin`,
+        name: `Kaoru's Kamikazari`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -49337,6 +49325,305 @@ const EquipInformation = [
         passive: 
             {
                 ability1: ``
+            },
+        lore: `Missing Lore.`
+    },
+    /*
+    { //??? - Missing Lore
+        id: 154221,
+        name: `???`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //??? - Missing Lore
+        id: 154231,
+        name: `???`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //??? - Missing Lore
+        id: 154241,
+        name: `???`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //??? - Missing Lore
+        id: 154251,
+        name: `???`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //ジェノスのぬいぐるみ - Missing Lore
+        id: 154261,
+        name: `ジェノスのぬいぐるみ`,
+        translate: `Genos Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154261.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 60,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase allies' Arts by 20. Additionally if user is Dark, increase own Arts DMG by 20% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When own HP is above 80% HP, increase own ATK by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    /*
+    { //??? - Missing Lore
+        id: 154271,
+        name: `???`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    */
+    { //True 'Sonic's Katana' - Missing Lore
+        id: 154281,
+        name: `True 'Sonic's Katana'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: "25s CT - 5000% Dark DMG (PHY). Reduce enemies' PHY RES by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
+                break: 500,
+            },
+        passive: 
+            {
+                ability1: "When equipped by Sonic, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                ability2: "Increase own ATK by 5%."
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Esper Dress' - Missing Lore
+        id: 154291,
+        name: `True 'Esper Dress'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: "65s CT - 6000% Earth DMG (MAG). Reduce enemies' Earth RES by 30% for 8s.",
+                break: 6000
+            },
+        passive: 
+            {
+                ability1: "When equipped by Terrible Tornado, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                ability2: "Increase DMG against Enemies in BREAK by 10%."
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Hellish Blizzard's Dress' - Missing Lore
+        id: 154301,
+        name: `True 'Hellish Blizzard's Dress'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: "60s CT - 6000% Water DMG (MAG). Reduce enemies' Water RES by 30% for 8s. Additionally if user is Human, reduce enemies' MAG RES by 30% for 8s.",
+                break: 600,
+            },
+        passive: 
+            {
+                ability1: "When equipped by Hellish Blizzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                ability2: "Increase own DEF by 5%."
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //True 'Hero Belt' - Missing Lore
+        id: 154311,
+        name: `True 'Hero Belt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: "50s CT - 10000% Light DMG (PHY). Increase own PHY DMG and Light DMG by 50% for 10s.",
+                break: 600
+            },
+        passive: 
+            {
+                ability1: "When equipped by Saitama, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                ability2: "Increase own PHY RES by 5%."
             },
         lore: `Currently unreleased in Global.`
     },
