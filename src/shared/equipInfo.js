@@ -33309,11 +33309,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //蒼機盾『ツヴァイトシルト』 - JP Complete
+    { //Nano Barrier 'Zweitschild' - Missing Lore
         id: 112041,
-        name: `蒼機盾『ツヴァイトシルト』`,
-        translate: `Blue Machine Shield 'Zweit Shield'`,
-        location: `Cyber-Z Mines Boss Drop`,
+        name: `Nano Barrier 'Zweitschild'`,
+        location: `Zwiber-Z Mines Boss Drop`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -33338,7 +33337,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own HP Recovery by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Gladius' - Missing Lore
         id: 112051,
@@ -33633,10 +33632,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //絶甲盾『アズルヴァイト』 - JP Complete (Cyber-Z Elite Mines Equip)
+    { //Exclusion Barrier 'Azulveidt' - Missing Lore
         id: 112151,
-        name: `絶甲盾『アズルヴァイト』`,
-        translate: `Armored Shield 'Azurite'`,
+        name: `Exclusion Barrier 'Azulveidt'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33661,7 +33659,7 @@ const EquipInformation = [
             {
                 ability1: `Reduce own Skill CT Speed by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //情熱装『スクレパシオン』 - JP Complete (Gorgeous Passionate Part 1 Farmable)
         id: 112161,
@@ -33693,10 +33691,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ヴェスパーダ』 - JP Complete
+    { //True 'Vespada' - Missing Lore
         id: 112171,
-        name: `真『ヴェスパーダ』`,
-        translate: `True 'Vespada'`,
+        name: `True 'Vespada'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33719,15 +33716,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Marlet, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Merlette, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by 10% against enemies in BREAK.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //煌華銃『ヴェスパーダ』 - JP Complete
+    { //Flashing Barrel 'Vespada' - Missing Lore
         id: 112181,
-        name: `煌華銃『ヴェスパーダ』`,
-        translate: `Sparkling Gun 'Vespada'`,
+        name: `Flashing Barrel 'Vespada'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33752,12 +33748,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //華麗装『ブルヴェスティート』 - JP Complete
+    { //Splendid Garment 'Vestito Blu' - Missing Lore
         id: 112191,
-        name: `華麗装『ブルヴェスティート』`,
-        translate: `Brilliant Outfit 'Blue Vestito'`,
+        name: `Splendid Garment 'Vestito Blu'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33782,7 +33777,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Asgard's Casket' - Missing Lore
         id: 112201,
@@ -36564,6 +36559,97 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //赤機刃『アスヴェルト』 - JP Complete
+        id: 113121,
+        name: `赤機刃『アスヴェルト』`,
+        translate: `Red Machine Blade 'Aswelt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5000% Fire DMG (Physical). Increase own DMG against Earth and Light enemies by 50% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or lower, reduce own Arts by 1/s.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『天ツ門』 - JP Complete
+        id: 113131,
+        name: `真『天ツ門』`,
+        translate: `True 'Heaven's Gate'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 10000% Light DMG (Physical). Reduce enemies' Light resistance by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Young Emperor Isliid, increase own PHY DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `At Start of Battle, increase own Arts by 20 and refreshes this Equip's CT. Does not stack with Abilities of the same name.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //白眩の剣『天ツ門』 - JP Complete
+        id: 113141,
+        name: `白眩の剣『天ツ門』`,
+        translate: `White Dazzling Blade 'Heaven's Gate'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5000% Light DMG (Physical). Increase own PHY DMG by 60% for 10s. Additionally if user is Human, increase own Equip CT Speed by 30% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase own Light resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -36996,6 +37082,35 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Magic DMG by 25.0%. For the first 165.5s of Quest, increase all allies' Elemental Advantage DMG by 20.0%. (At Passive Lv.101)`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Ultra Relic 'Dola Armor' - JP Complete
+        id: 140161,
+        name: `Ultra Relic 'Dola Armor'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_140160.png`,
+                detailmax: `/db/Equipment/Detail/it em_detail_140161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_140160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_140161.png`
+            },
+        stats:
+            {
+                hp: `X`,
+                atk: `X`,
+                def: `X`
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Earth DMG (Magic). Increase own ATK by 50% for 15s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase own Magic DMG by 25.0%. For the first 165.5s of Quest, increase allies' Earth DMG by 20.0%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -49527,7 +49642,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "25s CT - 5000% Dark DMG (PHY). Reduce enemies' PHY RES by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
+                skill: "25s CT - 5000% Dark DMG (Physical). Reduce enemies' PHY resistance by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
                 break: 500,
             },
         passive: 
@@ -49557,7 +49672,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "65s CT - 6000% Earth DMG (MAG). Reduce enemies' Earth RES by 30% for 8s.",
+                skill: "65s CT - 6000% Earth DMG (Magic). Reduce enemies' Earth resistance by 30% for 8s.",
                 break: 6000
             },
         passive: 
@@ -49587,7 +49702,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "60s CT - 6000% Water DMG (MAG). Reduce enemies' Water RES by 30% for 8s. Additionally if user is Human, reduce enemies' MAG RES by 30% for 8s.",
+                skill: "60s CT - 6000% Water DMG (Magic). Reduce enemies' Water resistance by 30% for 8s. Additionally if user is Human, reduce enemies' Magic resistance by 30% for 8s.",
                 break: 600,
             },
         passive: 
@@ -49617,13 +49732,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "50s CT - 10000% Light DMG (PHY). Increase own PHY DMG and Light DMG by 50% for 10s.",
+                skill: "50s CT - 10000% Light DMG (Physical). Increase own PHY DMG and Light DMG by 50% for 10s.",
                 break: 600
             },
         passive: 
             {
                 ability1: "When equipped by Saitama, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
-                ability2: "Increase own PHY RES by 5%."
+                ability2: "Increase own PHY resistance by 5%."
             },
         lore: `Currently unreleased in Global.`
     },

@@ -3523,7 +3523,7 @@ const UnitInformation = [
                 evoawk: "A leader of the Demon army seeking the complete restoration of her race. She is one to achieve her goals at any cost. This was best exemplified when she joined forces with a rival Demon after her first defeat at the hands of a Human adventurer, yet that humiliation proved to be in vain. The losses continued to mount and a new emotion took hold of her heart, changing her objective from selfless duty to personal revenge."
             }
     },
-    { //Ganan - Complete (+ JP version)
+    { //Ganan - Complete
         id: 101116111,
         name: "Ganan",
         rank: "B-",
@@ -3544,15 +3544,6 @@ const UnitInformation = [
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
-            {
-                slot1: 6,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 6,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
@@ -3568,15 +3559,6 @@ const UnitInformation = [
                 defplus: 317
             },
         skillset: 
-            {
-                skill: "9s CT - 2000% Fire DMG (PHY). Increase own Arts by 5.",
-                skillbreak: 2200,
-                arts: "15000% Fire DMG (PHY). For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%. During Berserk Mode: 46500% Fire DMG (PHY). Consume 40% of own HP, increase this Arts' DMG by 200% + For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%.",
-                artsbreak: 3100,
-                truearts: "40000% Fire DMG (PHY). Enter Berserk Mode for 55s + For 10s, reduce enemies' PHY RES and Evasion rate by 30%.",
-                trueartsbreak: 5000
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 2000% Fire DMG (PHY). Increase own Arts by 20.",
                 skillbreak: 2200,
@@ -3611,14 +3593,14 @@ const UnitInformation = [
                     hover3: "Ganan",
                 }
             },
-            dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 100,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_133851.png`,
                         mat2amt: 100,
-                        hover2: `Warrior Soulgem`
+                        hover2: `Ganan Soulgem`
                     },
                     passive: {
                         ability1: `Increase own Break Power against Earth Enemies by 60%.`,
@@ -3631,7 +3613,7 @@ const UnitInformation = [
                         mat1amt: 100,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_133851.png`,
                         mat2amt: 100,
-                        hover2: `Warrior Soulgem`
+                        hover2: `Ganan Soulgem`
                     },
                     passive: {
                         ability1: `Increase own CRI DMG by 60%.`,
@@ -21428,7 +21410,7 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Hart (Earth) - Complete, Review done
+    { //Hart (Earth) - Complete, Review done, JP Dream
         id: 103276312,
         rank: "S",
         twrequire: "favorable",
@@ -21451,6 +21433,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6743,
@@ -21467,6 +21458,15 @@ const UnitInformation = [
                 arts: "11000% Earth DMG (MAG). For 20s, increase Allies' Arts DMG by 50%, reduce Enemies' Earth RES by 30%.",
                 artsbreak: 1000,
                 truearts: "36000% Earth DMG (MAG). For 13s, heal Allies' HP by 6%/s and increase Allies' Arts by 5/s. For Human Allies, increase Arts by 7/s instead.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
+                trueartsbreak: 1300
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1500% Earth DMG (MAG). For 5s, reduce Enemies' accuracy by 10%.",
+                skillbreak: 600,
+                arts: "17000% Earth DMG (MAG). For 25s, increase Allies' Arts DMG by 50%, reduce Enemies' Earth RES by 30%.",
+                artsbreak: 1000,
+                truearts: "45000% Earth DMG (MAG). For 15s, heal Allies' HP by 6%/s and increase Allies' Arts by 5/s. For Human Allies, increase Arts by 7/s instead.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1300
             },
         passive: 
@@ -21492,6 +21492,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragTonetaurus.png",
                     mat5amt: 2,
                     hover5: "Tonetaurus"
+                }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 2,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Fire RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Support Equip CT Speed by 10%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Earth DMG by 70%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DMG by 30% against enemies under 30% HP.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -21686,7 +21720,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Miranda - Complete, Review done
+    { //Miranda - Complete, Review done, JP Dream
         id: 103296412,
         name: "Miranda",
         rank: "A+",
@@ -21703,6 +21737,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -21727,6 +21770,15 @@ const UnitInformation = [
                 truearts: "35000% Light DMG (MAG). For 30s, increase Allies' MAG DMG by 30% (stackable), redirect Allies' DMG taken to self and gain a DMG barrier that negates 27000 DMG to self.",
                 trueartsbreak: 1600
             },
+        skillsetJP: 
+            {
+                skill: "12s CT - 1600% Light DMG (MAG). For 7s, reduce Enemies' evasion by 10%.",
+                skillbreak: 400,
+                arts: "17000% Light DMG (MAG). Cure own Poison and Curse + For 20s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 15000 DMG to self.",
+                artsbreak: 1000,
+                truearts: "45000% Light DMG (MAG). For 30s, increase Allies' MAG DMG by 30% (stackable), redirect Allies' DMG taken to self and gain a DMG barrier that negates 30000 DMG to self.",
+                trueartsbreak: 1600
+            },
         passive: 
             {
                 ability1: "Increase MAG RES by 50%.",
@@ -21747,6 +21799,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragWilkes.png",
                     mat4amt: 1,
                     hover4: "Wilkes",
+                }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `At Start of Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 20%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase Arts gained upon taking direct damage while redirecting DMG to self from unique passive from 50 to 100 instead.`,
+                        ability2: `Increase own Arts by 1/s.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -21943,7 +22029,7 @@ const UnitInformation = [
                 author: `Jeffers`
             }
     },
-    { //Vultee (Earth) - Review done
+    { //Vultee (Earth) - Review done, JP Dream
         id: 103316312,
         name: "Vultee (Earth)",
         rank: "A+",
@@ -21959,6 +22045,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -21985,6 +22080,17 @@ const UnitInformation = [
                 phantombullet: "[# of Bullet Stacks × 38000%] Earth DMG (PHY). Reset Bullet Stacks to 1. For 40s, increase own Physical RES by 20% and gain a DMG barrier that negates 25000 to self. Phantom Bullet can only be used 6 times in a Quest. Base # of Bullet Stacks is 1. Each Bullet Stack consumed due to an activation of Phantom Bullet consumes an additional activation of Phantom Bullet.",
                 phantombulletbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: "11s CT - 1500% Earth DMG (PHY). Increase own Arts by 20. If self is not affected by status ailments, increase Arts by an additional 20.",
+                skillbreak: 900,
+                arts: "19000% Earth DMG (PHY). Increase own Arts by 50. Increase Bullet Stacks by 1 (up to # of Phantom Bullet activations left). For 20s, increase ATK by 50%.",
+                artsbreak: 1000,
+                truearts: "40000% Earth DMG (PHY). For 40s, increase Allies' Earth DMG by 30% (stackable), redirect Allies' DMG taken to self and gain a DMG barrier that negates 30000 DMG to self.",
+                trueartsbreak: 1800,
+                phantombullet: "[# of Bullet Stacks × 50000%] Earth DMG (PHY). Reset Bullet Stacks to 1. For 40s, increase own Physical RES by 25% and gain a DMG barrier that negates 30000 to self. Phantom Bullet can only be used 6 times in a Quest. Base # of Bullet Stacks is 1. Each Bullet Stack consumed due to an activation of Phantom Bullet consumes an additional activation of Phantom Bullet.",
+                phantombulletbreak: 2000
+            },
         passive: 
             {
                 ability1: "Increase PHY RES by 20%.",
@@ -22005,6 +22111,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat4amt: 2,
                     hover4: "Code-XTF",
+                }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `When Near-Death, increase own DMG RES by 20%.`,
+                        ability2: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Change Phantom Bullet's DMG Multiplier per Bullet stack from 50000% to 80000% instead.`,
+                        ability2: `When own HP is 80% or above, increase own Arts by 3/s.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -23017,7 +23157,7 @@ const UnitInformation = [
                 author: `Tinydomtako`
             }
     },
-    { //Priscilla (Water) - Complete, Review done
+    { //Priscilla (Water) - Complete, Review done, JP Dream
         id: 103416212,
         name: "Priscilla (Water)",
         rank: "A",
@@ -23034,6 +23174,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/suppLB.png",
@@ -23060,6 +23209,17 @@ const UnitInformation = [
                 phantombullet: "75000% Water DMG (PHY). During Phantom Bullet, Increase Own Critical Rate by 100%. For 90s, reduce Enemies' Water RES by 60%. Phantom Bullet can only be activated one time in a Quest.",
                 phantombulletbreak: 1700
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1600% Water DMG (PHY). For 8s, increase own ATK by 20%.",
+                skillbreak: 600,
+                arts: "20000% Water DMG (PHY). For 15s, reduce Enemies' evasion and Accuracy by 30%.",
+                artsbreak: 900,
+                truearts: "70000% Water DMG (PHY). For 15s, increase Allies' Arts by 5/s and PHY DMG by 50%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
+                trueartsbreak: 1200,
+                phantombullet: "100000% Water DMG (PHY). During Phantom Bullet, Increase Own Critical Rate by 100%. For 120s, reduce Enemies' Water RES by 130%. Phantom Bullet can only be activated one time in a Quest.",
+                phantombulletbreak: 1700
+            },
         passive: 
             {
                 ability1: "Increase PHY Evasion by 5%.",
@@ -23083,6 +23243,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat5amt: 1,
                     hover5: "Freydal"
+                }
+            },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 2,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `When own HP is 80% or above, increase own Arts by 3/s.`,
+                        ability2: `Increase own Accuracy by 20%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                        mat3amt: 2,
+                        hover3: "Oldeus",
+                    },
+                    passive: {
+                        ability1: `Change Phantom Bullet's DMG Multiplier from 100000% to 200000% instead.`,
+                        ability2: `Increase own DMG by [1% x own ATK /100].`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -27360,10 +27554,9 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Marlet - Missing Lore (JP)
+    { //Merlette - Missing Lore
         id: 103837412,
-        name: `Marlet`,
-        translate: `Sound Princess Marlet`,
+        name: `Merlette`,
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -27429,14 +27622,14 @@ const UnitInformation = [
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Marlet, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Merlette, increase own ATK and Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own DMG by 10% against enemies in BREAK.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Hart the Fabricator - Missing Lore
@@ -27491,12 +27684,6 @@ const UnitInformation = [
                 ability3: `When this unit takes lethal DMG, revive all allies with 30% HP and increase all allies' Arts by 200. Can only be activated once per quest.`,
                 ability4: `Unit EXP UP 20% UP. (When Hart the Fabricator's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Hart the Fabricator's SP. Art is owned)`
-            }, 
-        passiveJP: 
-            {
-                ability1: `Increase own Blind RES by 100%.`,
-                ability2: `If unaffected by Status Ailments, ignore 100% of enemies' DEF. Increase own DMG based on how low own HP is. (MAX: 350%)`,
-                ability3: `When this unit takes lethal DMG, revive all allies with 30% HP and increase all allies' Arts by 200. Can only be activated once per quest.`
             }, 
         evolution: 
             {
@@ -29166,6 +29353,85 @@ const UnitInformation = [
                         {
                             ability1: `When equipped by Huma, increase own Heal Amount by 20% (except Lifesteal) and Arts by 1/s. Does not stack with Abilties of the same name.`,
                             ability2: `Increase own PHY RES by 5%.`
+                        }
+                },
+        lore:   
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Young Isliid - Missing Lore (JP)
+        id: 104117412,
+        name: `Young Isliid`,
+        translate: `Young Emperor Isliid`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104116412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104117412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104116412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104117412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7447,
+                hpplus: 1404,
+                atk: 3800,
+                atkplus: 658,
+                def: 2898,
+                defplus: 602
+            },
+        skillset: 
+            {
+                skill: `12s CT - 3000% Light DMG (PHY). Increase own Arts by 30. Additionally if used during within the first 90s of Quest, increase own Arts by an additional 70.`,
+                skillbreak: 600,
+                arts: `22000% Light DMG (PHY). For 20s, increase allies' stats by 30% and reduce enemies' Evasion rate by 30%.`,
+                artsbreak: 800,
+                truearts: `80000% Light DMG (PHY). For 50s, reduce enemies' DMG RES by 50% and increase own Super CRI rate by 50%.`,
+                trueartsbreak: 1500,
+                superarts: `160000% Light DMG (MAG). Increase allies' Arts by 50. For 45s, increase Light allies' DMG by 150% (stackable). Additionally if used within the first 90s of Quest, increase Light allies' DMG by an additional 50% (stackable).`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `At Start of Battle, increase allies' Arts by 30. Does not stack with Abilities of the same name.`,
+                ability2: `When own HP is 80% or higher, increase own CRI rate by 100%.`,
+                ability3: `Increase own MAG RES by 10%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon: 
+                {
+                    name: `Heaven's Gate`,
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_113131.png",
+                    skill: `60s CT - 10000% Light DMG (PHY). For 10s, reduce enemies' Light RES by 30%.`,
+                    skillbreak: 500,
+                    passive: 
+                        {
+                            ability1: `When equipped by Young Emperor Isliid, increase own PHY DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                            ability2: `At Start of Battle, increase own Arts by 20 and refreshes this Equip's CT. Does not stack with Abilities of the same name.`
                         }
                 },
         lore:   

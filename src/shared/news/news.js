@@ -3122,6 +3122,48 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 96,
+        date: `May 14, 2025`,
+        article: 
+        {
+            intro: `A New Ultra Relic, Mines Boss, as well as Young Isliid has debut in JP with some Dream Awakenings, while Global has introduced Merlette and her event!`,
+            new:
+                {
+                    units: [
+                        [`Young Isliid`, 104117412]
+                    ],
+                    equips: [
+                        [`Ultra Relic 'Dola Armor'`, 140161],
+                        [`赤機刃『アスヴェルト』`, 113121],
+                        [`真『天ツ門』`, 113131],
+                        [`白眩の剣『天ツ門』`, 113141]
+                    ],
+                    dream: [
+                        [`Hart (Earth)`, 103276312],
+                        [`Miranda`, 103296412],
+                        [`Vultee (Earth)`, 103316312],
+                        [`Priscilla (Water)`, 103416212]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Merlette`, 103837412]
+                    ],  
+                    equips: [
+                        [`Nano Barrier 'Zweitschild'`, 112041],
+                        [`Exclusion Barrier 'Azulveidt'`, 112151],
+                        [`True 'Vespada'`, 112171],
+                        [`Flashing Barrel 'Vespada'`, 112181],
+                        [`Splendid Garment 'Vestito Blu'`, 112191]
+                    ],
+                    dream: [
+                        [`Ganan`, 101116111]
+                    ]
+                }
+        }
     }
 ]
 
