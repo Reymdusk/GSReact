@@ -38447,7 +38447,7 @@ const UnitInformation = [
         passive: 
             {
                 ability1: `When own HP is 80% or above, increase own Equipment CT Speed by 20%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase all allies' Max HP by 15%.`,
+                ability2: `Increase all allies' Max HP by 20%.`,
                 ability3: `Increase own Evasion by 10%.`,
                 ability4: `Unit EXP UP 20% UP. (When Houka's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Houka's SP. Art is owned)`
