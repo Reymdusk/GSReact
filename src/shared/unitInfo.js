@@ -3107,7 +3107,7 @@ const UnitInformation = [
         trueweapon: 
             {
                 name: "Maleficium",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_104051.png",
                 skill: "90s CT - 13000% Dark DMG (MAG).",
                 skillbreak: 1200,
