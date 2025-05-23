@@ -28202,6 +28202,7 @@ const UnitInformation = [
         id: 103917112,
         name: `Azel`,
         attribute: `Fire`,
+        rank: `A`,
         type: `Demon`,
         image: 
             {
@@ -39482,6 +39483,7 @@ const UnitInformation = [
         id: 108077512,
         name: `Demon Lord Samurai Rimuru`,
         attribute: `Dark`,
+        rank: `SS`,
         type: `Demon`,
         image: 
             {
@@ -39564,6 +39566,7 @@ const UnitInformation = [
         id: 108087412,
         name: `Shuna`,
         attribute: `Light`,
+        rank: `S`,
         type: `Demon`,
         image: 
             {
@@ -39646,6 +39649,7 @@ const UnitInformation = [
         id: 108097312,
         name: `Veldora`,
         attribute: `Earth`,
+        rank: `S`,
         type: `Dragon`,
         image: 
             {
@@ -39728,6 +39732,7 @@ const UnitInformation = [
         id: 108107112,
         name: `Shizu`,
         attribute: `Fire`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -39810,6 +39815,7 @@ const UnitInformation = [
         id: 108117412,
         name: `Kenshin Himura`,
         attribute: `Light`,
+        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -39892,6 +39898,7 @@ const UnitInformation = [
         id: 108127212,
         name: `Sanosuke Sagara`,
         attribute: `Water`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -39974,6 +39981,7 @@ const UnitInformation = [
         id: 108137512,
         name: `Hajime Saito`,
         attribute: `Dark`,
+        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -40056,6 +40064,7 @@ const UnitInformation = [
         id: 108147112,
         name: `Makoto Shishio`,
         attribute: `Fire`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
