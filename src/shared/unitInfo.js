@@ -40152,8 +40152,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_108156412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_108157412.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_815_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108156412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108157412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108157412.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_815_1.png`
             },
         slots: 
             {
@@ -40197,9 +40199,11 @@ const UnitInformation = [
             {
                 evoawksuper:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
-                    mat1amt: 100,
-                    hover1: "Eternaglint Soulgem"
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: 
@@ -40213,6 +40217,170 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Hero Saitama, increase all stats by 30%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own Accuracy by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    {
+        id: 108167412,
+        name: `Misaka Mikoto`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108166412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108167412.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_816_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108166412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108167412.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_816_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7161,
+                hpplus: 1352,
+                atk: 4225,
+                atkplus: 726,
+                def: 2902,
+                defplus: 602
+            },
+        skillset: 
+            {
+                skill: `14s CT - 3000% Light DMG (MAG). Increase own Arts by 40.`,
+                skillbreak: 600,
+                arts: `28000% Light DMG (MAG). For 60s, increase own ATK and Skill CT Speed by 100%.`,
+                artsbreak: 800,
+                truearts: `70000% Light DMG (MAG). For 30s, increase Light Allies' stats by 50% & reduce enemies' CRI RES by 100%. `,
+                trueartsbreak: 1500,
+                superarts: `200000% Light DMG (MAG). For 25s, reduce enemies' Light RES by 150%. Each time Super Arts is used, refresh own MAG Equips if the Equip's remaining CT is more than 50%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `When self is unaffected by Status Ailments, increase own DMG by 100%. For the first 90s of the Quest, increase own Arts by 3/s.`,
+                ability2: `Increase own DMG by [1% x own ATK/100].`,
+                ability3: `Increase own Paralysis RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Misaka Mikoto's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Misaka Mikoto's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Misaka Mikoto's Coin`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154321.png",
+                skill: `50s CT - 4000% Light DMG (MAG). For 60s, reduce enemies MAG RES by 20%. (Stackable)`,
+                skillbreak: 400,
+                passive: 
+                    {
+                        ability1: `When equipped by Misaka Mikoto, the MAG RES Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    {
+        id: 108177212,
+        name: `Kamijou Touma`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108176212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108177212.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_817_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108176212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108177212.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_817_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7755,
+                hpplus: 1460,
+                atk: 2593,
+                atkplus: 544,
+                def: 3725,
+                defplus: 646
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2300% Water DMG (PHY). Increase own Arts by 30. Additionally if used for the first time per Battle (Wave), increase own Arts by an additional 70.`,
+                skillbreak: 800,
+                arts: `Increases all allies' Arts by 20. For 30s, redirect Allies' DMG taken to self, gain a DMG barrier that negates 25000 DMG to self & increase own MAG RES by 35%. Additionally, add 10000% to own Super Arts multiplier each time Arts is activated. (MAX 150000%)`,
+                artsbreak: 0,
+                truearts: `45000% Water DMG (PHY). For 30s, increase all allies' DMG against Fire/Light/Dark enemies by 200%.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Water DMG (PHY). Increase own Arts by 100. For 20s, reduce enemies' DMG RES by 100%. `,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When this unit takes lethal DMG, prevent HP from dropping below 1 HP for 5s. Increase own Arts by 100. For 25s, increase own ATK by 100%. Ability can only be activated once per Quest.`,
+                ability2: `Increase own Paralysis & Freeze RES by 100%.`,
+                ability3: `When near-death, increase own Skill CT Speed by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Kamijou Touma's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Kamijou Touma's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Kamijou Touma's Uniform`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154331.png",
+                skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, for 10s, increase own PHY DMG by 50%. If own HP is below 70%, heal 30% of MAX HP instead.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Kamijou Touma, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
