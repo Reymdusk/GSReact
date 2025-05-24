@@ -49443,10 +49443,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    /*
-    { //??? - Missing Lore
+    { //Saitama Plushie - Missing Lore
         id: 154221,
-        name: `???`,
+        name: `Saitama Plushie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49464,8 +49463,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 12000% Light DMG (PHY). For 20s, increase own ATK by 60% and Light allies' ATK by 40%.`,
+                break: 1200
             },
         passive: 
             {
@@ -49473,10 +49472,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //??? - Missing Lore
+    { //Terrible Tornado Plushie - Missing Lore
         id: 154231,
-        name: `???`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        name: `Terrible Tornado Plushie`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -49493,8 +49492,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Earth DMG (MAG). For 10s, increase own Earth DMG by 50%. Increase own Arts by 30. When used for the first time, increase own Arts by 80 instead.`,
+                break: 300
             },
         passive: 
             {
@@ -49502,9 +49501,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //??? - Missing Lore
+    { //Garou Plushie - Missing Lore
         id: 154241,
-        name: `???`,
+        name: `Garou Plushie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49522,8 +49521,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3000% Dark DMG (PHY). For 20s, reduce enemies' Dark RES by 20% (stackable).`,
+                break: 400
             },
         passive: 
             {
@@ -49531,10 +49530,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //??? - Missing Lore
+    { //Sonic Plushie - Missing Lore
         id: 154251,
-        name: `???`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        name: `Sonic Plushie`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -49546,12 +49545,12 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
-                def: 0
+                atk: 0,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Heal allies' HP by 2000. For 20s, increase allies' Dark RES by 30%.`,
                 break: 0
             },
         passive: 
@@ -49560,7 +49559,6 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //ジェノスのぬいぐるみ - Missing Lore
         id: 154261,
         name: `ジェノスのぬいぐるみ`,
@@ -49591,8 +49589,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    /*
-    { //??? - Missing Lore
+    { //True 'Hero Gloves' - Missing Lore
         id: 154271,
         name: `???`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -49612,16 +49609,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 10000% Light DMG (PHY). For 10s, increase own DMG by 50%. Additionally if user is Light, increase own ATK by 50%. `,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Hero Saitama, increase all stats by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%`
             },
         lore: `Currently unreleased in Global.`
     },
-    */
     { //True 'Sonic's Katana' - Missing Lore
         id: 154281,
         name: `True 'Sonic's Katana'`,
