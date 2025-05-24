@@ -40142,6 +40142,84 @@ const UnitInformation = [
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
             }
+    },
+    {
+        id: 108157412,
+        name: `Hero Saitama`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108156412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108157412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108156412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108157412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7337,
+                hpplus: 1384,
+                atk: 4250,
+                atkplus: 730,
+                def: 2755,
+                defplus: 574
+            },
+        skillset: 
+            {
+                skill: `14s CT - 3000% Light DMG (PHY). Increase own Arts by 10. From the second use of Skill onwards, each time Skill is used, increase own Arts by an additional 10 (MAX: 300).`,
+                skillbreak: 1000,
+                arts: `25000% Light DMG (PHY). For 20s, reduce enemies' Break RES and PHY RES by 30%.`,
+                artsbreak: 1500,
+                truearts: `60000% Light DMG (PHY). For 25s, allies gain a DMG barrier that negates 8000 DMG and increase allies' DMG RES by 30%. `,
+                trueartsbreak: 2000,
+                superarts: `300000% Light DMG (PHY). Ignore enemies' DEF by 100% for the duration of Super Arts.`,
+                superartsbreak: 5000
+            },
+        passive: 
+            {
+                ability1: `At Start of Battle, when a Boss is present, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [3% x own ATK/100].`,
+                ability3: `Increase own Status ailment RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Hero Saitama's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Hero Saitama's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat1amt: 100,
+                    hover1: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Hero Gloves`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154271.png",
+                skill: `50s CT - 10000% Light DMG (PHY). For 10s, increase own DMG by 50%. Additionally if user is Light, increase own ATK by 50%.`,
+                skillbreak: 1000,
+                passive: 
+                    {
+                        ability1: `When equipped by Hero Saitama, increase all stats by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Accuracy by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
     }
 ];
 
