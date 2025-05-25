@@ -3164,7 +3164,49 @@ const NewsArticles = [
                     ]
                 }
         }
-    }
+    },
+    {
+        id: 97,
+        date: `May 25, 2025`,
+        article: 
+        {
+            intro: `A new Collab "A Certain Magical Index" has arrived in Japan. Meanwhile, Cometstreak Valerie has released in Global!`,
+            new:
+                {
+                    units: [
+                        [`Kamijou Touma`, 108177212],
+                        [`Misaka Mikoto`, 108167412]
+                    ],
+                    equips: [
+                        [`真『御坂美琴のコイン』'`, 154321],
+                        [`真『上条当麻の制服』`, 154331],
+                        [`御坂美琴のコイン`, 154341],
+                        [`砂鉄の剣`, 154351],
+                        [`上条当麻の学生カバン`, 154361],
+                        [`上条当麻の制服`, 154371],
+                        [`常盤台中学校の制服`, 154381],
+                        [`風紀委員の腕章`, 154391],
+                        [`ゲコ太のキーホルダー`, 154401]
+                        
+                    ],
+                    dream: [
+                    
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Cometstreak Valerie`, 103897212]
+                    ],  
+                    equips: [
+                        
+                    ],
+                    dream: [
+                        
+                    ]
+                }
+        }
+    },
 ]
 
 export function getNews() {
