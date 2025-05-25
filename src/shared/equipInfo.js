@@ -49739,6 +49739,287 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『御坂美琴のコイン』 - JP Complete - Missing Lore
+        id: 154321,
+        name: `真『御坂美琴のコイン』`,
+        translate: `True 'Misaka Mikoto's Coin'`,
+        location: `Alchemy Shop`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4000% Light DMG (MAG). For 60s, reduce enemies MAG RES by 20%. (Stackable)`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `When equipped by Misaka Mikoto, the MAG RES Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『上条当麻の制服』 - JP Complete - Missing Lore
+        id: 154331,
+        name: `真『上条当麻の制服』`,
+        translate: `True 'Kamijou\'s Uniform'`,
+        location: `Alchemy Shop`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, for 10s, increase own PHY DMG by 50%. If own HP is below 70%, heal 30% of MAX HP instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Kamijou Touma, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //御坂美琴のコイン - JP Complete - Missing Lore
+        id: 154341,
+        name: `御坂美琴のコイン`,
+        translate: `Misaka Mikoto's Coin`,
+        location: `A Certain Magical Index Collab Equip Gacha`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 7000% Light DMG (MAG). For 12s, increase own MAG DMG by 40% x Number of times this equip has been used (MAX 200%).`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //砂鉄の剣 - JP Complete - Missing Lore
+        id: 154351,
+        name: `砂鉄の剣`,
+        translate: `Iron Sand Sword`,
+        location: `A Certain Magical Index Collab Equip Gacha`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 7000% Light DMG (MAG). For 12s, increase own MAG DMG by 40% x Number of times this equip has been used (MAX 200%).`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //上条当麻の学生カバン - JP Complete - Missing Lore
+        id: 154361,
+        name: `上条当麻の学生カバン`,
+        translate: `Kamijou Touma's Student Bag`,
+        location: `A Certain Magical Index Collab Equip Gacha`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - For 20s, increase all allies' MAG RES by 30%. For 10s, heal all allies' HP by 200/s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //上条当麻の制服 - JP Complete - Missing Lore
+        id: 154371,
+        name: `上条当麻の制服`,
+        translate: `Kamijou Touma's Uniform`,
+        location: `A Certain Magical Index Collab Equip Gacha`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Water DMG (PHY). For 12s, increase Water Allies' BE Output by 50%. If used for the first time, increase Water Allies' BE Output by 80% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //常盤台中学校の制服 - JP Complete - Missing Lore
+        id: 154381,
+        name: `常盤台中学校の制服`,
+        translate: `Tokiwadai Junior High School Uniform`,
+        location: `A Certain Magical Index Collab Equip Gacha`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Light DMG (MAG). Increase next Super Arts' DMG used by ownself by 100%. If user is Light, increase next Super Arts' DMG by 150% instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //風紀委員の腕章 - JP Complete - Missing Lore
+        id: 154391,
+        name: `風紀委員の腕章`,
+        translate: `Disciplinary Committee Armband`,
+        location: `A Certain Magical Index Collab Equip Gacha`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154391.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts by 25. For 15s, increase all allies' stats by 20%. Increase Leader's stats by an additional 20%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ゲコ太のキーホルダー - JP Complete - Missing Lore
+        id: 154401,
+        name: `ゲコ太のキーホルダー`,
+        translate: `Gekota Keychain`,
+        location: `A Certain Magical Index Collab Event Quest`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154401.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heal all Human Allies' HP by 30% of Max HP.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
 ]
 
 export function getEquips() {
