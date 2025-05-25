@@ -28042,9 +28042,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Star Swordswoman Valerie - Missing Lore (JP)
+    { //Cometstreak Valerie - Missing Lore (JP)
         id: 103897212,
-        name: `Star Swordswoman Valerie`,
+        name: `Cometstreak Valerie`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -28116,8 +28116,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Velzard - Missing Lore (JP)
@@ -40143,7 +40143,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    {
+    { //Hero Saitama - JP Complete - Missing Lore
         id: 108157412,
         name: `Hero Saitama`,
         attribute: `Light`,
@@ -40225,7 +40225,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    {
+    { //Misaka Mikoto - JP Complete - Missing Lore
         id: 108167412,
         name: `Misaka Mikoto`,
         attribute: `Light`,
@@ -40273,7 +40273,7 @@ const UnitInformation = [
             {
                 ability1: `When self is unaffected by Status Ailments, increase own DMG by 100%. For the first 90s of the Quest, increase own Arts by 3/s.`,
                 ability2: `Increase own DMG by [1% x own ATK/100].`,
-                ability3: `Increase own Paralysis RES by 100%.`,
+                ability3: `Increase all allies' Paralysis RES by 100%. (Only Once)`,
                 ability4: `Unit EXP UP 20% UP. (When Misaka Mikoto's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Misaka Mikoto's SP. Art is owned)`
             }, 
@@ -40307,7 +40307,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    {
+    { //Kamijou Touma - JP Complete - Missing Lore
         id: 108177212,
         name: `Kamijou Touma`,
         attribute: `Water`,
@@ -40355,7 +40355,7 @@ const UnitInformation = [
             {
                 ability1: `When this unit takes lethal DMG, prevent HP from dropping below 1 HP for 5s. Increase own Arts by 100. For 25s, increase own ATK by 100%. Ability can only be activated once per Quest.`,
                 ability2: `Increase own Paralysis & Freeze RES by 100%.`,
-                ability3: `When near-death, increase own Skill CT Speed by 10%.`,
+                ability3: `When near-death, increase own Skill CT Speed by 20%.`,
                 ability4: `Unit EXP UP 20% UP. (When Kamijou Touma's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Kamijou Touma's SP. Art is owned)`
             }, 
