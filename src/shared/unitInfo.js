@@ -28051,8 +28051,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103896212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103897212.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_389_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103896212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103897212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103897212.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_389_1.png`
             },
         slots: 
             {
@@ -40163,7 +40165,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
+                slot3: 5,
                 slot31type: "/db/Mines/thumbnail/physLB.png",
                 slot32type: "/db/Mines/thumbnail/defLB.png"
             },
