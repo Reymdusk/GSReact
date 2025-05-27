@@ -26390,6 +26390,7 @@ const UnitInformation = [
         id: 103717212,
         name: `Canaria`,
         attribute: `Water`,
+        rank: `S`,
         type: `Human`,
         image: 
             {
