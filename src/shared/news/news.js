@@ -3207,6 +3207,48 @@ const NewsArticles = [
                 }
         }
     },
+    {
+        id: 98,
+        date: `June 1, 2025`,
+        article: 
+        {
+            intro: `Part 2 of "A Certain Magical Index" Collaboration has begun!`,
+            new:
+                {
+                    units: [
+                        [`Accelerator`, 108187512],
+                        [`Index`, 108197412]
+                    ],
+                    equips: [
+                        [`真『アクセラレータの杖』'`, 154411],
+                        [`真『歩く教会だったもの』`, 154421],
+                        [`白井黒子のリボン`, 154431],
+                        [`アクセラレータの服`, 154441],
+                        [`アクセラレータの杖`, 154451],
+                        [`歩く教会だったもの`, 154461],
+                        [`御坂妹のゴーグル`, 154471],
+                        [`常盤台中学校の体操服`, 154481],
+                        [`清掃ロボット＜ドラム缶＞`, 154491]
+                        
+                    ],
+                    dream: [
+                    
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+
+                    ],  
+                    equips: [
+                        
+                    ],
+                    dream: [
+                        
+                    ]
+                }
+        }
+    },
 ]
 
 export function getNews() {
