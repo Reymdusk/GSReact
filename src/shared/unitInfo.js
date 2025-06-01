@@ -40459,7 +40459,7 @@ const UnitInformation = [
             {
                 name: `Accelerator's Crutch`,
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_154501.png",
+                detail: "/db/Equipment/Detail/item_detail_154411.png",
                 skill: `65s CT - 4000% Dark DMG (PHY). For 8s, reduce enemies' Dark RES by 30%.`,
                 skillbreak: 6000,
                 passive: 
@@ -40541,7 +40541,7 @@ const UnitInformation = [
             {
                 name: `Former Walking Church`,
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "/db/Equipment/Detail/item_detail_154601.png",
+                detail: "/db/Equipment/Detail/item_detail_154421.png",
                 skill: `55s CT - 10000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally, if user is Human, reduce enemies' DMG RES by 20%. `,
                 skillbreak: 500,
                 passive: 
