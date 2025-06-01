@@ -40391,7 +40391,171 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
-    }
+    },
+    { //Accelerator - JP Complete - Missing Lore
+        id: 108187512,
+        name: `Accelerator`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108186512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108187512.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_818_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108186512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108187512.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_818_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7161,
+                hpplus: 1352,
+                atk: 3703,
+                atkplus: 694,
+                def: 3174,
+                defplus: 602
+            },
+        skillset: 
+            {
+                skill: `15s CT - 10000% Dark DMG (MAG).`,
+                skillbreak: 1500,
+                arts: `22000% Dark DMG (MAG). Increase allies' next Super Arts DMG by 100%. Increase Dark Allies' next Super Arts DMG by 150% instead.`,
+                artsbreak: 2000,
+                truearts: `60000% Dark DMG (MAG). For 25s, reduces enemies' Break RES by 50%. Increase Arts of Allies with more than 50% HP by 5/s. This unit's Arts Gen is Type F.`,
+                trueartsbreak: 5000,
+                superarts: `150000% Dark DMG (MAG). If used when Boss is not Broken, increase own Break PWR during Super Arts based on how high own current HP is (up to 300%). If used when Boss is Broken, double the damage multiplier of own Super Arts.`,
+                superartsbreak: 8000
+            },
+        passive: 
+            {
+                ability1: `When Boss is Broken, for 30s, increase all allies' Arts by 5/s & increase all allies' DMG by 300%. Does not stack with Abilities of the same name.`,
+                ability2: `When self is unaffected by Status Ailments, increase own Arts by 3/s.`,
+                ability3: `Increase own DMG to Humans by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Accelerator's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Accelerator's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinful Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Accelerator's Crutch`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154501.png",
+                skill: `65s CT - 4000% Dark DMG (PHY). For 8s, reduce enemies' Dark RES by 30%.`,
+                skillbreak: 6000,
+                passive: 
+                    {
+                        ability1: `When equipped by Accelerator, increase own Break PWR by 50%. At the Start of Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Index - JP Complete - Missing Lore
+        id: 108197412,
+        name: `Index`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108196412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108197412.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_819_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108196412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108197412.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_819_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 8303,
+                hpplus: 1494,
+                atk: 2662,
+                atkplus: 534,
+                def: 3289,
+                defplus: 622
+            },
+        skillset: 
+            {
+                skill: `14s CT - 2000% Light DMG (MAG). Heal all allies' HP by 3000. For 7s, increase own Arts by 4/s. This Skill's Arts Gen is Type EX1.`,
+                skillbreak: 500,
+                arts: `Increase all allies' Arts by 30. For 30s, increase all allies' DMG RES by 30%.`,
+                artsbreak: 0,
+                truearts: `60000% Light DMG (MAG). For 35s, increase all allies' DMG by 100%. Against advantageous elements, increase DMG by 200% instead. Increase own Skill CT Speed by 100%.`,
+                trueartsbreak: 2000,
+                superarts: `160000% Light DMG (MAG). For 25s, increase all allies' MAG EQ CT Speed by 40% & reduce enemies' MAG RES by (40% x Number of Alive Allies' Magic Slots).`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When self is unaffected by Status Ailments, increase Light Allies' Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own BE Output by 20%.`,
+                ability3: `Increase own MAG RES by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Index's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Index's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglit Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Former Walking Church`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154601.png",
+                skill: `55s CT - 10000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally, if user is Human, reduce enemies' DMG RES by 20%. `,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Index, increase own Arts by 2/s & increase own Heal Amount by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
 ];
 
 export function getUnits() {
