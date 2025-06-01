@@ -12,7 +12,7 @@
         translate: ``,
         location: ``,
         type: `/db/Mines/thumbnail/healLB.png`,
-        star: 3,
+        star: 5,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_100010.png`,
@@ -36,7 +36,7 @@
                 ability1: ``,
                 ability2: ``
             },
-        lore: ``
+        lore: `Currently unreleased in Global.`
     },
 
  */
@@ -50017,6 +50017,287 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『アクセラレータの杖』- JP Complete - Missing Lore
+        id: 154411,
+        name: `真『アクセラレータの杖』`,
+        translate: `True 'Accelerator's Crutch'`,
+        location: `Alchemy Shop`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `65s CT - 4000% Dark DMG (PHY). For 8s, reduce enemies' Dark RES by 30%.`,
+                break: 6000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Accelerator, increase own Break PWR by 50%. At the Start of Quest, increase own Arts by 100. Does not stack with abilities of the same name.`,
+                ability2: `Increase own PHY RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『歩く教会だったもの』- JP Complete - Missing Lore
+        id: 154421,
+        name: `真『歩く教会だったもの』`,
+        translate: `True 'Former Walking Church'`,
+        location: `Alchemy Shop`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 10000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally, if user is Human, reduce enemies' DMG RES by 20%. `,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Index, increase own Arts by 2/s & increase own Heal Amount by 30%. Does not stack with abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //白井黒子のリボン- JP Complete - Missing Lore
+        id: 154431,
+        name: `白井黒子のリボン`,
+        translate: `Shirai Kuroko's Ribbon`,
+        location: `A Certain Magical Index Collab Gacha`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154431.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - For 15s, increase all allies' Arts by 2/s & ATK by 20%. Increase ATK by 40% for Light Allies instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //アクセラレータの服- JP Complete - Missing Lore
+        id: 154441,
+        name: `アクセラレータの服`,
+        translate: `Accelerator's Clothes`,
+        location: `A Certain Magical Index Collab Gacha`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Dark DMG (MAG). For 15s, increase own Dark DMG by 60%. On first use, increase own Arts by 80.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //アクセラレータの杖 - JP Complete - Missing Lore
+        id: 154451,
+        name: `アクセラレータの杖`,
+        translate: `Accelerator's Crutch`,
+        location: `A Certain Magical Index Collab Gacha`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Dark DMG (PHY). For 10s, increase own BREAK PWR by 60%. If user is unaffected by Status Ailments, increase own Arts by 30.`,
+                break: 4000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //歩く教会だったもの - JP Complete - Missing Lore
+        id: 154461,
+        name: `歩く教会だったもの`,
+        translate: `Former Walking Church`,
+        location: `A Certain Magical Index Collab Gacha`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Light DMG (MAG). For 10s, increase own MAG DMG by 60%. Additionally, if user is Light, increase own Paralysis & Freeze RES by 100%.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //御坂妹のゴーグル - JP Complete - Missing Lore
+        id: 154471,
+        name: `御坂妹のゴーグル`,
+        translate: `Misaka Sister's Goggles`,
+        location: `A Certain Magical Index Collab Gacha`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - For 20s, increase all allies' MAG RES by 25%. Additionally, for Allies with less than 40% Max HP, increase DMG RES by 15%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //常盤台中学校の体操服 - JP Complete - Missing Lore
+        id: 154481,
+        name: `常盤台中学校の体操服`,
+        translate: `Tokiwadai Junior High School Gym Uniform`,
+        location: `A Certain Magical Index Collab Event Dungeon`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154481.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all allies' Arts by 15. If user is Light, for 15s, increase all allies' DMG RES by 10%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //清掃ロボット＜ドラム缶＞ - JP Complete - Missing Lore
+        id: 154491,
+        name: `清掃ロボット＜ドラム缶＞`,
+        translate: `Cleaning Robot <Drum>`,
+        location: `A Certain Magical Index Collab Gacha`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_154490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154491.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - For 12s, heal allies' HP by 150/s & increase all allies' Max HP by (10% x Number of Human Allies).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
