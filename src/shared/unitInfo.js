@@ -3641,7 +3641,7 @@ const UnitInformation = [
                 evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
-    { //Gilliam - Complete (+ JP version + Dream Evo)
+    { //Gilliam - Complete
         id: 101126311,
         name: "Gilliam",
         luckrank: "F",
@@ -3658,15 +3658,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101126311.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 6,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -3685,15 +3676,6 @@ const UnitInformation = [
                 defplus: 372
             },
         skillset: 
-            {
-                skill: "9s CT - 1600% Earth DMG (PHY). For 6s, increase Allies' DEF by 10%.",
-                skillbreak: 900,
-                arts: "15000% Earth DMG (PHY). For 10s, increase Allies' Equipment DMG by 30%.",
-                artsbreak: 1600,
-                truearts: "37000% Earth DMG (PHY). For 20s, increase own DMG by 70% and ignore 100% of Enemy DEF.",
-                trueartsbreak: 2000
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1600% Earth DMG (PHY). For 6s, increase Allies' DEF by 10%.",
                 skillbreak: 900,
@@ -3729,7 +3711,7 @@ const UnitInformation = [
                     hover3: "Gilliam",
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -29921,7 +29903,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Saitama - Complete + JP ver
+    { //Saitama - Complete
         id: 107076412,
         name: "Saitama",
         luckrank: "A",
@@ -29959,15 +29941,6 @@ const UnitInformation = [
             {
                 skill: "8s CT - 3200% Light DMG (PHY). Increase own Arts by 20.",
                 skillbreak: 2000,
-                arts: "30000% Light DMG (PHY). For 40s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                artsbreak: 2000,
-                truearts: "200000% Light DMG (PHY).",
-                trueartsbreak: 6000
-            },
-        skillsetJP: 
-            {
-                skill: "8s CT - 3200% Light DMG (PHY). Increase own Arts by 20.",
-                skillbreak: 2000,
                 arts: "30000% Light DMG (PHY). For 40s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will not stack with other Type EX1 Arts Gen.",
                 artsbreak: 2000,
                 truearts: "200000% Light DMG (PHY).",
@@ -29994,42 +29967,7 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
-        dreamGL: 
-            {
-                fire: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
-                        mat2amt: 30,
-                        hover2: `Flametail Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
-                        mat3amt: 1,
-                        hover3: "Ifrit",
-                    },
-                    passive: {
-                        ability1: `Increase own DMG against Demons by 100%.`,
-                        ability2: `Increase own DMG against Dragons by 100%.`
-                    }
-                },
-                light: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        mat2amt: 30,
-                        hover2: `Eternaglint Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
-                        mat3amt: 1,
-                        hover3: "Wilkes",
-                    },
-                    passive: {
-                        ability1: `Increase own DMG against Gods by 100%.`,
-                        ability2: `Increase own DMG against Beasts by 100%.`
-                    }
-                }
-            },
-            dreamJP: 
+            dream: 
             {
                 fire: {
                     evolution: {
@@ -30064,7 +30002,7 @@ const UnitInformation = [
                     }
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Hero Belt",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -30083,7 +30021,7 @@ const UnitInformation = [
                 evoawk: "A professional Hero with superhuman powers. His powers are accurately described by his name, since Saitama is the most powerful man to exist, defeating his enemies in ONE PUNCH. However, few acknowledge his true strength."
             }
     },
-    { //Genos - Complete + JP ver
+    { //Genos - Complete
         id: 107086512,
         name: "Genos",
         rank: "F",
@@ -30098,15 +30036,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107086512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -30125,15 +30054,6 @@ const UnitInformation = [
                 defplus: 308
             },
         skillset: 
-            {
-                skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 10.",
-                skillbreak: 1400,
-                arts: "22000% Dark DMG (MAG). 80% chance to inflict Burn for 8s + For 10s, increase own Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                artsbreak: 2800,
-                truearts: "48000% Dark DMG (MAG). For 15s, reduce own Action Speed by 15% and increase Allies' (except self) Skill CT Speed by 120%.",
-                trueartsbreak: 3500
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1600% Dark DMG (PHY). Increase own Arts by 10.",
                 skillbreak: 1400,
@@ -30160,7 +30080,7 @@ const UnitInformation = [
                     hover3: "Code-XTF",
                 }
             },
-        dreamJP: {
+        dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -30200,7 +30120,7 @@ const UnitInformation = [
                 evoawk: "A cyborg S-Class Hero with mechanized weapons of mass destruction embedded all over his body. Any enemy would fear of his destructive attacks that even risk Genos' own life."
             }
     },
-    { //Terrible Tornado - Complete + JP ver
+    { //Terrible Tornado - Complete
         id: 107096312,
         name: "Terrible Tornado",
         luckrank: "C",
@@ -30238,15 +30158,6 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2000% Earth DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
                 skillbreak: 2000,
-                arts: "22000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 25%.",
-                artsbreak: 4200,
-                truearts: "70000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 10s, increase all Allies' Break PWR by 100%.",
-                trueartsbreak: 8000
-            },
-        skillsetJP: 
-            {
-                skill: "7s CT - 2000% Earth DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
-                skillbreak: 2000,
                 arts: "22000% Earth DMG (MAG). For 15s, reduce all Enemies' MAG RES by 35%.",
                 artsbreak: 5000,
                 truearts: "70000% Earth DMG (MAG). 100% chance to inflict Paralysis for 6s. For 15s, increase all Allies' Break PWR by 100%.",
@@ -30273,40 +30184,7 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
-        dreamGL: {
-                earth: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
-                        mat2amt: 30,
-                        hover2: `Smogdragon Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
-                        mat3amt: 1,
-                        hover3: "Tonetaurus",
-                    },
-                    passive: {
-                        ability1: `Increase own Break Power against Water enemies by 100%.`
-                    }
-                },
-                light: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        mat2amt: 30,
-                        hover2: `Eternaglint Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
-                        mat3amt: 1,
-                        hover3: "Wilkes",
-                    },
-                    passive: {
-                        ability1: `Increase allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`
-                    }
-                }
-            },
-        dreamJP: {
+        dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -30339,7 +30217,7 @@ const UnitInformation = [
                     }
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Esper Dress",
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -30358,7 +30236,7 @@ const UnitInformation = [
                 evoawk: "The S-Class Rank-2 Hero in the Hero Association. It's not an overstatement to say she's the Hero Association's last card against threats against humanity. Facing her infinite strength, her enemies cannot even raise a finger after the hurt they find themselves in."
             }
     },
-    { //Boros - Complete + JP ver
+    { //Boros - Complete
         id: 107106511,
         name: "Boros",
         luckrank: "F",
@@ -30372,16 +30250,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_107105511.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107106511.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -30405,15 +30274,6 @@ const UnitInformation = [
                 skillbreak: 1444,
                 arts: "24444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 100% and Break Power by 100% against Enemies not in BREAK.",
                 artsbreak: 2222,
-                truearts: "66666% Dark DMG (MAG). Consume 30% of own HP. For 15s, increase own True Arts' Critical Rate by 100%, and reduce Enemies' Fire, Water, Earth, Light and Dark RES by 30%.",
-                trueartsbreak: 4444
-            },
-        skillsetJP: 
-            {
-                skill: "9s CT - 1666% Dark DMG (PHY). For 7s, increase own Skill CT Speed by 20%.",
-                skillbreak: 1444,
-                arts: "24444% Dark DMG (PHY). Consume 10% of own HP. For 10s, increase own DMG to Enemies in BREAK by 100% and Break Power by 100% against Enemies not in BREAK.",
-                artsbreak: 2222,
                 truearts: "66666% Dark DMG (MAG). Consume 20% of own HP. For 15s, increase own True Arts' Critical Rate by 100%, and reduce Enemies' Fire, Water, Earth, Light and Dark RES by 30%.",
                 trueartsbreak: 4444
             },
@@ -30422,7 +30282,7 @@ const UnitInformation = [
                 ability1: "Increase Dark RES by 20%.",
                 ability2: "At the start of a Quest, for 60s, increase stats by 15%. Heal own HP by 200/s."
             }, 
-        dreamJP: {
+        dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -31582,7 +31442,7 @@ const UnitInformation = [
                 evoawk: "A High Elf ranger. She's not skilled at close combat, but he marksmanship and physical abilities offer powerful support from the rear, so her Silver adventurer rank is well-earned. She left her home to see the world as an adventurer, and now her main goal is to show Goblin Slayer the joys of adventuring."
             }
     },
-    { //Sonic - Complete + JP ver
+    { //Sonic - Complete
         id: 107216512,
         name: "Sonic",
         luckrank: "A",
@@ -31645,41 +31505,7 @@ const UnitInformation = [
                     hover3: "Oldeus",
                 }
             },
-        dreamGL: {
-                water: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        mat2amt: 30,
-                        hover2: `Frostsprite Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
-                        mat3amt: 1,
-                        hover3: "Geo Zagnus",
-                    },
-                    passive: {
-                        ability1: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase allies' PHY DMG by 30%. Does not stack with Abilities of the same name.`
-                    }
-                },
-                dark: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
-                        mat2amt: 30,
-                        hover2: `Sinflow Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
-                        mat3amt: 1,
-                        hover3: "Ragsherum Phantom",
-                    },
-                    passive: {
-                        ability1: `Increase own CRI DMG by 60%.`,
-                        ability2: `Increase Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`
-                    }
-                }
-            },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -31713,7 +31539,7 @@ const UnitInformation = [
                     }
                 }
             }, 
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Sonic's Katana",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -31732,7 +31558,7 @@ const UnitInformation = [
                 evoawk: "He is the self-proclaimed 'Strongest Ninja'. He is equal in ability as the S-Class Hero, Genos. His obsession to defeat Saitama is so deep, he is prepared to do anything."
             }
     },
-    { //Hellish Blizzard - Complete + JP ver
+    { //Hellish Blizzard - Complete
         id: 107226212,
         name: "Hellish Blizzard",
         luckrank: "A",
@@ -31767,15 +31593,6 @@ const UnitInformation = [
                 defplus: 382
             },
         skillset: 
-            {
-                skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Action Speed by 10%.",
-                skillbreak: 1000,
-                arts: "20000% Water DMG (MAG). 80% chance to inflict Faint for 5s. For 20s, increase Allies' BE Output by 100%.",
-                artsbreak: 2000,
-                truearts: "65000% Water DMG (MAG). For 15s, increase Allies' MAG DMG by 200% and reduce enemies' MAG RES by 30%.",
-                trueartsbreak: 2400
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 2000% Water DMG (MAG). For 5s, reduce Enemies' Action Speed by 10%.",
                 skillbreak: 1000,
@@ -31839,7 +31656,7 @@ const UnitInformation = [
                     }
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Hellish Blizard's Dress",
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -31858,7 +31675,7 @@ const UnitInformation = [
                 evoawk: "She is a B-Class Rank 1 Hero. She is a powerful psychic, and biological sister of the S-Class Rank 2 Hero, Terrible Tornado."
             }
     },
-    { //Garou - Complete + JP ver
+    { //Garou - Complete
         id: 107236512,
         name: "Garou",
         rank: "A-",
@@ -31894,15 +31711,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "7s CT - 1800% Dark DMG (PHY). For 4s, reduce Enemies' accuracy by 10%.",
-                skillbreak: 500,
-                arts: "33000% Dark DMG (PHY). For 20s, reduce enemies' Evasion rate by 70%, increase own Accuracy by 70% and Skill CT Speed by 70%.",
-                artsbreak: 1700,
-                truearts: "80000% Dark DMG (PHY). Permanently increase own Arts DMG by 100% (up to 500%).",
-                trueartsbreak: 3000
-            },
-        skillsetJP: 
-            {
                 skill: "7s CT - 1800% Dark DMG (PHY). Increase own Arts by 15. For 4s, reduce Enemies' accuracy by 10%.",
                 skillbreak: 500,
                 arts: "33000% Dark DMG (PHY). For 20s, reduce enemies' Evasion rate by 70%, increase own Accuracy by 70% and Skill CT Speed by 70%.",
@@ -31930,41 +31738,7 @@ const UnitInformation = [
                     hover3: "Valzandeth",
                 }
             },
-        dreamGL: {
-                fire: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
-                        mat2amt: 30,
-                        hover2: `Flametail Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
-                        mat3amt: 1,
-                        hover3: "Degilmagna",
-                    },
-                    passive: {
-                        ability1: `Increase own Arts by 5/s when Near-Death.`,
-                        ability2: `Increase own Status RES by 80% (except Faint).`
-                    }
-                },
-                dark: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
-                        mat2amt: 30,
-                        hover2: `Sinflow Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
-                        mat3amt: 1,
-                        hover3: "Oldeus",
-                    },
-                    passive: {
-                        ability1: `Increase own DMG against enemies under 30% HP by 100%.`,
-                        ability2: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`
-                    }
-                }
-            },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -40146,7 +39920,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Hero Saitama - JP Complete - Missing Lore
+    { //Hero Saitama - Missing Lore
         id: 108157412,
         name: `Hero Saitama`,
         attribute: `Light`,
@@ -40224,8 +39998,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Misaka Mikoto - JP Complete - Missing Lore

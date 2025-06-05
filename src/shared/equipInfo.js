@@ -49470,7 +49470,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Terrible Tornado Plushie - Missing Lore
         id: 154231,
@@ -49499,7 +49499,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Garou Plushie - Missing Lore
         id: 154241,
@@ -49528,7 +49528,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Sonic Plushie - Missing Lore
         id: 154251,
@@ -49557,12 +49557,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ジェノスのぬいぐるみ - Missing Lore
+    { //Genos Plushie - Missing Lore
         id: 154261,
-        name: `ジェノスのぬいぐるみ`,
-        translate: `Genos Plushie`,
+        name: `Genos Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -49587,7 +49586,7 @@ const EquipInformation = [
             {
                 ability1: `When own HP is above 80% HP, increase own ATK by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Hero Gloves' - Missing Lore
         id: 154271,
@@ -49617,7 +49616,7 @@ const EquipInformation = [
                 ability1: `When equipped by Hero Saitama, increase all stats by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Sonic's Katana' - Missing Lore
         id: 154281,
@@ -49647,7 +49646,7 @@ const EquipInformation = [
                 ability1: "When equipped by Sonic, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                 ability2: "Increase own ATK by 5%."
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Esper Dress' - Missing Lore
         id: 154291,
@@ -49677,7 +49676,7 @@ const EquipInformation = [
                 ability1: "When equipped by Terrible Tornado, increase own Break Power by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                 ability2: "Increase DMG against Enemies in BREAK by 10%."
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Hellish Blizzard's Dress' - Missing Lore
         id: 154301,
@@ -49707,7 +49706,7 @@ const EquipInformation = [
                 ability1: "When equipped by Hellish Blizzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                 ability2: "Increase own DEF by 5%."
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Hero Belt' - Missing Lore
         id: 154311,
@@ -49737,7 +49736,7 @@ const EquipInformation = [
                 ability1: "When equipped by Saitama, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
                 ability2: "Increase own PHY resistance by 5%."
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『御坂美琴のコイン』 - JP Complete - Missing Lore
         id: 154321,
@@ -49843,10 +49842,10 @@ const EquipInformation = [
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_154340.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_154341.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154340.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154341.png`
+                detail: `/db/Equipment/Detail/item_detail_154350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154351.png`
             },
         stats:
             {
