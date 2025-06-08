@@ -26605,7 +26605,7 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
                     hover2: "Flametail Soulgem"
                 }
