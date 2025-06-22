@@ -4002,7 +4002,7 @@ const UnitInformation = [
                 evoawk: "The receptionist at the Arena. In order to settle things between her father and mother, she keeps training to become stronger than the two. Her father worries and tries to stop her. On the other hand, her mother helps her out secretly. She feels that unlike her expectations, the distance of the two are getting even farther. Yet, she still aims for a higher goal. This pure heart releases the strong power from her parents."
             }
     },
-    { //Sophie - Complete (+ JP version)
+    { //Sophie - Complete
         id: 101156111,
         name: "Sophie",
         luckrank: "C",
@@ -4022,15 +4022,6 @@ const UnitInformation = [
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
-            {
-                slot1: 6,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 6,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
@@ -4046,15 +4037,6 @@ const UnitInformation = [
                 defplus: 345
             },
         skillset: 
-            {
-                skill: "8s CT - 1200% Fire DMG (PHY). For 6s, reduce Enemies' Break RES by 15%.",
-                skillbreak: 2500,
-                arts: "10000% Fire DMG (PHY). For 10s, increase Allies' Skill CT REC by 50%. Fire Allies' Skill CT REC is increased by 100% instead.",
-                artsbreak: 2900,
-                truearts: "27000% Fire DMG (PHY). 80% chance to inflict Burn for 11s. If Enemy was Burned by own True Arts or was already Burned when own True Arts was activated, for 10s, reduce Enemies' Fire RES by 50%.",
-                trueartsbreak: 3000
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1200% Fire DMG (PHY). For 6s, reduce Enemies' Break RES by 25%.",
                 skillbreak: 2500,
@@ -4090,7 +4072,7 @@ const UnitInformation = [
                     hover3: "Sophie",
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -5498,7 +5480,7 @@ const UnitInformation = [
                 evoawk: "At the end of his journey with the Spirit girl, Zoroas confronted a terrible monster and struggled in battle against its magic-devouring maw. When all seemed lost, Zoroas noticed the girl casting a sealing magic spell, completely unguarded. Smiling with abandon, Zoroas turned back to face the Demon beast that was now charging towards the girl. \"Whatever it takes to win!\" Zoroas said to the shocked Spirit girl. It was the first time that Zoroas, someone who had selfishly lived for only to fight and defeat poweful foes in battle, fought instead to protect another."
             }
     },
-    { //Zechsia - Complete
+    { //Zechsia - Complete + JP ver
         id: 101276412,
         name: "Zechsia",
         rank: "F",
@@ -5522,6 +5504,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 6660,
@@ -5539,6 +5530,15 @@ const UnitInformation = [
                 artsbreak: 3700,
                 truearts: "26000% Light DMG (PHY). For 25s, increase own Arts by 5/s and increase Break PWR by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 4000
+            },
+        skillsetJP: 
+            {
+                skill: "6s CT - 1900% Light DMG (PHY). Increase own Arts by 5. For 6s, reduce enemies' Break RES by 15%.",
+                skillbreak: 2300,
+                arts: "20000% Light DMG (PHY). Increase own Arts by 50.",
+                artsbreak: 5000,
+                truearts: "55000% Light DMG (PHY). For 25s, increase own Arts by 5/s and increase Break PWR by 150%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
+                trueartsbreak: 6000
             },
         passive: 
             {
@@ -5568,6 +5568,40 @@ const UnitInformation = [
                     hover3: "Radachne",
                 }
             },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 2,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against enemies in BREAK by 150%.`,
+                        ability2: `Increase allies' PHY DMG by 40%. Does not stack with Abilties of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Break Power by 30%. Does not stack with Abilties of the same name.`,
+                        ability2: `Increase Light allies' Arts by 1/s. Does not stack with Abilties of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo4: "A knight who was part of a company of God knights in ancient times. She despised being underestimated and was always seen wearing a full suit of armour. As a knight in service to the higher Gods of order, she saw the commands of the higher Gods and order itself as absolute. Her sternness was so great that she would cut down any knight who expressed a lack of faith where they stood. Zechsia, ever loyal, was given a divine mission: to slay a mercenary whose intervention in battles caused chaos and confusion.",
@@ -5575,7 +5609,7 @@ const UnitInformation = [
                 evoawk: "Zechsia pursued the Dragon mercenary, but grew skeptical of the justness of her orders upon seeing a kind young girl travelling happily with him. Her doubts about slaying the supposedly wicked Dragon were comfirmed when she witnessed him fearlessly protect the girl from a beast. Zechsia drew her sword against the beast to save the wounded mercenary, marking the first time in her entire life that she disobeyed a divine order."
             }
     },
-    { //Zecht - Complete
+    { //Zecht - Complete + JP ver
         id: 101286512,
         name: "Zecht",
         rank: "F",
@@ -5599,6 +5633,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 6384,
@@ -5614,7 +5657,16 @@ const UnitInformation = [
                 skillbreak: 850,
                 arts: "13500% Dark DMG (MAG). For 8s, increase Dark Allies' Evasion and DMG by 30%.",
                 artsbreak: 1900,
-                truearts: "30000% Dark DMG (MAG). 100% chance to inflict Blind for 8s. If Enemy was Blinded by this True Arts, for 15s, reduce DMG RES of that Enemy by 40%.",
+                truearts: "30000% Dark DMG (MAG). 100% chance to inflict Blind for 8s. For 15s, reduce DMG RES of enemies blinded by own True Arts by 40%.",
+                trueartsbreak: 3700
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2200% Dark DMG (MAG). 50% Chance to inflict Blind for 8s. Increase own Arts by 10.",
+                skillbreak: 850,
+                arts: "20000% Dark DMG (MAG). For 15s, increase Dark Allies' Evasion and DMG by 30%.",
+                artsbreak: 1900,
+                truearts: "60000% Dark DMG (MAG). 100% chance to inflict Blind for 10s. For 20s, reduce DMG RES of enemies blinded by own True Arts by 150%.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -5643,6 +5695,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
                     mat3amt: 4,
                     hover3: "Valzandeth",
+                }
+            },
+        dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                        mat3amt: 2,
+                        hover3: "Wilkes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Light RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 3/s when above 80% HP.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                        mat3amt: 2,
+                        hover3: "Mavroskia",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG by 100% against Blinded enemies.`,
+                        ability2: `Increase Dark allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         lore: 
@@ -5915,7 +6001,7 @@ const UnitInformation = [
                 evoawk: "Realizing their disadvantage against the Magibeast horde, the elder of the giant brothers decides to fight solo to protect his brother and the young Spirit girl. Possessed by some divine strength, he slaughters the enemy host without letting a single enemy touch the others. After the carnage, he looks to see the girl running towards him, tears in her eyes. He gazes upwards, and with a hearty laugh, falls into an eternal slumber."
             }
     },
-    { //Rhodia - Complete
+    { //Rhodia - Complete + JP ver
         id: 101316412,
         name: "Rhodia",
         rank: "F",
@@ -5939,6 +6025,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6600,
@@ -5952,9 +6047,18 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2300% Light DMG (PHY). 15% chance to inflict Paralysis for 4s.",
                 skillbreak: 2100,
-                arts: "12000% Light DMG (PHY). For 20s, increase Allies' DMG by 30%, increase Light Allies' DMG by 20%.",
+                arts: "12000% Light DMG (PHY). For 20s, increase Allies' DMG by 30% and Light Allies' DMG by an additional 20%.",
                 artsbreak: 3400,
                 truearts: "29800% Light DMG (PHY). For 20s, reduce enemies' Light RES by 30%, increase Allies' DMG to Dragon Enemies by 30%.",
+                trueartsbreak: 4000
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2300% Light DMG (PHY). 15% chance to inflict Paralysis for 4s.",
+                skillbreak: 2100,
+                arts: "22000% Light DMG (PHY). For 20s, increase Allies' DMG by 30% and Light Allies' DMG by an additional 50%.",
+                artsbreak: 3400,
+                truearts: "62000% Light DMG (PHY). For 20s, reduce enemies' Light RES by 30%, increase allies' DMG by 100% and allies' DMG against Dragon enemies by 100%.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -5983,6 +6087,40 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat3amt: 2,
                     hover3: "Fosradius",
+                }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `When "Miasma" Area Effect is active, increase Arts-over-time Effects by 80%.`,
+                        ability2: `Increase own DMG by [2% x own ATK/100].`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase own Arts by 5/s.`,
+                        ability2: `Increase own DMG against Giant Bosses by 80%.`
+                    }
                 }
             },
         lore: 
@@ -6195,7 +6333,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Shadie - Complete
+    { //Shadie - Complete + JP ver
         id: 101346212,
         name: "Shadie",
         rank: "C",
@@ -6219,6 +6357,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 7079,
@@ -6235,6 +6382,15 @@ const UnitInformation = [
                 arts: "12800% Water DMG (MAG). For 10s, increase Allies' DMG by 20%. Water Allies' DMG by 20%.",
                 artsbreak: 3400,
                 truearts: "27000% Water DMG (MAG). For 20s, reduce Enemies' evasion, Status Ailment RES and ATK by 30%.",
+                trueartsbreak: 3700
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - Increase own Arts by 20. For 8s, gain a DMG barrier that negates 800 DMG.",
+                skillbreak: 0,
+                arts: "18000% Water DMG (MAG). For 10s, increase Allies' DMG by 50% and Water Allies' DMG by 50%.",
+                artsbreak: 3400,
+                truearts: "45000% Water DMG (MAG). For 25s, reduce Enemies' evasion, Status Ailment RES and ATK by 30%.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -6263,6 +6419,39 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat3amt: 2,
                     hover3: "Freydal",
+                }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 2,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Water RES by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equip CT Speed by 15% when above 80% HP.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `At Start of Quest, increase allies' Arts by 50. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         lore: 
@@ -28105,17 +28294,20 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Velzard - Missing Lore (JP)
+    { //Verzard - Missing Lore (JP)
         id: 103907112,
-        name: `Velzard`,
+        name: `Verzard`,
+        translate: `Velzard`,
         attribute: `Fire`,
         type: `Demon`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103906112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103907112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_390_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103906112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103907112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103907112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_390_1.png"
             },
         slots: 
             {
@@ -28151,6 +28343,14 @@ const UnitInformation = [
             {
                 ability1: `Reduce all allies' DMG taken from enemies with 3 stacks of Bleed by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by 60% for every enemy killed by own attack (MAX: 300%). Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Healing received by 20% (except Lifesteal).`,
+                ability4: `Unit EXP UP 20% UP. (When Verzard's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Verzard's SP. Art is owned)`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Reduce all allies' DMG taken from enemies with 3 stacks of Bleed by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by 60% for every enemy killed by own attack (MAX: 300%). Does not stack with Abilities of the same name.`,
                 ability3: `Increase own Healing received by 20% (except Lifesteal).`
             }, 
         evolution: 
@@ -28173,14 +28373,14 @@ const UnitInformation = [
                     skillbreak: 300,
                     passive: 
                         {
-                            ability1: `When equipped by Velzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Verzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own Accuracy by 10%.`
                         }
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Azel - Missing Lore

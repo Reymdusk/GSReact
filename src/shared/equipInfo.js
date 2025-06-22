@@ -34319,10 +34319,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ライジング・ノヴァ』 - JP Complete
+    { //True 'Rising Nova' - Missing Lore
         id: 112381,
-        name: `真『ライジング・ノヴァ』`,
-        translate: `True 'Rising Nova'`,
+        name: `True 'Rising Nova'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34345,15 +34344,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Star Swordswoman Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Cometstreak Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own HP Recovery by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //星剣『ライジング・ノヴァ』 - JP Complete
+    { //Starsword 'Rising Nova' - Missing Lore
         id: 112391,
-        name: `星剣『ライジング・ノヴァ』`,
-        translate: `Star Sword 'Rising Nova'`,
+        name: `Starsword 'Rising Nova'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34378,12 +34376,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『ディープ・ブラッド』 - JP Complete
+    { //True 'Deep Blood' - Missing Lore
         id: 112401,
-        name: `真『ディープ・ブラッド』`,
-        translate: `True 'Deep Blood'`,
+        name: `True 'Deep Blood'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34406,15 +34403,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Velzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Verzard, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //血鎌『ディープ・ブラッド』 - JP Complete
+    { //Sanguine Scythe 'Deep Blood' - Missing Lore
         id: 112411,
-        name: `血鎌『ディープ・ブラッド』`,
-        translate: `Blood Scythe 'Deep Blood'`,
+        name: `Sanguine Scythe 'Deep Blood'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34439,7 +34435,7 @@ const EquipInformation = [
             {
                 ability1: `When above 90% HP, increase all allies' Physical DMG by 20%. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Twin Falcons' - Missing Lore
         id: 112421,
@@ -36647,6 +36643,36 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase own Light resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //惨魂爪『リカーニングペイン』 - JP Complete
+        id: 113151,
+        name: `惨魂爪『リカーニングペイン』`,
+        translate: `Brutal Claw 'Reckoning Pain'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_113150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113151.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8000% Earth DMG (PHY). 70% chance to inflict Poison for 10s. Reduce Poisoned enemies' PHY RES by 30% for 10s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG by 20% against Poisoned enemies.`
             },
         lore: `Currently unreleased in Global.`
     },

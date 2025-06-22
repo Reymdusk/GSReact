@@ -3178,7 +3178,7 @@ const NewsArticles = [
                         [`Misaka Mikoto`, 108167412]
                     ],
                     equips: [
-                        [`真『御坂美琴のコイン』'`, 154321],
+                        [`真『御坂美琴のコイン』`, 154321],
                         [`真『上条当麻の制服』`, 154331],
                         [`御坂美琴のコイン`, 154341],
                         [`砂鉄の剣`, 154351],
@@ -3199,10 +3199,11 @@ const NewsArticles = [
                         [`Cometstreak Valerie`, 103897212]
                     ],  
                     equips: [
-                        
+                        [`True 'Rising Nova'`, 112381],
+                        [`Starsword 'Rising Nova'`, 112391]
                     ],
                     dream: [
-                        
+                        [`Gilliam`, 101126311]
                     ]
                 }
         }
@@ -3220,7 +3221,7 @@ const NewsArticles = [
                         [`Index`, 108197412]
                     ],
                     equips: [
-                        [`真『アクセラレータの杖』'`, 154411],
+                        [`真『アクセラレータの杖』`, 154411],
                         [`真『歩く教会だったもの』`, 154421],
                         [`白井黒子のリボン`, 154431],
                         [`アクセラレータの服`, 154441],
@@ -3245,6 +3246,40 @@ const NewsArticles = [
                     ],
                     dream: [
                         
+                    ]
+                }
+        }
+    },
+    {
+        id: 99,
+        date: `June 23, 2025`,
+        article: 
+        {
+            intro: `4 new Dream Awakenings and a new Raid equip has been released on JP! Meanwhile on Global, Verzard makes his grand debut. alongside his equips and Sophie's Dream Awakening!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`惨魂爪『リカーニングペイン』`, 113151]
+                    ],
+                    dream: [
+                        [`Zechsia`, 101276412],
+                        [`Zecht`, 101286512],
+                        [`Rhodia`, 101316412],
+                        [`Shadie`, 101346212]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Verzard`, 103907112]
+                    ],  
+                    equips: [
+                        [`True 'Deep Blood'`, 112401],
+                        [`Sanguine Scythe 'Deep Blood'`, 112411]
+                    ],
+                    dream: [
+                        [`Sophie`, 101156111]
                     ]
                 }
         }
