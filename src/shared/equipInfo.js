@@ -34198,10 +34198,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //天元甲『アルヴェーダ』(Marzex mines equip) - JP Complete
+    { //Firmament Guards 'Alveda' - Complete
         id: 112341,
-        name: `天元甲『アルヴェーダ』`,
-        translate: `Heavenly Origin Armor 'Alveda'`,
+        name: `Firmament Guards 'Alveda'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -34226,7 +34225,7 @@ const EquipInformation = [
             {
                 ability1: `Reduce own Max HP by 15%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『フェスタリオン』(Elenore TW) - JP Complete
         id: 112351,
@@ -34467,10 +34466,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //絶元甲『ゼクスヴェーダ』 - JP Complete
+    { //Hypertrophy Guards - 'Zexveda' - Missing Lore
         id: 112431,
-        name: `絶元甲『ゼクスヴェーダ』`,
-        translate: `Absolute Armor 'Zex Veda'`,
+        name: `Hypertrophy Guards - 'Zexveda'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34495,7 +34493,7 @@ const EquipInformation = [
             {
                 ability1: `Reduce own MAX HP by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『白玄両儀』 - JP Complete
         id: 112441,
@@ -49786,7 +49784,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 4000% Light DMG (MAG). For 60s, reduce enemies MAG RES by 20%. (Stackable)`,
+                skill: `50s CT - 4000% Light DMG (MAG). Reduce enemies MAG RES by 20% for 60s. (Stackable)`,
                 break: 400
             },
         passive: 
@@ -49799,7 +49797,7 @@ const EquipInformation = [
     { //真『上条当麻の制服』 - JP Complete - Missing Lore
         id: 154331,
         name: `真『上条当麻の制服』`,
-        translate: `True 'Kamijou\'s Uniform'`,
+        translate: `True 'Kamijou's Uniform'`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -49818,7 +49816,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, for 10s, increase own PHY DMG by 50%. If own HP is below 70%, heal 30% of MAX HP instead.`,
+                skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, increase own PHY DMG by 50% for 10s. If own HP is below 70%, heal 30% of MAX HP instead.`,
                 break: 500
             },
         passive: 
@@ -49850,7 +49848,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 7000% Light DMG (MAG). For 12s, increase own MAG DMG by 40% x Number of times this equip has been used (MAX 200%).`,
+                skill: `55s CT - 7000% Light DMG (MAG). Increase own MAG DMG by 40% x Number of times this equip has been used (MAX 200%) for 12s.`,
                 break: 700
             },
         passive: 
@@ -49881,8 +49879,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 7000% Light DMG (MAG). For 12s, increase own MAG DMG by 40% x Number of times this equip has been used (MAX 200%).`,
-                break: 700
+                skill: `80s CT - 10000% Light DMG (MAG). Increase own CRI DMG by 60% & increase Light Allies' DMG by 40% for 18s.`,
+                break: 1000
             },
         passive: 
             {
@@ -49912,7 +49910,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - For 20s, increase all allies' MAG RES by 30%. For 10s, heal all allies' HP by 200/s.`,
+                skill: `30s CT - Increase all allies' MAG RES by 30%. For 10s, heal all allies' HP by 200/s for 20s.`,
                 break: 0
             },
         passive: 
@@ -49943,7 +49941,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 8000% Water DMG (PHY). For 12s, increase Water Allies' BE Output by 50%. If used for the first time, increase Water Allies' BE Output by 80% instead.`,
+                skill: `45s CT - 8000% Water DMG (PHY). Increase Water Allies' BE Output by 50%. If used for the first time, increase Water Allies' BE Output by 80% instead for 12s.`,
                 break: 800
             },
         passive: 
@@ -50005,7 +50003,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Increase all allies' Arts by 25. For 15s, increase all allies' stats by 20%. Increase Leader's stats by an additional 20%.`,
+                skill: `40s CT - Increase all allies' Arts by 25. Increase all allies' stats by 20% and Leader's stats by an additional 20% for 15s.`,
                 break: 0
             },
         passive: 
@@ -50067,7 +50065,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `65s CT - 4000% Dark DMG (PHY). For 8s, reduce enemies' Dark RES by 30%.`,
+                skill: `65s CT - 4000% Dark DMG (PHY). Reduce enemies' Dark RES by 30% for 8s.`,
                 break: 6000
             },
         passive: 
@@ -50099,7 +50097,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 10000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally, if user is Human, reduce enemies' DMG RES by 20%. `,
+                skill: `55s CT - 10000% Light DMG (MAG). Reduce enemies' Light RES by 30% for 8s. Additionally if user is Human, reduce enemies' DMG RES by 20% for 8s. `,
                 break: 500
             },
         passive: 
@@ -50131,7 +50129,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - For 15s, increase all allies' Arts by 2/s & ATK by 20%. Increase ATK by 40% for Light Allies instead.`,
+                skill: `30s CT - Increase all allies' Arts by 2/s & ATK by 20% for 15s. Increase ATK by 40% for Light Allies instead.`,
                 break: 0
             },
         passive: 
@@ -50162,7 +50160,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Dark DMG (MAG). For 15s, increase own Dark DMG by 60%. On first use, increase own Arts by 80.`,
+                skill: `45s CT - 7000% Dark DMG (MAG). Increase own Dark DMG by 60% for 15s. Additionally when used for the first time, increase own Arts by 80.`,
                 break: 800
             },
         passive: 
@@ -50193,7 +50191,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 4000% Dark DMG (PHY). For 10s, increase own BREAK PWR by 60%. If user is unaffected by Status Ailments, increase own Arts by 30.`,
+                skill: `45s CT - 4000% Dark DMG (PHY). Increase own BREAK PWR by 60% for 10s. Additionally if user is unaffected by Status Ailments, increase own Arts by 30.`,
                 break: 4000
             },
         passive: 
@@ -50224,7 +50222,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 4000% Light DMG (MAG). For 10s, increase own MAG DMG by 60%. Additionally, if user is Light, increase own Paralysis & Freeze RES by 100%.`,
+                skill: `45s CT - 4000% Light DMG (MAG). Increase own MAG DMG by 60% for 10s. Additionally if user is Light, increase own Paralysis RES and Freeze RES by 100% for 10s.`,
                 break: 400
             },
         passive: 
@@ -50255,7 +50253,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - For 20s, increase all allies' MAG RES by 25%. Additionally, for Allies with less than 40% Max HP, increase DMG RES by 15%.`,
+                skill: `30s CT - Increase all allies' MAG RES by 25% for 20s. Additionally for Allies below 40% HP, increase their DMG RES by 15% for 20s.`,
                 break: 0
             },
         passive: 
@@ -50286,7 +50284,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Increase all allies' Arts by 15. If user is Light, for 15s, increase all allies' DMG RES by 10%.`,
+                skill: `35s CT - Increase all allies' Arts by 15. Additionally if user is Light, increase all allies' DMG RES by 10% for 15s.`,
                 break: 0
             },
         passive: 
@@ -50317,7 +50315,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - For 12s, heal allies' HP by 150/s & increase all allies' Max HP by (10% x Number of Human Allies).`,
+                skill: `50s CT - Heal allies' HP by 150/s & increase all allies' Max HP by [10 x # of Human Allies in Party]% for 12s.`,
                 break: 0
             },
         passive: 

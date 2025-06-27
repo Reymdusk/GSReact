@@ -3284,6 +3284,38 @@ const NewsArticles = [
                 }
         }
     },
+    {
+        id: 100,
+        date: `June 27, 2025`,
+        article: 
+        {
+            intro: `Global has released a bunch of new Dream Awakenings for existing KoB units as well as 2 new Mines Bosses and Equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [
+                        [`Firmament Guards 'Alveda'`, 112341],
+                        [`Hypertrophy Guards - 'Zexveda'`, 112431]
+                    ],
+                    dream: [
+                        [`Berwick`, 102486112],
+                        [`Riviera (Earth)`, 102496312],
+                        [`Thetis`, 102506212],
+                        [`Vox`, 102516212],
+                        [`Duke`, 102526512],
+                        [`Rosetta (Water)`, 102676212],
+                        [`Leone`, 102686412],
+                        [`Juno`, 103226412]
+                    ]
+                }
+        }
+    }
 ]
 
 export function getNews() {

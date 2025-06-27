@@ -13746,7 +13746,7 @@ const UnitInformation = [
                 evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a 'friend.' With that understanding, she gladly went among the teeming spirtis."
             }
     },
-    { //Berwick - Complete (+ JP ver.)
+    { //Berwick - Complete
         id: 102486112,
         name: "Berwick",
         rank: "B+",
@@ -13761,15 +13761,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102486112.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -13788,15 +13779,6 @@ const UnitInformation = [
                 defplus: 346
             },
         skillset: 
-            {
-                skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
-                skillbreak: 1000,
-                arts: "14400% Fire DMG (MAG). Increase Allies' Arts by 25 + For 10s, increase Fire Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
-                artsbreak: 2100,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 37000% Fire DMG (MAG). For 15s, increase Allies' DMG by 50%, for Fire Allies, increase DMG by 100% instead.",
-                trueartsbreak: 4000
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 2200% Fire DMG (MAG). 60% chance to inflict Burn for 12s.",
                 skillbreak: 1000,
@@ -13830,7 +13812,7 @@ const UnitInformation = [
                     hover5: "Degilmagna"
                 }
             },
-        dreamJP: {
+        dream: {
             fire: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -13883,7 +13865,7 @@ const UnitInformation = [
                 evoawk: "His admiration for the Commander and his hunger for further growth drove him to facing the devastating attacks against his foes, and when a mighty Ice dragon appeared, he activated the devastating Magia Drive to defeat the fire-proof beast. His countless battles with his fellow Templars has given him a calm perspective on battle, and he is always waiting for the perfect opponent to lay low with his raging flames."
             }
     },
-    { //Riviera - Complete (+ JP ver.)
+    { //Riviera (Earth) - Complete
         id: 102496312,
         name: "Riviera (Earth)",
         rank: "B",
@@ -13897,15 +13879,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102496312.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -13925,15 +13898,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2800% Earth DMG (PHY). Increase own Arts by 15.",
-                skillbreak: 1000,
-                arts: "19000% Earth DMG (PHY). Permanently increase own Critical Rate by 10% (up to 50%).",
-                artsbreak: 2000,
-                truearts: "For 60s, enter Magia Drive. During Magia Drive: 42000% Earth DMG (PHY). Increase own Arts by 100.",
-                trueartsbreak: 3500
-            },
-        skillsetJP: 
-            {
                 skill: "10s CT - 2800% Earth DMG (PHY). Increase own Arts by 20.",
                 skillbreak: 1000,
                 arts: "28000% Earth DMG (PHY). Permanently increase own Critical Rate by 20% (up to 80%).",
@@ -13942,12 +13906,6 @@ const UnitInformation = [
                 trueartsbreak: 3500
             },
         passive: 
-            {
-                ability1: "At the start of a Battle, increase own Arts by 100.",
-                ability2: "Increase Critical Rate by 50%.",
-                ability3: "When Magia Drive is activated, increase own Arts by 100. During Magia Drive, increase Critical DMG by 150% and reduce DMG RES by 30%."
-            },
-        passiveJP: 
             {
                 ability1: "At the start of a Battle, increase own Arts by 100.",
                 ability2: "Increase Critical Rate by 50%.",
@@ -13972,7 +13930,7 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
-        dreamJP: {
+        dream: {
             water: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -14025,7 +13983,7 @@ const UnitInformation = [
                 evoawk: "Self-proclaimed commander of the \"Vanguard Battalion\" of the Juno Templars. She was a wandering warrior who traveled to many countries with her double axes and decided to stay in Granadia after a long journey. On the battlefield, she attacks in all directions and knocks down her opponents, but she's well knwon by many people for her bright and lively personality. After the coronation of the Little Lady subsequently to the Princess' death, her intent is to protect the kingdom with no mercy to those who try to take advantage of the situation and attempt to hurt the Royal family."
             }
     },
-    { //Thetis - Complete + JP ver
+    { //Thetis - Complete
         id: 102506212,
         name: "Thetis",
         rank: "S",
@@ -14040,15 +13998,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102506212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
@@ -14067,15 +14016,6 @@ const UnitInformation = [
                 defplus: 488
             },
         skillset: 
-            {
-                skill: "9s CT - 1500% Water DMG (PHY). For 7s, reduces Enemies' Break RES by 15%.",
-                skillbreak: 1800,
-                arts: "8000% Water DMG (PHY). ATK of this Arts is increased by [DEF x 1.5] + For 15s, increase Allies' Break PWR by 30%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 10000 DMG to self.",
-                artsbreak: 3000,
-                truearts: "For 120s, enter Magia Drive. During Magia Drive: 30000% Water DMG (PHY). Cure own Poison and Burn + For 30s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 25000 DMG to self.",
-                trueartsbreak: 5800
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1500% Water DMG (PHY). For 7s, reduces Enemies' Break RES by 15%.",
                 skillbreak: 1800,
@@ -14109,7 +14049,7 @@ const UnitInformation = [
                     hover5: "Palamicia"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -14162,7 +14102,7 @@ const UnitInformation = [
                 evoawk: "The Juno Templar known as \"Immovable Shield.\" When one of his companions lost consciousness behind enemy lines, he penetrated the enemy encirclement alone. On the way, he was simultaneously attacked by God army and found himself in a critical situation, but thanks to his willpower he could handle the enemies. He was moved by his duty as a member of the Templars but most importantly by the strong will to save his friends."
             }
     },
-    { //Vox - Complete (+ JP ver.)
+    { //Vox - Complete
         id: 102516212,
         name: "Vox",
         rank: "A",
@@ -14176,15 +14116,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102516212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -14203,15 +14134,6 @@ const UnitInformation = [
                 defplus: 330
             },
         skillset: 
-            {
-                skill: "10s CT - 2400% Water DMG (PHY). Increase own Arts by 20. During Magia Drive: 2400% Water DMG (PHY). Increase own Arts by 40.",
-                skillbreak: 1000,
-                arts: "22000% Water DMG (PHY). For 15s, increase Allies' stats by 30%.",
-                artsbreak: 2800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 45000% Water DMG (PHY). For 15s, increase Allies' Critical Rate by 100%.",
-                trueartsbreak: 4000
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 2400% Water DMG (PHY). Increase own Arts by 20. During Magia Drive: 2400% Water DMG (PHY). Increase own Arts by 40.",
                 skillbreak: 1000,
@@ -14245,7 +14167,7 @@ const UnitInformation = [
                     hover5: "Wilkes"
                 }
             },
-        dreamJP: {
+        dream: {
             water: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -14299,7 +14221,7 @@ const UnitInformation = [
                 evoawk: "A lightning-fast swordsman who is the leader of the Juno Templars. He pierced deep into enemy lines to overwhelm the Gods army, but took a sword blow to the back to protect his mistress, Princess Leone. As his consciousness faded, he recalled the promise he made to his former mistress, Princess Juno, and griped the memento she had given him. That feather held the power to accomplish a single miracle, a power destined to change the fate of Granadia."
             }
     },
-    { //Duke - Complete + JP ver
+    { //Duke - Complete
         id: 102526512,
         name: "Duke",
         rank: "B+",
@@ -14313,15 +14235,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102526512.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
@@ -14340,15 +14253,6 @@ const UnitInformation = [
                 defplus: 401
             },
         skillset: 
-            {
-                skill: "12s CT - 2200% Dark DMG (PHY). During Magia Drive: For 8s, reduce Enemies' Break RES by 25% + Increase own Arts by 20 & Skill's Break Power by 1000.",
-                skillbreak: 2400,
-                arts: "18000% Dark DMG (PHY). For 10s, reduce Enemies' DMG RES by 30%, reduce DMG RES of Enemies in Break by 30%.",
-                artsbreak: 3500,
-                truearts: "For 120s, enter Magia Drive. During Magia Drive: 38000% Dark DMG (PHY). Increase own True Arts' Break PWR by 5% of own True Arts' DMG dealt.",
-                trueartsbreak: 9900
-            },
-        skillsetJP: 
             {
                 skill: "12s CT - 2200% Dark DMG (PHY). During Magia Drive: For 8s, reduce Enemies' Break RES by 30% + Increase own Arts by 20 & Skill's Break Power by 1000.",
                 skillbreak: 2400,
@@ -14381,7 +14285,7 @@ const UnitInformation = [
                     hover5: "Freydal"
                 }
             },
-            dreamJP: {
+            dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15534,7 +15438,7 @@ const UnitInformation = [
                 evoawk: "The blazing-fast swordsman of the Leone Templars. A former sorcerer, he began following the path of the sword when he inherited Zanketsu, the beloved blade of his former captain, who had perished on the battlefield. He had long studied the sword techniques used by his old captain, and this imitation helped him become dizzying-fast. His skills with the blade are lightning-quick, but he takes no pride in them; he simply continues to follow his former leader's footsteps."
             }
     },
-    { //Rosetta (Water) - Complete + JP ver
+    { //Rosetta (Water) - Complete
         id: 102676212,
         name: "Rosetta (Water)",
         rank: "A+",
@@ -15549,15 +15453,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102676212.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
@@ -15576,15 +15471,6 @@ const UnitInformation = [
                 defplus: 356
             },
         skillset: 
-            {
-                skill: "10s CT - 1400% Water DMG (MAG). For 5s, reduce Enemies' evasion by 10%.",
-                skillbreak: 700,
-                arts: "8000% Water DMG (MAG). 50% chance to inflict Paralysis for 3s. Additionally when used during Magia Drive, increase the duration of own Magia Drive by 30s.",
-                artsbreak: 1700,
-                truearts: "For 50s, enter Magia Drive. During Magia Drive: 30000% Water DMG (MAG). For 15s, reduce Enemies' Water RES and MAG RES by 35%. For 25s, increase Allies' (except self) Arts by 4/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                trueartsbreak: 2800
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1400% Water DMG (MAG). For 5s, reduce Enemies' evasion by 10%.",
                 skillbreak: 700,
@@ -15618,7 +15504,7 @@ const UnitInformation = [
                     hover5: "Aerugraxes"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -15671,7 +15557,7 @@ const UnitInformation = [
                 evoawk: "A genius sorcerer, and pride of the Leone Templars. Her success at deciphering and using the previously incomprehensible tomes of Advanced Crest Magic earned her the nickname “Heavenly Witch”. After reuniting with Princess Leone by joining the Templars, she was both overjoyed that her friend became queen and sad for the distance. Yet, when she sensed the princess’s loneliness during the god’s attack on the sky ark, she resolved to support Leone as a Templar and as a friend."
             }
     },
-    { //Leone - Complete (+ JP ver.)
+    { //Leone - Complete
         id: 102686412,
         name: "Leone",
         rank: "F",
@@ -15686,15 +15572,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102686412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
@@ -15713,15 +15590,6 @@ const UnitInformation = [
                 defplus: 410
             },
         skillset: 
-            {
-                skill: "9s CT - 1300% Light DMG (MAG). Heal own HP by 3% of DMG dealt by this Skill.",
-                skillbreak: 700,
-                arts: "19700% Light DMG (MAG). Consume 15% of own HP + For 20s, increase own Critical DMG by 40%.",
-                artsbreak: 2500,
-                truearts: "For 120s, enter Demonic True Eclipse. During Demonic True Eclipse: 37700% Dark DMG (MAG). Consume 25% of own HP.",
-                trueartsbreak: 4000
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 2200% Light DMG (MAG). Heal own HP by 3% of DMG dealt by this Skill.",
                 skillbreak: 700,
@@ -15751,7 +15619,7 @@ const UnitInformation = [
                     hover4: "Wilkes",
                 }
             },
-        dreamJP: {
+        dream: {
             light: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -21072,7 +20940,7 @@ const UnitInformation = [
                 evoawk: "Adopted into a noble family who later arranged for him to become a knight. He was selected for the Zero Guard during the previous emperor's reign. His disgust with the unsavory ruling class grew over time, in part because he knew he himself was not much different. That is why he respects straightforward people like Noel and Rayas who he silently uses to lift his spirit. He keeps his collection of knives in top shape by visiting local blacksmiths between missions."
             }
     },
-    { //Juno - Complete + JP ver
+    { //Juno - Complete
         id: 103226412,
         name: "Juno",
         rank: "A+",
@@ -21087,15 +20955,6 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103226412.png"
             },
         slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -21119,25 +20978,10 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "16000% Light DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%, Status RES by 20%.",
                 artsbreak: 1300,
-                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 52000% Dark DMG (MAG). For 15s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                trueartsbreak: 1800
-            },
-        skillsetJP: 
-            {
-                skill: "10s CT - 1500% Light DMG (MAG). Heal own HP by 5% of DMG dealt by own Skill.",
-                skillbreak: 500,
-                arts: "16000% Light DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%, Status RES by 20%.",
-                artsbreak: 1300,
                 truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 70000% Dark DMG (MAG). For 20s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1800
             },
         passive: 
-            {
-                ability1: "During Demonic True Eclipse, increase own Arts by 5/s, own DMG and accuracy by 100%.",
-                ability2: "Increase Demon Allies' stats by 10%. Does not stack with Abilities of the same name.",
-                ability3: "Increase own ATK and DMG by [10% × # of Demon Allies in party, excluding self]."
-            }, 
-        passiveJP: 
             {
                 ability1: "During Demonic True Eclipse, increase own Arts by 5/s, own DMG and accuracy by 100%.",
                 ability2: "Increase Demon Allies' stats by 10%. Does not stack with Abilities of the same name.",
@@ -21159,7 +21003,7 @@ const UnitInformation = [
                     hover4: "Radachne",
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
