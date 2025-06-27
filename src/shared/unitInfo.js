@@ -27737,6 +27737,7 @@ const UnitInformation = [
         translate: `Cute Confectioner Liza`,
         attribute: `Earth`,
         type: `God`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103856312.png",
@@ -27826,6 +27827,7 @@ const UnitInformation = [
         translate: `Pretty Patissière Cestina`,
         attribute: `Water`,
         type: `God`,
+        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103866212.png",
