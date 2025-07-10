@@ -36609,7 +36609,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Young Emperor Isliid, increase own PHY DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Young Emperor Isliid, increase own PhysicalDMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `At Start of Battle, increase own Arts by 20 and refreshes this Equip's CT. Does not stack with Abilities of the same name.`
             },
         lore: `Currently unreleased in Global.`
@@ -36635,7 +36635,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 5000% Light DMG (Physical). Increase own PHY DMG by 60% for 10s. Additionally if user is Human, increase own Equip CT Speed by 30% for 10s.`,
+                skill: `50s CT - 5000% Light DMG (Physical). Increase own PhysicalDMG by 60% for 10s. Additionally if user is Human, increase own Equip CT Speed by 30% for 10s.`,
                 break: 300
             },
         passive: 
@@ -36665,12 +36665,43 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 8000% Earth DMG (PHY). 70% chance to inflict Poison for 10s. Reduce Poisoned enemies' PHY RES by 30% for 10s.`,
+                skill: `60s CT - 8000% Earth DMG (Physical). 70% chance to inflict Poison for 10s. Reduce Poisoned enemies' Physicalresistance by 30% for 10s.`,
                 break: 600
             },
         passive: 
             {
                 ability1: `Increase own DMG by 20% against Poisoned enemies.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113161,
+        name: `ソーサル・イグナイターMP2`,
+        translate: `Sorcerer Igniter MP2`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 7000% Water DMG (Physical). Increase next Super Arts DMG by 100%. Additionally, if user is Water and when used for the first time, for 10s, increase own Arts by 7/s.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 50% and reduce own DEF by 50%. Does not stack with Abilities of the same name.`,
+                ability2: ``
             },
         lore: `Currently unreleased in Global.`
     },
@@ -49487,7 +49518,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 12000% Light DMG (PHY). For 20s, increase own ATK by 60% and Light allies' ATK by 40%.`,
+                skill: `80s CT - 12000% Light DMG (Physical). For 20s, increase own ATK by 60% and Light allies' ATK by 40%.`,
                 break: 1200
             },
         passive: 
@@ -49516,7 +49547,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 4000% Earth DMG (MAG). For 10s, increase own Earth DMG by 50%. Increase own Arts by 30. When used for the first time, increase own Arts by 80 instead.`,
+                skill: `45s CT - 4000% Earth DMG (Magic). For 10s, increase own Earth DMG by 50%. Increase own Arts by 30. When used for the first time, increase own Arts by 80 instead.`,
                 break: 300
             },
         passive: 
@@ -49545,7 +49576,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 3000% Dark DMG (PHY). For 20s, reduce enemies' Dark RES by 20% (stackable).`,
+                skill: `20s CT - 3000% Dark DMG (Physical). For 20s, reduce enemies' Dark resistance by 20% (stackable).`,
                 break: 400
             },
         passive: 
@@ -49574,7 +49605,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Heal allies' HP by 2000. For 20s, increase allies' Dark RES by 30%.`,
+                skill: `30s CT - Heal allies' HP by 2000. For 20s, increase allies' Dark resistance by 30%.`,
                 break: 0
             },
         passive: 
@@ -49632,7 +49663,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 10000% Light DMG (PHY). For 10s, increase own DMG by 50%. Additionally if user is Light, increase own ATK by 50%. `,
+                skill: `50s CT - 10000% Light DMG (Physical). For 10s, increase own DMG by 50%. Additionally if user is Light, increase own ATK by 50%. `,
                 break: 1000
             },
         passive: 
@@ -49662,7 +49693,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "25s CT - 5000% Dark DMG (Physical). Reduce enemies' PHY resistance by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
+                skill: "25s CT - 5000% Dark DMG (Physical). Reduce enemies' Physicalresistance by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
                 break: 500,
             },
         passive: 
@@ -49752,13 +49783,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "50s CT - 10000% Light DMG (Physical). Increase own PHY DMG and Light DMG by 50% for 10s.",
+                skill: "50s CT - 10000% Light DMG (Physical). Increase own PhysicalDMG and Light DMG by 50% for 10s.",
                 break: 600
             },
         passive: 
             {
                 ability1: "When equipped by Saitama, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
-                ability2: "Increase own PHY resistance by 5%."
+                ability2: "Increase own Physicalresistance by 5%."
             },
         lore: `Missing Lore.`
     },
@@ -49784,12 +49815,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 4000% Light DMG (MAG). Reduce enemies MAG RES by 20% for 60s. (Stackable)`,
+                skill: `50s CT - 4000% Light DMG (Magic). Reduce enemies Magic resistance by 20% for 60s. (Stackable)`,
                 break: 400
             },
         passive: 
             {
-                ability1: `When equipped by Misaka Mikoto, the MAG RES Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Misaka Mikoto, the Magic resistance Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
@@ -49816,12 +49847,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, increase own PHY DMG by 50% for 10s. If own HP is below 70%, heal 30% of MAX HP instead.`,
+                skill: `40s CT - 6000% Water DMG (Physical). If own HP is 70% or above, increase own PhysicalDMG by 50% for 10s. If own HP is below 70%, heal 30% of MAX HP instead.`,
                 break: 500
             },
         passive: 
             {
-                ability1: `When equipped by Kamijou Touma, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Kamijou Touma, increase own DMG resistance by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
@@ -49848,7 +49879,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 7000% Light DMG (MAG). Increase own MAG DMG by 40% x Number of times this equip has been used (MAX 200%) for 12s.`,
+                skill: `55s CT - 7000% Light DMG (Magic). Increase own Magic DMG by 40% x Number of times this equip has been used (MAX 200%) for 12s.`,
                 break: 700
             },
         passive: 
@@ -49879,7 +49910,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 10000% Light DMG (MAG). Increase own CRI DMG by 60% & increase Light Allies' DMG by 40% for 18s.`,
+                skill: `80s CT - 10000% Light DMG (Magic). Increase own CRI DMG by 60% & increase Light Allies' DMG by 40% for 18s.`,
                 break: 1000
             },
         passive: 
@@ -49910,7 +49941,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' MAG RES by 30%. For 10s, heal all allies' HP by 200/s for 20s.`,
+                skill: `30s CT - Increase all allies' Magic resistance by 30%. For 10s, heal all allies' HP by 200/s for 20s.`,
                 break: 0
             },
         passive: 
@@ -49941,7 +49972,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 8000% Water DMG (PHY). Increase Water Allies' BE Output by 50%. If used for the first time, increase Water Allies' BE Output by 80% instead for 12s.`,
+                skill: `45s CT - 8000% Water DMG (Physical). Increase Water Allies' BE Output by 50%. If used for the first time, increase Water Allies' BE Output by 80% instead for 12s.`,
                 break: 800
             },
         passive: 
@@ -49972,7 +50003,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 6000% Light DMG (MAG). Increase next Super Arts' DMG used by ownself by 100%. If user is Light, increase next Super Arts' DMG by 150% instead.`,
+                skill: `50s CT - 6000% Light DMG (Magic). Increase next Super Arts' DMG used by ownself by 100%. If user is Light, increase next Super Arts' DMG by 150% instead.`,
                 break: 700
             },
         passive: 
@@ -50065,13 +50096,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `65s CT - 4000% Dark DMG (PHY). Reduce enemies' Dark RES by 30% for 8s.`,
+                skill: `65s CT - 4000% Dark DMG (Physical). Reduce enemies' Dark resistance by 30% for 8s.`,
                 break: 6000
             },
         passive: 
             {
                 ability1: `When equipped by Accelerator, increase own Break PWR by 50%. At the Start of Quest, increase own Arts by 100. Does not stack with abilities of the same name.`,
-                ability2: `Increase own PHY RES by 5%.`
+                ability2: `Increase own Physicalresistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -50097,7 +50128,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 10000% Light DMG (MAG). Reduce enemies' Light RES by 30% for 8s. Additionally if user is Human, reduce enemies' DMG RES by 20% for 8s. `,
+                skill: `55s CT - 10000% Light DMG (Magic). Reduce enemies' Light resistance by 30% for 8s. Additionally if user is Human, reduce enemies' DMG resistance by 20% for 8s. `,
                 break: 500
             },
         passive: 
@@ -50160,7 +50191,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Dark DMG (MAG). Increase own Dark DMG by 60% for 15s. Additionally when used for the first time, increase own Arts by 80.`,
+                skill: `45s CT - 7000% Dark DMG (Magic). Increase own Dark DMG by 60% for 15s. Additionally when used for the first time, increase own Arts by 80.`,
                 break: 800
             },
         passive: 
@@ -50191,7 +50222,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 4000% Dark DMG (PHY). Increase own BREAK PWR by 60% for 10s. Additionally if user is unaffected by Status Ailments, increase own Arts by 30.`,
+                skill: `45s CT - 4000% Dark DMG (Physical). Increase own BREAK PWR by 60% for 10s. Additionally if user is unaffected by Status Ailments, increase own Arts by 30.`,
                 break: 4000
             },
         passive: 
@@ -50222,7 +50253,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 4000% Light DMG (MAG). Increase own MAG DMG by 60% for 10s. Additionally if user is Light, increase own Paralysis RES and Freeze RES by 100% for 10s.`,
+                skill: `45s CT - 4000% Light DMG (Magic). Increase own Magic DMG by 60% for 10s. Additionally if user is Light, increase own Paralysis resistance and Freeze resistance by 100% for 10s.`,
                 break: 400
             },
         passive: 
@@ -50253,7 +50284,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' MAG RES by 25% for 20s. Additionally for Allies below 40% HP, increase their DMG RES by 15% for 20s.`,
+                skill: `30s CT - Increase all allies' Magic resistance by 25% for 20s. Additionally for Allies below 40% HP, increase their DMG resistance by 15% for 20s.`,
                 break: 0
             },
         passive: 
@@ -50284,7 +50315,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Increase all allies' Arts by 15. Additionally if user is Light, increase all allies' DMG RES by 10% for 15s.`,
+                skill: `35s CT - Increase all allies' Arts by 15. Additionally if user is Light, increase all allies' DMG resistance by 10% for 15s.`,
                 break: 0
             },
         passive: 
@@ -50323,6 +50354,519 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154501,
+        name: `True 'Frieren's Staff'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 8000% Light DMG (Magic). For 10s, reduce enemies' DMG resistance by 20%. Additionally if user is Light, reduce enemies' DMG resistance by an additional 10%. Additionally if user is Spirit, reduce enemies' DMG resistance by an additional 10%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Frieren, increase own MAX HP by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154511,
+        name: `True 'Stark's Axe'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Fire DMG (Physical). For 10s, increase own Physical DMG by 50%. Additionally if user is Fire, for 10s, increase own ATK by 50%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Stark, increase own Accuracy by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physicalresistance by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154521,
+        name: `Frieren's Staff`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Light DMG (Magic). For 10s, reduce enemies' Light resistance by 40%. If user is not Human, God or Demon, reduce enemies' Light resistance by 60% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154531,
+        name: `Holy Emblem`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154531.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - Increase all allies' Arts by 30. For 10s, increase Human and Spirit allies' DMG by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154541,
+        name: `Frieren's Outfit`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 6000% Light DMG (Magic). For 12s, increase own stats by 10%. If user is Light, increase own stats by 20% instead.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154551,
+        name: `Stark's Axe`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 12000% Fire DMG (Physical). For 20s, increase own ATK by 60% and Fire allies' ATK by an additional 40%.`,
+                skillbreak: 1200
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154561,
+        name: `Stark's Outfit`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 20s, increase allies' Physical resistance by 30%. If user is Human, increase allies' Physical resistance by 45% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154571,
+        name: `Eizen's Axe`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 5000% Fire DMG (Physical). Increase own Arts by 30. For 15s, increase own Physical DMG by 40%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own Physicalresistance by 5%.`,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154581,
+        name: `The Scales of Obedience`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 5000% Dark DMG (Magic). If used when own HP is 50% or higher, for 10s, reduce enemies' ATK by 20%. If used when own HP is below 50%, for 10s, reduce enemies' Magic resistance by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own Physicalresistance by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154591,
+        name: `True 'Fern's Staff'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `30s CT - 4000% Water DMG (Magic). For 35s, increase own Water DMG by 20% (stackable). If user is Human, for 35s, increase own Water DMG by an additional 20% (stackable).`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `When equipped by Fern, increase own DMG by 30% and Skill CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154601,
+        name: `True 'Ubel's Staff'`,
+        translate: `True 'Übel's Staff'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 6000% Earth DMG (Magic). For 8s, reduce enemies' Earth resistance by 30%. Additionally if user is Human, for 8s, reduce enemies' Magic resistance by 30%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When equipped by Ubel, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physicalresistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154611,
+        name: `Fern's Staff`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 6000% Water DMG (Magic). For 10s, reduce enemies' DMG resistance by 25%. If user is Water, reduce enemies' DMG resistance by 50% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154621,
+        name: `Fern's Outfit`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154621.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - For 20s, heal allies' HP by 150/s. Additionally if user is Human, for 20s, increase allies' HP Recovery amount by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154631,
+        name: `Ubel's Staff`,
+        translate: `Übel's Staff`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 4000% Earth DMG (Magic). For 10s, increase own Magic DMG by 60%. Additionally if user is Earth, for 10s, increase own Freeze resistance and Paralysis resistance by 100%.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154641,
+        name: `Ubel's Outfit`,
+        translate: `Übel's Outfit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6000% Earth DMG (Physical). Increase own Arts by 30. For 10s, increase own ATK by 50%. Additionally if used for the first time, increase own Arts by an additional 30.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154651,
+        name: `Heiter's Holy Scriptures`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154651.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `50s CT - Increase target's Arts by 80. If target's HP is 80% or higher, increase target's Arts by an additional 40.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154661,
+        name: `Himmel's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Light DMG (Physical). For 20s, increase own Physical DMG by 50%. Additionally when used for the first time, for 20s, increase own Equip DMG by 100%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
     },
 ]
 

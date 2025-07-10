@@ -39800,6 +39800,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
+    
     { //Hajime Saito - Missing Lore
         id: 108137512,
         name: `Hajime Saito`,
@@ -40251,7 +40252,7 @@ const UnitInformation = [
                 skillbreak: 1500,
                 arts: `22000% Dark DMG (MAG). Increase allies' next Super Arts DMG by 100%. Increase Dark Allies' next Super Arts DMG by 150% instead.`,
                 artsbreak: 2000,
-                truearts: `60000% Dark DMG (MAG). For 25s, reduces enemies' Break RES by 50%. Increase Arts of Allies with more than 50% HP by 5/s. This unit's Arts Gen is Type F.`,
+                truearts: `60000% Dark DMG (MAG). For 25s, reduces enemies' Break RES by 50%. Increase Arts of Allies with more than 50% HP by 5/s.\nNote: This unit's Arts Gen is Type F and will stack with all other Arts Gen effects apart from the same unit.`,
                 trueartsbreak: 5000,
                 superarts: `150000% Dark DMG (MAG). If used when Boss is not Broken, increase own Break PWR during Super Arts based on how high own current HP is (up to 300%). If used when Boss is Broken, double the damage multiplier of own Super Arts.`,
                 superartsbreak: 8000
@@ -40329,7 +40330,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `14s CT - 2000% Light DMG (MAG). Heal all allies' HP by 3000. For 7s, increase own Arts by 4/s. This Skill's Arts Gen is Type EX1.`,
+                skill: `14s CT - 2000% Light DMG (MAG). Heal all allies' HP by 3000. For 7s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 500,
                 arts: `Increase all allies' Arts by 30. For 30s, increase all allies' DMG RES by 30%.`,
                 artsbreak: 0,
@@ -40354,7 +40355,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "Eternaglit Soulgem"
+                    hover2: "Eternaglint Soulgem"
                 }
             },
         trueweapon: 
@@ -40368,6 +40369,335 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Index, increase own Arts by 2/s & increase own Heal Amount by 30%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own DEF by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Frieren - Missing Lore
+        id: 108207412,
+        name: `Frieren`,
+        attribute: `Light`,
+        type: `Spirit`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108206412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108207412.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_820_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108206412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108207412.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_820_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7998,
+                hpplus: 1472,
+                atk: 3097,
+                atkplus: 600,
+                def: 2829,
+                defplus: 542
+            },
+        skillset: 
+            {
+                skill: `17s CT - Heal own Status ailments (except Faint, Paralysis, Seal, Freeze). Additionally, cleanse 1 DMG RES debuff from a random ally.`,
+                skillbreak: 0,
+                arts: `20000% Light DMG (MAG). Each time own Arts is used, permanently increase allies' stats by 10% (MAX: 60%).`,
+                artsbreak: 800,
+                truearts: `67000% Fire DMG (MAG). For 20s, increase allies' Arts by 6/s and allies' with 10,000 HP or more Arts by an additional 2/s.\nNote: This unit's Arts Gen is Type E and will stack with all other Arts Gen effects apart from the same unit.`,
+                trueartsbreak: 1200,
+                superarts: `180000% Light DMG (MAG). For 20s, increase Light allies' DMG by 200% and Light allies' with 10,000 HP or more DMG by an additional 200%.`,
+                superartsbreak: 1700
+            },
+        passive: 
+            {
+                ability1: `When ownself is above 50% HP, all allies' ignore 100% of enemies' DEF. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Demon enemies by 50%.`,
+                ability3: `Increase own Arts by 3/s.`,
+                ability4: `Unit EXP UP 20% UP. (When Frieren's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Frieren's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Frieren's Staff`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154501.png",
+                skill: `60s CT - 8000% Light DMG (MAG). For 10s, reduce enemies' DMG RES by 20%. Additionally if user is Light, reduce enemies' DMG RES by an additional 10%. Additionally if user is Spirit, reduce enemies' DMG RES by an additional 10%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Frieren, increase own MAX HP by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
+            }
+    },
+    { //Fern - Missing Lore (JP)
+        id: 108217212,
+        name: `Fern`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108216212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108217212.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_821_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108216212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108217212.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_821_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7062,
+                hpplus: 1334,
+                atk: 4200,
+                atkplus: 722,
+                def: 2990,
+                defplus: 619
+            },
+        skillset: 
+            {
+                skill: `14s CT - 2000% Water DMG (MAG). If used when above 80% HP, increase own Arts by 50. Additionally if own Skill crits, increase own Arts by an additional 50 (1 HIT).`,
+                skillbreak: 800,
+                arts: `Increase allies' Arts by 20. For 30s, increase allies' DMG RES by 30%.`,
+                artsbreak: 0,
+                truearts: `[70000% x # of times True Arts has been used consecutively] Water DMG (MAG). (MAX: 350000%, resets after using Arts or Super Arts).`,
+                trueartsbreak: 1700,
+                superarts: `120000% Water DMG (MAG). For 60s, reduce enemies' Water RES with respect to how high own current HP is (MAX: 150%).`,
+                superartsbreak: 2400
+            },
+        passive: 
+            {
+                ability1: `When own HP is 80% or higher, increase own Super CRI rate by 30%. When own HP is 50% or higher, increase own CRI rate by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Demon enemies by 50%.`,
+                ability3: `Increase Water allies' BE Output by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Fern's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Fern's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostsprite Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Fern's Staff`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154591.png",
+                skill: `30s CT - 4000% Water DMG (MAG). For 35s, increase own Water DMG by 20% (stackable). If user is Human, for 35s, increase own Water DMG by an additional 20% (stackable).`,
+                skillbreak: 300,
+                passive: 
+                    {
+                        ability1: `When equipped by Fern, increase own DMG by 30% and Skill CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own MAG RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Stark - Missing Lore
+        id: 108227112,
+        name: `Stark`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108226112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108227112.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_822_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108226112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108227112.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_822_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7210,
+                hpplus: 1361,
+                atk: 3825,
+                atkplus: 662,
+                def: 3066,
+                defplus: 634
+            },
+        skillset: 
+            {
+                skill: `14s CT - 3500% Fire DMG (PHY). For 10s, allies gain a DMG barrier that negates 1000 DMG. Additionally when used for the first time, increase own Arts by 100.`,
+                skillbreak: 900,
+                arts: `25000% Fire DMG (PHY). For 25s, increase all allies' stats by 30%.`,
+                artsbreak: 1200,
+                truearts: `62000% Fire DMG (PHY). For 30s, increase own Arts by 5/s (stackable) and own DMG and Break Power of next Super Arts by 200% (Stackable up to 5 times, will be reset after using Super Arts).\nNote: This unit's Arts Gen is Type EX3 and will stack with all other Arts Gen effects, including from the same unit.`,
+                trueartsbreak: 2000,
+                superarts: `200000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 150%.`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `When near-death, for 20s, increase allies' DMG RES by 50% and Arts by 5/s. Can only be activated once per Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [3% x own ATK/100].`,
+                ability3: `Increase DMG to Enemies in Break by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Stark's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Stark's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Stark's Axe`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154511.png",
+                skill: `50s CT - 10000% Fire DMG (PHY). For 10s, increase own PHY DMG by 50%. Additionally if user is Fire, for 10s, increase own ATK by 50%.`,
+                skillbreak: 1000,
+                passive: 
+                    {
+                        ability1: `When equipped by Stark, increase own Accuracy by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
+            }
+    },
+    { //Ubel - Missing Lore
+        id: 108237312,
+        name: `Ubel`,
+        translate: `Übel`,
+        attribute: `Earth`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108236312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108237312.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_823_1.png`,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108236312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108237312.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_823_1.png`
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7336,
+                hpplus: 1382,
+                atk: 3712,
+                atkplus: 644,
+                def: 2824,
+                defplus: 588
+            },
+        skillset: 
+            {
+                skill: `11s CT - 3000% Earth DMG (MAG). Increase own Arts by 20. For 7s, reduce enemies' DMG RES by 20%.`,
+                skillbreak: 800,
+                arts: `13000% Earth DMG (MAG). For 12s, increase own Arts by 10/s. Increase allies' next Super Arts' DMG by 100% and Accuracy by 50%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                artsbreak: 1000,
+                truearts: `60000% Earth DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and increase >50% HP Allies' Arts by 6/s.\nNote: This unit's Arts Gen is Type E and will stack with all other Arts Gen effects apart from the same unit.`,
+                trueartsbreak: 2000,
+                superarts: `170000% Earth DMG (MAG). For 25s, increase own Accuracy by 150% and reduce enemies' Earth RES by 150%.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `At Start of Quest, increase Earth allies' Arts by 70. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Human enemies by 50%.`,
+                ability3: `Increase own Status ailment RES by 30% (except Faint).`,
+                ability4: `Unit EXP UP 20% UP. (When Ubel's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Ubel's SP. Art is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                    mat2amt: 100,
+                    hover2: `Smogdragon Soulgem`
+                }
+            },
+        trueweapon: 
+            {
+                name: `Ubel's Staff`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154601.png",
+                skill: `60s CT - 6000% Earth DMG (MAG). For 8s, reduce enemies' Earth RES by 30%. Additionally if user is Human, for 8s, reduce enemies' MAG RES by 30%.`,
+                skillbreak: 600,
+                passive: 
+                    {
+                        ability1: `When equipped by Ubel, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own PHY RES by 5%.`
                     }
             },
         lore: 

@@ -3315,6 +3315,52 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 101,
+        date: `July 10, 2025`,
+        article: 
+        {
+            intro: `Frieren Collab has arrived for both Global and JP! JP has also received a new Chapter 34 Secret Equip!`,
+            new:
+                {
+                    units: [
+                        [`Fern`, 108217212],
+                        [`Ubel`, 108237312]
+                    ],
+                    equips: [
+                        [`ソーサル・イグナイターMP2`, 113161]
+                        [`The Scales of Obedience`, 154581],
+                        [`True 'Fern's Staff'`, 154591],
+                        [`True 'Ubel's Staff'`, 154601],
+                        [`Fern's Staff`, 154611],
+                        [`Fern's Outfit`, 154621],
+                        [`Ubel's Staff`, 154631],
+                        [`Ubel's Outfit`, 154641],
+                        [`Heiter's Holy Scriptures`, 154651]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Frieren`, 108207412],
+                        [`Stark`, 108227112]
+                    ],  
+                    equips: [
+                        [`True 'Frieren's Staff'`, 154501],
+                        [`True 'Stark's Axe'`, 154511],
+                        [`Frieren's Staff`, 154521],
+                        [`Holy Emblem`, 154531],
+                        [`Frieren's Outfit`, 154541],
+                        [`Stark's Axe`, 154551],
+                        [`Stark's Outfit`, 154561],
+                        [`Eizen's Axe`, 154571],
+                        [`Himmel's Sword`, 154661]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
