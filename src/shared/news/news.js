@@ -3301,7 +3301,7 @@ const NewsArticles = [
                     units: [],  
                     equips: [
                         [`Firmament Guards 'Alveda'`, 112341],
-                        [`Hypertrophy Guards - 'Zexveda'`, 112431]
+                        [`Hypertrophy Guards 'Zexveda'`, 112431]
                     ],
                     dream: [
                         [`Berwick`, 102486112],

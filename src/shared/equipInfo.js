@@ -34466,9 +34466,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Hypertrophy Guards - 'Zexveda' - Missing Lore
+    { //Hypertrophy Guards 'Zexveda' - Missing Lore
         id: 112431,
-        name: `Hypertrophy Guards - 'Zexveda'`,
+        name: `Hypertrophy Guards 'Zexveda'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 

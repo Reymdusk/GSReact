@@ -39800,7 +39800,6 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    
     { //Hajime Saito - Missing Lore
         id: 108137512,
         name: `Hajime Saito`,
