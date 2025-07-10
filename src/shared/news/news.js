@@ -3329,7 +3329,7 @@ const NewsArticles = [
                         [`Ubel`, 108237312]
                     ],
                     equips: [
-                        [`ソーサル・イグナイターMP2`, 113161]
+                        [`ソーサル・イグナイターMP2`, 113161],
                         [`The Scales of Obedience`, 154581],
                         [`True 'Fern's Staff'`, 154591],
                         [`True 'Ubel's Staff'`, 154601],
