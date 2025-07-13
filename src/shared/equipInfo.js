@@ -20136,15 +20136,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 9000% Dark DMG (Physical). Increases own Physical DMG by 30% for 15s. If Human, get an extra 30%.`,
-                break: 900
+                skill: `70s CT - 8000% Dark DMG (Physical). Increases own Accuracy by 30% and Break Power by 50% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: `When equipped by Forte, DMG 30% UP & Skill CT 50% DOWN (Only once).`,
-                ability2: `Own Accuracy rate 20% UP.`
+                ability1: `Increase own Accuracy by 10%.`
             },
-        lore: `Forte's beloved magic gun, forged and strengthened by using the Adelite Obsidian of Garrah. The original destructive power has been retained, while also having the capability of enhancing the user's latent talents. A magical barrier emerges as an aura around Forte when she wields it. It is said to have a variety of effects, not only on herself, but also the people around her. The power of this gun will allow Forte to reach even greater heights as a formidable commander.`
+        lore: `An assault rifle procured by the military for Forte. Because it requires advanced techniques and an enormous amount of magical power to handle, no one has been able to master it for a long time, and it has been quietly laying dormant in some country's armory. The moment she first picked it up, Forte said she may have been chosen for the gun herself, because the gun was glowing. The bullets that are fired are overflowing with extremely strong magical power, and each shot is powerful enough to crush boulders.`
     },
 { //True 'Assault Rifle Sable' - Missing Lore
         id: 107541,
@@ -20175,7 +20174,7 @@ const EquipInformation = [
                 ability1: `When equipped by Forte, DMG 30% UP & Skill CT 50% DOWN (Only once).`,
                 ability2: `Accuracy 20% UP.`
             },
-        lore: `Missing Lore.`
+        lore: `Forte's beloved magic gun, forged and strengthened by using the Adelite Obsidian of Garrah. The original destructive power has been retained, while also having the capability of enhancing the user's latent talents. A magical barrier emerges as an aura around Forte when she wields it. It is said to have a variety of effects, not only on herself, but also the people around her. The power of this gun will allow Forte to reach even greater heights as a formidable commander.`
     },
 { //Forte's Boots - Complete
         id: 107551,
