@@ -50566,7 +50566,7 @@ const EquipInformation = [
     },
     {
         id: 154571,
-        name: `Eizen's Axe`,
+        name: `Eisen's Axe`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
