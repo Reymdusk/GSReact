@@ -50622,7 +50622,7 @@ const EquipInformation = [
                 ability1: `Increase own Physicalresistance by 5%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154591,
@@ -50652,7 +50652,7 @@ const EquipInformation = [
                 ability1: `When equipped by Fern, increase own DMG by 30% and Skill CT Speed by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154601,
@@ -50683,7 +50683,7 @@ const EquipInformation = [
                 ability1: `When equipped by Ubel, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physicalresistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154611,
@@ -50713,7 +50713,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154621,
@@ -50743,7 +50743,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154631,
@@ -50774,7 +50774,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154641,
@@ -50805,7 +50805,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154651,
@@ -50835,7 +50835,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154661,

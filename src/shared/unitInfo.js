@@ -40536,8 +40536,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Stark - Missing Lore
@@ -40662,7 +40662,7 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: `13000% Earth DMG (MAG). For 12s, increase own Arts by 10/s. Increase allies' next Super Arts' DMG by 100% and Accuracy by 50%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 artsbreak: 1000,
-                truearts: `60000% Earth DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and increase >50% HP Allies' Arts by 6/s.\nNote: This unit's Arts Gen is Type E and will stack with all other Arts Gen effects apart from the same unit.`,
+                truearts: `60000% Earth DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and increase >50% HP Allies' Arts by 6/s.\nNote: This unit's Arts Gen is Type F and will stack with all other Arts Gen effects apart from the same unit.`,
                 trueartsbreak: 2000,
                 superarts: `170000% Earth DMG (MAG). For 25s, increase own Accuracy by 150% and reduce enemies' Earth RES by 150%.`,
                 superartsbreak: 2500
@@ -40701,8 +40701,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
 ];

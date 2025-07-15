@@ -3361,6 +3361,38 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 102,
+        date: `July 15, 2025`,
+        article: 
+        {
+            intro: `Part 2 of the Frieren Collab has been released in Global!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Fern`, 108217212],
+                        [`Ubel`, 108237312]
+                    ],  
+                    equips: [
+                        [`The Scales of Obedience`, 154581],
+                        [`True 'Fern's Staff'`, 154591],
+                        [`True 'Ubel's Staff'`, 154601],
+                        [`Fern's Staff`, 154611],
+                        [`Fern's Outfit`, 154621],
+                        [`Ubel's Staff`, 154631],
+                        [`Ubel's Outfit`, 154641],
+                        [`Heiter's Holy Scriptures`, 154651]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
