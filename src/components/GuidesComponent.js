@@ -39,11 +39,31 @@ export default function GuidesMainPage () {
                                     <img src="/db/guides/CrestGuidesBanner.png" style={imageSize} alt="Crest Guides" />
                                 </Col>
                             </Link>
+                            <a href="https://docs.google.com/document/d/1sTdmOg1K857H7MAuzZWUV4Kk-zwABDG3hl4anyPeAQA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <Col lg="auto">
+                                    <img src="/db/guides/SRBanner.png" style={imageSize} alt="Summoners' Road" />
+                                </Col>
+                            </a>
                             <Link to="dungeon-of-trials">
                                 <Col lg="auto">
                                     <img src="/db/guides/DOTBanner.png" style={imageSize} alt="Dungeon of Trials" />
                                 </Col>
                             </Link>
+                            <a href="https://docs.google.com/document/d/1OaGohMM8zZsCJ63MEosjiTP2aFStrMRZby7qKGEh6vw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <Col lg="auto">
+                                    <img src="/db/guides/EleRuinsBanner.png" style={imageSize} alt="Elemental Ruins" />
+                                </Col>
+                            </a>
+                            <a href="https://docs.google.com/document/d/14ztpoBP4MUjuFB1guR0shvLpERMz1r2H4DpfUdcnBMI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <Col lg="auto">
+                                    <img src="/db/guides/GCBanner.png" style={imageSize} alt="Grand Crusade" />
+                                </Col>
+                            </a>
+                            <a href="https://docs.google.com/document/d/1eERn4m-4WyBbaZIoCkgshY-BqZNpB5ey84uOQsnwv7I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <Col lg="auto">
+                                    <img src="/db/guides/MinesBanner.png" style={imageSize} alt="Magical Mines" />
+                                </Col>
+                            </a>
                         </CardGroup>
                     </CardBody>
                 </Card>

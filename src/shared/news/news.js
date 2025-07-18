@@ -3367,7 +3367,7 @@ const NewsArticles = [
         date: `July 15, 2025`,
         article: 
         {
-            intro: `Part 2 of the Frieren Collab has been released in Global!`,
+            intro: `Part 2 of the Frieren Collab has been released in Global! More guides have also been added to the site!`,
             new:
                 {
                     units: [],
