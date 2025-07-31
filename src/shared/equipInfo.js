@@ -34226,10 +34226,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『フェスタリオン』(Elenore TW) - JP Complete
+    { //True 'Festivilion' - Missing Lore
         id: 112351,
-        name: `真『フェスタリオン』`,
-        translate: `True 'Festalion'`,
+        name: `True 'Festivilion'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34255,12 +34254,11 @@ const EquipInformation = [
                 ability1: `When equipped by Elenore, the Skill CT Speed buff and Equip CT Speed buff from Super Arts will start at 60% and 20% respectively (MAX effect will not be affected). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own BE Output by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //魔刻杖『フェスタリオン』(Elenore farmable) - JP Complete
+    { //Time Staff 'Festivilion' - Missing Lore
         id: 112361,
-        name: `魔刻杖『フェスタリオン』`,
-        translate: `Magic Staff 'Festalion'`,
+        name: `Time Staff 'Festivilion'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34285,7 +34283,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //燐光套『フォスブリオ』(Fosradius Raid Equip) - JP Complete
         id: 112371,
@@ -36700,6 +36698,68 @@ const EquipInformation = [
         passive:
             {
                 ability1: `Increase own ATK by 50% and reduce own DEF by 50%. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113171,
+        name: `月礼装『サイレンスムーン』`,
+        translate: `Monthly Dress "Silence Moon"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 8000% Fire DMG (Magic). If user is Demon or Spirit, for 10s, increase own CRI rate by 100%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113181,
+        name: `絶機刃『マグナヴェルト』`,
+        translate: `Ultimate Blade "Magna Welt"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 4500% Fire DMG (Physical). For 15s, consume own HP by 6%/s and increase own DMG by 70%. If user is Fire, increase own DMG by 100% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own DMG by 35% when Near-death.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
@@ -50866,6 +50926,161 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Missing Lore.`
+    },
+    {
+        id: 154671,
+        name: `纏流子のぬいぐるみ`,
+        translate: `Ryuko Plushie`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 8000% Fire DMG (Physical). For 15s, increase own Physical DMG by 50%. Additionally when used for the first time, for 15s, increase Fire allies' BE Output by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154681,
+        name: `鬼龍院皐月のぬいぐるみ`,
+        translate: `Satsuki Plushie`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 10000% Water DMG (Physical). For 18s, increase own CRI DMG by 60% and Water allies' DMG by 40%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154691,
+        name: `満艦飾マコのぬいぐるみ`,
+        translate: `Mako Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154691.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 20s, increase allies' Arts by 2/s and Light allies' Break Power by 50%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154701,
+        name: `鮮血のぬいぐるみ`,
+        translate: `Senketsu Plushie`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 15s, increase own Physical DMG by 40% and allies' Physical RES by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154711,
+        name: `針目縫のぬいぐるみ`,
+        translate: `Nui Plushie`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 3000% Dark DMG (Magic). For 8s, increase own Magic DMG by 50%. Additionally if user is Dark, increase own Arts by 30.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
     },
 ]
 

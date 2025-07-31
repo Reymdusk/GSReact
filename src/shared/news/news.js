@@ -3393,6 +3393,46 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 103,
+        date: `July 31, 2025`,
+        article: 
+        {
+            intro: `KLK is back in JP with buffs and new equips, alongside new Dream Awakenings! Meanwhile on Global, Elenore has been released, along with Grad's Dream Awakening!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`月礼装『サイレンスムーン』`, 113171],
+                        [`絶機刃『マグナヴェルト』`, 113181],
+                        [`纏流子のぬいぐるみ`, 154671],
+                        [`鬼龍院皐月のぬいぐるみ`, 154681],
+                        [`満艦飾マコのぬいぐるみ`, 154691],
+                        [`鮮血のぬいぐるみ`, 154701],
+                        [`針目縫のぬいぐるみ`, 154711]
+                    ],
+                    dream: [
+                        [`Fen (Earth)`, 101056311],
+                        [`Riffili`, 101336512],
+                        [`Rhiothis`, 101356412],
+                        [`Teriodos`, 101366112]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Elenore`, 103887312]
+                    ],  
+                    equips: [
+                        [`True 'Festivilion'`, 112351],
+                        [`Time Staff 'Festivilion'`, 112361]
+                    ],
+                    dream: [
+                        [`Grad`, 101096511]
+                    ]
+                }
+        }
     }
 ]
 
