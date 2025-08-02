@@ -9,6 +9,17 @@
         id: ,
         name: ``,
         attribute: ``,
+        tier: 
+            {
+                rank: ``,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         type: ``,
         image: 
             {
@@ -2436,7 +2447,17 @@ const UnitInformation = [
     { //Iris - Complete
         id: 101025411,
         name: "Iris",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "God",
         image: 
@@ -6412,7 +6433,17 @@ const UnitInformation = [
     { //Shadie - Complete + JP ver
         id: 101346212,
         name: "Shadie",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.21,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.16,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "God",
         image: 
@@ -6540,7 +6571,17 @@ const UnitInformation = [
     { //Rhiothis - Complete + JP Dream
         id: 101356412,
         name: "Rhiothis",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "God",
         image: 
@@ -7117,7 +7158,17 @@ const UnitInformation = [
     { //Nerim - Complete
         id: 101416312,
         name: "Nerim",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.21,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.21,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "God",
         image: 
@@ -8585,7 +8636,17 @@ const UnitInformation = [
     { //Dahlia - Complete + JP ver
         id: 101706512,
         name: "Dahlia",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.02,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -9407,7 +9468,17 @@ const UnitInformation = [
     { //Lian - Complete
         id: 101796112,
         name: "Lian",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.19,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.14,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Human",
         image: 
@@ -9866,7 +9937,17 @@ const UnitInformation = [
     { //Lapleh - Complete
         id: 101856212,
         name: "Lapleh",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Machine",
         image: 
@@ -10150,7 +10231,17 @@ const UnitInformation = [
     { //Kayas - Complete
         id: 101896512,
         name: "Kayas",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.21,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.26,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "God",
         image: 
@@ -10361,7 +10452,17 @@ const UnitInformation = [
     { //Anna - Complete
         id: 101926112,
         name: "Anna",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.07,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "God",
         image: 
@@ -10576,7 +10677,17 @@ const UnitInformation = [
     { //Voghan - Complete
         id: 101956112,
         name: "Voghan",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.11,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.14,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -10647,7 +10758,17 @@ const UnitInformation = [
     { //Diaz - Complete
         id: 101966212,
         name: "Diaz",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.06,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.07,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Spirit",
         image: 
@@ -10815,7 +10936,17 @@ const UnitInformation = [
     { //Melody - Complete
         id: 101986412,
         name: "Melody",
-        luckrank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "God",
         image: 
@@ -10880,7 +11011,17 @@ const UnitInformation = [
         id: 101996511,
         name: "Rohst",
         attribute: "Dark",
-        luckrank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.11,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.14,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         type: "Dragon",
         image: 
             {
@@ -11068,7 +11209,17 @@ const UnitInformation = [
     { //Zeela - Complete
         id: 102016212,
         name: "Zeela",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.31,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "God",
         image: 
@@ -11207,7 +11358,17 @@ const UnitInformation = [
     { //Jack - Complete
         id: 102036412,
         name: "Jack",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.18,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.23,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Machine",
         image: 
@@ -11529,7 +11690,17 @@ const UnitInformation = [
     { //Riana - Complete
         id: 102166212,
         name: "Riana",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.22,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.28,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Human",
         image: 
@@ -12277,7 +12448,17 @@ const UnitInformation = [
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
-        luckrank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         type: "Spirit",
         image: 
             {
@@ -12340,7 +12521,17 @@ const UnitInformation = [
     { //Mixie - Complete
         id: 102246412,
         name: "Mixie",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.13,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Demon",
         image: 
@@ -12883,7 +13074,17 @@ const UnitInformation = [
     { //Palamicia - Complete
         id: 102316212,
         name: "Palamicia",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.24,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.30,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "God",
         image: 
@@ -13657,8 +13858,17 @@ const UnitInformation = [
     { //Strife - Complete
         id: 102436511,
         name: "Strife",
-        luckrank: "F",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Spirit",
         image: 
@@ -13924,7 +14134,17 @@ const UnitInformation = [
     { //Altie - Complete
         id: 102476511,
         name: "Altie",
-        luckrank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -15319,7 +15539,17 @@ const UnitInformation = [
     { //Shasha - Complete
         id: 102636412,
         name: "Shasha",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Demon",
         image: 
@@ -16135,7 +16365,17 @@ const UnitInformation = [
     { //Miri-nyan - Complete
         id: 102736112,
         name: "Miri-nyan",
-        luckrank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Beast",
         image: 
@@ -16363,7 +16603,17 @@ const UnitInformation = [
     { //Kane (Dark) - Complete
         id: 102766512,
         name: "Kane (Dark)",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.10,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.05,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
@@ -16772,7 +17022,17 @@ const UnitInformation = [
         name: "Barossa",
         attribute: "Dark",
         type: "Dragon",
-        rank: `B-`,
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_102815512.png",
@@ -17869,7 +18129,17 @@ const UnitInformation = [
     { //Adele - Complete (+ JP version)
         id: 102916212,
         name: "Adele",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Human",
         image: 
@@ -20298,7 +20568,17 @@ const UnitInformation = [
     { //Arcana - Complete
         id: 103126512,
         name: "Arcana",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.00,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Human",
         image: 
@@ -35809,7 +36089,17 @@ const UnitInformation = [
     { // Chifuyu - Complete, Review done
         id: 107646312,
         name: "Chifuyu",
-        rank: "C",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.26,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.33,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Human",
         image: 
