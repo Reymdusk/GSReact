@@ -24250,8 +24250,18 @@ const UnitInformation = [
     { //Emperor Isliid - Complete, Review done
         id: 103426412,
         name: "Emperor Isliid",
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.86,
+                defense: 1.66,
+                artgen: 4.48,
+                damage: 1.59,
+                buffs: 0.71,
+                heal: 1.04,
+                break: 0.00
+            },
         attribute: "Light",
-        rank: "S",
         type: "Human",
         image: 
             {
@@ -25949,7 +25959,17 @@ const UnitInformation = [
     { // War Hero Fen - Complete, Review done
         id: 103617312,
         name: "War Hero Fen",
-        rank: "SSS",
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.03,
+                defense: 2.03,
+                artgen: 4.43,
+                damage: 3.01,
+                buffs: 0.42,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Human",
         image: 
@@ -26230,7 +26250,17 @@ const UnitInformation = [
     { // Kirisame - Complete, Review done
         id: 103527112,
         name: "Kirisame",
-        rank: "S",
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.92,
+                defense: 5.00,
+                artgen: 0.00,
+                damage: 0.54,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Human",
         image: 
@@ -26581,9 +26611,19 @@ const UnitInformation = [
     { // Hazuki - Complete
         id: 103547412,
         name: "Hazuki",
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.83,
+                defense: 1.32,
+                artgen: 0.00,
+                damage: 3.14,
+                buffs: 2.30,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
-        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103546412.png",
@@ -26661,9 +26701,19 @@ const UnitInformation = [
         id: 103647412,
         name: "Sublime Supernova Liza",
         translate: `Star God Liza`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.83,
+                defense: 0.00,
+                artgen: 3.91,
+                damage: 3.16,
+                buffs: 2.15,
+                heal: 0.97,
+                break: 0.00
+            },
         attribute: "Light",
         type: "God",
-        rank: `SS`,
         lb7require: true,
         image: 
             {
@@ -28215,8 +28265,18 @@ const UnitInformation = [
     { //Isliid, Human Pinnacle - Complete
         id: 103807412,
         name: "Isliid, Human Pinnacle",
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.98,
+                defense: 2.11,
+                artgen: 4.73,
+                damage: 2.52,
+                buffs: 1.93,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
-        rank: `SSS`,
         type: "Human",
         image: 
             {
@@ -37124,9 +37184,19 @@ const UnitInformation = [
     { // Ainz - Complete, Review done
         id: 107697512,
         name: "Ainz",
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.81,
+                defense: 0.00,
+                artgen: 4.21,
+                damage: 3.32,
+                buffs: 1.97,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
-        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107696512.png",
@@ -37640,9 +37710,19 @@ const UnitInformation = [
     { //Shirou Emiya - Review Done
         id: 107777212,
         name: `Shirou Emiya`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.23,
+                defense: 4.87,
+                artgen: 0.00,
+                damage: 3.75,
+                buffs: 1.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
-        rank: `SSS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107776212.png",
@@ -37748,10 +37828,20 @@ const UnitInformation = [
     { //Chloe Fate - Review Done
         id: 107757112,
         name: `Chloe (Fate)`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.01,
+                defense: 0.00,
+                artgen: 4.49,
+                damage: 1.74,
+                buffs: 0.64,
+                heal: 0.00,
+                break: 2.29
+            },
         twrequire: "favorable",
         attribute: `Fire`,
         type: `Human`,
-        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107756112.png",
@@ -38616,9 +38706,18 @@ const UnitInformation = [
     { //Sunraku - Complete
         id: 107867112,
         name: `Sunraku`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.84,
+                defense: 1.66,
+                artgen: 4.56,
+                damage: 3.47,
+                buffs: 1.49,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
-        rank: `S`,
-        luckrank: `SS`,
         type: `Human`,
         image: 
             {
@@ -38758,9 +38857,18 @@ const UnitInformation = [
     { //Arthur Pencilgon - Complete
         id: 107887512,
         name: `Arthur Pencilgon`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.01,
+                defense: 0.00,
+                artgen: 4.50,
+                damage: 3.37,
+                buffs: 1.10,
+                heal: 0.00,
+                break: 1.96
+            },
         attribute: `Dark`,
-        rank: `SS`,
-        luckrank: `S`,
         type: `Human`,
         image: 
             {
@@ -39066,9 +39174,19 @@ const UnitInformation = [
     { //Evileye - Missing Lore
         id: 107927312,
         name: `Evileye`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.96,
+                defense: 1.33,
+                artgen: 3.87,
+                damage: 3.33,
+                buffs: 4.38,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Demon`,
-        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107926312.png",
@@ -39149,9 +39267,19 @@ const UnitInformation = [
     { //Uzu Sanageyama - Complete + JP ver
         id: 107937312,
         name: `Uzu Sanageyama`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.88,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 4.66,
+                buffs: 1.61,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Human`,
-        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107936312.png",
@@ -39355,9 +39483,19 @@ const UnitInformation = [
     { //Ira Gamagoori - Complete + JP ver
         id: 107957512,
         name: `Ira Gamagoori`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.95,
+                defense: 4.75,
+                artgen: 0.00,
+                damage: 1.99,
+                buffs: 0.81,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107956512.png",
@@ -39634,8 +39772,18 @@ const UnitInformation = [
     { //Summer Miyu - Missing Lore
         id: 107987112,
         name: `Summer Miyu`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.88,
+                defense: 0.00,
+                artgen: 2.55,
+                damage: 3.32,
+                buffs: 3.53,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
-        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -39966,7 +40114,17 @@ const UnitInformation = [
     { //Summer Sakura - Missing Lore
         id: 108027512,
         name: `Summer Sakura`,
-        rank: `S`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.88,
+                defense: 1.37,
+                artgen: 3.08,
+                damage: 4.13,
+                buffs: 3.46,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -40049,7 +40207,17 @@ const UnitInformation = [
     { //Shadow - Complete
         id: 108037512,
         name: `Shadow`,
-        rank: `SS`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.11,
+                defense: 0.00,
+                artgen: 3.45,
+                damage: 3.79,
+                buffs: 2.36,
+                heal: 0.12,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -40225,7 +40393,17 @@ const UnitInformation = [
     { //Alpha - Missing Lore
         id: 108047412,
         name: `Alpha`,
-        rank: `S`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.89,
+                defense: 0.00,
+                artgen: 4.60,
+                damage: 3.19,
+                buffs: 3.28,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Spirit`,
         image: 
@@ -40474,8 +40652,18 @@ const UnitInformation = [
     { //Shuna - Missing Lore
         id: 108087412,
         name: `Shuna`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.96,
+                defense: 0.00,
+                artgen: 4.45,
+                damage: 2.49,
+                buffs: 1.64,
+                heal: 2.71,
+                break: 0.00
+            },
         attribute: `Light`,
-        rank: `S`,
         type: `Demon`,
         image: 
             {
@@ -40723,8 +40911,18 @@ const UnitInformation = [
     { //Kenshin Himura - Missing Lore
         id: 108117412,
         name: `Kenshin Himura`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.87,
+                defense: 2.45,
+                artgen: 4.24,
+                damage: 3.52,
+                buffs: 1.28,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Light`,
-        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -40886,11 +41084,21 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Hajime Saito - Missing Lore
+    { //Saito Hajime - Missing Lore
         id: 108137512,
-        name: `Hajime Saito`,
+        name: `Saito Hajime`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.04,
+                defense: 1.16,
+                artgen: 2.41,
+                damage: 4.22,
+                buffs: 1.87,
+                heal: 1.12,
+                break: 0.00
+            },
         attribute: `Dark`,
-        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -40936,8 +41144,8 @@ const UnitInformation = [
                 ability1: `At Start of Battle, increase next Skill's Arts UP by 100 instead and double next Super Arts' DMG Multiplier and Break Power. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [1% x own ATK and DEF/ 100].`,
                 ability3: `Increase Dark allies' BE Output by 15%. Does not stack with Abilities of the same name.`,
-                ability4: `Unit EXP UP 20% UP. (When Hajime Saito's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Hajime Saito's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Saito Hajime's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saito Hajime's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -40959,7 +41167,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Hajime Saito, increase own ATK, DEF and Break Power by 30%. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Saito Hajime, increase own ATK, DEF and Break Power by 30%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own PHY RES by 5%.`
                     }
             },
@@ -41055,6 +41263,17 @@ const UnitInformation = [
     { //Hero Saitama - Missing Lore
         id: 108157412,
         name: `Hero Saitama`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.22,
+                defense: 3.36,
+                artgen: 0.00,
+                damage: 3.62,
+                buffs: 1.08,
+                heal: 0.00,
+                break: 0.65
+            },
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -41465,6 +41684,17 @@ const UnitInformation = [
     { //Frieren - Missing Lore
         id: 108207412,
         name: `Frieren`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.30,
+                defense: 0.00,
+                artgen: 4.67,
+                damage: 3.59,
+                buffs: 3.37,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Spirit`,
         image: 
@@ -41629,6 +41859,17 @@ const UnitInformation = [
     { //Stark - Missing Lore
         id: 108227112,
         name: `Stark`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.92,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 5.00,
+                buffs: 1.24,
+                heal: 0.85,
+                break: 0.73
+            },
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -41712,6 +41953,17 @@ const UnitInformation = [
         id: 108237312,
         name: `Ubel`,
         translate: `Übel`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.92,
+                defense: 0.00,
+                artgen: 4.06,
+                damage: 3.49,
+                buffs: 1.83,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Human`,
         image: 
