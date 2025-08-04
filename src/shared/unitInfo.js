@@ -219,7 +219,17 @@ const UnitInformation = [
     { //Clyde - Complete
         id: 100016111,
         name: "Clyde",
-        rank: "F",
+        tier: 
+            {
+                rank: `C-`,
+                overall: 1.12,
+                defense: 1.16,
+                artgen: 0.00,
+                damage: 1.17,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "reliance",
         attribute: "Fire",
         type: "Human",
@@ -361,7 +371,17 @@ const UnitInformation = [
     { //Corsair - Complete
         id: 100026211,
         name: "Corsair",
-        rank: "F",
+        tier: 
+            {
+                rank: `C-`,
+                overall: 1.02,
+                defense: 1.16,
+                artgen: 0.00,
+                damage: 0.40,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "reliance",
         attribute: "Water",
         type: "Human",
@@ -503,7 +523,17 @@ const UnitInformation = [
     { //Arth - Complete
         id: 100036311,
         name: "Arth",
-        rank: "F",
+        tier: 
+            {
+                rank: `D`,
+                overall: 0.92,
+                defense: 1.16,
+                artgen: 0.00,
+                damage: 0.67,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Human",
         image: 
@@ -644,7 +674,17 @@ const UnitInformation = [
     { //Feena - Complete, Dream Evo Complete
         id: 100046411,
         name: "Feena",
-        rank: "B+",
+        tier: 
+            {
+                rank: `B`,
+                overall: 2.41,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.31,
+                buffs: 0.00,
+                heal: 3.04,
+                break: 0.00
+            },
         twrequire: "reliance",
         attribute: "Light",
         type: "God",
@@ -793,7 +833,17 @@ const UnitInformation = [
     { //Regulus - Complete, Dream Evo Complete
         id: 100056511,
         name: "Regulus",
-        rank: "C",
+        tier: 
+            {
+                rank: `C`,
+                overall: 1.48,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 1.24,
+                buffs: 1.87,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "reliance",
         attribute: "Dark",
         type: "Demon",
@@ -957,7 +1007,17 @@ const UnitInformation = [
     { //Dargeon - Complete + DreamEvo
         id: 100566112,
         name: "Dargeon",
-        rank: "F",
+        tier: 
+            {
+                rank: `C`,
+                overall: 1.29,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 1.59,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Dragon",
         image: 
@@ -14926,7 +14986,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "A lightning-fast swordsman who is the leader of the Juno Templars. He pierced deep into enemy lines to overwhelm the Gods Army, but took a sword blow to the back to protect his mistress, Princess Leone. As his consciousness faded, he recalled the promise he made to his former mistress, Princess Juno, and gripped the memento she had given him. That feather held the power to accomplish a single miracle, a power destined to change the fate of Granadia.",
+                evo5: "Missing Lore.",
                 evoawk: "A lightning-fast swordsman who is the leader of the Juno Templars. He pierced deep into enemy lines to overwhelm the Gods army, but took a sword blow to the back to protect his mistress, Princess Leone. As his consciousness faded, he recalled the promise he made to his former mistress, Princess Juno, and griped the memento she had given him. That feather held the power to accomplish a single miracle, a power destined to change the fate of Granadia."
             }
     },
@@ -28339,7 +28399,17 @@ const UnitInformation = [
         id: 103827212,
         name: `Ultimate Paladin Roy`,
         attribute: `Water`,
-        rank: `SSS`,
+        tier: 
+            {
+                rank: `SS`,
+                overall: 4.52,
+                defense: 2.59,
+                artgen: 4.53,
+                damage: 4.18,
+                buffs: 4.50,
+                heal: 0.00,
+                break: 0.00
+            },
         type: `Human`,
         image: 
             {
@@ -39183,7 +39253,17 @@ const UnitInformation = [
         name: `Houka Inumuta`,
         attribute: `Water`,
         type: `Human`,
-        rank: `SSS`,
+        tier: 
+            {
+                rank: `SS`,
+                overall: 4.70,
+                defense: 0.00,
+                artgen: 5.00,
+                damage: 2.70,
+                buffs: 5.00,
+                heal: 0.74,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107946212.png",
@@ -40052,7 +40132,17 @@ const UnitInformation = [
     { //Beta - Complete
         id: 108057212,
         name: `Beta`,
-        rank: `SSS`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.36,
+                defense: 2.80,
+                artgen: 4.65,
+                damage: 2.35,
+                buffs: 2.89,
+                heal: 1.08,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Spirit`,
         image: 
