@@ -16384,7 +16384,17 @@ const UnitInformation = [
     { //Rosetta (Water) - Complete
         id: 102676212,
         name: "Rosetta (Water)",
-        rank: "A+",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.38,
+                defense: 0.00,
+                artgen: 4.25,
+                damage: 2.07,
+                buffs: 1.14,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Water",
         type: "Demon",
@@ -22046,7 +22056,17 @@ const UnitInformation = [
     { //Juno - Complete
         id: 103226412,
         name: "Juno",
-        rank: "A+",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.72,
+                defense: 0.00,
+                artgen: 4.97,
+                damage: 2.47,
+                buffs: 0.77,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Light",
         type: "Demon",
@@ -22841,7 +22861,17 @@ const UnitInformation = [
     { //Miranda - Complete, Review done, JP Dream
         id: 103296412,
         name: "Miranda",
-        rank: "A+",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.50,
+                defense: 4.43,
+                artgen: 0.00,
+                damage: 0.64,
+                buffs: 2.25,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -23150,7 +23180,17 @@ const UnitInformation = [
     { //Vultee (Earth) - Review done, JP Dream
         id: 103316312,
         name: "Vultee (Earth)",
-        rank: "A+",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.68,
+                defense: 4.66,
+                artgen: 0.00,
+                damage: 1.21,
+                buffs: 1.74,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Human",
         image: 
@@ -23738,7 +23778,17 @@ const UnitInformation = [
     { //Summer Juno - Complete + JP ver.
         id: 103376212,
         name: "Summer Juno",
-        rank: "A",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.49,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.45,
+                buffs: 4.26,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Demon",
         image: 
@@ -25264,8 +25314,18 @@ const UnitInformation = [
     { // Mizuki the Twelfth - Complete, Review done
         id: 103496212,
         name: "Mizuki the Twelfth",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.42,
+                defense: 0.00,
+                artgen: 4.00,
+                damage: 1.79,
+                buffs: 1.67,
+                heal: 0.85,
+                break: 0.00
+            },
         attribute: "Water",
-        rank: "S",
         type: "Human",
         image: 
             {
@@ -25445,9 +25505,19 @@ const UnitInformation = [
     { //Riviera (Dark) - Complete, Review done + JP ver
         id: 103576512,
         name: "Riviera (Dark)",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.67,
+                defense: 0.00,
+                artgen: 4.46,
+                damage: 1.25,
+                buffs: 0.95,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
-        rank: "A",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103575512.png",
@@ -27244,8 +27314,18 @@ const UnitInformation = [
         id: 103677112,
         name: "Priscilla (Valentines)",
         translate: "Valentines Priscilla",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.77,
+                defense: 1.49,
+                artgen: 4.09,
+                damage: 2.43,
+                buffs: 3.01,
+                heal: 2.30,
+                break: 0.00
+            },
         attribute: "Fire",
-        rank: "S",
         type: "Human",
         image: 
             {
@@ -27325,9 +27405,19 @@ const UnitInformation = [
     { // Aristela Orbis - Complete
         id: 103687212,
         name: "Aristela Orbis",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.44,
+                defense: 0.00,
+                artgen: 3.77,
+                damage: 1.64,
+                buffs: 1.36,
+                heal: 0.85,
+                break: 2.14
+            },
         attribute: "Water",
         type: "Spirit",
-        rank: "A+",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103686212.png",
@@ -27488,9 +27578,19 @@ const UnitInformation = [
     { // Jay - Missing Lore
         id: 103707212,
         name: "Jay",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.79,
+                defense: 1.78,
+                artgen: 0.00,
+                damage: 3.96,
+                buffs: 0.88,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Human",
-        rank: "SS",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103706212.png",
@@ -28366,7 +28466,17 @@ const UnitInformation = [
         id: 103797512,
         name: `Halloween Forte`,
         translate: `Pianissimo Figure Forte`,
-        rank: `S`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.57,
+                defense: 1.16,
+                artgen: 4.00,
+                damage: 3.79,
+                buffs: 0.76,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -28834,9 +28944,19 @@ const UnitInformation = [
     { //Hart the Fabricator - Missing Lore
         id: 103847512,
         name: `Hart the Fabricator`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.42,
+                defense: 0.00,
+                artgen: 3.84,
+                damage: 3.76,
+                buffs: 1.08,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
-        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103846512.png",
@@ -28918,9 +29038,19 @@ const UnitInformation = [
         id: 103857312,
         name: `Liza (Valentines)`,
         translate: `Cute Confectioner Liza`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.53,
+                defense: 0.00,
+                artgen: 3.18,
+                damage: 2.99,
+                buffs: 3.71,
+                heal: 2.12,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `God`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103856312.png",
@@ -29008,9 +29138,19 @@ const UnitInformation = [
         id: 103867212,
         name: `Cestina (Valentines)`,
         translate: `Pretty Patissière Cestina`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.37,
+                defense: 4.27,
+                artgen: 0.00,
+                damage: 1.07,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `God`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103866212.png",
@@ -37608,9 +37748,19 @@ const UnitInformation = [
     { // Illya - Complete, Review Done
         id: 107737412,
         name: "Illya",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.57,
+                defense: 1.16,
+                artgen: 4.00,
+                damage: 3.79,
+                buffs: 0.76,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
-        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107736412.png",
@@ -37712,9 +37862,19 @@ const UnitInformation = [
     { // Rin & Luvia - Review Done
         id: 107767112,
         name: "Rin & Luvia",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.57,
+                defense: 0.00,
+                artgen: 2.05,
+                damage: 3.37,
+                buffs: 3.83,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Human",
-        rank: "SS",
         twrequire: "favorable",
         image: 
             {
@@ -37823,9 +37983,19 @@ const UnitInformation = [
     { //Miyu - Review Done
         id: 107747512,
         name: `Miyu`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.75,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 4.34,
+                buffs: 3.72,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107746512.png",
@@ -38351,9 +38521,19 @@ const UnitInformation = [
     { //Sagiri - Complete, Review done
         id: 107807312,
         name: `Sagiri`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.45,
+                defense: 2.43,
+                artgen: 3.75,
+                damage: 3.07,
+                buffs: 1.56,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Human`,
-        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107806312.png",
@@ -38621,9 +38801,19 @@ const UnitInformation = [
     { //Demon Lord Rimuru - Complete
         id: 107837512,
         name: `Demon Lord Rimuru`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.64,
+                defense: 2.08,
+                artgen: 0.00,
+                damage: 4.18,
+                buffs: 2.84,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Demon`,
-        rank: `SS`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107836512.png",
@@ -39155,9 +39345,18 @@ const UnitInformation = [
     { //OiKatzo - Complete
         id: 107897112,
         name: `OiKatzo`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.53,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 4.47,
+                buffs: 1.72,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
-        rank: `S`,
-        luckrank: `A`,
         type: `Human`,
         image: 
             {
@@ -39226,9 +39425,19 @@ const UnitInformation = [
     { //Momon - Missing Lore
         id: 107907512,
         name: `Momon`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.47,
+                defense: 1.57,
+                artgen: 0.00,
+                damage: 4.19,
+                buffs: 2.41,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Demon`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107906512.png",
@@ -40083,7 +40292,17 @@ const UnitInformation = [
     { //Summer Chloe - Complete
         id: 107997412,
         name: `Summer Chloe`,
-        rank: `S`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.80,
+                defense: 0.00,
+                artgen: 4.13,
+                damage: 2.66,
+                buffs: 3.28,
+                heal: 2.78,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -40249,8 +40468,18 @@ const UnitInformation = [
     { //Summer Luvia & Rin - Missing Lore
         id: 108017312,
         name: `Summer Luvia & Rin`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.81,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.25,
+                buffs: 2.54,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
-        rank: `SS`,
         type: `Human`,
         image: 
             {
@@ -40704,7 +40933,17 @@ const UnitInformation = [
     { //Delta - Complete
         id: 108067112,
         name: `Delta`,
-        rank: `S`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.61,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 4.94,
+                buffs: 1.47,
+                heal: 0.59,
+                break: 0.00
+            },
         attribute: `Fire`,
         type: `Beast`,
         image: 
@@ -40787,8 +41026,18 @@ const UnitInformation = [
     { //Demon Lord Samurai Rimuru - Missing Lore
         id: 108077512,
         name: `Demon Lord Samurai Rimuru`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.69,
+                defense: 1.98,
+                artgen: 4.44,
+                damage: 2.93,
+                buffs: 2.49,
+                heal: 1.21,
+                break: 0.00
+            },
         attribute: `Dark`,
-        rank: `SS`,
         type: `Demon`,
         image: 
             {
@@ -40963,8 +41212,18 @@ const UnitInformation = [
     { //Veldora - Missing Lore
         id: 108097312,
         name: `Veldora`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.54,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 4.29,
+                buffs: 4.02,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
-        rank: `S`,
         type: `Dragon`,
         image: 
             {
@@ -41398,8 +41657,18 @@ const UnitInformation = [
     { //Makoto Shishio - Missing Lore
         id: 108147112,
         name: `Makoto Shishio`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.66,
+                defense: 1.61,
+                artgen: 1.27,
+                damage: 4.36,
+                buffs: 2.74,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
-        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -41910,7 +42179,7 @@ const UnitInformation = [
                 artgen: 4.67,
                 damage: 3.59,
                 buffs: 3.37,
-                heal: 0.00,
+                heal: 0.03,
                 break: 0.00
             },
         attribute: `Light`,
@@ -41992,9 +42261,20 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Fern - Missing Lore (JP)
+    { //Fern - Missing Lore
         id: 108217212,
         name: `Fern`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.46,
+                defense: 2.20,
+                artgen: 0.00,
+                damage: 4.12,
+                buffs: 2.09,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
         image: 

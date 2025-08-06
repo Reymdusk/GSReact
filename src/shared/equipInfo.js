@@ -49473,7 +49473,7 @@ const EquipInformation = [
     { //Shishio's Kimono - Missing Lore
         id: 154191,
         name: `Shishio's Kimono`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
