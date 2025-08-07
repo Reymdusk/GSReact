@@ -2887,7 +2887,17 @@ const UnitInformation = [
     { //Fen (Earth) - Complete + JP Dream
         id: 101056311,
         name: "Fen (Earth)",
-        rank: "A",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.04,
+                defense: 0.00,
+                artgen: 3.68,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Human",
         image: 
@@ -12381,8 +12391,17 @@ const UnitInformation = [
     { //Mako - Complete + JP ver
         id: 102206412,
         name: "Mako",
-        luckrank: "B",
-        rank: "S",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.35,
+                defense: 0.00,
+                artgen: 3.86,
+                damage: 0.81,
+                buffs: 3.16,
+                heal: 1.16,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -13627,7 +13646,7 @@ const UnitInformation = [
                 evoawk: "A renowned Divine warrior challenged a Divine swordswoman to a battle, and after losing in a fierce fight, the two so admired each others’ techniques they swore to a rematch. Later, the fighter was overcome by his wounds and fell to the ground, but in that instant, he made a compact [?] with the planet to save his life. The swordswoman reappeared before him, this fighter who became a High Demon with the power to burn the world to ash. No one knows the truth of the rumors that he may have survived, despite the swordwoman’s victory."
             }
     },
-    { //Nogia - Complete
+    { //Nogia - Complete + JP ver
         id: 102336411,
         name: "Nogia",
         rank: "C",
@@ -13650,6 +13669,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6085,
@@ -13666,6 +13694,15 @@ const UnitInformation = [
                 arts: "Increase all Allies' Arts by 15 + For 10s, heal Allies' HP by 100/s and gain a DMG barrier that negates 2500 DMG to self.",
                 artsbreak: 0,
                 truearts: "18500% Light DMG (MAG). For 12s, increase Allies' Critical Rate by 50% and Paralysis and Burn RES by 80%.",
+                trueartsbreak: 4000
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 1600% Light DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 1700,
+                arts: "Increase all Allies' Arts by 15 + For 10s, heal Allies' HP by 250/s and gain a DMG barrier that negates 2500 DMG to self.",
+                artsbreak: 0,
+                truearts: "35000% Light DMG (MAG). For 12s, increase Allies' Critical Rate by 100% and Paralysis and Burn RES by 100%.",
                 trueartsbreak: 4000
             },
         passive: 
@@ -13686,6 +13723,47 @@ const UnitInformation = [
                     mat3amt: 20,
                     hover3: "Nogia",
                 }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160554.png`,
+                        mat2amt: 100,
+                        hover2: `Nogia Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase own Heal Amount by 30% (except Lifesteal).`,
+                        ability2: `Increase Spirit allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160554.png`,
+                        mat2amt: 100,
+                        hover2: `Nogia Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase allies' CRI DMG by 50%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 2/s when above 80% HP.`
+                    }
+                }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Grandeus",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113231.png",
+                skill: "60s CT - 7000% Light DMG (PHY). For 10s, increase own DMG by 30% and reduce enemies' Light RES by 30%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Nogia, increase own CRI DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Evasion rate by 5%."
+                    }
             },
         lore: 
             {   
@@ -14649,7 +14727,17 @@ const UnitInformation = [
     { //Berwick - Complete
         id: 102486112,
         name: "Berwick",
-        rank: "B+",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.16,
+                defense: 0.00,
+                artgen: 3.43,
+                damage: 2.63,
+                buffs: 2.19,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Fire",
         type: "Demon",
@@ -14886,7 +14974,17 @@ const UnitInformation = [
     { //Thetis - Complete
         id: 102506212,
         name: "Thetis",
-        rank: "S",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.31,
+                defense: 3.88,
+                artgen: 0.00,
+                damage: 0.38,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.95
+            },
         twrequire: "favorable",
         attribute: "Water",
         type: "Demon",
@@ -16290,14 +16388,14 @@ const UnitInformation = [
                 skillbreak: 700,
                 arts: "12000% Fire DMG (PHY). For 10s, increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 1800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20% amd PHY DMG by 100%.",
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20% and PHY DMG by 100%.",
                 trueartsbreak: 3500
             },
         skillsetJP: 
             {
                 skill: "8s CT - 3300% Fire DMG (PHY). Increase own Arts by 20. During Magia Drive: 3300% Fire DMG (PHY). Increase own Arts by 40.",
                 skillbreak: 700,
-                arts: "18000% Fire DMG (PHY). For 15s, increase Allies' Arts by 3/s.",
+                arts: "18000% Fire DMG (PHY). For 15s, increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 artsbreak: 1800,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 75000% Fire DMG (PHY). For 20s, increase Allies' Max HP by 30% and PHY DMG by 170%.",
                 trueartsbreak: 3500
@@ -17863,7 +17961,17 @@ const UnitInformation = [
     { //Shiki - Complete
         id: 102846412,
         name: "Shiki",
-        rank: "A",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.19,
+                defense: 0.00,
+                artgen: 4.03,
+                damage: 1.07,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -22549,10 +22657,20 @@ const UnitInformation = [
             }
     },
     { //Hart (Earth) - Complete, Review done, JP Dream
-        id: 103276312,
-        rank: "S",
-        twrequire: "favorable",
+        id: 103276312,        
         name: "Hart (Earth)",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.03,
+                defense: 0.00,
+                artgen: 3.71,
+                damage: 1.15,
+                buffs: 2.05,
+                heal: 1.18,
+                break: 0.00
+            },
+        twrequire: "favorable",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -23838,17 +23956,23 @@ const UnitInformation = [
             {
                 skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
                 skillbreak: 800,
-                arts: "27000% Water DMG (MAG). For 20s, Increase Allies' Skill CT Speed by 100% and reduce enemies' Water RES by 30%.",
+                arts: "27000% Water DMG (MAG). For 30s, Increase Allies' Skill CT Speed by 100% and reduce enemies' Water RES by 30%.",
                 artsbreak: 1300,
-                truearts: "82000% Water DMG (MAG). For 60s, increase allies' MAG DMG and Water allies' DMG by 60% (stackable).",
+                truearts: "90000% Water DMG (MAG). For 60s, increase allies' MAG DMG and Water allies' DMG by 70% (stackable).",
                 trueartsbreak: 2200
             }, 
         passive: 
             {
-                ability1: "When HP is Above 80%, increase own Arts by 3/s.",
+                ability1: "When HP is above 80%, increase own Arts by 3/s.",
                 ability2: "Increase own Arts by 5/s if unafflicted by Status Ailments.",
                 ability3: "Increase DMG to Giant Bosses by 30%."
             }, 
+        passiveJP: 
+            {
+                ability1: "When HP is above 50%, increase own Arts by 3/s.",
+                ability2: "Increase own Arts by 5/s if unafflicted by Status Ailments.",
+                ability3: "Increase DMG to Giant Bosses by 50%."
+            },
         evolution: 
             {
                 evo5awk:
@@ -23882,7 +24006,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase own DMG against Fire enemies by 150%.`,
-                        ability2: `Increase own Status ailment RES by 30% (except Faint).`
+                        ability2: `Increase own Status ailment RES by 50% (except Faint).`
                     }
                 },
                 water: {
@@ -23941,7 +24065,17 @@ const UnitInformation = [
     { //Summer Leone - Complete, Review done + JP ver
         id: 103386312,
         name: "Summer Leone",
-        rank: "B+",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.25,
+                defense: 0.00,
+                artgen: 1.86,
+                damage: 2.39,
+                buffs: 3.79,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -23991,16 +24125,16 @@ const UnitInformation = [
             {
                 skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 30.",
                 skillbreak: 500,
-                arts: "15000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 160%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 320% instead.",
+                arts: "20000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 160%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 320% instead.",
                 artsbreak: 1000,
-                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 30. For 25s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
+                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 40. For 25s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 2200
             },
         passive: 
             {
                 ability1: "When HP is above 70%, increase Equip CT REC by 20%.",
                 ability2: "Increase Blind RES by 10%.",
-                ability3: "Increase Demon Allies' stats by 10%."
+                ability3: "Increase Demon Allies' stats by 25%."
             }, 
         evolution: 
             {
@@ -24050,7 +24184,7 @@ const UnitInformation = [
                         hover3: "Ragsherum Phantom",
                     },
                     passive: {
-                        ability1: `Increase Demon allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability1: `Increase Demon allies' Arts by 3/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own Paralysis RES by 50%.`
                     }
                 }
@@ -24897,8 +25031,18 @@ const UnitInformation = [
     { // Orvell (Fire) - Complete, Review done + JP ver
         id: 103456112,
         name: "Orvell (Fire)",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.30,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 3.88,
+                buffs: 2.71,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
-        rank: "S",
         type: "God",
         image: 
             {
@@ -25056,7 +25200,17 @@ const UnitInformation = [
     { // Cestina (Light) - Complete (+ JP version), Review done
         id: 103466412,
         name: "Cestina (Light)",
-        rank: "S",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.13,
+                defense: 1.16,
+                artgen: 0.00,
+                damage: 2.30,
+                buffs: 1.60,
+                heal: 1.13,
+                break: 0.00
+            },
         attribute: "Light",
         type: "God",
         image: 
@@ -26036,7 +26190,7 @@ const UnitInformation = [
                     }
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Ces' Sandy Blossom",
                 slot: "/db/Mines/thumbnail/suppLB.png",
@@ -26076,7 +26230,17 @@ const UnitInformation = [
     { // Summer Liza - Complete + JP ver
         id: 103606212,
         name: "Summer Liza",
-        rank: "A-",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.10,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 2.59,
+                buffs: 4.31,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "God",
         image: 
@@ -26187,7 +26351,7 @@ const UnitInformation = [
                     }
                 }
             },
-        trueweaponJP: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section
             {
                 name: "Liza's Mature Look",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -26280,7 +26444,9 @@ const UnitInformation = [
             {
                 ability1: `When self is Leader, at the start of a Quest, increase Allies' DMG RES by 30% for 45s. Does not stack with Abilities of the same name.`,
                 ability2: `At the start of a Quest, increase Allies' Arts by 50. Does not stack with Abilities of the same name.`,
-                ability3: `Increase Allies' DMG to Enemies with 50% or less HP by 30%. Does not stack with Abilities of the same name.`
+                ability3: `Increase Allies' DMG to Enemies with 50% or less HP by 30%. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When War Hero Fen's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When War Hero Fen's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -27061,8 +27227,18 @@ const UnitInformation = [
         id: 103657112,
         name: "Noble Flare Mira",
         translate: "Searing Petal Mira",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.27,
+                defense: 0.00,
+                artgen: 4.14,
+                damage: 2.27,
+                buffs: 0.60,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
-        rank: `S`,
         type: "Human",
         image: 
             {
@@ -27144,9 +27320,19 @@ const UnitInformation = [
     { // Long - Complete
         id: 103557212,
         name: "Long",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.02,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 3.60,
+                buffs: 0.88,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Demon",
-        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103556212.png",
@@ -27667,8 +27853,18 @@ const UnitInformation = [
     { //Canaria - Missing Lore
         id: 103717212,
         name: `Canaria`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.27,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 3.17,
+                buffs: 2.02,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
-        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -27830,13 +28026,23 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Iris - Missing Lore + JP ver
+    { //Summer Iris - Missing Lore
         id: 103727112,
         name: `Summer Iris`,
         translate: `Iris, Bursting Jubilation`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.12,
+                defense: 1.94,
+                artgen: 1.55,
+                damage: 3.77,
+                buffs: 1.66,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
         type: `God`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103726112.png",
@@ -27873,17 +28079,6 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
                 trueartsbreak: 1700,
-                superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.`,
-                superartsbreak: 2500
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - Increase own Arts gauge by 50% of the difference between her current Arts gauge and Maximum Arts gauge. (MAX: 150)`,
-                skillbreak: 0,
-                arts: `17000% Fire DMG (MAG). For 20s, increase all allies' Skill CT Speed by 70% and all Fire allies' Skill CT Speed by an additional 50%.`,
-                artsbreak: 1000,
-                truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
-                trueartsbreak: 1700,
                 superarts: `165000% Fire DMG (MAG). For 10s, increase all Fire allies' Arts gauge by 10. For 30s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.`,
                 superartsbreak: 2500
             },
@@ -27906,7 +28101,7 @@ const UnitInformation = [
                     hover2: "Flametail Soulgem"
                 }
             },
-        trueweaponJP: 
+        trueweapon: 
             {
                 name: `Iris' Dream Rocket`,
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -27929,9 +28124,19 @@ const UnitInformation = [
         id: 103736212,
         name: `Summer Fen`,
         translate: `Wave Master Fen`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.05,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.86,
+                buffs: 0.81,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
-        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103736212.png",
@@ -27960,18 +28165,7 @@ const UnitInformation = [
                 def: 3137,
                 defplus: 595
             },
-        skillset: 
-            {
-                skill: `10s CT - 2400% Water DMG (PHY). Heal allies' HP by 15%.`,
-                skillbreak: 400,
-                arts: `15000% Water DMG (PHY). For 20s, increase own Heal Equipment CT Speed by 40% & Heal Amount by 60%.`,
-                artsbreak: 900,
-                truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 40%.`,
-                trueartsbreak: 1700,
-                superarts: `120000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 100%. For 60s, increase own Arts gauge by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
-                superartsbreak: 2100
-            },
-        skillsetJP: 
+        skillset:
             {
                 skill: `10s CT - 2400% Water DMG (PHY). Heal allies' HP by 20%.`,
                 skillbreak: 400,
@@ -28001,7 +28195,7 @@ const UnitInformation = [
                     hover2: "Frostsprite Soulgem"
                 }
             },
-        trueweaponJP: 
+        trueweapon: 
             {
                 name: `Fen's Wavecutter`,
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -28020,9 +28214,21 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Riviera - Missing Lore (JP)
+    { //Summer Riviera - Missing Lore
         id: 103747112,
         name: `Summer Riviera`,
+        translate: `Pirate Queen Riviera`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.17,
+                defense: 0.00,
+                artgen: 2.45,
+                damage: 3.73,
+                buffs: 1.49,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
         type: `Demon`,
         image: 
@@ -28085,7 +28291,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Riviera's Dynamite Attack`,
+                name: `Riviera's Powder Keg`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_112581.png",
                 skill: `50s CT - 6000% Fire DMG (PHY). For 15s, increase own Fire DMG by 50%. If user is Demon, increase own Fire DMG by 80% instead.`,
@@ -28098,8 +28304,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Rosetta - Missing Lore (JP)
@@ -28375,7 +28581,17 @@ const UnitInformation = [
         id: 103787212,
         name: `Halloween Valerie`,
         translate: `Mighty Magical Valerie`,
-        rank: `A+`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.08,
+                defense: 2.20,
+                artgen: 0.00,
+                damage: 3.55,
+                buffs: 2.05,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -28686,7 +28902,17 @@ const UnitInformation = [
         id: 103817312,
         name: `Anti-Heroine Pola`,
         translate: `Evil Pola`,
-        rank: "A+",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.10,
+                defense: 0.00,
+                artgen: 3.22,
+                damage: 2.85,
+                buffs: 1.38,
+                heal: 0.98,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Demon`,
         image: 
@@ -29386,6 +29612,17 @@ const UnitInformation = [
     { //Cometstreak Valerie - Missing Lore
         id: 103897212,
         name: `Cometstreak Valerie`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.17,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 4.01,
+                buffs: 2.65,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -29453,7 +29690,7 @@ const UnitInformation = [
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: `When equipped by Star Swordswoman Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Cometstreak Valerie, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own HP Recovery by 5%.`
                         }
                 },
@@ -29555,8 +29792,18 @@ const UnitInformation = [
     { //Azel - Missing Lore
         id: 103917112,
         name: `Azel`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.30,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 3.36,
+                buffs: 3.67,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
-        rank: `A`,
         type: `Demon`,
         image: 
             {
@@ -29810,18 +30057,18 @@ const UnitInformation = [
             {
                 skill: `12s CT - 3200% Water DMG (PHY). For 10s, increase own ATK by 20%.`,
                 skillbreak: 600,
-                arts: `20000% Water DMG (PHY). Heal all allies' Status ailements (except Faint). For 20s, increase all allies' Freeze RES and Paralysis RES by 100%.`,
+                arts: `20000% Water DMG (PHY). Heal all allies' Status ailements (except Faint). For 25s, increase all allies' Freeze RES and Paralysis RES by 100%.`,
                 artsbreak: 800,
-                truearts: `65000% Water DMG (PHY). For 25s, increase all allies' Accuracy by 80% and own Accuracy by an additional 80%.`,
+                truearts: `65000% Water DMG (PHY). For 30s, increase all allies' Accuracy by 80% and own Accuracy by an additional 80%.`,
                 trueartsbreak: 1400,
-                superarts: `160000% Water DMG (PHY). For 30s, increase Water allies' DMG by 150% and DMG RES by 40%.`,
+                superarts: `180000% Water DMG (PHY). For 30s, increase Water allies' DMG by 150% and DMG RES by 40%.`,
                 superartsbreak: 2000
             },
         passive: 
             {
                 ability1: `Increase own DMG by [2 x Accuracy buffs]% and Arts by [Accuracy buffs ÷ 20]/s. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own Paralysis RES by 80%.`,
-                ability3: `Increase Hellfire RES by 40%.`
+                ability2: `Increase own Paralysis RES by 100%.`,
+                ability3: `Increase Hellfire RES by 60%.`
             }, 
         evolution: 
             {
@@ -29888,16 +30135,16 @@ const UnitInformation = [
             {
                 skill: `10s CT - 3000% Dark DMG (PHY). For 8s, increase own Accuracy by 20%.`,
                 skillbreak: 700,
-                arts: `Increase all allies' Arts by 30. For 30s, allies gain a DMG barrier that negates 5000 DMG.`,
+                arts: `Increase all allies' Arts by 30. For 30s, allies gain a DMG barrier that negates 6000 DMG.`,
                 artsbreak: 0,
-                truearts: `50000% Dark DMG (PHY). Increase all allies' Arts by 50. For 20s, reduce enemies' DMG RES by 60%.`,
+                truearts: `50000% Dark DMG (PHY). Increase all allies' Arts by 50. For 25s, reduce enemies' DMG RES by 70%.`,
                 trueartsbreak: 1600,
-                superarts: `140000% Dark DMG (MAG). 100% chance to inflict Burn and Blind for 30s. For 30s, heal all allies' HP by 1000/s and Dark allies by an additional 1000/s.`,
+                superarts: `150000% Dark DMG (MAG). 100% chance to inflict Burn and Blind for 30s. For 30s, heal all allies' HP by 1000/s and Dark allies by an additional 1000/s.`,
                 superartsbreak: 2300
             },
         passive: 
             {
-                ability1: `Increase own CRI rate by 100% and Super CRI rate by 20% against enemies affected by Status ailment(s). Does not stack with Abilities of the same name.`,
+                ability1: `Increase own CRI rate by 100% and Super CRI rate by 30% against enemies affected by Status ailment(s). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Burn RES by 70%.`,
                 ability3: `Increase own Blind RES by 70%.`
             }, 
@@ -31782,7 +32029,17 @@ const UnitInformation = [
     { //Asirpa - Complete
         id: 107126412,
         name: "Asirpa",
-        rank: "A+",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.17,
+                defense: 2.11,
+                artgen: 3.76,
+                damage: 0.08,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.67
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -32014,9 +32271,18 @@ const UnitInformation = [
     { //Rimuru (Human form) - Complete, Review (Pre-buff) done
         id: 107156212,
         name: "Rimuru (Human form)",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.30,
+                defense: 0.00,
+                artgen: 3.65,
+                damage: 1.33,
+                buffs: 0.59,
+                heal: 3.50,
+                break: 0.00
+            },
         attribute: "Water",
-        rank: "S",
-        luckrank: "A",
         type: "Demon",
         image: 
             {
@@ -32583,8 +32849,17 @@ const UnitInformation = [
     { //Priestess - Complete (+ JP version)
         id: 107196412,
         name: "Priestess",
-        luckrank: "A",
-        rank: "S",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.32,
+                defense: 2.86,
+                artgen: 3.83,
+                damage: 0.69,
+                buffs: 0.00,
+                heal: 1.53,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -32961,8 +33236,17 @@ const UnitInformation = [
     { //Hellish Blizzard - Complete
         id: 107226212,
         name: "Hellish Blizzard",
-        luckrank: "A",
-        rank: "A",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.18,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 2.93,
+                buffs: 3.94,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Human",
         image: 
@@ -34915,8 +35199,17 @@ const UnitInformation = [
     { //New Years Rimuru - Complete
         id: 107426512,
         name: "New Years Rimuru",
-        rank: "A-",
-        luckrank: "A",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.11,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.19,
+                buffs: 3.53,
+                heal: 1.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -35314,7 +35607,17 @@ const UnitInformation = [
     { //Yoh - Complete (+ JP version), Review done
         id: 107476112,
         name: "Yoh Asakura",
-        rank: "A",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.13,
+                defense: 0.00,
+                artgen: 3.83,
+                damage: 1.92,
+                buffs: 1.50,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Human",
         image: 
@@ -37020,7 +37323,17 @@ const UnitInformation = [
     { // Mitsuya - Complete, Review done
         id: 107656212,
         name: "Mitsuya",
-        rank: "A",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.11,
+                defense: 0.00,
+                artgen: 3.91,
+                damage: 1.73,
+                buffs: 1.27,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Human",
         image: 
@@ -37266,8 +37579,18 @@ const UnitInformation = [
     { // Strength - Missing Lore (GL), Review done
         id: 107686112,
         name: "Strength",
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.24,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 2.00,
+                buffs: 4.30,
+                heal: 0.00,
+                break: 2.06
+            },
         attribute: "Fire",
-        rank: "A+",
         type: "Machine",
         image: 
             {
@@ -37445,9 +37768,19 @@ const UnitInformation = [
     { // Shalltear - Review done
         id: 107717412,
         name: "Shalltear",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.14,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.67,
+                buffs: 1.02,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Demon",
-        rank: "A+",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107716412.png",
@@ -38330,9 +38663,19 @@ const UnitInformation = [
     { //Saber Alter - Review done
         id: 107787512,
         name: `Saber Alter`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.12,
+                defense: 1.37,
+                artgen: 0.00,
+                damage: 3.95,
+                buffs: 0.90,
+                heal: 1.04,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
-        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107786512.png",
@@ -38433,7 +38776,17 @@ const UnitInformation = [
     { //Gabimaru - Complete, Review done
         id: 107797112,
         name: `Gabimaru`,
-        rank: `A+`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.02,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.83,
+                buffs: 2.26,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -38619,9 +38972,19 @@ const UnitInformation = [
     { //Yuzuriha - Missing Lore (GL), Review Done
         id: 107817512,
         name: `Yuzuriha`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.23,
+                defense: 0.00,
+                artgen: 4.03,
+                damage: 2.75,
+                buffs: 1.52,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107816512.png",
@@ -39013,9 +39376,19 @@ const UnitInformation = [
     { //Diablo - Complete
         id: 107857512,
         name: `Diablo`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.22,
+                defense: 2.36,
+                artgen: 3.11,
+                damage: 2.90,
+                buffs: 0.98,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Demon`,
-        rank: `S`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107856512.png",
@@ -39194,9 +39567,18 @@ const UnitInformation = [
     { //Psyger-0 - Complete
         id: 107877412,
         name: `Psyger-0`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.33,
+                defense: 1.57,
+                artgen: 1.92,
+                damage: 3.33,
+                buffs: 2.68,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Light`,
-        rank: `S`,
-        luckrank: `A`,
         type: `Human`,
         image: 
             {
@@ -40022,9 +40404,19 @@ const UnitInformation = [
     { //Nonon Jakuzure - Complete + JP ver
         id: 107967412,
         name: `Nonon Jakuzure`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.12,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.69,
+                buffs: 2.05,
+                heal: 0.00,
+                break: 0.77
+            },
         attribute: `Light`,
         type: `Human`,
-        rank: `A+`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107966412.png",
@@ -40116,8 +40508,18 @@ const UnitInformation = [
     { //Summer Illya - Complete
         id: 107977212,
         name: `Summer Illya`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.03,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.83,
+                buffs: 1.90,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
-        rank: `S`,
         type: `Human`,
         image: 
             {
@@ -41305,8 +41707,18 @@ const UnitInformation = [
     { //Shizu - Missing Lore
         id: 108107112,
         name: `Shizu`,
+        tier: 
+            {
+                rank: `A`,
+                overall: 3.34,
+                defense: 0.00,
+                artgen: 3.00,
+                damage: 3.88,
+                buffs: 2.57,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
-        rank: `S`,
         type: `Human`,
         image: 
             {

@@ -3433,6 +3433,47 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 104,
+        date: `August 7, 2025`,
+        article: 
+        {
+            intro: `Summer has arrived for both JP and Global! Nogia's Dream Awakening has also arrived for JP!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`カナリアの全力100`, 113191],
+                        [`ジェイの有頂天サーフ`, 113201],
+                        [`マーレット・ジ・エレガント`, 113211],
+                        [`跪け！シーリアサマーサンダル`, 113221],
+                        [`True 'Grandeus'`, 113231]
+                    ],
+                    dream: [
+                        [`Nogia`, 102336411]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Riviera`, 103747112]
+                    ],  
+                    equips: [
+                        [`Riviera's Keelhaul Coat`, 111681],
+                        [`Rosetta's Inner Guard`, 111691],
+                        [`Rosetta's Ultimate Frame`, 111701],
+                        [`Leone's Green Charm`, 111711],
+                        [`Leone's Angelic Sandals`, 111721],
+                        [`Riviera's Rancor Anchor`, 111731],
+                        [`Riviera's Powder Keg`, 111741],
+                        [`True 'Iris' Dream Rocket'`, 112551],
+                        [`True 'Fen's Wavecutter'`, 112561],
+                        [`True 'Riviera's Powder Keg'`, 112581]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

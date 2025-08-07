@@ -32232,10 +32232,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //リヴィエラのヨーソローマント - JP Complete
+    { //Riviera's Keelhaul Coat - Missing Lore
         id: 111681,
-        name: `リヴィエラのヨーソローマント`,
-        translate: `Riviera's Yosoro Mantle`,
+        name: `Riviera's Keelhaul Coat`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -32260,12 +32259,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ロゼッタインナー(スリム用) - JP Complete
+    { //Rosetta's Inner Guard - Missing Lore
         id: 111691,
-        name: `ロゼッタインナー(スリム用)`,
-        translate: `Rosetta's Innerwear (Slim)`,
+        name: `Rosetta's Inner Guard`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32290,12 +32288,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //さいきょー！ロゼッタアーム - JP Complete
+    { //Rosetta's Ultimate Frame - Missing Lore
         id: 111701,
-        name: `さいきょー！ロゼッタアーム`,
-        translate: `Maximum! Rosetta Arm`,
+        name: `Rosetta's Ultimate Frame`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -32320,12 +32317,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //レオーネのチャーミンググリーン - JP Complete
+    { //Leone's Green Charm - Missing Lore
         id: 111711,
-        name: `レオーネのチャーミンググリーン`,
-        translate: `Leone's Charming Green`,
+        name: `Leone's Green Charm`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32350,12 +32346,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //レオーネのエンジェルサンダル - JP Complete
+    { //Leone's Angelic Sandals - Missing Lore
         id: 111721,
-        name: `レオーネのエンジェルサンダル`,
-        translate: `Leone's Angel Sandals`,
+        name: `Leone's Angelic Sandals`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32380,12 +32375,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //リヴィエラのアンガーアンカー - JP Complete
+    { //Riviera's Rancor Anchor - JP Complete
         id: 111731,
-        name: `リヴィエラのアンガーアンカー`,
-        translate: `Riviera's Anger Anchor`,
+        name: `Riviera's Rancor Anchor`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32410,12 +32404,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //リヴィエラ・ダイナマイト - JP Complete
+    { //Riviera's Powder Keg - JP Complete
         id: 111741,
-        name: `リヴィエラ・ダイナマイト`,
-        translate: `Riviera's Dynamite Attack`,
+        name: `Riviera's Powder Keg`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32440,7 +32433,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //GO！グレート・ガナルディア号 - JP Complete
         id: 111751,
@@ -32472,10 +32465,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『シスのパッションフリル』 - JP Complete
+    { //True 'Ces' Sandy Blossom' - JP Complete
         id: 111761,
-        name: `真『シスのパッションフリル』`,
-        translate: `True 'Ces Sandy Blossom'`,
+        name: `True 'Ces' Sandy Blossom'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32501,12 +32493,11 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Cestina, increase own Arts gauge by 2/s and all stats by 30% (Only once).`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『リザ姉の背伸びバンドゥ』 - JP Complete
+    { //True 'Liza's Mature Look' - Missing Lore
         id: 111771,
-        name: `真『リザ姉の背伸びバンドゥ』`,
-        translate: `True 'Liza's Mature Look'`,
+        name: `True 'Liza's Mature Look'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32532,7 +32523,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Liza, increase own Arts gauge by 2/s and Heal Amount by 50% (excluding Lifesteal) (Only once).`,
                 ability2: `Increase own Fire resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //封天鞭『スパインズ・ゴア』レプリカ - JP Complete
         id: 111781,
@@ -34825,10 +34816,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『イリスのドリームロケット』 - JP Complete
+    { //True 'Iris' Dream Rocket' - Missing Lore
         id: 112551,
-        name: `真『イリスのドリームロケット』`,
-        translate: `True 'Iris' Dream Rocket'`,
+        name: `True 'Iris' Dream Rocket'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34854,12 +34844,11 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Iris, increase own Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『フェンのビッグウェーブ』 - JP Complete
+    { //True 'Fen's Wavecutter' - Missing Lore
         id: 112561,
-        name: `真『フェンのビッグウェーブ』`,
-        translate: `True 'Fen's Wavecutter'`,
+        name: `True 'Fen's Wavecutter'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34885,12 +34874,12 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Fen, increase own stats by 20% and Healing Amount by 15% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『ロゼッタインナー(スリム用)』 - JP Complete
         id: 112571,
         name: `真『ロゼッタインナー(スリム用)』`,
-        translate: `True 'Rosetta's Innerwear (Slim)'`,
+        translate: `True 'Rosetta's Inner Guard'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34918,10 +34907,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『リヴィエラ・ダイナマイト』 - JP Complete
+    { //True 'Riviera's Powder Keg' - Missing Lore
         id: 112581,
-        name: `真『リヴィエラ・ダイナマイト』`,
-        translate: `True 'Riviera's Dynamite Attack'`,
+        name: `True 'Riviera's Powder Keg'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34947,7 +34935,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Riviera, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //封魂の魔晶瓶 - JP Complete
         id: 112591,
@@ -36761,6 +36749,160 @@ const EquipInformation = [
             {
                 ability1: `Increase own DMG by 35% when Near-death.`,
                 ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113191,
+        name: `カナリアの全力100%ビキニ`,
+        translate: `Canaria's 100% Full-Power Bikini `,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 7000% Water DMG (Physical). For 8s, ignore enemies' DEF by 50%. Additionally if user is Water, for 8s, ignore enemies' DEF by 100% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113201,
+        name: `ジェイの有頂天サーフ`,
+        translate: `Jay's Ecstatic Surf`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113201.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - Heal all allies' HP by 20%. For 15s, increase allies' Physical DMG by 30% if their HP was restored fully by this equip.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113211,
+        name: `マーレット・ジ・エレガント`,
+        translate: `Merlette the Elegant`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `65s CT - 5000% Light DMG (Physical). For 10s, reduce enemies' Physical RES by 40%. Additionally if used for the first time, reduce enemies' Physical RES by 70% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113221,
+        name: `跪け！シーリアサマーサンダル`,
+        translate: `Kneel! Celia's Summer Sandals`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 5000% Dark DMG (Physical). Increase own Arts by 15. Additionally if user is Dark, for 10s, increase all stats by 15%.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `Increase own BE Output by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113231,
+        name: `True 'Grandeus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 7000% Light DMG (Physical). For 10s, increase own DMG by 30% and reduce enemies' Light resistance by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Nogia, increase own CRI DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Evasion rate by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
