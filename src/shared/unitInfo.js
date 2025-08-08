@@ -8550,7 +8550,17 @@ const UnitInformation = [
     { //Sanstone - Complete + JP ver
         id: 101676112,
         name: "Sanstone",
-        rank: "A+",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.98,
+                defense: 3.77,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -19686,7 +19696,17 @@ const UnitInformation = [
     { //Cestina - Complete, Review done + JP ver
         id: 102986312,
         name: "Cestina (Earth)",
-        rank: "A",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.91,
+                defense: 2.18,
+                artgen: 3.18,
+                damage: 1.65,
+                buffs: 2.44,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Earth",
         type: "God",
@@ -19934,7 +19954,17 @@ const UnitInformation = [
     { //Liza - Complete, Review done + JP ver
         id: 103006412,
         name: "Liza",
-        rank: "A+",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.94,
+                defense: 0.00,
+                artgen: 3.41,
+                damage: 0.86,
+                buffs: 0.93,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "God",
         image: 
@@ -24753,7 +24783,17 @@ const UnitInformation = [
     { //Priscilla (Water) - Complete, Review done, JP Dream
         id: 103416212,
         name: "Priscilla (Water)",
-        rank: "A",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.80,
+                defense: 0.00,
+                artgen: 3.34,
+                damage: 1.44,
+                buffs: 1.31,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Water",
         type: "Human",
@@ -27177,8 +27217,18 @@ const UnitInformation = [
         id: 103636112,
         name: "Demon Edge Berwick",
         translate: "Sword Demon Berwick",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.89,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 2.67,
+                buffs: 3.59,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
-        rank: "A",
         twrequire: "reliance",
         type: "Demon",
         image: 
@@ -28686,9 +28736,19 @@ const UnitInformation = [
         id: 103767412,
         name: `Goddess Celia`,
         translate: `Celia the Exalted`,
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.93,
+                defense: 1.57,
+                artgen: 0.00,
+                damage: 3.70,
+                buffs: 0.87,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Human`,
-        rank: `A`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103766412.png",
@@ -32901,8 +32961,17 @@ const UnitInformation = [
     { //Benimaru - Complete, Review done
         id: 107176112,
         name: "Benimaru",
-        rank: "A-",
-        luckrank: "A",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.95,
+                defense: 1.16,
+                artgen: 0.00,
+                damage: 3.43,
+                buffs: 2.60,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -34164,8 +34233,17 @@ const UnitInformation = [
     { //Melty - Complete, Review done
         id: 107286212,
         name: "Melty",
-        rank: "A",
-        luckrank: "A",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.88,
+                defense: 0.00,
+                artgen: 3.59,
+                damage: 1.32,
+                buffs: 1.62,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Human",
         image: 
@@ -34258,8 +34336,17 @@ const UnitInformation = [
     { // Fitoria - Complete, Review done
         id: 107606312,
         name: "Fitoria",
-        luckrank: "B",
-        rank: "A+",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.91,
+                defense: 2.75,
+                artgen: 2.84,
+                damage: 2.21,
+                buffs: 2.66,
+                heal: 0.56,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -35261,8 +35348,17 @@ const UnitInformation = [
     { //Santa Milim - Complete, review done
         id: 107406112,
         name: "Santa Milim",
-        rank: "A-",
-        luckrank: "F",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.85,
+                defense: 1.16,
+                artgen: 3.29,
+                damage: 2.43,
+                buffs: 0.58,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -36709,8 +36805,17 @@ const UnitInformation = [
     { //Lucy Heartfilia - Complete (+ JP version), Review done
         id: 107566412,
         name: "Lucy Heartfilia",
-        luckrank: "A",
-        rank: "A-",
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.89,
+                defense: 0.00,
+                artgen: 3.36,
+                damage: 2.15,
+                buffs: 1.66,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -42225,8 +42330,18 @@ const UnitInformation = [
     { //Sanosuke Sagara - Missing Lore
         id: 108127212,
         name: `Sanosuke Sagara`,
+        tier: 
+            {
+                rank: `B+`,
+                overall: 2.99,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.78,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
-        rank: `S`,
         type: `Human`,
         image: 
             {
