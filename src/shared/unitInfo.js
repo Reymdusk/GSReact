@@ -37735,6 +37735,7 @@ const UnitInformation = [
     },
     { // Takemichi - Complete, Review done
         id: 107616111,
+        name: "Takemichi",
         tier: 
             {
                 rank: `C-`,
