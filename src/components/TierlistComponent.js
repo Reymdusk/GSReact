@@ -31,7 +31,13 @@ export default function Tierlist() {
         <Container style={{marginTop: "5rem"}}>
             <DisplayHeader />
             <Row>
-                <Nav pills justified>
+                <h2>
+                            Massive Tierlist Reorganization in Progress...
+                        </h2>
+                        <p>We apologize for any inconvenience this may cause.</p>
+                        <p>The Tierlist will be based on a document created by members of the GSOD team.</p>
+                        <p>To access the document, and also obtain a copy, click <a href="https://docs.google.com/spreadsheets/d/1J6b7ptaZPZYFkd1p28X_RiP8QpCRiaQnS0bfMpVtah8/">HERE</a></p>
+                {/* <Nav pills justified>
                     <NavItem>
                         <NavLink 
                             className={classNames({ active: currentTab === '1' })}
@@ -56,7 +62,7 @@ export default function Tierlist() {
                     <TabPane tabId="2">
                         <DisplayLuck unit={units} />
                     </TabPane>
-                </TabContent>
+                </TabContent> */}
             </Row>
         </Container>
     )
