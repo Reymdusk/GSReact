@@ -24925,16 +24925,7 @@ const UnitInformation = [
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103375212.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103376212.png"
             },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
+        slots:  
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
@@ -24956,9 +24947,9 @@ const UnitInformation = [
             {
                 skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
                 skillbreak: 800,
-                arts: "24000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
+                arts: "27000% Water DMG (MAG). For 20s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
                 artsbreak: 1300,
-                truearts: "82000% Water DMG (MAG). For 60s, increase Allies' MAG DMG and Water Allies' DMG by 50% (stackable).",
+                truearts: "82000% Water DMG (MAG). For 60s, increase Allies' MAG DMG and Water Allies' DMG by 60% (stackable).",
                 trueartsbreak: 2200
             }, 
         skillsetJP: 
@@ -24999,6 +24990,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat5amt: 2,
                     hover5: "Flogassa"
+                }
+            },
+            dream: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                        mat3amt: 2,
+                        hover3: "Flogassa",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Fire enemies by 150%.`,
+                        ability2: `Increase own Status ailment RES by 30% (except Faint).`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI rate by 50% when above 80% HP.`,
+                        ability2: `At the Start of a Quest, increase own Arts by 150. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
             dreamJP: {
@@ -25096,15 +25121,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
@@ -25125,9 +25141,9 @@ const UnitInformation = [
             {
                 skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 30.",
                 skillbreak: 500,
-                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 150%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 300% instead.",
+                arts: "15000% Earth DMG (MAG). Increase Allies' next True Arts' or Super Arts' DMG by 160%. Increase Earth Allies' next True Arts' or Super Arts' DMG by 320% instead.",
                 artsbreak: 1000,
-                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
+                truearts: "60000% Earth DMG (MAG). Increase Allies' Arts by 30. For 25s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 2200
             },
         skillsetJP: 
@@ -25140,6 +25156,12 @@ const UnitInformation = [
                 trueartsbreak: 2200
             },
         passive: 
+            {
+                ability1: "When HP is above 70%, increase Equip CT REC by 20%.",
+                ability2: "Increase Blind RES by 10%.",
+                ability3: "Increase Demon Allies' stats by 10%."
+            },
+        passiveJP: 
             {
                 ability1: "When HP is above 70%, increase Equip CT REC by 20%.",
                 ability2: "Increase Blind RES by 10%.",
@@ -25162,6 +25184,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat5amt: 2,
                     hover5: "Fosradius"
+                }
+            },
+        dream: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase Earth allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Disease RES by 50%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                        mat3amt: 2,
+                        hover3: "Ragsherum Phantom",
+                    },
+                    passive: {
+                        ability1: `Increase Demon allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Paralysis RES by 50%.`
+                    }
                 }
             },
         dreamJP: {
@@ -27175,15 +27231,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -27202,18 +27249,18 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
+                skill: "10s CT - 2000% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
                 skillbreak: 300,
-                arts: "20000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
+                arts: "25000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
                 artsbreak: 1000,
                 truearts: "[Current HP x 25]% Fire DMG (PHY).",
                 trueartsbreak: 1200
             },
         skillsetJP: 
             {
-                skill: "10s CT - 2000% Fire DMG (PHY). For 6s, increase own accuracy by 30%.",
+                skill: "10s CT - 2000% Fire DMG (PHY). For 8s, increase own accuracy by 30%.",
                 skillbreak: 300,
-                arts: "25000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
+                arts: "30000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.",
                 artsbreak: 1000,
                 truearts: "[Current HP x 25]% Fire DMG (PHY).",
                 trueartsbreak: 1200
@@ -27222,6 +27269,12 @@ const UnitInformation = [
             {
                 ability1: "Increase own ATK by 15% when HP is above 90%.",
                 ability2: "Increase own Arts by 2/s when HP is above 90%.",
+                ability3: "When near-death, increase own Arts by 200 and restore own HP by 100%. Only once and Does not stack with Abilities of the same name."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase own ATK by 20% when HP is above 90%.",
+                ability2: "Increase own Arts by 4/s when HP is above 90%.",
                 ability3: "When near-death, increase own Arts by 200 and restore own HP by 100%. Only once and Does not stack with Abilities of the same name."
             }, 
         evolution: 
@@ -27240,7 +27293,7 @@ const UnitInformation = [
                     hover4: "Degilmagna"
                 }
             },
-        dreamJP: {
+        dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -27336,15 +27389,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -27363,15 +27407,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1000.",
-                skillbreak: 200,
-                arts: "16000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 20% (Stackable).",
-                artsbreak: 2200,
-                truearts: "47000% Water DMG (MAG). For 30s, increase Allies' MAG and Critical DMG by 100%.",
-                trueartsbreak: 1300
-            },
-        skillsetJP: 
-            {
                 skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1500.",
                 skillbreak: 200,
                 arts: "22000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 30% (stackable).",
@@ -27379,11 +27414,20 @@ const UnitInformation = [
                 truearts: "52000% Water DMG (MAG). For 30s, increase Allies' MAG and CRI DMG by 150%.",
                 trueartsbreak: 3000
             },
+        skillsetJP: 
+            {
+                skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1500.",
+                skillbreak: 200,
+                arts: "22000% Water DMG (MAG). Increase own Arts by 20. For 80s, reduce Enemies' DMG RES by 40% (stackable).",
+                artsbreak: 2200,
+                truearts: "62000% Water DMG (MAG). For 30s, increase Allies' MAG and CRI DMG by 170%.",
+                trueartsbreak: 3000
+            },
         passive: 
             {
                 ability1: "At the start of a Quest, increase own Arts by 100. When HP is above 80%, increase own Critical Rate by 100%.",
                 ability2: "Increase own Paralysis RES by 80%.",
-                ability3: "Increase own Arts by 3/s."
+                ability3: "Increase own Arts by 4/s."
             }, 
         evolution: 
             {
@@ -27401,7 +27445,7 @@ const UnitInformation = [
                     hover4: "Palamicia"
                 }
             },
-        dreamJP: {
+        dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -27491,8 +27535,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103616312.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103617312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_361_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103616312.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103617312.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103617312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_361_1.png"
             },
         slots: 
             {
@@ -29374,9 +29420,28 @@ const UnitInformation = [
                 superarts: `180000% Fire DMG (PHY). During Super Arts, increase own DMG by 100% for each Ally above 90% HP (up to 400%).`,
                 superartsbreak: 2700
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 3200% Fire DMG (PHY). For 3s, increase all Allies' Arts by 10/s.\nNote: This unit's Arts Gen is Type G and will not stack with other Type G Arts Gen.`,
+                skillbreak: 700,
+                arts: `25000% Fire DMG (PHY). For 20s, increase Equipment CT REC of own PHY Equipment and own ATK by 50%.`,
+                artsbreak: 1500,
+                truearts: `73000% Fire DMG (PHY). For 40s, Allies ignore 100% of Enemies' DEF + reduce Enemies' Fire RES by 100%.`,
+                trueartsbreak: 2000,
+                superarts: `210000% Fire DMG (PHY). During Super Arts, increase own DMG by 100% for each Ally above 80% HP (up to 400%).`,
+                superartsbreak: 2700
+            },
         passive: 
             {
                 ability1: `When Summer Riviera is near death, recover Allies' HP by 100% HP + For 20s, Allies gain a DMG barrier that negates 5000 DMG. Can only occur once per Quest.`,
+                ability2: `Increase DMG to Water Enemies by 30%.`,
+                ability3: `Increase Freeze RES by 80%.`,
+                ability4: `Unit EXP UP 20% UP. (When Summer Riviera's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Summer Riviera's SP. Art is owned)`
+            },
+        passiveJP: 
+            {
+                ability1: `When Summer Riviera is near death, recover Allies' HP by 100% HP + For 20s, Allies gain a DMG barrier that negates 7000 DMG. Can only occur once per Quest.`,
                 ability2: `Increase DMG to Water Enemies by 30%.`,
                 ability3: `Increase Freeze RES by 80%.`,
                 ability4: `Unit EXP UP 20% UP. (When Summer Riviera's SP. Art is owned)`,
@@ -29412,9 +29477,10 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Rosetta - Missing Lore (JP)
+    { //Summer Rosetta - Missing Lore
         id: 103757512,
         name: `Summer Rosetta`,
+        translate: `Supercharged Genius Rosetta`,
         attribute: `Dark`,
         type: `Demon`,
         image: 
@@ -29456,6 +29522,17 @@ const UnitInformation = [
                 superarts: `140000% Dark DMG (MAG). For 20s, increase Dark Allies' DMG by 150% and Demon Allies' DMG by 150%.`,
                 superartsbreak: 2500
             },
+        skillsetJP: 
+            {
+                skill: `11s CT - 2300% Dark DMG (MAG). Increase own Arts by 20. If own HP is above 80%, increase own Arts by 40 instead.`,
+                skillbreak: 700,
+                arts: `18000% Dark DMG (MAG). For 25s, increase Allies' stats by 30%.`,
+                artsbreak: 1200,
+                truearts: `55000% Dark DMG (MAG). For 25s, reduce Enemies' MAG RES by 90% and increase >50% HP Allies' Arts gauge by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                trueartsbreak: 1800,
+                superarts: `150000% Dark DMG (MAG). For 20s, increase Dark Allies' DMG by 150% and Demon Allies' DMG by 150%.`,
+                superartsbreak: 2500
+            },
         passive: 
             {
                 ability1: `When unafflicted with any Status ailment, increase Allies' Heal Equip's CT Speed by 30% and Heal Equip's Heal Amount by 60% (Excluding Lifesteal). Does not stack with Abilities of the same name.`,
@@ -29477,7 +29554,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Rosetta's Innerwear (Slim)`,
+                name: `Rosetta's Inner Guard`,
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_112571.png",
                 skill: `35s CT - For 10s, increase all allies' Arts by 3/s and Demon allies' stats by 15%.`,
@@ -29490,8 +29567,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Goddess Celia - Complete
@@ -30992,9 +31069,10 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Vena - Missing Lore (JP)
+    { //Venna - Missing Lore (JP)
         id: 103927311,
-        name: `Vena`,
+        name: `Venna`,
+        translate: `Vena`,
         attribute: `Earth`,
         type: `Beast`,
         image: 
@@ -31056,6 +31134,84 @@ const UnitInformation = [
             {   
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
+            }
+    },
+    {
+        id: 103937412,
+        name: `Yuna`,
+        attribute: `Light`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103936412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103937412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103936412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103937412.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7469,
+                hpplus: 1408,
+                atk: 3953,
+                atkplus: 682,
+                def: 2803,
+                defplus: 584
+            },
+        skillset:
+            {
+                skill: `12s CT - 2500% Light DMG (PHY). Increase own Arts by 30. If used while in Extreme Luck mode, increase own Arts by 60 instead.`,
+                skillbreak: 1000,
+                arts: `25000% Light DMG (PHY). For 25s, increase own Accuracy by 60% and allies' CRI RES by 40%.`,
+                artsbreak: 1500,
+                truearts: `50000% Light DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. If used while Boss' HP is below 50%, reduce enemies' PHY RES by an additional 30%. If used while Boss' HP is below 20%, reduce enemies' PHY RES by an additional 40%.`,
+                trueartsbreak: 2500,
+                superarts: `150000% Light DMG (PHY). For 77.7s, enter Extreme Luck mode.`,
+                superartsbreak: 3000
+            },
+        passive:
+            {
+                ability1: `Increase own CRI DMG by 70%.`,
+                ability2: `When own HP is 80% or higher, increase own CRI rate by 100%.`,
+                ability3: `When in Extreme Luck mode, increase own Super CRI rate by 70% and doubles True Arts' DMG Multiplier. Does not stack with Abilities of the same name.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "True 'Heaven's Ticket'",
+                slot: "/db/Mines/thumbnail/phyLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113281.png",
+                skill: "60s CT - 10000% Light DMG (PHY). For 10s, increase own PHY DMG by 50%. If user is Spirit, increase own PHY DMG by 100% instead.",
+                skillbreak: 600,
+                passive:
+                    {
+                        ability1: "When equipped by Yuna, increase own Arts by 1/s and At Start of Quest, increase own Arts by 150. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own PHY RES by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
             }
     },
     { //Sword God Luahn - Missing Lore (JP)

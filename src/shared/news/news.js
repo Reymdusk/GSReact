@@ -3474,6 +3474,44 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 105,
+        date: `August 16, 2025`,
+        article: 
+        {
+            intro: `More Summer shenanigans on both JP and Global! Additionally, Yuna makes her grand debut on JP too!`,
+            new:
+                {
+                    units: [
+                        [`Yuna`, 103937412]
+                    ],
+                    equips: [
+                        [`アズエルのオーシャンズレッド`, 113241],
+                        [`ユナのヘブンズホルター`, 113251],
+                        [`カンパニー指定スイムL`, 113261],
+                        [`リヴィエラのフリーダムステップ`, 113271],
+                        [`真『ヘブンズチケット』`, 113281]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Rosetta`, 103757512]
+                    ],  
+                    equips: [
+                        [`True 'Rosetta's Inner Guard'`, 112571],
+                        [`Great Granadia`, 111751]
+                    ],
+                    dream: [
+                        [`Summer Juno`, 103376212],
+                        [`Summer Leone`, 103386312],
+                        [`Summer Cestina`, 103596112],
+                        [`Summer Liza`, 103606212]
+                    ]
+                }
+        }
     }
 ]
 

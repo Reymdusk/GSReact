@@ -32435,10 +32435,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //GO！グレート・ガナルディア号 - JP Complete
+    { //Great Granadia - Missing Lore
         id: 111751,
-        name: `GO！グレート・ガナルディア号`,
-        translate: `GO! Great Gramenia`,
+        name: `Great Granadia`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -32463,9 +32462,9 @@ const EquipInformation = [
             {
                 ability1: `MAX HP 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //True 'Ces' Sandy Blossom' - JP Complete
+    { //True 'Ces' Sandy Blossom' - Missing Lore
         id: 111761,
         name: `True 'Ces' Sandy Blossom'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -34876,10 +34875,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『ロゼッタインナー(スリム用)』 - JP Complete
+    { //True 'Rosetta's Inner Guard' - Missing Lore
         id: 112571,
-        name: `真『ロゼッタインナー(スリム用)』`,
-        translate: `True 'Rosetta's Inner Guard'`,
+        name: `True 'Rosetta's Inner Guard'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34905,7 +34903,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Rosetta, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Riviera's Powder Keg' - Missing Lore
         id: 112581,
@@ -36934,6 +36932,161 @@ const EquipInformation = [
                 ability1: `Increase Own Magic DMG by 25% UP. For 165.5s after start of quest, Increase All Allies Fire DMG by 20%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
+    },
+    {
+        id: 113241,
+        name: `アズエルのオーシャンズレッド`,
+        translate: `Azel's Ocean Red`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 20s, increase allies' Magic RES by 30%. If user is Demon, increase allies' Magic RES by 45% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113251,
+        name: `ユナのヘブンズホルター`,
+        translate: `Yuna's Heaven Halter`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113251.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `45s CT - Increase target's Arts by 70. Additionally if user is Light, for 20s, increase target's stats by 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113261,
+        name: `カンパニー指定スイムL`,
+        translate: `Company Designated Swim L`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 12000% Water DMG (Physical). For 20s, increase own ATK by 60% and Water allies' ATK by 40%.`,
+                skillbreak: 1200
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113271,
+        name: `リヴィエラのフリーダムステップ`,
+        translate: `Riviera's Freedom Steps`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6000% Fire DMG (Physical). For 8s, increase own Fire DMG by 50%. Additionally if used for the first time, increase own Arts by 50.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 10% when above 90% HP.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113281,
+        name: `真『ヘブンズチケット』`,
+        translate: `True 'Heaven's Ticket'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 10000% Light DMG (Physical). For 10s, increase own Physical DMG by 50%. If user is Spirit, increase own Physical DMG by 100% instead.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When equipped by Yuna, increase own Arts by 1/s and At Start of Quest, increase own Arts by 150. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
     },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
