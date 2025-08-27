@@ -34482,10 +34482,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『白玄両儀』 - JP Complete
+    { //True 'Duo Ritual' - Missing Lore
         id: 112441,
-        name: `真『白玄両儀』`,
-        translate: `True 'Hakugen Ryogi'`,
+        name: `True 'Duo Ritual'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34508,15 +34507,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Sword God Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Dragon Authority Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Skill DMG by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //龍神刀『白玄両儀』 - JP Complete
+    { //Dragon Katana 'Duo Ritual' - Missing Lore
         id: 112451,
-        name: `龍神刀『白玄両儀』`,
-        translate: `Dragon God Sword 'Hakugen Ryogi'`,
+        name: `Dragon Katana 'Duo Ritual'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34541,12 +34539,11 @@ const EquipInformation = [
             {
                 ability1: `Reduce own Arts by 2/s when below 80% HP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Dragon God Clothes 'Naru Tenki' - JP Complete
+    { //Dragon Robe 'Merciful Majesty' - Missing Lore
         id: 112461,
-        name: `龍神衣『鳴天葵威』`,
-        translate: `Dragon God Clothes 'Naru Tenki'`,
+        name: `Dragon Robe 'Merciful Majesty'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34571,7 +34568,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Skill CT Speed by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Mira's Swelling Mermaid' - JP Complete
         id: 112471,
@@ -37085,6 +37082,99 @@ const EquipInformation = [
             {
                 ability1: `When equipped by Yuna, increase own Arts by 1/s and At Start of Quest, increase own Arts by 150. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113291,
+        name: `真『コメットライナー』`,
+        translate: `True 'Comet Liner'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 10000% Dark DMG (Physical). For 10s, increase own ATK by 60%. Additionally after its second use, for 10s, increase own Equipment DMG by 60%. Additionally after its third use, for 10s, increase own CRI DMG by 60%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Zephyr, increase own Skill CT Speed by 30%. At Start of Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113301,
+        name: `冥星槌『コメットライナー』`,
+        translate: `Dark Star Hammer 'Comet Liner'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `120s CT - 12000% Dark DMG (Physical). For 25s, increase own DMG by 70% and non-God, non-Human, non-Demon allies' DMG by 70%.`,
+                skillbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Reduce own MAX HP by 20%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113311,
+        name: `月獣装『ルナティックヘルツ』`,
+        translate: `Moon Beast Armor 'Lunatic Hertz'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `40s CT - For 20s, increase allies' Dark resistance and Physical RES by 20%.`,
+                skillbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
             },
         lore: `Currently unreleased in Global.`
     },

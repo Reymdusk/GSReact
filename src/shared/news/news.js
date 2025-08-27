@@ -3512,6 +3512,45 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 106,
+        date: `August 27, 2025`,
+        article: 
+        {
+            intro: `Chapter 35 makes its debut on JP, alongside Zephyr! Meanwhile on Global, Chapter 30 makes its debut, alongside Dragon Authority Luahn and some new Dream Awakenings!`,
+            new:
+                {
+                    units: [
+                        [`Zephyr`, 104137512]
+                    ],
+                    equips: [
+                        [`真『コメットライナー』`, 113291],
+                        [`冥星槌『コメットライナー』`, 113301],
+                        [`月獣装『ルナティックヘルツ』`, 113311]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Dragon Authority Luahn`, 103997512]
+                    ],  
+                    equips: [
+                        [`True 'Duo Ritual'`, 112441],
+                        [`Dragon Katana 'Duo Ritual'`, 112451],
+                        [`Dragon Robe 'Merciful Majesty'`, 112461]
+                    ],
+                    dream: [
+                        [`Elfalla`, 100646412],
+                        [`Lily`, 100656512],
+                        [`Rosetta (Earth)`, 103446312],
+                        [`Thetis (Light)`, 103586412],
+                        [`Riviera (Dark)`, 103576512],
+                        [`Swordsman Berwick`, 102666112]
+                    ]
+                }
+        }
     }
 ]
 

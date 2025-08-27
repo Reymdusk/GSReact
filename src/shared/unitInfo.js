@@ -2138,7 +2138,7 @@ const UnitInformation = [
                 evoawk: "A Machine weapon that underwent self-evolution after absorbing many spirits. It crushed the strongest of the Gods' soldiers, but the Beasts proved to be formidable threats. When one of them defended against an all-out barrage, its self-defense system sounded the alarm to retreat, but the soldier's will programmed into its core demanded it bring the battle to a conclusion."
             }
     },
-    { //Elfalla - Complete (+ Dream Evo)
+    { //Elfalla - Complete
         id: 100646412,
         name: "Elfalla",
         tier: 
@@ -2168,15 +2168,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
@@ -2194,15 +2185,6 @@ const UnitInformation = [
                 defplus: 411
             },
         skillset: 
-            {
-                skill: "9s CT - 1600% Light DMG (PHY). 10% chance to inflict Paralysis for 3s.",
-                skillbreak: 1100,
-                arts: "12000% Light DMG (PHY). 80% chance to inflict Paralysis for 3s + For 15s, increase Light Allies' Break PWR by 30%.",
-                artsbreak: 1600,
-                truearts: "27000% Light DMG (PHY). Increase own Arts by 60 + For 20s, reduce Enemies' Paralysis RES by 50%.",
-                trueartsbreak: 2900
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 1600% Light DMG (PHY). 10% chance to inflict Paralysis for 3s.",
                 skillbreak: 1100,
@@ -2243,7 +2225,7 @@ const UnitInformation = [
                     hover3: "Fosradius",
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -2286,7 +2268,7 @@ const UnitInformation = [
                 evoawk: "A hero praised as the Empyreal Beast. After realising his mistake in fleeing from the Machine weapon, he rushed back to the battlefield. Though afraid he was too late to stop the inevitable slaughter, he arrived to see his brothers-in-arms fighting against the menace, empowered by the belief that he would return. That was the inspiration he needed to shed his past regrets and face his destined foe."
             }
     },
-    { //Lily - Complete (+ JP Dream Evo)
+    { //Lily - Complete
         id: 100656512,
         name: "Lily",
         tier: 
@@ -2316,15 +2298,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -2342,15 +2315,6 @@ const UnitInformation = [
                 defplus: 307
             },
         skillset: 
-            {
-                skill: "7s CT - 2500% Dark DMG (PHY). DMG and CRI rate of this Skill increases the lower the Enemies' HP is.",
-                skillbreak: 1150,
-                arts: "11800% Dark DMG (PHY). DMG and Break PWR of this Arts increases the higher the Enemies' HP is.",
-                artsbreak: 2800,
-                truearts: "23800% Dark DMG (PHY). For 12s, increase own CRI rate by 100% and reduce Enemies' Movement Speed by 30%.",
-                trueartsbreak: 4500
-            },
-        skillsetJP: 
             {
                 skill: "7s CT - 2500% Dark DMG (PHY). For 8s, increase own DMG and CRI rate the lower the Enemies' HP is (MAX: 200%).",
                 skillbreak: 1200,
@@ -2406,7 +2370,7 @@ const UnitInformation = [
                     hover5: "Flogassa"
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -16971,7 +16935,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Swordsman Berwick - Complete (+ JP ver.)
+    { //Swordsman Berwick - Complete
         id: 102666112,
         name: "Swordsman Berwick",
         tier: 
@@ -16997,15 +16961,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -17023,15 +16978,6 @@ const UnitInformation = [
                 defplus: 338
             },
         skillset: 
-            {
-                skill: "8s CT - 1600% Fire DMG (PHY). Increase own Arts by 20. During Magia Drive: 1600% Fire DMG (PHY). Increase own Arts by 40.",
-                skillbreak: 700,
-                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' Arts by 3/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                artsbreak: 1800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Fire DMG (PHY). For 10s, increase Allies' Max HP by 20% and PHY DMG by 100%.",
-                trueartsbreak: 3500
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 3300% Fire DMG (PHY). Increase own Arts by 20. During Magia Drive: 3300% Fire DMG (PHY). Increase own Arts by 40.",
                 skillbreak: 700,
@@ -17065,7 +17011,7 @@ const UnitInformation = [
                     hover5: "Wilkes"
                 }
             },
-        dreamJP: {
+        dream: {
             fire: {
                 evolution: {
                     mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -25957,7 +25903,7 @@ const UnitInformation = [
                 evoawk: "A mysterious conjurer who appeared all over Raktehelm with winter's approach. Regardless of her mass popularity, no one ever learned her true origins since she answered every question with a lie. However, her revision of the Grimm Stella works which position her as the central focus contains some measure of truth. She also wrote many poetry collections about winter and practiced lithomancy."
             }
     },
-    { //Rosetta (Earth) - Complete, Review Done + JP ver
+    { //Rosetta (Earth) - Complete, Review Done
         id: 103446312,
         name: "Rosetta (Earth)",
         tier: 
@@ -25983,15 +25929,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -26009,15 +25946,6 @@ const UnitInformation = [
                 defplus: 399
             },
         skillset: 
-            {
-                skill: "10s CT - 1800% Earth DMG (MAG). Increase own Arts by 20.",
-                skillbreak: 500,
-                arts: "13000% Earth DMG (MAG). For 15s, reduce Enemies' Earth RES by 30%. During Magia Drive: 13000% Earth DMG (MAG). If this Arts has been activated twice during the duration of the current Magia Drive, activate Magia Drive: Unlimited for the duration of the current Magia Drive. For 15s, reduce Enemies' Earth RES by 30%. During Magia Drive: Unlimited: 26000% Earth DMG (MAG). For 15s, reduce Enemies' Earth RES by 50%.",
-                artsbreak: 1000,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 40000% Earth DMG (MAG). For 20s, increase Allies' Equip CT REC and MAG DMG by 50%. During Magia Drive: Unlimited: 80000% Earth DMG (MAG). For 20s, increase Allies' Equip CT REC and MAG DMG by 50%.",
-                trueartsbreak: 1400
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 1800% Earth DMG (MAG). Increase own Arts by 20.",
                 skillbreak: 500,
@@ -26051,7 +25979,7 @@ const UnitInformation = [
                     hover5: "Flogassa"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -26799,15 +26727,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -26828,27 +26747,12 @@ const UnitInformation = [
             {
                 skill: "13s CT - 1800% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
                 skillbreak: 400,
-                arts: "16000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: 16000% Dark DMG (PHY). Activate Magia Drive: Unlimited for the duration of the current Magia Drive. For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: Unlimited: 16000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 40% (stackable).",
-                artsbreak: 800,
-                truearts: "For 180s, enter Magia Drive. During Magia Drive: 60000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 60%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                trueartsbreak: 1200
-            },
-        skillsetJP: 
-            {
-                skill: "13s CT - 1800% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
-                skillbreak: 400,
                 arts: "25000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: 25000% Dark DMG (MAG). Enter Magia Drive: Unlimited for remaining duration of Magia Arts. For 40s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: Unlimited: 25000% Dark DMG (MAG). For 40s, reduce Enemies' Dark RES by 50% (stackable).",
                 artsbreak: 800,
                 truearts: "For 180s, enter Magia Drive. During Magia Drive: 70000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
                 trueartsbreak: 1200
             },
         passive: 
-            {
-                ability1: "During Magia Drive, increase own DMG to Demons by 50%.",
-                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
-                ability3: "Increase Paralysis RES by 90%."
-            }, 
-        passiveJP: 
             {
                 ability1: "During Magia Drive, increase own DMG to Demons by 120%.",
                 ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
@@ -26870,7 +26774,7 @@ const UnitInformation = [
                     hover4: "Elpneumas"
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -26940,7 +26844,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Thetis (Light) - Complete, Review done + JP ver
+    { //Thetis (Light) - Complete, Review done
         id: 103586412,
         name: "Thetis (Light)",
         attribute: "Light",
@@ -26966,15 +26870,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -26995,27 +26890,12 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2000% Light DMG (PHY). Increase own Arts by 10.",
                 skillbreak: 300,
-                arts: "17000% Light DMG (PHY). During Magia Drive: 17000% Light DMG (PHY). Activate Magia Drive: Unlimited for the duration of the current Magia Drive. During Magia Drive: Unlimited: 17000% Light DMG (PHY). For 25s, increase Allies' PHY DMG by 80%.",
-                artsbreak: 700,
-                truearts: "For 120s, enter Magia Drive. During Magia Drive: 100000% Light DMG (PHY).",
-                trueartsbreak: 1000
-            },
-        skillsetJP: 
-            {
-                skill: "10s CT - 2000% Light DMG (PHY). Increase own Arts by 10.",
-                skillbreak: 300,
                 arts: "During Magia Drive: 17000% Light DMG (PHY). Enter Magia Drive: Unlimited for the duration of the current Magia Drive. During Magia Drive: Unlimited: 17000% Light DMG (PHY). For 25s, increase Allies' PHY DMG by 120%.",
                 artsbreak: 700,
                 truearts: "For 120s, enter Magia Drive. During Magia Drive: 130000% Light DMG (PHY).",
                 trueartsbreak: 1000
             },
         passive: 
-            {
-                ability1: "During Magia Drive, increase own ATK and DEF by 50%.",
-                ability2: "During Magia Drive: Unlimited, increase own Critical Rate by 150%.",
-                ability3: "Increase Accuracy by 20%."
-            }, 
-        passiveJP: 
             {
                 ability1: "During Magia Drive, increase own ATK and DEF by 50%.",
                 ability2: "During Magia Drive: Unlimited, increase own Critical Rate by 220%.",
@@ -27037,7 +26917,7 @@ const UnitInformation = [
                     hover4: "Aerugraxes"
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -31214,17 +31094,20 @@ const UnitInformation = [
                 evosuper: `Currently unreleased in Global.`
             }
     },
-    { //Sword God Luahn - Missing Lore (JP)
+    { //Dragon Authority Luahn - Missing Lore
         id: 103997512,
-        name: `Sword God Luahn`,
+        name: `Dragon Authority Luahn`,
+        translate: `Sword God Luahn`,
         attribute: `Dark`,
         type: `God`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_103996512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103997512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_399_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103996512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103997512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103997512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_399_1.png"
             },
         slots: 
             {
@@ -31260,7 +31143,17 @@ const UnitInformation = [
             {
                 ability1: `When set as Leader, increase all allies' Equip CT Speed by 50% for first 100s of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase all allies' CRI DMG by 50%. Does not stack with Abilities of the same name.`,
+                ability3: `At the Start of Quest, increase own Arts by 100.`,
+                ability4: `Unit EXP UP 20% UP. (When Dragon Authority Luahn's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Dragon Authority Luahn's SP. Art is owned)`
+
+            },
+        passiveJP: 
+            {
+                ability1: `When set as Leader, increase all allies' Equip CT Speed by 50% for first 100s of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase all allies' CRI DMG by 50%. Does not stack with Abilities of the same name.`,
                 ability3: `At the Start of Quest, increase own Arts by 100.`
+
             }, 
         evolution: 
             {
@@ -31275,21 +31168,21 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Hakugen Ryogi`,
+                    name: `Duo Ritual`,
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "/db/Equipment/Detail/item_detail_112441.png",
                     skill: `20s CT - 4000% Dark DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. Additionally if user is God, increase own Arts by 10.`,
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: `When equipped by Sword God Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Dragon Authority Luahn, increase own stats by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own Skill DMG by 10%.`
                         }
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Summer Mira - Complete
@@ -32310,6 +32203,84 @@ const UnitInformation = [
             {   
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
+            }
+    },
+    {
+        id: 104137512,
+        name: `Zephyr`,
+        attribute: `Dark`,
+        type: `Beast`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104136512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104137512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104136512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104137512.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 7194,
+                hpplus: 1358,
+                atk: 3912,
+                atkplus: 676,
+                def: 3034,
+                defplus: 628
+            },
+        skillset:
+            {
+                skill: `10s CT - 2500% Dark DMG (PHY). Increase own Skill's BE Output by 50%.`,
+                skillbreak: 600,
+                arts: `24000% Dark DMG (PHY). Increase DMG of next Super Arts used by 200% (MAX: 6 stacks, using Super Arts will consume 2 stacks). Additionally, for 10s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will not stack with other Type EX1 Arts Gen.`,
+                artsbreak: 800,
+                truearts: `45000% Dark DMG (PHY). For 30s, increase allies' Arts by 3/s and increase allies' Arts by 30 each time they use their Skill.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
+                trueartsbreak: 1500,
+                superarts: `150000% Dark DMG (PHY). For 15s, increase allies' ATK, Dark DMG and PHY DMG by 60%.`,
+                superartsbreak: 2300
+            },
+        passive:
+            {
+                ability1: `Increase own DMG by [75 x # of non-Human, non-God, non-Demon allies]% (MAX: 300%). Does not stack with Abilities of the same name.`,
+                ability2: `When "Miasma" Area Effect is active, increase Arts-over-time Effects by 80%.`,
+                ability3: `Increase DMG against Enemies under 30% HP by 20%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "True 'Comet Liner'",
+                slot: "/db/Mines/thumbnail/phyLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113291.png",
+                skill: "60s CT - 10000% Dark DMG (PHY). For 10s, increase own ATK by 60%. Additionally after its second use, for 10s, increase own Equipment DMG by 60%. Additionally after its third use, for 10s, increase own CRI DMG by 60%.",
+                skillbreak: 1000,
+                passive:
+                    {
+                        ability1: "When equipped by Zephyr, increase own Skill CT Speed by 30%. At Start of Quest, increase own Arts by 100. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
             }
     },
     { //Zinogre Armor Rayas - Missing Lore (JP)
