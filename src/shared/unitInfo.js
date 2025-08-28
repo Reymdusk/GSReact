@@ -31078,7 +31078,7 @@ const UnitInformation = [
         trueweapon:
             {
                 name: "True 'Heaven's Ticket'",
-                slot: "/db/Mines/thumbnail/phyLB.png",
+                slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_113281.png",
                 skill: "60s CT - 10000% Light DMG (PHY). For 10s, increase own PHY DMG by 50%. If user is Spirit, increase own PHY DMG by 100% instead.",
                 skillbreak: 600,
@@ -32267,7 +32267,7 @@ const UnitInformation = [
         trueweapon:
             {
                 name: "True 'Comet Liner'",
-                slot: "/db/Mines/thumbnail/phyLB.png",
+                slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_113291.png",
                 skill: "60s CT - 10000% Dark DMG (PHY). For 10s, increase own ATK by 60%. Additionally after its second use, for 10s, increase own Equipment DMG by 60%. Additionally after its third use, for 10s, increase own CRI DMG by 60%.",
                 skillbreak: 1000,
