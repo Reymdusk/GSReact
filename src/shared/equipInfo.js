@@ -1003,9 +1003,9 @@ const EquipInformation = [
             },
         lore: `Mystical medicine created from morning mist in the Fairy Forest. A concentration of the healing power of the trees, it can even save patients with a terminal prognosis, but a healthy person will suffer hallucinations and other side effects. Therefore, in order to prevent mistaken imbibing, in the Isliid Empire it can only be prescribed by doctors.`
     },
-    { //Prayer Wine 'Soma' - Complete
+    { //Prayer Wine "Soma" - Complete
         id: 100331,
-        name: `Prayer Wine 'Soma'`,
+        name: `Prayer Wine "Soma"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -1033,9 +1033,9 @@ const EquipInformation = [
             },
         lore: `Holy wine extracted from the sap of the divine tree Soma, where the spirits of departed fairies gather. Sweet, refreshing, and a powerful analeptic. Originally created as an offering to the divine, during the Ancient War it was used to bring courage to fighting men. Records state that not a single combatant who drank this wine fell in battle.`
     },
-    { //Blessed Wine 'Amurita' - Complete
+    { //Blessed Wine "Amurita" - Complete
         id: 100341,
-        name: `Blessed Wine 'Amurita'`,
+        name: `Blessed Wine "Amurita"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
@@ -1093,9 +1093,9 @@ const EquipInformation = [
             },
         lore: `A flower said to forewarn its owner. Major General Salbatol of the Gramenia Republic once received one from a young girl as he set out to battle. Thinking little more of it, just before a raid he noticed the flower had died. He called the attack off, and they later found his plan had been leaked to the enemy; the flower had saved him and all his men.`
     },
-    { //Heavenly Robe 'Michael' - Complete
+    { //Heavenly Robe "Michael" - Complete
         id: 100361,
-        name: `Heavenly Robe 'Michael'`,
+        name: `Heavenly Robe "Michael"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -1693,9 +1693,9 @@ const EquipInformation = [
             },
         lore: `A massive hammer once owned by a mountain god. Harboring the power of creation, striking the ground with it allows terrain to be changed at will. Long ago, tribes living in the mountains squabbled over territory. The god summoned the elders of each tribe and swung this hammer to change the shape of the mountains, making territory boundaries clear.`
     },
-    { //Holy Staff 'Dominion' - Complete
+    { //Holy Staff "Dominion" - Complete
         id: 100561,
-        name: `Holy Staff 'Dominion'`,
+        name: `Holy Staff "Dominion"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -1723,9 +1723,9 @@ const EquipInformation = [
             },
         lore: `A ringed staff bequeathed by the gods to the high priest. Nothing evil can exist within range of its rattling sound. Normally the high priest would never go into battle, let alone fight on the front lines. However, when the demons revived during the unification of Raktehelm, High Priest Franchess took to the field and eradicated the demons in an instant.`
     },
-    { //Healing Statue 'Panakeia' - Complete
+    { //Healing Statue "Panakeia" - Complete
         id: 100571,
-        name: `Healing Statue 'Panakeia'`,
+        name: `Healing Statue "Panakeia"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -1753,9 +1753,9 @@ const EquipInformation = [
             },
         lore: `A statue imbued with the power of the healing goddess Panakeia. It can cure not only the sick but also purify the earth and even miasma. She created these statues as safe places for her followers during the Ancient War, and the areas around them remained sickness and starvation free. Many were destroyed in the chaos after the war, leaving few intact today.`
     },
-    { //Blazing Blade 'Ragnavelga' - Complete
+    { //Blazing Blade "Ragnavelga" - Complete
         id: 100581,
-        name: `Blazing Blade 'Ragnavelga'`,
+        name: `Blazing Blade "Ragnavelga"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -1783,9 +1783,9 @@ const EquipInformation = [
             },
         lore: `A massive blade forged from fire left by the blazing god Ragnarok, known as the "one who burned the world". During the Ancient War Ragnarok reduced his foes to ash left and right, and even his allies gave him a wide berth. The fire he started would not burn out even after the war ended, and swinging this sword can unleash that destructive power once again.`
     },
-    { //Magic Armor 'Gargantua' - Complete
+    { //Magic Armor "Gargantua" - Complete
         id: 100591,
-        name: `Magic Armor 'Gargantua'`,
+        name: `Magic Armor "Gargantua"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -1813,9 +1813,9 @@ const EquipInformation = [
             },
         lore: `The demon Gargantua was so evil, he would kill even his allies to meet his own ends. Eventually other demons laid a trap and sealed his soul within this armor. Any who now wear it receive incredible strength but also an insatiable desire to do evil, as though possessed; a voice telling them more sacrifices are required in numbers of deaths equal to the stars.`
     },
-    { //God Life Sword 'Seraph' - Complete
+    { //God Life Sword "Seraph" - Complete
         id: 100601,
-        name: `God Life Sword 'Seraph'`,
+        name: `God Life Sword "Seraph"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -1843,9 +1843,9 @@ const EquipInformation = [
             },
         lore: `A holy blade used by divine command to eradicate demons. Sensing the presence of demons causes the blade to ring like a bell, warning the angel wielder. Having slain so many demons during the Ancient War, the sounds of bells in battle eventually started to scare demons away. This is why in Raktehelm even today charms with bells attached are used to ward evil.`
     },
-    { //Calming Sword 'Stillness' - Complete
+    { //Calming Sword "Stillness" - Complete
         id: 100611,
-        name: `Calming Sword 'Stillness'`,
+        name: `Calming Sword "Stillness"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -1873,9 +1873,9 @@ const EquipInformation = [
             },
         lore: `A single-edged sword used only in the far east of the Gramenia Republic. This is the oldest of all currently confirmed examples. Records from the Ancient War say it was used by a warrior who lived only by the sword, not relying on magic or alchemy. The moment anyone picks it up their heart calms like still water and they can read enemy movements with ease.`
     },
-    { //Soultaker Stone 'Demonica' - Complete
+    { //Soultaker Stone "Demonica" - Complete
         id: 100621,
-        name: `Soultaker Stone 'Demonica'`,
+        name: `Soultaker Stone "Demonica"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -1935,7 +1935,7 @@ const EquipInformation = [
     },
     { //Fox Fan 'White Nine Tails' - Complete
         id: 100641,
-        name: `Fox Fan 'White Nine Tails'`,
+        name: `Fox Fan "White Nine Tails"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -2233,9 +2233,9 @@ const EquipInformation = [
             },
         lore: `A ritual scythe, wreathed in terrible energy but with little killing power as a weapon. The true terror is the curse it carries to subjugate the soul of anyone it cuts. Alkeroth, devil of lies and betrayal, used this to turn allies and enemies into his puppets. His bizarre orders and insane strategies during the Ancient War were all fueled by this scythe.`
     },
-    { //Magitome 'Log Vida' - Complete
+    { //Magitome "Log Vida" - Complete
         id: 100741,
-        name: `Magitome 'Log Vida'`,
+        name: `Magitome "Log Vida"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
@@ -2263,9 +2263,9 @@ const EquipInformation = [
             },
         lore: `A book containing verses written by ancient humans in praise of natural phenomena as "gods". A treasure-trove of ancient knowledge, the beautiful text sounds like magical chanting when read aloud. The longest passages, loaded with primal power and dedicated to the almighty god of destruction, have been known to burn inattentive inscribers to ash.`
     },
-    { //Brilliant Blade 'Regracia' - Complete
+    { //Brilliant Blade "Regracia" - Complete
         id: 100751,
-        name: `Brilliant Blade 'Regracia'`,
+        name: `Brilliant Blade "Regracia"`,
         location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2293,9 +2293,9 @@ const EquipInformation = [
             },
         lore: `A sword owned by Rayas. He found it when exploring caves with his friend Roy, but it was plunged deep in a rock and the boys were unable to pull it free. They visited the cave many more times but could never move it. Eventually Roy left to become a knight. As though answering Rayas' resolve, when he returned to the cave alone he finally removed the sword.`
     },
-    { //Sacred Crown 'Raaz' - Missing Lore
+    { //Sacred Crown "Raaz" - Missing Lore
         id: 100761,
-        name: `Sacred Crown 'Raaz'`,
+        name: `Sacred Crown "Raaz"`,
         location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -2323,9 +2323,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Ice Wolf Blade 'Gaimalse' - Complete
+    { //Ice Wolf Blade "Gaimalse" - Complete
         id: 100771,
-        name: `Ice Wolf Blade 'Gaimalse'`,
+        name: `Ice Wolf Blade "Gaimalse"`,
         location: `Limited Event - Chasing my Friend's Illusion (Roy)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2355,7 +2355,7 @@ const EquipInformation = [
     },
     { //Twin Flames 'Rose Garden' - Complete
         id: 100780,
-        name: `Twin Flames 'Rose Garden'`,
+        name: `Twin Flames "Rose Garden"`,
         location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2383,9 +2383,9 @@ const EquipInformation = [
             },
         lore: `Twin swords loved by Mira, Vice-Commander of the Royal Knights in the Principality of Bamint. Part of becoming of a knight meant she has to use the best equipment the Principality could offer. Taking the ritual knives used when she was born as a princess, powerful fire magic was cast over them and then she gave them the same name as her knight unit.`
     },
-    { //Spirit Sword 'Efkeria' - Complete
+    { //Spirit Sword "Efkeria" - Complete
         id: 100791,
-        name: `Spirit Sword 'Efkeria'`,
+        name: `Spirit Sword "Efkeria"`,
         location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2415,7 +2415,7 @@ const EquipInformation = [
     },
     { //Treasure Blade 'Ryude Magus' - Complete
         id: 100801,
-        name: `Treasure Blade 'Ryude Magus'`,
+        name: `Treasure Blade "Ryude Magus"`,
         location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2472,9 +2472,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Battle Axe 'Shurahalt' - Complete
+    { //Battle Axe "Shurahalt" - Complete
         id: 100821,
-        name: `Battle Axe 'Shurahalt'`,
+        name: `Battle Axe "Shurahalt"`,
         location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2502,9 +2502,9 @@ const EquipInformation = [
             },
         lore: `The weapon used by Guild Master Ganan when he was Knight Captain. It was gifted to him by the Emperor after defeating a horde of monsters. A certain incident caused him to seal it away, but after battling some young adventurers he took it up again. The first place he headed to get it serviced was the blacksmith he used to drink with.`
     },
-    { //Forge Hammer 'Hepaistos' - Complete
+    { //Forge Hammer "Hepaistos" - Complete
         id: 100831,
-        name: `Forge Hammer 'Hepaistos'`,
+        name: `Forge Hammer "Hepaistos"`,
         location: `Rotating Event - Legendary Blacksmith (Gilliam)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2621,7 +2621,7 @@ const EquipInformation = [
     },
     { //Super Pan 'Wild Cat' - Complete
         id: 100871,
-        name: `Super Pan 'Wild Cat'`,
+        name: `Super Pan "Wild Cat"`,
         location: `Rotating Event - The Master Chef's Test (Sophie)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -2651,7 +2651,7 @@ const EquipInformation = [
     },
     { //Relic 'Funeral Scythe' - Missing Lore
         id: 100881,
-        name: `Relic 'Funeral Scythe'`,
+        name: `Relic "Funeral Scythe"`,
         location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2681,7 +2681,7 @@ const EquipInformation = [
     },
     { //Relic 'Cloak of Grief' - Complete
         id: 100891,
-        name: `Relic 'Cloak of Grief'`,
+        name: `Relic "Cloak of Grief"`,
         location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -2711,7 +2711,7 @@ const EquipInformation = [
     },
     { //Relic 'Empty Heart' - Complete
         id: 100901,
-        name: `Relic 'Empty Heart'`,
+        name: `Relic "Empty Heart"`,
         location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -2741,7 +2741,7 @@ const EquipInformation = [
     },
     { //Relic 'End Times Ring' - Complete
         id: 100911,
-        name: `Relic 'End Times Ring'`,
+        name: `Relic "End Times Ring"`,
         location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
@@ -2771,7 +2771,7 @@ const EquipInformation = [
     },
     { //Relic 'Bleak Prophet' - Missing Lore
         id: 100921,
-        name: `Relic 'Bleak Prophet'`,
+        name: `Relic "Bleak Prophet"`,
         location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -2801,7 +2801,7 @@ const EquipInformation = [
     },
     { //Relic 'Crimson Coat' - Complete
         id: 100931,
-        name: `Relic 'Crimson Coat'`,
+        name: `Relic "Crimson Coat"`,
         location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -2831,7 +2831,7 @@ const EquipInformation = [
     },
     { //Relic 'Abyssal Hairpin' - Complete
         id: 100941,
-        name: `Relic 'Abyssal Hairpin'`,
+        name: `Relic "Abyssal Hairpin"`,
         location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -2861,7 +2861,7 @@ const EquipInformation = [
     },
     { //Relic 'Dark White Spear' - Complete
         id: 100951,
-        name: `Relic 'Dark White Spear'`,
+        name: `Relic "Dark White Spear"`,
         location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
@@ -2978,7 +2978,7 @@ const EquipInformation = [
     },
     { //Relic 'Machina Core' - Complete
         id: 100991,
-        name: `Relic 'Machina Core'`,
+        name: `Relic "Machina Core"`,
         location: `Giant Boss - Fortress of the Machine God (XTF: Eraser)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -3036,9 +3036,9 @@ const EquipInformation = [
             },
         lore: `A shield used by the hero Duran during the Ancient War, and a symbol of his creed of fighting to protect the innocent. Facing a man possessed by a magic blade, the hero defended his town with just this shield, it's sparkling light stopping the incoming wave destructive. the true root of this miracle, of course, was the hero's desire to protect others.`
     },
-    { //Blade of Sorrow 'Fe'Ode' - Complete
+    { //Blade of Sorrow "Fe'Ode" - Complete
         id: 101011,
-        name: `Blade of Sorrow 'Fe'Ode'`,
+        name: `Blade of Sorrow "Fe'Ode"`,
         location: `Main Story [Chapter 6 > Cave Ruins of Rahn > A Tragic Reunion] Secret Equip`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -3096,9 +3096,9 @@ const EquipInformation = [
             },
         lore: `A gemstone that heals just by holding it. Pained by the vast number of lives lost in the Ancient War, the gods created these as gifts in order to save as many as they could. The eggs came to be worshipped as miracles and are now housed in temples across the land. Few humans know that only a small number of gods were behind these gifts.`
     },
-    { //Conquering Dragon Sword 'Gelmed' - Missing Lore
+    { //Conquering Dragon Sword "Gelmed" - Missing Lore
         id: 101031,
-        name: `Conquering Dragon Sword 'Gelmed'`,
+        name: `Conquering Dragon Sword "Gelmed"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -3156,9 +3156,9 @@ const EquipInformation = [
             },
         lore: `A wizard unable to fight alongside his lord, a knight, due to a congenital defect created this at the cost of his life. The knight mourned the wizard's death and kept the necklace with him always. After a major battle, the knight was knocked into a ravine. He was amazed to open his eyes and find himself still alive, thanks to the light of the necklace.`
     },
-    { //Divine Green Staff 'Keion' - Complete
+    { //Divine Green Staff "Keion" - Complete
         id: 101051,
-        name: `Divine Green Staff 'Keion'`,
+        name: `Divine Green Staff "Keion"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -3186,9 +3186,9 @@ const EquipInformation = [
             },
         lore: `A staff held by a goddess who deeply loved nature and chose to dwell in the forest. The spirits of the forest accepted her as their goddess, came to love her, and called her Keion. She spoke of friendship and understanding across the races and blessed many people, and her staff is now a symbol of the growth and glory of the forest.`
     },
-    { //Ice Magic Sword 'Almas' - Complete
+    { //Ice Magic Sword "Almas" - Complete
         id: 101061,
-        name: `Ice Magic Sword 'Almas'`,
+        name: `Ice Magic Sword "Almas"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -3304,9 +3304,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Hell's Spit 'Karks' - Missing Lore
+    { //Hell's Spit "Karks" - Missing Lore
         id: 101131,
-        name: `Hell's Spit 'Karks'`,
+        name: `Hell's Spit "Karks"`,
         location: `Main Story [Chapter 6 > Cave Ruins of Rahn > A Tragic Reunion] Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
@@ -3334,9 +3334,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Gem Blade 'Gloria' - Complete
+    { //Gem Blade "Gloria" - Complete
         id: 101141,
-        name: `Gem Blade 'Gloria'`,
+        name: `Gem Blade "Gloria"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
@@ -3364,9 +3364,9 @@ const EquipInformation = [
             },
         lore: `The divine blade of Zexia, head of the ancient God Knights, received this weapon from on high. Adorned with words praising god, fighting while chanting them unleashes the true power of the weapon. Although this suggests a connection between the user and god, in reality the user's own faith and determination in themselves is more important than the poems.`
     },
-    { //Burn Book 'Aguni' - Complete
+    { //Burn Book "Aguni" - Complete
         id: 101151,
-        name: `Burn Book 'Aguni'`,
+        name: `Burn Book "Aguni"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -4503,9 +4503,9 @@ const EquipInformation = [
             },
         lore: `The Galju tribe appear often in legends. Their chief wore this necklace, to which he would add the teeth of the beasts he defeated. Any who now wear it suffer the rage and pain of those slain beasts, but beyond that they are also buoyed by the bold strength of the Galju. The reason the tribes hated the beasts so harshly remains a mystery.`
     },
-    { //Cursed Hammer 'Bardrade' - Complete
+    { //Cursed Hammer "Bardrade" - Complete
         id: 101611,
-        name: `Cursed Hammer 'Bardrade'`,
+        name: `Cursed Hammer "Bardrade"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -4563,9 +4563,9 @@ const EquipInformation = [
             },
         lore: `A treasure spear of the Famelle royal family, and particularly known for being used by "warrior king" Maglagan. There has been much debate on why he named it "Rey Vie". A recently discovered diary from royal aide Beil sheds some light on the matter; on secret trips out of the castle to help people, Maglagan was accompanied by a spirit called Rey.`
     },
-    { //Underking Spear 'Hellfire' - Missing Lore
+    { //Underking Spear "Hellfire" - Missing Lore
         id: 101631,
-        name: `Underking Spear 'Hellfire'`,
+        name: `Underking Spear "Hellfire"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -4743,9 +4743,9 @@ const EquipInformation = [
             },
         lore: `A relic, created by the alchemist Alishis, that can control the flow of time around it. It was completed just as his bitter rival Baron Cruze also unveiled a watch-based device of a similar nature. It is said that a woman was deeply involved in getting both of them into the control of time, but more detailed records have never been uncovered.`
     },
-    { //Relic 'Petraskia' - Missing Lore
+    { //Relic "Petraskia" - Missing Lore
         id: 101691,
-        name: `Relic 'Petraskia'`,
+        name: `Relic "Petraskia"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -4772,9 +4772,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Relic 'Framshilt' - Complete
+    { //Relic "Framshilt" - Complete
         id: 101701,
-        name: `Relic 'Framshilt'`,
+        name: `Relic "Framshilt"`,
         location: `Giant Boss - The Crimson King (Degilmagna)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -4802,9 +4802,9 @@ const EquipInformation = [
             },
         lore: `A divine shield created from scales of the blazing dragon Degilmagna. It became famous when found pristine in ruins dating from the Ancient War, and became worshipped as a symbol of the battle with Degilmagna. The king of Famelle at the time tried to obtain it, but when he reached the temple the shield had already been taken by a mysterious organization.`
     },
-    { //Relic 'Wisfiraft' - Complete
+    { //Relic "Wisfiraft" - Complete
         id: 101711,
-        name: `Relic 'Wisfiraft'`,
+        name: `Relic "Wisfiraft"`,
         location: `Giant Boss - The Crimson King (Degilmagna)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -4832,9 +4832,9 @@ const EquipInformation = [
             },
         lore: `A necklace that gives the power of a blazing dragon to the one who wears it. It was found by three children exploring some ruins. When they were then attacked by demons, they used this to fight back and drive them off. Perhaps hard to believe, but this also proved the power of this relic, Many have tried to discover its power source, but none have succeeded.`
     },
-    { //Relic 'Sakredpose' - Complete
+    { //Relic "Sakredpose" - Complete
         id: 101721,
-        name: `Relic 'Sakredpose'`,
+        name: `Relic "Sakredpose"`,
         location: `Giant Boss - The Crimson King (Degilmagna)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
@@ -4862,9 +4862,9 @@ const EquipInformation = [
             },
         lore: `A relic created by a powerful wizard. It contains the magma that flows inside the body of the blazing dragon Deglmagna. The heat it gives off is magically enhanced, heightening the power of those around it. A robber king who's love of it cost him his life said only this upon his execution: "May the sacred sparkle last forever".`
     },
-    { //Relic 'Radeus' - Missing Lore
+    { //Relic "Radeus" - Missing Lore
         id: 101801,
-        name: `Relic 'Radeus'`,
+        name: `Relic "Radeus"`,
         location: `Giant Boss - Glowing Sanctuary (Fosradius)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -4894,7 +4894,7 @@ const EquipInformation = [
     },
     { //Relic 'Force Keratos' - Complete
         id: 101821,
-        name: `Relic 'Force Keratos'`,
+        name: `Relic "Force Keratos"`,
         location: `Giant Boss - Glowing Sanctuary (Fosradius)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -4953,7 +4953,7 @@ const EquipInformation = [
     },
     { //Relic 'Lesser Demonheart' - Complete
         id: 101841,
-        name: `Relic 'Lesser Demonheart'`,
+        name: `Relic "Lesser Demonheart"`,
         location: `Giant Boss - Caverns of Dark (Valzendeth)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -4981,9 +4981,9 @@ const EquipInformation = [
             },
         lore: `A demon sphere containing the loyalty of the ultimate monster Valzandeath. This beast served his master like a true knight, resisting all urges for destruction. However, upon his master's defeat he unleashed his true power in vengeance, scorching the very earth. He then cut out his own heart, in order not to further defile the life he lived with his master.`
     },
-    { //Relic 'Mavlocalypse' - Complete
+    { //Relic "Mavlocalypse" - Complete
         id: 101851,
-        name: `Relic 'Mavlocalypse'`,
+        name: `Relic "Mavlocalypse"`,
         location: `Giant Boss - Caverns of Dark (Valzendeth)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -5011,9 +5011,9 @@ const EquipInformation = [
             },
         lore: `A axe spat out by the weapon devouring dragon Mavlosgia. Already powerful, exposure to pure dark magic inside his body proceeded to warp and twist it. The central gemstone is charged with magic, allowing each swing to cause massive shockwaves. Those drawn to its power are fated to die, however, as the weapon always calls Mavlosgia back to it.`
     },
-    { //Relic 'Diablos' - Complete
+    { //Relic "Diablos" - Complete
         id: 101861,
-        name: `Relic 'Diablos'`,
+        name: `Relic "Diablos"`,
         location: `Giant Boss - Shadow of the God Eater (Mavroskia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -5041,9 +5041,9 @@ const EquipInformation = [
             },
         lore: `A staff created in the battle between the dragon Mavlosgia and a woman from the Magus Empire of La Riiz during the Ancient War. The breath of death from the beast washed over her as they fought, and afterward her staff had been completely warped. Sensing its dark power she immediately sealed it away, but eventually it was stolen by a unknown party.`
     },
-    { //Relic 'Skeletooth' - Complete
+    { //Relic "Skeletooth" - Complete
         id: 101871,
-        name: `Relic 'Skeletooth'`,
+        name: `Relic "Skeletooth"`,
         location: `Giant Boss - Caverns of Dark (Valzendeth)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
@@ -5073,7 +5073,7 @@ const EquipInformation = [
     },
     { //Relic 'Frost Killer' - Complete
         id: 101921,
-        name: `Relic 'Frost Killer'`,
+        name: `Relic "Frost Killer"`,
         location: `Giant Boss - Cry of the Azure Roc (Freydal)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
@@ -5103,7 +5103,7 @@ const EquipInformation = [
     },
     { //Relic 'Zero = Recorder' - Complete
         id: 101941,
-        name: `Relic 'Zero = Recorder'`,
+        name: `Relic "Zero = Recorder"`,
         location: `Giant Boss - Cry of the Azure Roc (Freydal)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -5133,7 +5133,7 @@ const EquipInformation = [
     },
     { //Relic 'Blaze Staff' - Missing Lore
         id: 102001,
-        name: `Relic 'Blaze Staff'`,
+        name: `Relic "Blaze Staff"`,
         location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -5163,7 +5163,7 @@ const EquipInformation = [
     },
     { //Relic 'Blaze Gauntlets' - Missing Lore
         id: 102011,
-        name: `Relic 'Blaze Gauntlets'`,
+        name: `Relic "Blaze Gauntlets"`,
         location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -5193,7 +5193,7 @@ const EquipInformation = [
     },
     { //Relic 'Blaze Ring' - Missing Lore
         id: 102021,
-        name: `Relic 'Blaze Ring'`,
+        name: `Relic "Blaze Ring"`,
         location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -5223,7 +5223,7 @@ const EquipInformation = [
     },
     { //Relic 'Blaze Medicine' - Complete
         id: 102031,
-        name: `Relic 'Blaze Medicine'`,
+        name: `Relic "Blaze Medicine"`,
         location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
@@ -5461,9 +5461,9 @@ const EquipInformation = [
             },
         lore: `A crest worn by the Isliid Empire 3rd Division "Fenrir" Corps. It serves as proof of their appointment and also a reminder of belonging to a proud history of knights. Blessed with healing magic the crest always shines silver, perhaps a sign of the proud wolf watching over these knights. Its real power is revealed when the life of the wearer is in danger.`
     },
-    { //Relic 'Volkans' - Complete
+    { //Relic "Volkans" - Complete
         id: 102121,
-        name: `Relic 'Volkans'`,
+        name: `Relic "Volkans"`,
         location: `Rotating Giant Boss - Trials of the Flame God (Ifrit)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -5491,9 +5491,9 @@ const EquipInformation = [
             },
         lore: `Gauntlets worn by the fire god Ifrit in manifested form. He used them to defend enemy attacks and also to seal in some of his own heat. At full power he was capable of scorching a battlefield with a single hand, but these gauntlets let him unleash less intense fire magic. Suited to the violence of the fire god, they can crush any enemy with a single blow.`
     },
-    { //Relic 'Logislett' - Complete
+    { //Relic "Logislett" - Complete
         id: 102131,
-        name: `Relic 'Logislett'`,
+        name: `Relic "Logislett"`,
         location: `Rotating Giant Boss - Trials of the Flame God (Ifrit)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -5521,9 +5521,9 @@ const EquipInformation = [
             },
         lore: `A sealing relic that the fire god Ifrit bound around himself to restrain his fire powers. Where normally he would burn everything in sight, with this he could meet and speak with people. While these chains bind all physical, magical and mental powers, they can also repel any incoming force and so many invincible armor if wrapped around the body.`
     },
-    { //Relic 'Puneumath' - Complete
+    { //Relic "Puneumath" - Complete
         id: 102141,
-        name: `Relic 'Puneumath'`,
+        name: `Relic "Puneumath"`,
         location: `Giant Boss - The Green Strikes Back (Elpneumas)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -5551,9 +5551,9 @@ const EquipInformation = [
             },
         lore: `The verdant dragon Elpuneumath grew trees on his body, and this robe is created from the threads of silkworms living in such forests. Light as a breeze and tough as steel, it also allows the wearer to waether all environmental conditions. Furthermore, they even hear the gentle voice of nature, making it almost impossible for them to fall in battle.`
     },
-    { //Relic 'Benomopis' - Missing Lore
+    { //Relic "Benomopis" - Missing Lore
         id: 102151,
-        name: `Relic 'Benomopis'`,
+        name: `Relic "Benomopis"`,
         location: `Giant Boss - The Green Strikes Back (Elpneumas)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
@@ -5583,7 +5583,7 @@ const EquipInformation = [
     },
     { //Custom Order 'Toc Blanche' - Complete
         id: 102161,
-        name: `Custom Order 'Toc Blanche'`,
+        name: `Custom Order "Toc Blanche"`,
         location: `Limited Event - The Master Chef's Test (Sophie)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -5613,7 +5613,7 @@ const EquipInformation = [
     },
     { //Beloved 'Flame Meat Knife' - Missing Lore
         id: 102171,
-        name: `Beloved 'Flame Meat Knife'`,
+        name: `Beloved "Flame Meat Knife"`,
         location: `Limited Event - The Master Chef's Test (Sophie)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
@@ -5643,7 +5643,7 @@ const EquipInformation = [
     },
     { //Relic 'Eraser Bit' - Complete
         id: 102181,
-        name: `Relic 'Eraser Bit'`,
+        name: `Relic "Eraser Bit"`,
         location: `Giant Boss - Fortress of the Machine God (XTF: Eraser)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -5673,7 +5673,7 @@ const EquipInformation = [
     },
     { //Relic 'Machina Core' - Complete
         id: 102191,
-        name: `Relic 'Machina Core'`,
+        name: `Relic "Machina Core"`,
         location: `Giant Boss - Fortress of the Machine God (XTF: Eraser)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -5703,7 +5703,7 @@ const EquipInformation = [
     },
     { //Burn Armor 'Noble Bamint' - Complete
         id: 102301,
-        name: `Burn Armor 'Noble Bamint'`,
+        name: `Burn Armor "Noble Bamint"`,
         location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -5733,7 +5733,7 @@ const EquipInformation = [
     },
     { //Beautiful Robe 'Grace Barmint' - Complete
         id: 102311,
-        name: `Beautiful Robe 'Grace Barmint'`,
+        name: `Beautiful Robe "Grace Barmint"`,
         location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -5821,9 +5821,9 @@ const EquipInformation = [
             },
         lore: `The sword of Palamacia, the greatest swordswomen of the gods. It has a clear purity, equal to her own as she danced through battle like a graceful swan. The blade always shines, never stained by blood regardless of the numbers it kills, and its attacks feel like nothing more than "ice across the skin", leaving the departed unaware they have even been cut.`
     },
-    { //Evil Spear 'Berserk' - Missing Lore
+    { //Evil Spear "Berserk" - Missing Lore
         id: 102341,
-        name: `Evil Spear 'Berserk'`,
+        name: `Evil Spear "Berserk"`,
         location: `Rotating Event - The Demon's Pride (Grad)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -5851,9 +5851,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Evil Helmet 'Nightmare' - Complete
+    { //Evil Helmet "Nightmare" - Complete
         id: 102351,
-        name: `Evil Helmet 'Nightmare'`,
+        name: `Evil Helmet "Nightmare"`,
         location: `Rotating Event - The Demon's Pride (Grad)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
@@ -5881,9 +5881,9 @@ const EquipInformation = [
             },
         lore: `A magical helm worn by the demon Grad, an elite member of the Sin Emperor's forces during the Ancient War. A blue helmeted berserker who only sought battle and blood, he was a true nightmare, which is how the helmet got its name. Until it was finally sealed away, it was never touched by a single blade; a nightmare forged by the blood and screams of battle.`
     },
-    { //Magic Sword 'Geshpenst' - Complete
+    { //Magic Sword "Geshpenst" - Complete
         id: 102361,
-        name: `Magic Sword 'Geshpenst'`,
+        name: `Magic Sword "Geshpenst"`,
         location: `Limited Event - Revenge of the Cursed Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -5911,9 +5911,9 @@ const EquipInformation = [
             },
         lore: `The sword used by Ragsherum, leader of the demons who attacked every region after reviving in Gormarey. He was skilled at using the pulse of his magic and soul to influence objects, and could make this sword fly back to his hand from anywhere on the battlefield. Unaware of what was happening, people soon came to believe this sword was possessed by a ghost.`
     },
-    { //Magic Fists 'Hellshaft' - Complete
+    { //Magic Fists "Hellshaft" - Complete
         id: 102371,
-        name: `Magic Fists 'Hellshaft'`,
+        name: `Magic Fists "Hellshaft"`,
         location: `Limited Event - Revenge of the Cursed Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -5941,9 +5941,9 @@ const EquipInformation = [
             },
         lore: `Gauntlets worn by Ragsherum. His goal was to revive every sealed demon and take over the world, and each time he swore to achieve this his fist bunched in these very gloves. Defeated before he could do so, it was only a matter of time before these gauntlets, exposed for so long to such powerful intent, combined with other relics to achieve those same goals.`
     },
-    { //Cursed Armor 'Ragsherum' - Complete
+    { //Cursed Armor "Ragsherum" - Complete
         id: 102381,
-        name: `Cursed Armor 'Ragsherum'`,
+        name: `Cursed Armor "Ragsherum"`,
         location: `Limited Event - Revenge of the Cursed Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -6002,7 +6002,7 @@ const EquipInformation = [
     },
     { //Relic 'Punish Fireblade' - Complete
         id: 102402,
-        name: `Relic 'Punish Fireblade'`,
+        name: `Relic "Punish Fireblade"`,
         location: `Limited Event - Divine Spirit of Rememberance (Marzex)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -6032,7 +6032,7 @@ const EquipInformation = [
     },
     { //Relic 'Repent Lance' - Complete
         id: 102411,
-        name: `Relic 'Repent Lance'`,
+        name: `Relic "Repent Lance"`,
         location: `Limited Event - Divine Spirit of Rememberance (Marzex)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -6062,7 +6062,7 @@ const EquipInformation = [
     },
     { //Relic 'Fallen Bow' - Complete
         id: 102421,
-        name: `Relic 'Fallen Bow'`,
+        name: `Relic "Fallen Bow"`,
         location: `Limited Event - Divine Spirit of Rememberance (Marzex)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -6090,9 +6090,9 @@ const EquipInformation = [
             },
         lore: `The battle bow of God of the Heavens Marzex, leader of one of the Ten Divine Forces that fought alongside the humans against the demons. Uses his powers as the god of judgement to destroy evil. As demons are personified "sin" for him, it offered incredible demon killing power. The bolts it fired were more like modern cannon fire than arrows from a bow.`
     },
-    { //Alchemy Tool 'Hastia' - Complete
+    { //Alchemy Tool "Hastia" - Complete
         id: 102451,
-        name: `Alchemy Tool 'Hastia'`,
+        name: `Alchemy Tool "Hastia"`,
         location: `Rotating Event - Legendary Blacksmith (Gilliam)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -6120,9 +6120,9 @@ const EquipInformation = [
             },
         lore: `Goggles used by the blacksmith Gilliam as he works. He created them in his youth with the help of an alchemist. Only needing to protect a small area, they offer great performance from a small volume of materials. He named them and his hammer for fire gods from overseas, but a chef friend eventually told him "That one's more like the god of the cook pot".`
     },
-    { //Alchemy Tool 'Shurain' - Complete
+    { //Alchemy Tool "Shurain" - Complete
         id: 102461,
-        name: `Alchemy Tool 'Shurain'`,
+        name: `Alchemy Tool "Shurain"`,
         location: `Rotating Event - Legendary Blacksmith (Gilliam)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -6182,7 +6182,7 @@ const EquipInformation = [
     },
     { //Magic Sword 'Geshpenst Type-0' - Complete
         id: 102481,
-        name: `Magic Sword 'Geshpenst Type-0'`,
+        name: `Magic Sword "Geshpenst Type-0"`,
         location: `Limited Event - Despair of the Ruthless Demon Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -7320,9 +7320,9 @@ const EquipInformation = [
             },
         lore: `The tightly fitted loincloth of Reigrad blacksmith Giliam. He stands, arms crossed, on the shore with another strong looking guy at his side. "I'll destroy you this year, Ganan!" "Hahaha, you can't beat me, Giliam!" Their goal? The flag standing on a distant dune. Drinks and food at the Seacat's Den are staked on the outcome of this annual battle!`
     },
-    { //Toy Sword 'Charlotte' - Complete
+    { //Toy Sword "Charlotte" - Complete
         id: 102901,
-        name: `Toy Sword 'Charlotte'`,
+        name: `Toy Sword "Charlotte"`,
         location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -7350,9 +7350,9 @@ const EquipInformation = [
             },
         lore: `The only sword aged general Zeorg will use other than the Ryude Magus. It looks unsuited to such a hero because it was made as a special order based on a toy he gave to his granddaughter, after who it is also named. He claimed it was just for decoration, but gave the blacksmith detailed instructions and ended up with a sword better than most blades.`
     },
-    { //Holy Cape 'Hero's Triumph' - Complete
+    { //Holy Cape "Hero's Triumph" - Complete
         id: 102911,
-        name: `Holy Cape 'Hero's Triumph'`,
+        name: `Holy Cape "Hero's Triumph"`,
         location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -7899,9 +7899,9 @@ const EquipInformation = [
             },
         lore: `The cruel and violent demon Nier selected this flower to decorate her blood-red hair. Alongside her provocative summer swimwear, she looks like nothing less than a brilliant, primary tropical flower. Looking too hot to touch, she stood watching an adventurer and a girl in a white swimsuit having fun in the distance: a swimsuit that would never suit her, of course.`
     },
-    { //True 'Regracia' - Complete
+    { //True "Regracia" - Complete
         id: 103111,
-        name: `True 'Regracia'`,
+        name: `True "Regracia"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -7930,9 +7930,9 @@ const EquipInformation = [
             },
         lore: `A sword that waited, forgotten in a rock deep in a cave. After removing it, Rayas became an adventurer, learnt to summon, and started to get close to the truth of the world. Was this all just a coincidence, or was it fate? In either case, as the sword grows more powerful alongside him, he has started to sense the larger purpose in his owning it.`
     },
-    { //True 'Gaimalse' - Missing Lore
+    { //True "Gaimalse" - Missing Lore
         id: 103121,
-        name: `True 'Gaimalse'`,
+        name: `True "Gaimalse"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -7961,9 +7961,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Raaz' - Complete
+    { //True "Raaz" - Complete
         id: 103131,
-        name: `True 'Raaz'`,
+        name: `True "Raaz"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -7994,7 +7994,7 @@ const EquipInformation = [
     },
     { //True 'Noble Bamint' - Missing Lore
         id: 103141,
-        name: `True 'Noble Bamint'`,
+        name: `True "Noble Bamint"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -8025,7 +8025,7 @@ const EquipInformation = [
     },
     { //True 'Rig Arcela' - Complete
         id: 103151,
-        name: `True 'Rig Arcela'`,
+        name: `True "Rig Arcela"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -8054,9 +8054,9 @@ const EquipInformation = [
             },
         lore: `A holy book carried around by Priestess Liese, explaining the teachings of the god of light. It also represents her bond with her parents, who gave it to her when she was four. She has already memorized it all, but she still opens it to read from often. Her feelings toward the text has given the very pages power, and as she grows so too does its strength.`
     },
-    { //Beloved Specs 'Pronimos' - Complete
+    { //Beloved Specs "Pronimos" - Complete
         id: 103161,
-        name: `Beloved Specs 'Pronimos'`,
+        name: `Beloved Specs "Pronimos"`,
         location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -8294,9 +8294,9 @@ const EquipInformation = [
             },
         lore: `The Guidlmaster's final form! Headmaster of summer school at the Adventurer's Guild Reigrad branch. Seeing this, every aspiring adventurer finds their resolve tested. "And so begins hell!" he calls, and trainees drop one after another under his harsh tutelage. But every year, as his pupils are ready to break, he offers them his wisdom. "Stand up! Believe in yourself! Your body will never betray you!" Surely, this year will see the birth of a new legend...`
     },
-    { //Demon Whip 'Basilisk' - Missing Lore
+    { //Demon Whip "Basilisk" - Missing Lore
         id: 103281,
-        name: `Demon Whip 'Basilisk'`,
+        name: `Demon Whip "Basilisk"`,
         location: `Limited Event - The Demon's Dream (Nier)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -8324,9 +8324,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Demon Gear 'Kalkinion' - Missing Lore
+    { //Demon Gear "Kalkinion" - Missing Lore
         id: 103291,
-        name: `Demon Gear 'Kalkinion'`,
+        name: `Demon Gear "Kalkinion"`,
         location: `Limited Event - The Demon's Dream (Nier)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -8354,9 +8354,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Demon Armor 'Episumia' - Complete
+    { //Demon Armor "Episumia" - Complete
         id: 103301,
-        name: `Demon Armor 'Episumia'`,
+        name: `Demon Armor "Episumia"`,
         location: `Limited Event - The Demon's Dream (Nier)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -8536,7 +8536,7 @@ const EquipInformation = [
     },
     { //Firebird 'Alle Rouge' - Complete
         id: 103361,
-        name: `Firebird 'Alle Rouge'`,
+        name: `Firebird "Alle Rouge"`,
         location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -8564,9 +8564,9 @@ const EquipInformation = [
             },
         lore: `One of the rare beasts that have existed from ancient times in Raktehelm. It used to be a Spirit that ruled all fire birds and became a God, thus it is more of a conception rather than an existence. Those who are excepted by it receives the protection of the flames, and it burns out anything or anyone that stands in their way. It is the symbol of regeneration, but only a few have actually seen it.`
     },
-    { //True 'Gradion' - Missing Lore
+    { //True "Gradion" - Missing Lore
         id: 103371,
-        name: `True 'Gradion'`,
+        name: `True "Gradion"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -8597,7 +8597,7 @@ const EquipInformation = [
     },
     { //True 'Froid Rosier' - Complete
         id: 103381,
-        name: `True 'Froid Rosier'`,
+        name: `True "Froid Rosier"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -8628,7 +8628,7 @@ const EquipInformation = [
     },
     { //True 'Arth Lumina' - Complete
         id: 103391,
-        name: `True 'Arth Lumina'`,
+        name: `True "Arth Lumina"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -8659,7 +8659,7 @@ const EquipInformation = [
     },
     { //Relic 'Deus Volta' - Complete
         id: 103401,
-        name: `Relic 'Deus Volta'`,
+        name: `Relic "Deus Volta"`,
         location: `Giant Boss - Clashing Thunder of the Emerald Bird (Tonetaurus)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -8687,9 +8687,9 @@ const EquipInformation = [
             },
         lore: `The source behind the 'Tonetaurus' ability to create infinite bolts of lightning. The particles themselves are too small to be used practically, but from the sheer quantity the Tonetaurus needs, it was possible to transform into a relic. Its enormous power is said to match that of ancient gods.`
     },
-    { //Relic 'Pteraturus' - Complete
+    { //Relic "Pteraturus" - Complete
         id: 103411,
-        name: `Relic 'Pteraturus'`,
+        name: `Relic "Pteraturus"`,
         location: `Giant Boss - Clashing Thunder of the Emerald Bird (Tonetaurus)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -8717,9 +8717,9 @@ const EquipInformation = [
             },
         lore: `A divine shield made from the 'Tonetaurus' feather which emits lightning bolts. The feathers themselves don't hold a charge, but rather the feathers' unique power converts the atoms in the surrounding air into electricity. A blow like a bolt of lightning has left many to warn of its dangers: "Lest not touch, for death awaits."`
     },
-    { //Axioma 'Wahrheit' - Missing Lore
+    { //Axioma "Wahrheit" - Missing Lore
         id: 103421,
-        name: `Axioma 'Wahrheit'`,
+        name: `Axioma "Wahrheit"`,
         location: `Limited Event - The Blade is Thick as Blood (Est)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -8747,9 +8747,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Oathtaker 'Shivlet' - Missing Lore
+    { //Oathtaker "Shivlet" - Missing Lore
         id: 103431,
-        name: `Oathtaker 'Shivlet'`,
+        name: `Oathtaker "Shivlet"`,
         location: `Limited Event - The Blade is Thick as Blood (Est)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -8777,9 +8777,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Peacemaker 'Leighto' - Missing Lore
+    { //Peacemaker "Leighto" - Missing Lore
         id: 103441,
-        name: `Peacemaker 'Leighto'`,
+        name: `Peacemaker "Leighto"`,
         location: `Limited Event - The Blade is Thick as Blood (Est)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -8897,9 +8897,9 @@ const EquipInformation = [
             },
         lore: `The mantle that a famous gunman used before the Ancient War. Not only does it contain Dark Magic that protects the user from enemy attacks, but it also has the ability to camouflage with the background to confuse enemies. He was indeed a quick and accurate gunman thanks to this mantle. However, in his very last moments he took off this mantle with his own will.`
     },
-    { //Necklace 'Barbelun' - Complete
+    { //Necklace "Barbelun" - Complete
         id: 103481,
-        name: `Necklace 'Barbelun'`,
+        name: `Necklace "Barbelun"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
@@ -8927,9 +8927,9 @@ const EquipInformation = [
             },
         lore: `This was the necklace that a certain witch always put on. It affects the owner's mind to think clearly, and to become full of curiosity. Later, called as "Destruction Witch", she is said to have read books from all ages and countries, thus this was a treasure for her. However, this must have been the key to the misfortune that happened to her and others close to her.`
     },
-    { //Dark Soul Pendant 'Necrocles' - Complete
+    { //Dark Soul Pendant "Necrocles" - Complete
         id: 103491,
-        name: `Dark Soul Pendant 'Necrocles'`,
+        name: `Dark Soul Pendant "Necrocles"`,
         location: `Limited Event - The Twin Knights of the Morning Star (Regulus & Feena)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -8959,7 +8959,7 @@ const EquipInformation = [
     },
     { //True 'Nemesis Crow' - Complete
         id: 103501,
-        name: `True 'Nemesis Crow'`,
+        name: `True "Nemesis Crow"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -8990,7 +8990,7 @@ const EquipInformation = [
     },
     { //True 'Ryude Magus' - Missing Lore
         id: 103511,
-        name: `True 'Ryude Magus'`,
+        name: `True "Ryude Magus"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -9019,9 +9019,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Ultimate Magic Canon 'Infinite' - Missing Lore
+    { //Ultimate Magic Canon "Infinite" - Missing Lore
         id: 103521,
-        name: `Ultimate Magic Canon 'Infinite'`,
+        name: `Ultimate Magic Canon "Infinite"`,
         location: `Limited Event - Echoes of Invasion (Edram)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -9049,9 +9049,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //End Circuit 'Judgement' - Complete
+    { //End Circuit "Judgement" - Complete
         id: 103531,
-        name: `End Circuit 'Judgement'`,
+        name: `End Circuit "Judgement"`,
         location: `Limited Event - Echoes of Invasion (Edram)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -9079,9 +9079,9 @@ const EquipInformation = [
             },
         lore: `The device that was put into the mecha doll. This allows the doll to judge objectively and also works as the safety system for the magic canon. It is impossible for the doll to make decisions on its own and it is created to always obey his master's orders. Rumors say that this circuit is where the dolls mind and feelings are, but there is no way to prove that for now...`
     },
-    { //Phantasmagoric 'Cavalry' - Complete
+    { //Phantasmagoric "Cavalry" - Complete
         id: 103541,
-        name: `Phantasmagoric 'Cavalry'`,
+        name: `Phantasmagoric "Cavalry"`,
         location: `Limited Event - Echoes of Invasion (Edram)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -9229,9 +9229,9 @@ const EquipInformation = [
             },
         lore: `The plush toy of Rolly which Iris, a girl who lost her memories, has in her room. She asked the blacksmith in her town to make this. If you look at it from a far distance, it looks just like the real Rolly. By the way, when Rolly saw this toy for his first time, he tackled it full of hostility. However, the moment he was told that it was a toy, he left the room quite embarrassed.`
     },
-    { //Poison Spear 'Goroncharge' - Missing Lore
+    { //Poison Spear "Goroncharge" - Missing Lore
         id: 103591,
-        name: `Poison Spear 'Goroncharge'`,
+        name: `Poison Spear "Goroncharge"`,
         location: `Main Story [Chapter 8 > Boum Forest Garden > [Challenge] The Magical Plant's Target] Secret Equip`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -9261,7 +9261,7 @@ const EquipInformation = [
     },
     { //True 'Day Break' - Complete
         id: 103601,
-        name: `True 'Day Break'`,
+        name: `True "Day Break"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -9710,9 +9710,9 @@ const EquipInformation = [
             },
         lore: `This is when Ru, the young Spirit of the Paw People, is in deep fury. Usually he controls his magical powers, but once they are unleashed, he uses strong attacks which no one can imagine. Although he is a naughty boy, he is pretty calm. Thus it is scarce for him to show his anger. Once something has happened to the ones he loves, he will show this form.`
     },
-    { //Shadow Blades 'Euthanasia' - Complete
+    { //Shadow Blades "Euthanasia" - Complete
         id: 103751,
-        name: `Shadow Blades 'Euthanasia'`,
+        name: `Shadow Blades "Euthanasia"`,
         location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -9742,7 +9742,7 @@ const EquipInformation = [
     },
     { //Relic 'Goron Knuckle' - Missing Lore
         id: 103761,
-        name: `Relic 'Goron Knuckle'`,
+        name: `Relic "Goron Knuckle"`,
         location: `Rotating Giant Boss - Life Draining Botanical Beast (Goldola)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -9772,7 +9772,7 @@ const EquipInformation = [
     },
     { //Relic 'Dola Armor' - Complete
         id: 103771,
-        name: `Relic 'Dola Armor'`,
+        name: `Relic "Dola Armor"`,
         location: `Rotating Giant Boss - Life Draining Botanical Beast (Goldola)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -9800,9 +9800,9 @@ const EquipInformation = [
             },
         lore: `This armor was woven from the bark fibers of the Botanical Beast, Gorondola and sections carved from whole roots. It's something any competent armorer could whip up once they knew where to find the materials, but this armor fell into the hands of an eccentric curio collector. It is top class in terms of power, but any who wear it develop an odd fascination with trinkets. Before they know it, they're walking around with a team of underlings like some kind of gang capo.`
     },
-    { //True 'Efkeria' - Complete
+    { //True "Efkeria" - Complete
         id: 103781,
-        name: `True 'Efkeria'`,
+        name: `True "Efkeria"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -9831,9 +9831,9 @@ const EquipInformation = [
             },
         lore: `The magical short sword that has been passed on within the Paw People. It is also the favorite sword of Fen, the strategist of Gramenia Republic, which he keeps using despite his promotion. He says that there isn't anything better that suits him. However, it seems that the true reason is because he is aware of the divine protection of it. The powers of the sword are unleashed when Fen feels the trust and feelings of his "friends." Every time he might be thinking about his rare species friend.`
     },
-    { //Divine Sword 'Justicia' - Missing Lore
+    { //Divine Sword "Justicia" - Missing Lore
         id: 103791,
-        name: `Divine Sword 'Justicia'`,
+        name: `Divine Sword "Justicia"`,
         location: `Rotating Event - Ravage of the Azure Swordsman (Gaia)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -9861,9 +9861,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Divine Shield 'Castillo' - Complete
+    { //Divine Shield "Castillo" - Complete
         id: 103801,
-        name: `Divine Shield 'Castillo'`,
+        name: `Divine Shield "Castillo"`,
         location: `Rotating Event - Ravage of the Azure Swordsman (Gaia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -9891,9 +9891,9 @@ const EquipInformation = [
             },
         lore: `This was the shield borne by Gaia, Shining God Warrior and one of the Divine Knights, early in the Ancient War. It turned his water elemental divine protection into powerful defense. Shield usually protect only the bearer, but in his hands this shield creates a wall of water to defend his comrades as well. Each time, it puts him under great spiritual strain, yet he never hesitated to use it, and thus saved the lives of many comrades.`
     },
-    { //Divine Ornament 'Amlethal' - Complete
+    { //Divine Ornament "Amlethal" - Complete
         id: 103811,
-        name: `Divine Ornament 'Amlethal'`,
+        name: `Divine Ornament "Amlethal"`,
         location: `Rotating Event - Ravage of the Azure Swordsman (Gaia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -10101,9 +10101,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Relic 'Cylentium' - Missing Lore
+    { //Relic "Cylentium" - Missing Lore
         id: 103881,
-        name: `Relic 'Cylentium'`,
+        name: `Relic "Cylentium"`,
         location: `Giant Boss - A Subzero Hellscape (Aerugraxes)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -10133,7 +10133,7 @@ const EquipInformation = [
     },
     { //Relic 'Lacus Aurora' - Complete
         id: 103891,
-        name: `Relic 'Lacus Aurora'`,
+        name: `Relic "Lacus Aurora"`,
         location: `Giant Boss - A Subzero Hellscape (Aerugraxes)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -10161,9 +10161,9 @@ const EquipInformation = [
             },
         lore: `The boots of an adventurer who explored the ice lands the Frozen Dragon Auregraxes created before becoming a Relic. Being exposed to the magical powers left in the frozen ground, the boots were transformed into a curse charm that freezes the ground it touches. The boat she boarded home was caught in a storm and was wrecked. She was expected to die but had worn the boots. Upon touching the waves, her soles froze the water surface immediately, and she survived.`
     },
-    { //True 'Geshpenst' - Complete
+    { //True "Geshpenst" - Complete
         id: 103901,
-        name: `True 'Geshpenst'`,
+        name: `True "Geshpenst"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -10194,7 +10194,7 @@ const EquipInformation = [
     },
     { //Cursed Axe 'Hell Galgen' - Missing Lore
         id: 103911,
-        name: `Cursed Axe 'Hell Galgen'`,
+        name: `Cursed Axe "Hell Galgen"`,
         location: `Side Quest [My Will, My Rage > The Masterless Dragon] Secret Equip`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10224,7 +10224,7 @@ const EquipInformation = [
     },
     { //Sacred Tome 'Truth of the Morning Star' - Complete
         id: 103921,
-        name: `Sacred Tome 'Truth of the Morning Star'`,
+        name: `Sacred Tome "Truth of the Morning Star"`,
         location: `Limited Event - The Twin Knights of the Morning Star (Regulus & Feena)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -10254,7 +10254,7 @@ const EquipInformation = [
     },
     { //Holy Shield 'Lux Feena' - Missing Lore
         id: 103931,
-        name: `Holy Shield 'Lux Feena'`,
+        name: `Holy Shield "Lux Feena"`,
         location: `Limited Event - The Twin Knights of the Morning Star (Regulus & Feena)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10282,9 +10282,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Centurion' - Complete
+    { //True "Centurion" - Complete
         id: 103941,
-        name: `True 'Centurion'`,
+        name: `True "Centurion"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10313,9 +10313,9 @@ const EquipInformation = [
             },
         lore: `This is the sacred sword of the Knight of Light Feena, one of the Twin Knights of the Morning Star. This weapon was truly appropriate, for though she was a Human she shone with brilliance equal to the Gods, and all who stood before her blazing light gave up their will to fight and bowed to her glory. She received this weapon in Famelle, but then the Gods blessed it and it was reborn as a divine weapon. For some reason, history books do not record its true value.`
     },
-    { //Aqua Sword 'IZANAMI' - Missing Lore
+    { //Aqua Sword "IZANAMI" - Missing Lore
         id: 103951,
-        name: `Aqua Sword 'IZANAMI'`,
+        name: `Aqua Sword "IZANAMI"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -10373,9 +10373,9 @@ const EquipInformation = [
             },
         lore: `The hair accessory that the swordswoman Yomi, who is said to come from a different world, wore. It is modeled after a flower that does not exist in Raktehelm, and added a fragile sadness to her mysterious image. To her, it was her formal dress and battle dress so she wore it to her important battles. The name "Aqua Lord" comes from the silence pressure she released when she wore this hair accessory held people in awe.`
     },
-    { //Air Gun 'Ordonnanz' - Complete
+    { //Air Gun "Ordonnanz" - Complete
         id: 103971,
-        name: `Air Gun 'Ordonnanz'`,
+        name: `Air Gun "Ordonnanz"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -10433,9 +10433,9 @@ const EquipInformation = [
             },
         lore: `The bag which Ameru, a girl who ran about delivering letters during the Ancient War, favored. The bag was full with love letters between different races. She was often attacked by mistake, but because of her Air Gun "Ordonnanz", the letters were never stolen. But she did lock her bag so only she could open it just in case. Her bag was hard enough to even swing around the bag and fight.`
     },
-    { //Magic Rod 'Maleficium' - Missing Lore
+    { //Magic Rod "Maleficium" - Missing Lore
         id: 103991,
-        name: `Magic Rod 'Maleficium'`,
+        name: `Magic Rod "Maleficium"`,
         location: `Limited Event - The Blue-eyed Black Fox (Melia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10463,9 +10463,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Magic Earrings 'Temptation' - Complete
+    { //Magic Earrings "Temptation" - Complete
         id: 104001,
-        name: `Magic Earrings 'Temptation'`,
+        name: `Magic Earrings "Temptation"`,
         location: `Limited Event - The Blue-eyed Black Fox (Melia)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -10493,9 +10493,9 @@ const EquipInformation = [
             },
         lore: `Melia ia a lady with constant rumors who is from Magis Empire of La Riiz. Being so attractive, countless men have fallen for her, and her earrings are fascinating as well. These glowing earrings emphasise her mysteriousness. It's not surprising, because a charm spell has been chanted on it. With Melia's one word, it activates its powers immediately. Not knowing this, countless men have whispered top secret information to her.`
     },
-    { //Magic Robe 'Orbscuritas' - Missing Lore
+    { //Magic Robe "Orbscuritas" - Missing Lore
         id: 104011,
-        name: `Magic Robe 'Orbscuritas'`,
+        name: `Magic Robe "Orbscuritas"`,
         location: `Limited Event - The Blue-eyed Black Fox (Melia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10523,9 +10523,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Valheight' - Complete
+    { //True "Valheight" - Complete
         id: 104021,
-        name: `True 'Valheight'`,
+        name: `True "Valheight"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -10554,9 +10554,9 @@ const EquipInformation = [
             },
         lore: `When Est, the daughter of the "Holy Swordmaster" came to understand her lineage and destiny, her guardian angel shows its true form. "Allow me to turn all matter to your trusted blade," so says this armor. Faced with the immense power of this armor and the cruel inability to harness it, Est pushed herself well past her limit, proving her likeness to her mother along her path.`
     },
-    { //Relic 'Hrungnir' - Complete
+    { //Relic "Hrungnir" - Complete
         id: 104031,
-        name: `Relic 'Hrungnir'`,
+        name: `Relic "Hrungnir"`,
         location: `Rotating Giant Boss - Frozen Calamity in the North (O’zagun)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -10584,9 +10584,9 @@ const EquipInformation = [
             },
         lore: `This massive hammer was used by the Ice Fortress Geo Zagnus, known as the Polar Calamity. It boasts incredible durability, as it was made to withstand the Giant's incredible strength as it destroyed all it saw, even hammering massive glaciers to dust. As it was long wielded by a Giant bearing the magical power of Absolute Zero, it possesses the power to instantly freeze anything that draws near. If the crushing blow doesn’t annihilate its target, the frigid wind and shock of its passing will freeze enemies to ice and shatter them.`
     },
-    { //Relic 'Bracchium' - Complete
+    { //Relic "Bracchium" - Complete
         id: 104041,
-        name: `Relic 'Bracchium'`,
+        name: `Relic "Bracchium"`,
         location: `Rotating Giant Boss - Frozen Calamity in the North (O’zagun)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -10614,9 +10614,9 @@ const EquipInformation = [
             },
         lore: `These gauntlets were worn by the Ice Fortress Geo Zagnus, Giant of Absolute Zero. The Giant's life was dominated by destruction, and so it avoided danger by pure instinct. It may sound like a mindless berserker, but it still made sure to wear mighty armor. It could block any attack with these gauntlets, and even if it was cut the bitter cold of these gauntlets would freeze the wound shut. The only way to fell this Giant is to completely shatter its powerful armor.`
     },
-    { //True 'Maleficium' - Complete
+    { //True "Maleficium" - Complete
         id: 104051,
-        name: `True 'Maleficium'`,
+        name: `True "Maleficium"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10645,9 +10645,9 @@ const EquipInformation = [
             },
         lore: `The rod especially made for fighting that Melia, the vice-commander of the La Riiz 3rd Magus Division, uses. She had tried not to use her dark magic as much as she could because she sealed off her dark past. However, once she decided to prove worthy to her friends, the rod started to answer her will and released its power. As a result, she hardly needs to chant spells and made it possible to use Anti-Army magic over and over which normal people cannot do.`
     },
-    { //Divine Sword 'Balmung' - Complete
+    { //Divine Sword "Balmung" - Complete
         id: 104131,
-        name: `Divine Sword 'Balmung'`,
+        name: `Divine Sword "Balmung"`,
         location: `Side Quest: The Five Freedom Fighters - The Dawn of Raktehelm`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -10675,9 +10675,9 @@ const EquipInformation = [
             },
         lore: `One of the twin blades used by Freed, noble son of Isliid and leader of the Five Freedom Fighters. Early in the Ancient War, this holy sword was made during a brief period when the Demons and Gods came together in cooperation. They say this sword chooses its master, and only that person can call on its true power. Success at unleashing that power would create a divine weapon of purest light. The story of how it became an heirloom in Freed's family draped in mystery.`
     },
-    { //Cursed Sword 'Gram' - Complete
+    { //Cursed Sword "Gram" - Complete
         id: 104141,
-        name: `Cursed Sword 'Gram'`,
+        name: `Cursed Sword "Gram"`,
         location: `Side Quest: The Five Freedom Fighters - The Dawn of Raktehelm`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -10705,9 +10705,9 @@ const EquipInformation = [
             },
         lore: `One of the twin blades wielded by Freed, leaderof the mysterious terrorist group that rocked the world of Raktehelm, the Five Freedom Fighters. This blade is the dark twin of the divine sword made by the Gods early in the Ancient War. It holds the evil power to convert the bearer's very life force into power, but it will consume the very soul of any deemed unworthy to touch it. When this cursed sword's true potential is unleashed, it can pierce the walls of space and time to create a dimensional rip that consumes all around it.`
     },
-    { //Magic Mask 'Gestalt' - Complete
+    { //Magic Mask "Gestalt" - Complete
         id: 104151,
-        name: `Magic Mask 'Gestalt'`,
+        name: `Magic Mask "Gestalt"`,
         location: `Side Quest: The Five Freedom Fighters - The Dawn of Raktehelm`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -10737,7 +10737,7 @@ const EquipInformation = [
     },
     { //Fire Relic 'Bible of the Flaming Knight' - Complete
         id: 104171,
-        name: `Fire Relic 'Bible of the Flaming Knight'`,
+        name: `Fire Relic "Bible of the Flaming Knight"`,
         location: `Earth Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -10768,7 +10768,7 @@ const EquipInformation = [
     },
     { //Water Relic 'Aqua Dragon's Quartz' - Complete
         id: 104181,
-        name: `Water Relic 'Aqua Dragon's Quartz'`,
+        name: `Water Relic "Aqua Dragon's Quartz"`,
         location: `Fire Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -10799,7 +10799,7 @@ const EquipInformation = [
     },
     { //Earth Relic 'Gran Forde' - Complete
         id: 104191,
-        name: `Earth Relic 'Gran Forde'`,
+        name: `Earth Relic "Gran Forde"`,
         location: `Water Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11038,9 +11038,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Holy Night Sword 'Charlotte' - Complete
+{ //Holy Night Sword "Charlotte" - Complete
         id: 104271,
-        name: `Holy Night Sword 'Charlotte'`,
+        name: `Holy Night Sword "Charlotte"`,
         location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11128,9 +11128,9 @@ const EquipInformation = [
             },
         lore: `Some kind of decoration for the otherworld festival of Christmas... Apparently? The adventurers decorated the Firecat's Den based on a picture book they found. Iris wanted a decoration known as a "wreath" but there was no time to track down the appropriate plants. The young girl seemed quite sad, but soon perked up and came running in saying she'd found the perfect thing. Everyone grew pale at the sight, but no one had the heart to ask where she'd got it.`
     },
-{ //True 'Siegfried' - Missing Lore
+{ //True "Siegfried" - Missing Lore
         id: 104301,
-        name: `True 'Siegfried'`,
+        name: `True "Siegfried"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11159,9 +11159,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Gestalt' - Complete
+{ //True "Gestalt" - Complete
         id: 104311,
-        name: `True 'Gestalt'`,
+        name: `True "Gestalt"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11190,9 +11190,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Holy Armor 'Eldrange' - Complete
+{ //Holy Armor "Eldrange" - Complete
         id: 104321,
-        name: `Holy Armor 'Eldrange'`,
+        name: `Holy Armor "Eldrange"`,
         location: `Limited Event - The Other Battle (Celia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -11250,9 +11250,9 @@ const EquipInformation = [
             },
         lore: `Only Celia, the first in line to the throne of the Principality of Bamint is allowed to wear this tiara. While it is a work of art made from the best and rare crystals, it is also a noble weapon the contains enormous magic. With her potential magic powers, magical armor, and this tiara her defense becomes as if she herself is a barricade. Weapon attacks will be rejected, and all magic will stand no chance.`
     },
-{ //Magical Sword 'Siegel' - Complete
+{ //Magical Sword "Siegel" - Complete
         id: 104341,
-        name: `Magical Sword 'Siegel'`,
+        name: `Magical Sword "Siegel"`,
         location: `Side Quest: The Five Freedom Fighters - Last Wishes Passed to the Future`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -11282,7 +11282,7 @@ const EquipInformation = [
     },
 { //Magical Hat 'Akashic Eye' - Complete
         id: 104351,
-        name: `Magical Hat 'Akashic Eye'`,
+        name: `Magical Hat "Akashic Eye"`,
         location: `Side Quest: The Five Freedom Fighters - Last Wishes Passed to the Future`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11310,9 +11310,9 @@ const EquipInformation = [
             },
         lore: `This is a hat worn by the mysterious sorcerer Alma. The strangely glowing stone is unlike any known type of crystal, and no one has been able to explain the structure. There are those who say that the stone "remembers" all that it has seen. The rumors go on to say that these etched memories go back far beyond the Ancient War, to a past lost to the shades of time. There are none alive who know how long this hat has existed, making it yet one more of the many deep mysteries surrounding the witch Alma.`
     },
-{ //Inheritance 'Fatalite' - Complete
+{ //Inheritance "Fatalite" - Complete
         id: 104361,
-        name: `Inheritance 'Fatalite'`,
+        name: `Inheritance "Fatalite"`,
         location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11340,9 +11340,9 @@ const EquipInformation = [
             },
         lore: `A sword handed down among the Sword Master dynasty, currently wielded by Riana. Th eonly one of its kind in the world, it symbolizes both her title and her superior technique. S single foundational element makes up this weapon, and those who unlock its true power can manipulate that element. However, none but Riana's founding ancestor and Riana herself have done so.`
     },
-{ //Divine Rapier 'Vandring' - Complete
+{ //Divine Rapier "Vandring" - Complete
         id: 104371,
-        name: `Divine Rapier 'Vandring'`,
+        name: `Divine Rapier "Vandring"`,
         location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11370,9 +11370,9 @@ const EquipInformation = [
             },
         lore: `A holy blade wielded by the globetrotting Sword Master, Riana. Everywhere she went, she was remembered as a priestess who cleansed the land of miasma, but details, such as the weapon she held, were scarce. The most anyone could deduce was its divine quality, since she was never seen without it. At last, someone worked up the courage to speak with her, and she shared its name. Never did she notice it was a metaphor for her own life.`
     },
-{ //Blessed Garb 'Autel' - Complete
+{ //Blessed Garb "Autel" - Complete
         id: 104381,
-        name: `Blessed Garb 'Autel'`,
+        name: `Blessed Garb "Autel"`,
         location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -11400,9 +11400,9 @@ const EquipInformation = [
             },
         lore: `The outfit of the Sword Master cursed with perennial youth, Riana. Thougb ordinary in appearance, it protects the wearer with holy power, neutralizing evil influences of every kind on contact. As she must enter spiritually hazardous areas in order to absorb miasma, this lets her do so without fear.`
     },
-{ //True 'Fatalite' - Missing Lore
+{ //True "Fatalite" - Missing Lore
         id: 104391,
-        name: `True 'Fatalite'`,
+        name: `True "Fatalite"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11431,9 +11431,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Joyeuse' - Complete
+{ //True "Joyeuse" - Complete
         id: 104401,
-        name: `True 'Joyeuse'`,
+        name: `True "Joyeuse"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11462,9 +11462,9 @@ const EquipInformation = [
             },
         lore: `Only Celia, the first in line to the throne of the Principality of Bamint is allowed to use this sword. This promises her position as a princess and means that she was the chosen one. The sword always watches over the owner and at times even reveals even stronger owner. The sword will answer her feelings and make her a true hero through her high desires and achievement.`
     },
-{ //True 'Alchemia' - Complete
+{ //True "Alchemia" - Complete
         id: 104411,
-        name: `True 'Alchemia'`,
+        name: `True "Alchemia"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11493,9 +11493,9 @@ const EquipInformation = [
             },
         lore: `The rod that Rem, the Alchemist who always supports adventurers, uses. This is said to be her masterpiece. Using all the rare material she gathered ever since she became a sorcerer and alchemist, this rod is the closest existence to the "Philosopher's Stone". The only difference is that she made it to be used to save the world.`
     },
-{ //Relic 'Periusia' - Complete
+{ //Relic "Periusia" - Complete
         id: 104421,
-        name: `Relic 'Periusia'`,
+        name: `Relic "Periusia"`,
         location: `Giant Boss - Crimson Flames of the Phoenix (Flogassa)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -11523,9 +11523,9 @@ const EquipInformation = [
             },
         lore: `A compound that forms inside Ogrone Volcano's master, the giant 'Flogassa'. Much like blood to mammals, it traverses its flaming crimson body. This relic is a miracle of nature, magic in liquid form. Untouched, it can be consumed as an elixir. To consume, it must be inhaled in an instant as it evaporates upon touching their air.`
     },
-{ //Relic 'Claritus' - Complete
+{ //Relic "Claritus" - Complete
         id: 104431,
-        name: `Relic 'Claritus'`,
+        name: `Relic "Claritus"`,
         location: `Giant Boss - Crimson Flames of the Phoenix (Flogassa)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -11553,10 +11553,10 @@ const EquipInformation = [
             },
         lore: `This armor cast of rare metal and the feathers of the giant 'Flogassa' a bird said to embody the great Ogrone Volcano. The feathers provide its owner a magic barrier, which the same effect is achieved in this armor as well. However, to control this energy it consumes tremendous amounts of this relic, which has made mass production impossible.`
     },
-{ //Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Complete
+{ //Blue Life Sword "Glamerald" (碧命剣『グラメラルド』) - JP Complete
         id: 104441,
         name: `碧命剣『グラメラルド』`,
-        translate: `Blue Life Sword 'Glamerald'`,
+        translate: `Blue Life Sword "Glamerald"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11583,10 +11583,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』) - JP Complete
+{ //Blue Life Bow "Eldrasta" (碧命弓『エルドラスタ』) - JP Complete
         id: 104451,
         name: `碧命弓『エルドラスタ』`,
-        translate: `Blue Life Bow 'Eldrasta'`,
+        translate: `Blue Life Bow "Eldrasta"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -11613,9 +11613,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Glamerald' - Missing Lore
+{ //True "Glamerald" - Missing Lore
         id: 104461,
-        name: `True 'Glamerald'`,
+        name: `True "Glamerald"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11644,9 +11644,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Peluscia' - Complete
+{ //True "Peluscia" - Complete
         id: 104471,
-        name: `True 'Peluscia'`,
+        name: `True "Peluscia"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -11675,10 +11675,10 @@ const EquipInformation = [
             },
         lore: `The circlet which Iris' clone "Number 2" wears to control her abilities. When the magic stones shine, it signifies the attempt to read her thoughts, as she supposedly has none. Ever since a certain battle, the stone has flickered with light, releasing more power than imagined.`
     },
-{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Complete
+{ //Magic Spear "Graofang" (魔槍『グラオファング』) - JP Complete
         id: 104481,
         name: `魔槍『グラオファング』`,
-        translate: `Magic Spear 'Graofang'`,
+        translate: `Magic Spear "Graofang"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11705,10 +11705,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Complete
+{ //Flame Staff "Terenolio" (焔精杖『テレノライオ』) - JP Complete
         id: 104491,
         name: `焔精杖『テレノライオ』`,
-        translate: `Flame Staff 'Terenolio'`,
+        translate: `Flame Staff "Terenolio"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -11735,9 +11735,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Protection Suit 'Viper' - Complete
+{ //Protection Suit "Viper" - Complete
         id: 104501,
-        name: `Protection Suit 'Viper'`,
+        name: `Protection Suit "Viper"`,
         location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -11767,7 +11767,7 @@ const EquipInformation = [
     },
 { //Light Relic 'Tin Cane of Relief' - Complete
         id: 104511,
-        name: `Light Relic 'Tin Cane of Relief'`,
+        name: `Light Relic "Tin Cane of Relief"`,
         location: `Darj Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -11796,9 +11796,9 @@ const EquipInformation = [
             },
         lore: `A light relic of a fallen nation that believed that light would save everyone. It is said that when the Cane touches the ground it vanishes all evil with noble sound. This relic is the proof of the promise of the Gods that, when the world will reach its limits, they will show the way to destruction and resurrection. When the three shining relics awaken, the Tin Cane will play its role.`
     },
-{ //Dark Relic 'Nichts' - Complete
+{ //Dark Relic "Nichts" - Complete
         id: 104521,
-        name: `Dark Relic 'Nichts'`,
+        name: `Dark Relic "Nichts"`,
         location: `Light Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11828,9 +11828,9 @@ const EquipInformation = [
             },
         lore: `The earrings possessed by the king of the sect that used darkness to tyrannize over people. Some countries even banned to raise his name. Thus, he is known as "The Nameless" and is remembered as a symbol of terror. Among the anecdotes, the one about the "Three Devils" who swore loyalty to him is especially famous, and their relics still sleep somewhere out there.`
     },
-{ //Cursed Light Sword 'Anestra'- Complete
+{ //Cursed Light Sword "Anestra" - Complete
         id: 104591,
-        name: `Cursed Light Sword 'Anestra'`,
+        name: `Cursed Light Sword "Anestra"`,
         location: `Raid Equip (Auge)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -11858,9 +11858,9 @@ const EquipInformation = [
             },
         lore: `This cursed dagger gives off a blinding light. It embodies both light and dark, and they say the line between the two is thinner than paper. The blade shifts properties constantly due to an unstable dimensional wap within it. The light it carries is not that of purity, but born of darkness. The tension of that contradiction leads to incredible physical instability, meaning that although this is a small dagger it carries the power to annihilate all that it touches. It truly is a cursed blade.`
     },
-{ //Rallying Banner 'Gramenia' - Complete
+{ //Rallying Banner "Gramenia" - Complete
         id: 104601,
-        name: `Rallying Banner 'Gramenia'`,
+        name: `Rallying Banner "Gramenia"`,
         location: `Limited Event - Distant Prospect (Kane)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -11888,9 +11888,9 @@ const EquipInformation = [
             },
         lore: `The glossy flag that flies over the Gramenian army camp. Made of fireproof and bulletproof material, it supports the soldiers' morale no matter how the tide turns. The sight of the gleaming crest reminds them of their homeland's glory and prestige, filling them with vigor. The president's fair rule is key, but the will of its founders carried on through the ages is no less important.`
     },
-{ //Patriot Rifle 'Glorious' - Complete
+{ //Patriot Rifle "Glorious" - Complete
         id: 104611,
-        name: `Patriot Rifle 'Glorious'`,
+        name: `Patriot Rifle "Glorious"`,
         location: `Limited Event - Distant Prospect (Kane)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11918,9 +11918,9 @@ const EquipInformation = [
             },
         lore: `The firearm owned by Kane, the Republic of Gramenia's president and Fen's boss. He is never seen without it on the battlefield. With overwhelming strength combined with magically enhanced and trajectory correcting, his targets have no hope of survival. It increases his own innate capabilities to make him a truly matchless soldier.`
     },
-{ //Combat Knife 'Vixen' - Complete
+{ //Combat Knife "Vixen" - Complete
         id: 104621,
-        name: `Combat Knife 'Vixen'`,
+        name: `Combat Knife "Vixen"`,
         location: `Limited Event - Distant Prospect (Kane)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -11948,9 +11948,9 @@ const EquipInformation = [
             },
         lore: `A dagger that Kane, the eccentric Gramenian official, always keeps hidden on himself. Despite firearms being his strongest suits, he is also trained in several martial arts. Even a humble knife such as this becomes a weapon of mass destruction in his hands. Its name, however, has a less threatening origin: "Nothing I'd want by my side more than a lovely lady.`
     },
-{ //True 'Glorious' - Missing Lore
+{ //True "Glorious" - Missing Lore
         id: 104631,
-        name: `True 'Glorious'`,
+        name: `True "Glorious"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -11981,7 +11981,7 @@ const EquipInformation = [
     },
 { //Blade 'Dragon Age' - Missing Lore
         id: 104641,
-        name: `Blade 'Dragon Age'`,
+        name: `Blade "Dragon Age"`,
         location: `Rotating Event - The Dragon General's Sword (Rohst)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12011,7 +12011,7 @@ const EquipInformation = [
     },
 { //Armor 'Dragon Scale' - Complete
         id: 104651,
-        name: `Armor 'Dragon Scale'`,
+        name: `Armor "Dragon Scale"`,
         location: `Rotating Event - The Dragon General's Sword (Rohst)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -12041,7 +12041,7 @@ const EquipInformation = [
     },
 { //Relic 'Sword of Revenge' - Complete
         id: 104661,
-        name: `Relic 'Sword of Revenge'`,
+        name: `Relic "Sword of Revenge"`,
         location: `Limited Event - Divine Spirit of Remembrance (Marzex)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12071,7 +12071,7 @@ const EquipInformation = [
     },
 { //Fire Relic 'Sword of the Flaming Knight' - Complete
         id: 104671,
-        name: `Fire Relic 'Sword of the Flaming Knight'`,
+        name: `Fire Relic "Sword of the Flaming Knight"`,
         location: `Earth Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -12101,7 +12101,7 @@ const EquipInformation = [
     },
 { //Water Relic 'Aqua Dragon's Sword' - Complete
         id: 104681,
-        name: `Water Relic 'Aqua Dragon's Sword'`,
+        name: `Water Relic "Aqua Dragon's Sword"`,
         location: `Fire Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -12132,7 +12132,7 @@ const EquipInformation = [
     },
 { //Earth Relic 'Ain Wold' - Complete
         id: 104691,
-        name: `Earth Relic 'Ain Wold'`,
+        name: `Earth Relic "Ain Wold"`,
         location: `Water Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -12160,9 +12160,9 @@ const EquipInformation = [
             },
         lore: `This device, apparently some odd machine part which was found in mist-shrouded ruins, defies easy comprehension. The technique survives in no existing books, yet it appears to have some similarities to Gran Forde, hinting at a connection. It contains vast magical power, and may be useful as a weapon, but... it appears difficult to unleash that power. Could there be other missing parts?`
     },
-{ //Holy Bow 'Forester' - Complete
+{ //Holy Bow "Forester" - Complete
         id: 104711,
-        name: `Holy Bow 'Forester'`,
+        name: `Holy Bow "Forester"`,
         location: `Limited Event - Crimson Stars Circus - Part 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -12190,9 +12190,9 @@ const EquipInformation = [
             },
         lore: `The beloved bow of Mamori, a girl who looked up to the legendary hero Ashe Toto. Mamori's mother had told Mamori stories about the hero since she was young, and Mamori had dreamed of living up to his name ever since. After she taught herself to wield a bow, she continued to polish her skill as the archer of the Crimson Stars Circus. This bow accompanied Mamori through her many days of training and is inscribed with the story of how this one girl grew up into somebody the world looked at as a hero. The years spent together with Mamori imbued the bow with divine power, and the bow supported the hero Mamori until the end of her days.`
     },
-{ //Holy Cloak 'Familia' - Complete
+{ //Holy Cloak "Familia" - Complete
         id: 104721,
-        name: `Holy Cloak 'Familia'`,
+        name: `Holy Cloak "Familia"`,
         location: `Limited Event - Crimson Stars Circus - Part 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -12220,9 +12220,9 @@ const EquipInformation = [
             },
         lore: `The cloak worn by Mamori, who was the only girl in the Crimson Stars, a travelling circus from the early days of the Ancient War. While Mamori would come to be called a hero by the many people around the world she saved, she had humble beginnings as an orphan of the war. Mamori wore this cloak to the very end, and the kindness in her heart combined with her desire to make the people she met on her journeys smile to imbue it with a divine power. This cloak is filled with the story of how the young Mamori became like the hero she had so looked up to.`
     },
-{ //Sniper Rifle 'Howling' - Complete
+{ //Sniper Rifle "Howling" - Complete
         id: 104731,
-        name: `Sniper Rifle 'Howling'`,
+        name: `Sniper Rifle "Howling"`,
         location: `Limited Event - Crimson Stars Circus - Part 1`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12250,9 +12250,9 @@ const EquipInformation = [
             },
         lore: `A tool used by the Giant assassin Sly to carry out his shadowy work wherever it took him in the early days of the Ancient War. His claim to fame was his ability to bury targets in an instant with a well aimed shot from afar, but it actually wasn't uncommon for his targets to evade him. This is by no means because of a lack of skill, as Sly's aim was unparalleled. On the contrary, it was because his shots were filled with so much killing intent and force that they would his target's primal instinct to flee. One shot from him, and his target's body would go flying. Going up against Sly was said to be like facing down a giant wolf with a murderous appetite to match its size.`
     },
-{ //True 'Forester' - Complete
+{ //True "Forester" - Complete
         id: 104741,
-        name: `True 'Forester'`,
+        name: `True "Forester"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -12283,7 +12283,7 @@ const EquipInformation = [
     },
 { //Magical Outfit 'Pierrot Crimson' - Complete
         id: 104751,
-        name: `Magical Outfit 'Pierrot Crimson'`,
+        name: `Magical Outfit "Pierrot Crimson"`,
         location: `Rotating Event - Pierrot of Flames (Pientz)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -12311,9 +12311,9 @@ const EquipInformation = [
             },
         lore: `This is the trademark outfit of Pientz, the leader of the Crimson Stars, a circus popular early in the Ancient War. As befitting the crimson name, his speciality was fire tricks... Which is to say, he was no mere prestidigitator, but a flame sorcerer of the first order. This outfit was made of special flame-resistant materials, and they saved him from mishap many a time. It is also endowed with special powers to hide his overflowing magical power from prying eyes.`
     },
-{ //Magical Box 'Monstre' - Missing Lore
+{ //Magical Box "Monstre" - Missing Lore
         id: 104761,
-        name: `Magical Box 'Monstre'`,
+        name: `Magical Box "Monstre"`,
         location: `Rotating Event - Pierrot of Flames (Pientz)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12341,9 +12341,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Holy Cane 'Proscris' - Complete
+{ //Holy Cane "Proscris" - Complete
         id: 104771,
-        name: `Holy Cane 'Proscris'`,
+        name: `Holy Cane "Proscris"`,
         location: `Limited Event - Crimson Stars Circus - Part 2`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12371,9 +12371,9 @@ const EquipInformation = [
             },
         lore: `The staff of Diaz, the beast summoner and star magician of the Crimson Stars, a travelling circus from the early days of the Ancient War. Diaz was praised from a young age as a genius unlike any other in his race. When his race was annihilated during an invasion, he swore vengeance, and that dark desire for retribution drove him day and night. It would take until Diaz had grown up for him to realize that the unfading brilliance of his staff was actually a light of hope entrusted to him by the companions who had left the world before him.`
     },
-{ //Holy Robe 'Lathraea' - Complete
+{ //Holy Robe "Lathraea" - Complete
         id: 104781,
-        name: `Holy Robe 'Lathraea'`,
+        name: `Holy Robe "Lathraea"`,
         location: `Limited Event - Crimson Stars Circus - Part 2`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -12401,9 +12401,9 @@ const EquipInformation = [
             },
         lore: `The robe worn by Diaz, the expert beast summoner of the Crimson Star Circus, which was famed for how they traveled the world to help those in need during the early days of the Ancient War. While Diaz may have just worn the robe as a stage outfit, to the people who truly enjoyed the circus' performance and were grateful for their help, it was something to believe in. The robe became something like a uniform for Diaz. The reverence directed towards Diaz throughout his lifelong journeys became a warm and gentle light which enveloped and protected its wearer.`
     },
-{ //Blood Katana 'MINAGOROSHI' - Complete
+{ //Blood Katana "MINAGOROSHI" - Complete
         id: 104791,
-        name: `Blood Katana 'MINAGOROSHI'`,
+        name: `Blood Katana "MINAGOROSHI"`,
         location: `Limited Event - Crimson Stars Circus - Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12431,9 +12431,9 @@ const EquipInformation = [
             },
         lore: `During the early Ancient War, the infamously bloodthirsty assassin Voghan altered his own arm with this blade. Murder was pure pleasure for him, and he would do anything for more of it. He became obsessed with growing stronger so that he could kill anyone that crossed his path. This blade was his tool of choice for pushing his body past its natural limits. Its sinisterly crimson edge has spilled more blood than any of his other weapons, and within it lies a terrifying and accursed power.`
     },
-{ //True 'Proscris' - Complete
+{ //True "Proscris" - Complete
         id: 104801,
-        name: `True 'Proscris'`,
+        name: `True "Proscris"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12462,9 +12462,9 @@ const EquipInformation = [
             },
         lore: `The scepter of Diaz, one of the heroes of the famous "Crimson Star Circus". When he was liberated from the desire for revenge that kept burning fro his childhood, the hope for the future which had sprouted in his heart, entrusted by his companions, became one in the form of this scepter. Recognizing the companions who had walked with him as a new family, and his vows to create a new tomorrow, the scepter was transformed into a holy scepter.`
     },
-{ //Forbidden Book 'Irafael' - Complete
+{ //Forbidden Book "Irafael" - Complete
         id: 104811,
-        name: `Forbidden Book 'Irafael'`,
+        name: `Forbidden Book "Irafael"`,
         location: `Raid Equip (Auge)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12494,7 +12494,7 @@ const EquipInformation = [
     },
 { //God Blade 'Dragon Twilight' - Complete
         id: 104851,
-        name: `God Blade 'Dragon Twilight'`,
+        name: `God Blade "Dragon Twilight"`,
         location: `Limited Event - Seeking a Perfect World - Part 1`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12524,7 +12524,7 @@ const EquipInformation = [
     },
 { //Holy Robe 'Flora Twilight' - Complete
         id: 104861,
-        name: `Holy Robe 'Flora Twilight'`,
+        name: `Holy Robe "Flora Twilight"`,
         location: `Limited Event - Seeking a Perfect World - Part 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -12554,7 +12554,7 @@ const EquipInformation = [
     },
 { //War Blade 'Diamond Chakram' - Complete
         id: 104871,
-        name: `War Blade 'Diamond Chakram'`,
+        name: `War Blade "Diamond Chakram"`,
         location: `Limited Event - Seeking a Perfect World - Part 1`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12584,7 +12584,7 @@ const EquipInformation = [
     },
 { //True 'Dragon Twilight' - Complete
         id: 104881,
-        name: `True 'Dragon Twilight'`,
+        name: `True "Dragon Twilight"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12615,7 +12615,7 @@ const EquipInformation = [
     },
 { //True 'Diamond Chakram' - Missing Lore
         id: 104891,
-        name: `True 'Diamond Chakram'`,
+        name: `True "Diamond Chakram"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12646,7 +12646,7 @@ const EquipInformation = [
     },
 { //Gun Sword 'Bray Canon' - Missing Lore
         id: 104901,
-        name: `Gun Sword 'Bray Canon'`,
+        name: `Gun Sword "Bray Canon"`,
         location: `Rotating Event - Weapon with a Heart (Vicious)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -12676,7 +12676,7 @@ const EquipInformation = [
     },
 { //Machina Hyperdrive 'Magna Ark' - Missing Lore
         id: 104911,
-        name: `Machina Hyperdrive 'Magna Ark'`,
+        name: `Machina Hyperdrive "Magna Ark"`,
         location: `Rotating Event - Weapon with a Heart (Vicious)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12704,9 +12704,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sweet Poison 'Sacrifice' - Missing Lore
+{ //Sweet Poison "Sacrifice" - Missing Lore
         id: 104921,
-        name: `Sweet Poison 'Sacrifice'`,
+        name: `Sweet Poison "Sacrifice"`,
         location: `Main Story [Chapter 9 > Realm of Gods > [Challenge] Giaveil, the Grand Prince of Sin] Secret Equip`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -12736,7 +12736,7 @@ const EquipInformation = [
     },
 { //Magi-Umbrella 'Sans Pluie' - Complete
         id: 104931,
-        name: `Magi-Umbrella 'Sans Pluie'`,
+        name: `Magi-Umbrella "Sans Pluie"`,
         location: `Limited Event - Seeking a Perfect World - Part 2`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12766,7 +12766,7 @@ const EquipInformation = [
     },
 { //Magic Robe 'Tout Acconier' - Complete
         id: 104941,
-        name: `Magic Robe 'Tout Acconier'`,
+        name: `Magic Robe "Tout Acconier"`,
         location: `Limited Event - Seeking a Perfect World - Part 2`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -12794,9 +12794,9 @@ const EquipInformation = [
             },
         lore: `The formal dress that Mixie, one of the leading personas of the Demon fashionable society during the early period of the Ancient War. The gold color emphasizes her elegance and makes the atmosphere bright in just a second which makes it impossible to ignore her existence. Not only its design, but magic is woven into it to protect herself, the director, and negates attacks from blades and even magic attacks. Those with only such power would never be able to stand her dignity anyway.`
     },
-    { //Carving Whip 'Viperra' - Complete
+    { //Carving Whip "Viperra" - Complete
         id: 104951,
-        name: `Carving Whip 'Viperra'`,
+        name: `Carving Whip "Viperra"`,
         location: `Limited Event - Seeking a Perfect World - Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12826,7 +12826,7 @@ const EquipInformation = [
     },
 { //True 'Sans Pluie' - Complete
         id: 104961,
-        name: `True 'Sans Pluie'`,
+        name: `True "Sans Pluie"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12855,9 +12855,9 @@ const EquipInformation = [
             },
         lore: `This was an item beloved of Mixie, a Demoness who flourished early in the Ancient War and was close to the Six Great Demon Generals. She never carried a weapon, preferring to provoke and unsettle her opponents with a smug "An umbrella is all I need." However, this umbrella was actually ideal for battle, and in her hands it could be a defensive shield as well as a magical weapon strong enough to shatter diamond. They say that when she twirled her umbrella over the remains of enemy forces, she grew as fearsome as the God of Death.`
     },
-{ //True 'Viperra' - Complete
+{ //True "Viperra" - Complete
         id: 104971,
-        name: `True 'Viperra'`,
+        name: `True "Viperra"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -12888,7 +12888,7 @@ const EquipInformation = [
     },
 { //Frozen Spear 'Draco Hasta' - Complete
         id: 104981,
-        name: `Frozen Spear 'Draco Hasta'`,
+        name: `Frozen Spear "Draco Hasta"`,
         location: `Limited Event - Shadows of the Azul Frost (Alvina)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12918,7 +12918,7 @@ const EquipInformation = [
     },
 { //Frozen Boots 'Caerula Nix' - Complete
         id: 104991,
-        name: `Frozen Boots 'Caerula Nix'`,
+        name: `Frozen Boots "Caerula Nix"`,
         location: `Limited Event - Shadows of the Azul Frost (Alvina)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -12948,7 +12948,7 @@ const EquipInformation = [
     },
 { //True 'Draco Hasta' - Missing Lore
         id: 105001,
-        name: `True 'Draco Hasta'`,
+        name: `True "Draco Hasta"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -12977,9 +12977,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sacred Sword 'Grandeus' - Missing Lore
+{ //Sacred Sword "Grandeus" - Missing Lore
         id: 105011,
-        name: `Sacred Sword 'Grandeus'`,
+        name: `Sacred Sword "Grandeus"`,
         location: `Rotating Event - Misson of the Sacred Sword (Nogia)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13007,9 +13007,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sacred Garb 'Destina' - Complete
+{ //Sacred Garb "Destina" - Complete
         id: 105021,
-        name: `Sacred Garb 'Destina'`,
+        name: `Sacred Garb "Destina"`,
         location: `Rotating Event - Misson of the Sacred Sword (Nogia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -13099,7 +13099,7 @@ const EquipInformation = [
     },
 { //Relic 'Silent Wings' - Complete
         id: 105051,
-        name: `Relic 'Silent Wings'`,
+        name: `Relic "Silent Wings"`,
         location: `Limited Event - Faith in the Stars`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -13129,7 +13129,7 @@ const EquipInformation = [
     },
 { //True 'Frozen Twin Swords' - Complete
         id: 105061,
-        name: `True 'Frozen Twin Swords'`,
+        name: `True "Frozen Twin Swords"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -13158,9 +13158,9 @@ const EquipInformation = [
             },
         lore: `These are the blades to which the Silent Divine Palamecia, one of the Gods' greatest sword masters, devoted her life. The way these two blades danced silently through the air earned her comparisons to a swan in flight, and their grace helped her skill grow even more significant. The blades remained gleaming clean no matter their use, and thus reflected the tiniest tremor of hesitation shown by opponents so she could any opening to strike. They say they were so sharp, and they could cut the surface of a lake without raising a ripple.`
     },
-{ //True 'Volkans' - Missing Lore
+{ //True "Volkans" - Missing Lore
         id: 105071,
-        name: `True 'Volkans'`,
+        name: `True "Volkans"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13189,9 +13189,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Spirit Spear 'Melchizelek' - Complete
+{ //Spirit Spear "Melchizelek" - Complete
         id: 105081,
-        name: `Spirit Spear 'Melchizelek'`,
+        name: `Spirit Spear "Melchizelek"`,
         location: `Purchased from Store: Master Summoner Pack`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13219,9 +13219,9 @@ const EquipInformation = [
             },
         lore: `The spear which Daisy, the Human Warrior full of talent used during the Ancient War. It has charms different from those of magic, thus no one could use it, and Daisy was in charge of looking after it. However, by sympathizing with it, she became to communicate with it, and succeeded to bring out its true powers. Ever since, the spirit spear gave her enormous power.`
     },
-{ //Holy Robe 'Mercel' - Complete
+{ //Holy Robe "Mercel" - Complete
         id: 105091,
-        name: `Holy Robe 'Mercel'`,
+        name: `Holy Robe "Mercel"`,
         location: `Limited Event - Two Hearts, One Will - Part 1`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -13249,9 +13249,9 @@ const EquipInformation = [
             },
         lore: `The holy robe worn by Daki, a mage who withdrew from the front lines in the early days of the Ancient War despite his exceptional talent. It is made of a high quality fabric that was purified in an ancient temple and has the ability to heal the wounds of whoever wears it. The power of the gemstone in the center of the robe can relieve the illnesses of those around it and help them to heal. After retiring from the front lines, Daki is said to have continued to care for and heal wounded warriors in various places regardless of their race.`
     },
-{ //Staff of Phoenix Tear 'Atropos' - Complete
+{ //Staff of Phoenix Tear "Atropos" - Complete
         id: 105101,
-        name: `Staff of Phoenix Tear 'Atropos'`,
+        name: `Staff of Phoenix Tear "Atropos"`,
         location: `Limited Event - Two Hearts, One Will - Part 1`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -13279,9 +13279,9 @@ const EquipInformation = [
             },
         lore: `The holy staff beloved bi Daki, the mage of the 3rd Dove Brigade. It was made with crystallized phoenix tears, which are among the most magically powerful crystals. When Daki slept, exhausted from all the magic he used in battle, his Spirit attendant Meo would take care of his staff in secret. "Meo, the staff seems to be shining more brightly than before." "Really? I thing you're just imagining it."`
     },
-{ //True 'Atropos' - Complete
+{ //True "Atropos" - Complete
         id: 105111,
-        name: `True 'Atropos'`,
+        name: `True "Atropos"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -13312,7 +13312,7 @@ const EquipInformation = [
     },
 { //Light Relic 'Dagger of Creation' - Complete
         id: 105121,
-        name: `Light Relic 'Dagger of Creation'`,
+        name: `Light Relic "Dagger of Creation"`,
         location: `Dark Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -13341,9 +13341,9 @@ const EquipInformation = [
             },
         lore: `A light relic of the fallen country that believed that light would save everyone. It is said that this dagger created the world, but it does not have the powers to actually cut. There are various theories of how and why this dagger was made, but still, there is no accepted explanation for it. It might be waiting for the next opportunity to create a new world...`
     },
-{ //Dark Relic 'Brute' - Complete
+{ //Dark Relic "Brute" - Complete
         id: 105131,
-        name: `Dark Relic 'Brute'`,
+        name: `Dark Relic "Brute"`,
         location: `Light Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -13367,7 +13367,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Dark Relic 'Nichts' is also equipped, Dark units' Paralyze resistance 30% UP (Only once).`,
+                ability1: `When Dark Relic "Nichts" is also equipped, Dark units' Paralyze resistance 30% UP (Only once).`,
                 ability2: `When allies are equipped with 4 Dark Relic equipment, "Unleashing the power of Dark Relic" is activated.`
             },
         lore: `The sharp claws of an adept who swore loyalty to "The Nameless". He was a madman, whose highest pleasure was to see blood flowing out of his victim's body. This weapon was specially made to slash anything it touched, causing abundant bleeding. When ordered by "The Nameless", he slashed anything that moved, both allies and enemies, into a sea of blood. Alone after the carnage, he looked at his claws stained with the blood still warm with a dignified expression on his face.`
@@ -13552,9 +13552,9 @@ const EquipInformation = [
             },
         lore: `Swimwear prepared by Kane, a high official of the Gramenia Republic, for some fun in the sun. He claimed he was on important official business, but clearly he was just thinking of some fun, since he had a swimsuit for his Master Strategist as well. He wouldn't hear a word of argument, and changed to head to the beach as soon as they arrived at destination. Shaking his head in disgust, Fen changed too, and Kane looked on in amusement. 'I figured you needed a break!" he said, laughing.`
     },
-{ //Sorcerer's Treasured Robe 'Caligula' - Complete
+{ //Sorcerer's Treasured Robe "Caligula" - Complete
         id: 105241,
-        name: `Sorcerer's Treasured Robe 'Caligula'`,
+        name: `Sorcerer's Treasured Robe "Caligula"`,
         location: `Limited Event - Two Hearts, One Will - Part 2`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -13582,9 +13582,9 @@ const EquipInformation = [
             },
         lore: `The holy robe worn by twin-blade warrior Raki, who withdrew from the front lines in the early days of the Ancient War despite his exceptional swordsmanship. It is said to have been created by a brilliant Demon priest and can only be worn by those who are chosen by it. Raki's servant Gobbie didn't know about this and suffered the consequences for it more than once. "Hey, Raki, don't I look good in this, too?" "Take it off now, or you'll dry up like a mummy."`
     },
-{ //Demon Twin-Blade 'Deino' - Complete
+{ //Demon Twin-Blade "Deino" - Complete
         id: 105251,
-        name: `Demon Twin-Blade 'Deino'`,
+        name: `Demon Twin-Blade "Deino"`,
         location: `Limited Event - Two Hearts, One Will - Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13612,9 +13612,9 @@ const EquipInformation = [
             },
         lore: `The Demon blades beloved by Raki, the twin-blade swordsman of the 3rd Raven Brigade. They are embedded with crystallized phoenix tears, which are among the most magically powerful crystals. When he first got these, Raki had trouble handling them because they were a bit too long for twin blades. He asked the Demon's army weapon smith to optimize the blades just for him. The peculiarly shaped hilts were an extra gift from the smith, and Raki was very fond of them.`
     },
-{ //True 'Deino' - Complete
+{ //True "Deino" - Complete
         id: 105261,
-        name: `True 'Deino'`,
+        name: `True "Deino"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13645,7 +13645,7 @@ const EquipInformation = [
     },
 { //Gauntlets 'Gault Fort' - Missing Lore
         id: 105271,
-        name: `Gauntlets 'Gault Fort'`,
+        name: `Gauntlets "Gault Fort"`,
         location: `Rotating Event - The Beast's Rampage (Zerkalo)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13705,7 +13705,7 @@ const EquipInformation = [
     },
 { //Fire Relic 'Flaming Knight's Armor' - Complete
         id: 105381,
-        name: `Fire Relic 'Flaming Knight's Armor'`,
+        name: `Fire Relic "Flaming Knight's Armor"`,
         location: `Earth Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -13736,7 +13736,7 @@ const EquipInformation = [
     },
 { //Water Relic 'Water Dragon's Shield' - Complete
         id: 105391,
-        name: `Water Relic 'Water Dragon's Shield'`,
+        name: `Water Relic "Water Dragon's Shield"`,
         location: `Fire Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -13767,7 +13767,7 @@ const EquipInformation = [
     },
 { //Earth Relic 'Groove Lumina' - Missing Lore
         id: 105401,
-        name: `Earth Relic 'Groove Lumina'`,
+        name: `Earth Relic "Groove Lumina"`,
         location: `Water Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -13796,9 +13796,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sakura Sword 'IZANAGI' - Complete
+{ //Sakura Sword "IZANAGI" - Complete
         id: 105411,
-        name: `Sakura Sword 'IZANAGI'`,
+        name: `Sakura Sword "IZANAGI"`,
         location: `Limited Event - Inheritress of the Sakura Secret (Sakura Mira)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -13828,7 +13828,7 @@ const EquipInformation = [
     },
 { //Delicate kimono 'Translucent Blossom' - Complete
         id: 105421,
-        name: `Delicate kimono 'Translucent Blossom'`,
+        name: `Delicate kimono "Translucent Blossom"`,
         location: `Limited Event - Inheritress of the Sakura Secret (Sakura Mira)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -13856,9 +13856,9 @@ const EquipInformation = [
             },
         lore: `The garment that the young princess inheritor of the "Sakura Itto-Ryu" took back from the other world. A wonderful kimono decorated with flowers from another world, called "Translucent Blossom" from its clear and transparent appearance. Because she is protected by the swordswoman who taught her this sword technique, Sakura is guarded from impurities and endowed with a bold tenacity. They say she doesn't wear this kimono in public very often because she's still learning how to wear it properly.`
     },
-{ //True 'IZANAGI' - Complete
+{ //True "IZANAGI" - Complete
         id: 105431,
-        name: `True 'IZANAGI'`,
+        name: `True "IZANAGI"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -14127,9 +14127,9 @@ const EquipInformation = [
             },
         lore: `Selia, one of Grimm Stella, a coven of the Six Great Witches, wore this swimsuit. She always had a free spirit. She went wherever and did whatever she wanted. Whenever she got in the mood for a swim, she headed to the nearest beach, river or lake. However, her curious nature didn't lend itself to normal water fun. She would want to cut through the highest waves, or slide over the ice when she got tired of swimming. And so sometimes she would turn the area into a frozen wasteland in the blink of an eye.`
     },
-{ //Electro-Magnetic Gun 'Griffin' - Complete
+{ //Electro-Magnetic Gun "Griffin" - Complete
         id: 105521,
-        name: `Electro-Magnetic Gun 'Griffin'`,
+        name: `Electro-Magnetic Gun "Griffin"`,
         location: `Limited Event - Encounter with the Unknown (Norn)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14157,9 +14157,9 @@ const EquipInformation = [
             },
         lore: `This weapon uses electromagnetic induction to fire projectiles. This is among the highest class of weapons used by the humanoid Machines, and though it's incredibly difficult to use, it offers unrivaled destructive power. The user's magical power is converted to Electromagnetic power, and Machine users achieve a particularly high conversion rate. It's also much safer that gunpowder-based weapons. It's quite complex, so only very experienced fighters can use it to its full capacity.`
     },
-{ //Rapid-fire Gun 'Peregrine' - Complete
+{ //Rapid-fire Gun "Peregrine" - Complete
         id: 105531,
-        name: `Rapid-fire Gun 'Peregrine'`,
+        name: `Rapid-fire Gun "Peregrine"`,
         location: `Limited Event - Encounter with the Unknown (Norn)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -14187,9 +14187,9 @@ const EquipInformation = [
             },
         lore: `This cannon turns magical power into firepower. It excels in accuracy, velocity, power, and energy conversion, meaning it's nearly unequaled in fighting performance. It's an incredible example of cutting edge Machine technology, and it's easy to use as well, making it well-loved on battlefields all over. However, its ease of use implies that the user's skill will have a direct effect on efficacy, so it takes a high level of experience and sense to get the most out of it.`
     },
-{ //True 'Griffin' - Complete
+{ //True "Griffin" - Complete
         id: 105541,
-        name: `True 'Griffin'`,
+        name: `True "Griffin"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14218,9 +14218,9 @@ const EquipInformation = [
             },
         lore: `This special order weapon has been customized for easier use by the Machine warrior Norn. The original weapon has been lightened and its firepower increased, and since it can store up energy in advance it's capable of offering maximum power from the first shots of battle. On the other hand, it suffers from reduced energy efficiency and extreme recoil, which Norn compensates for with her own high-performance ballistic control system and high-output magic reactor.`
     },
-{ //Spiked Helmet 'Agni' - Complete
+{ //Spiked Helmet "Agni" - Complete
         id: 105551,
-        name: `Spiked Helmet 'Agni'`,
+        name: `Spiked Helmet "Agni"`,
         location: `Rotating Event - The Guardian Giant (Badoul)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -14250,7 +14250,7 @@ const EquipInformation = [
     },
 { //Water Boots 'Aqua Ferme' - Complete
         id: 105561,
-        name: `Water Boots 'Aqua Ferme'`,
+        name: `Water Boots "Aqua Ferme"`,
         location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -14278,9 +14278,9 @@ const EquipInformation = [
             },
         lore: `Footwear belonging to history's greatest Sword Master, Riana. Crafted from the remains of an ancient beast slain by the clan's founder, they are an essential part of her battle dress. Though legend says it is possible to call forth the spirit of the creature residing inside them, only she has perfectly mastered that ability. Phantasmal fangs of ice combine with her ultimate blade skill to create a truly flawless offense.`
     },
-{ //Dark Relic 'Groll' - Complete
+{ //Dark Relic "Groll" - Complete
         id: 105571,
-        name: `Dark Relic 'Groll'`,
+        name: `Dark Relic "Groll"`,
         location: `Light Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -14304,13 +14304,13 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Dark Relic 'Nichts' is also equipped, Dark units' Break power 20% UP (Only once).`
+                ability1: `When Dark Relic "Nichts" is also equipped, Dark units' Break power 20% UP (Only once).`
             },
         lore: `A spell used by one who swore allegiance to "The Nameless". His greatest joy of all was listening to people scream and cry. The spell was written with forbidden effects for maximizing the suffering of men, so that the targets screamed in agony as they wandered through a long, half-dead life. He used the spell on himself at the end, and when he heard his own scream in pain, he died in a frenzy of joy.`
     },
 { //Light Relic 'Eradication Bow' - Complete
         id: 105581,
-        name: `Light Relic 'Eradication Bow'`,
+        name: `Light Relic "Eradication Bow"`,
         location: `Dark Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14338,9 +14338,9 @@ const EquipInformation = [
             },
         lore: `The Light Relic of a nation that faced destruction in ages past, believing light would bring about salvation for all. Although the target of this bow is unknown, it is said that "All life will eventually end and be extinguished by this Eradiction Bow". Though some believed it to not exist, those that laid eyes upon the bow, had but no choice to recognize reality. A reality that this bow exists purely to bring an end to all. In other words, one the world will eventually come to an end.`
     },
-{ //Mysterious Necklace 'Eternal' - Missing Lore
+{ //Mysterious Necklace "Eternal" - Missing Lore
         id: 105591,
-        name: `Mysterious Necklace 'Eternal'`,
+        name: `Mysterious Necklace "Eternal"`,
         location: `Rotating Event - Mask of Madness (Strife)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14370,7 +14370,7 @@ const EquipInformation = [
     },
 { //Dark Blade 'Exceed Zechs' - Complete
         id: 105601,
-        name: `Dark Blade 'Exceed Zechs'`,
+        name: `Dark Blade "Exceed Zechs"`,
         location: `Limited Event - The Hero and the Cursed Sword (Dark Zeorg)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14400,7 +14400,7 @@ const EquipInformation = [
     },
 { //Dark Armor 'Evil Death' - Complete
         id: 105611,
-        name: `Dark Armor 'Evil Death'`,
+        name: `Dark Armor "Evil Death"`,
         location: `Limited Event - The Hero and the Cursed Sword (Dark Zeorg)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -14430,7 +14430,7 @@ const EquipInformation = [
     },
 { //True 'Exceed Zechs' - Complete
         id: 105621,
-        name: `True 'Exceed Zechs'`,
+        name: `True "Exceed Zechs"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14461,7 +14461,7 @@ const EquipInformation = [
     },
 { //Twin Bone Swords 'Dos Muertes' - Complete
         id: 105631,
-        name: `Twin Bone Swords 'Dos Muertes'`,
+        name: `Twin Bone Swords "Dos Muertes"`,
         location: `Limited Event - The Promised Place (Ashe)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14491,7 +14491,7 @@ const EquipInformation = [
     },
 { //Cursed Spear 'Tres Lanzas' - Complete
         id: 105641,
-        name: `Cursed Spear 'Tres Lanzas'`,
+        name: `Cursed Spear "Tres Lanzas"`,
         location: `Limited Event - The Promised Place (Ashe)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -14521,7 +14521,7 @@ const EquipInformation = [
     },
 { //True 'Dos Muertes' - Complete
         id: 105651,
-        name: `True 'Dos Muertes'`,
+        name: `True "Dos Muertes"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14579,9 +14579,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Fe'Ode' - Missing Lore
+{ //True "Fe'Ode" - Missing Lore
         id: 105671,
-        name: `True 'Fe'Ode'`,
+        name: `True "Fe'Ode"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14640,9 +14640,9 @@ const EquipInformation = [
             },
         lore: `When the grotesque Goddess of the Spiders appeared, she conferred this necklace to a strong warrior. By using this treasure as an icon, the force of exorcising evil can be unleashed. This regal ornament beyond human work can be touched only by someone who is powerful enough to defeat her. If someone without enough strength touches it, the proud Goddess anger will transform the unfortunate victim into a spider.`
     },
-{ //Fire Scepter 'Fomalhaut' - Complete
+{ //Fire Scepter "Fomalhaut" - Complete
         id: 105691,
-        name: `Fire Scepter 'Fomalhaut'`,
+        name: `Fire Scepter "Fomalhaut"`,
         location: `Side Quest: Knights of Blood - Act 1`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14672,7 +14672,7 @@ const EquipInformation = [
     },
 { //Blood Crest 'Arc Ignite' - Complete
         id: 105701,
-        name: `Blood Crest 'Arc Ignite'`,
+        name: `Blood Crest "Arc Ignite"`,
         location: `Side Quest: Knights of Blood - Act 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -14700,9 +14700,9 @@ const EquipInformation = [
             },
         lore: `This Crest of Granadia governs flame. Berwick of the Juno Templars wore it proudly, and they say when he unleashed it, it raised such incredible power from within him he could level whole armies on his own. When it is unsealed, the crest itself burns blazing hot and magical flames envelop the user. For that reason only a true master of fire can use it and indeed no one apart from Berwick has ever succeeded in controlling its flames.`
     },
-{ //True 'Fomalhaut' - Complete
+{ //True "Fomalhaut" - Complete
         id: 105711,
-        name: `True 'Fomalhaut'`,
+        name: `True "Fomalhaut"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14731,9 +14731,9 @@ const EquipInformation = [
             },
         lore: `The man who bore this scepter used it to drive back an entire invading army on his own, and even incinerated a mighty ice dragon. The holy flames it generates burn all to ash and scatters the ashes to the four winds. From this, it earned the name Hell Flame Scepter, and it played a role in all his great works. Many longed for his power and attempted to carry this weapon, but its flames depend on the bearer's magical power, and only one with a worthy fighting spirit can bring out its true power.`
     },
-{ //Earth Axe 'Tempest' - Complete
+{ //Earth Axe "Tempest" - Complete
         id: 105721,
-        name: `Earth Axe 'Tempest'`,
+        name: `Earth Axe "Tempest"`,
         location: `Side Quest: Knights of Blood - Act 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -14761,9 +14761,9 @@ const EquipInformation = [
             },
         lore: `The double axes wielded by Riviera of the Juno Templars. The special shape allows them to blow so hard, they say, the earth would break, the air would tear and the walls would smash. Some even say that the exceptional power unleashes with her double hit is equivalent of that of a thousand troops. The double axes are so heavy that ordinary people would not be able to even carry it, and that they are so difficult to handle that nobody other than her would ever be able to wield them.`
     },
-{ //Earth Battledress 'Aster' - Complete
+{ //Earth Battledress "Aster" - Complete
         id: 105731,
-        name: `Earth Battledress 'Aster'`,
+        name: `Earth Battledress "Aster"`,
         location: `Side Quest: Knights of Blood - Act 2`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -14791,9 +14791,9 @@ const EquipInformation = [
             },
         lore: `She went through many battles with this garment, but since she takes good care of it, it doesn't get worn out. This clothing wakes up magical powers lodged in the body of those who wear it and make it possible to instantly release a blow beyond the limits. However, since all the magical powers concentrate on the attack and lose the function as armor, appropriate preparation is required.`
     },
-{ //True 'Tempest' - Complete
+{ //True "Tempest" - Complete
         id: 105741,
-        name: `True 'Tempest'`,
+        name: `True "Tempest"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -14822,9 +14822,9 @@ const EquipInformation = [
             },
         lore: `The woman knight who handles this double weapon has always defended the Princess behind the enemy lines, along with the knight with the large shield. They say that the one who was mowed down by her axes was swept away together with the rocks in the surroundings, without leaving any trace. Nobody else could ever wield this weapon, but she was able to unleash all its destructive power.`
     },
-{ //Crimson Blade 'Degilagon' - Complete
+{ //Crimson Blade "Degilagon" - Complete
         id: 105751,
-        name: `Crimson Blade 'Degilagon'`,
+        name: `Crimson Blade "Degilagon"`,
         location: `Mines Equip - Degilmagna`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -14854,7 +14854,7 @@ const EquipInformation = [
     },
 { //Holy Necklace 'Dignified Silence' - Complete
         id: 105761,
-        name: `Holy Necklace 'Dignified Silence'`,
+        name: `Holy Necklace "Dignified Silence"`,
         location: `Mines Equip: Palamicia`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -14882,9 +14882,9 @@ const EquipInformation = [
             },
         lore: `The necklace of Palamecia, the most excellent God swordswoman also known as "the Silent Divine". She received this accessory as a present from her friend when she set out on her journey to gain ultimate sword skills. Since then, she always took great care of it. Glowing in graceful light, this accessory sublimated her and recognized her deepest desires to become stronger. The necklace's noble radiance reflects her way of life. Those who look at it will be able to sharpen their conscience to the utmost to fully use their powers.`
     },
-{ //Emerald Feather 'Biosdora' - Complete
+{ //Emerald Feather "Biosdora" - Complete
         id: 105771,
-        name: `Emerald Feather 'Biosdora'`,
+        name: `Emerald Feather "Biosdora"`,
         location: `Mines Equip: Tonetaurus`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -14912,9 +14912,9 @@ const EquipInformation = [
             },
         lore: `The feather that dropped from Tonetaurus, the emerald giant bird that appeared from the supercell called the "Curtains of the Thunder God". The lightning that sprung from its wings shatters the earth and shakes the air, but the gust of wind blesses the lives it touches once the giant bird is gone. This ornament made from the wings that destroy with thunder and bless by flapping, hide the powers of healing performed with the radiance of lightning.`
     },
-{ //Hatered Claws 'Grief' - Complete
+{ //Hatered Claws "Grief" - Complete
         id: 105781,
-        name: `Hatered Claws 'Grief'`,
+        name: `Hatered Claws "Grief"`,
         location: `Mines Equip: Subject B-3`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
@@ -14944,7 +14944,7 @@ const EquipInformation = [
     },
 { //Hades Earrings 'Halos Mors' - Complete
         id: 105791,
-        name: `Hades Earrings 'Halos Mors'`,
+        name: `Hades Earrings "Halos Mors"`,
         location: `Mines Equip: Oldeus`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -14974,7 +14974,7 @@ const EquipInformation = [
     },
 { //Sacred 'Silent Treasure' - Complete
         id: 105801,
-        name: `Sacred 'Silent Treasure'`,
+        name: `Sacred "Silent Treasure"`,
         location: `Mines Equip: Elite Palamicia`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -15002,9 +15002,9 @@ const EquipInformation = [
             },
         lore: `The sacred treasure of Palamacia, known as the Silent Divine, the greatest swordswoman of all Gods, Memories of Palamacia's life were engraved into her necklace and eventually embodied into this sacred treasure. Since it is the embodiment of Palamacia herself, by embedding vitality into this sacred vessel, her existence becomes even more substantial. Through the recollection of the memory of her ultimate swordsmanship, one can use her powers to achieve victory.`
     },
-{ //Sealed Earrings 'Filiamo' - Complete
+{ //Sealed Earrings "Filiamo" - Complete
         id: 105811,
-        name: `Sealed Earrings 'Filiamo'`,
+        name: `Sealed Earrings "Filiamo"`,
         location: `Mines Equip: Elite Oldeus`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -15242,9 +15242,9 @@ const EquipInformation = [
             },
         lore: `The boots that Jack-O-Sherum, a ghost that somehow fused with Ragsherum Phantom. It continues to wander and tricks people in order to get treats. This might seem kind of innocent, but in fact, it is said that this might be a ghost wandering to find a peaceful place to rest. It might have fused with Ragsherum Phantom which wanders to find its master, but no one knows the reason...`
     },
-{ //Aqua Blade 'Maelstrom' - Complete
+{ //Aqua Blade "Maelstrom" - Complete
         id: 105891,
-        name: `Aqua Blade 'Maelstrom'`,
+        name: `Aqua Blade "Maelstrom"`,
         location: `Limited Event - The Illusory Twin Blades (Water Melia)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -15274,7 +15274,7 @@ const EquipInformation = [
     },
 { //Mist-guise 'Mirage Hood' - Complete
         id: 105901,
-        name: `Mist-guise 'Mirage Hood'`,
+        name: `Mist-guise "Mirage Hood"`,
         location: `Limited Event - The Illusory Twin Blades (Water Melia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -15302,9 +15302,9 @@ const EquipInformation = [
             },
         lore: `A hood worn by Melia to hide her face when on secret missions. It's large to conceal the face, and it blends into the darkness when worn to keep enemy eyes from spotting her. As one of the most powerful sorcerers in La Riiz, she endowed it with water resistance and defensive power as well, and its incredible durability made it a valuable tool in her long secret career.`
     },
-{ //True 'Maelstrom' - Complete
+{ //True "Maelstrom" - Complete
         id: 105911,
-        name: `True 'Maelstrom'`,
+        name: `True "Maelstrom"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -15336,7 +15336,7 @@ const EquipInformation = [
 { //Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』) - JP Complete
         id: 105921,
         name: `双天剣 『紫耀・蒼風』`,
-        translate: `'Aurora & Zephyr'`,
+        translate: `"Aurora & Zephyr"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15394,7 +15394,7 @@ const EquipInformation = [
     },
 { //True 'Aurora & Zephyr' - Complete
         id: 105941,
-        name: `True 'Aurora & Zephyr'`,
+        name: `True "Aurora & Zephyr"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -15425,7 +15425,7 @@ const EquipInformation = [
     },
 { //Dragon Gauntlet 'Sol Helios' - Missing Lore
         id: 105951,
-        name: `Dragon Gauntlet 'Sol Helios'`,
+        name: `Dragon Gauntlet "Sol Helios"`,
         location: `Mines Equip: Fosradius`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -15453,7 +15453,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Night Thunder 'Noxara' (夜霹飾『ノクスアーラ』) - JP Complete
+{ //Night Thunder "Noxara" (夜霹飾『ノクスアーラ』) - JP Complete
         id: 105961,
         name: `夜霹飾『ノクスアーラ』`,
         location: `Mines Equip: Elite Tonetaurus`,
@@ -15485,7 +15485,7 @@ const EquipInformation = [
     },
 { //Icy Shell 'Frigid Scales' - Missing Lore
         id: 105971,
-        name: `Icy Shell 'Frigid Scales'`,
+        name: `Icy Shell "Frigid Scales"`,
         location: `Rotating Event - Wrath of the Dragon Slayer (Granith)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -15515,7 +15515,7 @@ const EquipInformation = [
     },
 { //Diamond Shield 'Adamas Gear' - Complete
         id: 105981,
-        name: `Diamond Shield 'Adamas Gear'`,
+        name: `Diamond Shield "Adamas Gear"`,
         location: `Side Quest: Knights of Blood - Act 3`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -15543,9 +15543,9 @@ const EquipInformation = [
             },
         lore: `The huge shield of the Demon knight Thetis, who is renown for saving his companions many times thanks to his "Wall of Steel". This incredibly solid shield was made by his ancestor who founded his family's armor shop. They say it would not be scratched even by a Dragon's attack. However, because of its weight, it was stored away for a long time and only thanks to his tireless training, Thetis mastered the technique to handle it.`
     },
-{ //Torrent Sword 'Grosveld' - Complete
+{ //Torrent Sword "Grosveld" - Complete
         id: 105991,
-        name: `Torrent Sword 'Grosveld'`,
+        name: `Torrent Sword "Grosveld"`,
         location: `Side Quest: Knights of Blood - Act 3`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -15575,7 +15575,7 @@ const EquipInformation = [
     },
 { //True 'Adamas Gear' - Complete
         id: 106001,
-        name: `True 'Adamas Gear'`,
+        name: `True "Adamas Gear"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -15606,7 +15606,7 @@ const EquipInformation = [
     },
 { //Fire Relic 'Flaming Knight's Mantle' - Missing Lore
         id: 106011,
-        name: `Fire Relic 'Flaming Knight's Mantle'`,
+        name: `Fire Relic "Flaming Knight's Mantle"`,
         location: `Earth Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -15637,7 +15637,7 @@ const EquipInformation = [
     },
 { //Water Relic 'Water Dragon's Fang Earrings' - Missing Lore
         id: 106021,
-        name: `Water Relic 'Water Dragon's Fang Earrings'`,
+        name: `Water Relic "Water Dragon's Fang Earrings"`,
         location: `Fire Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -15666,9 +15666,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Earth Relic 'Diewelt' - Missing Lore
+{ //Earth Relic "Diewelt" - Missing Lore
         id: 106031,
-        name: `Earth Relic 'Diewelt'`,
+        name: `Earth Relic "Diewelt"`,
         location: `Water Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -15699,7 +15699,7 @@ const EquipInformation = [
     },
 { //Relic 'Santa Arpa' - Complete
         id: 106041,
-        name: `Relic 'Santa Arpa'`,
+        name: `Relic "Santa Arpa"`,
         location: `Rotating Giant Boss - Sanctuary of the Bright Spirit (Wilkes)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -15727,9 +15727,9 @@ const EquipInformation = [
             },
         lore: `This lyre holds a spirit's singing voice that brings good fortune and blessings. Since ancient times, there always have been people longing for the Spirit's blessing, yet most of them have ended up in ruin. However, one girl offered up the voice of this lyre to the Spirit, who was so enraptured by the sound that she bound herself to the instrument. They say that those who are touched by its voice will receive good fortune and a chance to grasp victory.`
     },
-{ //Judgement Blade 'ZANKETSU' - Complete
+{ //Judgement Blade "ZANKETSU" - Complete
         id: 106051,
-        name: `Judgement Blade 'ZANKETSU'`,
+        name: `Judgement Blade "ZANKETSU"`,
         location: `Side Quest: Knights of Blood - Act 4`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -15759,7 +15759,7 @@ const EquipInformation = [
     },
 { //Demon Garb 'Ritter Stola' - Complete
         id: 106061,
-        name: `Demon Garb 'Ritter Stola'`,
+        name: `Demon Garb "Ritter Stola"`,
         location: `Side Quest: Knights of Blood - Act 4`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -15787,9 +15787,9 @@ const EquipInformation = [
             },
         lore: `This adornment is worn by Vox, the proud captain of the Juno Templars. It had to be made from incredibly light and durable materials to both keep from holding back his lightning attacks, and offer protection in battle. It was also imbued with powerful healing magic by his queen who always worried when he ventured deep into enemy territory. Any injuries received while wearing this garb will be healed, allowing the warrior to rise and fight again.`
     },
-{ //True 'ZANKETSU' - Missing Lore
+{ //True "ZANKETSU" - Missing Lore
         id: 106071,
-        name: `True 'ZANKETSU'`,
+        name: `True "ZANKETSU"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -15821,7 +15821,7 @@ const EquipInformation = [
     },
 { //True 'Knights Glow' - Complete
         id: 106081,
-        name: `True 'Knights Glow'`,
+        name: `True "Knights Glow"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16062,7 +16062,7 @@ const EquipInformation = [
     },
 { //Divine Crown 'Holy Jingle' - Complete
         id: 106161,
-        name: `Divine Crown 'Holy Jingle'`,
+        name: `Divine Crown "Holy Jingle"`,
         location: `Limited Event - Rhapsody of Christmas Eve`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16092,7 +16092,7 @@ const EquipInformation = [
     },
 { //Ghost Shield 'Tenebrae Lux' - Complete (109961 = Tenebrius EV Equip)
         id: 106171,
-        name: `Ghost Shield 'Tenebrae Lux'`,
+        name: `Ghost Shield "Tenebrae Lux"`,
         location: `Raid Equip (Tenebrius)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -16122,7 +16122,7 @@ const EquipInformation = [
     },
 { //Light Relic 'Cape of Reincarnation' - Complete
         id: 106181,
-        name: `Light Relic 'Cape of Reincarnation'`,
+        name: `Light Relic "Cape of Reincarnation"`,
         location: `Dark Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -16151,9 +16151,9 @@ const EquipInformation = [
             },
         lore: `A Light Relic of a nation that believed the light would save all and was destroyed long ago. It was said that when the world is reborn, whoever holds one of these will also be restored. Lighter than air and radiating divinity, it can only be worn by those who are pure and honest. Any presence of sin and it will flee as if of its own will. When the fated hour is at hand, how many will be found bearing it.`
     },
-{ //Dark Relic 'Metzelei' - Complete
+{ //Dark Relic "Metzelei" - Complete
         id: 106191,
-        name: `Dark Relic 'Metzelei'`,
+        name: `Dark Relic "Metzelei"`,
         location: `Light Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16177,7 +16177,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When Dark Relic 'Nichts' is also equipped, Light DMG taken by Dark units' 20% DOWN (Only once).`,
+                ability1: `When Dark Relic "Nichts" is also equipped, Light DMG taken by Dark units' 20% DOWN (Only once).`,
                 ability2: `When allies are equipped with 4 Dark Relic equipment, "Unleashing the Power of Dark Relics" is activated.`
             },
         lore: `A great sword used by one who swore allegiance to the "The Nameless'. His greatest joy of all was severing the heads of his victims. The weapon was forged wit superb durability, so it shows no use signs of wear despite heavy use. He firmly believed that the sensation of it separating head from body proved he was alive. It was said that the madness of his slaughter dyed the blade's edge not in the red of blood, but a darker violet hue.`
@@ -16185,7 +16185,7 @@ const EquipInformation = [
 { //聖徽『イノセントノア』 (Kush's Farmable) - JP Complete
         id: 106201,
         name: `聖徽『イノセントノア』`,
-        translate: `'Innocent Noah'`,
+        translate: `"Innocent Noah"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -16215,7 +16215,7 @@ const EquipInformation = [
 { //裂魔剣『グランキラー』 (Rebol's Farmable) - JP Complete
         id: 106211,
         name: `裂魔剣『グランキラー』`,
-        translate: `'Gran Killer'`,
+        translate: `"Gran Killer"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16245,7 +16245,7 @@ const EquipInformation = [
 { //真『イノセントノア』 (Kush's TW) - JP Complete
         id: 106221,
         name: `真『イノセントノア』`,
-        translate: `True 'Innocent Noah'`,
+        translate: `True "Innocent Noah"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -16277,7 +16277,7 @@ const EquipInformation = [
 { //真『グランキラー』 (Rebol's TW) - JP Complete
         id: 106231,
         name: `真『グランキラー』`,
-        translate: `True 'Gran Killer'`,
+        translate: `True "Gran Killer"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16308,7 +16308,7 @@ const EquipInformation = [
     },
 { //True 'Saint Blaze' - Complete
         id: 106241,
-        name: `True 'Saint Blaze'`,
+        name: `True "Saint Blaze"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16340,7 +16340,7 @@ const EquipInformation = [
 { //翠砡杖『ヴァルトレニス』 (Belle's Farmable) - JP Complete
         id: 106251,
         name: `翠砡杖『ヴァルトレニス』`,
-        translate: `'Valtrenith'`,
+        translate: `"Valtrenith"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -16396,9 +16396,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Valtrenith' - Missing Lore
+{ //True "Valtrenith" - Missing Lore
         id: 106271,
-        name: `True 'Valtrenith'`,
+        name: `True "Valtrenith"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -16430,7 +16430,7 @@ const EquipInformation = [
 { //水凰帽『フェロニカ』 (Tia's Farmable) - JP Complete
         id: 106281,
         name: `水凰帽『フェロニカ』`,
-        translate: `'Feronica'`,
+        translate: `"Feronica"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -16489,7 +16489,7 @@ const EquipInformation = [
 { //真『フェロニカ』 (Tia's TW) - JP Complete
         id: 106301,
         name: `真『フェロニカ』`,
-        translate: `True 'Feronica'`,
+        translate: `True "Feronica"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -16520,7 +16520,7 @@ const EquipInformation = [
     },
 { //Blazing Cloak 'Flame Stola' - Complete
         id: 106311,
-        name: `Blazing Cloak 'Flame Stola'`,
+        name: `Blazing Cloak "Flame Stola"`,
         location: `Side Quest: Knights of Blood - Act 5`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -16548,9 +16548,9 @@ const EquipInformation = [
             },
         lore: `This mantle was dear to the blazing-fast swordsman Berwick of the Leone Templars. It was designed for mobility to meet his high-speed fighting style, but the material is imbued with flame magic in its very fibers, giving it extremely high defensive capabilities as well. To protect him whenever he uses his true power, the mantle fills the air with flames, and for this reason many began to call him "Swordsman of Flames".`
     },
-{ //Fire Boots 'Rubellum' - Complete
+{ //Fire Boots "Rubellum" - Complete
         id: 106321,
-        name: `Fire Boots 'Rubellum'`,
+        name: `Fire Boots "Rubellum"`,
         location: `Side Quest: Knights of Blood - Act 5`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -16578,9 +16578,9 @@ const EquipInformation = [
             },
         lore: `These boots were dear to the blazing-fast swordsman Berwick of the Leone Templars. They were made strong to withstand treading the flames he wielded, yet still light enough to allow him to move with quickness. The way he ended battle stalemates with his swordsmanship and mobility encouraged not only his comrades but all the soldiers around.`
     },
-{ //Star Etcher 'Asterisk' - Complete
+{ //Star Etcher "Asterisk" - Complete
         id: 106331,
-        name: `Star Etcher 'Asterisk'`,
+        name: `Star Etcher "Asterisk"`,
         location: `Side Quest: Knights of Blood - Act 6`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -16608,9 +16608,9 @@ const EquipInformation = [
             },
         lore: `A pen created to exercise her magic by the genius sorcerer and pride of the Leone Templars. The pen holder was made of a special metal, discovered in Granadia and inherited from the Ancestors along with the Crest runes. The allows the pen nib to channel the user's magic effectively. At the time, crest sorcerers of Granadia preferred pens to staves or rods.`
     },
-{ //Inventor Robe 'Genesis' - Complete
+{ //Inventor Robe "Genesis" - Complete
         id: 106341,
-        name: `Inventor Robe 'Genesis'`,
+        name: `Inventor Robe "Genesis"`,
         location: `Side Quest: Knights of Blood - Act 6`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -16638,9 +16638,9 @@ const EquipInformation = [
             },
         lore: `A robe worn by the Leone Templars' extraordinary inventor. It resembles the uniform of the Sorcery Academy, but it is made with fibers infused of massive magical power. It was specially designed to increase the wearer's Magic power, rather than to protect. The robe is also treated with mysterious Crest sorcery, which inspires the wearer with a desire of knowledge, and can bring out talents in a variety of fields like literature, sorcery and medicine.`
     },
-{ //True 'Asterisk' - Complete
+{ //True "Asterisk" - Complete
         id: 106351,
-        name: `True 'Asterisk'`,
+        name: `True "Asterisk"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -16669,9 +16669,9 @@ const EquipInformation = [
             },
         lore: `The pen used to exercise her powerful Crest magic by the genius sorcerer of the Leone Templars, called "Heavenly Witch". She made it by concentrating her knowledge and technique, so the pen nib blazes with magical brilliance. When she writes the Crest runes in the air, she leaves sparkling traces like stars, which earned her another name: "Star Etcher".`
     },
-{ //True 'Flambardo' - Complete
+{ //True "Flambardo" - Complete
         id: 106361,
-        name: `True 'Flambardo'`,
+        name: `True "Flambardo"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -16700,9 +16700,9 @@ const EquipInformation = [
             },
         lore: `This is the shield borne by Sanstone, vice-commander of the Divine Guardian Knights, when she fulfilled her ultimate duty. This proud shield became her symbol, and it held the power to turn back even dragon's breath. It never lost its shine even after long years of use, and though scholars studied it deeply, all they could say was that it was likely the work of the Spirits. The platinum is not only set with countless jewels, but also imbued with the unshakable will of the knight who bore it.`
     },
-{ //Incensed Helm 'Astragoth' - Missing Lore
+{ //Incensed Helm "Astragoth" - Missing Lore
         id: 106371,
-        name: `Incensed Helm 'Astragoth'`,
+        name: `Incensed Helm "Astragoth"`,
         location: `Mines Equip: Ifrit`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -16730,9 +16730,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shadowflame Helm 'Helioskia' - Missing Lore
+{ //Shadowflame Helm "Helioskia" - Missing Lore
         id: 106381,
-        name: `Shadowflame Helm 'Helioskia'`,
+        name: `Shadowflame Helm "Helioskia"`,
         location: `Mines Equip: Elite Ifrit`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -16760,9 +16760,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Enchanted Rifle 'Stratega' - Complete
+{ //Enchanted Rifle "Stratega" - Complete
         id: 106391,
-        name: `Enchanted Rifle 'Stratega'`,
+        name: `Enchanted Rifle "Stratega"`,
         location: `Limited Event - Spy in the Shadows Part 1 (Dark Fen)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -16792,7 +16792,7 @@ const EquipInformation = [
     },
 { //Stealth Gear 'Atra Nebula' - Complete
         id: 106401,
-        name: `Stealth Gear 'Atra Nebula'`,
+        name: `Stealth Gear "Atra Nebula"`,
         location: `Limited Event - Spy in the Shadows Part 1 (Dark Fen)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -16820,9 +16820,9 @@ const EquipInformation = [
             },
         lore: `A pitch black hat worn by Fen, given to him by a nation that tasked him with escorting a female captain to them. While it can naturally fulfill its purpose as headwear, it can also be used as a weapon due to it being charged with magic.\n"Hey, Fen! Let me wear that nifty hat, too!"\n"...Rations have no need for fashion."\n"Th-That's just mean!!"`
     },
-{ //True 'Stratega' - Complete
+{ //True "Stratega" - Complete
         id: 106411,
-        name: `True 'Stratega'`,
+        name: `True "Stratega"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -16851,9 +16851,9 @@ const EquipInformation = [
             },
         lore: `The beloved rifle of Spy of Darkness Fen. It is said that after experiencing fierce combat during his escort mission, his skills with the weapon came to surpass even those of the greatest marksmen across the land. He was able to use physical and magic bullets in such a way that even the creator of the rifle wouldn't have even imagined. It is easy to see how intelligent and flexible of a warrior Fen is through his apparent lack of difficulty in mastering a new weapon. It's also obvious as to how well this rifle matched Fen due to how quickly he mastered it.`
     },
-{ //Stealth Blade 'Nanashi' - Complete
+{ //Stealth Blade "NANASHI" - Complete
         id: 106421,
-        name: `Stealth Blade 'Nanashi'`,
+        name: `Stealth Blade "NANASHI"`,
         location: `Limited Event - Spy in the Shadows Part 2 (Dark Kane)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16881,9 +16881,9 @@ const EquipInformation = [
             },
         lore: `A short sword used by Sword Agent Kane. Crafted by multiple blacksmiths, this weapon got its name from the passion of each blacksmith that forged it. This sword is famous for its extraordinary sharpness and unbreakable blade, and it is very rare and difficult to obtain. Kane chose the sword for his escort mission because he saw an illustration of it in an old tome from another land.`
     },
-{ //Twilight Dagger 'YOICHI' - Complete
+{ //Twilight Dagger "YOICHI" - Complete
         id: 106431,
-        name: `Twilight Dagger 'YOICHI'`,
+        name: `Twilight Dagger "YOICHI"`,
         location: `Limited Event - Spy in the Shadows Part 2 (Dark Kane)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -16911,9 +16911,9 @@ const EquipInformation = [
             },
         lore: `A pitch black coat worn by Kane, given to him by a nation that tasked him with escorting a female captain to them. He had originally planned to wear the same clothes as Fen, but he requested they get him the cloak instead because it was cooler.\n"I think you stand out too much to be a bodyguard..."\n"You think so? Well, don't sweat the small stuff! Hahaha!!"\n"...Hmph."`
     },
-{ //True 'NANASHI' - Complete
+{ //True "NANASHI" - Complete
         id: 106441,
-        name: `True 'NANASHI'`,
+        name: `True "NANASHI"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -16975,7 +16975,7 @@ const EquipInformation = [
 { //闘拳『セイバーアーム』 (Cynthia's Farmable) - JP Complete
         id: 106461,
         name: `闘拳『セイバーアーム』`,
-        translate: `'Sabertooth Gauntlets'`,
+        translate: `"Sabertooth Gauntlets"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17031,9 +17031,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Magmation' - Missing Lore
+{ //True "Magmation" - Missing Lore
         id: 106481,
-        name: `True 'Magmation'`,
+        name: `True "Magmation"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17064,7 +17064,7 @@ const EquipInformation = [
     },
 { //True 'Sabertooth Gauntlets' - Missing Lore
         id: 106491,
-        name: `True 'Sabertooth Gauntlets'`,
+        name: `True "Sabertooth Gauntlets"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17096,7 +17096,7 @@ const EquipInformation = [
 { //宵竜刀『スタリサルダ』 (Barossa's Farmable) - JP Complete
         id: 106501,
         name: `宵竜刀『スタリサルダ』`,
-        translate: `'Starisarta'`,
+        translate: `"Starisarta"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17126,7 +17126,7 @@ const EquipInformation = [
 { //輝竜槍『アルバソル』 (Melissa's Farmable) - JP Complete
         id: 106511,
         name: `輝竜槍『アルバソル』`,
-        translate: `'Arbasol'`,
+        translate: `"Arbasol"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17155,7 +17155,7 @@ const EquipInformation = [
     },
 { //True 'Shadow Stella' - Missing Lore
         id: 106521,
-        name: `True 'Shadow Stella'`,
+        name: `True "Shadow Stella"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17184,9 +17184,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Arbasol' - Missing Lore
+{ //True "Arbasol" - Missing Lore
         id: 106531,
-        name: `True 'Arbasol'`,
+        name: `True "Arbasol"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17280,7 +17280,7 @@ const EquipInformation = [
     },
 { //True 'EX Gate' - Complete
         id: 106581,
-        name: `True 'EX Gate'`,
+        name: `True "EX Gate"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -17311,7 +17311,7 @@ const EquipInformation = [
     },
 { //Star Crest 'EX Gate' - Complete
         id: 106591,
-        name: `Star Crest 'EX Gate'`,
+        name: `Star Crest "EX Gate"`,
         location: `Side Quest: Knights of Blood - Act 7`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -17339,9 +17339,9 @@ const EquipInformation = [
             },
         lore: `A ritual necklace inscribed with ancient runes used to control the Crest. It was produced in the eastern continent during the Ancient War. Since the magical power is automatically distributed in a very precise way, the user can easily activate it after setting the power and range of magic. In large-scale battles, where many sorcerers who belong to large troops, such the the Imperial Army, move in parallel, gladly take them into the fray.`
     },
-{ //Star Robe 'Regalia' - Complete
+{ //Star Robe "Regalia" - Complete
         id: 106601,
-        name: `Star Robe 'Regalia'`,
+        name: `Star Robe "Regalia"`,
         location: `Side Quest: Knights of Blood - Act 7`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -17398,9 +17398,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ruschel's Spear 'Amphisbaena' - Missing Lore
+{ //Ruschel's Spear "Amphisbaena" - Missing Lore
         id: 106621,
-        name: `Ruschel's Spear 'Amphisbaena'`,
+        name: `Ruschel's Spear "Amphisbaena"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17456,9 +17456,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Obscure Blade 'Vanish' - Missing Lore
+{ //Obscure Blade "Vanish" - Missing Lore
         id: 106641,
-        name: `Obscure Blade 'Vanish'`,
+        name: `Obscure Blade "Vanish"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17485,9 +17485,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Illusory Boots 'Geist' - Complete
+{ //Illusory Boots "Geist" - Complete
         id: 106651,
-        name: `Illusory Boots 'Geist'`,
+        name: `Illusory Boots "Geist"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -17514,9 +17514,9 @@ const EquipInformation = [
             },
         lore: `The battle boots worn by the leader of the Leone Templars, Duke. Those who saw him on the battlefield described him as a phantom, but it was probably due to the movements greatly accelerated by these "Illusory Boots". Since they are made using the most precious parts of the flying dragons, in addition to ancient and unique sorcery, it is impossible to produce a copy. They so no one can withstand the power of these boots.`
     },
-{ //True 'Vanish' - Complete
+{ //True "Vanish" - Complete
         id: 106661,
-        name: `True 'Vanish'`,
+        name: `True "Vanish"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17634,7 +17634,7 @@ const EquipInformation = [
     },
 { //Forbidden 'Demonic Seal' - Complete
         id: 106701,
-        name: `Forbidden 'Demonic Seal'`,
+        name: `Forbidden "Demonic Seal"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17663,7 +17663,7 @@ const EquipInformation = [
     },
 { //Ninja Spear 'Netherworld Silver' - Complete
         id: 106711,
-        name: `Ninja Spear 'Netherworld Silver'`,
+        name: `Ninja Spear "Netherworld Silver"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17692,7 +17692,7 @@ const EquipInformation = [
     },
 { //True 'Demonic Seal' - Complete
         id: 106721,
-        name: `True 'Demonic Seal'`,
+        name: `True "Demonic Seal"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -17723,7 +17723,7 @@ const EquipInformation = [
     },
 { //True 'Netherworld Silver' - Complete
         id: 106731,
-        name: `True 'Netherworld Silver'`,
+        name: `True "Netherworld Silver"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17754,7 +17754,7 @@ const EquipInformation = [
     },
 { //Pyro Blade 'Will-o'-the-Wisp' - Complete
         id: 106741,
-        name: `Pyro Blade 'Will-o'-the-Wisp'`,
+        name: `Pyro Blade "Will-o'-the-Wisp"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17783,7 +17783,7 @@ const EquipInformation = [
     },
 { //Storm Blade 'TSUJI-KAZE' - Complete
         id: 106751,
-        name: `Storm Blade 'TSUJI-KAZE'`,
+        name: `Storm Blade "TSUJI-KAZE"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17812,7 +17812,7 @@ const EquipInformation = [
     },
 { //True 'Will-o'-the-Wisp' - Complete
         id: 106761,
-        name: `True 'Will-o'-the-Wisp'`,
+        name: `True "Will-o'-the-Wisp"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -17843,7 +17843,7 @@ const EquipInformation = [
     },
 { //True 'TSUJI-KAZE' - Complete
         id: 106771,
-        name: `True 'TSUJI-KAZE'`,
+        name: `True "TSUJI-KAZE"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -18055,7 +18055,7 @@ const EquipInformation = [
 { //蒼魔杖『ミゼラブル』 (Adele's Farmable) - JP Complete
         id: 106841,
         name: `蒼魔杖『ミゼラブル』`,
-        translate: `'Empath'`,
+        translate: `"Empath"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -18082,9 +18082,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Empath' - Missing Lore
+{ //True "Empath" - Missing Lore
         id: 106851,
-        name: `True 'Empath'`,
+        name: `True "Empath"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -18325,7 +18325,7 @@ const EquipInformation = [
 { //焔双刃『インフェリア』 (Orgah's Farmable) - JP Complete
         id: 106931,
         name: `焔双刃『インフェリア』`,
-        translate: `'Exferia'`,
+        translate: `"Exferia"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18352,9 +18352,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Exferia' - Missing Lore
+{ //True "Exferia" - Missing Lore
         id: 106941,
-        name: `True 'Exferia'`,
+        name: `True "Exferia"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -18412,9 +18412,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Creation' - Complete
+{ //True "Creation" - Complete
         id: 106961,
-        name: `True 'Creation'`,
+        name: `True "Creation"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -18473,7 +18473,7 @@ const EquipInformation = [
     },
 { //Oni Arm 'Crimson Talon' - Complete
         id: 106981,
-        name: `Oni Arm 'Crimson Talon'`,
+        name: `Oni Arm "Crimson Talon"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18502,7 +18502,7 @@ const EquipInformation = [
     },
 { //True 'Crimson Talon' - Complete
         id: 106991,
-        name: `True 'Crimson Talon'`,
+        name: `True "Crimson Talon"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -18533,7 +18533,7 @@ const EquipInformation = [
     },
 { //Mech Blades 'Dual Thunderbolts' - Complete
         id: 107001,
-        name: `Mech Blades 'Dual Thunderbolts'`,
+        name: `Mech Blades "Dual Thunderbolts"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18562,7 +18562,7 @@ const EquipInformation = [
     },
 { //True 'Dual Thunderbolts' - Complete
         id: 107011,
-        name: `True 'Dual Thunderbolts'`,
+        name: `True "Dual Thunderbolts"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -18593,7 +18593,7 @@ const EquipInformation = [
     },
 { //Ninja Garb 'Mirage Kimono' - Complete
         id: 107021,
-        name: `Ninja Garb 'Mirage Kimono'`,
+        name: `Ninja Garb "Mirage Kimono"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18622,7 +18622,7 @@ const EquipInformation = [
     },
 { //True 'Mirage Kimono' - Complete
         id: 107031,
-        name: `True 'Mirage Kimono'`,
+        name: `True "Mirage Kimono"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -18653,7 +18653,7 @@ const EquipInformation = [
     },
 { //Demon Edge 'Blood Moon' - Complete
         id: 107041,
-        name: `Demon Edge 'Blood Moon'`,
+        name: `Demon Edge "Blood Moon"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18682,7 +18682,7 @@ const EquipInformation = [
     },
 { //True 'Blood Moon' - Complete
         id: 107051,
-        name: `True 'Blood Moon'`,
+        name: `True "Blood Moon"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -18743,7 +18743,7 @@ const EquipInformation = [
 { //炎長杖『フレルニカ』 (Vermilia's Farmable) - JP Complete
         id: 107071,
         name: `炎長杖『フレルニカ』`,
-        translate: `'Flerunika'`,
+        translate: `"Flerunika"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -18770,9 +18770,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Flerunica' - Complete
+{ //True "Flerunica" - Complete
         id: 107081,
-        name: `True 'Flerunica'`,
+        name: `True "Flerunica"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -18831,9 +18831,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Lizaverde' - Complete
+{ //True "Lizaverde" - Complete
         id: 107101,
-        name: `True 'Lizaverde'`,
+        name: `True "Lizaverde"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -18892,9 +18892,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Leivachka' - Missing Lore
+{ //True "Leivachka" - Missing Lore
         id: 107121,
-        name: `True 'Leivachka'`,
+        name: `True "Leivachka"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -18926,7 +18926,7 @@ const EquipInformation = [
 { //剛槍斧『ウーリバルト』 (Garlan's Farmable) - JP Complete
         id: 107131,
         name: `剛槍斧『ウーリバルト』`,
-        translate: `'Yulibert'`,
+        translate: `"Yulibert"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18953,9 +18953,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Yulibert' - Missing Lore
+{ //True "Yulibert" - Missing Lore
         id: 107141,
-        name: `True 'Yulibert'`,
+        name: `True "Yulibert"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -19255,9 +19255,9 @@ const EquipInformation = [
             },
         lore: `The costume of Leone, queen of the Kingdom of Granadia. After finding a tome with records of an otherworldly festival in which people dressed in costume to celebrate the harvest, Leone was inspired to have her own kingdom hold the event as well. Her magic-using friend chose Leone's garb for her: an outfit that was apparently the uniform of female youth in another world, and anyone who wore this spent their days in good health being adored by the populace. Watching Leone spend the entire festival with a vigorous smile on her face, her friend prayed that those days of happiness would continue without end.`
     },
-{ //True 'Brodithung' - Complete
+{ //True "Brodithung" - Complete
         id: 107241,
-        name: `True 'Brodithung'`,
+        name: `True "Brodithung"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -19286,9 +19286,9 @@ const EquipInformation = [
             },
         lore: `With strenuous effort, Filia gained the power to communicate with her weapon. Its blade resembling the blue of pure water could slash through evil with a single stroke. When she stopped to rest in a certain village, a sudden storm caused the river to overflow and strand it. With the help of her sword, she cut the sediment blocking the flow and drained the water. This is one of her favorite stories, but few believe it happened.`
     },
-{ //Automatic 'SV61' - Complete
+{ //Automatic "SV61" - Complete
         id: 107251,
-        name: `Automatic 'SV61'`,
+        name: `Automatic "SV61"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19315,9 +19315,9 @@ const EquipInformation = [
             },
         lore: `The famed rifle manufacturer Swagger & Vecket made these pistols in a bid for official adoption by the Isliid army. Boasting high precision along with ease of handling and maintenance, many soldiers found them to be reliable side arms. The Fenrir Corps too considers optional gear. The lack stopping power, but imperial-style gunplay has always placed a greater emphasis on technique over sheer force.`
     },
-{ //True 'SV61' - Complete
+{ //True "SV61" - Complete
         id: 107261,
-        name: `True 'SV61'`,
+        name: `True "SV61"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -19346,9 +19346,9 @@ const EquipInformation = [
             },
         lore: `A full-auto handgun used by the Isliid military and developed by the rifle maker Swagger & Vecket in hopes of escaping bankruptcy. It's not well-liked by other nations' militaries that don't use Imperial Gun Arts, but other members of the firearms industry praise the weapon for its technical finesse. The company successfully regained its financial footing, while also obtaining approval within their own industry (however, the company did not continue developing pistols, but instead went back to making rifles).`
     },
-{ //Specialist 'Tailor's Pride' - Complete
+{ //Specialist "Tailor's Pride" - Complete
         id: 107271,
-        name: `Specialist 'Tailor's Pride'`,
+        name: `Specialist "Tailor's Pride"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -19375,9 +19375,9 @@ const EquipInformation = [
             },
         lore: `The outfit adopted by the Imperial Information Bureau. It was designed to be both durable enough for regular duty and formal enough for official functions. As the Isliid military does not enforce uniforms, many knights choose to stow theirs during peacetime. In contrast, bureau agents find the flexible fabric highly suitable for office work, so they usually wear them except for undercover or plainclothes operations.`
     },
-{ //True 'Valiant' - Missing Lore
+{ //True "Valiant" - Missing Lore
         id: 107281,
-        name: `True 'Valiant'`,
+        name: `True "Valiant"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -19406,9 +19406,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Vengeance' - Missing Lore
+{ //True "Vengeance" - Missing Lore
         id: 107291,
-        name: `True 'Vengeance'`,
+        name: `True "Vengeance"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -19437,9 +19437,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Robe of Mercy 'Vacant' - Complete
+{ //Robe of Mercy "Vacant" - Complete
         id: 107301,
-        name: `Robe of Mercy 'Vacant'`,
+        name: `Robe of Mercy "Vacant"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19468,7 +19468,7 @@ const EquipInformation = [
     },
 { //Emotional Soul 'Stella Bough' - Missing Lore
         id: 107311,
-        name: `Emotional Soul 'Stella Bough'`,
+        name: `Emotional Soul "Stella Bough"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -19497,7 +19497,7 @@ const EquipInformation = [
     },
 { //Withered Soul 'Meteor Bough' - Missing Lore
         id: 107321,
-        name: `Withered Soul 'Meteor Bough'`,
+        name: `Withered Soul "Meteor Bough"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -19524,9 +19524,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sword of the Stars 'Supernova' - Complete
+{ //Sword of the Stars "Supernova" - Complete
         id: 107331,
-        name: `Sword of the Stars 'Supernova'`,
+        name: `Sword of the Stars "Supernova"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19553,9 +19553,9 @@ const EquipInformation = [
             },
         lore: `This sword slices through the air like a meteor, shining brightly on battlefields in the dark of night. It was forged from a specifically made alloy of blessed orihalcon and meteorite, and legends say that the first wielder of this sword shattered an entire mountain with just one swing. It is also said that the sword should be kept unsheathed, as the blade never rusts and continuously hums, as if it is breathing.`
     },
-{ //True 'Supernova' - Complete
+{ //True "Supernova" - Complete
         id: 107341,
-        name: `True 'Supernova'`,
+        name: `True "Supernova"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -19586,7 +19586,7 @@ const EquipInformation = [
     },
 { //Coat of Plates 'Fighting Spirit' - Complete
         id: 107351,
-        name: `Coat of Plates 'Fighting Spirit'`,
+        name: `Coat of Plates "Fighting Spirit"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -19700,9 +19700,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Silk Guiding Broom 'Etoile' - Complete
+{ //Silk Guiding Broom "Etoile" - Complete
         id: 107391,
-        name: `Silk Guiding Broom 'Etoile'`,
+        name: `Silk Guiding Broom "Etoile"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -19729,9 +19729,9 @@ const EquipInformation = [
             },
         lore: `It is said that the best way to measure a mage's power is to examine the catalyst for their magic. This magic broom is one of the finest examples. It was considered one of Gran Verge's greatest treasures. Its handle has highly magically conductive meteorite blended into it and is significantly heavier than it looks. Due to this, only a great mage would be able to pick it up, but Liza wielded it easily with just one hand--a sign of her fearsome and incredible magical power.`
     },
-{ //True 'Etoile' - Complete
+{ //True "Etoile" - Complete
         id: 107401,
-        name: `True 'Etoile'`,
+        name: `True "Etoile"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -19760,9 +19760,9 @@ const EquipInformation = [
             },
         lore: `The name of the blacksmith who created this legendary magic broom has been lost to time and there are no other brooms like it. True to its name, this broom might have been created in a spark of inspiration which faded away moments after. In the Gran Verge Kingdom, the broom was cherished by Princess Liza, who became the first head of the Royal Academy of Magic, and it was passed down from her to the future heads of the Academy.`
     },
-{ //Magisaw 'Pathmaker' - Complete
+{ //Magisaw "Pathmaker" - Complete
         id: 107411,
-        name: `Magisaw 'Pathmaker'`,
+        name: `Magisaw "Pathmaker"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20058,9 +20058,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Holy Skull 'Saint's Mind' - Missing Lore
+{ //Holy Skull "Saint's Mind" - Missing Lore
         id: 107511,
-        name: `Holy Skull 'Saint's Mind'`,
+        name: `Holy Skull "Saint's Mind"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20089,7 +20089,7 @@ const EquipInformation = [
     },
 { //Stained Wings 'Skia Ptera' - Missing Lore
         id: 107521,
-        name: `Stained Wings 'Skia Ptera'`,
+        name: `Stained Wings "Skia Ptera"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -20147,7 +20147,7 @@ const EquipInformation = [
     },
 { //True 'Assault Rifle Sable' - Missing Lore
         id: 107541,
-        name: `True 'Assault Rifle Sable'`,
+        name: `True "Assault Rifle Sable"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20205,9 +20205,9 @@ const EquipInformation = [
             },
         lore: `The military boots Forte wears as a memento of her late mother. They're made of a fabric tinged with magical powers, and are unbelievably strong for a piece of fabric equipment. They are not threatened by blades and bullets, and also have resistance to magic. Forte told her troops, "I feel like I'm protected and supported by a mysterious force while I'm wearing these boots." The powerful force that flows from these boots may be the thoughts of her dear parents.`
     },
-{ //True 'Shurahalt' - Missing Lore
+{ //True "Shurahalt" - Missing Lore
         id: 107561,
-        name: `True 'Shurahalt'`,
+        name: `True "Shurahalt"`,
         location: `AWK Ganan Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20238,7 +20238,7 @@ const EquipInformation = [
     },
 { //Alloy Shield 'Arda Core' - Missing Lore
         id: 107571,
-        name: `Alloy Shield 'Arda Core'`,
+        name: `Alloy Shield "Arda Core"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -20267,7 +20267,7 @@ const EquipInformation = [
     },
 { //Anti Shield 'Abyss Core' - Missing Lore
         id: 107581,
-        name: `Anti Shield 'Abyss Core'`,
+        name: `Anti Shield "Abyss Core"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -20296,7 +20296,7 @@ const EquipInformation = [
     },
 { //Sword of Glorious Will 'Grand Destin' - Complete
         id: 107591,
-        name: `Sword of Glorious Will 'Grand Destin'`,
+        name: `Sword of Glorious Will "Grand Destin"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20325,7 +20325,7 @@ const EquipInformation = [
     },
 { //True 'Grand Destin' - Complete
         id: 107601,
-        name: `True 'Grand Destin'`,
+        name: `True "Grand Destin"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20383,9 +20383,9 @@ const EquipInformation = [
             },
         lore: `The Gran Verge Kingdom has a long history, but the first commander of the knights that comes to mind is none other than Prince Orvell. The prince would put himself at the front line of the battlefield. The mantle he ware gleamed even in the dark of night. It looked like a pair of silver wings tearing through the battlefield. A man who crossed blades with Orvell once said that the prince in his mantle was unlike anything he had seen before, and the sight was breathtakingly beautiful.`
     },
-{ //Blazing Greataxe 'Drago La'cryma' - Complete
+{ //Blazing Greataxe "Drago La'cryma" - Complete
         id: 107621,
-        name: `Blazing Greataxe 'Drago La'cryma'`,
+        name: `Blazing Greataxe "Drago La'cryma"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20412,9 +20412,9 @@ const EquipInformation = [
             },
         lore: `A battle axe which chooses its master. First, the axe itself emits an intense scorching heat meaning it can only be held by those who can withstand its scorching hell. Second, its heaviness. Many a powerful man challenged this battle axe in hopes of becoming its master, but none that challenged were able to lift it. In the end, a small girl of the Dragons was chosen. The axe is not something that responds to physical strength. Rather it responds to those who wish to bring about pain and those who hold blazing emotions within.`
     },
-{ //True 'Drago La'cryma' - Complete
+{ //True "Drago La'cryma" - Complete
         id: 107631,
-        name: `True 'Drago La'cryma'`,
+        name: `True "Drago La'cryma"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20443,9 +20443,9 @@ const EquipInformation = [
             },
         lore: `This axe was not sought after for the sharpness of its blades. Leaving burning wounds that cannot be dealt with through healing or even revival. The cursed lacerations left behind by its blade reveal the true essence of this axe. The scars burn so hot that a gentle breeze brings rise to screaming pain form slightest touch. Those wounded by this axe are said to have lost themselves in a world of madness and despair. Gouging away at their very flesh, burning their hearts, and devouring them whole. Throughout the ages the axe has been feared as the manifestation of a Dragon once swallowed whole by vengeance and led by obsession.`
     },
-{ //Gemstone Boots 'Melusine' - Complete
+{ //Gemstone Boots "Melusine" - Complete
         id: 107641,
-        name: `Gemstone Boots 'Melusine'`,
+        name: `Gemstone Boots "Melusine"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -20475,7 +20475,7 @@ const EquipInformation = [
 { //翠鳳飾『アネモス』 (Tonetaurus Raid Equip) - JP Complete
         id: 107651,
         name: `翠鳳飾『アネモス』`,
-        translate: `'Anemos'`,
+        translate: `"Anemos"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -20502,9 +20502,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Berserk' - Complete
+{ //True "Berserk" - Complete
         id: 107661,
-        name: `True 'Berserk'`,
+        name: `True "Berserk"`,
         location: `AWK Grad Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20563,9 +20563,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Scintilla' - Missing Lore
+{ //True "Scintilla" - Missing Lore
         id: 107681,
-        name: `True 'Scintilla'`,
+        name: `True "Scintilla"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20653,9 +20653,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Bandiera' - Complete
+{ //True "Bandiera" - Complete
         id: 107711,
-        name: `True 'Bandiera'`,
+        name: `True "Bandiera"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -20713,9 +20713,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Blaze Coil 'Annulus' - Missing Lore
+{ //Blaze Coil "Annulus" - Missing Lore
         id: 107731,
-        name: `Blaze Coil 'Annulus'`,
+        name: `Blaze Coil "Annulus"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -20742,9 +20742,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ruinous Coil 'Galelion' - Missing Lore
+{ //Ruinous Coil "Galelion" - Missing Lore
         id: 107741,
-        name: `Ruinous Coil 'Galelion'`,
+        name: `Ruinous Coil "Galelion"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20773,7 +20773,7 @@ const EquipInformation = [
     },
 { //Heavy Arms 'Arsenal Wall' - Complete
         id: 107751,
-        name: `Heavy Arms 'Arsenal Wall'`,
+        name: `Heavy Arms "Arsenal Wall"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -20800,9 +20800,9 @@ const EquipInformation = [
             },
         lore: `A transforming shield invented by a master Human crafter to fight large enemies like Gods, Demons and Dragons. What the Human race lacked in strength was made up by their remarkable creativity and altruism. Together, they devised a weapon with solid defense that could shift to offense at any moment. Any opponent who underestimated it as a simple barrier soon learned that finding a chance to attack left no time to rest.`
     },
-{ //True 'Arsenal' - Complete
+{ //True "Arsenal" - Complete
         id: 107761,
-        name: `True 'Arsenal'`,
+        name: `True "Arsenal"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -20833,7 +20833,7 @@ const EquipInformation = [
     },
 { //Heavy Arms 'Arsenal Leaf' - Complete
         id: 107771,
-        name: `Heavy Arms 'Arsenal Leaf'`,
+        name: `Heavy Arms "Arsenal Leaf"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -20862,7 +20862,7 @@ const EquipInformation = [
     },
 { //Blazing Dragon Goblet 'Rubia Irae' - Missing Lore
         id: 107781,
-        name: `Blazing Dragon Goblet 'Rubia Irae'`,
+        name: `Blazing Dragon Goblet "Rubia Irae"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -20890,9 +20890,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Torrent Dragon Goblet 'Altus' - Missing Lore
+{ //Torrent Dragon Goblet "Altus" - Missing Lore
         id: 107791,
-        name: `Torrent Dragon Goblet 'Altus'`,
+        name: `Torrent Dragon Goblet "Altus"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -20920,7 +20920,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sylvan Dragon Goblet 'Granatum' - Missing Lore
+{ //Sylvan Dragon Goblet "Granatum" - Missing Lore
         id: 107801,
         name: `Sylvan Dragon Goblet 'Granatum`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -20950,9 +20950,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Cursed Chains 'Discontent' - Complete
+{ //Cursed Chains "Discontent" - Complete
         id: 107811,
-        name: `Cursed Chains 'Discontent'`,
+        name: `Cursed Chains "Discontent"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -20979,9 +20979,9 @@ const EquipInformation = [
             },
         lore: `All living things are driven by desire. These were lyrics written by a famous minstrel. Though his songs were popular among the nobility and the educated, he himself died with his greatest wish unfulfilled: love. His soul, holding despair great enough to be visible on his lifeless face, was then taken into a violet jewel. Whoever owns it will gains power at the cost of having their being gradually taken over by darkness.`
     },
-{ //True 'Discontent' - Complete
+{ //True "Discontent" - Complete
         id: 107821,
-        name: `True 'Discontent'`,
+        name: `True "Discontent"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -21012,7 +21012,7 @@ const EquipInformation = [
     },
 { //False Crown 'Dream Glutton' - Complete
         id: 107831,
-        name: `False Crown 'Dream Glutton'`,
+        name: `False Crown "Dream Glutton"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -21039,9 +21039,9 @@ const EquipInformation = [
             },
         lore: `Throughout history, people who want authority could be found in spades. Though it would find a crown to sit awkwardly upon their hollow heads, they still dream of this in their bouts of stupidity. Should their fantasy become reality, the weight of the heavy headpiece would crush their spirit and turn them into puppets manipulated by silver tongues. Throughout history, nothing has caused as much trouble as these assertive fools.`
     },
-{ //Moonlight Grail 'Aura' - Missing Lore
+{ //Moonlight Grail "Aura" - Missing Lore
         id: 107841,
-        name: `Moonlight Grail 'Aura'`,
+        name: `Moonlight Grail "Aura"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -21068,9 +21068,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Burial Grail 'Nox' - Missing Lore
+{ //Burial Grail "Nox" - Missing Lore
         id: 107851,
-        name: `Burial Grail 'Nox'`,
+        name: `Burial Grail "Nox"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21099,7 +21099,7 @@ const EquipInformation = [
     },
 { //Expanding Shield 'E-Field' - Complete
         id: 107861,
-        name: `Expanding Shield 'E-Field'`,
+        name: `Expanding Shield "E-Field"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -21126,9 +21126,9 @@ const EquipInformation = [
             },
         lore: `Part of an automatic defense system discovered in an underwound ruin, implanted with Eed's bioengineered cells. It boasts incredible regenerative agility but will grow around its holder if left undisturbed. Should this happen, they will be granted with both impervious defense and an overwhelming urge to battle.`
     },
-{ //Astral Robe 'Axis' - Complete
+{ //Astral Robe "Axis" - Complete
         id: 107871,
-        name: `Astral Robe 'Axis'`,
+        name: `Astral Robe "Axis"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -21186,7 +21186,7 @@ const EquipInformation = [
     },
 { //True 'Scatter-18' - Complete
         id: 107891,
-        name: `True 'Scatter-18'`,
+        name: `True "Scatter-18"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -21246,7 +21246,7 @@ const EquipInformation = [
     },
 { //True 'Geek Shielder' - Complete
         id: 107911,
-        name: `True 'Geek Shielder'`,
+        name: `True "Geek Shielder"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -21304,9 +21304,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Phantom Horn 'Cantabile' - Complete
+{ //Phantom Horn "Cantabile" - Complete
         id: 107931,
-        name: `Phantom Horn 'Cantabile'`,
+        name: `Phantom Horn "Cantabile"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21333,9 +21333,9 @@ const EquipInformation = [
             },
         lore: `A strange instrument-shaped weapon that can only be used with the breath of the Spirits. Unlike normal weapons, it does not strike flesh and bone. Instead, it releases unique vibrations carried by sound waves to destroy internal organs. The fact they are difficult to tell from normal instruments meant there was a time where they were common assassination tools and heavily restricted as a result.`
     },
-{ //True 'Cantabile' - Complete
+{ //True "Cantabile" - Complete
         id: 107941,
-        name: `True 'Cantabile'`,
+        name: `True "Cantabile"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -21364,9 +21364,9 @@ const EquipInformation = [
             },
         lore: `A fearsome instrument that destroys the target's body from the inside. It's indistinguishable from a standard instrument by amateurs, but a trained expert can unleash a destructive blast with pinpoint accuracy. As it receives air directly from the wielder, it can also convey their emotions. Some have even theorized the proper frequency can affect intangible things like memories and ideas.`
     },
-{ //Shako of Aspiration 'Betzfald' - Complete
+{ //Shako of Aspiration "Betzfald" - Complete
         id: 107951,
-        name: `Shako of Aspiration 'Betzfald'`,
+        name: `Shako of Aspiration "Betzfald"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -21393,9 +21393,9 @@ const EquipInformation = [
             },
         lore: `A hat preferred by musicians. In wearing it, they can become one with their instrument and perform at a level impossible for ordinary people. However, both mental strain and dependence can develop, leading to addiction with overuse. This forced a ban that continues to this day despite protests from critics claiming they are being deprived of the masterful performances they once enjoyed.`
     },
-{ //Blade of Secrets 'Insight' - Complete
+{ //Blade of Secrets "Insight" - Complete
         id: 107961,
-        name: `Blade of Secrets 'Insight'`,
+        name: `Blade of Secrets "Insight"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21422,9 +21422,9 @@ const EquipInformation = [
             },
         lore: `A weapon from a tribe of the eastern mountains, forged by a blind swordsmith in the sunless dark. As if infused with his passion and soul, whoever uses it will be able to sense the invisible such as what lies in the hearts of others and even the future itself. Its name was earned from anecdotes describing these sorts of feats.`
     },
-{ //True 'Insight' - Complete
+{ //True "Insight" - Complete
         id: 107971,
-        name: `True 'Insight'`,
+        name: `True "Insight"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -21453,9 +21453,9 @@ const EquipInformation = [
             },
         lore: `A sword from the east carried by Luahn, second prince of Gran Verge. This blade chooses its wielder. Depending on how its power is used, it can become so great a burden that it even crushes the mind. However, it becomes a truly exceptional ability once mastered. The opponent's bloodlust, their circulation, their consciousness, and more will be revealed in fine detail, allowing victory with a single slash.`
     },
-{ //Voracious Coat 'Splendor' - Complete
+{ //Voracious Coat "Splendor" - Complete
         id: 107981,
-        name: `Voracious Coat 'Splendor'`,
+        name: `Voracious Coat "Splendor"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -21482,9 +21482,9 @@ const EquipInformation = [
             },
         lore: `Long ago, this armor was worn by a soldier known as the Voracious Emperor. Its fearsome aura made approach impossible, so he was unscathed after every battle. Gran Verge found this very interesting, so the country that owned it offered it as a gift It was said that the aura was revealed to be a curse, but the kingdom's priests were able to dispel it. Even so, records showed that it remained in storage for a long time, with one of the few exceptions being when Prince Luahn sometimes wore it.`
     },
-{ //Oathkeeper 'Testament' - Complete
+{ //Oathkeeper "Testament" - Complete
         id: 107991,
-        name: `Oathkeeper 'Testament'`,
+        name: `Oathkeeper "Testament"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21511,9 +21511,9 @@ const EquipInformation = [
             },
         lore: `A short sword created by the Ancients said to be able to withstand unfathomable heat. The light it reflects has the power to annihilate anything it touches. Although it vanished along with the Ancients, a few records mention it came into the possession of the first queen of Granadia. Even so, the authenticity of these records are often debated.`
     },
-{ //True 'Testament' - Complete
+{ //True "Testament" - Complete
         id: 108001,
-        name: `True 'Testament'`,
+        name: `True "Testament"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -21542,9 +21542,9 @@ const EquipInformation = [
             },
         lore: `A short sword masterfully crafted in a massive kiln by the Ancients. It is made of an impossible metal, said to need heat millions of times stronger than the sun to forge. The blade itself also bears three high-ranking Crests layered over each other. This lets it synergize with the powers of its owner, making it much more than a mere dagger.`
     },
-{ //Eclipse Crown 'Todestrieb' - Complete
+{ //Eclipse Crown "Todestrieb" - Complete
         id: 108011,
-        name: `Eclipse Crown 'Todestrieb'`,
+        name: `Eclipse Crown "Todestrieb"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -21571,9 +21571,9 @@ const EquipInformation = [
             },
         lore: `The crown belonging to Queen Juno of Granadia. Though it has seen the birth and death of stars, legends tell that its luster shall never fade. Records of her ancestor receiving it from the Ancients were eventually found, becoming proof of the Ancients being cooperative with races outside of their own. To prevent theft, replicas of the crown were made while the original was hidden.`
     },
-{ //Cursed Shadow 'Asesinato' - Missing Lore
+{ //Cursed Shadow "Asesinato" - Missing Lore
         id: 108021,
-        name: `Cursed Shadow 'Asesinato'`,
+        name: `Cursed Shadow "Asesinato"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21774,9 +21774,9 @@ const EquipInformation = [
             },
         lore: `After Rayas invited Marika to a beach vacation, she quickly set to work on a new kind of water gun. She used her Scatter series as the base but installed a dry heater to expand air for propulsion. This lets it fire a forceful stream with nearly no charge time. It also has a distillation mode to remove salt from sea water.`
     },
-{ //Inferno Boots 'Caliente' - Complete
+{ //Inferno Boots "Caliente" - Complete
         id: 108091,
-        name: `Inferno Boots 'Caliente'`,
+        name: `Inferno Boots "Caliente"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -21832,9 +21832,9 @@ const EquipInformation = [
             },
         lore: `Noel's military jacket. The lightweight yet sturdy fabric not only shields against everything from intense sunlight to frigid air, glancing blades and bullets will leave nary a mark. Essential to his duties in the Zero Guard in a practical sense, the fact he received it directly from the Emperor of Isliid after his induction gives it sentimental value as well.`
     },
-{ //True 'Scintillation' - Complete
+{ //True "Scintillation" - Complete
         id: 108111,
-        name: `True 'Scintillation'`,
+        name: `True "Scintillation"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -21863,9 +21863,9 @@ const EquipInformation = [
             },
         lore: `A jacket worn by Noel, knight of the Zero Guard, fitted to his measurements and perfect to the last detail. Its design is fancy but not garish, allowing him to discreetly protect the Emperor as well as carry out his less exciting duties. The tailor, surprised by how stunning it looked on him, is expecting much more business from Noel in the future.`
     },
-{ //True 'Velocity' - Complete
+{ //True "Velocity" - Complete
         id: 108121,
-        name: `True 'Velocity'`,
+        name: `True "Velocity"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -21923,9 +21923,9 @@ const EquipInformation = [
             },
         lore: `Noel's boots, made to be comfortable and sturdy enough to wear on long missions. The Zero Guard's outfitters make all their accoutrements by hand, a lengthy and laborious process. This applies to the shoes as well which are molded to each soldier's unique fit and gait. However, that effort grants them sure footing o even the roughest paths.`
     },
-{ //Interlocking Edges 'Velocity' - Missing Lore
+{ //Interlocking Edges "Velocity" - Missing Lore
         id: 108141,
-        name: `Interlocking Edges 'Velocity'`,
+        name: `Interlocking Edges "Velocity"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22190,9 +22190,9 @@ const EquipInformation = [
             },
         lore: `Of course I can swim. I simply wear this as a precaution, not because I'm afraid of the water. It is my duty to rescue the royal children should one start to drown, and it wouldn't do if I needed rescuing myself. Therefore, I must take every possible measure. Moreover, the thought of what might lurk in the depths is terrifyi-- No, never mind. The point being is I need your help too, Virago.`
     },
-{ //Fox Raiment 'Ravissante' - Missing Lore
+{ //Fox Raiment "Ravissante" - Missing Lore
         id: 108231,
-        name: `Fox Raiment 'Ravissante'`,
+        name: `Fox Raiment "Ravissante"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22219,9 +22219,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Blaze Garb 'Akanehitoe' - Missing Lore
+{ //Blaze Garb "Akanehitoe" - Missing Lore
         id: 108241,
-        name: `Blaze Garb 'Akanehitoe'`,
+        name: `Blaze Garb "Akanehitoe"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -22248,9 +22248,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Hellflame Garb 'Gurenhitoe' - Missing Lore
+{ //Hellflame Garb "Gurenhitoe" - Missing Lore
         id: 108251,
-        name: `Hellflame Garb 'Gurenhitoe'`,
+        name: `Hellflame Garb "Gurenhitoe"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22280,7 +22280,7 @@ const EquipInformation = [
 { //戦闘用絵具『コローリ』 (Raine's Farmable) - JP Complete
         id: 108261,
         name: `戦闘用絵具『コローリ』`,
-        translate: `'Colori'`,
+        translate: `"Colori"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22307,9 +22307,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Colori' - Missing Lore
+{ //True "Colorly" - Missing Lore
         id: 108271,
-        name: `True 'Colori'`,
+        name: `True "Colorly"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -22370,7 +22370,7 @@ const EquipInformation = [
 { //創成杖『バストーネ』 (Alulu's Farmable) - JP Complete
         id: 108291,
         name: `創成杖『バストーネ』`,
-        translate: `'Bastone'`,
+        translate: `"Bastone"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22397,9 +22397,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Bastone' - Missing Lore
+{ //True "Bastone" - Missing Lore
         id: 108301,
-        name: `True 'Bastone'`,
+        name: `True "Bastone"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -22517,7 +22517,7 @@ const EquipInformation = [
     },
 { //Smashing Heart 'MorNyan Star' - Complete
         id: 108341,
-        name: `Smashing Heart 'MorNyan Star'`,
+        name: `Smashing Heart "MorNyan Star"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22546,7 +22546,7 @@ const EquipInformation = [
     },
 { //True 'MorNyan Star' - Missing Lore
         id: 108351,
-        name: `True 'MorNyan Star'`,
+        name: `True "MorNyan Star"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -22575,9 +22575,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Thinking Cap 'GeNyas' - Complete
+{ //Thinking Cap "GeNyas" - Complete
         id: 108361,
-        name: `Thinking Cap 'GeNyas'`,
+        name: `Thinking Cap "GeNyas"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -22816,7 +22816,7 @@ const EquipInformation = [
 { //旋氷棍『蒼佳奉撃』 (Tami-Nyan's Farmable) - JP Complete
         id: 108441,
         name: `旋氷棍『蒼佳奉撃』`,
-        translate: `'Azure Offering'`,
+        translate: `"Azure Offering"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22845,7 +22845,7 @@ const EquipInformation = [
     },
 { //True 'Azure Offering' - Missing Lore
         id: 108451,
-        name: `True 'Azure Offering'`,
+        name: `True "Azure Offering"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -22903,9 +22903,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Starving Root 'Trypdola' - Complete
+{ //Starving Root "Trypdola" - Complete
         id: 108471,
-        name: `Starving Root 'Trypdola'`,
+        name: `Starving Root "Trypdola"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -22932,9 +22932,9 @@ const EquipInformation = [
             },
         lore: `The root of a divine tree warped beyond recognition by the ravages of war. Hatred tainted its soothing power, and it continues to ooze a poisonous sap even after being removed from the trunk. Anyone who touches it will slowly feel their heart become strangled by the vines of malice.`
     },
-{ //Despair Vine 'Groldola' - Missing Lore
+{ //Despair Vine "Groldola" - Missing Lore
         id: 108481,
-        name: `Despair Vine 'Groldola'`,
+        name: `Despair Vine "Groldola"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22961,9 +22961,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Oracle Index 'Vertrag' - Complete
+{ //Oracle Index "Vertrag" - Complete
         id: 108491,
-        name: `Oracle Index 'Vertrag'`,
+        name: `Oracle Index "Vertrag"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22990,9 +22990,9 @@ const EquipInformation = [
             },
         lore: `A tome of advanced magic theory, mainly covering how to abbreviate incantations while keeping their effectiveness. The text is written in enchanted ink, letting it to not only provide knowledge but act as a potent catalyst for those shortened chants. Its author is the one who devised the groundbreaking technique.`
     },
-{ //True 'Vertrag' - Complete
+{ //True "Vertrag" - Complete
         id: 108501,
-        name: `True 'Vertrag'`,
+        name: `True "Vertrag"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -23021,9 +23021,9 @@ const EquipInformation = [
             },
         lore: `The tome has a will of its own which allows it to discern the nature of its holder. It becomes more attuned the more it is used, increasing its efficiency as a catalyst. This means it does not value prodigious talent of purity of heart nearly as much as tireless experimentation and insatiable curiosity.`
     },
-{ //Empty Grandeur 'Mizer' - Complete
+{ //Empty Grandeur "Mizer" - Complete
         id: 108511,
-        name: `Empty Grandeur 'Mizer'`,
+        name: `Empty Grandeur "Mizer"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -23050,9 +23050,9 @@ const EquipInformation = [
             },
         lore: `A fancy coat rumored to have belonged to the earl of a distant land who died heirless. It captivated the normally unfashionable Hart the moment he saw it displayed among the wares of travelling peddler, and he scrounged up his meager savings to make the purchase. One of his few material treasures, he is rarely seen leaving his home without it.`
     },
-{ //True 'Basilisk' - Missing Lore
+{ //True "Basilisk" - Missing Lore
         id: 108521,
-        name: `True 'Basilisk'`,
+        name: `True "Basilisk"`,
         location: `AWK Nier Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -23321,7 +23321,7 @@ const EquipInformation = [
     },
 { //Light Relic 'Miraculous Sands' - Missing Lore
         id: 108641,
-        name: `Light Relic 'Miraculous Sands'`,
+        name: `Light Relic "Miraculous Sands"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -23351,7 +23351,7 @@ const EquipInformation = [
     },
 { //Dark Relic 'Abyssal Sands' - Missing Lore
         id: 108651,
-        name: `Dark Relic 'Abyssal Sands'`,
+        name: `Dark Relic "Abyssal Sands"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -23381,7 +23381,7 @@ const EquipInformation = [
     },
 { //Shining Buckler 'Engaged Shield' - Complete
         id: 108661,
-        name: `Shining Buckler 'Engaged Shield'`,
+        name: `Shining Buckler "Engaged Shield"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -23410,7 +23410,7 @@ const EquipInformation = [
     },
 { //True 'Engaged Shield' - Complete
         id: 108671,
-        name: `True 'Engaged Shield'`,
+        name: `True "Engaged Shield"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -23439,9 +23439,9 @@ const EquipInformation = [
             },
         lore: `The ties between shield and holder deepen over time, unlocking its true power. The metal becomes feather-light and harder than diamond. However, when the holder passes their prime, so too does the shield's protection weaken. Indeed, their vow only ends in mutual death. Many such tales exist, all of them stirring and cruel in equal measure.`
     },
-{ //Radiant Sword 'Flaredight' - Complete
+{ //Radiant Sword "Flaredight" - Complete
         id: 108681,
-        name: `Radiant Sword 'Flaredight'`,
+        name: `Radiant Sword "Flaredight"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -23470,7 +23470,7 @@ const EquipInformation = [
     },
 { //Skull Helm 'Dusk Roar' - Missing Lore
         id: 108691,
-        name: `Skull Helm 'Dusk Roar'`,
+        name: `Skull Helm "Dusk Roar"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -23497,9 +23497,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Void Helm 'Disaster' - Missing Lore
+{ //Void Helm "Disaster" - Missing Lore
         id: 108701,
-        name: `Void Helm 'Disaster'`,
+        name: `Void Helm "Disaster"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -23529,7 +23529,7 @@ const EquipInformation = [
 { //探求衣『レディメイド』 (Serah's Farmable) - JP Complete
         id: 108711,
         name: `探求衣『レディメイド』`,
-        translate: `'Ready Maid'`,
+        translate: `"Ready Maid"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -23558,7 +23558,7 @@ const EquipInformation = [
     },
 { //True 'Ready Maid' - Complete
         id: 108721,
-        name: `True 'Ready Maid'`,
+        name: `True "Ready Maid"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -23618,7 +23618,7 @@ const EquipInformation = [
     },
 { //Water Relic 'Soul Lattice' - Missing Lore
         id: 108741,
-        name: `Water Relic 'Soul Lattice'`,
+        name: `Water Relic "Soul Lattice"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -23648,7 +23648,7 @@ const EquipInformation = [
     },
 { //Earth Relic 'Cyclus Fati' - Missing Lore
         id: 108751,
-        name: `Earth Relic 'Cyclus Fati'`,
+        name: `Earth Relic "Cyclus Fati"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -23678,7 +23678,7 @@ const EquipInformation = [
     },
 { //Fire Relic 'Flaming Knight's Eyes' - Missing Lore
         id: 108761,
-        name: `Fire Relic 'Flaming Knight's Eyes'`,
+        name: `Fire Relic "Flaming Knight's Eyes"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -23708,7 +23708,7 @@ const EquipInformation = [
     },
 { //True 'Wild Cat' - Missing Lore
         id: 108771,
-        name: `True 'Wild Cat'`,
+        name: `True "Wild Cat"`,
         location: `AWK Sophie Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -23740,7 +23740,7 @@ const EquipInformation = [
 { //闘弦器『ワンダホー』 (Rits' Farmable) - JP Complete
         id: 108781,
         name: `闘弦器『ワンダホー』`,
-        translate: `'Wonderful'`,
+        translate: `"Wonderful"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -23767,9 +23767,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Wonderful' - Missing Lore
+{ //True "Wonderful" - Missing Lore
         id: 108791,
-        name: `True 'Wonderful'`,
+        name: `True "Wonderful"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -23858,7 +23858,7 @@ const EquipInformation = [
     },
 { //True 'Night Jacket' - Missing Lore
         id: 108821,
-        name: `True 'Night Jacket'`,
+        name: `True "Night Jacket"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -23889,7 +23889,7 @@ const EquipInformation = [
     },
 { //True 'Night Edge' - Complete
         id: 108831,
-        name: `True 'Night Edge'`,
+        name: `True "Night Edge"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -23976,9 +23976,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Hepaistos' - Complete
+{ //True "Hepaistos" - Complete
         id: 108861,
-        name: `True 'Hepaistos'`,
+        name: `True "Hepaistos"`,
         location: `AWK Gilliam Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -24038,7 +24038,7 @@ const EquipInformation = [
     },
 { //True 'Ember Bolt' - Complete
         id: 108881,
-        name: `True 'Ember Bolt'`,
+        name: `True "Ember Bolt"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -24069,7 +24069,7 @@ const EquipInformation = [
     },
 { //Candent Bow 'Ember Bolt' - Complete
         id: 108891,
-        name: `Candent Bow 'Ember Bolt'`,
+        name: `Candent Bow "Ember Bolt"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24096,9 +24096,9 @@ const EquipInformation = [
             },
         lore: `The bow belonging to Priscilla, an archer from Simon's Hill. The fire spirit that resides in it responds to her feelings, granting each arrow only as much strength as is necessary. She hunted monsters and protected villages on her journey to the capital, and damage was kept to a minimum in each conflict. That could be credited to both her own talent and spirit's fine tuning.`
     },
-{ //Blazing Boots 'Ignition' - Complete
+{ //Blazing Boots "Ignition" - Complete
         id: 108901,
-        name: `Blazing Boots 'Ignition'`,
+        name: `Blazing Boots "Ignition"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24125,9 +24125,9 @@ const EquipInformation = [
             },
         lore: `The footgear of Priscilla, famous archer from Simon's Hill. Their mysterious flames create heat shimmers that perplex foes, leading to embarrassing mistakes on their part. She stands on the front lines because of her strong desire to protect, but it is her quick judgement and flexibility which saves her from serious harm.`
     },
-{ //True 'Jaeger' - Complete
+{ //True "Jaeger" - Complete
         id: 108911,
-        name: `True 'Jaeger'`,
+        name: `True "Jaeger"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -24185,9 +24185,9 @@ const EquipInformation = [
             },
         lore: `The gun carried by expert sniper Simon. A joint product between rifle-maker Swagger & Vecket and magic artificers Goldoa Corp., it was designed with a focus on accuracy. It uses standard ammunition guided by runes inscribed into the firing hammer and gun barrel. Manageable recoil also meets his high standards, letting him eliminate targets with the fewest possible shots.`
     },
-{ //Phantom Coat 'Stigma' - Complete
+{ //Phantom Coat "Stigma" - Complete
         id: 108931,
-        name: `Phantom Coat 'Stigma'`,
+        name: `Phantom Coat "Stigma"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -24272,9 +24272,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Shrieking Claws 'Despair' - Missing Lore
+{ //Shrieking Claws "Despair" - Missing Lore
         id: 108961,
-        name: `Shrieking Claws 'Despair'`,
+        name: `Shrieking Claws "Despair"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24301,9 +24301,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Ouen' - Complete
+{ //True "Ouen" - Complete
         id: 108971,
-        name: `True 'Ouen'`,
+        name: `True "Ouen"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -24332,9 +24332,9 @@ const EquipInformation = [
             },
         lore: `The katana used by famed "Divine Swallow Fencer" Airi. She believes it to be her fated companion as it brings out the most of her thrusting techniques. Its tip, sharpened to the limit with Valkian whetstones, fascinates swordsmiths of all levels. The reason she always keeps it in prime condition is not because of its historic value, but her own pride as a soldier.`
     },
-{ //Traditional Blade 'Ouen' - Complete
+{ //Traditional Blade "Ouen" - Complete
         id: 108981,
-        name: `Traditional Blade 'Ouen'`,
+        name: `Traditional Blade "Ouen"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24451,7 +24451,7 @@ const EquipInformation = [
     },
 { //True 'Gold Rush' - Complete
         id: 109021,
-        name: `True 'Gold Rush'`,
+        name: `True "Gold Rush"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -24483,7 +24483,7 @@ const EquipInformation = [
 { //煌翔織『ゴールドラッシュ』 (Sharon's Farmable) - JP Complete
         id: 109031,
         name: `煌翔織『ゴールドラッシュ』`,
-        translate: `'Gold Rush'`,
+        translate: `"Gold Rush"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24541,7 +24541,7 @@ const EquipInformation = [
     },
 { //True 'Bel Canto' - Complete
         id: 109051,
-        name: `True 'Bel Canto'`,
+        name: `True "Bel Canto"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -24599,9 +24599,9 @@ const EquipInformation = [
             },
         lore: `A pistol used by the magic gunner Hart. Goldoa Corp. drew upon their experience working with rifle makers Swagger & Vecket to independently manufacture this model. Designed for self-defense, it is much smaller and lighter than the Jaeger. It maintains its high accuracy even in burst-fire mode, added to make up for its reduced stopping power. Women in particular found it an attractive choice.`
     },
-{ //Archaic Attire 'Antiqua' - Complete
+{ //Archaic Attire "Antiqua" - Complete
         id: 109071,
-        name: `Archaic Attire 'Antiqua'`,
+        name: `Archaic Attire "Antiqua"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -24688,7 +24688,7 @@ const EquipInformation = [
     },
 { //Winged Mail 'Blue Pinions' - Missing Lore
         id: 109101,
-        name: `Winged Mail 'Blue Pinions'`,
+        name: `Winged Mail "Blue Pinions"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -24715,9 +24715,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Occult Wings 'Rafale' - Missing Lore
+{ //Occult Wings "Rafale" - Missing Lore
         id: 109111,
-        name: `Occult Wings 'Rafale'`,
+        name: `Occult Wings "Rafale"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -24744,9 +24744,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sealed Branches 'Aurora' - Missing Lore
+{ //Sealed Branches "Aurora" - Missing Lore
         id: 109121,
-        name: `Sealed Branches 'Aurora'`,
+        name: `Sealed Branches "Aurora"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -24773,9 +24773,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Occult Branches 'Seratta' - Missing Lore
+{ //Occult Branches "Seratta" - Missing Lore
         id: 109131,
-        name: `Occult Branches 'Seratta'`,
+        name: `Occult Branches "Seratta"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24804,7 +24804,7 @@ const EquipInformation = [
     },
 { //Jade Star 'Le Courage' - Complete
         id: 109141,
-        name: `Jade Star 'Le Courage'`,
+        name: `Jade Star "Le Courage"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -25071,9 +25071,9 @@ const EquipInformation = [
             },
         lore: `Luana's favorite swimsuit worn during her family's yearly trips to the beach. She chose it wanting to show Hart, but that opportunity never came. Although outgrown during his absence, she couldn't bring herself to part with it. In her mind, that would be no different than giving up entirely.`
     },
-{ //True 'Castillo' - Missing Lore
+{ //True "Castillo" - Missing Lore
         id: 109231,
-        name: `True 'Castillo'`,
+        name: `True "Castillo"`,
         location: `AWK Gaia Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -25102,9 +25102,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Maximus' - Complete
+{ //True "Maximus" - Complete
         id: 109241,
-        name: `True 'Maximus'`,
+        name: `True "Maximus"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -25133,9 +25133,9 @@ const EquipInformation = [
             },
         lore: `Lyla's trusty partner on the battlefield. In her quest for further improvement, she wandered into a used bookstore. There, she discovered a reference about Valkia's ancient "gundancing" custom and became engrossed in the topic. The key concept was managing the weapon's unpredictable movements with lithe motions of the body. In mastering that, she became famous among gunmen around the world.`
     },
-{ //Valkian Heritage 'Maximus' - Complete
+{ //Valkian Heritage "Maximus" - Complete
         id: 109251,
-        name: `Valkian Heritage 'Maximus'`,
+        name: `Valkian Heritage "Maximus"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25164,7 +25164,7 @@ const EquipInformation = [
     },
 { //Combat Coat 'Veste Noir' - Complete
         id: 109261,
-        name: `Combat Coat 'Veste Noir'`,
+        name: `Combat Coat "Veste Noir"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -25637,7 +25637,7 @@ const EquipInformation = [
     },
 { //True 'Selfish Aria' - Missing Lore
         id: 109421,
-        name: `True 'Selfish Aria'`,
+        name: `True "Selfish Aria"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -25724,9 +25724,9 @@ const EquipInformation = [
             },
         lore: `Vultee's favorite hat, a style popular among ranchers in Selunia. He firmly believes a gunner always needs a hat, so he has dozens in all shapes and sizes. The reason he prefers this particular one is the perfect balance of formal and casual provided by the broken-in fabric, suiting him to a T.`
     },
-{ //True 'Inspector' - Complete
+{ //True "Inspector" - Complete
         id: 109451,
-        name: `True 'Inspector'`,
+        name: `True "Inspector"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -25844,7 +25844,7 @@ const EquipInformation = [
     },
 { //Kingdom's Blade 'Grand Scale' - Missing Lore
         id: 109491,
-        name: `Kingdom's Blade 'Grand Scale'`,
+        name: `Kingdom"s Blade 'Grand Scale"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25873,7 +25873,7 @@ const EquipInformation = [
     },
 { //True 'Ancient Law' - Complete
         id: 109501,
-        name: `True 'Ancient Law'`,
+        name: `True "Ancient Law"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -25904,7 +25904,7 @@ const EquipInformation = [
     },
 { //True 'Nine Oaths' - Complete
         id: 109511,
-        name: `True 'Nine Oaths'`,
+        name: `True "Nine Oaths"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -25935,7 +25935,7 @@ const EquipInformation = [
     },
 { //True 'Grand Scale' - Missing Lore
         id: 109521,
-        name: `True 'Grand Scale'`,
+        name: `True "Grand Scale"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -26265,7 +26265,7 @@ const EquipInformation = [
     },
 { //True 'Astral Bolt' - Complete
         id: 109631,
-        name: `True 'Astral Bolt'`,
+        name: `True "Astral Bolt"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -26352,9 +26352,9 @@ const EquipInformation = [
             },
         lore: `A coat worn by those who shoot or kill for a living. It increases one's ability to conceal their presence by altering the target's mind. Essentially, it causes the brain to selectively ignore visual information. However, the wearer might start to believe they are being rudely disregarded as a result.`
     },
-{ //True 'Cypher' - Missing Lore
+{ //True "Cypher" - Missing Lore
         id: 109661,
-        name: `True 'Cypher'`,
+        name: `True "Cypher"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -26385,7 +26385,7 @@ const EquipInformation = [
     },
 { //True 'Crew V' - Missing Lore
         id: 109671,
-        name: `True 'Crew V'`,
+        name: `True "Crew V"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -26503,7 +26503,7 @@ const EquipInformation = [
     },
 { //Shielding Edge 'Will Craver' - Missing Lore
         id: 109711,
-        name: `Shielding Edge 'Will Craver'`,
+        name: `Shielding Edge "Will Craver"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -26532,7 +26532,7 @@ const EquipInformation = [
     },
 { //Abyss Edge 'Star Craver' - Missing Lore
         id: 109721,
-        name: `Abyss Edge 'Star Craver'`,
+        name: `Abyss Edge "Star Craver"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26559,9 +26559,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Barbatos' - Complete
+{ //True "Barbatos" - Complete
         id: 109731,
-        name: `True 'Barbatos'`,
+        name: `True "Barbatos"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -26679,7 +26679,7 @@ const EquipInformation = [
     },
 { //True 'Sky Light' - Complete.
         id: 109771,
-        name: `True 'Sky Light'`,
+        name: `True "Sky Light"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -26710,7 +26710,7 @@ const EquipInformation = [
     },
 { //True 'Terra Master' - Complete
         id: 109781,
-        name: `True 'Terra Master'`,
+        name: `True "Terra Master"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -26741,7 +26741,7 @@ const EquipInformation = [
     },
 { //True 'Dark Bringer' - Complete
         id: 109791,
-        name: `True 'Dark Bringer'`,
+        name: `True "Dark Bringer"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27097,7 +27097,7 @@ const EquipInformation = [
     },
 { //True 'Assault Architect' - Complete
         id: 109911,
-        name: `True 'Assault Architect'`,
+        name: `True "Assault Architect"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -27217,9 +27217,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Asteroid' - Complete
+{ //True "Asteroid" - Complete
         id: 109971,
-        name: `True 'Asteroid'`,
+        name: `True "Asteroid"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -27248,9 +27248,9 @@ const EquipInformation = [
             },
         lore: `A dagger crafted especially for Rosetta. The layout of the engraved runes has been customized for sharper reactions to her commands. Though its magic is fairly weak, the improved tracking and speed allows it to strike vital spots with deadly accuracy. The blacksmith who reworked the dagger used his knowledge of Shinobi culture and weaponry as a reference.`
     },
-{ //Vibrant Edge 'Asteroid' - Complete
+{ //Vibrant Edge "Asteroid" - Complete
         id: 109981,
-        name: `Vibrant Edge 'Asteroid'`,
+        name: `Vibrant Edge "Asteroid"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27335,9 +27335,9 @@ const EquipInformation = [
             },
         lore: `Gloves engraved with runes. When charging staves or blades with magic, even masters will experience rare instances of misfiring. These remove that risk by ensuring a perfectly stable flow. As this not only makes producing the spell's intended effect easier but also amplifies it slightly, they are very popular.`
     },
-{ //Fortress Armor 'Geoplate' - Missing Lore
+{ //Fortress Armor "Geoplate" - Missing Lore
         id: 110011,
-        name: `Fortress Armor 'Geoplate'`,
+        name: `Fortress Armor "Geoplate"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -27366,7 +27366,7 @@ const EquipInformation = [
     },
 { //True 'Heroic Path' - Complete
         id: 110021,
-        name: `True 'Heroic Path'`,
+        name: `True "Heroic Path"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27453,9 +27453,9 @@ const EquipInformation = [
             },
         lore: `Rabbit-shaped headgear belonging to Charlotte. It absorbs magic energy in the air to relieve the wearer's fatigue. Many believe this is what lets her wield a sword the size of her body with ease. However, she keeps it on even outside of battle for the simple reason that she likes bunnies.`
     },
-{ //Blaze Fan 'Magnigate' - Missing Lore
+{ //Blaze Fan "Magnigate" - Missing Lore
         id: 110051,
-        name: `Blaze Fan 'Magnigate'`,
+        name: `Blaze Fan "Magnigate"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -27512,9 +27512,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Super 'Gramlude' - Missing Lore
+    { //Super "Gramlude" - Missing Lore
         id: 110070,
-        name: `Super 'Gramlude'`,
+        name: `Super "Gramlude"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27541,9 +27541,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Super 'Eisenstern' (LCest Ultra Equip) - Missing Lore
+    { //Super "Eisenstern" (LCest Ultra Equip) - Missing Lore
         id: 110080,
-        name: `Super 'Eisenstern'`,
+        name: `Super "Eisenstern"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27570,9 +27570,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Gramlude' - Missing Lore
+{ //True "Gramlude" - Missing Lore
         id: 110091,
-        name: `True 'Gramlude'`,
+        name: `True "Gramlude"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -27601,9 +27601,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Demon Blade 'Gramlude' - Missing Lore
+{ //Demon Blade "Gramlude" - Missing Lore
         id: 110101,
-        name: `Demon Blade 'Gramlude'`,
+        name: `Demon Blade "Gramlude"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27660,9 +27660,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Eisenstern' - Missing Lore.
+{ //True "Eisenstern" - Missing Lore.
         id: 110121,
-        name: `True ''Eisenstern'`,
+        name: `True "Eisenstern"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27691,9 +27691,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Divine Lance 'Eisenstern' - Missing Lore
+{ //Divine Lance "Eisenstern" - Missing Lore
         id: 110131,
-        name: `Divine Lance 'Eisenstern'`,
+        name: `Divine Lance "Eisenstern"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27749,9 +27749,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Mukudori' - Missing Lore
+{ //True "Mukudori" - Missing Lore
         id: 110151,
-        name: `True 'Mukudori'`,
+        name: `True "Mukudori"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27780,9 +27780,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Hell's Throat' - Missing Lore
+{ //True "Hell's Throat" - Missing Lore
         id: 110161,
-        name: `True 'Hell's Throat'`,
+        name: `True "Hell's Throat"`,
         location: `Ginzo: Battle Form Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27811,9 +27811,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Resonant Blades 'Mukudori' - Missing Lore
+{ //Resonant Blades "Mukudori" - Missing Lore
         id: 110171,
-        name: `Resonant Blades 'Mukudori'`,
+        name: `Resonant Blades "Mukudori"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27840,9 +27840,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shinobi Gear 'Paaka' - Missing Lore
+{ //Shinobi Gear "Paaka" - Missing Lore
         id: 110181,
-        name: `Shinobi Gear 'Paaka'`,
+        name: `Shinobi Gear "Paaka"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -27872,7 +27872,7 @@ const EquipInformation = [
 { //腐刀『冥府ノ喉』 (WarGinzo Farmable) - JP Complete
         id: 110191,
         name: `腐刀『冥府ノ喉』`,
-        translate: `'Throat of the Underworld'`,
+        translate: `"Throat of the Underworld"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27928,9 +27928,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Stronghold Armor 'Geocradle' - Missing Lore
+{ //Stronghold Armor "Geocradle" - Missing Lore
         id: 110211,
-        name: `Stronghold Armor 'Geocradle'`,
+        name: `Stronghold Armor "Geocradle"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27959,7 +27959,7 @@ const EquipInformation = [
     },
 { //True 'Tenchi Raimei' - Missing Lore
         id: 110221,
-        name: `True 'Tenchi Raimei'`,
+        name: `True "Tenchi Raimei"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27990,7 +27990,7 @@ const EquipInformation = [
     },
 { //True 'Noble Blood' - Missing Lore
         id: 110231,
-        name: `True 'Noble Blood'`,
+        name: `True "Noble Blood"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -28135,9 +28135,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Hyakka' - Missing Lore
+{ //True "Hyakka" - Missing Lore
         id: 110281,
-        name: `True 'Hyakka'`,
+        name: `True "Hyakka"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -28166,10 +28166,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Blooming Edges 'Hyakka' - Missing Lore
+{ //Blooming Edges "Hyakka" - Missing Lore
         id: 110291,
         name: `繚乱刃『百花』`,
-        translate: `'Hyakka'`,
+        translate: `"Hyakka"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28196,9 +28196,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shinobi Scarf 'Mafura' - Missing Lore
+{ //Shinobi Scarf "Mafura" - Missing Lore
         id: 110301,
-        name: `Shinobi Scarf 'Mafura'`,
+        name: `Shinobi Scarf "Mafura"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -28584,7 +28584,7 @@ const EquipInformation = [
     },
 { //True 'Seafoam Pareo' - Complete
         id: 110431,
-        name: `True 'Seafoam Pareo'`,
+        name: `True "Seafoam Pareo"`,
         location: `Alchemist - Exchange via Rainbow Gems (Limited)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -28646,7 +28646,7 @@ const EquipInformation = [
     },
 { //True 'Shooting Star' - Missing Lore
         id: 110451,
-        name: `True 'Shooting Star'`,
+        name: `True "Shooting Star"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -28938,7 +28938,7 @@ const EquipInformation = [
     },
 { //True 'Soaring Z' - Complete
         id: 110551,
-        name: `True 'Soaring Z'`,
+        name: `True "Soaring Z"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -28970,7 +28970,7 @@ const EquipInformation = [
 { //Soaring Z (ライジングZ) - JP Complete
         id: 110561,
         name: `ライジングZ`,
-        translate: `'Soaring Z'`,
+        translate: `"Soaring Z"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29086,9 +29086,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Euthanasia' - Missing Lore
+{ //True "Euthanasia" - Missing Lore
         id: 110601,
-        name: `True 'Euthanasia'`,
+        name: `True "Euthanasia"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -29117,9 +29117,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shrewd Cloak 'Einweiser' - Missing Lore
+{ //Shrewd Cloak "Einweiser" - Missing Lore
         id: 110611,
-        name: `Shrewd Cloak 'Einweiser'`,
+        name: `Shrewd Cloak "Einweiser"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -29146,9 +29146,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Garuda' - Missing Lore
+{ //True "Garuda" - Missing Lore
         id: 110621,
-        name: `True 'Garuda'`,
+        name: `True "Garuda"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -29177,9 +29177,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Kingblade 'Garuda' - Missing Lore
+{ //Kingblade "Garuda" - Missing Lore
         id: 110631,
-        name: `Kingblade 'Garuda'`,
+        name: `Kingblade "Garuda"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -29206,9 +29206,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shinobi Shoes 'Sunika' - Missing Lore
+{ //Shinobi Shoes "Sunika" - Missing Lore
         id: 110641,
-        name: `Shinobi Shoes 'Sunika'`,
+        name: `Shinobi Shoes "Sunika"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -29237,7 +29237,7 @@ const EquipInformation = [
     },
 { //True 'Tenrui-Giri' - Missing Lore
         id: 110651,
-        name: `True 'Tenrui-Giri'`,
+        name: `True "Tenrui-Giri"`,
         location: `Hakuro Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -29326,9 +29326,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shinobi Guard 'Hojo' - Missing Lore
+{ //Shinobi Guard "Hojo" - Missing Lore
         id: 110681,
-        name: `Shinobi Guard 'Hojo'`,
+        name: `Shinobi Guard "Hojo"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -29357,7 +29357,7 @@ const EquipInformation = [
     },
 { //Hidden Dragon 'Tenrui-Giri' - Missing Lore
         id: 110691,
-        name: `Hidden Dragon 'Tenrui-Giri'`,
+        name: `Hidden Dragon "Tenrui-Giri"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29560,7 +29560,7 @@ const EquipInformation = [
     },
 { //True 'Enmon Zanketsu' - Missing Lore
         id: 110761,
-        name: `True 'Enmon Zanketsu'`,
+        name: `True "Enmon Zanketsu"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -29676,9 +29676,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Jurai' - Missing Lore
+{ //True "Jurai" - Missing Lore
         id: 110801,
-        name: `True 'Jurai'`,
+        name: `True "Jurai"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -29707,9 +29707,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Chainblade 'Jurai' - Missing Lore
+{ //Chainblade "Jurai" - Missing Lore
         id: 110811,
-        name: `Chainblade 'Jurai'`,
+        name: `Chainblade "Jurai"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29736,9 +29736,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Shinobi Haori 'Gaun' - Missing Lore
+{ //Shinobi Haori "Gaun" - Missing Lore
         id: 110821,
-        name: `Shinobi Haori 'Gaun'`,
+        name: `Shinobi Haori "Gaun"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -29825,9 +29825,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Mercurius' - Missing Lore
+{ //True "Mercurius" - Missing Lore
         id: 110851,
-        name: `True 'Mercurius'`,
+        name: `True "Mercurius"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -29856,9 +29856,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sainted Staff 'Mercurius' - Missing Lore
+{ //Sainted Staff "Mercurius" - Missing Lore
         id: 110861,
-        name: `Sainted Staff 'Mercurius'`,
+        name: `Sainted Staff "Mercurius"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29885,9 +29885,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sagacious Robe 'Cathedral' - Missing Lore
+{ //Sagacious Robe "Cathedral" - Missing Lore
         id: 110871,
-        name: `Sagacious Robe 'Cathedral'`,
+        name: `Sagacious Robe "Cathedral"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -30175,9 +30175,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Yule Staff 'Merecrimus' - Missing Lore
+{ //Yule Staff "Merecrimus" - Missing Lore
         id: 110971,
-        name: `Yule Staff 'Merecrimus'`,
+        name: `Yule Staff "Merecrimus"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30381,9 +30381,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //True 'Yamata' - Missing Lore
+{ //True "Yamata" - Missing Lore
         id: 111041,
-        name: `True 'Yamata'`,
+        name: `True "Yamata"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -30412,9 +30412,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Coldsteel Claws 'Yamata' - Missing Lore
+{ //Coldsteel Claws "Yamata" - Missing Lore
         id: 111051,
-        name: `Coldsteel Claws 'Yamata'`,
+        name: `Coldsteel Claws "Yamata"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30441,9 +30441,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Cerulean Platemail 'Wrathscale' - Missing Lore
+{ //Cerulean Platemail "Wrathscale" - Missing Lore
         id: 111061,
-        name: `Cerulean Platemail 'Wrathscale'`,
+        name: `Cerulean Platemail "Wrathscale"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -30646,9 +30646,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Twinflame Helm 'Garmroar' Replica - Missing Lore
+{ //Twinflame Helm "Garmroar" Replica - Missing Lore
         id: 111131,
-        name: `Twinflame Helm 'Garmroar' Replica`,
+        name: `Twinflame Helm "Garmroar" Replica`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30675,9 +30675,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Twinflame Helm 'Garmroar' Custom - Missing Lore
+{ //Twinflame Helm "Garmroar" Custom - Missing Lore
         id: 111141,
-        name: `Twinflame Helm 'Garmroar' Custom`,
+        name: `Twinflame Helm "Garmroar" Custom`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30704,9 +30704,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Iceshard Shield 'Aeruscale' Replica - Missing Lore
+{ //Iceshard Shield "Aeruscale" Replica - Missing Lore
         id: 111151,
-        name: `Iceshard Shield 'Aeruscale' Replica`,
+        name: `Iceshard Shield "Aeruscale" Replica`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30733,9 +30733,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Iceshard Shield 'Aeruscale' Custom - Missing Lore
+{ //Iceshard Shield "Aeruscale" Custom - Missing Lore
         id: 111161,
-        name: `Iceshard Shield 'Aeruscale' Custom`,
+        name: `Iceshard Shield "Aeruscale" Custom`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30762,9 +30762,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Verdant Bracers 'Elpdaron' Replica - Missing Lore
+{ //Verdant Bracers "Elpdaron" Replica - Missing Lore
         id: 111171,
-        name: `Verdant Bracers 'Elpdaron' Replica`,
+        name: `Verdant Bracers "Elpdaron" Replica`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30791,9 +30791,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Verdant Bracers 'Elpdaron' Custom - Missing Lore
+    { //Verdant Bracers "Elpdaron" Custom - Missing Lore
         id: 111181,
-        name: `Verdant Bracers 'Elpdaron' Custom`,
+        name: `Verdant Bracers "Elpdaron" Custom`,
         type: `/db/Mines/thumbnail/defLB6.png`,
         star: 6,
         image: 
@@ -30822,7 +30822,7 @@ const EquipInformation = [
     },
     { //True 'Braise de Bamint' - Missing Lore
         id: 111191,
-        name: `True 'Braise de Bamint'`,
+        name: `True "Braise de Bamint"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -30853,7 +30853,7 @@ const EquipInformation = [
     },
     { //Searing Blade 'Braise de Bamint' - Missing Lore
         id: 111201,
-        name: `Searing Blade 'Braise de Bamint'`,
+        name: `Searing Blade "Braise de Bamint"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30882,7 +30882,7 @@ const EquipInformation = [
     },
     { //Petal Cloth 'Mirage de Bamint' - Missing Lore
         id: 111211,
-        name: `Petal Cloth 'Mirage de Bamint'`,
+        name: `Petal Cloth "Mirage de Bamint"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -30911,7 +30911,7 @@ const EquipInformation = [
     },
     { //True 'Happiness Trigger' - Missing Lore
         id: 111231,
-        name: `True 'Happiness Trigger'`,
+        name: `True "Happiness Trigger"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -30942,7 +30942,7 @@ const EquipInformation = [
     },
 { //Paradise Needle 'Happiness Trigger' - Missing Lore
         id: 111241,
-        name: `Paradise Needle 'Happiness Trigger'`,
+        name: `Paradise Needle "Happiness Trigger"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30971,7 +30971,7 @@ const EquipInformation = [
     },
 { //Wrenchcoat 'Mind Cracker' - Missing Lore
         id: 111251,
-        name: `Wrenchcoat 'Mind Cracker'`,
+        name: `Wrenchcoat "Mind Cracker"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -30998,9 +30998,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Gleaming Crux 'Fosbrace' Replica - Missing Lore
+{ //Gleaming Crux "Fosbrace" Replica - Missing Lore
         id: 111261,
-        name: `Gleaming Crux 'Fosbrace' Replica`,
+        name: `Gleaming Crux "Fosbrace" Replica`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -31027,9 +31027,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Gleaming Crux 'Fosbrace' Custom - Missing Lore
+{ //Gleaming Crux "Fosbrace" Custom - Missing Lore
         id: 111271,
-        name: `Gleaming Crux 'Fosbrace' Custom`,
+        name: `Gleaming Crux "Fosbrace" Custom`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -31056,9 +31056,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Hades Tome 'Plutorix' Replica - Missing Lore
+{ //Hades Tome "Plutorix" Replica - Missing Lore
         id: 111281,
-        name: `Hades Tome 'Plutorix' Replica`,
+        name: `Hades Tome "Plutorix" Replica`,
         type: `/db/Mines/thumbnail/suppLB6.png`,
         star: 6,
         image: 
@@ -31085,9 +31085,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Hades Tome 'Plutorix' Custom - Missing Lore
+{ //Hades Tome "Plutorix" Custom - Missing Lore
         id: 111291,
-        name: `Hades Tome 'Plutorix' Custom`,
+        name: `Hades Tome "Plutorix" Custom`,
         type: `/db/Mines/thumbnail/suppLB6.png`,
         star: 6,
         image: 
@@ -31114,9 +31114,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Kubou' - Missing Lore
+    { //True "Kubou" - Missing Lore
         id: 111301,
-        name: `True 'Kubou'`,
+        name: `True "Kubou"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -31145,9 +31145,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Conflagrant Pearls 'Kubou' - Missing Lore
+    { //Conflagrant Pearls "Kubou" - Missing Lore
         id: 111311,
-        name: `Conflagrant Pearls 'Kubou'`,
+        name: `Conflagrant Pearls "Kubou"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31176,7 +31176,7 @@ const EquipInformation = [
     },
     { //Magical Garb 'Ruban le Lien' - Missing Lore
         id: 111321,
-        name: `Magical Garb 'Ruban le Lien'`,
+        name: `Magical Garb "Ruban le Lien"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31206,7 +31206,7 @@ const EquipInformation = [
     { //烈脚装『テラウィンド』(Riviera Farmable) - JP Complete
         id: 111331,
         name: `烈脚装『テラウィンド』`,
-        translate: `Striking Pants 'Terra Wind'`,
+        translate: `Striking Pants "Terra Wind"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -31236,7 +31236,7 @@ const EquipInformation = [
 { //翠鳴杖『エルプマギカ』(Elpenumas Raid) - JP Complete
         id: 111341,
         name: `翠鳴杖『エルプマギカ』`,
-        translate: `Jade Roar Staff 'Elpmagica'`,
+        translate: `Jade Roar Staff "Elpmagica"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -31266,7 +31266,7 @@ const EquipInformation = [
 { //極『エルプマギカ』(Elpneumas Raid EV) - JP Complete
         id: 111351,
         name: `極『エルプマギカ』`,
-        translate: `Jade Roar Staff 'Elpmagica' EV`,
+        translate: `Jade Roar Staff "Elpmagica" EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -31296,8 +31296,8 @@ const EquipInformation = [
     },
 { //True 'Maken Zanketsu' - Missing Lore
         id: 111361,
-        name: `True 'Maken Zanketsu'`,
-        translate: `True 'Demon Sword ZANKETSU'`,
+        name: `True "Maken Zanketsu"`,
+        translate: `True "Demon Sword ZANKETSU"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -31356,9 +31356,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Netherlord Armor 'Beelzedia' - Missing Lore
+{ //Netherlord Armor "Beelzedia" - Missing Lore
         id: 111381,
-        name: `Netherlord Armor 'Beelzedia'`,
+        name: `Netherlord Armor "Beelzedia"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31387,7 +31387,7 @@ const EquipInformation = [
     },
     { //True 'Neon Bayonet' - Missing Lore
         id: 111391,
-        name: `True 'Neon Bayonet'`,
+        name: `True "Neon Bayonet"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -31561,9 +31561,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Sub-Zero Soles 'Chilblains' - Missing Lore
+    { //Sub-Zero Soles "Chilblains" - Missing Lore
         id: 111451,
-        name: `Sub-Zero Soles 'Chilblains'`,
+        name: `Sub-Zero Soles "Chilblains"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31680,7 +31680,7 @@ const EquipInformation = [
     },
     { //True 'Millenium Ark' - Missing Lore
         id: 111491,
-        name: `True 'Millenium Ark'`,
+        name: `True "Millenium Ark"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31710,7 +31710,7 @@ const EquipInformation = [
     },
     { //Aged Crystal 'Millenium Arc' - Missing Lore
         id: 111501,
-        name: `Aged Crystal 'Millenium Arc'`,
+        name: `Aged Crystal "Millenium Arc"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31768,7 +31768,7 @@ const EquipInformation = [
     },
     { //Spirit Steps 'Elements Row' - Missing Lore
         id: 111521,
-        name: `Spirit Steps 'Elements Row'`,
+        name: `Spirit Steps "Elements Row"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -32058,9 +32058,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Celestial Vessel 'Zexraster' Replica - Missing Lore
+    { //Celestial Vessel "Zexraster" Replica - Missing Lore
         id: 111621,
-        name: `Celestial Vessel 'Zexraster' Replica`,
+        name: `Celestial Vessel "Zexraster" Replica`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -32087,9 +32087,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Celestial Vessel 'Zexraster' Custom - Missing Lore
+{ //Celestial Vessel "Zexraster" Custom - Missing Lore
         id: 111631,
-        name: `Celestial Vessel 'Zexraster' Custom`,
+        name: `Celestial Vessel "Zexraster" Custom`,
         type: `/db/Mines/thumbnail/healLB6.png`,
         star: 6,
         image: 
@@ -32203,9 +32203,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Glacial Soles 'Frostpain' - Missing Lore
+    { //Glacial Soles "Frostpain" - Missing Lore
         id: 111671,
-        name: `Glacial Soles 'Frostpain'`,
+        name: `Glacial Soles "Frostpain"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32464,9 +32464,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Ces' Sandy Blossom' - Missing Lore
+    { //True "Ces' Sandy Blossom" - Missing Lore
         id: 111761,
-        name: `True 'Ces' Sandy Blossom'`,
+        name: `True "Ces' Sandy Blossom"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32494,9 +32494,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Liza's Mature Look' - Missing Lore
+    { //True "Liza's Mature Look" - Missing Lore
         id: 111771,
-        name: `True 'Liza's Mature Look'`,
+        name: `True "Liza's Mature Look"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32586,7 +32586,7 @@ const EquipInformation = [
     },
     { //True 'Shadow Cutter' - Missing Lore
         id: 111801,
-        name: `True 'Shadow Cutter'`,
+        name: `True "Shadow Cutter"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -32738,7 +32738,7 @@ const EquipInformation = [
     { //現忍足『守弐韋袈』 - JP Complete
         id: 111851,
         name: `現忍足『守弐韋袈』`,
-        translate: `Current Ninja Footwear 'Moriniike'`,
+        translate: `Current Ninja Footwear "Moriniike"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -32798,7 +32798,7 @@ const EquipInformation = [
     },
     { //True 'Shangri-La' - Missing Lore
         id: 111871,
-        name: `True 'Shangri-La'`,
+        name: `True "Shangri-La"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32828,7 +32828,7 @@ const EquipInformation = [
     },
     { //Skybound Sword 'Shangri-La' - Missing Lore
         id: 111881,
-        name: `Skybound Sword 'Shangri-La'`,
+        name: `Skybound Sword "Shangri-La"`,
         location: `Chapter 25 Secret Weapon`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -32856,9 +32856,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Jeweled Finery 'Emerodite' - Missing Lore
+    { //Jeweled Finery "Emerodite" - Missing Lore
         id: 111891,
-        name: `Jeweled Finery 'Emerodite'`,
+        name: `Jeweled Finery "Emerodite"`,
         location: `Chapter 25 Farmable Equip`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -33093,7 +33093,7 @@ const EquipInformation = [
     },
     { //True 'Rune Sovereign' - Missing Lore
         id: 111971,
-        name: `True 'Rune Sovereign'`,
+        name: `True "Rune Sovereign"`,
         type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         image: 
@@ -33123,7 +33123,7 @@ const EquipInformation = [
     },
     { //True 'Komplettes Trio' - Missing Lore
         id: 111981,
-        name: `True 'Komplettes Trio'`,
+        name: `True "Komplettes Trio"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33212,7 +33212,7 @@ const EquipInformation = [
     },
     { //True 'Radical Edge' - Missing Lore
         id: 112011,
-        name: `True 'Radical Edge'`,
+        name: `True "Radical Edge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33298,9 +33298,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Nano Barrier 'Zweitschild' - Missing Lore
+    { //Nano Barrier "Zweitschild" - Missing Lore
         id: 112041,
-        name: `Nano Barrier 'Zweitschild'`,
+        name: `Nano Barrier "Zweitschild"`,
         location: `Zwiber-Z Mines Boss Drop`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
@@ -33328,9 +33328,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Gladius' - Missing Lore
+    { //True "Gladius" - Missing Lore
         id: 112051,
-        name: `True 'Gladius'`,
+        name: `True "Gladius"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33358,9 +33358,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Sainted Sword 'Gladius' - Missing Lore
+    { //Sainted Sword "Gladius" - Missing Lore
         id: 112061,
-        name: `Sainted Sword 'Gladius'`,
+        name: `Sainted Sword "Gladius"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33388,9 +33388,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Sainted Armor 'Aeolus' - Missing Lore
+    { //Sainted Armor "Aeolus" - Missing Lore
         id: 112071,
-        name: `Sainted Armor 'Aeolus'`,
+        name: `Sainted Armor "Aeolus"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33419,7 +33419,7 @@ const EquipInformation = [
     },
     { //Garland Sword 'Star Light' - Missing Lore
         id: 112081,
-        name: `Garland Sword 'Star Light'`,
+        name: `Garland Sword "Star Light"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33621,9 +33621,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Exclusion Barrier 'Azulveidt' - Missing Lore
+    { //Exclusion Barrier "Azulveidt" - Missing Lore
         id: 112151,
-        name: `Exclusion Barrier 'Azulveidt'`,
+        name: `Exclusion Barrier "Azulveidt"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33653,7 +33653,7 @@ const EquipInformation = [
     { //情熱装『スクレパシオン』 - JP Complete (Gorgeous Passionate Part 1 Farmable)
         id: 112161,
         name: `情熱装『スクレパシオン』`,
-        translate: `Passionate Outfit 'Sucre Passion'`,
+        translate: `Passionate Outfit "Sucre Passion"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -33680,9 +33680,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Vespada' - Missing Lore
+    { //True "Vespada" - Missing Lore
         id: 112171,
-        name: `True 'Vespada'`,
+        name: `True "Vespada"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33710,9 +33710,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Flashing Barrel 'Vespada' - Missing Lore
+    { //Flashing Barrel "Vespada" - Missing Lore
         id: 112181,
-        name: `Flashing Barrel 'Vespada'`,
+        name: `Flashing Barrel "Vespada"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33741,7 +33741,7 @@ const EquipInformation = [
     },
     { //Splendid Garment 'Vestito Blu' - Missing Lore
         id: 112191,
-        name: `Splendid Garment 'Vestito Blu'`,
+        name: `Splendid Garment "Vestito Blu"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33768,9 +33768,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Asgard's Casket' - Missing Lore
+    { //True "Asgard's Casket" - Missing Lore
         id: 112201,
-        name: `True 'Asgard's Casket'`,
+        name: `True "Asgard's Casket"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33827,9 +33827,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Ritual Greaves 'Blenfate' - Missing Lore
+    { //Ritual Greaves "Blenfate" - Missing Lore
         id: 112221,
-        name: `Ritual Greaves 'Blenfate'`,
+        name: `Ritual Greaves "Blenfate"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33948,7 +33948,7 @@ const EquipInformation = [
     },
     { //Silk Loving Broom 'Etoile V' - Missing Lore
         id: 112261,
-        name: `Silk Loving Broom 'Etoile V'`,
+        name: `Silk Loving Broom "Etoile V"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33978,7 +33978,7 @@ const EquipInformation = [
     { //焔竜兜『デグルロア』 - JP Complete
         id: 112271,
         name: `焔竜兜『デグルロア』`,
-        translate: `Dragon Helmet 'Degilroar'`,
+        translate: `Dragon Helmet "Degilroar"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -34068,7 +34068,7 @@ const EquipInformation = [
     { //極『アネモス』 (Tonetaurus Raid Equip) - JP Complete
         id: 112301,
         name: `極『アネモス』`,
-        translate: `'Anemos' EV`,
+        translate: `"Anemos" EV`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34099,7 +34099,7 @@ const EquipInformation = [
     { //蒼翼剣『レイダルファング』(Freydal Raid Equip) - JP Complete
         id: 112311,
         name: `蒼翼剣『レイダルファング』`,
-        translate: `Blue-Winged Sword 'Reydal Fang'`,
+        translate: `Blue-Winged Sword "Reydal Fang"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34129,7 +34129,7 @@ const EquipInformation = [
     { //真『斬塵如火』 - JP Complete
         id: 112321,
         name: `真『斬塵如火』`,
-        translate: `True 'Fiery Decapitation'`,
+        translate: `True "Fiery Decapitation"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34160,7 +34160,7 @@ const EquipInformation = [
     { //緋燕刀『斬塵如火』 - JP Complete
         id: 112331,
         name: `緋燕刀『斬塵如火』`,
-        translate: `Hien Katana 'Fiery Decapitation'`,
+        translate: `Hien Katana "Fiery Decapitation"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34187,9 +34187,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Firmament Guards 'Alveda' - Complete
+    { //Firmament Guards "Alveda" - Complete
         id: 112341,
-        name: `Firmament Guards 'Alveda'`,
+        name: `Firmament Guards "Alveda"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -34216,9 +34216,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Festivilion' - Missing Lore
+    { //True "Festivilion" - Missing Lore
         id: 112351,
-        name: `True 'Festivilion'`,
+        name: `True "Festivilion"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34246,9 +34246,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Time Staff 'Festivilion' - Missing Lore
+    { //Time Staff "Festivilion" - Missing Lore
         id: 112361,
-        name: `Time Staff 'Festivilion'`,
+        name: `Time Staff "Festivilion"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34278,7 +34278,7 @@ const EquipInformation = [
     { //燐光套『フォスブリオ』(Fosradius Raid Equip) - JP Complete
         id: 112371,
         name: `燐光套『フォスブリオ』`,
-        translate: `Phosphorescent Cloak 'Fosbrio'`,
+        translate: `Phosphorescent Cloak "Fosbrio"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -34307,7 +34307,7 @@ const EquipInformation = [
     },
     { //True 'Rising Nova' - Missing Lore
         id: 112381,
-        name: `True 'Rising Nova'`,
+        name: `True "Rising Nova"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34337,7 +34337,7 @@ const EquipInformation = [
     },
     { //Starsword 'Rising Nova' - Missing Lore
         id: 112391,
-        name: `Starsword 'Rising Nova'`,
+        name: `Starsword "Rising Nova"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34366,7 +34366,7 @@ const EquipInformation = [
     },
     { //True 'Deep Blood' - Missing Lore
         id: 112401,
-        name: `True 'Deep Blood'`,
+        name: `True "Deep Blood"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34396,7 +34396,7 @@ const EquipInformation = [
     },
     { //Sanguine Scythe 'Deep Blood' - Missing Lore
         id: 112411,
-        name: `Sanguine Scythe 'Deep Blood'`,
+        name: `Sanguine Scythe "Deep Blood"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34425,7 +34425,7 @@ const EquipInformation = [
     },
     { //True 'Twin Falcons' - Missing Lore
         id: 112421,
-        name: `True 'Twin Falcons'`,
+        name: `True "Twin Falcons"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34453,9 +34453,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Hypertrophy Guards 'Zexveda' - Missing Lore
+    { //Hypertrophy Guards "Zexveda" - Missing Lore
         id: 112431,
-        name: `Hypertrophy Guards 'Zexveda'`,
+        name: `Hypertrophy Guards "Zexveda"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34484,7 +34484,7 @@ const EquipInformation = [
     },
     { //True 'Duo Ritual' - Missing Lore
         id: 112441,
-        name: `True 'Duo Ritual'`,
+        name: `True "Duo Ritual"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34514,7 +34514,7 @@ const EquipInformation = [
     },
     { //Dragon Katana 'Duo Ritual' - Missing Lore
         id: 112451,
-        name: `Dragon Katana 'Duo Ritual'`,
+        name: `Dragon Katana "Duo Ritual"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34543,7 +34543,7 @@ const EquipInformation = [
     },
     { //Dragon Robe 'Merciful Majesty' - Missing Lore
         id: 112461,
-        name: `Dragon Robe 'Merciful Majesty'`,
+        name: `Dragon Robe "Merciful Majesty"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34570,10 +34570,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Mira's Swelling Mermaid' - JP Complete
+    { //True "Mira's Swelling Mermaid" - JP Complete
         id: 112471,
         name: `真『ミラのもりもりマーメイド』`,
-        translate: `True 'Mira's Swelling Mermaid'`,
+        translate: `True "Mira's Swelling Mermaid"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34601,10 +34601,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Celia's Rosy Parasol' - JP Complete
+    { //True "Celia's Rosy Parasol" - JP Complete
         id: 112481,
         name: `真『シーリアのぱらいそパラソル』`,
-        translate: `True 'Celia's Rosy Parasol'`,
+        translate: `True "Celia's Rosy Parasol"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34812,9 +34812,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Iris' Dream Rocket' - Missing Lore
+    { //True "Iris' Dream Rocket" - Missing Lore
         id: 112551,
-        name: `True 'Iris' Dream Rocket'`,
+        name: `True "Iris' Dream Rocket"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34842,9 +34842,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Fen's Wavecutter' - Missing Lore
+    { //True "Fen's Wavecutter" - Missing Lore
         id: 112561,
-        name: `True 'Fen's Wavecutter'`,
+        name: `True "Fen's Wavecutter"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34872,9 +34872,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Rosetta's Inner Guard' - Missing Lore
+    { //True "Rosetta's Inner Guard" - Missing Lore
         id: 112571,
-        name: `True 'Rosetta's Inner Guard'`,
+        name: `True "Rosetta's Inner Guard"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34902,9 +34902,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Riviera's Powder Keg' - Missing Lore
+    { //True "Riviera's Powder Keg" - Missing Lore
         id: 112581,
-        name: `True 'Riviera's Powder Keg'`,
+        name: `True "Riviera's Powder Keg"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34965,7 +34965,7 @@ const EquipInformation = [
     { //真『ディード・イクス・フラム』 - JP Complete
         id: 112601,
         name: `真『ディード・イクス・フラム』`,
-        translate: `True 'Deed, Ix, Flam'`,
+        translate: `True "Deed, Ix, Flam"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34996,7 +34996,7 @@ const EquipInformation = [
     { //地灼剣『ディード・イクス・フラム』 - JP Complete
         id: 112611,
         name: `地灼剣『ディード・イクス・フラム』`,
-        translate: `Earth-Shattering Sword 'Deed, Ix, Flam'`,
+        translate: `Earth-Shattering Sword "Deed, Ix, Flam"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35023,9 +35023,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Lotte's Fluffy Mitts' - JP Complete
+    { //True "Lotte's Fluffy Mitts" - JP Complete
         id: 112621,
-        name: `True 'Lotte's Fluffy Mitts'`,
+        name: `True "Lotte's Fluffy Mitts"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35055,7 +35055,7 @@ const EquipInformation = [
     },
     { //True 'Magical Muscles Valerie' - JP Complete
         id: 112631,
-        name: `True 'Magical Muscles Valerie'`,
+        name: `True "Magical Muscles Valerie"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35083,9 +35083,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True 'Forte's Dolly Dress' - JP Complete
+    { //True "Forte's Dolly Dress" - JP Complete
         id: 112641,
-        name: `True 'Forte's Dolly Dress'`,
+        name: `True "Forte's Dolly Dress"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35116,7 +35116,7 @@ const EquipInformation = [
     { //真『トロイメライ』 - JP Complete
         id: 112651,
         name: `真『トロイメライ』`,
-        translate: `True 'Traumerei'`,
+        translate: `True "Traumerei"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35147,7 +35147,7 @@ const EquipInformation = [
     { //幻聖剣『トロイメライ』 - JP Complete
         id: 112661,
         name: `幻聖剣『トロイメライ』`,
-        translate: `Phantom Holy Sword 'Traumerei'`,
+        translate: `Phantom Holy Sword "Traumerei"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35177,7 +35177,7 @@ const EquipInformation = [
     { //共鳴装『カンパネラ』 - JP Complete
         id: 112671,
         name: `共鳴装『カンパネラ』`,
-        translate: `Echoing Outfit 'Campanella'`,
+        translate: `Echoing Outfit "Campanella"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -35207,7 +35207,7 @@ const EquipInformation = [
     { //真『ライトニング・メアⅢ』 - JP Complete
         id: 112681,
         name: `真『ライトニング・メアⅢ』`,
-        translate: `True 'Lightning Mare III'`,
+        translate: `True "Lightning Mare III"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35238,7 +35238,7 @@ const EquipInformation = [
     { //紫雷の戦棍『ライトニング・メアⅢ』 - JP Complete
         id: 112691,
         name: `紫雷の戦棍『ライトニング・メアⅢ』`,
-        translate: `Purple Lightning War Mace 'Lightning Mare III'`,
+        translate: `Purple Lightning War Mace "Lightning Mare III"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35268,7 +35268,7 @@ const EquipInformation = [
     { //超『エクス・クランベルジュ』 - JP Complete
         id: 112701,
         name: `超『エクス・クランベルジュ』`,
-        translate: `Super 'Ex Granverge'`,
+        translate: `Super "Ex Granverge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35298,7 +35298,7 @@ const EquipInformation = [
     { //真『エクス・クランベルジュ』 - JP Complete
         id: 112711,
         name: `真『エクス・クランベルジュ』`,
-        translate: `True 'Ex Granverge'`,
+        translate: `True "Ex Granverge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35329,7 +35329,7 @@ const EquipInformation = [
     { //双王剣『エクス・クランベルジュ』 - JP Complete
         id: 112721,
         name: `双王剣『エクス・クランベルジュ』`,
-        translate: `Twin King Swords 'Ex Granverge'`,
+        translate: `Twin King Swords "Ex Granverge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35359,7 +35359,7 @@ const EquipInformation = [
     { //煌王鎧『アルファダイン』 - JP Complete
         id: 112731,
         name: `煌王鎧『アルファダイン』`,
-        translate: `Brilliant Jewel Armor 'Alphadine'`,
+        translate: `Brilliant Jewel Armor "Alphadine"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35389,7 +35389,7 @@ const EquipInformation = [
     { //真『マルチプル』 - JP Complete
         id: 112741,
         name: `真『マルチプル』`,
-        translate: `True 'Multiple'`,
+        translate: `True "Multiple"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35420,7 +35420,7 @@ const EquipInformation = [
     { //万能刃『マルチプル』 - JP Complete
         id: 112751,
         name: `万能刃『マルチプル』`,
-        translate: `Multi-purpose Blade 'Multiple'`,
+        translate: `Multi-purpose Blade "Multiple"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35570,7 +35570,7 @@ const EquipInformation = [
     { //聖紋剣『ホーリーマスター』 - JP Complete
         id: 112801,
         name: `聖紋剣『ホーリーマスター』`,
-        translate: `Holy Crest Sword 'Holy Master'`,
+        translate: `Holy Crest Sword "Holy Master"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35600,7 +35600,7 @@ const EquipInformation = [
     { //雪逢刃『スノーシティ』 - JP Complete
         id: 112811,
         name: `雪逢刃『スノーシティ』`,
-        translate: `Snow Aiming Blade 'Snow City'`,
+        translate: `Snow Aiming Blade "Snow City"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35630,7 +35630,7 @@ const EquipInformation = [
     { //翠輪装『ファイザード』 - JP Complete
         id: 112821,
         name: `翠輪装『ファイザード』`,
-        translate: `Green Ring 'Faizard'`,
+        translate: `Green Ring "Faizard"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -35660,7 +35660,7 @@ const EquipInformation = [
     { //氷竜珠『エルスフィア』 - JP Complete
         id: 112831,
         name: `氷竜珠『エルスフィア』`,
-        translate: `Ice Dragon Sphere 'Elsphere'`,
+        translate: `Ice Dragon Sphere "Elsphere"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35690,7 +35690,7 @@ const EquipInformation = [
     { //渇望の杖『オウンサースト』 - JP Complete
         id: 112841,
         name: `渇望の杖『オウンサースト』`,
-        translate: `Staff of Desire 'Own Thirst'`,
+        translate: `Staff of Desire "Own Thirst"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35720,7 +35720,7 @@ const EquipInformation = [
     { //人族史書『ロストピア』 - JP Complete
         id: 112851,
         name: `人族史書『ロストピア』`,
-        translate: `Book of Human History 'Lostopia'`,
+        translate: `Book of Human History "Lostopia"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35750,7 +35750,7 @@ const EquipInformation = [
     { //合理の剣『アンダーマキナ』 - JP Complete
         id: 112861,
         name: `合理の剣『アンダーマキナ』`,
-        translate: `Sword of Reason 'Under Machina'`,
+        translate: `Sword of Reason "Under Machina"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35780,7 +35780,7 @@ const EquipInformation = [
     { //叡智の薬瓶『オッドマーク』 - JP Complete
         id: 112871,
         name: `叡智の薬瓶『オッドマーク』`,
-        translate: `Vials of Wisdom 'Odd Mark'`,
+        translate: `Vials of Wisdom "Odd Mark"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -35810,7 +35810,7 @@ const EquipInformation = [
     { //静寂の兜『ウィルシード』 - JP Complete
         id: 112881,
         name: `静寂の兜『ウィルシード』`,
-        translate: `Silent Helmet 'Will Seed'`,
+        translate: `Silent Helmet "Will Seed"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35840,7 +35840,7 @@ const EquipInformation = [
     { //絶耀具『マグナヘリオス』 - JP Complete
         id: 112891,
         name: `絶耀具『マグナヘリオス』`,
-        translate: `Shining Tool 'Magna Helios'`,
+        translate: `Shining Tool "Magna Helios"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35870,7 +35870,7 @@ const EquipInformation = [
     { //真『7thアルテミス』 - JP Complete
         id: 112901,
         name: `真『7thアルテミス』`,
-        translate: `True '7th Artemis'`,
+        translate: `True "7th Artemis"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35901,7 +35901,7 @@ const EquipInformation = [
     { //星章剣『7thアルテミス』 - JP Complete
         id: 112911,
         name: `星章剣『7thアルテミス』`,
-        translate: `Star Sword '7th Artemis'`,
+        translate: `Star Sword "7th Artemis"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35931,7 +35931,7 @@ const EquipInformation = [
     { //星翔衣『アルペンステラ』 - JP Complete
         id: 112921,
         name: `星翔衣『アルペンステラ』`,
-        translate: `Star Costume 'Alpine Stella'`,
+        translate: `Star Costume "Alpine Stella"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -35961,7 +35961,7 @@ const EquipInformation = [
     { //沈黙の杖『ドーンプライヤー』 - JP Complete
         id: 112931,
         name: `沈黙の杖『ドーンプライヤー』`,
-        translate: `Staff of Silence 'Dawnplier'`,
+        translate: `Staff of Silence "Dawnplier"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35991,7 +35991,7 @@ const EquipInformation = [
     { //神族史書『レジェンズ』 - JP Complete
         id: 112941,
         name: `神族史書『レジェンズ』`,
-        translate: `Book of Gods 'Legends'`,
+        translate: `Book of Gods "Legends"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36021,7 +36021,7 @@ const EquipInformation = [
     { //比翼の剣『ヘブンズセレナ』 - JP Complete
         id: 112951,
         name: `比翼の剣『ヘブンズセレナ』`,
-        translate: `Sword of Dual Wings 'Heaven's Serena'`,
+        translate: `Sword of Dual Wings "Heaven's Serena"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36051,7 +36051,7 @@ const EquipInformation = [
     { //神秘の秘薬『ハーミットペイン』 - JP Complete
         id: 112961,
         name: `神秘の秘薬『ハーミットペイン』`,
-        translate: `Vials of Mystery 'Hermit Pain'`,
+        translate: `Vials of Mystery "Hermit Pain"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -36081,7 +36081,7 @@ const EquipInformation = [
     { //摂理の兜『ヴィジョンズオール』 - JP Complete
         id: 112971,
         name: `摂理の兜『ヴィジョンズオール』`,
-        translate: `Providence Helmet 'Visions All'`,
+        translate: `Providence Helmet "Visions All"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36111,7 +36111,7 @@ const EquipInformation = [
     { //炎焔杖『アグニマグニ』 - JP Complete
         id: 112981,
         name: `炎焔杖『アグニマグニ』`,
-        translate: `Flame Staff 'Agni Magni'`,
+        translate: `Flame Staff "Agni Magni"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -36141,7 +36141,7 @@ const EquipInformation = [
     { //真『ドラゴンエイジ』 - JP Complete
         id: 112991,
         name: `真『ドラゴンエイジ』`,
-        translate: `True 'Dragon Age'`,
+        translate: `True "Dragon Age"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36172,7 +36172,7 @@ const EquipInformation = [
     { //真『ノーリプライ』 - JP Complete
         id: 113001,
         name: `真『ノーリプライ』`,
-        translate: `True 'No Reply'`,
+        translate: `True "No Reply"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36203,7 +36203,7 @@ const EquipInformation = [
     { //月仮面『ノーリプライ』 - JP Complete
         id: 113011,
         name: `月仮面『ノーリプライ』`,
-        translate: `Moon Mask 'No Reply'`,
+        translate: `Moon Mask "No Reply"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36233,7 +36233,7 @@ const EquipInformation = [
     { //侵蝕の杖『ディープレイ』 - JP Complete
         id: 113021,
         name: `侵蝕の杖『ディープレイ』`,
-        translate: `Staff of Erosion 'Deep Ray'`,
+        translate: `Staff of Erosion "Deep Ray"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36263,7 +36263,7 @@ const EquipInformation = [
     { //魔族史書『デスコード』 - JP Complete
         id: 113031,
         name: `魔族史書『デスコード』`,
-        translate: `Book of Demon History 'Death Code'`,
+        translate: `Book of Demon History "Death Code"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36293,7 +36293,7 @@ const EquipInformation = [
     { //千骸の剣『ウォークライ』 - JP Complete
         id: 113041,
         name: `千骸の剣『ウォークライ』`,
-        translate: `Sword of Thousand Skeletons 'Warcry'`,
+        translate: `Sword of Thousand Skeletons "Warcry"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36323,7 +36323,7 @@ const EquipInformation = [
     { //選定の薬瓶『アナザーワン』 - JP Complete
         id: 113051,
         name: `選定の薬瓶『アナザーワン』`,
-        translate: `Vials of Choice 'Another One'`,
+        translate: `Vials of Choice "Another One"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -36353,7 +36353,7 @@ const EquipInformation = [
     { //断絶の兜『ルナティックラグ』 - JP Complete
         id: 113061,
         name: `断絶の兜『ルナティックラグ』`,
-        translate: `Disintegration Helmet 'Lunatic Rag'`,
+        translate: `Disintegration Helmet "Lunatic Rag"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36383,7 +36383,7 @@ const EquipInformation = [
     { //真『アースクレイム』 - JP Complete
         id: 113071,
         name: `真『アースクレイム』`,
-        translate: `True 'Earth Claim'`,
+        translate: `True "Earth Claim"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36414,7 +36414,7 @@ const EquipInformation = [
     { //真『グリムステラ』 - JP Complete
         id: 113081,
         name: `真『グリムステラ』`,
-        translate: `True 'Grimm Stella'`,
+        translate: `True "Grimm Stella"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36445,7 +36445,7 @@ const EquipInformation = [
     { //写本『グリムステラ』 - JP Complete
         id: 113091,
         name: `写本『グリムステラ』`,
-        translate: `Manuscript 'Grimm Stella'`,
+        translate: `Manuscript "Grimm Stella"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36475,7 +36475,7 @@ const EquipInformation = [
     { //真『ジャスティス』 - JP Complete
         id: 113101,
         name: `真『ジャスティス』`,
-        translate: `True 'Justice'`,
+        translate: `True "Justice"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36506,7 +36506,7 @@ const EquipInformation = [
     { //正義の剣『ジャスティス』 - JP Complete
         id: 113111,
         name: `正義の剣『ジャスティス』`,
-        translate: `Sword of Justice 'Justice'`,
+        translate: `Sword of Justice "Justice"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36536,7 +36536,7 @@ const EquipInformation = [
     { //赤機刃『アスヴェルト』 - JP Complete
         id: 113121,
         name: `赤機刃『アスヴェルト』`,
-        translate: `Red Machine Blade 'Aswelt'`,
+        translate: `Red Machine Blade "Aswelt"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -36566,7 +36566,7 @@ const EquipInformation = [
     { //真『天ツ門』 - JP Complete
         id: 113131,
         name: `真『天ツ門』`,
-        translate: `True 'Heaven's Gate'`,
+        translate: `True "Heaven's Gate"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36597,7 +36597,7 @@ const EquipInformation = [
     { //白眩の剣『天ツ門』 - JP Complete
         id: 113141,
         name: `白眩の剣『天ツ門』`,
-        translate: `White Dazzling Blade 'Heaven's Gate'`,
+        translate: `White Dazzling Blade "Heaven's Gate"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36627,7 +36627,7 @@ const EquipInformation = [
     { //惨魂爪『リカーニングペイン』 - JP Complete
         id: 113151,
         name: `惨魂爪『リカーニングペイン』`,
-        translate: `Brutal Claw 'Reckoning Pain'`,
+        translate: `Brutal Claw "Reckoning Pain"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36873,7 +36873,7 @@ const EquipInformation = [
     },
     {
         id: 113231,
-        name: `True 'Grandeus'`,
+        name: `True "Grandeus"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -36901,9 +36901,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Ultra Relic 'Petraskia' - Missing Lore
+    { //Ultra Relic "Petraskia" - Missing Lore
         id: 140011,
-        name: `Ultra Relic 'Petraskia'`,
+        name: `Ultra Relic "Petraskia"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -37057,7 +37057,7 @@ const EquipInformation = [
     {
         id: 113281,
         name: `真『ヘブンズチケット』`,
-        translate: `True 'Heaven's Ticket'`,
+        translate: `True "Heaven's Ticket"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -37088,7 +37088,7 @@ const EquipInformation = [
     {
         id: 113291,
         name: `真『コメットライナー』`,
-        translate: `True 'Comet Liner'`,
+        translate: `True "Comet Liner"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -37119,7 +37119,7 @@ const EquipInformation = [
     {
         id: 113301,
         name: `冥星槌『コメットライナー』`,
-        translate: `Dark Star Hammer 'Comet Liner'`,
+        translate: `Dark Star Hammer "Comet Liner"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -37150,7 +37150,7 @@ const EquipInformation = [
     {
         id: 113311,
         name: `月獣装『ルナティックヘルツ』`,
-        translate: `Moon Beast Armor 'Lunatic Hertz'`,
+        translate: `Moon Beast Armor "Lunatic Hertz"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -37178,9 +37178,133 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113321,
+        name: `十二代目ミズキの海岸アロハ`,
+        translate: `Mizuki the Twelfth's Beach Aloha`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113321.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 10s, increase allies' Arts by 3/s and Physical DMG by 30%. Additionally when used for the first time, increase Water allies' Arts by 30.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113331,
+        name: `ハズキのおシノビパラソル`,
+        translate: `Kokuri's Congra Bikini`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 4000% Fire DMG (Magic). For 10s, increase own Magic DMG by 60%. Additionally if user is Fire, for 10s, increase own Paralysis resistance and Freeze resistance by 100%.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113341,
+        name: `コクリのコングラビキニ`,
+        translate: `Hazuki's Ninja Parasol`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 12000% Light DMG (Physical). For 8s, reduce enemies' Light resistance by 40% and Evasion rate by 30%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113351,
+        name: `フェンのサマーアクセント`,
+        translate: `Fen's Summer Accent`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `45s CT - For 20s, heal target's HP by 200/s. Additionally if user is Water, for 20s, increase target's MAX HP by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own Physical RES by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
-        name: `Ultra Relic 'Zero=Recorder'`,
+        name: `Ultra Relic "Zero=Recorder"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -37207,9 +37331,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Benemopis' - Missing Lore
+{ //Ultra Relic "Benemopis" - Missing Lore
         id: 140031,
-        name: `Ultra Relic 'Benemopis'`,
+        name: `Ultra Relic "Benemopis"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -37238,7 +37362,7 @@ const EquipInformation = [
     },
 { //Ultra Relic 'Bleak Prophet' - Missing Lore
         id: 140041,
-        name: `Ultra Relic 'Bleak Prophet'`,
+        name: `Ultra Relic "Bleak Prophet"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -37267,7 +37391,7 @@ const EquipInformation = [
     },
 { //Ultra Relic 'Eraser Bit' - Missing Lore
         id: 140051,
-        name: `Ultra Relic 'Eraser Bit'`,
+        name: `Ultra Relic "Eraser Bit"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -37294,9 +37418,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Pteraturus' - Missing Lore
+{ //Ultra Relic "Pteraturus" - Missing Lore
         id: 140061,
-        name: `Ultra Relic 'Pteraturus'`,
+        name: `Ultra Relic "Pteraturus"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -37325,7 +37449,7 @@ const EquipInformation = [
     },
 { //Ultra Relic 'Empty Heart' - Missing Lore
         id: 140071,
-        name: `Ultra Relic 'Empty Heart'`,
+        name: `Ultra Relic "Empty Heart"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -37354,7 +37478,7 @@ const EquipInformation = [
     },
 { //Ultra Relic 'Phantom Sword' - JP Complete
         id: 140081,
-        name: `Ultra Relic 'Phantom Sword'`,
+        name: `Ultra Relic "Phantom Sword"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -37383,7 +37507,7 @@ const EquipInformation = [
     },
 { //Ultra Relic 'Phantom Core' - JP Complete
         id: 140091,
-        name: `Ultra Relic 'Phantom Core'`,
+        name: `Ultra Relic "Phantom Core"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -37410,9 +37534,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Volkans' - JP Complete
+{ //Ultra Relic "Volkans" - JP Complete
         id: 140101,
-        name: `Ultra Relic 'Volkans'`,
+        name: `Ultra Relic "Volkans"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -37439,9 +37563,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Bracchium' - Missing Lore
+{ //Ultra Relic "Bracchium" - Missing Lore
         id: 140111,
-        name: `Ultra Relic 'Bracchium'`,
+        name: `Ultra Relic "Bracchium"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -37468,9 +37592,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Skeletooth' - Missing Lore
+{ //Ultra Relic "Skeletooth" - Missing Lore
         id: 140121,
-        name: `Ultra Relic 'Skeletooth'`,
+        name: `Ultra Relic "Skeletooth"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -37497,9 +37621,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Periusia' - JP Complete
+{ //Ultra Relic "Periusia" - JP Complete
         id: 140131,
-        name: `Ultra Relic 'Periusia'`,
+        name: `Ultra Relic "Periusia"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -37528,7 +37652,7 @@ const EquipInformation = [
     },
     { //Ultra Relic 'Frozen Twin Swords' - JP Complete
         id: 140141,
-        name: `Ultra Relic 'Frozen Twin Swords'`,
+        name: `Ultra Relic "Frozen Twin Swords"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -37555,9 +37679,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Ultra Relic 'Diablos' - JP Complete
+    { //Ultra Relic "Diablos" - JP Complete
         id: 140151,
-        name: `Ultra Relic 'Diablos'`,
+        name: `Ultra Relic "Diablos"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -37586,7 +37710,7 @@ const EquipInformation = [
     },
     { //Ultra Relic 'Dola Armor' - JP Complete
         id: 140161,
-        name: `Ultra Relic 'Dola Armor'`,
+        name: `Ultra Relic "Dola Armor"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -39175,9 +39299,9 @@ const EquipInformation = [
             },
         lore: `The High Elf Archer wears this clothing on her adventures. It is light and well fitted, but it is made from materials that offer good defense in battle. In addition, her mantle hides the obsidian knives sheathed at her hips.`
     },
-{ //Demon Sword 'Desiderium' - Complete
+{ //Demon Sword "Desiderium" - Complete
         id: 150531,
-        name: `Demon Sword 'Desiderium'`,
+        name: `Demon Sword "Desiderium"`,
         location: `Limited Crossover Event: Goblin Slayer`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -40197,9 +40321,9 @@ const EquipInformation = [
             },
         lore: `The 'Spirit User' Emilia's cloak. There are cat ears in the hood.`
     },
-{ //True 'Emilia's Cape' - Complete
+{ //True "Emilia's Cape" - Complete
         id: 150871,
-        name: `True 'Emilia's Cape'`,
+        name: `True "Emilia's Cape"`,
         location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -40259,9 +40383,9 @@ const EquipInformation = [
             },
         lore: `The frilly pink ribbons that hold up the twin drills of the Forbidden Library's caretaker. It must take a long time to curl that hair every day.`
     },
-{ //True 'Beatrice's Ribbon' - Complete
+{ //True "Beatrice's Ribbon" - Complete
         id: 150891,
-        name: `True 'Beatrice's Ribbon'`,
+        name: `True "Beatrice's Ribbon"`,
         location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -40321,9 +40445,9 @@ const EquipInformation = [
             },
         lore: `The signature Morningstar for Rem, a maid at the Roswaal Mansion. It can crush someone's body with just one blow.`
     },
-{ //True 'Rem's Morningstar' - Missing Lore
+{ //True "Rem's Morningstar" - Missing Lore
         id: 150911,
-        name: `True 'Rem's Morningstar'`,
+        name: `True "Rem's Morningstar"`,
         location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -40383,9 +40507,9 @@ const EquipInformation = [
             },
         lore: `The Roswaal Mansion's mop. You can't clean without it. Ram's name is written on it.`
     },
-{ //True 'Ram's Mop' - Complete
+{ //True "Ram's Mop" - Complete
         id: 150931,
-        name: `True 'Ram's Mop'`,
+        name: `True "Ram's Mop"`,
         location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -41167,7 +41291,7 @@ const EquipInformation = [
     },
 { //True 'Shield of Rage' - Complete
         id: 151191,
-        name: `True 'Shield of Rage'`,
+        name: `True "Shield of Rage"`,
         location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -41560,7 +41684,7 @@ const EquipInformation = [
     },
 { //True 'Scissor Blade' - Missing Lore
         id: 151321,
-        name: `True 'Scissor Blade'`,
+        name: `True "Scissor Blade"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41589,9 +41713,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Bakuzan' - Missing Lore
+{ //True "Bakuzan" - Missing Lore
         id: 151331,
-        name: `True 'Bakuzan'`,
+        name: `True "Bakuzan"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -41622,7 +41746,7 @@ const EquipInformation = [
     },
 { //True 'Fight Club Goku Uniform' - Complete
         id: 151341,
-        name: `True 'Fight Club Goku Uniform'`,
+        name: `True "Fight Club Goku Uniform"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -42804,7 +42928,7 @@ const EquipInformation = [
     },
 { //True 'Stolen Scissor Blade' - Complete
         id: 151771,
-        name: `True 'Stolen Scissor Blade'`,
+        name: `True "Stolen Scissor Blade"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -42864,9 +42988,9 @@ const EquipInformation = [
             },
         lore: `The parasol carried by Nui Harime. Its surprising durability once blacked a direct attack from Uzu Sanageyama in his Blade Regalia.`
     },
-{ //True 'Melty's Dress' - Complete
+{ //True "Melty's Dress" - Complete
         id: 151791,
-        name: `True 'Melty's Dress'`,
+        name: `True "Melty's Dress"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -42895,9 +43019,9 @@ const EquipInformation = [
             },
         lore: `Melty's plain dresswear of choice. Its elegant design perfectly matches the second princess' noble tastes.`
     },
-{ //True 'Filo's Hairpin' - Complete
+{ //True "Filo's Hairpin" - Complete
         id: 151801,
-        name: `True 'Filo's Hairpin'`,
+        name: `True "Filo's Hairpin"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -42926,9 +43050,9 @@ const EquipInformation = [
             },
         lore: `Filo's hair accessory that Naofumi Iwatani made for her. He endowed it with speed-increasing powers and chose to make it a hairpin since it was unlikely to fall off when Filo transforms... so he says.`
     },
-{ //True 'Fitoria's Gown' - Missing Lore
+{ //True "Fitoria's Gown" - Missing Lore
         id: 151811,
-        name: `True 'Fitoria's Gown'`,
+        name: `True "Fitoria's Gown"`,
         location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -44539,7 +44663,7 @@ const EquipInformation = [
     },
     { //True 'Magical Ruby' - Complete
         id: 1523111,
-        name: `True 'Magical Ruby'`,
+        name: `True "Magical Ruby"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         star: 5,
@@ -44570,7 +44694,7 @@ const EquipInformation = [
     },
     { //True 'Zelretch - Complete
         id: 1523211,
-        name: `True 'Zelretch'`,
+        name: `True "Zelretch"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         star: 5,
@@ -44780,7 +44904,7 @@ const EquipInformation = [
     },
     { //True 'Magical Sapphire' - Missing Lore
         id: 152431,
-        name: `True 'Magical Sapphire'`,
+        name: `True "Magical Sapphire"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         location: `Crossover True Equip: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -44811,7 +44935,7 @@ const EquipInformation = [
     },
 { //True 'Rho Aias' - Missing Lore
         id: 152441,
-        name: `True 'Rho Aias'`,
+        name: `True "Rho Aias"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         location: `Crossover True Equip: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -45023,7 +45147,7 @@ const EquipInformation = [
     },
 { //True 'Kanshou & Bakuya' - Missing Lore
         id: 152511,
-        name: `True 'Kanshou & Bakuya'`,
+        name: `True "Kanshou & Bakuya"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -45054,7 +45178,7 @@ const EquipInformation = [
     },
 { //True 'Excalibur Morgan' - Missing Lore
         id: 152521,
-        name: `True 'Excalibur Morgan'`,
+        name: `True "Excalibur Morgan"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
@@ -45745,9 +45869,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Rimuru's Sword' - Missing Lore
+    { //True "Rimuru's Sword" - Missing Lore
         id: 152791,
-        name: `True 'Rimuru's Sword'`,
+        name: `True "Rimuru's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45775,9 +45899,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Milim's Necklace' - Missing Lore
+{ //True "Milim's Necklace" - Missing Lore
         id: 152801,
-        name: `True 'Milim's Necklace'`,
+        name: `True "Milim's Necklace"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45805,9 +45929,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Benimaru's Sword' - Missing Lore
+{ //True "Benimaru's Sword" - Missing Lore
         id: 152811,
-        name: `True 'Benimaru's Sword'`,
+        name: `True "Benimaru's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -45835,9 +45959,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Rimuru's Santa Suit' - Missing Lore
+{ //True "Rimuru's Santa Suit" - Missing Lore
         id: 152821,
-        name: `True 'Rimuru's Santa Suit'`,
+        name: `True "Rimuru's Santa Suit"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45865,9 +45989,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Milim's Santa Coat' - Missing Lore
+    { //True "Milim's Santa Coat" - Missing Lore
         id: 152831,
-        name: `True 'Milim's Santa Coat'`,
+        name: `True "Milim's Santa Coat"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -45895,9 +46019,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Shion's Santa Dress' - Missing Lore
+{ //True "Shion's Santa Dress" - Missing Lore
         id: 152841,
-        name: `True 'Shion's Santa Dress'`,
+        name: `True "Shion's Santa Dress"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -45925,9 +46049,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Rimuru's Haori' - Missing Lore
+{ //True "Rimuru's Haori" - Missing Lore
         id: 152851,
-        name: `True 'Rimuru's Haori'`,
+        name: `True "Rimuru's Haori"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -45955,9 +46079,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Milim's Kimono' - JP Complete
+{ //True "Milim's Kimono" - JP Complete
         id: 152861,
-        name: `True 'Milim's Kimono'`,
+        name: `True "Milim's Kimono"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -45985,9 +46109,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Rimuru's Mantle' - Missing Lore
+{ //True "Rimuru's Mantle" - Missing Lore
         id: 152871,
-        name: `True 'Rimuru's Mantle'`,
+        name: `True "Rimuru's Mantle"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -46015,9 +46139,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Milim's Armor' - Missing Lore
+{ //True "Milim's Armor" - Missing Lore
         id: 152881,
-        name: `True 'Milim's Armor'`,
+        name: `True "Milim's Armor"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46045,9 +46169,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Diablo's Suit' - Missing Lore
+{ //True "Diablo's Suit" - Missing Lore
         id: 152891,
-        name: `True 'Diablo's Suit'`,
+        name: `True "Diablo's Suit"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -46162,9 +46286,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //God-Grade Sword 'Asura' - Missing Lore
+{ //God-Grade Sword "Asura" - Missing Lore
         id: 152931,
-        name: `God-Grade Sword 'Asura'`,
+        name: `God-Grade Sword "Asura"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46838,7 +46962,7 @@ const EquipInformation = [
     },
     { //True 'Staff of Ainz Ooal Gown' - Missing Lore
         id: 153161,
-        name: `True 'Staff of Ainz Ooal Gown'`,
+        name: `True "Staff of Ainz Ooal Gown"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46866,9 +46990,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True '3F' - Missing Lore
+    { //True "3F" - Missing Lore
         id: 153171,
-        name: `True '3F'`,
+        name: `True "3F"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46898,7 +47022,7 @@ const EquipInformation = [
     },
     { //True 'Pipette Lance' - Missing Lore
         id: 153181,
-        name: `True 'Pipette Lance'`,
+        name: `True "Pipette Lance"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -46928,7 +47052,7 @@ const EquipInformation = [
     },
     { //True 'Keraunos Mk-III' - Missing Lore
         id: 153191,
-        name: `True 'Keraunos Mk-III'`,
+        name: `True "Keraunos Mk-III"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -46956,9 +47080,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Momon's Greatsword' - Missing Lore
+    { //True "Momon's Greatsword" - Missing Lore
         id: 153201,
-        name: `True 'Momon's Greatsword'`,
+        name: `True "Momon's Greatsword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -46986,9 +47110,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Demiurge's Suit' - Missing Lore
+    { //True "Demiurge's Suit" - Missing Lore
         id: 153211,
-        name: `True 'Demiurge's Suit'`,
+        name: `True "Demiurge's Suit"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -47016,9 +47140,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Evileye's Mask' - Missing Lore
+    { //True "Evileye's Mask" - Missing Lore
         id: 153221,
-        name: `True 'Evileye's Mask'`,
+        name: `True "Evileye's Mask"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -47426,7 +47550,7 @@ const EquipInformation = [
     },
     { //True 'Blade Regalia' - Missing Lore
         id: 153361,
-        name: `True 'Blade Regalia'`,
+        name: `True "Blade Regalia"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47456,7 +47580,7 @@ const EquipInformation = [
     },
     { //True 'Probe Regalia' - Missing Lore
         id: 153371,
-        name: `True 'Probe Regalia'`,
+        name: `True "Probe Regalia"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -47486,7 +47610,7 @@ const EquipInformation = [
     },
     { //True 'Shackle Regalia' - Missing Lore
         id: 153381,
-        name: `True 'Shackle Regalia'`,
+        name: `True "Shackle Regalia"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -47516,7 +47640,7 @@ const EquipInformation = [
     },
     { //True 'Symphony Regalia' - Missing Lore
         id: 153391,
-        name: `True 'Symphony Regalia'`,
+        name: `True "Symphony Regalia"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -47544,9 +47668,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Illya's Swimsuit' - Missing Lore
+    { //True "Illya's Swimsuit" - Missing Lore
         id: 153401,
-        name: `True 'Illya's Swimsuit'`,
+        name: `True "Illya's Swimsuit"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -47574,9 +47698,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Miyu's Swimsuit' - Missing Lore
+    { //True "Miyu's Swimsuit" - Missing Lore
         id: 153411,
-        name: `True 'Miyu's Swimsuit'`,
+        name: `True "Miyu's Swimsuit"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47604,9 +47728,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Chloe's Swimsuit' - Missing Lore
+    { //True "Chloe's Swimsuit" - Missing Lore
         id: 153421,
-        name: `True 'Chloe's Swimsuit'`,
+        name: `True "Chloe's Swimsuit"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47634,9 +47758,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Luvia's Swimsuit' - Missing Lore
+    { //True "Luvia's Swimsuit" - Missing Lore
         id: 153431,
-        name: `True 'Luvia's Swimsuit'`,
+        name: `True "Luvia's Swimsuit"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47664,9 +47788,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Bazett's Swimsuit' - Missing Lore
+    { //True "Bazett's Swimsuit" - Missing Lore
         id: 153441,
-        name: `True 'Bazett's Swimsuit'`,
+        name: `True "Bazett's Swimsuit"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -47694,9 +47818,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Sakura's Swimsuit' - Missing Lore
+    { //True "Sakura's Swimsuit" - Missing Lore
         id: 153451,
-        name: `True 'Sakura's Swimsuit'`,
+        name: `True "Sakura's Swimsuit"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -48246,9 +48370,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Shadow's Sword' - Missing Lore
+    { //True "Shadow's Sword" - Missing Lore
         id: 153641,
-        name: `True 'Shadow's Sword'`,
+        name: `True "Shadow's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48276,9 +48400,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Beta's Bow' - Missing Lore
+    { //True "Beta's Bow" - Missing Lore
         id: 153651,
-        name: `True 'Beta's Bow'`,
+        name: `True "Beta's Bow"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -48538,9 +48662,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Alpha's Sword' - Missing Lore
+    { //True "Alpha's Sword" - Missing Lore
         id: 153741,
-        name: `True 'Alpha's Sword'`,
+        name: `True "Alpha's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48568,9 +48692,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Delta's Bodysuit' - Missing Lore
+    { //True "Delta's Bodysuit" - Missing Lore
         id: 153751,
-        name: `True 'Delta's Bodysuit'`,
+        name: `True "Delta's Bodysuit"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48832,7 +48956,7 @@ const EquipInformation = [
     },
     { //True 'Demon Lord Rimuru's Katana' - Missing Lore
         id: 153841,
-        name: `True 'Demon Lord Rimuru's Katana'`,
+        name: `True "Demon Lord Rimuru's Katana"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -48860,9 +48984,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Shuna's Kimono' - Missing Lore
+    { //True "Shuna's Kimono" - Missing Lore
         id: 153851,
-        name: `True 'Shuna's Kimono'`,
+        name: `True "Shuna's Kimono"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -49093,9 +49217,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Veldora's Cape' - Missing Lore
+    { //True "Veldora's Cape" - Missing Lore
         id: 153931,
-        name: `True 'Veldora's Cape'`,
+        name: `True "Veldora's Cape"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -49123,9 +49247,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Shizu's Sword' - Missing Lore
+    { //True "Shizu's Sword" - Missing Lore
         id: 153941,
-        name: `True 'Shizu's Sword'`,
+        name: `True "Shizu's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49327,9 +49451,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Sakabato' - Missing Lore
+    { //True "Sakabato" - Missing Lore
         id: 154011,
-        name: `True 'Sakabato'`,
+        name: `True "Sakabato"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49357,9 +49481,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Sanosuke's Outfit' - Missing Lore
+    { //True "Sanosuke's Outfit" - Missing Lore
         id: 154021,
-        name: `True 'Sanosuke's Outfit'`,
+        name: `True "Sanosuke's Outfit"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49649,9 +49773,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Saito's Katana' - Missing Lore
+    { //True "Saito's Katana" - Missing Lore
         id: 154121,
-        name: `True 'Saito's Katana'`,
+        name: `True "Saito's Katana"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -49679,9 +49803,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Shishio's Katana' - Missing Lore
+    { //True "Shishio's Katana" - Missing Lore
         id: 154131,
-        name: `True 'Shishio's Katana'`,
+        name: `True "Shishio's Katana"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -50117,9 +50241,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Sonic's Katana' - Missing Lore
+    { //True "Sonic's Katana" - Missing Lore
         id: 154281,
-        name: `True 'Sonic's Katana'`,
+        name: `True "Sonic's Katana"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -50149,7 +50273,7 @@ const EquipInformation = [
     },
     { //True 'Esper Dress' - Missing Lore
         id: 154291,
-        name: `True 'Esper Dress'`,
+        name: `True "Esper Dress"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -50179,7 +50303,7 @@ const EquipInformation = [
     },
     { //True 'Hellish Blizzard's Dress' - Missing Lore
         id: 154301,
-        name: `True 'Hellish Blizzard's Dress'`,
+        name: `True "Hellish Blizzard's Dress"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -50209,7 +50333,7 @@ const EquipInformation = [
     },
     { //True 'Hero Belt' - Missing Lore
         id: 154311,
-        name: `True 'Hero Belt'`,
+        name: `True "Hero Belt"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -50240,7 +50364,7 @@ const EquipInformation = [
     { //真『御坂美琴のコイン』 - JP Complete - Missing Lore
         id: 154321,
         name: `真『御坂美琴のコイン』`,
-        translate: `True 'Misaka Mikoto's Coin'`,
+        translate: `True "Misaka Mikoto's Coin"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -50272,7 +50396,7 @@ const EquipInformation = [
     { //真『上条当麻の制服』 - JP Complete - Missing Lore
         id: 154331,
         name: `真『上条当麻の制服』`,
-        translate: `True 'Kamijou's Uniform'`,
+        translate: `True "Kamijou's Uniform"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -50521,7 +50645,7 @@ const EquipInformation = [
     { //真『アクセラレータの杖』- JP Complete - Missing Lore
         id: 154411,
         name: `真『アクセラレータの杖』`,
-        translate: `True 'Accelerator's Crutch'`,
+        translate: `True "Accelerator's Crutch"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -50553,7 +50677,7 @@ const EquipInformation = [
     { //真『歩く教会だったもの』- JP Complete - Missing Lore
         id: 154421,
         name: `真『歩く教会だったもの』`,
-        translate: `True 'Former Walking Church'`,
+        translate: `True "Former Walking Church"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -50801,7 +50925,7 @@ const EquipInformation = [
     },
     {
         id: 154501,
-        name: `True 'Frieren's Staff'`,
+        name: `True "Frieren's Staff"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -50831,7 +50955,7 @@ const EquipInformation = [
     },
     {
         id: 154511,
-        name: `True 'Stark's Axe'`,
+        name: `True "Stark's Axe"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -51071,7 +51195,7 @@ const EquipInformation = [
     },
     {
         id: 154591,
-        name: `True 'Fern's Staff'`,
+        name: `True "Fern's Staff"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -51101,8 +51225,8 @@ const EquipInformation = [
     },
     {
         id: 154601,
-        name: `True 'Ubel's Staff'`,
-        translate: `True 'Übel's Staff'`,
+        name: `True "Ubel's Staff"`,
+        translate: `True "Übel's Staff"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -51466,6 +51590,246 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154721,
+        name: `True "Momo's Shirt"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 4000% Water DMG (Magic). For 60s, reduce enemies' Water resistance by 20% (stackable).`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `When equipped by Momo, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154731,
+        name: `True "Golden Ball"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7500% Earth DMG (Physical). For 10s, increase own Earth DMG by 50% and reduce enemies' Physical RES by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Momo, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154741,
+        name: `Momo's Shirt`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 6000% Water DMG (Magic). Increase next Super Arts' DMG by 100%. If user is Water, increase next Super Arts' DMG by 150% instead.`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154751,
+        name: `Golden Ball`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 10000% Earth DMG (Physical). For 10s, reduce enemies' Earth resistance by [15% x # of Earth allies] (MAX: 60%).`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154761,
+        name: `"Po" Magazine`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154761.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - For 15s, increase allies' Arts by 2/s, ATK by 20%, and Earth allies' ATK by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154771,
+        name: `Beckoning Cat`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6000% Earth DMG (Physical). For 10s, increase own Physical DMG by 50%. If user is Leader, increase own Physical DMG by 100% instead.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154781,
+        name: `Seiko's Bat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Water DMG (Magic). For 15s, increase own Water DMG by 60%. Additionally when used for the first time, increase own Arts by 80.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154791,
+        name: `Serpoian Doll`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Dark DMG (Magic). For 10s, increase own Magic DMG by 40%. Additionally if user is Human, for 10s, increase own Skill CT Speed by 40%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
     },
 ]
 

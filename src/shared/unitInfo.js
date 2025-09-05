@@ -29056,7 +29056,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Iris - Missing Lore
+    { //Summer Iris - Missing Lore + JP ver
         id: 103727112,
         name: `Summer Iris`,
         translate: `Iris, Bursting Jubilation`,
@@ -29110,6 +29110,17 @@ const UnitInformation = [
                 truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
                 trueartsbreak: 1700,
                 superarts: `165000% Fire DMG (MAG). For 10s, increase all Fire allies' Arts gauge by 10. For 30s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.`,
+                superartsbreak: 2500
+            },
+        skillsetJP: 
+            {
+                skill: `12s CT - Increase own Arts gauge by 50% of the difference between her current Arts gauge and Maximum Arts gauge. (MAX: 150)`,
+                skillbreak: 0,
+                arts: `22000% Fire DMG (MAG). For 25s, increase all allies' Skill CT Speed by 70% and all Fire allies' Skill CT Speed by an additional 50%.`,
+                artsbreak: 1000,
+                truearts: `65000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 100%.`,
+                trueartsbreak: 1700,
+                superarts: `175000% Fire DMG (MAG). For 12s, increase all Fire allies' Arts gauge by 10. For 30s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%).\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.`,
                 superartsbreak: 2500
             },
         passive: 
@@ -29204,6 +29215,17 @@ const UnitInformation = [
                 truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 50%.`,
                 trueartsbreak: 1700,
                 superarts: `130000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 150%. For 60s, increase own Arts gauge by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                superartsbreak: 2100
+            },
+        skillsetJP:
+            {
+                skill: `10s CT - 2400% Water DMG (PHY). Heal allies' HP by 25%.`,
+                skillbreak: 400,
+                arts: `17000% Water DMG (PHY). For 25s, increase own Heal Equipment CT Speed by 40% & Heal Amount by 60%.`,
+                artsbreak: 900,
+                truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 50%.`,
+                trueartsbreak: 1700,
+                superarts: `150000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 150%. For 60s, increase own Arts gauge by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 superartsbreak: 2100
             },
         passive: 
@@ -44440,6 +44462,170 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            }
+    },
+    {
+        id: 108247312,
+        name: `Okarun`,
+        attribute: `Earth`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108246312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108247312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_824_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108246312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108247312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_824_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7359,
+                hpplus: 1388,
+                atk: 3828,
+                atkplus: 662,
+                def: 2950,
+                defplus: 612
+            },
+        skillset:
+            {
+                skill: `10s CT - 2500% Earth DMG (PHY). For 5s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                skillbreak: 800,
+                arts: `28000% Earth DMG (PHY). For 30s, increase own Skill CT Speed by 70% and own PHY Equip CT Speed by 30%.`,
+                artsbreak: 1000,
+                truearts: `70000% Earth DMG (PHY). For 50s, increase allies' ATK by 60% (stackable) and PHY DMG by 100% (stackable).`,
+                trueartsbreak: 1600,
+                superarts: `220000% Earth DMG (PHY). When used for the first 2 times in a Quest, doubles own Super Arts DMG Multiplier. Additionally, when Super Arts is used, for 20s, reduce enemies' Earth RES based on how high current HP is (MAX: 200%).`,
+                superartsbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Increase allies' DMG RES by 30% for first 120s of Quest. If near-death, passive will end prematurely. Does not stack with Abilities of the same name.`,
+                ability2: `At the start of a Battle, increase own Arts by 200.`,
+                ability3: `Increase own DMG by [1% × own ATK/100].`,
+                ability4: `Unit EXP UP 20% UP. (When Okarun's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Okarun's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "True 'Golden Ball'",
+                slot: "/db/Mines/thumbnail/phyLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154731.png",
+                skill: "45s CT - 7500% Earth DMG (PHY). For 10s, increase own Earth DMG by 50% and reduce enemies' PHY RES by 30%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Okarun, increase all stats by 20% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Accuracy by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
+            }
+    },
+    {
+        id: 108257212,
+        name: `Momo`,
+        attribute: `Water`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108256212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108257212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_825_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108256212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108257212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_825_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7121,
+                hpplus: 1316,
+                atk: 3330,
+                atkplus: 642,
+                def: 3404,
+                defplus: 642
+            },
+        skillset:
+            {
+                skill: `13s CT - 2200% Water DMG (MAG). Increase own Arts by 40.`,
+                skillbreak: 900,
+                arts: `20000% Water DMG (MAG). Increase allies' Arts by 25. For 20s, reduce allies' DMG Taken from Human, Demon and Beast enemies by 30%.`,
+                artsbreak: 1500,
+                truearts: `60000% Water DMG (MAG). For 30s, increase own MAG Equip CT Speed by 50% and allies' Equip CT Speed by 50%.`,
+                trueartsbreak: 2500,
+                superarts: `180000% Water DMG (MAG). Increase own Super CRI rate by 30% for the duration of current Super Arts. For 20s, increase Water allies' DMG by 200%.`,
+                superartsbreak: 3000
+            },
+        passive:
+            {
+                ability1: `When above 80% HP, increase own Super CRI rate by 20%. Additionally when above 50% HP, increase own CRI rate by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase Human allies' stats by 10%. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own MAG RES by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Momo's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Momo's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "True 'Momo's Shirt'",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154721.png",
+                skill: "50s CT - 4000% Water DMG (MAG). For 60s, reduce enemies' Water RES by 20% (stackable).",
+                skillbreak: 400,
+                passive:
+                    {
+                        ability1: "When equipped by Momo, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
 ];

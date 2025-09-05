@@ -59,16 +59,16 @@ const NewsArticles = [
                     ],
                     equips: 
                     [
-                        [`True 'Magical Sapphire'`, 152431],
-                        [`True 'Rho Aias'`, 152441],
+                        [`True "Magical Sapphire"`, 152431],
+                        [`True "Rho Aias"`, 152441],
                         [`Magical Sapphire`, 152451],
                         [`Gáe Bolg`, 152461],
                         [`Miyu's Rider Dress`, 152471],
                         [`Rho Aias`, 152481],
                         [`Shirou Emiya's Outfit`, 152491],
                         [`Miyu's Costume`, 152501],
-                        [`Glacial Flail 'Dawn Devastator' Replica`, 111071],
-                        [`Glacial Flail 'Dawn Devastator' Custom`, 111081]
+                        [`Glacial Flail "Dawn Devastator" Replica`, 111071],
+                        [`Glacial Flail "Dawn Devastator" Custom`, 111081]
                     ]
                 }
         }
@@ -129,8 +129,8 @@ const NewsArticles = [
                         [`Saber Alter`, 107787512]
                     ],
                     equips: [
-                        [`True 'Kanshou & Bakuya'`, 152511],
-                        [`True 'Excalibur Morgan'`, 152521],
+                        [`True "Kanshou & Bakuya"`, 152511],
+                        [`True "Excalibur Morgan"`, 152521],
                         [`Kanshou & Bakuya`, 152531],
                         [`Fake Nine Lives`, 152541],
                         [`Chloe's Outfit`, 152551],
@@ -193,7 +193,7 @@ const NewsArticles = [
                         [`リヴィエラ・ダイナマイト`, 111741],
                         [`封天鞭『スパインズ・ゴア』レプリカ`, 111781],
                         [`封天鞭『スパインズ・ゴア』アレンジ`, 111791],
-                        [`Ultra Relic 'Frozen Twin Swords'`, 140141]
+                        [`Ultra Relic "Frozen Twin Swords"`, 140141]
                     ]
                 },
             globalUpdate:
@@ -234,12 +234,12 @@ const NewsArticles = [
                         [`Sword God's Proof`, 111421],
                         [`Frozen Empress' Proof`, 111431],
                         [`Sword Emperor's Proof`, 111441],
-                        [`True 'Garuda'`, 110621],
-                        [`Kingblade 'Garuda'`, 110631],
-                        [`Shinobi Shoes 'Sunika'`, 110641],
-                        [`True 'Tenrui-Giri'`, 110651],
-                        [`Hidden Dragon 'Tenrui-Giri'`, 110691],
-                        [`Shinobi Guard 'Hojo'`, 110681]
+                        [`True "Garuda"`, 110621],
+                        [`Kingblade "Garuda"`, 110631],
+                        [`Shinobi Shoes "Sunika"`, 110641],
+                        [`True "Tenrui-Giri"`, 110651],
+                        [`Hidden Dragon "Tenrui-Giri"`, 110691],
+                        [`Shinobi Guard "Hojo"`, 110681]
                     ],
                     dream: [
                         [`Clyde`, 100016111],
@@ -302,8 +302,8 @@ const NewsArticles = [
                     equips: [
                         [`Selfish Aria`, 109401],
                         [`Liz's Curio`, 109411],
-                        [`Sorcerer's Treasured Robe 'Caligula'`, 105241],
-                        [`Demon Twin-Blade 'Deino'`, 105251]
+                        [`Sorcerer's Treasured Robe "Caligula"`, 105241],
+                        [`Demon Twin-Blade "Deino"`, 105251]
                     ],
                     dream: []
                 }
@@ -523,9 +523,9 @@ const NewsArticles = [
                         [`Ruffhousing Lotte`, 110731],
                         [`Magical Muscles Valerie`, 110741],
                         [`Shepherd of Isliid`, 110751],
-                        [`True 'Jurai'`, 110801],
-                        [`Chainblade 'Jurai'`, 110811],
-                        [`Shinobi Haori 'Gaun'`, 110821]
+                        [`True "Jurai"`, 110801],
+                        [`Chainblade "Jurai"`, 110811],
+                        [`Shinobi Haori "Gaun"`, 110821]
                     ],
                     dream: []
                 }
@@ -610,7 +610,7 @@ const NewsArticles = [
                         [`Demon Edge Berwick`, 103636112]
                     ],
                     equips: [
-                        [`True 'Enmon Zanketsu'`, 110761],
+                        [`True "Enmon Zanketsu"`, 110761],
                         [`Enmon Zanketsu`, 110771],
                         [`Simmering Mantle`, 110781],
                         [`Fleetfire Greaves`, 110791]
@@ -669,7 +669,7 @@ const NewsArticles = [
                     equips: [
                         [`True 'Maken Zanketsu`, 111361],
                         [`Maken Zanketsu`, 111371],
-                        [`Netherlord Armor 'Beelzedia'`, 111381]
+                        [`Netherlord Armor "Beelzedia"`, 111381]
                     ],
                     dream: [
                         [`Mira (Fire)`, 101046111],
@@ -694,7 +694,7 @@ const NewsArticles = [
                 {
                     units: [],
                     equips: [
-                        [`Yule Staff 'Merecrimus'`, 110971]
+                        [`Yule Staff "Merecrimus"`, 110971]
                     ],
                     dream: []
                 }
@@ -722,16 +722,16 @@ const NewsArticles = [
                         [`Diablo`, 107857512]
                     ],
                     equips: [
-                        [`True 'Rimuru's Sword'`, 152791],
-                        [`True 'Milim's Necklace'`, 152801],
-                        [`True 'Benimaru's Sword'`, 152811],
-                        [`True 'Rimuru's Mantle'`, 152871],
-                        [`True 'Milim's Armor'`, 152881],
-                        [`True 'Diablo's Suit'`, 152891],
+                        [`True "Rimuru's Sword"`, 152791],
+                        [`True "Milim's Necklace"`, 152801],
+                        [`True "Benimaru's Sword"`, 152811],
+                        [`True "Rimuru's Mantle"`, 152871],
+                        [`True "Milim's Armor"`, 152881],
+                        [`True "Diablo's Suit"`, 152891],
                         [`Rimuru's Mantle`, 152901],
                         [`Milim's Armor`, 152911],
                         [`Diablo's Suit`, 152921],
-                        [`God-Grade Sword 'Asura'`, 152931],
+                        [`God-Grade Sword "Asura"`, 152931],
                         [`Souei's Blade`, 152941],
                         [`Hakurou's Cane Katana`, 152951]
                     ],
@@ -818,10 +818,10 @@ const NewsArticles = [
                         [`Jay`, 103707212]
                     ],
                     equips: [
-                        [`True 'Rimuru's Santa Suit'`, 152821],
-                        [`True 'Milim's Santa Coat'`, 152831],
-                        [`True 'Shion's Santa Dress'`, 152841],
-                        [`True 'Neon Bayonet'`, 111391],
+                        [`True "Rimuru's Santa Suit"`, 152821],
+                        [`True "Milim's Santa Coat"`, 152831],
+                        [`True "Shion's Santa Dress"`, 152841],
+                        [`True "Neon Bayonet"`, 111391],
                         [`Silent Ritual`, 109001],
                         [`Silent Ritual EV`, 109011],
                     ],
@@ -875,7 +875,7 @@ const NewsArticles = [
                     equips: [
                         [`絶甲盾『アズルヴァイト』`, 112151],
                         [`情熱装『スクレパシオン』`, 112161],
-                        [`Ultra Relic 'Diablos'`, 140151],
+                        [`Ultra Relic "Diablos"`, 140151],
                     ],
                     dream: [
                         [`Berwick (Magic)`, 102486112],
@@ -889,8 +889,8 @@ const NewsArticles = [
                 {
                     units: [],
                     equips: [
-                        [`True 'Rimuru's Haori'`, 152851],
-                        [`True 'Milim's Kimono'`, 152861]
+                        [`True "Rimuru's Haori"`, 152851],
+                        [`True "Milim's Kimono"`, 152861]
                     ],
                     dream: [
                         [`New Years Rimuru`, 107426512],
@@ -923,16 +923,16 @@ const NewsArticles = [
                     equips: [
                         [`Halos Pragma`, 109301],
                         [`Halos Pragma EV`, 109311],
-                        [`Twinflame Helm 'Garmroar' Replica`, 111131],
-                        [`Twinflame Helm 'Garmroar' Custom`, 111141],
-                        [`Iceshard Shield 'Aeruscale' Replica`, 111151],
-                        [`Iceshard Shield 'Aeruscale' Custom`, 111161],
-                        [`Verdant Bracers 'Elpdaron' Replica`, 111171],
-                        [`Verdant Bracers 'Elpdaron' Custom`, 111181],
-                        [`Gleaming Crux 'Fosbrace' Replica`, 111261],
-                        [`Gleaming Crux 'Fosbrace' Custom`, 111271],
-                        [`Hades Tome 'Plutorix' Replica`, 111281],
-                        [`Hades Tome 'Plutorix' Custom`, 111291]
+                        [`Twinflame Helm "Garmroar" Replica`, 111131],
+                        [`Twinflame Helm "Garmroar" Custom`, 111141],
+                        [`Iceshard Shield "Aeruscale" Replica`, 111151],
+                        [`Iceshard Shield "Aeruscale" Custom`, 111161],
+                        [`Verdant Bracers "Elpdaron" Replica`, 111171],
+                        [`Verdant Bracers "Elpdaron" Custom`, 111181],
+                        [`Gleaming Crux "Fosbrace" Replica`, 111261],
+                        [`Gleaming Crux "Fosbrace" Custom`, 111271],
+                        [`Hades Tome "Plutorix" Replica`, 111281],
+                        [`Hades Tome "Plutorix" Custom`, 111291]
                     ],
                     dream: [
                         [`Feena`, 100046411],
@@ -1135,10 +1135,10 @@ const NewsArticles = [
                         [`デミウルゴスの眼鏡`, 153121],
                         [`イビルアイのローブ`, 153141],
                         [`イビルアイの仮面`, 153151],
-                        [`True 'Staff of Ainz Ooal Gown'`, 153161],
-                        [`True '3F'`, 153171],
-                        [`True 'Pipette Lance'`, 153181],
-                        [`True 'Keraunos Mk-III'`, 153191],
+                        [`True "Staff of Ainz Ooal Gown"`, 153161],
+                        [`True "3F"`, 153171],
+                        [`True "Pipette Lance"`, 153181],
+                        [`True "Keraunos Mk-III"`, 153191],
                         [`真『モモンズ・グレートソード』`, 153201],
                         [`真『デミウルゴスのスーツ』`, 153211],
                         [`真『イビルアイの仮面』`, 153221],
@@ -1226,9 +1226,9 @@ const NewsArticles = [
                         [`Sublime Supernova Liza`, 103647412]
                     ],
                     equips: [
-                        [`True 'Mercurius'`, 110851],
-                        [`Sainted Staff 'Mercurius'`, 110861],
-                        [`Sagacious Robe 'Cathedral'`, 110871]
+                        [`True "Mercurius"`, 110851],
+                        [`Sainted Staff "Mercurius"`, 110861],
+                        [`Sagacious Robe "Cathedral"`, 110871]
                     ],
                     dream: [
                         [`Herck`, 100576212],
@@ -1332,9 +1332,9 @@ const NewsArticles = [
                         [`Aristela Orbis`, 103687212]
                     ],
                     equips: [
-                        [`True 'Happiness Trigger'`, 111231],
-                        [`Paradise Needle 'Happiness Trigger'`, 111241],
-                        [`Wrenchcoat 'Mind Cracker'`, 111251]
+                        [`True "Happiness Trigger"`, 111231],
+                        [`Paradise Needle "Happiness Trigger"`, 111241],
+                        [`Wrenchcoat "Mind Cracker"`, 111251]
                     ],
                     dream: [
                         [`EDEN-typeΩ`, 100596412],
@@ -1387,9 +1387,9 @@ const NewsArticles = [
                         [`Noble Flare Mira`, 103657112]
                     ],
                     equips: [
-                        [`True 'Braise de Bamint'`, 111191],
-                        [`Searing Blade 'Braise de Bamint'`, 111201],
-                        [`Petal Cloth 'Mirage de Bamint'`, 111211]
+                        [`True "Braise de Bamint"`, 111191],
+                        [`Searing Blade "Braise de Bamint"`, 111201],
+                        [`Petal Cloth "Mirage de Bamint"`, 111211]
                     ],
                     dream: [
                         [`Abaddon`, 100606512],
@@ -1456,9 +1456,9 @@ const NewsArticles = [
                     equips: [
                         [`Genocider's Helm`, 109901],
                         [`Genocider's Helm EV`, 109941],
-                        [`Fox Raiment 'Ravissante'`, 108231],
-                        [`Celestial Vessel 'Zexraster' Replica`, 111621],
-                        [`Celestial Vessel 'Zexraster' Custom`, 111631]
+                        [`Fox Raiment "Ravissante"`, 108231],
+                        [`Celestial Vessel "Zexraster" Replica`, 111621],
+                        [`Celestial Vessel "Zexraster" Custom`, 111631]
                     ],
                     dream: []
                 }
@@ -1524,13 +1524,13 @@ const NewsArticles = [
                         [`Demiurge's Glasses`, 153121],
                         [`Lord of First Invern`, 153141],
                         [`Evileye's Mask`, 153151],
-                        [`True 'Staff of Ainz Ooal Gown'`, 153161],
-                        [`True '3F'`, 153171],
-                        [`True 'Pipette Lance'`, 153181],
-                        [`True 'Keraunos Mk-III'`, 153191],
-                        [`True 'Momon's Greatsword'`, 153201],
-                        [`True 'Demiurge's Suit'`, 153211],
-                        [`True 'Evileye's Mask'`, 153221]
+                        [`True "Staff of Ainz Ooal Gown"`, 153161],
+                        [`True "3F"`, 153171],
+                        [`True "Pipette Lance"`, 153181],
+                        [`True "Keraunos Mk-III"`, 153191],
+                        [`True "Momon's Greatsword"`, 153201],
+                        [`True "Demiurge's Suit"`, 153211],
+                        [`True "Evileye's Mask"`, 153221]
                     ],
                     dream: []
                 }
@@ -1651,10 +1651,10 @@ const NewsArticles = [
                         [`Barossa`, 102816512]
                     ],  
                     equips: [
-                        [`True 'Yamata'`, 111041],
-                        [`Coldsteel Claws 'Yamata'`, 111051],
-                        [`Cerulean Platemail 'Wrathscale'`, 111061],
-                        [`True 'Shadow Stella'`, 106521]
+                        [`True "Yamata"`, 111041],
+                        [`Coldsteel Claws "Yamata"`, 111051],
+                        [`Cerulean Platemail "Wrathscale"`, 111061],
+                        [`True "Shadow Stella"`, 106521]
                     ],
                     dream: [
                         [`Mizuki`, 102826212],
@@ -1687,10 +1687,10 @@ const NewsArticles = [
                         [`Luana`, 103337412]
                     ],  
                     equips: [
-                        [`True 'Millenium Ark'`, 111491],
-                        [`Aged Crystal 'Millenium Arc'`, 111501],
+                        [`True "Millenium Ark"`, 111491],
+                        [`Aged Crystal "Millenium Arc"`, 111501],
                         [`Ribnald Beret`, 111511],
-                        [`Spirit Steps 'Elements Row'`, 111521],
+                        [`Spirit Steps "Elements Row"`, 111521],
                         [`Kilmon Sword`, 111641],
                         [`Defmon Shield`, 111651],
                         [`Tufmon Rod`, 111661],
@@ -1814,7 +1814,7 @@ const NewsArticles = [
                         [`Anti-Heroine Pola`, 103817312]
                     ],  
                     equips: [
-                        [`True 'Radical Edge'`, 112011],
+                        [`True "Radical Edge"`, 112011],
                         [`Radical Edge`, 112021],
                         [`Center of Attention`, 112031]
                     ],
@@ -1876,9 +1876,9 @@ const NewsArticles = [
                         [`Summer Liza`, 103606212]
                     ],  
                     equips: [
-                        [`True 'Kubou'`, 111301],
-                        [`Conflagrant Pearls 'Kubou'`, 111311],
-                        [`Magical Garb 'Ruban le Lien'`, 111321],
+                        [`True "Kubou"`, 111301],
+                        [`Conflagrant Pearls "Kubou"`, 111311],
+                        [`Magical Garb "Ruban le Lien"`, 111321],
                         [`Golcat King Crown`, 111831],
                         [`Metal Chicken Tiara`, 111841]
                     ],
@@ -1915,8 +1915,8 @@ const NewsArticles = [
                         [`Houka's Raid Tracksuit`, 153301],
                         [`Uzu's Eye Mask`, 153331],
                         [`Houka's Eyeglasses`, 153341],
-                        [`True 'Blade Regalia'`, 153361],
-                        [`True 'Probe Regalia'`, 153371],
+                        [`True "Blade Regalia"`, 153361],
+                        [`True "Probe Regalia"`, 153371],
                     ],
                     dream: [
                         [`Mako`, 102206412],
@@ -1985,8 +1985,8 @@ const NewsArticles = [
                         [`Ira's Raid Tracksuit`, 153311],
                         [`Nonon's Raid Tracksuit`, 153321],
                         [`Nonon's Hat`, 153351],
-                        [`True 'Shackle Regalia'`, 153381],
-                        [`True 'Symphony Regalia'`, 153391],
+                        [`True "Shackle Regalia"`, 153381],
+                        [`True "Symphony Regalia"`, 153391],
                         [`Fen's Wavecutter`, 111611]
                     ],
                     dream: []
@@ -2090,9 +2090,9 @@ const NewsArticles = [
                         [`Goddess Celia`, 103767412]
                     ],  
                     equips: [
-                        [`True 'Shangri-La'`, 111871],
-                        [`Skybound Sword 'Shangri-La'`, 111881],
-                        [`Jeweled Finery 'Emerodite'`, 111891],
+                        [`True "Shangri-La"`, 111871],
+                        [`Skybound Sword "Shangri-La"`, 111881],
+                        [`Jeweled Finery "Emerodite"`, 111891],
                     ],
                     dream: []
                 }
@@ -2233,8 +2233,8 @@ const NewsArticles = [
                         [`Summer Luvia & Rin`, 108017312]
                     ],  
                     equips: [
-                        [`True 'Illya's Swimsuit'`, 153401],
-                        [`True 'Luvia's Swimsuit'`, 153431],
+                        [`True "Illya's Swimsuit"`, 153401],
+                        [`True "Luvia's Swimsuit"`, 153431],
                         [`Illya's Swimsuit`, 153461],
                         [`Keepsake Bracelet`, 153471],
                         [`Hecate's Staff`, 153491],
@@ -2260,9 +2260,9 @@ const NewsArticles = [
                         [`Halloween Forte`, 103797512]
                     ],
                     equips: [
-                        [`True 'Lotte's Fluffy Mitts'`, 112621],
-                        [`True 'Magical Muscles Valerie'`, 112631],
-                        [`True 'Forte's Dolly Dress'`, 112641]
+                        [`True "Lotte's Fluffy Mitts"`, 112621],
+                        [`True "Magical Muscles Valerie"`, 112631],
+                        [`True "Forte's Dolly Dress"`, 112641]
                     ],
                     dream: []
                 },
@@ -2308,8 +2308,8 @@ const NewsArticles = [
                         [`Summer Sakura`, 108027512]
                     ],  
                     equips: [
-                        [`True 'Miyu's Swimsuit'`, 153411],
-                        [`True 'Sakura's Swimsuit'`, 153451],
+                        [`True "Miyu's Swimsuit"`, 153411],
+                        [`True "Sakura's Swimsuit"`, 153451],
                         [`Homurabara E. Summer Uniform`, 153481],
                         [`Rule Breaker`, 153501],
                         [`Miyu's Swimsuit`, 153521],
@@ -2345,8 +2345,8 @@ const NewsArticles = [
                         [`Summer Bazett`, 108007212]
                     ],  
                     equips: [
-                        [`True 'Chloe's Swimsuit'`, 153421],
-                        [`True 'Bazett's Swimsuit'`, 153441],
+                        [`True "Chloe's Swimsuit"`, 153421],
+                        [`True "Bazett's Swimsuit"`, 153441],
                         [`Chloe's Swimsuit`, 153541],
                         [`Chloe's Swim Dress`, 153551],
                         [`Bazett's Swimsuit`, 153581],
@@ -2388,8 +2388,8 @@ const NewsArticles = [
                         [`Isliid, Human Pinnacle`, 103807412]
                     ],  
                     equips: [
-                        [`True 'Rune Sovereign'`, 111971],
-                        [`True 'Komplettes Trio'`, 111981],
+                        [`True "Rune Sovereign"`, 111971],
+                        [`True "Komplettes Trio"`, 111981],
                         [`Komplettes Trio Replica`, 111991],
                         [`Rune Sovereign Replica`, 112001]
                     ],
@@ -2421,8 +2421,8 @@ const NewsArticles = [
                         [`Beta`, 108057212],
                     ],  
                     equips: [
-                        [`True 'Shadow's Sword'`, 153641],
-                        [`True 'Beta's Bow'`, 153651],
+                        [`True "Shadow's Sword"`, 153641],
+                        [`True "Beta's Bow"`, 153651],
                         [`Shadow's Boots`, 153661],
                         [`Shadow's Sword`, 153671],
                         [`Shadow's Bodysuit`, 153681],
@@ -2493,8 +2493,8 @@ const NewsArticles = [
                         [`Delta`, 108067112],
                     ],  
                     equips: [
-                        [`True 'Alpha's Sword'`, 153741],
-                        [`True 'Delta's Bodysuit'`, 153751],
+                        [`True "Alpha's Sword"`, 153741],
+                        [`True "Delta's Bodysuit"`, 153751],
                         [`Delta's Hairpiece`, 153761],
                         [`Alpha's Sword`, 153771],
                         [`Alpha's Bodysuit`, 153781],
@@ -2556,7 +2556,7 @@ const NewsArticles = [
                         [`Lethargic Snow Marika`, 110941],
                         [`Serving Serah Doll`, 110951],
                         [`Restless Reindeer Arcana`, 110961],
-                        [`Garland Sword 'Star Light'`, 112081],
+                        [`Garland Sword "Star Light"`, 112081],
                         [`Resolute Reindeer Noel`, 112091],
                         [`Perfect Santa Emperor`, 112101],
                         [`Loving Snow Princess`, 112111],
@@ -2606,11 +2606,11 @@ const NewsArticles = [
                         [`Ultimate Paladin Roy`, 103827212]
                     ],  
                     equips: [
-                        [`Blaze Fan 'Magnigate'`, 110051],
+                        [`Blaze Fan "Magnigate"`, 110051],
                         [`Magnigate EV`, 110061],
-                        [`True 'Gladius'`, 112051],
-                        [`Sainted Sword 'Gladius'`, 112061],
-                        [`Sainted Armor 'Aeolus'`, 112071],
+                        [`True "Gladius"`, 112051],
+                        [`Sainted Sword "Gladius"`, 112061],
+                        [`Sainted Armor "Aeolus"`, 112071],
                     ],
                     dream: []
                 }
@@ -2715,7 +2715,7 @@ const NewsArticles = [
                         [`Cestina (Valentines)`, 103867212],
                     ],  
                     equips: [
-                        [`Silk Loving Broom 'Etoile V'`, 112261]
+                        [`Silk Loving Broom "Etoile V"`, 112261]
                     ],
                     dream: []
                 }
@@ -2745,9 +2745,9 @@ const NewsArticles = [
                         [`Hart the Fabricator`, 103847512],
                     ],  
                     equips: [
-                        [`True 'Asgard's Casket'`, 112201],
+                        [`True "Asgard's Casket"`, 112201],
                         [`Asgard's Casket`, 112211],
-                        [`Ritual Greaves 'Blenfate'`, 112221]
+                        [`Ritual Greaves "Blenfate"`, 112221]
                     ],
                     dream: []
                 }
@@ -2830,8 +2830,8 @@ const NewsArticles = [
                         [`Shuna`, 108087412]                        
                     ],  
                     equips: [
-                        [`True 'Demon Lord Rimuru's Katana'`, 153841],
-                        [`True 'Shuna's Kimono'`, 153851],
+                        [`True "Demon Lord Rimuru's Katana"`, 153841],
+                        [`True "Shuna's Kimono"`, 153851],
                         [`Demon Lord Rimuru's Katana`, 153861],
                         [`Demon Lord Rimuru's Hakama`, 153871],
                         [`Demon Lord Rimuru Plushie`, 153881],
@@ -2878,8 +2878,8 @@ const NewsArticles = [
                         [`Shizu`, 108107112]                        
                     ],  
                     equips: [
-                        [`True 'Veldora's Cape'`, 153931],
-                        [`True 'Shizu's Sword'`, 153941],
+                        [`True "Veldora's Cape"`, 153931],
+                        [`True "Shizu's Sword"`, 153941],
                         [`Veldora's Cape`, 153951],
                         [`Veldora's Gloves`, 153961],
                         [`Shizu's Sword`, 153971],
@@ -3005,7 +3005,7 @@ const NewsArticles = [
                         [`Canaria`, 103717212]
                     ],  
                     equips: [
-                        [`True 'Shadow Cutter'`, 111801],
+                        [`True "Shadow Cutter"`, 111801],
                         [`Shadow Cutter`, 111811],
                         [`Canaria's Blue Jacket`, 111821]
                     ],
@@ -3032,8 +3032,8 @@ const NewsArticles = [
                         [`Sanosuke Sagara`, 108127212],
                     ],  
                     equips: [
-                        [`True 'Sakabato'`, 154011],
-                        [`True 'Sanosuke's Outfit'`, 154021],
+                        [`True "Sakabato"`, 154011],
+                        [`True "Sanosuke's Outfit"`, 154021],
                         [`Sakabato`, 154031],
                         [`Kenshin's Kimino`, 154041],
                         [`Kenshin's Kimino EV`, 154050],
@@ -3084,10 +3084,10 @@ const NewsArticles = [
                     units: [],
                     equips: [
                         [`ジェノスのぬいぐるみ`, 154261],                        
-                        [`True 'Sonic's Katana'`, 154281],
-                        [`True 'Esper Dress'`, 154291],
-                        [`True 'Hellish Blizzard's Dress'`, 154301],
-                        [`True 'Hero Belt'`, 154311],
+                        [`True "Sonic's Katana"`, 154281],
+                        [`True "Esper Dress"`, 154291],
+                        [`True "Hellish Blizzard's Dress"`, 154301],
+                        [`True "Hero Belt"`, 154311],
                     ],
                     dream: [
                         [`Saitama`, 107076412],
@@ -3106,10 +3106,10 @@ const NewsArticles = [
                         [`Shishio Makoto`, 108147112]
                     ],  
                     equips: [
-                        [`Sub-Zero Soles 'Chilblains'`, 111451],
-                        [`Glacial Soles 'Frostpain'`, 111671],
-                        [`True 'Saito's Katana'`, 154121],
-                        [`True 'Shishio's Katana'`, 154131],
+                        [`Sub-Zero Soles "Chilblains"`, 111451],
+                        [`Glacial Soles "Frostpain"`, 111671],
+                        [`True "Saito's Katana"`, 154121],
+                        [`True "Shishio's Katana"`, 154131],
                         [`Saito's Katana`, 154141],
                         [`Saito's Uniform`, 154151],
                         [`Saito's Uniform EV`, 154160],
@@ -3135,7 +3135,7 @@ const NewsArticles = [
                         [`Young Isliid`, 104117412]
                     ],
                     equips: [
-                        [`Ultra Relic 'Dola Armor'`, 140161],
+                        [`Ultra Relic "Dola Armor"`, 140161],
                         [`赤機刃『アスヴェルト』`, 113121],
                         [`真『天ツ門』`, 113131],
                         [`白眩の剣『天ツ門』`, 113141]
@@ -3153,11 +3153,11 @@ const NewsArticles = [
                         [`Merlette`, 103837412]
                     ],  
                     equips: [
-                        [`Nano Barrier 'Zweitschild'`, 112041],
-                        [`Exclusion Barrier 'Azulveidt'`, 112151],
-                        [`True 'Vespada'`, 112171],
-                        [`Flashing Barrel 'Vespada'`, 112181],
-                        [`Splendid Garment 'Vestito Blu'`, 112191]
+                        [`Nano Barrier "Zweitschild"`, 112041],
+                        [`Exclusion Barrier "Azulveidt"`, 112151],
+                        [`True "Vespada"`, 112171],
+                        [`Flashing Barrel "Vespada"`, 112181],
+                        [`Splendid Garment "Vestito Blu"`, 112191]
                     ],
                     dream: [
                         [`Ganan`, 101116111]
@@ -3199,8 +3199,8 @@ const NewsArticles = [
                         [`Cometstreak Valerie`, 103897212]
                     ],  
                     equips: [
-                        [`True 'Rising Nova'`, 112381],
-                        [`Starsword 'Rising Nova'`, 112391]
+                        [`True "Rising Nova"`, 112381],
+                        [`Starsword "Rising Nova"`, 112391]
                     ],
                     dream: [
                         [`Gilliam`, 101126311]
@@ -3275,8 +3275,8 @@ const NewsArticles = [
                         [`Verzard`, 103907112]
                     ],  
                     equips: [
-                        [`True 'Deep Blood'`, 112401],
-                        [`Sanguine Scythe 'Deep Blood'`, 112411]
+                        [`True "Deep Blood"`, 112401],
+                        [`Sanguine Scythe "Deep Blood"`, 112411]
                     ],
                     dream: [
                         [`Sophie`, 101156111]
@@ -3300,8 +3300,8 @@ const NewsArticles = [
                 {
                     units: [],  
                     equips: [
-                        [`Firmament Guards 'Alveda'`, 112341],
-                        [`Hypertrophy Guards 'Zexveda'`, 112431]
+                        [`Firmament Guards "Alveda"`, 112341],
+                        [`Hypertrophy Guards "Zexveda"`, 112431]
                     ],
                     dream: [
                         [`Berwick`, 102486112],
@@ -3331,8 +3331,8 @@ const NewsArticles = [
                     equips: [
                         [`ソーサル・イグナイターMP2`, 113161],
                         [`The Scales of Obedience`, 154581],
-                        [`True 'Fern's Staff'`, 154591],
-                        [`True 'Ubel's Staff'`, 154601],
+                        [`True "Fern's Staff"`, 154591],
+                        [`True "Ubel's Staff"`, 154601],
                         [`Fern's Staff`, 154611],
                         [`Fern's Outfit`, 154621],
                         [`Ubel's Staff`, 154631],
@@ -3348,8 +3348,8 @@ const NewsArticles = [
                         [`Stark`, 108227112]
                     ],  
                     equips: [
-                        [`True 'Frieren's Staff'`, 154501],
-                        [`True 'Stark's Axe'`, 154511],
+                        [`True "Frieren's Staff"`, 154501],
+                        [`True "Stark's Axe"`, 154511],
                         [`Frieren's Staff`, 154521],
                         [`Holy Emblem`, 154531],
                         [`Frieren's Outfit`, 154541],
@@ -3382,8 +3382,8 @@ const NewsArticles = [
                     ],  
                     equips: [
                         [`The Scales of Obedience`, 154581],
-                        [`True 'Fern's Staff'`, 154591],
-                        [`True 'Ubel's Staff'`, 154601],
+                        [`True "Fern's Staff"`, 154591],
+                        [`True "Ubel's Staff"`, 154601],
                         [`Fern's Staff`, 154611],
                         [`Fern's Outfit`, 154621],
                         [`Ubel's Staff`, 154631],
@@ -3425,8 +3425,8 @@ const NewsArticles = [
                         [`Elenore`, 103887312]
                     ],  
                     equips: [
-                        [`True 'Festivilion'`, 112351],
-                        [`Time Staff 'Festivilion'`, 112361]
+                        [`True "Festivilion"`, 112351],
+                        [`Time Staff "Festivilion"`, 112361]
                     ],
                     dream: [
                         [`Grad`, 101096511]
@@ -3448,7 +3448,7 @@ const NewsArticles = [
                         [`ジェイの有頂天サーフ`, 113201],
                         [`マーレット・ジ・エレガント`, 113211],
                         [`跪け！シーリアサマーサンダル`, 113221],
-                        [`True 'Grandeus'`, 113231]
+                        [`True "Grandeus"`, 113231]
                     ],
                     dream: [
                         [`Nogia`, 102336411]
@@ -3467,9 +3467,9 @@ const NewsArticles = [
                         [`Leone's Angelic Sandals`, 111721],
                         [`Riviera's Rancor Anchor`, 111731],
                         [`Riviera's Powder Keg`, 111741],
-                        [`True 'Iris' Dream Rocket'`, 112551],
-                        [`True 'Fen's Wavecutter'`, 112561],
-                        [`True 'Riviera's Powder Keg'`, 112581]
+                        [`True "Iris' Dream Rocket"`, 112551],
+                        [`True "Fen's Wavecutter"`, 112561],
+                        [`True "Riviera's Powder Keg"`, 112581]
                     ],
                     dream: []
                 }
@@ -3501,7 +3501,7 @@ const NewsArticles = [
                         [`Summer Rosetta`, 103757512]
                     ],  
                     equips: [
-                        [`True 'Rosetta's Inner Guard'`, 112571],
+                        [`True "Rosetta's Inner Guard"`, 112571],
                         [`Great Granadia`, 111751]
                     ],
                     dream: [
@@ -3537,9 +3537,9 @@ const NewsArticles = [
                         [`Dragon Authority Luahn`, 103997512]
                     ],  
                     equips: [
-                        [`True 'Duo Ritual'`, 112441],
-                        [`Dragon Katana 'Duo Ritual'`, 112451],
-                        [`Dragon Robe 'Merciful Majesty'`, 112461]
+                        [`True "Duo Ritual"`, 112441],
+                        [`Dragon Katana "Duo Ritual"`, 112451],
+                        [`Dragon Robe "Merciful Majesty"`, 112461]
                     ],
                     dream: [
                         [`Elfalla`, 100646412],
@@ -3549,6 +3549,43 @@ const NewsArticles = [
                         [`Riviera (Dark)`, 103576512],
                         [`Swordsman Berwick`, 102666112]
                     ]
+                }
+        }
+    },
+    {
+        id: 107,
+        date: `September 5, 2025`,
+        article: 
+        {
+            intro: `A Joint update for both JP and Global with the release of the new Dan Da Dan Collab! Additionally, there are some new Summer-themed equips added on JP as well!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`十二代目ミズキの海岸アロハ`, 113321],
+                        [`ハズキのおシノビパラソル`, 113331],
+                        [`コクリのコングラビキニ`, 113341],
+                        [`フェンのサマーアクセント`, 113351]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Okarun`, 108247312],
+                        [`Momo`, 108257212]
+                    ],  
+                    equips: [
+                        [`True "Momo's Shirt"`, 154721],
+                        [`True "Golden Ball"`, 154731],
+                        [`Momo's Shirt`, 154741],
+                        [`Golden Ball`, 154751],
+                        [`"Po" Magazine`, 154761],
+                        [`Beckoning Cat`, 154771],
+                        [`Seiko's Bat`, 154781],
+                        [`Serpoian Doll`, 154791],
+                    ],
+                    dream: []
                 }
         }
     }
