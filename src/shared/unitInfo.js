@@ -10166,9 +10166,9 @@ const UnitInformation = [
         type: "Human",
         image: 
             {
-                detail5: "/db/Units/Detail/unit_detail_101806212.png",
+                detail5: "/db/Units/Detail/unit_detail_101805212.png",
                 detailawk: "/db/Units/Detail/unit_detail_101806212.png",
-                thumb5: "/db/Units/Thumbnail/unit_thumbnail_101806212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_101805212.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101806212.png"
             },
         slots: 
