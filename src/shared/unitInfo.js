@@ -15517,13 +15517,13 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.31,
-                defense: 3.88,
+                overall: 3.45,
+                defense: 4.37,
                 artgen: 0.00,
-                damage: 0.38,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.95
+                break: 1.58
             },
         twrequire: "favorable",
         attribute: "Water",
@@ -23055,12 +23055,12 @@ const UnitInformation = [
         name: "Juno",
         tier: 
             {
-                rank: `A`,
-                overall: 3.72,
+                rank: `A-`,
+                overall: 3.13,
                 defense: 0.00,
-                artgen: 4.97,
-                damage: 2.47,
-                buffs: 0.77,
+                artgen: 3.96,
+                damage: 1.92,
+                buffs: 0.50,
                 heal: 0.00,
                 break: 0.00
             },
@@ -23584,12 +23584,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A-`,
-                overall: 3.03,
+                overall: 3.01,
                 defense: 0.00,
-                artgen: 3.71,
-                damage: 1.15,
-                buffs: 2.05,
-                heal: 1.18,
+                artgen: 2.78,
+                damage: 0.68,
+                buffs: 0.66,
+                heal: 3.65,
                 break: 0.00
             },
         twrequire: "favorable",
@@ -23904,11 +23904,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.50,
-                defense: 4.43,
+                overall: 3.44,
+                defense: 4.08,
                 artgen: 0.00,
-                damage: 0.64,
-                buffs: 2.25,
+                damage: 0.20,
+                buffs: 0.36,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24223,11 +24223,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.68,
-                defense: 4.66,
+                overall: 3.27,
+                defense: 4.76,
                 artgen: 0.00,
-                damage: 1.21,
-                buffs: 1.74,
+                damage: 0.73,
+                buffs: 0.18,
                 heal: 0.00,
                 break: 0.00
             },
@@ -25665,13 +25665,13 @@ const UnitInformation = [
         name: "Emperor Isliid",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.86,
-                defense: 1.66,
-                artgen: 4.48,
-                damage: 1.59,
-                buffs: 0.71,
-                heal: 1.04,
+                rank: `A-`,
+                overall: 3.18,
+                defense: 1.32,
+                artgen: 3.37,
+                damage: 1.09,
+                buffs: 0.42,
+                heal: 1.70,
                 break: 0.00
             },
         attribute: "Light",
@@ -26058,12 +26058,12 @@ const UnitInformation = [
         name: "Orvell (Fire)",
         tier: 
             {
-                rank: `A`,
-                overall: 3.30,
-                defense: 1.37,
+                rank: `A-`,
+                overall: 3.01,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 3.88,
-                buffs: 2.71,
+                damage: 3.10,
+                buffs: 0.77,
                 heal: 0.00,
                 break: 0.00
             },
@@ -27400,12 +27400,12 @@ const UnitInformation = [
         name: "War Hero Fen",
         tier: 
             {
-                rank: `S`,
-                overall: 4.03,
-                defense: 2.03,
-                artgen: 4.43,
-                damage: 3.01,
-                buffs: 0.42,
+                rank: `A+`,
+                overall: 3.68,
+                defense: 1.56,
+                artgen: 3.01,
+                damage: 2.43,
+                buffs: 1.11,
                 heal: 0.00,
                 break: 0.00
             },
@@ -27696,10 +27696,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A+`,
-                overall: 3.92,
+                overall: 3.64,
                 defense: 5.00,
                 artgen: 0.00,
-                damage: 0.54,
+                damage: 0.10,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -28077,11 +28077,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A+`,
-                overall: 3.83,
-                defense: 1.32,
+                overall: 3.75,
+                defense: 1.98,
                 artgen: 0.00,
-                damage: 3.14,
-                buffs: 2.30,
+                damage: 3.27,
+                buffs: 1.76,
                 heal: 0.00,
                 break: 0.00
             },
@@ -28166,13 +28166,13 @@ const UnitInformation = [
         translate: `Star God Liza`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.83,
+                rank: `A`,
+                overall: 3.26,
                 defense: 0.00,
-                artgen: 3.91,
-                damage: 3.16,
-                buffs: 2.15,
-                heal: 0.97,
+                artgen: 1.34,
+                damage: 2.66,
+                buffs: 2.01,
+                heal: 1.15,
                 break: 0.00
             },
         attribute: "Light",
@@ -28533,12 +28533,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.77,
-                defense: 1.49,
-                artgen: 4.09,
-                damage: 2.43,
-                buffs: 3.01,
-                heal: 2.30,
+                overall: 3.56,
+                defense: 1.99,
+                artgen: 2.50,
+                damage: 1.88,
+                buffs: 1.66,
+                heal: 3.29,
                 break: 0.00
             },
         attribute: "Fire",
@@ -28624,13 +28624,13 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.44,
+                overall: 3.21,
                 defense: 0.00,
-                artgen: 3.77,
-                damage: 1.64,
-                buffs: 1.36,
-                heal: 0.85,
-                break: 2.14
+                artgen: 2.35,
+                damage: 1.14,
+                buffs: 1.04,
+                heal: 0.65,
+                break: 3.68
             },
         attribute: "Water",
         type: "Spirit",
@@ -28796,12 +28796,12 @@ const UnitInformation = [
         name: "Jay",
         tier: 
             {
-                rank: `A`,
+                rank: `A+`,
                 overall: 3.79,
-                defense: 1.78,
-                artgen: 0.00,
-                damage: 3.96,
-                buffs: 0.88,
+                defense: 0.69,
+                artgen: 0.43,
+                damage: 3.97,
+                buffs: 1.34,
                 heal: 0.00,
                 break: 0.00
             },
@@ -28886,11 +28886,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.27,
-                defense: 1.37,
+                overall: 3.23,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 3.17,
-                buffs: 2.02,
+                damage: 3.28,
+                buffs: 3.17,
                 heal: 0.00,
                 break: 0.00
             },
@@ -29383,6 +29383,17 @@ const UnitInformation = [
         id: 103757512,
         name: `Summer Rosetta`,
         translate: `Supercharged Genius Rosetta`,
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.18,
+                defense: 0.00,
+                artgen: 2.57,
+                damage: 3.24,
+                buffs: 1.59,
+                heal: 2.47,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Demon`,
         image: 
@@ -29676,12 +29687,12 @@ const UnitInformation = [
         translate: `Mighty Magical Valerie`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.08,
-                defense: 2.20,
+                rank: `A`,
+                overall: 3.24,
+                defense: 2.08,
                 artgen: 0.00,
-                damage: 3.55,
-                buffs: 2.05,
+                damage: 3.82,
+                buffs: 2.10,
                 heal: 0.00,
                 break: 0.00
             },
@@ -29778,13 +29789,13 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.57,
-                defense: 1.16,
-                artgen: 4.00,
-                damage: 3.79,
-                buffs: 0.76,
+                overall: 3.33,
+                defense: 1.30,
+                artgen: 2.31,
+                damage: 2.28,
+                buffs: 1.45,
                 heal: 0.00,
-                break: 0.00
+                break: 1.01
             },
         attribute: `Dark`,
         type: `Human`,
@@ -29884,11 +29895,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A+`,
-                overall: 3.98,
-                defense: 2.11,
-                artgen: 4.73,
-                damage: 2.52,
-                buffs: 1.93,
+                overall: 3.64,
+                defense: 1.35,
+                artgen: 4.89,
+                damage: 1.96,
+                buffs: 1.20,
                 heal: 0.00,
                 break: 0.00
             },
@@ -30088,13 +30099,13 @@ const UnitInformation = [
         tier: 
             {
                 rank: `SS`,
-                overall: 4.52,
-                defense: 2.59,
-                artgen: 4.53,
-                damage: 4.18,
-                buffs: 4.50,
-                heal: 0.00,
-                break: 0.00
+                overall: 4.90,
+                defense: 2.62,
+                artgen: 4.58,
+                damage: 3.57,
+                buffs: 4.33,
+                heal: 0.39,
+                break: 0.80
             },
         type: `Human`,
         image: 
@@ -30266,11 +30277,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.42,
+                overall: 3.22,
                 defense: 0.00,
-                artgen: 3.84,
-                damage: 3.76,
-                buffs: 1.08,
+                artgen: 2.69,
+                damage: 3.37,
+                buffs: 0.40,
                 heal: 0.00,
                 break: 0.00
             },
@@ -30359,13 +30370,13 @@ const UnitInformation = [
         translate: `Cute Confectioner Liza`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.53,
+                rank: `A-`,
+                overall: 3.18,
                 defense: 0.00,
-                artgen: 3.18,
-                damage: 2.99,
-                buffs: 3.71,
-                heal: 2.12,
+                artgen: 1.96,
+                damage: 2.41,
+                buffs: 1.50,
+                heal: 4.60,
                 break: 0.00
             },
         attribute: `Earth`,
@@ -30460,10 +30471,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.37,
-                defense: 4.27,
+                overall: 3.23,
+                defense: 4.05,
                 artgen: 0.00,
-                damage: 1.07,
+                damage: 0.60,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -30707,13 +30718,13 @@ const UnitInformation = [
         name: `Cometstreak Valerie`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.17,
+                rank: `A`,
+                overall: 3.27,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 4.01,
-                buffs: 2.65,
-                heal: 0.00,
+                damage: 3.69,
+                buffs: 1.07,
+                heal: 0.33,
                 break: 0.00
             },
         attribute: `Water`,
@@ -31120,6 +31131,17 @@ const UnitInformation = [
         id: 103997512,
         name: `Dragon Authority Luahn`,
         translate: `Sword God Luahn`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.82,
+                defense: 0.00,
+                artgen: 0.52,
+                damage: 3.87,
+                buffs: 3.18,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `God`,
         image: 
@@ -33557,13 +33579,13 @@ const UnitInformation = [
         name: "Rimuru (Human form)",
         tier: 
             {
-                rank: `A`,
-                overall: 3.30,
+                rank: `A-`,
+                overall: 3.13,
                 defense: 0.00,
-                artgen: 3.65,
-                damage: 1.33,
-                buffs: 0.59,
-                heal: 3.50,
+                artgen: 2.41,
+                damage: 0.84,
+                buffs: 0.08,
+                heal: 4.63,
                 break: 0.00
             },
         attribute: "Water",
@@ -34144,13 +34166,13 @@ const UnitInformation = [
         name: "Priestess",
         tier: 
             {
-                rank: `A`,
-                overall: 3.32,
-                defense: 2.86,
-                artgen: 3.83,
-                damage: 0.69,
+                rank: `A-`,
+                overall: 3.02,
+                defense: 0.40,
+                artgen: 3.14,
+                damage: 0.24,
                 buffs: 0.00,
-                heal: 1.53,
+                heal: 1.54,
                 break: 0.00
             },
         attribute: "Light",
@@ -38650,7 +38672,17 @@ const UnitInformation = [
     { // Draken - Complete, Review done
         id: 107636412,
         name: "Draken",
-        rank: "S",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.01,
+                defense: 0.00,
+                artgen: 1.20,
+                damage: 1.88,
+                buffs: 3.65,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -39172,6 +39204,17 @@ const UnitInformation = [
     { // Albedo - Complete, Review done
         id: 107707512,
         name: "Albedo",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.09,
+                defense: 3.15,
+                artgen: 0.00,
+                damage: 1.09,
+                buffs: 0.00,
+                heal: 0.17,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
         rank: "A+",
@@ -39378,12 +39421,12 @@ const UnitInformation = [
         name: "Ainz",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.81,
+                rank: `A`,
+                overall: 3.32,
                 defense: 0.00,
-                artgen: 4.21,
-                damage: 3.32,
-                buffs: 1.97,
+                artgen: 2.66,
+                damage: 2.65,
+                buffs: 2.71,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39485,6 +39528,17 @@ const UnitInformation = [
     { // Narberal - Complete, Review done
         id: 107727412,
         name: "Narberal",
+        tier: 
+            {
+                rank: `A-`,
+                overall: 3.13,
+                defense: 0.99,
+                artgen: 2.43,
+                damage: 2.35,
+                buffs: 2.62,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Demon",
         rank: "S",
@@ -39584,12 +39638,12 @@ const UnitInformation = [
         name: "Illya",
         tier: 
             {
-                rank: `A`,
-                overall: 3.57,
-                defense: 1.16,
-                artgen: 4.00,
-                damage: 3.79,
-                buffs: 0.76,
+                rank: `A-`,
+                overall: 3.08,
+                defense: 0.52,
+                artgen: 2.89,
+                damage: 3.43,
+                buffs: 1.28,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39699,11 +39753,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.57,
+                overall: 3.30,
                 defense: 0.00,
-                artgen: 2.05,
-                damage: 3.37,
-                buffs: 3.83,
+                artgen: 0.44,
+                damage: 3.43,
+                buffs: 4.30,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39819,12 +39873,12 @@ const UnitInformation = [
         name: `Miyu`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.75,
+                rank: `A-`,
+                overall: 3.18,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 4.34,
-                buffs: 3.72,
+                damage: 3.62,
+                buffs: 1.57,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39935,11 +39989,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `S`,
-                overall: 4.23,
+                overall: 4.29,
                 defense: 4.87,
                 artgen: 0.00,
-                damage: 3.75,
-                buffs: 1.00,
+                damage: 3.16,
+                buffs: 1.59,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40052,14 +40106,14 @@ const UnitInformation = [
         name: `Chloe (Fate)`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.01,
+                rank: `A+`,
+                overall: 3.69,
                 defense: 0.00,
-                artgen: 4.49,
-                damage: 1.74,
-                buffs: 0.64,
+                artgen: 3.17,
+                damage: 1.23,
+                buffs: 0.33,
                 heal: 0.00,
-                break: 2.29
+                break: 4.30
             },
         twrequire: "favorable",
         attribute: `Fire`,
@@ -40475,12 +40529,12 @@ const UnitInformation = [
         name: `Yuzuriha`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.23,
+                rank: `A-`,
+                overall: 3.07,
                 defense: 0.00,
-                artgen: 4.03,
-                damage: 2.75,
-                buffs: 1.52,
+                artgen: 2.54,
+                damage: 2.18,
+                buffs: 3.54,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40667,12 +40721,12 @@ const UnitInformation = [
         name: `Demon Lord Rimuru`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.64,
-                defense: 2.08,
+                rank: `A+`,
+                overall: 3.92,
+                defense: 1.39,
                 artgen: 0.00,
-                damage: 4.18,
-                buffs: 2.84,
+                damage: 4.07,
+                buffs: 3.42,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40990,12 +41044,12 @@ const UnitInformation = [
         name: `Sunraku`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.84,
-                defense: 1.66,
-                artgen: 4.56,
-                damage: 3.47,
-                buffs: 1.49,
+                rank: `A`,
+                overall: 3.26,
+                defense: 0.21,
+                artgen: 3.66,
+                damage: 2.82,
+                buffs: 1.91,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41150,14 +41204,14 @@ const UnitInformation = [
         name: `Arthur Pencilgon`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.01,
+                rank: `A+`,
+                overall: 3.70,
                 defense: 0.00,
-                artgen: 4.50,
-                damage: 3.37,
-                buffs: 1.10,
+                artgen: 3.08,
+                damage: 2.95,
+                buffs: 0.27,
                 heal: 0.00,
-                break: 1.96
+                break: 4.92
             },
         attribute: `Dark`,
         type: `Human`,
@@ -41230,13 +41284,13 @@ const UnitInformation = [
         name: `OiKatzo`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.53,
-                defense: 1.37,
+                rank: `A+`,
+                overall: 3.84,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 4.47,
-                buffs: 1.72,
-                heal: 0.00,
+                damage: 4.50,
+                buffs: 2.37,
+                heal: 1.46,
                 break: 0.00
             },
         attribute: `Fire`,
@@ -41310,12 +41364,12 @@ const UnitInformation = [
         name: `Momon`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.47,
-                defense: 1.57,
+                rank: `A+`,
+                overall: 3.60,
+                defense: 1.56,
                 artgen: 0.00,
-                damage: 4.19,
-                buffs: 2.41,
+                damage: 3.54,
+                buffs: 3.27,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41486,12 +41540,12 @@ const UnitInformation = [
         name: `Evileye`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.96,
-                defense: 1.33,
-                artgen: 3.87,
-                damage: 3.33,
-                buffs: 4.38,
+                rank: `A`,
+                overall: 3.23,
+                defense: 1.58,
+                artgen: 3.49,
+                damage: 3.10,
+                buffs: 1.40,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41579,12 +41633,12 @@ const UnitInformation = [
         name: `Uzu Sanageyama`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.88,
-                defense: 1.37,
+                rank: `A`,
+                overall: 3.33,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 4.66,
-                buffs: 1.61,
+                damage: 4.18,
+                buffs: 2.38,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41694,12 +41748,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `SS`,
-                overall: 4.70,
+                overall: 4.80,
                 defense: 0.00,
                 artgen: 5.00,
-                damage: 2.70,
+                damage: 2.14,
                 buffs: 5.00,
-                heal: 0.74,
+                heal: 0.52,
                 break: 0.00
             },
         image: 
@@ -41795,12 +41849,12 @@ const UnitInformation = [
         name: `Ira Gamagoori`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.95,
-                defense: 4.75,
+                rank: `A`,
+                overall: 3.33,
+                defense: 4.57,
                 artgen: 0.00,
-                damage: 1.99,
-                buffs: 0.81,
+                damage: 1.47,
+                buffs: 0.17,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42011,12 +42065,12 @@ const UnitInformation = [
         name: `Summer Illya`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.03,
+                rank: `A`,
+                overall: 3.33,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 3.83,
-                buffs: 1.90,
+                damage: 3.64,
+                buffs: 3.21,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42104,12 +42158,12 @@ const UnitInformation = [
         name: `Summer Miyu`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.88,
+                rank: `S`,
+                overall: 4.13,
                 defense: 0.00,
-                artgen: 2.55,
-                damage: 3.32,
-                buffs: 3.53,
+                artgen: 1.30,
+                damage: 3.10,
+                buffs: 4.77,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42198,12 +42252,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.80,
+                overall: 3.46,
                 defense: 0.00,
-                artgen: 4.13,
-                damage: 2.66,
-                buffs: 3.28,
-                heal: 2.78,
+                artgen: 2.86,
+                damage: 2.09,
+                buffs: 2.35,
+                heal: 5.00,
                 break: 0.00
             },
         attribute: `Light`,
@@ -42374,11 +42428,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A+`,
-                overall: 3.81,
-                defense: 0.00,
-                artgen: 0.00,
-                damage: 3.25,
-                buffs: 2.54,
+                overall: 3.73,
+                defense: 0.05,
+                artgen: 0.37,
+                damage: 3.57,
+                buffs: 4.71,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42466,12 +42520,12 @@ const UnitInformation = [
         name: `Summer Sakura`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.88,
-                defense: 1.37,
-                artgen: 3.08,
-                damage: 4.13,
-                buffs: 3.46,
+                rank: `A`,
+                overall: 3.34,
+                defense: 1.30,
+                artgen: 1.67,
+                damage: 3.65,
+                buffs: 2.57,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42560,12 +42614,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `S`,
-                overall: 4.11,
+                overall: 4.33,
                 defense: 0.00,
-                artgen: 3.45,
-                damage: 3.79,
-                buffs: 2.36,
-                heal: 0.12,
+                artgen: 1.87,
+                damage: 3.55,
+                buffs: 4.95,
+                heal: 0.54,
                 break: 0.00
             },
         attribute: `Dark`,
@@ -42653,12 +42707,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `S`,
-                overall: 4.36,
-                defense: 2.80,
-                artgen: 4.65,
-                damage: 2.35,
-                buffs: 2.89,
-                heal: 1.08,
+                overall: 4.60,
+                defense: 2.86,
+                artgen: 3.19,
+                damage: 1.81,
+                buffs: 2.56,
+                heal: 1.65,
                 break: 0.00
             },
         attribute: `Water`,
@@ -42745,13 +42799,13 @@ const UnitInformation = [
         name: `Alpha`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.89,
-                defense: 0.00,
-                artgen: 4.60,
-                damage: 3.19,
-                buffs: 3.28,
-                heal: 0.00,
+                rank: `A`,
+                overall: 3.48,
+                defense: 0.06,
+                artgen: 3.47,
+                damage: 2.95,
+                buffs: 3.02,
+                heal: 0.79,
                 break: 0.00
             },
         attribute: `Light`,
@@ -42839,12 +42893,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.61,
+                overall: 3.31,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 4.94,
-                buffs: 1.47,
-                heal: 0.59,
+                damage: 4.71,
+                buffs: 0.33,
+                heal: 0.07,
                 break: 0.00
             },
         attribute: `Fire`,
@@ -42932,12 +42986,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.69,
-                defense: 1.98,
-                artgen: 4.44,
-                damage: 2.93,
-                buffs: 2.49,
-                heal: 1.21,
+                overall: 3.41,
+                defense: 1.39,
+                artgen: 3.33,
+                damage: 2.36,
+                buffs: 2.86,
+                heal: 1.30,
                 break: 0.00
             },
         attribute: `Dark`,
@@ -43024,13 +43078,13 @@ const UnitInformation = [
         name: `Shuna`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.96,
+                rank: `A-`,
+                overall: 3.14,
                 defense: 0.00,
-                artgen: 4.45,
-                damage: 2.49,
-                buffs: 1.64,
-                heal: 2.71,
+                artgen: 3.30,
+                damage: 1.94,
+                buffs: 1.50,
+                heal: 3.60,
                 break: 0.00
             },
         attribute: `Light`,
@@ -43117,13 +43171,13 @@ const UnitInformation = [
         name: `Veldora`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.54,
-                defense: 1.37,
-                artgen: 0.00,
-                damage: 4.29,
-                buffs: 4.02,
-                heal: 0.00,
+                rank: `A-`,
+                overall: 3.17,
+                defense: 1.04,
+                artgen: 0.09,
+                damage: 3.60,
+                buffs: 2.37,
+                heal: 0.35,
                 break: 0.00
             },
         attribute: `Earth`,
@@ -43211,11 +43265,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.34,
+                overall: 3.24,
                 defense: 0.00,
-                artgen: 3.00,
-                damage: 3.88,
-                buffs: 2.57,
+                artgen: 1.40,
+                damage: 4.06,
+                buffs: 2.15,
                 heal: 0.00,
                 break: 0.00
             },
@@ -43304,11 +43358,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A+`,
-                overall: 3.87,
-                defense: 2.45,
-                artgen: 4.24,
-                damage: 3.52,
-                buffs: 1.28,
+                overall: 3.91,
+                defense: 2.78,
+                artgen: 3.05,
+                damage: 3.30,
+                buffs: 2.08,
                 heal: 0.00,
                 break: 0.00
             },
@@ -43396,13 +43450,13 @@ const UnitInformation = [
         name: `Sanosuke Sagara`,
         tier: 
             {
-                rank: `B+`,
-                overall: 2.99,
+                rank: `A-`,
+                overall: 3.07,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.78,
                 buffs: 0.00,
-                heal: 0.00,
+                heal: 0.89,
                 break: 0.00
             },
         attribute: `Water`,
@@ -43490,12 +43544,12 @@ const UnitInformation = [
         tier: 
             {
                 rank: `S`,
-                overall: 4.04,
-                defense: 1.16,
-                artgen: 2.41,
-                damage: 4.22,
-                buffs: 1.87,
-                heal: 1.12,
+                overall: 4.24,
+                defense: 0.52,
+                artgen: 1.11,
+                damage: 3.86,
+                buffs: 3.90,
+                heal: 0.92,
                 break: 0.00
             },
         attribute: `Dark`,
@@ -43583,11 +43637,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.66,
-                defense: 1.61,
-                artgen: 1.27,
-                damage: 4.36,
-                buffs: 2.74,
+                overall: 3.43,
+                defense: 0.21,
+                artgen: 0.57,
+                damage: 3.98,
+                buffs: 2.91,
                 heal: 0.00,
                 break: 0.00
             },
@@ -43676,13 +43730,13 @@ const UnitInformation = [
         tier: 
             {
                 rank: `S`,
-                overall: 4.22,
-                defense: 3.36,
+                overall: 4.49,
+                defense: 3.26,
                 artgen: 0.00,
-                damage: 3.62,
-                buffs: 1.08,
+                damage: 3.83,
+                buffs: 0.48,
                 heal: 0.00,
-                break: 0.65
+                break: 1.92
             },
         attribute: `Light`,
         type: `Human`,
@@ -44096,13 +44150,13 @@ const UnitInformation = [
         name: `Frieren`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.30,
+                rank: `A+`,
+                overall: 3.69,
                 defense: 0.00,
-                artgen: 4.67,
-                damage: 3.59,
-                buffs: 3.37,
-                heal: 0.03,
+                artgen: 4.06,
+                damage: 3.16,
+                buffs: 1.36,
+                heal: 0.20,
                 break: 0.00
             },
         attribute: `Light`,
@@ -44190,11 +44244,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: `A`,
-                overall: 3.46,
-                defense: 2.20,
-                artgen: 0.00,
-                damage: 4.12,
-                buffs: 2.09,
+                overall: 3.40,
+                defense: 1.98,
+                artgen: 0.43,
+                damage: 3.83,
+                buffs: 0.50,
                 heal: 0.00,
                 break: 0.00
             },
@@ -44282,14 +44336,14 @@ const UnitInformation = [
         name: `Stark`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.92,
-                defense: 1.37,
-                artgen: 0.00,
-                damage: 5.00,
-                buffs: 1.24,
-                heal: 0.85,
-                break: 0.73
+                rank: `A`,
+                overall: 3.25,
+                defense: 1.16,
+                artgen: 0.09,
+                damage: 4.49,
+                buffs: 2.46,
+                heal: 0.98,
+                break: 0.92
             },
         attribute: `Fire`,
         type: `Human`,
@@ -44376,12 +44430,12 @@ const UnitInformation = [
         translate: `Übel`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.92,
+                rank: `A`,
+                overall: 3.42,
                 defense: 0.00,
-                artgen: 4.06,
-                damage: 3.49,
-                buffs: 1.83,
+                artgen: 3.57,
+                damage: 3.46,
+                buffs: 2.47,
                 heal: 0.00,
                 break: 0.00
             },
@@ -44467,6 +44521,17 @@ const UnitInformation = [
     {
         id: 108247312,
         name: `Okarun`,
+        tier: 
+            {
+                rank: `S`,
+                overall: 4.46,
+                defense: 2.08,
+                artgen: 0.00,
+                damage: 5.00,
+                buffs: 4.98,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Spirit`,
         image:
@@ -44549,6 +44614,17 @@ const UnitInformation = [
     {
         id: 108257212,
         name: `Momo`,
+        tier: 
+            {
+                rank: `A+`,
+                overall: 3.64,
+                defense: 3.13,
+                artgen: 0.00,
+                damage: 3.68,
+                buffs: 0.57,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
         image:
