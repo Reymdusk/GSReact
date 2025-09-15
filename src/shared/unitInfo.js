@@ -8703,8 +8703,7 @@ const UnitInformation = [
         name: "Sanstone",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.83,
+                rank: 6,
                 defense: 3.31,
                 artgen: 0.00,
                 damage: 0.00,
@@ -12781,8 +12780,7 @@ const UnitInformation = [
         name: "Mako",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.96,
+                rank: 6,
                 defense: 0.00,
                 artgen: 2.83,
                 damage: 0.35,
@@ -13096,8 +13094,7 @@ const UnitInformation = [
         name: "Ryuko",
         tier: 
             {
-                rank: `B`,
-                overall: 2.65,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.94,
@@ -15473,8 +15470,7 @@ const UnitInformation = [
         name: "Thetis",
         tier: 
             {
-                rank: `A`,
-                overall: 3.45,
+                rank: 4,
                 defense: 4.37,
                 artgen: 0.00,
                 damage: 0.00,
@@ -15602,8 +15598,7 @@ const UnitInformation = [
         name: "Vox",
         tier: 
             {
-                rank: `B`,
-                overall: 2.58,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 2.29,
@@ -15731,8 +15726,7 @@ const UnitInformation = [
         name: "Duke",
         tier: 
             {
-                rank: `B`,
-                overall: 2.49,
+                rank: 7,
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 0.46,
@@ -17044,8 +17038,7 @@ const UnitInformation = [
         name: "Rosetta (Water)",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.97,
+                rank: 6,
                 defense: 0.00,
                 artgen: 2.84,
                 damage: 1.54,
@@ -20114,8 +20107,7 @@ const UnitInformation = [
         name: "Cestina (Earth)",
         tier: 
             {
-                rank: `B`,
-                overall: 2.67,
+                rank: 7,
                 defense: 1.07,
                 artgen: 1.22,
                 damage: 1.14,
@@ -21358,8 +21350,7 @@ const UnitInformation = [
         name: "Eagle",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.84,
+                rank: 6,
                 defense: 3.13,
                 artgen: 0.00,
                 damage: 0.00,
@@ -23015,8 +23006,7 @@ const UnitInformation = [
         name: "Juno",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.13,
+                rank: 5,
                 defense: 0.00,
                 artgen: 3.96,
                 damage: 1.92,
@@ -23543,8 +23533,7 @@ const UnitInformation = [
         name: "Hart (Earth)",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.01,
+                rank: 5,
                 defense: 0.00,
                 artgen: 2.78,
                 damage: 0.68,
@@ -23863,8 +23852,7 @@ const UnitInformation = [
         name: "Miranda",
         tier: 
             {
-                rank: `A`,
-                overall: 3.44,
+                rank: 4,
                 defense: 4.08,
                 artgen: 0.00,
                 damage: 0.20,
@@ -24182,8 +24170,7 @@ const UnitInformation = [
         name: "Vultee (Earth)",
         tier: 
             {
-                rank: `A`,
-                overall: 3.27,
+                rank: 4,
                 defense: 4.76,
                 artgen: 0.00,
                 damage: 0.73,
@@ -24812,8 +24799,7 @@ const UnitInformation = [
         name: "Summer Juno",
         tier: 
             {
-                rank: `B`,
-                overall: 2.71,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.43,
@@ -25006,8 +24992,7 @@ const UnitInformation = [
         name: "Summer Leone",
         tier: 
             {
-                rank: `A`,
-                overall: 3.25,
+                rank: 4,
                 defense: 0.00,
                 artgen: 1.86,
                 damage: 2.39,
@@ -25624,8 +25609,7 @@ const UnitInformation = [
         name: "Emperor Isliid",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.18,
+                rank: 5,
                 defense: 1.32,
                 artgen: 3.37,
                 damage: 1.09,
@@ -26017,8 +26001,7 @@ const UnitInformation = [
         name: "Orvell (Fire)",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.01,
+                rank: 5,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.10,
@@ -26186,8 +26169,7 @@ const UnitInformation = [
         name: "Cestina (Light)",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.85,
+                rank: 6,
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 1.76,
@@ -26465,8 +26447,7 @@ const UnitInformation = [
         name: "Mizuki the Twelfth",
         tier: 
             {
-                rank: `B`,
-                overall: 2.76,
+                rank: 7,
                 defense: 0.00,
                 artgen: 2.63,
                 damage: 1.28,
@@ -26666,8 +26647,7 @@ const UnitInformation = [
         name: "Riviera (Dark)",
         tier: 
             {
-                rank: `A`,
-                overall: 3.67,
+                rank: `B-`,
                 defense: 0.00,
                 artgen: 4.46,
                 damage: 1.25,
@@ -27359,8 +27339,7 @@ const UnitInformation = [
         name: "War Hero Fen",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.68,
+                rank: 3,
                 defense: 1.56,
                 artgen: 3.01,
                 damage: 2.43,
@@ -27654,8 +27633,7 @@ const UnitInformation = [
         name: "Kirisame",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.64,
+                rank: 3,
                 defense: 5.00,
                 artgen: 0.00,
                 damage: 0.10,
@@ -28035,8 +28013,7 @@ const UnitInformation = [
         name: "Hazuki",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.75,
+                rank: 3,
                 defense: 1.98,
                 artgen: 0.00,
                 damage: 3.27,
@@ -28125,8 +28102,7 @@ const UnitInformation = [
         translate: `Star God Liza`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.26,
+                rank: 4,
                 defense: 0.00,
                 artgen: 1.34,
                 damage: 2.66,
@@ -28218,8 +28194,7 @@ const UnitInformation = [
         translate: "Searing Petal Mira",
         tier: 
             {
-                rank: `B`,
-                overall: 2.62,
+                rank: 7,
                 defense: 0.00,
                 artgen: 3.42,
                 damage: 1.73,
@@ -28311,8 +28286,7 @@ const UnitInformation = [
         name: "Long",
         tier: 
             {
-                rank: `B`,
-                overall: 2.48,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.12,
@@ -28491,8 +28465,7 @@ const UnitInformation = [
         translate: "Valentines Priscilla",
         tier: 
             {
-                rank: `A`,
-                overall: 3.56,
+                rank: 4,
                 defense: 1.99,
                 artgen: 2.50,
                 damage: 1.88,
@@ -28582,8 +28555,7 @@ const UnitInformation = [
         name: "Aristela Orbis",
         tier: 
             {
-                rank: `A`,
-                overall: 3.21,
+                rank: 4,
                 defense: 0.00,
                 artgen: 2.35,
                 damage: 1.14,
@@ -28672,8 +28644,7 @@ const UnitInformation = [
         translate: "Demon King Vox",
         tier: 
             {
-                rank: `B`,
-                overall: 2.64,
+                rank: 7,
                 defense: 0.00,
                 artgen: 1.49,
                 damage: 2.04,
@@ -28765,8 +28736,7 @@ const UnitInformation = [
         name: "Jay",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.79,
+                rank: 3,
                 defense: 0.69,
                 artgen: 0.43,
                 damage: 3.97,
@@ -28854,8 +28824,7 @@ const UnitInformation = [
         name: `Canaria`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.23,
+                rank: 4,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.28,
@@ -29031,8 +29000,7 @@ const UnitInformation = [
         translate: `Iris, Bursting Jubilation`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.76,
+                rank: 7,
                 defense: 1.25,
                 artgen: 0.81,
                 damage: 3.08,
@@ -29354,8 +29322,7 @@ const UnitInformation = [
         translate: `Supercharged Genius Rosetta`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.18,
+                rank: 5,
                 defense: 0.00,
                 artgen: 2.57,
                 damage: 3.24,
@@ -29656,8 +29623,7 @@ const UnitInformation = [
         translate: `Mighty Magical Valerie`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.24,
+                rank: 4,
                 defense: 2.08,
                 artgen: 0.00,
                 damage: 3.82,
@@ -29757,8 +29723,7 @@ const UnitInformation = [
         translate: `Pianissimo Figure Forte`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.33,
+                rank: 4,
                 defense: 1.30,
                 artgen: 2.31,
                 damage: 2.28,
@@ -29863,8 +29828,7 @@ const UnitInformation = [
         name: "Isliid, Human Pinnacle",
         tier: 
             {
-                rank: `A+`,
-                overall: 3.64,
+                rank: 3,
                 defense: 1.35,
                 artgen: 4.89,
                 damage: 1.96,
@@ -29977,8 +29941,7 @@ const UnitInformation = [
         translate: `Evil Pola`,
         tier: 
             {
-                rank: `B+`,
-                overall: 2.85,
+                rank: 6,
                 defense: 0.00,
                 artgen: 2.41,
                 damage: 2.28,
@@ -30067,8 +30030,7 @@ const UnitInformation = [
         attribute: `Water`,
         tier: 
             {
-                rank: `SS`,
-                overall: 4.90,
+                rank: 1,
                 defense: 2.62,
                 artgen: 4.58,
                 damage: 3.57,
@@ -30167,8 +30129,7 @@ const UnitInformation = [
         name: `Merlette`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.61,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.53,
                 damage: 2.41,
@@ -30256,8 +30217,7 @@ const UnitInformation = [
         name: `Hart the Fabricator`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.22,
+                rank: 4,
                 defense: 0.00,
                 artgen: 2.69,
                 damage: 3.37,
@@ -30350,8 +30310,7 @@ const UnitInformation = [
         translate: `Cute Confectioner Liza`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.18,
+                rank: 5,
                 defense: 0.00,
                 artgen: 1.96,
                 damage: 2.41,
@@ -30450,8 +30409,7 @@ const UnitInformation = [
         translate: `Pretty Patissière Cestina`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.23,
+                rank: 4,
                 defense: 4.05,
                 artgen: 0.00,
                 damage: 0.60,
@@ -30698,8 +30656,7 @@ const UnitInformation = [
         name: `Cometstreak Valerie`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.27,
+                rank: 4,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.69,
@@ -30790,8 +30747,7 @@ const UnitInformation = [
         translate: `Velzard`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.55,
+                rank: 7,
                 defense: 1.53,
                 artgen: 0.00,
                 damage: 2.95,
@@ -30889,8 +30845,7 @@ const UnitInformation = [
         name: `Azel`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.30,
+                rank: `C-`,
                 defense: 1.37,
                 artgen: 0.00,
                 damage: 3.36,
@@ -31124,8 +31079,7 @@ const UnitInformation = [
         translate: `Sword God Luahn`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.82,
+                rank: 3,
                 defense: 0.00,
                 artgen: 0.52,
                 damage: 3.87,
@@ -32800,8 +32754,7 @@ const UnitInformation = [
         name: "Saitama",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.80,
+                rank: 6,
                 defense: 2.08,
                 artgen: 0.00,
                 damage: 2.18,
@@ -33575,8 +33528,7 @@ const UnitInformation = [
         name: "Rimuru (Human form)",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.13,
+                rank: 5,
                 defense: 0.00,
                 artgen: 2.41,
                 damage: 0.84,
@@ -33892,8 +33844,7 @@ const UnitInformation = [
         name: "Benimaru",
         tier: 
             {
-                rank: `B`,
-                overall: 2.47,
+                rank: 7,
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 3.15,
@@ -34031,8 +33982,7 @@ const UnitInformation = [
         name: "Goblin Slayer",
         tier: 
             {
-                rank: `B`,
-                overall: 2.71,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.37,
@@ -34171,8 +34121,7 @@ const UnitInformation = [
         name: "Priestess",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.02,
+                rank: 5,
                 defense: 0.40,
                 artgen: 3.14,
                 damage: 0.24,
@@ -35313,8 +35262,7 @@ const UnitInformation = [
         name: "Fitoria",
         tier: 
             {
-                rank: `B+`,
-                overall: 2.91,
+                rank: 6,
                 defense: 2.75,
                 artgen: 2.84,
                 damage: 2.21,
@@ -35796,8 +35744,7 @@ const UnitInformation = [
         name: "Emilia",
         tier: 
             {
-                rank: `B`,
-                overall: 2.63,
+                rank: 7,
                 defense: 1.65,
                 artgen: 1.27,
                 damage: 1.63,
@@ -36262,8 +36209,7 @@ const UnitInformation = [
         name: "Santa Rimuru",
         tier: 
             {
-                rank: `B`,
-                overall: 2.69,
+                rank: 7,
                 defense: 2.00,
                 artgen: 1.57,
                 damage: 1.66,
@@ -36401,8 +36347,7 @@ const UnitInformation = [
         name: "Santa Milim",
         tier: 
             {
-                rank: `B`,
-                overall: 2.66,
+                rank: 7,
                 defense: 0.52,
                 artgen: 2.27,
                 damage: 1.88,
@@ -36671,8 +36616,7 @@ const UnitInformation = [
         name: "New Years Rimuru",
         tier: 
             {
-                rank: `B`,
-                overall: 2.75,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 2.71,
@@ -37605,8 +37549,7 @@ const UnitInformation = [
         name: "Sylphiette",
         tier: 
             {
-                rank: `B`,
-                overall: 2.41,
+                rank: 7,
                 defense: 2.33,
                 artgen: 1.27,
                 damage: 0.00,
@@ -38204,13 +38147,12 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Erza Scarlet - Complete (+ JP version), Review done
+    { //Erza - Complete (+ JP version), Review done
         id: 107586412,
-        name: "Erza Scarlet",
+        name: "Erza",
         tier: 
             {
-                rank: `B`,
-                overall: 2.65,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.96,
@@ -38364,8 +38306,7 @@ const UnitInformation = [
         name: "Nui Harime",
         tier: 
             {
-                rank: `B`,
-                overall: 2.62,
+                rank: 7,
                 defense: 0.00,
                 artgen: 1.42,
                 damage: 1.95,
@@ -38628,8 +38569,7 @@ const UnitInformation = [
         name: "Mikey",
         tier: 
             {
-                rank: `B`,
-                overall: 2.49,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.33,
@@ -38720,8 +38660,7 @@ const UnitInformation = [
         name: "Draken",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.01,
+                rank: 5,
                 defense: 0.00,
                 artgen: 1.20,
                 damage: 1.88,
@@ -39252,8 +39191,7 @@ const UnitInformation = [
         name: "Albedo",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.09,
+                rank: 5,
                 defense: 3.15,
                 artgen: 0.00,
                 damage: 1.09,
@@ -39467,8 +39405,7 @@ const UnitInformation = [
         name: "Ainz",
         tier: 
             {
-                rank: `A`,
-                overall: 3.32,
+                rank: 4,
                 defense: 0.00,
                 artgen: 2.66,
                 damage: 2.65,
@@ -39576,8 +39513,7 @@ const UnitInformation = [
         name: "Narberal",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.13,
+                rank: 5,
                 defense: 0.99,
                 artgen: 2.43,
                 damage: 2.35,
@@ -39684,8 +39620,7 @@ const UnitInformation = [
         name: "Illya",
         tier: 
             {
-                rank: `A-`,
-                overall: 3.08,
+                rank: 5,
                 defense: 0.52,
                 artgen: 2.89,
                 damage: 3.43,
@@ -39798,8 +39733,7 @@ const UnitInformation = [
         name: "Rin & Luvia",
         tier: 
             {
-                rank: `A`,
-                overall: 3.30,
+                rank: 4,
                 defense: 0.00,
                 artgen: 0.44,
                 damage: 3.43,
@@ -39919,8 +39853,7 @@ const UnitInformation = [
         name: `Miyu`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.18,
+                rank: 5,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.62,
@@ -40034,8 +39967,7 @@ const UnitInformation = [
         name: `Shirou Emiya`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.29,
+                rank: 2,
                 defense: 4.87,
                 artgen: 0.00,
                 damage: 3.16,
@@ -40152,8 +40084,7 @@ const UnitInformation = [
         name: `Chloe (Fate)`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.69,
+                rank: 3,
                 defense: 0.00,
                 artgen: 3.17,
                 damage: 1.23,
@@ -40266,8 +40197,7 @@ const UnitInformation = [
         name: `Saber Alter`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.61,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.70,
@@ -40379,8 +40309,7 @@ const UnitInformation = [
         name: `Gabimaru`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.55,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.98,
@@ -40477,8 +40406,7 @@ const UnitInformation = [
         name: `Sagiri`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.67,
+                rank: 7,
                 defense: 1.04,
                 artgen: 2.10,
                 damage: 2.49,
@@ -40575,8 +40503,7 @@ const UnitInformation = [
         name: `Yuzuriha`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.07,
+                rank: 5,
                 defense: 0.00,
                 artgen: 2.54,
                 damage: 2.18,
@@ -40676,8 +40603,7 @@ const UnitInformation = [
         name: `Chobe`,
         tier: 
             {
-                rank: `B+`,
-                overall: 2.87,
+                rank: 6,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.01,
@@ -40777,8 +40703,7 @@ const UnitInformation = [
         name: `Demon Lord Rimuru`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.92,
+                rank: 3,
                 defense: 1.39,
                 artgen: 0.00,
                 damage: 4.07,
@@ -40989,8 +40914,7 @@ const UnitInformation = [
         name: `Diablo`,
         tier: 
             {
-                rank: `B+`,
-                overall: 2.96,
+                rank: 6,
                 defense: 1.46,
                 artgen: 1.44,
                 damage: 2.33,
@@ -41100,8 +41024,7 @@ const UnitInformation = [
         name: `Sunraku`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.26,
+                rank: 4,
                 defense: 0.21,
                 artgen: 3.66,
                 damage: 2.82,
@@ -41180,8 +41103,7 @@ const UnitInformation = [
         name: `Psyger-0`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.57,
+                rank: 7,
                 defense: 1.93,
                 artgen: 0.71,
                 damage: 2.96,
@@ -41260,8 +41182,7 @@ const UnitInformation = [
         name: `Arthur Pencilgon`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.70,
+                rank: 3,
                 defense: 0.00,
                 artgen: 3.08,
                 damage: 2.95,
@@ -41340,8 +41261,7 @@ const UnitInformation = [
         name: `OiKatzo`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.84,
+                rank: 3,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 4.50,
@@ -41420,8 +41340,7 @@ const UnitInformation = [
         name: `Momon`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.60,
+                rank: 3,
                 defense: 1.56,
                 artgen: 0.00,
                 damage: 3.54,
@@ -41513,8 +41432,7 @@ const UnitInformation = [
         name: `Demiurge`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.53,
+                rank: 7,
                 defense: 0.13,
                 artgen: 0.00,
                 damage: 3.15,
@@ -41606,8 +41524,7 @@ const UnitInformation = [
         name: `Evileye`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.23,
+                rank: 4,
                 defense: 1.58,
                 artgen: 3.49,
                 damage: 3.10,
@@ -41699,8 +41616,7 @@ const UnitInformation = [
         name: `Uzu Sanageyama`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.33,
+                rank: 4,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 4.18,
@@ -41813,8 +41729,7 @@ const UnitInformation = [
         type: `Human`,
         tier: 
             {
-                rank: `SS`,
-                overall: 4.80,
+                rank: 1,
                 defense: 0.00,
                 artgen: 5.00,
                 damage: 2.14,
@@ -41915,8 +41830,7 @@ const UnitInformation = [
         name: `Ira Gamagoori`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.33,
+                rank: 4,
                 defense: 4.57,
                 artgen: 0.00,
                 damage: 1.47,
@@ -42027,8 +41941,7 @@ const UnitInformation = [
         name: `Nonon Jakuzure`,
         tier: 
             {
-                rank: `B+`,
-                overall: 2.96,
+                rank: 6,
                 defense: 0.00,
                 artgen: 0.40,
                 damage: 3.57,
@@ -42131,8 +42044,7 @@ const UnitInformation = [
         name: `Summer Illya`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.33,
+                rank: 4,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.64,
@@ -42224,8 +42136,7 @@ const UnitInformation = [
         name: `Summer Miyu`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.13,
+                rank: 2,
                 defense: 0.00,
                 artgen: 1.30,
                 damage: 3.10,
@@ -42317,8 +42228,7 @@ const UnitInformation = [
         name: `Summer Chloe`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.46,
+                rank: 4,
                 defense: 0.00,
                 artgen: 2.86,
                 damage: 2.09,
@@ -42410,8 +42320,7 @@ const UnitInformation = [
         name: `Summer Bazett`,
         tier: 
             {
-                rank: `B`,
-                overall: 2.68,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.95,
@@ -42503,8 +42412,7 @@ const UnitInformation = [
         name: `Summer Luvia & Rin`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.73,
+                rank: 3,
                 defense: 0.05,
                 artgen: 0.37,
                 damage: 3.57,
@@ -42596,8 +42504,7 @@ const UnitInformation = [
         name: `Summer Sakura`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.34,
+                rank: 4,
                 defense: 1.30,
                 artgen: 1.67,
                 damage: 3.65,
@@ -42689,8 +42596,7 @@ const UnitInformation = [
         name: `Shadow`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.33,
+                rank: 2,
                 defense: 0.00,
                 artgen: 1.87,
                 damage: 3.55,
@@ -42782,8 +42688,7 @@ const UnitInformation = [
         name: `Beta`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.60,
+                rank: 2,
                 defense: 2.86,
                 artgen: 3.19,
                 damage: 1.81,
@@ -42875,8 +42780,7 @@ const UnitInformation = [
         name: `Alpha`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.48,
+                rank: 4,
                 defense: 0.06,
                 artgen: 3.47,
                 damage: 2.95,
@@ -42968,8 +42872,7 @@ const UnitInformation = [
         name: `Delta`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.31,
+                rank: 4,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 4.71,
@@ -43061,8 +42964,7 @@ const UnitInformation = [
         name: `Demon Lord Samurai Rimuru`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.41,
+                rank: 4,
                 defense: 1.39,
                 artgen: 3.33,
                 damage: 2.36,
@@ -43154,8 +43056,7 @@ const UnitInformation = [
         name: `Shuna`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.14,
+                rank: 5,
                 defense: 0.00,
                 artgen: 3.30,
                 damage: 1.94,
@@ -43247,8 +43148,7 @@ const UnitInformation = [
         name: `Veldora`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.17,
+                rank: 5,
                 defense: 1.04,
                 artgen: 0.09,
                 damage: 3.60,
@@ -43340,8 +43240,7 @@ const UnitInformation = [
         name: `Shizu`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.24,
+                rank: 4,
                 defense: 0.00,
                 artgen: 1.40,
                 damage: 4.06,
@@ -43433,8 +43332,7 @@ const UnitInformation = [
         name: `Kenshin Himura`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.91,
+                rank: 3,
                 defense: 2.78,
                 artgen: 3.05,
                 damage: 3.30,
@@ -43526,8 +43424,7 @@ const UnitInformation = [
         name: `Sanosuke Sagara`,
         tier: 
             {
-                rank: `A-`,
-                overall: 3.07,
+                rank: 5,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.78,
@@ -43619,8 +43516,7 @@ const UnitInformation = [
         name: `Saito Hajime`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.24,
+                rank: 2,
                 defense: 0.52,
                 artgen: 1.11,
                 damage: 3.86,
@@ -43712,8 +43608,7 @@ const UnitInformation = [
         name: `Makoto Shishio`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.43,
+                rank: 4,
                 defense: 0.21,
                 artgen: 0.57,
                 damage: 3.98,
@@ -43805,8 +43700,7 @@ const UnitInformation = [
         name: `Hero Saitama`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.49,
+                rank: 2,
                 defense: 3.26,
                 artgen: 0.00,
                 damage: 3.83,
@@ -44226,8 +44120,7 @@ const UnitInformation = [
         name: `Frieren`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.69,
+                rank: 3,
                 defense: 0.00,
                 artgen: 4.06,
                 damage: 3.16,
@@ -44319,8 +44212,7 @@ const UnitInformation = [
         name: `Fern`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.40,
+                rank: 4,
                 defense: 1.98,
                 artgen: 0.43,
                 damage: 3.83,
@@ -44412,8 +44304,7 @@ const UnitInformation = [
         name: `Stark`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.25,
+                rank: 4,
                 defense: 1.16,
                 artgen: 0.09,
                 damage: 4.49,
@@ -44506,8 +44397,7 @@ const UnitInformation = [
         translate: `Übel`,
         tier: 
             {
-                rank: `A`,
-                overall: 3.42,
+                rank: 4,
                 defense: 0.00,
                 artgen: 3.57,
                 damage: 3.46,
@@ -44599,8 +44489,7 @@ const UnitInformation = [
         name: `Okarun`,
         tier: 
             {
-                rank: `S`,
-                overall: 4.46,
+                rank: 2,
                 defense: 2.08,
                 artgen: 0.00,
                 damage: 5.00,
@@ -44692,8 +44581,7 @@ const UnitInformation = [
         name: `Momo`,
         tier: 
             {
-                rank: `A+`,
-                overall: 3.73,
+                rank: 3,
                 defense: 3.13,
                 artgen: 0.53,
                 damage: 3.68,
