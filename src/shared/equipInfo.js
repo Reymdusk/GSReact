@@ -51831,6 +51831,276 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
+    {
+        id: 154801,
+        name: `True "Jiji's Soccer Ball"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Dark DMG (Physical). For 10s, increase own Physical DMG and Dark DMG by 50%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When equipped by Jiji, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154811,
+        name: `True "Acrobatic Silky's Dress"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 8000% Fire DMG (Physical). For 10s, reduce enemies' DMG resistance by 20%. If user is Fire, reduce enemies' DMG resistance by an additional 10%. If user is Spirit, reduce enemies' DMG resistance by an additional 10%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Aira, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154821,
+        name: `Jiji's Soccer Ball`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 8000% Dark DMG (Physical). For 12s, increase Dark allies' BE Output by 50%. When used for the first time, increase Dark allies' BE Output by 80% instead.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154831,
+        name: `Acrobatic Silky's Dress`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `70s CT - 7000% Fire DMG (Physical). Increase next Super Arts' DMG by 100% and Accuracy by 50%.`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154841,
+        name: `Anatomical Model`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Dark DMG (Magic). For 15s, increase all stats by 20%. Additionally if user is Demon, increase all stats by 30% instead.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154851,
+        name: `Flatwoods Monster Statue`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `40s CT - Heal allies' HP by 1500. For 20s, increase allies' Magic RES by 40%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154861,
+        name: `Tsuchinoko Statue`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154861.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase allies' Arts by 30. For 10s, increase Earth allies' DMG by [20% x # of times this equip has been used] (MAX: 80%).`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154871,
+        name: `Kamissie Statue`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Light DMG (Magic). For 12s, increase own Magic DMG by 60%. When used for the first time, increase own Arts by 50. Additionally if user is Light, increase own Arts by 50.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 154881,
+        name: `Mantisian Glove`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `120s CT - 8000% Water DMG (Physical). For 25s, increase own CRI DMG by 50% and Water allies' DMG by 25%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    }
 ]
 
 export function getEquips() {

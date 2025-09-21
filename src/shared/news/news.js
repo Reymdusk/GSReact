@@ -3588,6 +3588,39 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 108,
+        date: `September 21, 2025`,
+        article: 
+        {
+            intro: `Part 2 of the Dan Da Dan Collab is out on both JP and Global!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Aira`, 108267112],
+                        [`Jiji`, 108277512]
+                    ],  
+                    equips: [
+                        [`True "Jiji's Soccer Ball"`, 154801],
+                        [`True "Acrobatic Silky's Dress"`, 154811],
+                        [`Jiji's Soccer Ball`, 154821],
+                        [`Acrobatic Silky's Dress`, 154831],
+                        [`Anatomical Model`, 154841],
+                        [`Flatwoods Monster Statue`, 154851],
+                        [`Tsuchinoko Statue`, 154861],
+                        [`Kamissie Statue`, 154871],
+                        [`Mantisian Glove`, 154881]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

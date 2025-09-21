@@ -30997,7 +30997,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "True 'Heaven's Ticket'",
+                name: "Heaven's Ticket",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_113281.png",
                 skill: "60s CT - 10000% Light DMG (PHY). For 10s, increase own PHY DMG by 50%. If user is Spirit, increase own PHY DMG by 100% instead.",
@@ -32196,7 +32196,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "True 'Comet Liner'",
+                name: "Comet Liner",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_113291.png",
                 skill: "60s CT - 10000% Dark DMG (PHY). For 10s, increase own ATK by 60%. Additionally after its second use, for 10s, increase own Equipment DMG by 60%. Additionally after its third use, for 10s, increase own CRI DMG by 60%.",
@@ -44498,13 +44498,13 @@ const UnitInformation = [
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
-                    mat2amt: 220,
+                    mat2amt: 100,
                     hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon:
             {
-                name: "True 'Golden Ball'",
+                name: "Golden Ball",
                 slot: "/db/Mines/thumbnail/phyLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154731.png",
                 skill: "45s CT - 7500% Earth DMG (PHY). For 10s, increase own Earth DMG by 50% and reduce enemies' PHY RES by 30%.",
@@ -44590,13 +44590,13 @@ const UnitInformation = [
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
-                    mat2amt: 220,
+                    mat2amt: 100,
                     hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon:
             {
-                name: "True 'Momo's Shirt'",
+                name: "Momo's Shirt",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154721.png",
                 skill: "50s CT - 4000% Water DMG (MAG). For 60s, reduce enemies' Water RES by 20% (stackable).",
@@ -44605,6 +44605,170 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Momo, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
+            }
+    },
+    {
+        id: 108267112,
+        name: `Aira`,
+        attribute: `Fire`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108266112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108267112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_826_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108266112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108267112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_826_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7045,
+                hpplus: 1331,
+                atk: 3762,
+                atkplus: 652,
+                def: 3013,
+                defplus: 624
+            },
+        skillset:
+            {
+                skill: `14s CT - 2000% Fire DMG (PHY). For 6s, increase allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type G and will not stack with other Type G Arts Gen.`,
+                skillbreak: 700,
+                arts: `20000% Fire DMG (PHY). Increase allies' next Super Arts' DMG by 100% and Accuracy by 70%.`,
+                artsbreak: 1000,
+                truearts: `50000% Fire DMG (PHY). Each time True Arts is used, permanently increase Fire allies' ATK by 50% (MAX: 200%). Additionally, for 25s, increase allies' Skill CT Speed by 100%.`,
+                trueartsbreak: 1400,
+                superarts: `150000% Fire DMG (PHY). For 20s, reduce enemies' Fire RES by 160%. If ownself is Leader, reduce enemies' Fire RES by 240% instead.`,
+                superartsbreak: 1800
+            },
+        passive:
+            {
+                ability1: `Increase <50% HP allies' DMG RES by 30% Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% x own ATK and DEF/ 100].`,
+                ability3: `Increase own Evasion by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Aira's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Aira's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Acrobatic Silky's Dress",
+                slot: "/db/Mines/thumbnail/phyLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154811.png",
+                skill: "60s CT - 8000% Fire DMG (PHY). For 10s, reduce enemies' DMG RES by 20%. If user is Fire, reduce enemies' DMG RES by an additional 10%. If user is Spirit, reduce enemies' DMG RES by an additional 10%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Aira, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
+            }
+    },
+    {
+        id: 108277512,
+        name: `Jiji`,
+        attribute: `Dark`,
+        type: `Demon`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108276512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108277512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_827_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108276512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108277512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_827_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 7458,
+                hpplus: 1406,
+                atk: 4037,
+                atkplus: 696,
+                def: 2769,
+                defplus: 577
+            },
+        skillset:
+            {
+                skill: `14s CT - 6000% Dark DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 800,
+                arts: `28000% Dark DMG (PHY). For 25s, increase allies' Paralysis RES and Freeze RES by 100%. Additionally when used for the first time, increase allies' Arts by 100 and Demon allies' Arts by 100.`,
+                artsbreak: 1200,
+                truearts: `65000% Dark DMG (PHY). For 45s, reduce enemies' Dark RES by 80% (stackable).`,
+                trueartsbreak: 2200,
+                superarts: `220000% Dark DMG (PHY). For 20s, increase own DMG the higher own current HP is (MAX: 300%).`,
+                superartsbreak: 2800
+            },
+        passive:
+            {
+                ability1: `When own HP is above 80%, increase own Accuracy by 50%.`,
+                ability2: `When own HP is above 50%, ignores enemies' DEF by 100%. Does not stack with Abilities of the same name. Increase DMG to Human Enemies by 40%.`,
+                ability3: `Increase Dark allies' BE Output by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Jiji's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Jiji's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Jiji's Soccer Ball",
+                slot: "/db/Mines/thumbnail/phyLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154801.png",
+                skill: "50s CT - 10000% Dark DMG (PHY). For 10s, increase own PHY DMG and Dark DMG by 50%.",
+                skillbreak: 600,
+                passive:
+                    {
+                        ability1: "When equipped by Jiji, increase own Arts by 3/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own PHY RES by 5%."
                     }
             },
         lore:
