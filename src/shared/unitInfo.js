@@ -232,11 +232,10 @@ const UnitInformation = [
         name: "Clyde",
         tier: 
             {
-                rank: `C-`,
-                overall: 1.12,
-                defense: 1.16,
+                rank: 13,
+                defense: 0.52,
                 artgen: 0.00,
-                damage: 1.17,
+                damage: 0.69,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -1695,15 +1694,13 @@ const UnitInformation = [
         name: "Ragna",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.63,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.76,
+                damage: 1.25,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.28
+                break: 2.58
             },
         attribute: "Fire",
         type: "God",
@@ -2797,12 +2794,10 @@ const UnitInformation = [
         name: "Mira (Fire)",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.48,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.77,
+                damage: 1.26,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -3536,8 +3531,16 @@ const UnitInformation = [
     { //Grad - Complete
         id: 101096511,
         name: "Grad",
-        luckrank: "C",
-        rank: "F",
+        tier: 
+            {
+                rank: 13,
+                defense: 1.04,
+                artgen: 0.00,
+                damage: 2.07,
+                buffs: 1.11,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -3773,8 +3776,16 @@ const UnitInformation = [
     { //Ganan - Complete
         id: 101116111,
         name: "Ganan",
-        rank: "B-",
-        luckrank: "C",
+        tier: 
+            {
+                rank: 13,
+                defense: 0.52,
+                artgen: 0.00,
+                damage: 2.35,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -5128,12 +5139,10 @@ const UnitInformation = [
         name: "Soleil",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.22,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.31,
+                damage: 0.83,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -7197,12 +7206,10 @@ const UnitInformation = [
         name: "Keiones",
         tier: 
             {
-                rank: `C-`,
-                luckrank: ``,
-                overall: 1.08,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 0.90,
+                damage: 0.44,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -8096,15 +8103,13 @@ const UnitInformation = [
         name: "Rasaou",
         tier: 
             {
-                rank: `C-`,
-                luckrank: ``,
-                overall: 1.15,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 0.89,
+                damage: 0.43,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.47
+                break: 1.16
             },
         attribute: "Fire",
         type: "God",
@@ -9702,12 +9707,10 @@ const UnitInformation = [
         name: "Gran Brave",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.22,
-                defense: 1.16,
+                rank: 13,
+                defense: 0.52,
                 artgen: 0.00,
-                damage: 1.41,
+                damage: 0.92,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -9851,12 +9854,10 @@ const UnitInformation = [
         name: "Marzex (Light)",
         tier: 
             {
-                rank: `C-`,
-                luckrank: ``,
-                overall: 1.13,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.16,
+                damage: 0.68,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -13982,12 +13983,10 @@ const UnitInformation = [
         name: "Ifrit",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.26,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.29,
+                damage: 0.81,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -17730,13 +17729,11 @@ const UnitInformation = [
         name: "Kane (Dark)",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.24,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.32,
-                buffs: 1.33,
+                damage: 0.84,
+                buffs: 0.69,
                 heal: 0.00,
                 break: 0.00
             },
@@ -18635,12 +18632,10 @@ const UnitInformation = [
         name: "Shuri",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.71,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.17,
+                damage: 1.63,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -18876,7 +18871,16 @@ const UnitInformation = [
     { //Kisaragi - Complete
         id: 102876112,
         name: "Kisaragi",
-        rank: "B-",
+        tier: 
+            {
+                rank: 13,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 2.04,
+                buffs: 0.42,
+                heal: 0.00,
+                break: 0.00
+            },
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -19118,13 +19122,11 @@ const UnitInformation = [
         name: "Tamae",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.72,
+                rank: 13,
                 defense: 0.00,
-                artgen: 0.00,
-                damage: 2.11,
-                buffs: 0.28,
+                artgen: 0.43,
+                damage: 1.58,
+                buffs: 0.30,
                 heal: 0.00,
                 break: 0.00
             },
@@ -19645,15 +19647,13 @@ const UnitInformation = [
         name: "Garlan",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.39,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 0.00,
+                damage: 0.24,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.53
+                break: 2.28
             },
         attribute: "Earth",
         type: "Human",
@@ -20495,12 +20495,10 @@ const UnitInformation = [
         name: "Cygnet",
         tier: 
             {
-                rank: `C-`,
-                luckrank: `F`,
-                overall: 1.08,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 0.88,
+                damage: 0.42,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -20761,12 +20759,10 @@ const UnitInformation = [
         name: "Virago",
         tier: 
             {
-                rank: `C-`,
-                luckrank: `F`,
-                overall: 1.12,
-                defense: 1.16,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.17,
+                damage: 0.65,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -21148,13 +21144,11 @@ const UnitInformation = [
         name: "Angelas",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.46,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.70,
-                buffs: 1.11,
+                damage: 1.19,
+                buffs: 0.13,
                 heal: 0.00,
                 break: 0.00
             },
@@ -21471,13 +21465,11 @@ const UnitInformation = [
         name: "Bakoo",
         tier: 
             {
-                rank: `C+`,
-                luckrank: ``,
-                overall: 1.94,
+                rank: 13,
                 defense: 0.00,
-                artgen: 2.10,
-                damage: 2.24,
-                buffs: 0.00,
+                artgen: 1.90,
+                damage: 1.70,
+                buffs: 1.25,
                 heal: 0.00,
                 break: 0.00
             },
@@ -22835,13 +22827,11 @@ const UnitInformation = [
         name: "Batiste",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.65,
-                defense: 1.16,
+                rank: 13,
+                defense: 0.52,
                 artgen: 0.00,
-                damage: 1.96,
-                buffs: 0.56,
+                damage: 1.44,
+                buffs: 0.10,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24272,13 +24262,11 @@ const UnitInformation = [
         name: "Priscilla",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.73,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.75,
-                buffs: 2.09,
+                damage: 1.24,
+                buffs: 2.23,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24623,13 +24611,11 @@ const UnitInformation = [
         name: "Lyla",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.46,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.62,
-                buffs: 0.76,
+                damage: 1.12,
+                buffs: 0.40,
                 heal: 0.00,
                 break: 0.00
             },
@@ -26505,12 +26491,10 @@ const UnitInformation = [
         type: "Human",
         tier: 
             {
-                rank: `C`,
-                luckrank: `C`,
-                overall: 1.21,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.32,
+                damage: 0.84,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -27680,12 +27664,10 @@ const UnitInformation = [
         name: "Hakuro",
         tier: 
             {
-                rank: `C`,
-                luckrank: `C`,
-                overall: 1.20,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 1.25,
+                damage: 0.77,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -34890,14 +34872,12 @@ const UnitInformation = [
         name: "Raphtalia",
         tier: 
             {
-                rank: `C`,
-                luckrank: `F`,
-                overall: 1.53,
-                defense: 1.16,
+                rank: 13,
+                defense: 0.52,
                 artgen: 0.00,
-                damage: 1.70,
+                damage: 1.20,
                 buffs: 0.00,
-                heal: 1.18,
+                heal: 0.68,
                 break: 0.00
             },
         attribute: "Light",
@@ -35380,13 +35360,11 @@ const UnitInformation = [
         name: "Kazuma",
         tier: 
             {
-                rank: `C`,
-                luckrank: `B`,
-                overall: 1.59,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 0.97,
-                buffs: 1.73,
+                damage: 0.50,
+                buffs: 0.25,
                 heal: 0.00,
                 break: 0.00
             },
@@ -35456,12 +35434,10 @@ const UnitInformation = [
         name: "Kurama",
         tier: 
             {
-                rank: `C`,
-                luckrank: `B`,
-                overall: 1.46,
+                rank: 13,
                 defense: 0.00,
-                artgen: 0.00,
-                damage: 1.78,
+                artgen: 1.26,
+                damage: 1.27,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -35532,12 +35508,10 @@ const UnitInformation = [
         name: "Hiei",
         tier: 
             {
-                rank: `C`,
-                luckrank: `C`,
-                overall: 1.7,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.16,
+                damage: 1.62,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -37159,7 +37133,16 @@ const UnitInformation = [
         id: 107496512,
         name: "Ren Tao",
         attribute: "Dark",
-        rank: "B+",
+        tier: 
+            {
+                rank: 13,
+                defense: 0.52,
+                artgen: 0.00,
+                damage: 2.12,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         type: "Human",
         image: 
             {
@@ -37342,13 +37325,11 @@ const UnitInformation = [
         name: "Rudeus",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.61,
+                rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.71,
-                buffs: 1.89,
+                damage: 1.20,
+                buffs: 1.11,
                 heal: 0.00,
                 break: 0.00
             },
@@ -37566,7 +37547,16 @@ const UnitInformation = [
     { //Eris - Complete
         id: 107546112,
         name: "Eris",
-        rank: "B+",
+        tier: 
+            {
+                rank: 13,
+                defense: 0.52,
+                artgen: 0.00,
+                damage: 2.26,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Fire",
         type: "Human",
         image: 
