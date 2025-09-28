@@ -32344,6 +32344,84 @@ const UnitInformation = [
                 evosuper: `Currently unreleased in Global.`
             }
     },
+    {
+        id: 104147312,
+        name: `Shaula`,
+        attribute: `Earth`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104146312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104147312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104146312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104147312.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7922,
+                hpplus: 1370,
+                atk: 2959,
+                atkplus: 588,
+                def: 3113,
+                defplus: 616
+            },
+        skillset:
+            {
+                skill: `15s CT - 5000% Earth DMG (MAG). For 6s, increase own Accuracy by 30%.`,
+                skillbreak: 1000,
+                arts: `22000% Earth DMG (MAG). When next True Arts is used, heal allies' Poison, Burn and Blind + When next Super Arts is used, heal allies' HP by 100%.`,
+                artsbreak: 1500,
+                truearts: `55000% Earth DMG (MAG). For 25s, heal allies' HP by 5%/s and Arts by 6/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Earth DMG (MAG). For 25s, increase allies' DMG by 200% and non-Earth allies' DMG by an additional 100%.`,
+                superartsbreak: 2800
+            },
+        passive:
+            {
+                ability1: `Increase allies' MAX HP by 20% and Spirit allies' HP by an additional 10%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase allies' Paralysis RES by 30%. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Accuracy by 10%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Shaulalalala",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113361.png",
+                skill: "20s CT - 4000% Earth DMG (MAG). For 10s, reduce enemies' MAG RES by 30%. Additionally if user is Spirit, increase own Arts by 10.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Shaula, increase own Arts by 2/s and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Accuracy by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore (JP)
         id: 107006412,
         name: "Zinogre Armor Rayas",

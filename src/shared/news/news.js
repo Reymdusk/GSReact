@@ -3621,6 +3621,41 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 109,
+        date: `September 28, 2025`,
+        article: 
+        {
+            intro: `Chapter 3 of Mena Soars High has debut in JP with a new unit and equips! Meanwhile on Global, Summer Mira makes her first appearance alongside new Summer-themed equips!`,
+            new:
+                {
+                    units: [
+                        [`Shaula`, 104147312]
+                    ],
+                    equips: [
+                        [`真『シャウララララ』`, 113361],
+                        [`叡智の銃『シャウララララ』`, 113371]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Mira`, 104007212]
+                    ],  
+                    equips: [
+                        [`True "Mira's Fishy Skewer"`, 112471],
+                        [`Mira's Fishy Skewer`, 112491],
+                        [`Mira's Critical Crystal`, 112501],
+                        [`Mira's Romantic Outlook`, 112511],
+                        [`Celia's Paraíso Parasol`, 112521],
+                        [`Servant's Select`, 112531],
+                        [`Celia's Cultured Eyewear`, 112541]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

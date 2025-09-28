@@ -34570,10 +34570,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True "Mira's Swelling Mermaid" - JP Complete
+    { //True "Mira's Fishy Skewer" - Missing Lore
         id: 112471,
-        name: `真『ミラのもりもりマーメイド』`,
-        translate: `True "Mira's Swelling Mermaid"`,
+        name: `True "Mira's Fishy Skewer"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34599,7 +34598,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Mira, increase own ATK and Accuracy by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical DMG by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True "Celia's Rosy Parasol" - JP Complete
         id: 112481,
@@ -34632,10 +34631,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Mira's Swelling Mermaid - JP Complete
+    { //Mira's Fishy Skewer - Missing Lore
         id: 112491,
-        name: `ミラのもりもりマーメイド`,
-        translate: `Mira's Swelling Mermaid`,
+        name: `Mira's Fishy Skewer`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34660,12 +34658,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Mira's Critical Bikini - JP Complete
+    { //Mira's Critical Crystal - Missing Lore
         id: 112501,
-        name: `ミラのクリティカルビキニ`,
-        translate: `Mira's Critical Bikini`,
+        name: `Mira's Critical Crystal`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34690,12 +34687,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Mira's Heartful Glasses - JP Complete
+    { //Mira's Romantic Outlook - Missing Lore
         id: 112511,
-        name: `ミラのハートフルグラス`,
-        translate: `Mira's Heartful Glasses`,
+        name: `Mira's Romantic Outlook`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -34720,12 +34716,12 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Celia's Rosy Parasol - JP Complete
+    { //Celia's Paraíso Parasol - Missing Lore
         id: 112521,
-        name: `シーリアのぱらいそパラソル`,
-        translate: `Celia's Rosy Parasol`,
+        name: `Celia's Paraíso Parasol`,
+        translate: `Celia's Paraiso Parasol`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34750,12 +34746,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Family's Selection 2024 - JP Complete
+    { //Servant's Select - Missing Lore
         id: 112531,
-        name: `眷属'sセレクション2024`,
-        translate: `Family's Selection 2024`,
+        name: `Servant's Select`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34780,12 +34775,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //Celia's Glasses - JP Complete
+    { //Celia's Cultured Eyewear - Missing Lore
         id: 112541,
-        name: `シーリアのおめがね`,
-        translate: `Celia's Glasses`,
+        name: `Celia's Cultured Eyewear`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34810,7 +34804,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True "Iris' Dream Rocket" - Missing Lore
         id: 112551,
@@ -37298,6 +37292,68 @@ const EquipInformation = [
         passive:
             {
                 ability1: `Increase own Physical RES by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113361,
+        name: `真『シャウララララ』`,
+        translate: `True "Shaulalalala"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `20s CT - 4000% Earth DMG (Magic). For 10s, reduce enemies' Magic RES by 30%. Additionally if user is Spirit, increase own Arts by 10.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Shaula, increase own Arts by 2/s and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113371,
+        name: `叡智の銃『シャウララララ』`,
+        translate: `Gun of Wisdom "Shaulalalala"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 6000% Earth DMG (Magic). For 10s, increase own Magic DMG by 50%. Additionally if user is not a Human, God or Demon, for 10s, increase own Arts by 2/s.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Increase own DMG against Water enemies by 5%.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
