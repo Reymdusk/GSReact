@@ -15453,9 +15453,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Night Thunder "Noxara" (夜霹飾『ノクスアーラ』) - JP Complete
+{ //Night Feather "Noxahra" - Missing Lore
         id: 105961,
-        name: `夜霹飾『ノクスアーラ』`,
+        name: `Night Feather "Noxahra"`,
         location: `Mines Equip: Elite Tonetaurus`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
@@ -15481,7 +15481,7 @@ const EquipInformation = [
             {
                 ability1: `Heal own HP by 4/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Icy Shell 'Frigid Scales' - Missing Lore
         id: 105971,
@@ -25993,9 +25993,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //絶焔剣『デグルオルタ』 (Elite Degilmagna Mines Equip) - JP Complete
+{ //Despair Blade "Degil After" - Missing Lore
         id: 109541,
-        name: `絶焔剣『デグルオルタ』`,
+        name: `Despair Blade "Degil After"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26020,7 +26020,7 @@ const EquipInformation = [
             {
                 ability1: `Burn Time Reduction & Burn Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //カボシェルムの召喚石 (Jackosherum Raid Equip) - JP Complete
         id: 109551,
@@ -34600,10 +34600,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True "Celia's Rosy Parasol" - JP Complete
+    { //True "Celia's Paraíso Parasol" - Missing Lore
         id: 112481,
-        name: `真『シーリアのぱらいそパラソル』`,
-        translate: `True "Celia's Rosy Parasol"`,
+        name: `True "Celia's Paraíso Parasol"`,
+        translate: `True "Celia's Paraiso Parasol"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34629,7 +34629,7 @@ const EquipInformation = [
                 ability1: `When equipped by Summer Celia, increase own Arts by 3/s and DMG by 30%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against enemies in BREAK by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Mira's Fishy Skewer - Missing Lore
         id: 112491,

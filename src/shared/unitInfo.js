@@ -4030,7 +4030,16 @@ const UnitInformation = [
     { //Liese (Light) - Complete
         id: 101136411,
         name: "Liese (Light)",
-        rank: "B+",
+        tier: 
+            {
+                rank: 11,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 0.00,
+                buffs: 0.00,
+                heal: 3.23,
+                break: 0.00
+            },
         attribute: "Light",
         type: "Human",
         image: 
@@ -4407,7 +4416,16 @@ const UnitInformation = [
     { //Rem (Grand Summoners) - Complete
         id: 101166511,
         name: "Rem (GS)",
-        rank: "B+",
+        tier: 
+            {
+                rank: 11,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 1.51,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Human",
         image: 
@@ -4885,7 +4903,7 @@ const UnitInformation = [
         name: "Duran",
         tier: 
             {
-                rank: 10,
+                rank: 11,
                 defense: 1.23,
                 artgen: 0.00,
                 damage: 0.00,
@@ -5020,7 +5038,16 @@ const UnitInformation = [
     { //Zenon - Complete
         id: 101216512,
         name: "Zenon",
-        rank: "A-",
+        tier: 
+            {
+                rank: 11,
+                defense: 0.00,
+                artgen: 2.14,
+                damage: 0.45,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -5433,12 +5460,10 @@ const UnitInformation = [
         name: "Pola",
         tier: 
             {
-                rank: `D`,
-                luckrank: ``,
-                overall: 0.86,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 0.83,
+                damage: 0.37,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -7653,10 +7678,8 @@ const UnitInformation = [
         name: "Quon",
         tier: 
             {
-                rank: `C-`,
-                luckrank: `F`,
-                overall: 1.08,
-                defense: 1.37,
+                rank: 11,
+                defense: 1.04,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -9017,14 +9040,12 @@ const UnitInformation = [
         name: "Parlot",
         tier: 
             {
-                rank: `D`,
-                luckrank: ``,
-                overall: 0.74,
+                rank: 11,
                 defense: 0.00,
-                artgen: 0.00,
+                artgen: 0.86,
                 damage: 0.00,
                 buffs: 0.00,
-                heal: 0.93,
+                heal: 1.58,
                 break: 0.00
             },
         attribute: "Earth",
@@ -10210,14 +10231,12 @@ const UnitInformation = [
         name: "Musse",
         tier: 
             {
-                rank: `C-`,
-                luckrank: ``,
-                overall: 1.05,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 0.43,
+                damage: 0.00,
                 buffs: 0.00,
-                heal: 1.33,
+                heal: 3.62,
                 break: 0.00
             },
         attribute: "Earth",
@@ -11991,15 +12010,13 @@ const UnitInformation = [
         name: "Fosly",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.32,
-                defense: 1.16,
+                rank: 11,
+                defense: 0.52,
                 artgen: 0.00,
-                damage: 0.38,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.47
+                break: 2.49
             },
         attribute: "Earth",
         type: "Human",
@@ -13639,11 +13656,9 @@ const UnitInformation = [
         name: "Lozze",
         tier: 
             {
-                rank: `C+`,
-                luckrank: ``,
-                overall: 1.97,
+                rank: 11,
                 defense: 0.00,
-                artgen: 2.43,
+                artgen: 1.98,
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
@@ -18536,7 +18551,7 @@ const UnitInformation = [
         name: "Shiki",
         tier: 
             {
-                rank: 9,
+                rank: 10,
                 defense: 0.00,
                 artgen: 2.72,
                 damage: 0.60,
@@ -19995,13 +20010,11 @@ const UnitInformation = [
         name: "Roy (Fire)",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.65,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.68,
-                buffs: 1.86,
+                damage: 1.18,
+                buffs: 0.34,
                 heal: 0.00,
                 break: 0.00
             },
@@ -29458,12 +29471,11 @@ const UnitInformation = [
         translate: `Celia the Exalted`,
         tier: 
             {
-                rank: `B+`,
-                overall: 2.93,
-                defense: 1.57,
+                rank: 11,
+                defense: 1.56,
                 artgen: 0.00,
-                damage: 3.70,
-                buffs: 0.87,
+                damage: 3.42,
+                buffs: 0.10,
                 heal: 0.00,
                 break: 0.00
             },
@@ -30896,11 +30908,11 @@ const UnitInformation = [
         name: `Azel`,
         tier: 
             {
-                rank: `C-`,
-                defense: 1.37,
+                rank: 11,
+                defense: 1.04,
                 artgen: 0.00,
-                damage: 3.36,
-                buffs: 3.67,
+                damage: 2.89,
+                buffs: 1.20,
                 heal: 0.00,
                 break: 0.00
             },
@@ -35998,12 +36010,10 @@ const UnitInformation = [
         name: "Rem (Re:Zero)",
         tier: 
             {
-                rank: `C+`,
-                luckrank: `C`,
-                overall: 1.87,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.36,
+                damage: 1.82,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -39129,7 +39139,16 @@ const UnitInformation = [
     { // Empress - Complete, Review done
         id: 107666212,
         name: "Empress",
-        rank: "A-",
+        tier: 
+            {
+                rank: 11,
+                defense: 1.04,
+                artgen: 1.66,
+                damage: 1.84,
+                buffs: 1.50,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Water",
         type: "Machine",
         image: 
@@ -39208,10 +39227,19 @@ const UnitInformation = [
                 author: `Hakushi`
             }
     },
-    { // Dead Master - Complete, Review done
+    { // Deadmaster - Complete, Review done
         id: 107676312,
-        name: "Dead Master",
-        rank: "B", 
+        name: "Deadmaster",
+        tier: 
+            {
+                rank: 11,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 1.41,
+                buffs: 0.00,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: "Earth",
         type: "Machine",
         image: 
