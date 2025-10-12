@@ -3656,6 +3656,45 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 110,
+        date: `October 12, 2025`,
+        article: 
+        {
+            intro: `Chapter 36 has released on JP with a new Ascended Leone and her respective equips! New Fire, Water, and Earth Ruin equips have also been added!`,
+            new:
+                {
+                    units: [
+                        [`World's End Leone`, 104177412]
+                    ],
+                    equips: [
+                        [`レキュオンの栄冠`, 113381],
+                        [`ミキュオンの栄冠`, 113391],
+                        [`モキュオンの栄冠`, 113401],
+                        [`真『エルダーブラッド』`, 113411],
+                        [`花葬杖『エルダーブラッド』`, 113421],
+                        [`花霊葬『エデンズバース』`, 113431]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Summer Mira`, 104007212]
+                    ],  
+                    equips: [
+                        [`True "Mira's Fishy Skewer"`, 112471],
+                        [`Mira's Fishy Skewer`, 112491],
+                        [`Mira's Critical Crystal`, 112501],
+                        [`Mira's Romantic Outlook`, 112511],
+                        [`Celia's Paraíso Parasol`, 112521],
+                        [`Servant's Select`, 112531],
+                        [`Celia's Cultured Eyewear`, 112541]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -9195,7 +9195,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own CRI rate against Paralysed enemies by 100%.`
             },
         lore: `A young Spirit of the Paw People. He says that he was saved by Fen, the Head of General Staff in Gramenia, but Fen says he didn't. Ru has his own way and is a curious fellow so that might be the reason he gets along with Gen in some ways. His battle abilities are not so high, but Fen has a high opinion on him due to his quick moves and using his small body to do spying that Humans cannot do.`
     },
@@ -25993,9 +25993,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Despair Blade "Degil After" - Missing Lore
+{ //Despair Blade "Degil Alter" - Missing Lore
         id: 109541,
-        name: `Despair Blade "Degil After"`,
+        name: `Despair Blade "Degil Alter"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36744,7 +36744,7 @@ const EquipInformation = [
     {
         id: 113191,
         name: `カナリアの全力100%ビキニ`,
-        translate: `Canaria's 100% Full-Power Bikini `,
+        translate: `Canaria's 100% Full-Power Bikini`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -37354,6 +37354,192 @@ const EquipInformation = [
         passive:
             {
                 ability1: `Increase own DMG against Water enemies by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113381,
+        name: `レキュオンの栄冠`,
+        translate: `Rekyuon Crown`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `35s CT - For 15s, increase allies' Magic RES by 20%. If user is Fire, increase allies' Magic RES by 30% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `If allies have 2 or more "-kyuon" equips equipped, increase allies' DMG resistance by 10%. Additionally if allies have 3 or more "-kyuon" equips equipped, increase allies' MAX HP by 10%. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113391,
+        name: `ミキュオンの栄冠`,
+        translate: `Mikyuon Crown`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113391.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - For 20s, heal allies' HP by 2%/s. If user is Water, heal allies' HP by 4%/s instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `If allies have 2 "-kyuon" equips equipped, at Start of Quest, increase allies' Arts by 50. If allies have 3 or more "-kyuon" equips equipped, at Start of Quest, increase allies' Arts by 100 instead. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113401,
+        name: `モキュオンの栄冠`,
+        translate: `Mokyuon Crown`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 5000% Earth DMG (Physical). For 8s, reduce enemies' Physical RES by 20%. If user is Earth, reduce enemies' Physical RES by 40% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `If allies have 2 "-kyuon" equips equipped, increase allies' ATK by 50%. If allies have 3 or more "-kyuon" equips equipped, increase allies' ATK by 80% instead. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113411,
+        name: `真『エルダーブラッド』`,
+        translate: `True "Elder Blood"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 6000% Light DMG (Magic). For 8s, reduce enemies' Light resistance by 30%. Additionally if user is Demon, for 8s, reduce enemies' Magic RES by 30%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When equipped by World's End Leone, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113421,
+        name: `花葬杖『エルダーブラッド』`,
+        translate: `Flower Funeral Staff "Elder Blood"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `200s CT - 20000% Light DMG (Magic).`,
+                skillbreak: 2500
+            },
+        passive:
+            {
+                ability1: `Reduce own MAX HP by 15%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113431,
+        name: `花霊葬『エデンズバース』`,
+        translate: `Flower Funeral "Eden's Birth"`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113431.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `50s CT - For 12s, increase allies' DMG by 35%. If user is Light, increase allies' DMG by 60% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own Curse resistance by 10%.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`

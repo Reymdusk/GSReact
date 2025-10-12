@@ -31200,13 +31200,6 @@ const UnitInformation = [
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Dragon Authority Luahn's SP. Art is owned)`
 
             },
-        passiveJP: 
-            {
-                ability1: `When set as Leader, increase all allies' Equip CT Speed by 50% for first 100s of Quest. Does not stack with Abilities of the same name.`,
-                ability2: `Increase all allies' CRI DMG by 50%. Does not stack with Abilities of the same name.`,
-                ability3: `At the Start of Quest, increase own Arts by 100.`
-
-            }, 
         evolution: 
             {
                 evoawksuper:
@@ -32405,6 +32398,84 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Shaula, increase own Arts by 2/s and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.",
                         ability2: "Increase own Accuracy by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104177412,
+        name: `World's End Leone`,
+        attribute: `Light`,
+        type: `Demon`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104176412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104177412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104176412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104177412.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 7106,
+                hpplus: 1342,
+                atk: 3695,
+                atkplus: 641,
+                def: 2992,
+                defplus: 620
+            },
+        skillset:
+            {
+                skill: `13s CT - 4000% Light DMG (MAG). For 7s, reduce enemies' ATK by 20%.`,
+                skillbreak: 700,
+                arts: `22000% Light DMG (MAG). 80% chance to inflict Paralysis for 6s. 80% chance to inflict Poison for 25s.`,
+                artsbreak: 1000,
+                truearts: `68000% Light DMG (MAG). For 20s, increase allies' Arts by 4/s (Type B) and allies' unaffected by Status ailment(s) Arts by an additional 4/s (Type H). When used for the first time, double the Arts generation from this True Arts.\nNote: This unit's Arts Gen is Type B/H and will not stack with other Type B/H Arts Gen.`,
+                trueartsbreak: 2000,
+                superarts: `180000% Light DMG (MAG). For 30s, reduce enemies' DMG RES by 100% and cure enemies' Poison, Blind, Disease and Burn. Reduce enemies' DMG RES by an additional [100% x # of Status ailments cured on enemy by Super Arts].`,
+                superartsbreak: 2400
+            },
+        passive:
+            {
+                ability1: `When an ally activates Magia Drive, its duration gets extended by an additional 120s. If ownself is not affected by Status ailment(s), increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase Lifesteal RES by 70%.`,
+                ability3: `Increase own MAG RES by 10%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Elder Blood",
+                slot: "/db/Mines/thumbnail/phyLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113411.png",
+                skill: "60s CT - 6000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally if user is Demon, for 8s, reduce enemies' MAG RES by 30%.",
+                skillbreak: 600,
+                passive:
+                    {
+                        ability1: "When equipped by World's End Leone, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own PHY RES by 5%."
                     }
             },
         lore:
@@ -40769,7 +40840,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `15000% Dark DMG (PHY). For 25s, increase own Max HP by 60% and redirect 40% of Allies' DMG taken to self. `,
                 artsbreak: 1000,
-                truearts: `52000% Dark DMG (PHY). For 25s, reduce enemies' Dark RES by 80% and increase Arts gauge of all allies unaffected by status ailments by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.`,
+                truearts: `52000% Dark DMG (PHY). For 25s, reduce enemies' Dark RES by 80% and increase Arts gauge of all allies unaffected by status ailments by 4/s.\nNote: This unit's Arts Gen is Type H and will not stack with other Type H Arts Gen.`,
                 trueartsbreak: 1600,
                 superarts: `140000% Dark DMG (PHY). For 20s, reduce enemies' PHY RES based on how high this unit's HP is when Super Arts is activated (MAX: 200%).`,
                 superartsbreak: 2000
@@ -44100,9 +44171,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Kamijou Touma - JP Complete - Missing Lore
+    { //Touma Kamijou - JP Complete
         id: 108177212,
-        name: `Kamijou Touma`,
+        name: `Touma Kamijou`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -44149,8 +44220,8 @@ const UnitInformation = [
                 ability1: `When this unit takes lethal DMG, prevent HP from dropping below 1 HP for 5s. Increase own Arts by 100. For 25s, increase own ATK by 100%. Ability can only be activated once per Quest.`,
                 ability2: `Increase own Paralysis & Freeze RES by 100%.`,
                 ability3: `When near-death, increase own Skill CT Speed by 20%.`,
-                ability4: `Unit EXP UP 20% UP. (When Kamijou Touma's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Kamijou Touma's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Touma Kamijou's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Touma Kamijou's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -44165,14 +44236,14 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Kamijou Touma's Uniform`,
+                name: `Touma Kamijou's Uniform`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154331.png",
                 skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, for 10s, increase own PHY DMG by 50%. If own HP is below 70%, heal 30% of MAX HP instead.`,
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Kamijou Touma, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Touma Kamijou, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
