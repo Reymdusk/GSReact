@@ -36743,7 +36743,7 @@ const EquipInformation = [
     },
     {
         id: 113191,
-        name: `カナリアの全力100%ビキニ`,
+        name: `カナリアの全力100ビキニ`,
         translate: `Canaria's 100% Full-Power Bikini `,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
