@@ -9195,7 +9195,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase Critical rate by 100% to paralyzed enemies (only once)`
             },
         lore: `A young Spirit of the Paw People. He says that he was saved by Fen, the Head of General Staff in Gramenia, but Fen says he didn't. Ru has his own way and is a curious fellow so that might be the reason he gets along with Gen in some ways. His battle abilities are not so high, but Fen has a high opinion on him due to his quick moves and using his small body to do spying that Humans cannot do.`
     },
@@ -36743,7 +36743,7 @@ const EquipInformation = [
     },
     {
         id: 113191,
-        name: `カナリアの全力100%ビキニ`,
+        name: `カナリアの全力100%25ビキニ`,
         translate: `Canaria's 100% Full-Power Bikini `,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
