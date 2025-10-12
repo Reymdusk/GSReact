@@ -21,7 +21,9 @@ const EquipDetails = () =>{
 const EquipHome = () => {
     //Equip Info
     const selectedEquip = useParams(); //Find Equip name based on parameters
-    const equips = getEquipByName(selectedEquip.equipName);
+    const decodedEquipName = decodeURIComponent(selectedEquip.equipName)
+    const equips = getEquipByName(decodedEquipName);
+    
 
     //Tabs for Equip Lore and Stats
     const [currentTab, setCurrentTab] = useState("1");

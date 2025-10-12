@@ -252,13 +252,15 @@ const RenderEquips = ({ equips, searchType, filters, query, sortOrder, sortRarit
             {
                 currentView === "card" ? (
                     equipsToShow.map(equip => {
+                    //Ensure can display % symbol in URL
+                    const encodedTitle = encodeURIComponent(equip.name)
                     return (
                         <>
                             { equip.name !== "???" &&
                                 <Col  xs="4" sm="auto">
                                     <center key={equip.id}>
                                         <Card style={{width: "120px", backgroundColor: "#202022", border: "none"}}>
-                                            <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
+                                            <Link to={`/equips/${encodedTitle}`} style={{textDecoration: "none", color: "#aaabb8"}} >
                                                 <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
                                                 <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p></center>
                                             </Link>
@@ -281,12 +283,14 @@ const RenderEquips = ({ equips, searchType, filters, query, sortOrder, sortRarit
                         <tbody>
                             {
                                 equipsToShow.map(equip => {
+                                    //Ensure can display % symbol in URL
+                                    const encodedTitle = encodeURIComponent(equip.name)
                                     return (
                                         <tr>
                                             { equip.name !== "???" &&
                                                 <td style={{paddingTop: "1em"}}>
                                                     <center>
-                                                    <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
+                                                    <Link to={`/equips/${encodedTitle}`} style={{textDecoration: "none", color: "#aaabb8"}} >
                                                         <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
                                                         <p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p>
                                                     </Link>
