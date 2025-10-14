@@ -43,7 +43,7 @@ export default function Tierlist() {
                             className={classNames({ active: currentTab === '1' })}
                             onClick={() => { toggle('1') }}
                             >
-                            General Units
+                            General Tierlist
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -51,7 +51,7 @@ export default function Tierlist() {
                             className={classNames({ active: currentTab === '2' })}
                             onClick={() => { toggle('2') }}
                             >
-                            Luck Units
+                            Detailed Tierlist
                         </NavLink>
                     </NavItem>
                 </Nav>
@@ -60,7 +60,7 @@ export default function Tierlist() {
                         <DisplayAccordion unit={units} />
                     </TabPane>
                     <TabPane tabId="2">
-                        <DisplayLuck unit={units} />
+                        <DisplayDetail unit={units} />
                     </TabPane>
                 </TabContent> */}
             </Row>
@@ -110,23 +110,26 @@ function DisplayHeader(){
 
 function DisplayAccordion({unit}) {
     return (
-        <UncontrolledAccordion flush defaultOpen={["SSS", "SS", "S", "A+", "A", "A-", "B+", "B", "B-", "C", "F", "TBD"]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
-            <DisplayRank unit={unit} rank="SSS" />
-            <DisplayRank unit={unit} rank="SS" />
-            <DisplayRank unit={unit} rank="S" />
-            <DisplayRank unit={unit} rank="A+" />
-            <DisplayRank unit={unit} rank="A" />
-            <DisplayRank unit={unit} rank="A-" />
-            <DisplayRank unit={unit} rank="B+" />
-            <DisplayRank unit={unit} rank="B" />
-            <DisplayRank unit={unit} rank="B-" />
-            <DisplayRank unit={unit} rank="C" />
-            <DisplayRank unit={unit} rank="F" />
+        <UncontrolledAccordion flush defaultOpen={["SS", "S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F"]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
+            <DisplayRank unit={unit} rank=13 />
+            <DisplayRank unit={unit} rank=12 />
+            <DisplayRank unit={unit} rank=11 />
+            <DisplayRank unit={unit} rank=10 />
+            <DisplayRank unit={unit} rank=9 />
+            <DisplayRank unit={unit} rank=8 />
+            <DisplayRank unit={unit} rank=7 />
+            <DisplayRank unit={unit} rank=6 />
+            <DisplayRank unit={unit} rank=5 />
+            <DisplayRank unit={unit} rank=4 />
+            <DisplayRank unit={unit} rank=3 />
+            <DisplayRank unit={unit} rank=2 />
+            <DisplayRank unit={unit} rank=1 />
         </UncontrolledAccordion>
     )
 }
 
-function DisplayLuck({unit}) {
+//TODO
+function DisplayDetail({unit}) {
     return (
         <UncontrolledAccordion flush defaultOpen={["SSS", "SS", "S", "A", "B", "C", "F", "TBD"]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
             <DisplayLuckRank unit={unit} rank="SS" />
@@ -148,7 +151,55 @@ function DisplayRank({unit, rank}) {
     return (
         <>
             <AccordionHeader targetId={rank}>
-                <h1><strong>{rank}</strong></h1>
+                {
+                        //Variable to display rank
+                        let ranking
+                        switch(rank)
+                        {
+                                    case 13:
+                                                ranking = <h1><strong>SS</strong></h1> 
+                                                            break;
+                                    case 12:
+                                                ranking = <h1><strong>S</strong></h1> 
+                                                            break;
+                                    case 11:
+                                                ranking = <h1><strong>A+</strong></h1> 
+                                                            break;
+                                    case 10:
+                                                ranking = <h1><strong>A</strong></h1>
+                                                            break;
+                                    case 9:
+                                                ranking = <h1><strong>A-</strong></h1> 
+                                                            break;
+                                    case 8:
+                                                ranking = <h1><strong>B+</strong></h1> 
+                                                            break;
+                                    case 7:
+                                                ranking = <h1><strong>B</strong></h1> 
+                                                            break;
+                                    case 6:
+                                                ranking = <h1><strong>B-</strong></h1> 
+                                                            break;
+                                    case 5:
+                                                ranking = <h1><strong>C+</strong></h1> 
+                                                            break;
+                                    case 4:
+                                                ranking = <h1><strong>C</strong></h1> 
+                                                            break;
+                                    case 3:
+                                                ranking = <h1><strong>C-</strong></h1> 
+                                                            break;
+                                    case 2:
+                                                ranking = <h1><strong>D</strong></h1> 
+                                                            break;
+                                    case 1:
+                                                ranking = <h1><strong>F</strong></h1> 
+                                                            break;
+                                    default: 
+                                                null
+                        }
+                }
+                        {ranking}
             </AccordionHeader>
             <AccordionItem>
                 <AccordionBody accordionId={rank} style={accordionColor}>
