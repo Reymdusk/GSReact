@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup, UncontrolledAccordion, AccordionHeader, AccordionItem, AccordionBody,
             TabContent, TabPane, Nav, NavItem, NavLink} from 'reactstrap';
 import { getUnits } from '../shared/unitInfo';
@@ -66,6 +66,95 @@ export default function Tierlist() {
             </Row>
         </Container>
     )
+}
+
+function CreateTable({units}) {
+   //Set default Sort
+  const [data, setData] = useState([]);
+  const [sortConfig, setSortConfig] = useState({ key: "rank", direction: "desc" });
+
+   // Custom order for elements
+   const attributeOrder = ["Fire", "Water", "Earth", "Light", "Dark"];
+
+   //Sort Units to Default via Rank first, element second, ID third
+   const sortData = (key, direction = "asc") => {
+    const sorted = [...units].sort((a, b) => {
+      let result = 0;
+
+      // Primary sort (column clicked)
+      if (typeof a[key] === "number" && typeof b[key] === "number") {
+        result = a[key] - b[key];
+      } else if (key === "attribute") {
+        result = attributeOrder.indexOf(a.attribute) - attributeOrder.indexOf(b.attribute);
+      } else {
+        result = String(a[key]).localeCompare(String(b[key]));
+      }
+
+      // Adjust for ascending/descending
+      if (direction === "desc") result *= -1;
+
+      // Secondary sort (element order) if equal
+      if (result === 0) {
+        const attrDiff =
+          attributeOrder.indexOf(a.attribute) - attributeOrder.indexOf(b.attribute);
+        if (attrDiff !== 0) return attrDiff;
+      }
+
+      // Tertiary sort (ID) if still equal
+      if (result === 0) {
+        return a.id - b.id;
+      }
+
+      return result;
+    });
+
+    setData(sorted);
+  };
+
+            return (
+    <table border="1" cellPadding="5">
+      <thead>
+        <tr>
+            <th>Name</th>
+          <th onClick={() => handleSort("rank")} style={{ cursor: "pointer" }}>
+            Rank {sortConfig.key === "rank" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+          <th onClick={() => handleSort("defense")} style={{ cursor: "pointer" }}>
+            Defense {sortConfig.key === "defense" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+          <th onClick={() => handleSort("artgen")} style={{ cursor: "pointer" }}>
+            Arts Generation {sortConfig.key === "artGen" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+          <th onClick={() => handleSort("damage")} style={{ cursor: "pointer" }}>
+            Damage {sortConfig.key === "damage" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+          <th onClick={() => handleSort("buffs")} style={{ cursor: "pointer" }}>
+            Buffs {sortConfig.key === "buffs" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+          <th onClick={() => handleSort("heal")} style={{ cursor: "pointer" }}>
+            Heal {sortConfig.key === "heal" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+          <th onClick={() => handleSort("break")} style={{ cursor: "pointer" }}>
+            Break {sortConfig.key === "break" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((char, index) => (
+          <tr key={index}>
+            <td>{char.name}</td>
+            <td>{char.tier.rank}</td>
+            <td>{char.tier.defense}</td>
+            <td>{char.tier.artgen}</td>
+            <td>{char.tier.damage}</td>
+            <td>{char.tier.buffs}</td>
+            <td>{char.tier.heal}</td>
+            <td>{char.tier.break}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
 }
 
 function DisplayHeader(){
