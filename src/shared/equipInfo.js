@@ -36639,7 +36639,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 8000% Earth DMG (Physical). 70% chance to inflict Poison for 10s. Reduce Poisoned enemies' Physicalresistance by 30% for 10s.`,
+                skill: `60s CT - 8000% Earth DMG (Physical). 70% chance to inflict Poison for 10s. Reduce Poisoned enemies' Physical resistance by 30% for 10s.`,
                 break: 600
             },
         passive: 
@@ -37540,6 +37540,68 @@ const EquipInformation = [
         passive:
             {
                 ability1: `Increase own Curse resistance by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113441,
+        name: `真『ヴァリスティア』`,
+        translate: `True "Valistier"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 10000% Earth DMG (Physical). For 8s, reduce enemies' Earth resistance by 30%. Additionally if user is Beast, reduce enemies' DMG resistance by 20%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Atla, increase own Paralysis resistance and Diseases resistance by 100% and increase own Super CRI rate by 10%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113451,
+        name: `勇機弓『ヴァリスティア』`,
+        translate: `Brave Bow "Valistier"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6000% Earth DMG (Physical). For 8s, increase own Earth DMG by 50%. Additionally if used for the first time, increase own Arts by 50.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
@@ -50503,7 +50565,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "25s CT - 5000% Dark DMG (Physical). Reduce enemies' Physicalresistance by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
+                skill: "25s CT - 5000% Dark DMG (Physical). Reduce enemies' Physical resistance by 15% (stackable) for 15s. Additionally if user is Dark, increase own Arts by 10.",
                 break: 500,
             },
         passive: 
@@ -50599,14 +50661,13 @@ const EquipInformation = [
         passive: 
             {
                 ability1: "When equipped by Saitama, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
-                ability2: "Increase own Physicalresistance by 5%."
+                ability2: "Increase own Physical resistance by 5%."
             },
         lore: `Missing Lore.`
     },
-    { //真『御坂美琴のコイン』 - JP Complete - Missing Lore
+    { //True "Mikoto's Coin" - Missing Lore
         id: 154321,
-        name: `真『御坂美琴のコイン』`,
-        translate: `True "Misaka Mikoto's Coin"`,
+        name: `True "Mikoto's Coin"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -50630,15 +50691,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Misaka Mikoto, the Magic resistance Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Mikoto Misaka, the Magic resistance Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『上条当麻の制服』 - JP Complete - Missing Lore
+    { //True "Touma's Uniform" - Missing Lore
         id: 154331,
-        name: `真『上条当麻の制服』`,
-        translate: `True "Kamijou's Uniform"`,
+        name: `True "Touma's Uniform"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -50662,15 +50722,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Kamijou Touma, increase own DMG resistance by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Touma Kamijo, increase own DMG resistance by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //御坂美琴のコイン - JP Complete - Missing Lore
+    { //Mikoto's Coin - Missing Lore
         id: 154341,
-        name: `御坂美琴のコイン`,
-        translate: `Misaka Mikoto's Coin`,
+        name: `Mikoto's Coin`,
         location: `A Certain Magical Index Collab Equip Gacha`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -50696,12 +50755,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //砂鉄の剣 - JP Complete - Missing Lore
+    { //Iron Sand Sword - Missing Lore
         id: 154351,
-        name: `砂鉄の剣`,
-        translate: `Iron Sand Sword`,
+        name: `Iron Sand Sword`,
         location: `A Certain Magical Index Collab Equip Gacha`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -50727,12 +50785,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //上条当麻の学生カバン - JP Complete - Missing Lore
+    { //Touma's Schoolbag - Missing Lore
         id: 154361,
-        name: `上条当麻の学生カバン`,
-        translate: `Kamijou Touma's Student Bag`,
+        name: `Touma's Schoolbag`,
         location: `A Certain Magical Index Collab Equip Gacha`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -50758,12 +50815,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //上条当麻の制服 - JP Complete - Missing Lore
+    { //Touma's Uniform - Missing Lore
         id: 154371,
-        name: `上条当麻の制服`,
-        translate: `Kamijou Touma's Uniform`,
+        name: `Touma's Uniform`,
         location: `A Certain Magical Index Collab Equip Gacha`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -50789,12 +50845,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //常盤台中学校の制服 - JP Complete - Missing Lore
+    { //Tokiwadai Middle School Uniform - Missing Lore
         id: 154381,
-        name: `常盤台中学校の制服`,
-        translate: `Tokiwadai Junior High School Uniform`,
+        name: `Tokiwadai Middle School Uniform`,
         location: `A Certain Magical Index Collab Equip Gacha`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -50820,12 +50875,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //風紀委員の腕章 - JP Complete - Missing Lore
+    { //Judgement Armband - Missing Lore
         id: 154391,
-        name: `風紀委員の腕章`,
-        translate: `Disciplinary Committee Armband`,
+        name: `Judgement Armband`,
         location: `A Certain Magical Index Collab Equip Gacha`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -50851,12 +50905,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ゲコ太のキーホルダー - JP Complete - Missing Lore
+    { //Croaker Strap - Missing Lore
         id: 154401,
-        name: `ゲコ太のキーホルダー`,
-        translate: `Gekota Keychain`,
+        name: `Croaker Strap`,
         location: `A Certain Magical Index Collab Event Quest`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -50882,12 +50935,11 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『アクセラレータの杖』- JP Complete - Missing Lore
+    { //True "Accelerator's Crutch" - Missing Lore
         id: 154411,
-        name: `真『アクセラレータの杖』`,
-        translate: `True "Accelerator's Crutch"`,
+        name: `True "Accelerator's Crutch"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -50912,14 +50964,13 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `When equipped by Accelerator, increase own Break PWR by 50%. At the Start of Quest, increase own Arts by 100. Does not stack with abilities of the same name.`,
-                ability2: `Increase own Physicalresistance by 5%.`
+                ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『歩く教会だったもの』- JP Complete - Missing Lore
+    { //True "Torn Walking Church" - Missing Lore
         id: 154421,
-        name: `真『歩く教会だったもの』`,
-        translate: `True "Former Walking Church"`,
+        name: `True "Torn Walking Church"`,
         location: `Alchemy Shop`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -51044,7 +51095,7 @@ const EquipInformation = [
     { //歩く教会だったもの - JP Complete - Missing Lore
         id: 154461,
         name: `歩く教会だったもの`,
-        translate: `Former Walking Church`,
+        translate: `Torn Walking Church`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -51221,7 +51272,7 @@ const EquipInformation = [
         passive:
             {
                 ability1: `When equipped by Stark, increase own Accuracy by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own Physicalresistance by 5%.`
+                ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Missing Lore.`
     },
@@ -51400,7 +51451,7 @@ const EquipInformation = [
             },
         passive:
             {
-                ability1: `Increase own Physicalresistance by 5%.`,
+                ability1: `Increase own Physical resistance by 5%.`,
                 ability2: ``
             },
         lore: `Missing Lore.`
@@ -51430,7 +51481,7 @@ const EquipInformation = [
             },
         passive:
             {
-                ability1: `Increase own Physicalresistance by 5%.`,
+                ability1: `Increase own Physical resistance by 5%.`,
                 ability2: ``
             },
         lore: `Missing Lore.`
@@ -51492,7 +51543,7 @@ const EquipInformation = [
         passive:
             {
                 ability1: `When equipped by Ubel, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own Physicalresistance by 5%.`
+                ability2: `Increase own Physical resistance by 5%.`
             },
         lore: `Missing Lore.`
     },

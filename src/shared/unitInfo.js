@@ -32468,7 +32468,7 @@ const UnitInformation = [
         trueweapon:
             {
                 name: "Elder Blood",
-                slot: "/db/Mines/thumbnail/phyLB.png",
+                slot: "/db/Mines/thumbnail/physlb.png",
                 detail: "/db/Equipment/Detail/item_detail_113411.png",
                 skill: "60s CT - 6000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally if user is Demon, for 8s, reduce enemies' MAG RES by 30%.",
                 skillbreak: 600,
@@ -32476,6 +32476,84 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by World's End Leone, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.",
                         ability2: "Increase own PHY RES by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104187312,
+        name: `Atla`,
+        attribute: `Earth`,
+        type: `Beast`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104186312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104187312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104186312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104187312.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7029,
+                hpplus: 1328,
+                atk: 3696,
+                atkplus: 641,
+                def: 3055,
+                defplus: 632
+            },
+        skillset:
+            {
+                skill: `12s CT - 4000% Earth DMG (PHY). For 8s, increase own Accuracy by 30%.`,
+                skillbreak: 700,
+                arts: `20000% Earth DMG (PHY). For 25s, increase allies' MAX HP by 30% and allies' CRI DMG by [50% x # of times own Arts has been used] (MAX: 300%).`,
+                artsbreak: 1000,
+                truearts: `52000% Earth DMG (MAG). For 30s, reduce enemies' CRI RES and Earth RES by 100%.`,
+                trueartsbreak: 1800,
+                superarts: `170000% Earth DMG (PHY). For 25s, reduce enemies' DMG RES (MAX: 200%) and increase allies' DMG RES (MAX: 50%) based on how low the enemies' HP is.`,
+                superartsbreak: 2400
+            },
+        passive:
+            {
+                ability1: `Increase own Arts by [2 x # of unique Races in Party]/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Arts by 3/s.`,
+                ability3: `Increase own Poison RES by 100%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 220,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Valistier",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113441.png",
+                skill: "55s CT - 10000% Earth DMG (PHY). For 8s, reduce enemies' Earth RES by 30%. Additionally if user is Beast, reduce enemies' DMG RES by 20%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Atla, increase own Paralysis RES and Diseases RES by 100% and increase own Super CRI rate by 10%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 5%."
                     }
             },
         lore:
@@ -44089,9 +44167,9 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Misaka Mikoto - JP Complete - Missing Lore
+    { //Mikoto Misaka - Missing Lore
         id: 108167412,
-        name: `Misaka Mikoto`,
+        name: `Mikoto Misaka`,
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -44138,8 +44216,8 @@ const UnitInformation = [
                 ability1: `When self is unaffected by Status Ailments, increase own DMG by 100%. For the first 90s of the Quest, increase own Arts by 3/s.`,
                 ability2: `Increase own DMG by [1% x own ATK/100].`,
                 ability3: `Increase all allies' Paralysis RES by 100%. (Only Once)`,
-                ability4: `Unit EXP UP 20% UP. (When Misaka Mikoto's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Misaka Mikoto's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Mikoto Misaka's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Mikoto Misaka's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -44154,26 +44232,26 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Misaka Mikoto's Coin`,
+                name: `Mikoto's Coin`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154321.png",
                 skill: `50s CT - 4000% Light DMG (MAG). For 60s, reduce enemies MAG RES by 20%. (Stackable)`,
                 skillbreak: 400,
                 passive: 
                     {
-                        ability1: `When equipped by Misaka Mikoto, the MAG RES Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Mikoto Misaka, the MAG RES Down effect of this equip is doubled. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Touma Kamijou - JP Complete
+    { //Touma Kamijo - JP Complete
         id: 108177212,
-        name: `Touma Kamijou`,
+        name: `Touma Kamijo`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -44220,8 +44298,8 @@ const UnitInformation = [
                 ability1: `When this unit takes lethal DMG, prevent HP from dropping below 1 HP for 5s. Increase own Arts by 100. For 25s, increase own ATK by 100%. Ability can only be activated once per Quest.`,
                 ability2: `Increase own Paralysis & Freeze RES by 100%.`,
                 ability3: `When near-death, increase own Skill CT Speed by 20%.`,
-                ability4: `Unit EXP UP 20% UP. (When Touma Kamijou's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Touma Kamijou's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Touma Kamijo's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Touma Kamijo's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -44236,21 +44314,21 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Touma Kamijou's Uniform`,
+                name: `Touma's Uniform`,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154331.png",
                 skill: `40s CT - 6000% Water DMG (PHY). If own HP is 70% or above, for 10s, increase own PHY DMG by 50%. If own HP is below 70%, heal 30% of MAX HP instead.`,
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: `When equipped by Touma Kamijou, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                        ability1: `When equipped by Touma Kamijo, increase own DMG RES by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                         ability2: `Increase own ATK by 5%.`
                     }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Accelerator - JP Complete - Missing Lore
@@ -44862,7 +44940,7 @@ const UnitInformation = [
         trueweapon:
             {
                 name: "Golden Ball",
-                slot: "/db/Mines/thumbnail/phyLB.png",
+                slot: "/db/Mines/thumbnail/physlb.png",
                 detail: "/db/Equipment/Detail/item_detail_154731.png",
                 skill: "45s CT - 7500% Earth DMG (PHY). For 10s, increase own Earth DMG by 50% and reduce enemies' PHY RES by 30%.",
                 skillbreak: 500,
@@ -45046,7 +45124,7 @@ const UnitInformation = [
         trueweapon:
             {
                 name: "Acrobatic Silky's Dress",
-                slot: "/db/Mines/thumbnail/phyLB.png",
+                slot: "/db/Mines/thumbnail/physlb.png",
                 detail: "/db/Equipment/Detail/item_detail_154811.png",
                 skill: "60s CT - 8000% Fire DMG (PHY). For 10s, reduce enemies' DMG RES by 20%. If user is Fire, reduce enemies' DMG RES by an additional 10%. If user is Spirit, reduce enemies' DMG RES by an additional 10%.",
                 skillbreak: 500,
@@ -45138,7 +45216,7 @@ const UnitInformation = [
         trueweapon:
             {
                 name: "Jiji's Soccer Ball",
-                slot: "/db/Mines/thumbnail/phyLB.png",
+                slot: "/db/Mines/thumbnail/physlb.png",
                 detail: "/db/Equipment/Detail/item_detail_154801.png",
                 skill: "50s CT - 10000% Dark DMG (PHY). For 10s, increase own PHY DMG and Dark DMG by 50%.",
                 skillbreak: 600,

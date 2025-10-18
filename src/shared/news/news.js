@@ -3695,6 +3695,44 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 111,
+        date: `October 18, 2025`,
+        article: 
+        {
+            intro: `A new unit and equips have come to JP as part of the Rabbids saga! Meanwhile on Global, A Certain Magical Index Collab has arrived with new units and equips!`,
+            new:
+                {
+                    units: [
+                        [`Atla`, 104187312]
+                    ],
+                    equips: [
+                        [`真『ヴァリスティア』`, 113441],
+                        [`勇機弓『ヴァリスティア』`, 113451]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [                        
+                        [`Mikoto Misaka`, 108167412],
+                        [`Touma Kamijo`, 108177212]
+                    ],  
+                    equips: [
+                        [`True "Mikoto's Coin"`, 154321],
+                        [`True "Touma's Uniform"`, 154331],
+                        [`Mikoto's Coin`, 154341],
+                        [`Iron Sand Sword`, 154351],
+                        [`Touma's Schoolbag`, 154361],
+                        [`Touma's Uniform`, 154371],
+                        [`Tokiwadai Middle School Uniform`, 154381],
+                        [`Judgement Armband`, 154391],
+                        [`Croaker Strap`, 154401],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
