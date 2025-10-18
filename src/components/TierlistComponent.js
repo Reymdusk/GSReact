@@ -68,6 +68,9 @@ export default function Tierlist() {
     )
 }
 
+/* 
+TODO: HandleSort not defined?
+
 function CreateTable({units}) {
    //Set default Sort
   const [data, setData] = useState([]);
@@ -155,7 +158,7 @@ function CreateTable({units}) {
       </tbody>
     </table>
   );
-}
+} */
 
 function DisplayHeader(){
     return (
@@ -200,19 +203,19 @@ function DisplayHeader(){
 function DisplayAccordion({unit}) {
     return (
         <UncontrolledAccordion flush defaultOpen={["SS", "S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F"]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
-            <DisplayRank unit={unit} rank=13 />
-            <DisplayRank unit={unit} rank=12 />
-            <DisplayRank unit={unit} rank=11 />
-            <DisplayRank unit={unit} rank=10 />
-            <DisplayRank unit={unit} rank=9 />
-            <DisplayRank unit={unit} rank=8 />
-            <DisplayRank unit={unit} rank=7 />
-            <DisplayRank unit={unit} rank=6 />
-            <DisplayRank unit={unit} rank=5 />
-            <DisplayRank unit={unit} rank=4 />
-            <DisplayRank unit={unit} rank=3 />
-            <DisplayRank unit={unit} rank=2 />
-            <DisplayRank unit={unit} rank=1 />
+            <DisplayRank unit={unit} rank={13} />
+            <DisplayRank unit={unit} rank={12} />
+            <DisplayRank unit={unit} rank={11} />
+            <DisplayRank unit={unit} rank={10} />
+            <DisplayRank unit={unit} rank={9} />
+            <DisplayRank unit={unit} rank={8} />
+            <DisplayRank unit={unit} rank={7} />
+            <DisplayRank unit={unit} rank={6} />
+            <DisplayRank unit={unit} rank={5} />
+            <DisplayRank unit={unit} rank={4} />
+            <DisplayRank unit={unit} rank={3} />
+            <DisplayRank unit={unit} rank={2} />
+            <DisplayRank unit={unit} rank={1} />
         </UncontrolledAccordion>
     )
 }
@@ -236,14 +239,14 @@ function DisplayRank({unit, rank}) {
     const mobileWidth = "60%";//"60px";
     const desktopFont = "15px";
     const mobileFont = "12px";
+    let ranking
 
     return (
         <>
             <AccordionHeader targetId={rank}>
-                {
-                        //Variable to display rank
-                        let ranking
-                        switch(rank)
+                {/* {//Variable to display rank
+                        
+                        switch({rank})
                         {
                                     case 13:
                                                 ranking = <h1><strong>SS</strong></h1> 
@@ -286,8 +289,9 @@ function DisplayRank({unit, rank}) {
                                                             break;
                                     default: 
                                                 null
-                        }
-                }
+                        }} */}
+                        
+                
                         {ranking}
             </AccordionHeader>
             <AccordionItem>
