@@ -18290,8 +18290,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "The Dragon knight who earned his fame during a time of great strife within the Isliid Empire. He was loved by many, especially the children of the orphanage he established. However, his savagery on the battlefield struck utter fear into the enemy. Though he met an untimely death at the hands of an apprentice, his ideology formed the basis of the empire itself.",
+                evoawk: "Seeing the fire in another's heart always sparked passion in his own. Barossa held pride in the promise his apprentice had shown, but ultimately such power led him astray from the path of goodness. All the old Dragon warrior could do was entrust his daughter-like protégé to lead him back, by force if necessary. Aware of the blood, sweat, and tears shared between the two, he knew she would succeed."
             }
     },
     { //Mizuki - Complete
@@ -29041,7 +29041,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Summer Iris - Missing Lore + JP ver
+    { //Summer Iris - Complete
         id: 103727112,
         name: `Summer Iris`,
         translate: `Iris, Bursting Jubilation`,
@@ -29141,11 +29141,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Before visiting Bamint's beach, Mira helped her pick out a slightly more mature design than usual at the shop. Unsure about how rayas felt about swimsuits, she asked for his opinion only to receive an apathetic answer. This irked her enough to weak it fearlessly, and, just as expected, he struggled to keep his cool.",
+                evosuper: "She lit the fuse to launch fireworks into the night sky, creating flowers of red, blue, and green. This unfamiliar spectacle filled her with an odd nostalgia. Perhaps she was recalling memories that belonged to the other entity inside of her. She then turned to Rayas and saw him wearing a wide, carefree grin -- the one she loved so much. Her own face soon mirrored that joy."
             }
     },
-    { //Summer Fen - Missing Lore + JP ver
+    { //Summer Fen - Complete
         id: 103736212,
         name: `Summer Fen`,
         translate: `Wave Master Fen`,
@@ -29245,11 +29245,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Fen in full vacation mode. With Ru in tow, he takes the rare opportunity to immerse himself in surfing and fishing. His wave-riding skills are apparently legendary in some circles. According to Ru, his senses on the water are as sharp or even sharper than on the battlefield, with eyes like that of a predator.",
+                evosuper: "Known as a master surfer, his lust for the perfect wave has surpassed the bounds of leisure. He will ride back to shore with aplomb no matter how wild or punishing the conditions. Even so, he claims not to control or commandeer the swells. Whenever Ru slips off the board, he regretfully says rescue is impossible since mere mortals are powerless against the fury of nature."
             }
     },
-    { //Summer Riviera - Missing Lore
+    { //Summer Riviera - Complete
         id: 103747112,
         name: `Summer Riviera`,
         translate: `Pirate Queen Riviera`,
@@ -29357,11 +29357,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A member of the Leone Templars who took up piracy. Declaring \"First, you need to dress the part!\", she excitedly donned the symbolic hat and coat of a captain. These articles proved to be stuffier than expected for the weather, so she devised a reasonable solution: \"I'll just strip away everything underneath!\" Her normal outfit was traded for an unconventional yet fetching swimsuit.",
+                evosuper: "Wields the anchor of the ship named after her affiliated country. She thought it resembled her usual axes while matching the theme of her current ensemble. She sunk many a vessel during the Pirate Kingdom festival. The mere sight of her swinging with the fury of a sea deity caused even the hardiest hearties to shake like landlubber. She was not truly mad, but the lens of battle distorted her mirthful smile into one of lunacy."
             }
     },
-    { //Summer Rosetta - Missing Lore
+    { //Summer Rosetta - Complete
         id: 103757512,
         name: `Summer Rosetta`,
         translate: `Supercharged Genius Rosetta`,
@@ -29461,8 +29461,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Outfitted with powered armor Model RS-A12M (nicknamed the Rosetta Arm). She honestly does not understand the appeal of the design, and she only started to accept it after being praised by her fellow templars. That still did nothing to stem her embarrassment at how the researchers call her \"Iron Angel\" out of admiration.",
+                evosuper: "Equipped with the aerial strike armor dubbed the Rosetta Arm. She is far more appreciative of its function that its form, using it to fly over the city. Eventually, tourists came from all over Raktehelm to witness that sight. She tried suggesting ways to make the bare-bones attachments cuter, but both her researchers and residents were staunchly opposed to the idea."
             }
     },
     { //Goddess Celia - Complete
@@ -29670,7 +29670,7 @@ const UnitInformation = [
                 evosuper: "Charwolflotte, cohort of the all-feared dark witch who secretly plots to destroy the world. One swipe of her claws can cut down a great tree, and her legs can run miles in a single night. She dislikes raw meat, but sweets are irresistible. For whatever reason, she decided to include actual food preferences to her invented backstory, unintentionally ruining the tough image she wanted."
             }
     },
-    { //Halloween Valerie - Missing Lore + JP ver
+    { //Halloween Valerie - Complete
         id: 103787212,
         name: `Halloween Valerie`,
         translate: `Mighty Magical Valerie`,
@@ -29766,11 +29766,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An apprentice knight training under Zeorg, the Hero of Famelle. Normally she eschews looking cute for tomboyish styles, but Charlotte insisted she be a magical girl for Halloween. As she collected treats from the adults, they had nothing but praise for her outfit, much to her surprise. Although she continued to insist it does not suit her at all, she seemed a bit pleased.",
+                evosuper: "Eternal archrival to the dark magical girl Forte who wants to destroy the world. Her \"magic\" involves swinging a staff at full force, but with enough miraculous power, she can fire a massive, long-range beam. As long as this perfect figure of justice stands, order will be preserved... or so she wrote on a fresh page of her black-bound diary."
             }
     },
-    { //Halloween Forte - Missing Lore + JP ver
+    { //Halloween Forte - Complete
         id: 103797512,
         name: `Halloween Forte`,
         translate: `Pianissimo Figure Forte`,
@@ -29872,8 +29872,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Forte, changed into a child by a cursed jack-o-lantern. She is more expressive in this youthful form, finally able to release emotions repressed after the death of her parents. She runs amok through the streets on Halloween night to recapture that carefree innocence she was forced to leave behind.",
+                evosuper: "The dark magical girl Forte. Although her goal is to defeat Magical Valerie, she shows slight reluctance to fight. Unlike her archrival who solves problems through force, she tries to think outside the box, resolving their misunderstandings to become allies. Naturally, this backstory was established by someone who wanted the lonely figure of justice to make more friends."
             }
     },
     { //Isliid, Human Pinnacle - Complete
@@ -30077,7 +30077,7 @@ const UnitInformation = [
                 evosuper: `Took advantage of her malleability to indulge in a new obsession: sword-fighting. The strength of her conviction translates directly into actual power. She is also adorable enough to catch the eyes and excite the heart of anyone and everyone. That is largely the effects of magic at work, but her natural charm means less need to rely on her mystical charm.`
             }
     },
-    { //Ultimate Paladin Roy - Missing Lore
+    { //Ultimate Paladin Roy - Complete
         id: 103827212,
         name: `Ultimate Paladin Roy`,
         attribute: `Water`,
@@ -30173,11 +30173,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A young imperial knight who donned the Sainted Garb. Captain of the Fenrir Corps, he was then awarded the special rank of Paladin by the emperor. This included several privileges such as access to classified information, which he immediately used to confirm rumours about the Phantom Bullet...arming himself with the knowledge to shake all of Isliid.",
+                evosuper: "A Paladin who wields the blessed sword Gladius. After earning the highest honor, he committed the greatest dishonor: killing Emperor Isliid, his original motive for joining the knighthood. He had considered serval other indirect assassination methods before learning about the Phantom Bullet. With polished swordsmanship, a trained body, and remarkable vigilance, he became a truly strong warrior."
             }
     },
-    { //Merlette - Missing Lore
+    { //Merlette - Complete
         id: 103837412,
         name: `Merlette`,
         tier: 
@@ -30261,11 +30261,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A noblewoman who joined the Fenrir Corps. She returned from a lengthy sabbatical for a specific purpose. Her ladylike behavior changes in battle as enemies drop with each pull of the trigger. The veritable arsenal hidden in her skirt allows her to adapt to any situation. Since she always avoids explaining how she stores so many guns there, the only way to find out is to look.",
+                evosuper: "Returned to the Fenrir Corps in order to pursue a masked man. With top-class combat abilities, she blithely blasts through the opposition's numbers, earning her the secondary nickname of \"Crackpot\". Her personality clashes with Canaria's, but their fighting methods synergize so well that not even Jay can overcome them."
             }
     },
-    { //Hart the Fabricator - Missing Lore
+    { //Hart the Fabricator - Complete
         id: 103847512,
         name: `Hart the Fabricator`,
         tier: 
@@ -30353,11 +30353,11 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "He sinned with each pull of the trigger, and he pulled the trigger to flee from his sins. Even after expending his ammo, the connection to the World Tree persisted. He drew upon that hatred to fire imitation bullets which lasted long enough to deal damage. Thus, the cycle of sin and malice continues to restrain him.",
+                evosuper: "A magician strained by the sin of using the Phantom Bullet. The vermilion sorcery seal over his right arm appeared after firing his last one, allowing himself to shoot magic projectiles at sub-light speed even without his gun. Their bullet holes spread out like the blackened branches of the World Tree before fading without a trace."
             }
     },
-    { //Liza (Valentines) - Missing Lore + JP ver
+    { //Liza (Valentines) - Complete
         id: 103857312,
         name: `Liza (Valentines)`,
         translate: `Cute Confectioner Liza`,
@@ -30452,11 +30452,11 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The first princess of Gran Verge outfitted by the Shiny Sphere for Valentine's Day. The same power that transformed her also provided the incredibly specific ability to turn Goldola ooze into a sweetener. Believing special occasions called for special methods, she decided to make chocolates with that. Cygnet's thorough taste (poison) testing paid off; her treats were indeed marvelous.",
+                evosuper: "She received a mint-green dress reminiscent of forest fairies after the Shiny Sphere observed her true essence. This also improved her alchemic talents with which she used to prepare the Valentine's chocolates. Regardless, she personally hoped for an ensemble with more mature charm."
             }
     },
-    { //Cestina (Valentines) - Missing Lore
+    { //Cestina (Valentines) - Complete
         id: 103867212,
         name: `Cestina (Valentines)`,
         translate: `Pretty Patissière Cestina`,
@@ -30543,8 +30543,8 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An outfit made to gather ingredients for her cooking contest against her older sister. The cake knife-like sword cleanly cuts through any material, and her cream-filled macaron shield cushions any blow. It can be also be eaten, suitable for long excursions. The only problem is that she tends to eat too much, causing tightness around her waistline.",
+                evosuper: "To disprove her proud sister's claims, she is determined to make better sweets that her. Knowing that she lacked sheer talent, her approach was carefully selecting ingredients based on the preferences of the judges: her brothers. In imagining the smiling faces as they ate her perfectly crafted delicacies, the contests' purpose gradually shifted to simply enjoying time together."
             }
     },
     { //Lark - Missing Lore (JP)
@@ -30626,7 +30626,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Elenore - Missing Lore
+    { //Elenore - Complete
         id: 103887312,
         name: `Elenore`,
         tier: 
@@ -30710,11 +30710,11 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "One of the Six Witches of Grimm Stella. Known as the Witch of Peace, she gave the world many talented students. How she came to acquire such progressive ideas and knowledge was one of her greatest mysteries. Another was how she explained her neutral stance by saying, \"I can't interfere with this era.\" Asking for confirmation about any aspect of her background produced the same result: \"Would you rather focus on that or enjoy our time together?\"",
+                evosuper: "Known as the Watcher in a different era. The reason she decided to interfere (even as a neutral party) in this one could either be regret from the outcome of that time or a whim from when she did not yet know the future (saying \"when she was young\" around her can be fatal). Grimm Stella might have learned something, and modern Lithomancers continue their research in order to fully understand her."
             }
     },
-    { //Cometstreak Valerie - Missing Lore
+    { //Cometstreak Valerie - Complete
         id: 103897212,
         name: `Cometstreak Valerie`,
         tier: 
@@ -30800,11 +30800,11 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The newest member of the Adventurers' Guild Reigrad branch. Although she once trained alongside her best friend Charlotte under the hero Zeorg, the widening gap in ability convinced her to part ways with them. She sought to discover her weaknesses and strengths for the purpose of developing a fighting style of her own. The path was lonely, but she forged ahead, believing it would one day lead back to her old companion.",
+                evosuper: "A new adventurer who joined Rayas' journey. Born magic-deprived, Serah and Marika developed the Sorcel Igniter MP2 support device that allowed her to use spells for the first time. Whenever it feeds her with mana collected from the atmosphere, her hair turns bright red, also reflecting her heart ablaze with determination."
             }
     },
-    { //Verzard - Missing Lore
+    { //Verzard - Complete
         id: 103907112,
         name: `Verzard`,
         translate: `Velzard`,
@@ -30899,8 +30899,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An enigmatic Demon who suddenly attacked Rayas' party. The blade of his scythe appears to be formed by a blood-like substance, but as it continually regenerates, it does not appear to be his blood if at all. However, its color causes those learned in Demon history to shudder as his mention of the Realm of Red.",
+                evosuper: "A Demon who fights with a scythe made of blood. He hunts Rayas to carry out his mission of reclaiming the Moonchild. His disdain for all non-Demons is such that he does not even care to remember their names, including that of the Divine Knights' commander. Thus, him addressing the red-haired Human who he fought in La Riiz is an exception among exceptions."
             }
     },
     { //Azel - Missing Lore
@@ -31136,7 +31136,7 @@ const UnitInformation = [
                 evosuper: `Currently unreleased in Global.`
             }
     },
-    { //Dragon Authority Luahn - Missing Lore
+    { //Dragon Authority Luahn - Complete
         id: 103997512,
         name: `Dragon Authority Luahn`,
         translate: `Sword God Luahn`,
@@ -31226,8 +31226,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The former second prince of Gran Verge. He abandoned his royal post to wander in search of his servant Chloe, who became separated after the worlds diverged. Due to the differing temporal flow, forty years for him was two millennia for her. The faint hope that her curse of immortality did not wane sustained him as he raced against the ruthless march of time.",
+                evosuper: "When the Prima Rain fell two years after the Great Seal's destruction, his body became a vessel for the progenitor Dragon, Ama-no-Yuraragi. Presently, he governs the Dragons of the new world Altohelm. Continuing the search for the wayward Chloe with their aid, the pair was finally reunited in the sprawling forest near the Deus Gate."
             }
     },
     { //Summer Mira - Complete
@@ -31304,11 +31304,11 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "The result of her believing the \"one month to a sculpted figure\" slogan of Celia's strict training regimen. A period of intense deskwork and calorie-based stress relief brought her weight to a dangerous level (by personal assessment), but she overcame that trial and stepped out onto the beach in the best shape of her life (by personal assessment). It even drew a slack-jawed reaction from one thickheaded adventurer in particular, prompting a mental fist bump.",
+                evosuper: "Made the most of her honed physique by wearing a light blue bikini and performing a series of complex calculations to determine her best angle. While training for the Water God Festival on the Beasts' island, she spent the most time practicing this pose out of the belief it would let her clinch victory. The sight of her sparkling under the summer sun was said to have stunned the entire crowd."
             }
     },
-    { //Summer Celia - Missing Lore (JP)
+    { //Summer Celia - Complete
         id: 104017512,
         name: `Summer Celia`,
         attribute: `Dark`,
@@ -31382,8 +31382,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "The disgraced princess of Bamint in a dark violet bikini. Among the many swimsuits she tried, it was the majority preference among her servants. Being (presumed) ruler of the world, such an opportunity was rare, so the idea of witnessing her glory on the beach drove them ecstatic. However, this was joined by disgust at sharing it with the unworthy, that brash adventurer she admired most of all.",
+                evosuper: "The transcendent lady clad in the bikini most favored by her servants. Not only was this level of exposure noteworthy, the unimaginably stunning pose she struck while smiling was enough to enrapture any and all living things. Deeper than love at first sight, they were prepared to swear their immortal souls to her. Some servants still prefer her more proper side, however."
             }
     },
     { //Fiery Platoon Leader Charlotte - Missing Lore (JP)
@@ -39467,7 +39467,7 @@ const UnitInformation = [
                 author: `Jeffers`
             }
     },
-    { // Strength - Missing Lore (GL), Review done
+    { // Strength - Complete
         id: 107686112,
         name: "Strength",
         tier: 
@@ -39537,8 +39537,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "A surviving member of the Hemiteos Unit. She is convinced Empress is responsible for her spotty memory and occasional headaches. When equipped with the Gigantic Arms, she readily destroys anything and everything.",
+                evoawk: "Her impaired memory and destructive urges brought her to blows against Empress, but they came to an understanding afterwards. That aggressive personality completely vanishes when her arms are removed."
             },
         review:
             {
@@ -41715,7 +41715,7 @@ const UnitInformation = [
                 evosuper: `Making headlines as a professional gamer, his forte is fighting games. This means he even enjoys broken, buggy ones like Berserk Online Passion in his off-time. That predilection can be seen in his character choice of Monk with a close-quarters HP/VIT build.`
             }
     },
-    { //Momon - Missing Lore
+    { //Momon - Complete
         id: 107907512,
         name: `Momon`,
         tier: 
@@ -41803,8 +41803,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A traveling adventurer who has reached Adamantite-rank in the guild, the highest possible. Many of his peers respect his combat capabilities and professional manner. He rarely removes his helmet, but the few who have seen his face claim it looks \"normal\".",
+                evosuper: "Although hailed as champion in the Re-Estize Kingdom, his trueidentity is ruler of the Great Tomb of Nazarick, Ainz Ooal Gown. The full-body armor doubles as a disguise to let him blend into human society and gather information, and the \"normal\" face he rarely shows is also an illusion."
             }
     },
     { //Demiurge - Complete
@@ -41899,7 +41899,7 @@ const UnitInformation = [
                 evosuper: `As the brains of Nazarick, he enacts an intricate web of plots for the sake of his sworn master Ainz Ooal Gown. He shows no mercy to anyone who interferes, even his own peers.`
             }
     },
-    { //Evileye - Missing Lore
+    { //Evileye - Complete
         id: 107927312,
         name: `Evileye`,
         tier: 
@@ -41987,8 +41987,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An Adamantite-rank adventurer of the Blue Roses. Mysterious and masked, she boasts the greatest strength of her group. Even though she acts haughty towards the other members, she does her best to protect them. A similar contrast can be seen in her dated vocabulary and youthful face.",
+                evosuper: "Her true identity is a Vampire Lord who has lived over two-hundred fifty years. That long life means she knows much more about the world than the members of Nazarick. When the Dark Hero Momon saved her life, she fell in love for the first time."
             }
     },
     { //Uzu Sanageyama - Complete + JP ver
@@ -42102,7 +42102,7 @@ const UnitInformation = [
                 evosuper: `Empowered by defeat, he gains further strength from his custom Goku Uniform, the Blade Regalia. All of his senses besides sight are honed razor-sharp, granting him Shingantsu which allows for instant reactions. When fighting Ryuko a second time, he overwhelmed her with his improved abilities, techniques, and resolve.`
             }
     },
-    { //Houka Inumuta - Missing Lore + JP ver
+    { //Houka Inumuta - Complete
         id: 107947212,
         name: `Houka Inumuta`,
         attribute: `Water`,
@@ -42201,8 +42201,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `A member of the Honnouji Academy's Elite Four, serving as both student council treasurer and information & strategy committee head. His intellect and curiosity is unmatched. As a junior high student, he hacked the REVOCS Corporation database purely to test his skills against the strongest security system in the world, sending their stock price into a free-fall.`,
+                evosuper: `The brains of Honnouji Academy, dressed in his personalized Goku Uniform. Touch panels line his arms, back, and upper legs, letting him type at high speeds even in the middle of battle to analyze his opponent's data. With accurate predictions and prompt feedback, he always holds the upper hand.`
             }
     },
     { //Ira Gamagoori - Complete + JP ver
@@ -42787,7 +42787,7 @@ const UnitInformation = [
                 evosuper: `After losing to Illya and her friends, she ended up homeless in Japan. She currently peddles ice pops for Gakumazawa Beach House wearing their swimsuit-and-apron uniform, taking advantage of tourists by selling them at 300 yen apiece.`
             }  
     },
-    { //Summer Luvia & Rin - Missing Lore
+    { //Summer Luvia & Rin - Complete
         id: 108017312,
         name: `Summer Luvia & Rin`,
         tier: 
@@ -42875,11 +42875,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Punished by the Clock Tower, top authority of the Mage's Association, for the consequences of their constant quarrels. As a result, they must collect the Class Cards, but most of their attempts at cooperation still end in failure. Now, they're back in swimsuits!",
+                evosuper: "These two fight over everything, including the heart of Illya's brother Shirou Emiya. They put on swimsuits then gave him a truth serum or love potion or something and asked what he thought of them. All he had to say was \"Luvia has big breasts.\" and \"Rin has nice legs.\" Although embarrassed by these blunt compliments, the girls were no less pleased."
             }
     },
-    { //Summer Sakura - Missing Lore
+    { //Summer Sakura - Complete
         id: 108027512,
         name: `Summer Sakura`,
         tier: 
@@ -42967,8 +42967,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Shirou Emiya's junior in the academy's archery club. Her assertiveness around him seems to be born of fondness. She was also friendly with the Shirou from Miyu's parallel world, even going to his house to fix meals. She makes her Grand Summoners debut in a swimsuit!",
+                evosuper: "Her parallel world version perished in an event called the Holy Grail War. Despite this, she reappeared before Illya's party as an enemy. Whether because of her death or her lingering attachment to Shirou, her actions were tinged with insanity."
             }
     },
     { //Shadow - Complete
@@ -43155,7 +43155,7 @@ const UnitInformation = [
                 evosuper: `The public knows her as Natsume Kafka, a hit author. She takes advantage of that fame to gather intel for Shadow Garden. However, her works are no more than shameless copies of the stories Cid shared with her.`
             }
     },
-    { //Alpha - Missing Lore
+    { //Alpha - Complete
         id: 108047412,
         name: `Alpha`,
         tier: 
@@ -43243,8 +43243,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A beautiful elf with golden hair and blue eyes. As the first member of Shadow Garden, she leads the Seven Shadows who oversee the organization. With outstanding intellect, combat skill, and leadership qualities, she is practically flawless.",
+                evosuper: "A young Cid rescued her from the Cult of Diablos and cured her condition as one of the Possessed. Ever since, she committed her life to supporting his cause, leading Shadow Garden against the cult. However, she never knew that everything he told her was improvised nonsense."
             }
     },
     { //Delta - Complete
@@ -43339,7 +43339,7 @@ const UnitInformation = [
                 evosuper: `The daughter of a tribal chief, she was exiled after becoming one of the Possessed. Shadow then saved her, and she calls him "Bossman" out of appreciation. He greatly values her talents, saying she could even rule the world were she not so scatter-brained.`
             }
     },
-    { //Demon Lord Samurai Rimuru - Missing Lore
+    { //Demon Lord Samurai Rimuru - Complete
         id: 108077512,
         name: `Demon Lord Samurai Rimuru`,
         tier: 
@@ -43427,11 +43427,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Founder of the Jura-Tempest Federation in another world with the goal of providing a home for all kinds of monsters. Despite take the cute appearance of a woman from Japan named Shizue Izawa, Rimuru belongs to demon lord organization Octagram as the strongest slime in history.",
+                evosuper: "Shuna made this \"hakama\" for a look of imposing majesty. The thickness of the sleeves and the luxurious accessories create a regal, heroic air yet hamper mobility. Sworn friend Veldora took a single glance and remarked, \"This looks heavy.\"."
             }
     },
-    { //Shuna - Missing Lore
+    { //Shuna - Complete
         id: 108087412,
         name: `Shuna`,
         tier: 
@@ -43519,11 +43519,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Princess of the ogres and younger sister of Benimaru, she also serves as Rimuru's assistant. Friendly and outgoing, she has many roles such as facilitator in the Human-Monster Gathering.",
+                evosuper: "The lovely and talent ogre princess. Her stout-hearted nature means she never backs down from fear or danger. Rimuru has said she makes anything possible, meaning she is perhaps even more capable than official secretary Shion."
             }
     },
-    { //Veldora - Missing Lore
+    { //Veldora - Complete
         id: 108097312,
         name: `Veldora`,
         tier: 
@@ -43611,11 +43611,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "One of four dragons that exists in Rimuru's world. A Catastrophe-level danger, he was sealed in a cavern by a hero until Rimuru freed him. He then became a sworn ally and later took residence in the Jura-Tempest Federation.",
+                evosuper: "His original form is a fearsome black dragon, but Rimuru prepared a human-like body for hum. Despite his intelligence, he is simple and brash. The tendency to speak before thinking has caused no end of trouble for him and even Rimuru at times, but their bonds are true."
             }
     },
-    { //Shizu - Missing Lore
+    { //Shizu - Complete
         id: 108107112,
         name: `Shizu`,
         tier: 
@@ -43703,11 +43703,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "She was summoned from Rimuru's homeland of Japan and Ifrit, a superior master of flame, was bound to her body. When she became unable to restrain that power, Rimuru fought to save her. Ifrit was tamed, but she could not sustain herself any longer. She asked to be absorbed into Rimuru, where she fell fast asleep.",
+                evosuper: "Rayas' power restored her original form as a master of flame. Since summoning requires a vast amount of magicules, she suspects Rayas is nearly equal in power to Demon Lord Leon, a member of Octagram. She also decided to offer her life to him after noticing his bond with Rimuru."
             }
     },
-    { //Kenshin Himura - Missing Lore
+    { //Kenshin Himura - Complete
         id: 108117412,
         name: `Kenshin Himura`,
         tier: 
@@ -43795,11 +43795,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A mysterious wandering swordsman with a cross-shaped scar on his cheek who appeared in Tokyo during the eleventh year of the Meiji era. Defying the nationwide ban of swords, he keeps one at his waist, a sakabato that cannot kill. His gentle demeanor and determination to help those in need form a stark contrast to his past identity: Battosai Himura, legendary hitokiri of Bakumatsu.",
+                evosuper: "Once known as Hitokiri Battosai, the most feared assassin in Japan. His kenjutsu school of swordplay is historic Hiten Mitsurugi-ryu. Despite this, he swore never to kill again with the Bakumatsu period's end, instead using his weapon to protect the people."
             }
     },
-    { //Sanosuke Sagara - Missing Lore
+    { //Sanosuke Sagara - Complete
         id: 108127212,
         name: `Sanosuke Sagara`,
         tier: 
@@ -43887,11 +43887,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Once a fighter for hire who went by the name \"Zanza\", taking on pointless battles for others. He changed his way of life after being defeated by Kenshin Himura. He is sympathetic and hot-blooded at his core, but he tends to become hopelessly lost when travelling.",
+                evosuper: "A survivor of the doomed Sekiho Army. He served as their vice-captain during the Boshin War despite being only a boy. However, the army commanders blamed the unit as traitorous and executed its leaders. He carried that grudge against authority, living his wild life...until meeting Kenshin."
             }
     },
-    { //Saito Hajime - Missing Lore
+    { //Saito Hajime - Complete
         id: 108137512,
         name: `Saito Hajime`,
         tier: 
@@ -43979,11 +43979,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Known to the public as police officer Goro Fujita, he is actually former captain of Shinsengumi's third unit. Unable to cast aside his motto of \"Swift death to evil\" even after the government's reformation, he continues the fight to uphold it.",
+                evosuper: "Carries out the Shinsengumi's mission from the shadows after their disbanding. He acts as a spy to extract the evil that attempts to prey upon the new Meiji administration. The Wolf of Mibu still slices through malefactors in the night."
             }
     },
-    { //Makoto Shishio - Missing Lore
+    { //Makoto Shishio - Complete
         id: 108147112,
         name: `Makoto Shishio`,
         tier: 
@@ -44071,11 +44071,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A terrorist who rose in infamy during the Meiji era. Wrapped in bandages and commanding his team of killers, the Juppongatana, he seeks to overthrow the new government. The first part of his scheme is to set all of Kyoto aflame.",
+                evosuper: "An assassin from the Ishin Shishi in the turbulent Bakumatsu period. He took the place of Himura Kenshin as hitokiri, but the loyalists who knew of his deeds decided to eliminate him. That act of betrayal is one of many events which convinced him only the fittest survive."
             }
     },
-    { //Hero Saitama - Missing Lore
+    { //Hero Saitama - Complete
         id: 108157412,
         name: `Hero Saitama`,
         tier: 
@@ -44163,8 +44163,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Started as a Hero for fun. After three years of intense training, he gained the power to defeat any opponent with a single punch. He and his pupil Genos then joined the Hero Association to attain professional status.",
+                evosuper: "A professional Hero who coolly responds to any call for help. With overwhelming strength, he can obliterate the mightiest foes in one strike. However, that strength is overwhelming to the point that measuring it is impossible."
             }
     },
     { //Mikoto Misaka - Missing Lore
@@ -44495,7 +44495,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Frieren - Missing Lore
+    { //Frieren - Complete
         id: 108207412,
         name: `Frieren`,
         tier: 
@@ -44583,11 +44583,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A member of the Hero's party who defeated the Demon King, an elf mage over a thousand years old. Although she is interested in all things magical, the subtle workings of the heart elude her. The death of Himmel encouraged her to take a journey to better understand humans.",
+                evosuper: "A mage who has killed more demons than anyone in history. Not only does she have spells specialized in killing then, she keeps her mana restrained except when absolutely necessary for the purpose of deceiving them."
             }
     },
-    { //Fern - Missing Lore
+    { //Fern - Complete
         id: 108217212,
         name: `Fern`,
         tier: 
@@ -44675,11 +44675,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A mage who joined Frieren's travels as her apprentice. She was previously adopted by the priest Heiter, who was a member of the Hero's party. Thorough and level-headed, she looks after Frieren. She is also very considerate, shown in how she takes special care of gifts.",
+                evosuper: "A first-class mage with superb talent/ Admiring the long-lived elves, she adopted their ability to control and observe mana. Her repertoire of basic spells, such as Zoltraak, can be rapid-fired to overpower foes."
             }
     },
-    { //Stark - Missing Lore
+    { //Stark - Complete
         id: 108227112,
         name: `Stark`,
         tier: 
@@ -44767,11 +44767,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A skilled warrior who yearns to fight for others. Raised by Eisen, a member of the Hero's party, he joins Frieren and Fern on their silly journey to experience the same joy his master did.",
+                evosuper: "A dependable front-line fighter with rare talent. His master Eisen poured all of his knowledge as a warrior into him. Although he has cowardly tendencies, his gentle nature prevents him from abandoning those in need."
             }
     },
-    { //Ubel - Missing Lore
+    { //Ubel - Complete
         id: 108237312,
         name: `Ubel`,
         translate: `Übel`,
@@ -44860,8 +44860,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A mage whose talkative nature and faint smile mask a bloodthirsty personality. Her best spell is Reelseiden which can cut almost anything. When she took the second-class mage exam, she ended up killing the proctor with it and instantly failed.",
+                evosuper: "A mage who passed the first-class mage exam alongside Fern. She has the ability to use the specialty magic of people she empathizes with. She acts purely on sensation, sometimes even triumphing over reason and logic."
             }
     },
     {
@@ -44952,8 +44952,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `A high school boy who is obsessed with the occult. He had no friends until he was saved from bullies by Momo.`,
+                evosuper: `He ended up being cursed by Turbo Granny, a yokai of urban legend who lurks in highway tunnels and can run 100km/h. However, that also gave him her powers.`
             }
     },
     {
@@ -45044,8 +45044,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `A trendy high school girl who likes hard-boiled tough guys. She was raised by her spirit medium grandmother and has a strong sense of justice. Her fated meeting with Okarun happened because she defended him from bullies.`,
+                evosuper: `A high school girl descended from spirit mediums. When she was captured by aliens, her grandmother's training to project her spirit took effect, unleashing her latent psychic powers.`
             }
     },
     {
@@ -45136,8 +45136,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `A popular girl who attends the same school as Momo and Okarun. Believing she was chosen to save the world, she mistook Momo as a demon for her psychic powers. Meanwhile, she tries to flirt with Okarun.`,
+                evosuper: `She received the aura of Acrobatic Silky or Acro-Silku - a yokai so named for her graceful movements and long hair. This also granted her the same powers.`
             }
     },
     {
@@ -45228,8 +45228,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Missing Lore.`,
-                evosuper: `Missing Lore.`
+                evoawk: `Momo's childhood friend and classmate, handsome and outgoing. He asked for her help to solve the supernatural phenomenon at his family's home.`,
+                evosuper: `A child killed in a ritual sacrifice became a yokai known as the Evil Eye and put suicidal thoughts into the minds of everyone who lived there. After being possessed, he turns into a monster whenever he touches cold liquid.`
             }
     },
 ];
