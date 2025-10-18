@@ -31233,6 +31233,16 @@ const UnitInformation = [
     { //Summer Mira - Complete
         id: 104007212,
         name: `Summer Mira`,
+        tier: 
+            {
+                rank: 6,
+                defense: 0.58,
+                artgen: 0.00,
+                damage: 3.54,
+                buffs: 0.30,
+                heal: 0.94,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -31311,6 +31321,16 @@ const UnitInformation = [
     { //Summer Celia - Complete
         id: 104017512,
         name: `Summer Celia`,
+        tier: 
+            {
+                rank: 6,
+                defense: 0.06,
+                artgen: 1.73,
+                damage: 2.47,
+                buffs: 1.17,
+                heal: 4.98,
+                break: 0.00
+            },
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -39290,7 +39310,7 @@ const UnitInformation = [
         name: "Empress",
         tier: 
             {
-                rank: 11,
+                rank: 13,
                 defense: 1.04,
                 artgen: 1.66,
                 damage: 1.84,
@@ -43257,7 +43277,7 @@ const UnitInformation = [
                 artgen: 0.00,
                 damage: 4.71,
                 buffs: 0.33,
-                heal: 0.07,
+                heal: 0.13,
                 break: 0.00
             },
         attribute: `Fire`,
@@ -44170,6 +44190,16 @@ const UnitInformation = [
     { //Mikoto Misaka - Missing Lore
         id: 108167412,
         name: `Mikoto Misaka`,
+        tier: 
+            {
+                rank: 3,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 4.72,
+                buffs: 2.85,
+                heal: 0.61,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -44249,9 +44279,19 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Touma Kamijo - JP Complete
+    { //Touma Kamijo - Missing Lore
         id: 108177212,
         name: `Touma Kamijo`,
+        tier: 
+            {
+                rank: 3,
+                defense: 4.19,
+                artgen: 1.20,
+                damage: 1.75,
+                buffs: 2.87,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -44500,7 +44540,7 @@ const UnitInformation = [
         name: `Frieren`,
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 0.00,
                 artgen: 4.06,
                 damage: 3.16,
@@ -45056,7 +45096,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 2.08,
                 artgen: 1.99,
-                damage: 3.64,
+                damage: 3.72,
                 buffs: 1.92,
                 heal: 0.00,
                 break: 0.00
