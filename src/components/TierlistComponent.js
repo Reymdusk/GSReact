@@ -69,7 +69,7 @@ export default function Tierlist() {
 }
 
 /* 
-TODO: HandleSort not defined?
+TODO: Check if this works
 
 function CreateTable({units}) {
    //Set default Sort
@@ -112,6 +112,20 @@ function CreateTable({units}) {
     });
 
     setData(sorted);
+  };
+
+  // Default sort when component mounts (rank ↓)
+  useEffect(() => {
+    sortData("rank", "desc");
+  }, []);
+
+  const handleSort = (key) => {
+    let direction = "asc";
+    if (sortConfig.key === key && sortConfig.direction === "asc") {
+      direction = "desc";
+    }
+    setSortConfig({ key, direction });
+    sortData(key, direction);
   };
 
             return (
