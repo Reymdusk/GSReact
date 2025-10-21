@@ -255,12 +255,7 @@ function DisplayRank({unit, rank}) {
     const mobileFont = "12px";
     let ranking
 
-    return (
-        <>
-            <AccordionHeader targetId={rank}>
-                {/* {//Variable to display rank
-                        
-                        switch({rank})
+            switch({rank})
                         {
                                     case 13:
                                                 ranking = <h1><strong>SS</strong></h1> 
@@ -303,9 +298,11 @@ function DisplayRank({unit, rank}) {
                                                             break;
                                     default: 
                                                 null
-                        }} */}
-                        
-                
+                        }
+
+    return (
+        <>
+            <AccordionHeader targetId={rank}>
                         {ranking}
             </AccordionHeader>
             <AccordionItem>
