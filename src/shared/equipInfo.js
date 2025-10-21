@@ -10523,9 +10523,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True "Valheight" - Complete
+    { //True "Wahrheit" - Complete
         id: 104021,
-        name: `True "Valheight"`,
+        name: `True "Wahrheit"`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -52337,7 +52337,7 @@ const EquipInformation = [
     {
         id: 154871,
         name: `Kamissie Statue`,
-        type: `/db/Mines/thumbnail/magLB.png`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
             {

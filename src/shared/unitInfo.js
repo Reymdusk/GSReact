@@ -21504,7 +21504,7 @@ const UnitInformation = [
         name: "Bakoo",
         tier: 
             {
-                rank: 13,
+                rank: 12,
                 defense: 0.00,
                 artgen: 1.90,
                 damage: 1.70,
@@ -30464,7 +30464,7 @@ const UnitInformation = [
             {
                 rank: 4,
                 defense: 4.05,
-                artgen: 0.00,
+                artgen: 1.52,
                 damage: 0.60,
                 buffs: 0.00,
                 heal: 0.00,
@@ -35692,7 +35692,7 @@ const UnitInformation = [
         name: "Yusuke",
         tier: 
             {
-                rank: 10,
+                rank: 13,
                 defense: 0.00,
                 artgen: 1.44,
                 damage: 1.38,
