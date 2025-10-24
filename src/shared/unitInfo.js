@@ -45050,9 +45050,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                     mat2amt: 100,
-                    hover2: "Sinflow Soulgem"
+                    hover2: `Smogdragon Soulgem`
                 }
             },
         trueweapon:
@@ -45142,9 +45142,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 100,
-                    hover2: "Sinflow Soulgem"
+                    hover2: "Frostsprite Soulgem"
                 }
             },
         trueweapon:
@@ -45234,9 +45234,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 100,
-                    hover2: "Sinflow Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon:

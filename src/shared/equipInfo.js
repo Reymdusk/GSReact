@@ -52565,9 +52565,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 500,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:
             {
