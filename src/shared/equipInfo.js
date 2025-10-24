@@ -37606,6 +37606,223 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113461,
+        name: `十二代目の白衣`,
+        translate: `12th Generation White Coat`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113461.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 10s, increase allies' Arts by 4/s. Additionally if user is Water, heal allies' HP by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113471,
+        name: `キリサメシャーク`,
+        translate: `Kirisame Shark`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `25s CT - For 20s, increase allies' DMG resistance by 10% and Fire resistance by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113481,
+        name: `ハズキのハニーハッチ`,
+        translate: `Hazuki's Honey Hatch`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 7000% Light DMG (Physical). For 10s, increase own Arts DMG by 60%. Additionally when used for the first time, heal allies' HP by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113491,
+        name: `コクリのこんこんカチューシャ`,
+        translate: `Kokuri's KonKon Headband`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 7000% Fire DMG (Magic). For 10s, increase own Fire DMG and CRI DMG by 75%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113501,
+        name: `ロンロンロンシー`,
+        translate: `LongLongLong-shi`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 10000% Water DMG (Physical). For 20s, increase allies' DMG against Bleeding enemies by 80%.`,
+                skillbreak: 2000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113511,
+        name: `ライラのジャック・オー・ジャケット`,
+        translate: `Lyla's Jack-o'-Jacket`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `45s CT - For 20s, increase allies' Physical RES by 20%. Additionally for 20s, increase Physical RES of allied units with Elements other than the user’s by an additional 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Heal own HP by 4/s.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113521,
+        name: `真『モンストル』`,
+        translate: `True "Monstre"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 7000% Fire DMG (Magic). For 10s, increase own DMG by 30% and reduce enemies' Fire resistance by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Heal own HP by 4/s.When equipped by Pientz, increase own MAX HP by 20% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,

@@ -3733,6 +3733,36 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 112,
+        date: `October 25, 2025`,
+        article: 
+        {
+            intro: `Halloween has come for JP with buffs to existing Halloween units and even new Halloween equips! Moreover, Pientz has received his Dream Awakening with several buffs too!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`十二代目の白衣`, 113461],
+                        [`キリサメシャーク`, 113471],
+                        [`ハズキのハニーハッチ`, 113481],
+                        [`コクリのこんこんカチューシャ`, 113491],
+                        [`ロンロンロンシー`, 113501],
+                        [`ライラのジャック・オー・ジャケット`, 113511],
+                        [`真『モンストル』`, 113521]
+                    ],
+                    dream: [
+                        [`Pientz`, 102236111]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

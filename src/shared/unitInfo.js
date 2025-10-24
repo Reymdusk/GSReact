@@ -13245,7 +13245,7 @@ const UnitInformation = [
                 evoawk: "This is the ultimate form of Kamui reached when Senketsu has combined with all other Goku Uniforms during the last battle. Known as 'Senketsu Kisaragi', its enormous power could be said to be that of all humanity combined. With humanity's hope, she flies into the eternal sky..."
             }
     },
-    { //Pientz - Complete
+    { //Pientz - Complete + JP ver
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
@@ -13276,6 +13276,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6222,
@@ -13292,6 +13301,15 @@ const UnitInformation = [
                 arts: "8580% Fire DMG (MAG). For 10s, reduce Enemies' ATK and DEF by 30%.",
                 artsbreak: 2000,
                 truearts: "14550% Fire DMG (MAG). Reduce Boss' Arts by 30 + For 10s, increase Fire Allies' DMG by 30%.",
+                trueartsbreak: 3400
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1600% Fire DMG (MAG). For 8s, increase Allies' (except self) Skill CT REC by 20%.",
+                skillbreak: 900,
+                arts: "15000% Fire DMG (MAG). For 15s, reduce Enemies' ATK and DEF by 30%.",
+                artsbreak: 2000,
+                truearts: "32000% Fire DMG (MAG). Reduce Boss' Arts by 30 + For 15s, increase Fire Allies' DMG by 100%.",
                 trueartsbreak: 3400
             },
         passive: 
@@ -13311,6 +13329,47 @@ const UnitInformation = [
                     mat3amt: 20,
                     hover3: "Pientz",
                 }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160651.png`,
+                        mat2amt: 100,
+                        hover2: `Pientz Soulgem`
+                    },
+                    passive: {
+                        ability1: `Heal Fire allies' HP by 200/s and increase Fire allies' Water RES by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 2/s when above 80% HP.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160651.png`,
+                        mat2amt: 100,
+                        hover2: `Pientz Soulgem`
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAG DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase Fire allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Monstre",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113521.png",
+                skill: "60s CT - 7000% Fire DMG (MAG). For 10s, increase own DMG by 30% and reduce enemies' Fire RES by 30%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Pientz, increase own MAX HP by 20% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
+                    }
             },
         lore: 
             {   
@@ -29584,8 +29643,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103776112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103777112.png",
+                detailspecial: `/db/Units/Detail/unit_sp_detail_377_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103776112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103777112.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103777112.png",
+                thumbspecial: `/db/Units/Thumbnail/unit_sp_icon_377_1.png`
             },
         slots: 
             {
@@ -29623,9 +29684,9 @@ const UnitInformation = [
                 skillbreak: 300,
                 arts: `23000% Fire DMG (PHY). For 60s, increase own CRI DMG by 150%.`,
                 artsbreak: 800,
-                truearts: `80000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
+                truearts: `90000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
                 trueartsbreak: 1800,
-                superarts: `185000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 70%.`,
+                superarts: `220000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 100%.`,
                 superartsbreak: 2200
             },
         passive: 
@@ -29638,7 +29699,9 @@ const UnitInformation = [
             {
                 ability1: `Increase own CRI rate by 100% against enemies with 1 or more stacks of Bleed.`,
                 ability2: `Increase own Accuracy by 150% against enemies with 3 stacks of Bleed.`,
-                ability3: `Increase own Freeze RES by 80%.`
+                ability3: `Increase own Freeze RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Halloween Charlotte's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Halloween Charlotte's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -29690,8 +29753,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103786212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103787212.png",
+                detailspecial: `/db/Units/Detail/unit_sp_detail_378_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103786212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103787212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103787212.png",
+                thumbspecial: `/db/Units/Thumbnail/unit_sp_icon_378_1.png`
             },
         slots: 
             {
@@ -29727,11 +29792,11 @@ const UnitInformation = [
             {
                 skill: `11s CT - 1700% Water DMG (MAG). Increase own Arts by 30. If self is unafflicted by Status Ailments, increase Arts by 50 instead.`,
                 skillbreak: 500,
-                arts: `22000% Water DMG (MAG). For 25s, increase own ATK by 120%.`,
+                arts: `22000% Water DMG (MAG). For 30s, increase own ATK by 150%.`,
                 artsbreak: 700,
-                truearts: `60000% Water DMG (MAG). For 45s, reduce enemies' MAG RES by 70% (stackable).`,
+                truearts: `60000% Water DMG (MAG). For 45s, reduce enemies' MAG RES by 80% (stackable).`,
                 trueartsbreak: 1500,
-                superarts: `165000% Water DMG (MAG). For 20s, increase own DMG by 250% and ignore 100% of Enemies' DEF. Additionally when used for the first 2 times, resets the cooldown of own Magic Equips.`,
+                superarts: `185000% Water DMG (MAG). For 25s, increase own DMG by 250% and ignore 100% of Enemies' DEF. Additionally when used for the first 2 times, resets the cooldown of own Magic Equips.`,
                 superartsbreak: 2000
             },
         passive: 
@@ -29739,6 +29804,14 @@ const UnitInformation = [
                 ability1: `Increase all Allies' DMG RES with respect to how high own % of HP is (MAX: 30%). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [1% × own ATK/100].`,
                 ability3: `Increase own Paralysis RES by 80%.`
+            }, 
+        passive: 
+            {
+                ability1: `Increase all Allies' DMG RES with respect to how high own % of HP is (MAX: 30%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% × own ATK/100].`,
+                ability3: `Increase own Paralysis RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Halloween Valerie's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Halloween Valerie's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -29790,8 +29863,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103796512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103797512.png",
+                detailspecial: `/db/Units/Detail/unit_sp_detail_379_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103796512.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103797512.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103797512.png",
+                thumbspecial: `/db/Units/Thumbnail/unit_sp_icon_379_1.png`
             },
         slots: 
             {
@@ -29827,12 +29902,12 @@ const UnitInformation = [
             {
                 skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 700,
-                arts: `16000% Dark DMG (MAG). For 25s, increase all Allies' ATK and Equip CT Speed by 40%.`,
+                arts: `16000% Dark DMG (MAG). For 30s, increase all Allies' ATK and Equip CT Speed by 40%.`,
                 artsbreak: 1300,
-                truearts: `43000% Dark DMG (MAG). For 25s, increase all Allies' Arts by 5/s and reduce enemies' Dark RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
+                truearts: `43000% Dark DMG (MAG). For 30s, increase all Allies' Arts by 5/s and reduce enemies' Dark RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2000,
-                superarts: `120000% Dark DMG (MAG). For 20s, increase all Dark allies' DMG and Break Power by 250%.`,
-                superartsbreak: 3500
+                superarts: `140000% Dark DMG (MAG). For 20s, increase all Dark allies' DMG and Break Power by 250%.`,
+                superartsbreak: 5000
             },
         passive: 
             {
@@ -29844,7 +29919,10 @@ const UnitInformation = [
             {
                 ability1: `Increase all Allies' DMG by [50 x # of Unique Races in the Party]% (MAX: 200%).`,
                 ability2: `Increase own Curse RES by 60%.`,
-                ability3: `Increase own Seal RES by 60%.`
+                ability3: `Increase own Seal RES by 60%.`,
+                ability4: `Unit EXP UP 20% UP. (When Halloween Forte's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Halloween Forte's SP. Art is owned)`
+
             }, 
         evolution: 
             {
