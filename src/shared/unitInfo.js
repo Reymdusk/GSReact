@@ -29805,7 +29805,7 @@ const UnitInformation = [
                 ability2: `Increase own DMG by [1% × own ATK/100].`,
                 ability3: `Increase own Paralysis RES by 80%.`
             }, 
-        passive: 
+        passiveJP: 
             {
                 ability1: `Increase all Allies' DMG RES with respect to how high own % of HP is (MAX: 30%). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [1% × own ATK/100].`,
