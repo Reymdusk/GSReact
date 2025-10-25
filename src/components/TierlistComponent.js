@@ -37,6 +37,7 @@ export default function Tierlist() {
                         <p>We apologize for any inconvenience this may cause.</p>
                         <p>The Tierlist will be based on a document created by members of the GSOD team.</p>
                         <p>To access the document, and also obtain a copy, click <a href="https://docs.google.com/spreadsheets/d/1J6b7ptaZPZYFkd1p28X_RiP8QpCRiaQnS0bfMpVtah8/">HERE</a></p>
+                        
                 {/* <Nav pills justified>
                     <NavItem>
                         <NavLink 
@@ -68,8 +69,6 @@ export default function Tierlist() {
     )
 }
 
-/* 
-TODO: Check if this works
 
 function CreateTable({units}) {
    //Set default Sort
@@ -172,7 +171,7 @@ function CreateTable({units}) {
       </tbody>
     </table>
   );
-} */
+} 
 
 function DisplayHeader(){
     return (
@@ -297,7 +296,7 @@ function DisplayRank({unit, rank}) {
                                                 ranking = <h1><strong>F</strong></h1> 
                                                             break;
                                     default: 
-                                                null
+                                                ranking = null;
                         }
 
     return (
