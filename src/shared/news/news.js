@@ -3763,6 +3763,53 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 113,
+        date: `November 2, 2025`,
+        article: 
+        {
+            intro: `Mena Soars High Chapter 4 is released on JP with a new unit and equips! Meanwhile on Global, Halloween is back with buffs to the existing Halloween units! Moreover, Part 2 of the Index Collab has been released with more new units and equips too! Oh, and also a new Ultra Relic!`,
+            new:
+                {
+                    units: [
+                        [`Highlander`, 104167112]
+                    ],
+                    equips: [
+                        [`真『クルガン』`, 113531],
+                        [`戦士の拳『クルガン』`, 113541],
+                        [`ダキュオンの栄冠`, 113551],
+                        [`ピキュオンの栄冠`, 113561]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Accelerator`, 108187512],
+                        [`Index`, 108197412]
+                    ],  
+                    equips: [
+                        [`Jack-O-Sherum Summonstone`, 109551],
+                        [`Jack-O-Sherum's Cape EV`, 109561],
+                        [`Jack-O-Sherum Plushie EV`, 111961],
+                        [`True "Lotte's Fluffy Mitts"`, 112621],
+                        [`True "Magical Muscles Valerie"`, 112631],
+                        [`True "Forte's Dolly Dress"`, 112641],
+                        [`Ultra Relic "Periusia"`, 140131],
+                        [`True "Accelerator's Crutch"`, 154411],
+                        [`True "Torn Walking Church"`, 154421],
+                        [`Kuroko's Ribbon`, 154431],
+                        [`Accelerator's Outfit`, 154441],
+                        [`Accelerator's Crutch`, 154451],
+                        [`Torn Walking Church`, 154461],
+                        [`Little Misaka's Goggles`, 154471],
+                        [`Tokiwadai Middle School's P.E. Outfit`, 154481],
+                        [`Cleaning Robot Drum Model`, 154491]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

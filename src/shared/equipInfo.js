@@ -24806,7 +24806,7 @@ const EquipInformation = [
         id: 109141,
         name: `Jade Star "Le Courage"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109140.png`,
@@ -26022,10 +26022,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //カボシェルムの召喚石 (Jackosherum Raid Equip) - JP Complete
+{ //Jack-O-Sherum Summonstone - Missing Lore
         id: 109551,
-        name: `カボシェルムの召喚石`,
-        translate: `Jack-o-Sherum Summonstone`,
+        name: `Jack-O-Sherum Summonstone`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26050,12 +26049,11 @@ const EquipInformation = [
             {
                 ability1: `Summon Gem Blessing Lv5: Only the highest level effect of the Summon Gem Blessing is effective.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //極『カボシェルムのマント』(Jack-o-sherum cape EV) - JP Complete
+{ //Jack-O-Sherum's Cape EV - Missing Lore
         id: 109561,
-        name: `極『カボシェルムのマント』`,
-        translate: `Jack-O-Sherum's Cape EV`,
+        name: `Jack-O-Sherum's Cape EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -26081,7 +26079,7 @@ const EquipInformation = [
                 ability1: `Increases DMG to Light Elemental Units by 20%.`,
                 ability2: [`ATK 5% UP.`, `ATK 10% UP.`, `DEF 5% UP.`, `DEF 10% UP.`, `Heal Recovery 5% UP.`, `Heal Amount 5% UP.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Hart's Discovery - Complete
         id: 109571,
@@ -33060,10 +33058,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //極『カボシェルムのぬいぐるみ』(Jack-o-Sherum Plushie EV) - JP Complete
+    { //Jack-O-Sherum Plushie EV - Missing Lore
         id: 111961,
-        name: `極『カボシェルムのぬいぐるみ』`,
-        translate: `Jack-o-Sherum Plushie EV`,
+        name: `Jack-O-Sherum Plushie EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33089,7 +33086,7 @@ const EquipInformation = [
                 ability1: `DMG to Gods 20% UP.`,
                 ability2: [`DMG against Light enemies 10% UP.`, `DMG against Dark enemies 10% UP.`, `Light resistance 5% UP.`, `Dark resistance 5% UP.`, `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name.`, `At the Start of Quest, increase own Arts gauge by 20. Does not stack with Abilities of the same name.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True 'Rune Sovereign' - Missing Lore
         id: 111971,
@@ -34781,7 +34778,7 @@ const EquipInformation = [
         id: 112541,
         name: `Celia's Cultured Eyewear`,
         type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_112540.png`,
@@ -35017,7 +35014,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //True "Lotte's Fluffy Mitts" - JP Complete
+    { //True "Lotte's Fluffy Mitts" - Missing Lore
         id: 112621,
         name: `True "Lotte's Fluffy Mitts"`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -35045,9 +35042,9 @@ const EquipInformation = [
                 ability1: `When equipped by Halloween Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //True 'Magical Muscles Valerie' - JP Complete
+    { //True "Magical Muscles Valerie" - Missing Lore
         id: 112631,
         name: `True "Magical Muscles Valerie"`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35075,9 +35072,9 @@ const EquipInformation = [
                 ability1: `When equipped by Halloween Valerie, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //True "Forte's Dolly Dress" - JP Complete
+    { //True "Forte's Dolly Dress" - Missing Lore
         id: 112641,
         name: `True "Forte's Dolly Dress"`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -35105,7 +35102,7 @@ const EquipInformation = [
                 ability1: `When equipped by Halloween Forte, increase HP Recovery amount by 10% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『トロイメライ』 - JP Complete
         id: 112651,
@@ -37818,8 +37815,132 @@ const EquipInformation = [
             },
         passive:
             {
-                ability1: `Heal own HP by 4/s.When equipped by Pientz, increase own MAX HP by 20% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `Heal own HP by 4/s. When equipped by Pientz, increase own MAX HP by 20% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113531,
+        name: `真『クルガン』`,
+        translate: `True "Kurgan"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Fire DMG (Physical). For 20s, increase own Fire DMG by 70%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Highlander, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113541,
+        name: `戦士の拳『クルガン』`,
+        translate: `Warrior's Fist "Kurgan"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 5000% Fire DMG (Physical). For 8s, increase Fire allies' Break Power by 30%.`,
+                skillbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Increase own DMG against Giant Bosses by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113551,
+        name: `ダキュオンの栄冠`,
+        translate: `Dakyuon's Crown`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 5000% Dark DMG (Magic). For 8s, reduce enemies' Magic RES by 20%. If user is Dark, reduce enemies' Magic RES by 40% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `If allies have 2 "-kyuon" equips equipped, increase own Arts by 1/s. If allies have 3 or more "-kyuon" equips equipped, increase own Arts by 2/s instead. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113561,
+        name: `ピキュオンの栄冠`,
+        translate: `Pikyuon's Crown`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113561.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 10s, increase allies' Arts by 2/s. If user is Light, increase allies' Arts by 3/s instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `If allies have 2 "-kyuon" equips equipped, increase own CRI DMG by 40%. If allies have 3 or more "-kyuon" equips equipped, increase own CRI DMG by 60% instead. Does not stack with Abilities of the same name.`,
+                ability2: ``
             },
         lore: `Currently unreleased in Global.`
     },
@@ -38142,7 +38263,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic "Periusia" - JP Complete
+{ //Ultra Relic "Periusia" - Missing Lore
         id: 140131,
         name: `Ultra Relic "Periusia"`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -38169,7 +38290,7 @@ const EquipInformation = [
             {
                 ability1: `For 93.7s, increase own Disease resistance by 15.0% and every 14.9s, increase all allies' Arts gauge by 7. (At Passive Lv.101)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Ultra Relic 'Frozen Twin Swords' - JP Complete
         id: 140141,
@@ -51183,7 +51304,7 @@ const EquipInformation = [
                 ability1: `When equipped by Accelerator, increase own Break PWR by 50%. At the Start of Quest, increase own Arts by 100. Does not stack with abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True "Torn Walking Church" - Missing Lore
         id: 154421,
@@ -51214,12 +51335,11 @@ const EquipInformation = [
                 ability1: `When equipped by Index, increase own Arts by 2/s & increase own Heal Amount by 30%. Does not stack with abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //白井黒子のリボン- JP Complete - Missing Lore
+    { //Kuroko's Ribbon - Missing Lore
         id: 154431,
-        name: `白井黒子のリボン`,
-        translate: `Shirai Kuroko's Ribbon`,
+        name: `Kuroko's Ribbon`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -51245,12 +51365,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アクセラレータの服- JP Complete - Missing Lore
+    { //Accelerator's Outfit - Missing Lore
         id: 154441,
-        name: `アクセラレータの服`,
-        translate: `Accelerator's Clothes`,
+        name: `Accelerator's Outfit`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -51276,12 +51395,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アクセラレータの杖 - JP Complete - Missing Lore
+    { //Accelerator's Crutch - Missing Lore
         id: 154451,
-        name: `アクセラレータの杖`,
-        translate: `Accelerator's Crutch`,
+        name: `Accelerator's Crutch`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -51307,12 +51425,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //歩く教会だったもの - JP Complete - Missing Lore
+    { //Torn Walking Church - Missing Lore
         id: 154461,
-        name: `歩く教会だったもの`,
-        translate: `Torn Walking Church`,
+        name: `Torn Walking Church`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -51338,12 +51455,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //御坂妹のゴーグル - JP Complete - Missing Lore
+    { //Little Misaka's Goggles - Missing Lore
         id: 154471,
-        name: `御坂妹のゴーグル`,
-        translate: `Misaka Sister's Goggles`,
+        name: `Little Misaka's Goggles`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
@@ -51369,12 +51485,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //常盤台中学校の体操服 - JP Complete - Missing Lore
+    { //Tokiwadai Middle School's P.E. Outfit - Missing Lore
         id: 154481,
-        name: `常盤台中学校の体操服`,
-        translate: `Tokiwadai Junior High School Gym Uniform`,
+        name: `Tokiwadai Middle School's P.E. Outfit`,
         location: `A Certain Magical Index Collab Event Dungeon`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
@@ -51400,12 +51515,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //清掃ロボット＜ドラム缶＞ - JP Complete - Missing Lore
+    { //Cleaning Robot Drum Model - Missing Lore
         id: 154491,
-        name: `清掃ロボット＜ドラム缶＞`,
-        translate: `Cleaning Robot <Drum>`,
+        name: `Cleaning Robot Drum Model`,
         location: `A Certain Magical Index Collab Gacha`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
@@ -51431,7 +51545,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154501,
@@ -52554,14 +52668,14 @@ const EquipInformation = [
     {
         id: 154871,
         name: `Kamissie Statue`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
             {
-                detail: `/db/Equipment/Detail/item_detail_154860.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_154861.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154860.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154861.png`
+                detail: `/db/Equipment/Detail/item_detail_154870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154871.png`
             },
         stats:
             {

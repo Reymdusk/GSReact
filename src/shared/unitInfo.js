@@ -2653,7 +2653,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.91,
+                defense: 1.86,
                 artgen: 0.00,
                 damage: 1.66,
                 buffs: 0.00,
@@ -3537,7 +3537,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.02,
                 artgen: 0.00,
                 damage: 2.07,
                 buffs: 1.11,
@@ -8562,7 +8562,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 0.73,
+                defense: 0.71,
                 artgen: 0.23,
                 damage: 0.21,
                 buffs: 0.00,
@@ -19107,7 +19107,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.61,
+                defense: 1.57,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -27405,7 +27405,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 1.56,
+                defense: 1.52,
                 artgen: 3.01,
                 damage: 2.43,
                 buffs: 1.11,
@@ -29107,7 +29107,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.25,
+                defense: 1.22,
                 artgen: 0.81,
                 damage: 3.08,
                 buffs: 4.14,
@@ -29671,11 +29671,11 @@ const UnitInformation = [
             {
                 skill: `10s CT - 2200% Fire DMG (PHY). Increase own Arts by 30. If this skill crits, increase own Arts by 60 instead.`,
                 skillbreak: 300,
-                arts: `23000% Fire DMG (PHY). For 35s, increase own CRI DMG by 150%.`,
+                arts: `23000% Fire DMG (PHY). For 60s, increase own CRI DMG by 150%.`,
                 artsbreak: 800,
-                truearts: `70000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
+                truearts: `80000% Fire DMG (PHY). 100% chance to inflict Bleed. If the Enemy is already Bleeding, increase its stack of Bleed by 1 (up to 3).`,
                 trueartsbreak: 1800,
-                superarts: `185000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 50%.`,
+                superarts: `185000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES by 100%. For each stack of Bleed enemy has, for 20s, reduce enemies' PHY RES by an additional 70%.`,
                 superartsbreak: 2200
             },
         skillsetJP: 
@@ -29692,8 +29692,10 @@ const UnitInformation = [
         passive: 
             {
                 ability1: `Increase own CRI rate by 100% against enemies with 1 or more stacks of Bleed.`,
-                ability2: `Increase own Accuracy by 100% against enemies with 3 stacks of Bleed.`,
-                ability3: `Increase own Freeze RES by 80%.`
+                ability2: `Increase own Accuracy by 150% against enemies with 3 stacks of Bleed.`,
+                ability3: `Increase own Freeze RES by 80%.`,
+                ability4: `Unit EXP UP 20% UP. (When Halloween Charlotte's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Halloween Charlotte's SP. Art is owned)`
             }, 
         passiveJP: 
             {
@@ -29740,9 +29742,9 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 2.08,
+                defense: 2.03,
                 artgen: 0.00,
-                damage: 3.82,
+                damage: 3.97,
                 buffs: 2.10,
                 heal: 0.00,
                 break: 0.00
@@ -29785,7 +29787,7 @@ const UnitInformation = [
                 artsbreak: 700,
                 truearts: `60000% Water DMG (MAG). For 45s, reduce enemies' MAG RES by 70% (stackable).`,
                 trueartsbreak: 1500,
-                superarts: `165000% Water DMG (MAG). For 20s, increase own DMG by 200% and ignore 100% of Enemies' DEF. Additionally when used for the first time, resets the cooldown of own Magic Equips.`,
+                superarts: `165000% Water DMG (MAG). For 25s, increase own DMG by 250% and ignore 100% of Enemies' DEF. Additionally when used for the first 2 times, resets the cooldown of own Magic Equips.`,
                 superartsbreak: 2000
             },
         skillsetJP: 
@@ -29803,7 +29805,9 @@ const UnitInformation = [
             {
                 ability1: `Increase all Allies' DMG RES with respect to how high own % of HP is (MAX: 30%). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [1% × own ATK/100].`,
-                ability3: `Increase own Paralysis RES by 80%.`
+                ability3: `Increase own Paralysis RES by 80%.`,
+                ability4: `Unit EXP UP 20% UP. (When Halloween Valerie's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Halloween Valerie's SP. Art is owned)`
             }, 
         passiveJP: 
             {
@@ -29851,9 +29855,9 @@ const UnitInformation = [
             {
                 rank: 4,
                 defense: 1.30,
-                artgen: 2.31,
-                damage: 2.28,
-                buffs: 1.45,
+                artgen: 3.13,
+                damage: 3.28,
+                buffs: 2.45,
                 heal: 0.00,
                 break: 1.01
             },
@@ -29891,11 +29895,11 @@ const UnitInformation = [
             {
                 skill: `13s CT - 1300% Dark DMG (MAG). For 7s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 700,
-                arts: `16000% Dark DMG (MAG). For 20s, increase all Allies' ATK and Equip CT Speed by 40%.`,
+                arts: `16000% Dark DMG (MAG). For 25s, increase all Allies' ATK and Equip CT Speed by 40%.`,
                 artsbreak: 1300,
-                truearts: `43000% Dark DMG (MAG). For 18s, increase all Allies' Arts by 4/s and reduce enemies' Dark RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
+                truearts: `43000% Dark DMG (MAG). For 25s, increase all Allies' Arts by 5/s and reduce enemies' Dark RES by 100%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2000,
-                superarts: `120000% Dark DMG (MAG). For 15s, increase all Dark allies' DMG and Break Power by 200%.`,
+                superarts: `120000% Dark DMG (MAG). For 20s, increase all Dark allies' DMG and Break Power by 250%.`,
                 superartsbreak: 3500
             },
         skillsetJP: 
@@ -29911,19 +29915,10 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: `Increase all Allies' DMG by [30 x # of Unique Races in the Party]% (MAX: 120%).`,
-                ability2: `Increase own Curse RES by 60%.`,
-                ability3: `Increase own Seal RES by 60%.`
-            }, 
-        passiveJP: 
-            {
                 ability1: `Increase all Allies' DMG by [50 x # of Unique Races in the Party]% (MAX: 200%).`,
                 ability2: `Increase own Curse RES by 60%.`,
-                ability3: `Increase own Seal RES by 60%.`,
-                ability4: `Unit EXP UP 20% UP. (When Halloween Forte's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Halloween Forte's SP. Art is owned)`
-
-            }, 
+                ability3: `Increase own Seal RES by 60%.`
+            },
         evolution: 
             {
                 evoawksuper:
@@ -30162,7 +30157,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 1,
-                defense: 2.62,
+                defense: 2.36,
                 artgen: 4.58,
                 damage: 3.57,
                 buffs: 4.33,
@@ -30351,7 +30346,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 0.00,
                 artgen: 2.69,
-                damage: 3.37,
+                damage: 3.71,
                 buffs: 0.40,
                 heal: 0.00,
                 break: 0.00
@@ -30710,7 +30705,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 3.04,
+                defense: 2.47,
                 artgen: 0.00,
                 damage: 2.16,
                 buffs: 1.07,
@@ -30889,9 +30884,9 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.53,
+                defense: 1.49,
                 artgen: 0.00,
-                damage: 2.95,
+                damage: 4.03,
                 buffs: 0.55,
                 heal: 0.00,
                 break: 0.00
@@ -31314,7 +31309,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 0.58,
+                defense: 0.57,
                 artgen: 0.00,
                 damage: 3.54,
                 buffs: 0.30,
@@ -32480,9 +32475,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                     mat2amt: 220,
-                    hover2: "Sinflow Soulgem"
+                    hover2: `Smogdragon Soulgem`,
                 }
             },
         trueweapon:
@@ -32558,9 +32553,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                     mat2amt: 220,
-                    hover2: "Sinflow Soulgem"
+                    hover2: `Eternaglint Soulgem`,
                 }
             },
         trueweapon:
@@ -32636,9 +32631,9 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                     mat2amt: 220,
-                    hover2: "Sinflow Soulgem"
+                    hover2: `Smogdragon Soulgem`,
                 }
             },
         trueweapon:
@@ -32652,6 +32647,84 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Atla, increase own Paralysis RES and Diseases RES by 100% and increase own Super CRI rate by 10%. Does not stack with Abilities of the same name.",
                         ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104167112,
+        name: `Highlander`,
+        attribute: `Fire`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104166112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104167112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104166112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104167112.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats:
+            {
+                hp: 7676,
+                hpplus: 1396,
+                atk: 3195,
+                atkplus: 631,
+                def: 3400,
+                defplus: 641
+            },
+        skillset:
+            {
+                skill: `12s CT - 5000% Fire DMG (PHY). Increase own Arts by 30. If used within first 90s of Quest, increase own Arts by 50 instead. For 10s, reduce enemies' Break RES by 20%.`,
+                skillbreak: 1000,
+                arts: `22000% Fire DMG (PHY). For 20s, Allies gain a DMG barrier that negates 10000 DMG and increase allies' PHY RES by 40%.`,
+                artsbreak: 2000,
+                truearts: `60000% Fire DMG (PHY). For 100s, increase own Break Power by 60% (stackable). Additionally if used for the first time, increase own Arts by 100.`,
+                trueartsbreak: 4000,
+                superarts: `200000% Fire DMG (PHY). For 20s, reduce enemies' PHY RES and Fire RES by 80%.`,
+                superartsbreak: 5500
+            },
+        passive:
+            {
+                ability1: `Each time own Arts is used, permanently increase allies' stats by 10% (MAX: 40%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Equip DMG by 80%.`,
+                ability3: `Increase Lifesteal RES by 50%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                    mat2amt: 220,
+                    hover2: `Flametail Soulgem`,
+                }
+            },
+        trueweapon:
+            {
+                name: "Kurgan",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113531.png",
+                skill: "50s CT - 10000% Fire DMG (PHY). For 20s, increase own Fire DMG by 70%.",
+                skillbreak: 1000,
+                passive:
+                    {
+                        ability1: "When equipped by Highlander, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Accuracy by 10%."
                     }
             },
         lore:
@@ -41173,7 +41246,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 1.39,
+                defense: 1.32,
                 artgen: 0.00,
                 damage: 4.07,
                 buffs: 3.42,
@@ -43443,7 +43516,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.39,
+                defense: 1.35,
                 artgen: 3.33,
                 damage: 2.36,
                 buffs: 2.86,
@@ -43811,7 +43884,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 2.78,
+                defense: 2.50,
                 artgen: 3.05,
                 damage: 3.30,
                 buffs: 2.08,
@@ -44273,7 +44346,7 @@ const UnitInformation = [
                 rank: 3,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 4.72,
+                damage: 4.85,
                 buffs: 2.85,
                 heal: 0.61,
                 break: 0.00
@@ -44362,10 +44435,10 @@ const UnitInformation = [
         name: `Touma Kamijo`,
         tier: 
             {
-                rank: 3,
+                rank: 2,
                 defense: 4.19,
-                artgen: 1.20,
-                damage: 1.75,
+                artgen: 1.36,
+                damage: 2.69,
                 buffs: 2.87,
                 heal: 0.00,
                 break: 0.00
@@ -44449,7 +44522,7 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Accelerator - JP Complete - Missing Lore
+    { //Accelerator - Missing Lore
         id: 108187512,
         name: `Accelerator`,
         attribute: `Dark`,
@@ -44527,11 +44600,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { //Index - JP Complete - Missing Lore
+    { //Index - Missing Lore
         id: 108197412,
         name: `Index`,
         attribute: `Light`,
@@ -44596,7 +44669,7 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: `Former Walking Church`,
+                name: `Torn Walking Church`,
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_154421.png",
                 skill: `55s CT - 10000% Light DMG (MAG). For 8s, reduce enemies' Light RES by 30%. Additionally, if user is Human, reduce enemies' DMG RES by 20%. `,
@@ -44609,8 +44682,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Frieren - Complete
@@ -44987,8 +45060,8 @@ const UnitInformation = [
         name: `Okarun`,
         tier: 
             {
-                rank: 2,
-                defense: 2.08,
+                rank: 1,
+                defense: 2.03,
                 artgen: 0.00,
                 damage: 5.00,
                 buffs: 4.98,
@@ -45080,7 +45153,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 3.13,
+                defense: 2.81,
                 artgen: 0.53,
                 damage: 3.68,
                 buffs: 0.57,
@@ -45172,7 +45245,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 2.08,
+                defense: 2.34,
                 artgen: 1.99,
                 damage: 3.72,
                 buffs: 1.92,
