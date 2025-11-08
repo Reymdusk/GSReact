@@ -38,6 +38,7 @@ export default function Tierlist() {
                         <p>The Tierlist will be based on a document created by members of the GSOD team.</p>
                         <p>To access the document, and also obtain a copy, click <a href="https://docs.google.com/spreadsheets/d/1J6b7ptaZPZYFkd1p28X_RiP8QpCRiaQnS0bfMpVtah8/">HERE</a></p>
                         
+                        <CreateTable units={units} />
                 {/* <Nav pills justified>
                     <NavItem>
                         <NavLink 
@@ -71,106 +72,145 @@ export default function Tierlist() {
 
 
 function CreateTable({units}) {
+    const desktopWidth = "80%";//"75px";
+    const mobileWidth = "60%";//"60px";
+    const desktopFont = "15px";
+    const mobileFont = "12px";
+
+    //Assign each number to a rank
+    const rankLabels = {
+        1: "SS",
+        2: "S",
+        3: "A+",
+        4: "A",
+        5: "A-",
+        6: "B+",
+        7: "B",
+        8: "B-",
+        9: "C+",
+        10: "C",
+        11: "C-",
+        12: "D",
+        13: "F"
+    };
+
+
    //Set default Sort
-  const [data, setData] = useState([]);
-  const [sortConfig, setSortConfig] = useState({ key: "rank", direction: "desc" });
+    const [data, setData] = useState([]);
+    const [sortConfig, setSortConfig] = useState({ key: "rank", direction: "desc" });
 
-   // Custom order for elements
-   const attributeOrder = ["Fire", "Water", "Earth", "Light", "Dark"];
+    // Custom order for elements
+    const attributeOrder = ["Fire", "Water", "Earth", "Light", "Dark"];
 
-   //Sort Units to Default via Rank first, element second, ID third
-   const sortData = (key, direction = "asc") => {
-    const sorted = [...units].sort((a, b) => {
-      let result = 0;
+    // Filter out unranked characters AND flatten tier fields for sorting
+    const rankedData = units
+        .filter(char => char.tier && typeof char.tier.rank === "number")
+        .map(char => ({
+            ...char,
+            rank: char.tier.rank,
+            defense: char.tier.defense,
+            artgen: char.tier.artgen,
+            damage: char.tier.damage,
+            buffs: char.tier.buffs,
+            heal: char.tier.heal,
+            break: char.tier.break
+        }));
 
-      // Primary sort (column clicked)
-      if (typeof a[key] === "number" && typeof b[key] === "number") {
-        result = a[key] - b[key];
-      } else if (key === "attribute") {
-        result = attributeOrder.indexOf(a.attribute) - attributeOrder.indexOf(b.attribute);
-      } else {
-        result = String(a[key]).localeCompare(String(b[key]));
-      }
+    //Sort Units to Default via Rank first, element second, ID third
+    const sortData = (key, direction = "asc") => {
+        const sorted = [...rankedData].sort((a, b) => {
+        let result = 0;
 
-      // Adjust for ascending/descending
-      if (direction === "desc") result *= -1;
+        // Primary sort (column clicked)
+        if (typeof a[key] === "number" && typeof b[key] === "number") {
+            result = b[key] - a[key];
+        } else if (key === "attribute") {
+            result = attributeOrder.indexOf(a.attribute) - attributeOrder.indexOf(b.attribute);
+        } else {
+            result = String(a[key]).localeCompare(String(b[key]));
+        }
 
-      // Secondary sort (element order) if equal
-      if (result === 0) {
-        const attrDiff =
-          attributeOrder.indexOf(a.attribute) - attributeOrder.indexOf(b.attribute);
-        if (attrDiff !== 0) return attrDiff;
-      }
+        // Adjust for ascending/descending
+        if (direction === "desc") result *= -1;
 
-      // Tertiary sort (ID) if still equal
-      if (result === 0) {
-        return a.id - b.id;
-      }
+        // Secondary sort (attribute order) if equal
+        if (result === 0) {
+            const attrDiff =
+            attributeOrder.indexOf(a.attribute) - attributeOrder.indexOf(b.attribute);
+            if (attrDiff !== 0) return attrDiff;
+        }
 
-      return result;
-    });
+        // Tertiary sort (ID) if still equal
+        if (result === 0) {
+            return a.id - b.id;
+        }
 
-    setData(sorted);
-  };
+        return result;
+        });
 
-  // Default sort when component mounts (rank ↓)
-  useEffect(() => {
-    sortData("rank", "desc");
-  }, []);
+        setData(sorted);
+    };
 
-  const handleSort = (key) => {
-    let direction = "asc";
-    if (sortConfig.key === key && sortConfig.direction === "asc") {
-      direction = "desc";
-    }
-    setSortConfig({ key, direction });
-    sortData(key, direction);
-  };
+    // Default sort when component mounts (rank ↓)
+    useEffect(() => {
+        sortData("rank", "desc");
+    }, []);
 
-            return (
-    <table border="1" cellPadding="5">
-      <thead>
-        <tr>
-            <th>Name</th>
-          <th onClick={() => handleSort("rank")} style={{ cursor: "pointer" }}>
-            Rank {sortConfig.key === "rank" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-          <th onClick={() => handleSort("defense")} style={{ cursor: "pointer" }}>
-            Defense {sortConfig.key === "defense" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-          <th onClick={() => handleSort("artgen")} style={{ cursor: "pointer" }}>
-            Arts Generation {sortConfig.key === "artGen" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-          <th onClick={() => handleSort("damage")} style={{ cursor: "pointer" }}>
-            Damage {sortConfig.key === "damage" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-          <th onClick={() => handleSort("buffs")} style={{ cursor: "pointer" }}>
-            Buffs {sortConfig.key === "buffs" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-          <th onClick={() => handleSort("heal")} style={{ cursor: "pointer" }}>
-            Heal {sortConfig.key === "heal" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-          <th onClick={() => handleSort("break")} style={{ cursor: "pointer" }}>
-            Break {sortConfig.key === "break" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((char, index) => (
-          <tr key={index}>
-            <td>{char.name}</td>
-            <td>{char.tier.rank}</td>
-            <td>{char.tier.defense}</td>
-            <td>{char.tier.artgen}</td>
-            <td>{char.tier.damage}</td>
-            <td>{char.tier.buffs}</td>
-            <td>{char.tier.heal}</td>
-            <td>{char.tier.break}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  );
+    const handleSort = (key) => {
+        let direction = "asc";
+        if (sortConfig.key === key && sortConfig.direction === "asc") {
+        direction = "desc";
+        }
+        setSortConfig({ key, direction });
+        sortData(key, direction);
+    };
+
+    return (
+        <table border="1" cellPadding="5">
+        <thead>
+            <tr>
+                <th><center>Name</center></th>
+            <th onClick={() => handleSort("rank")} style={{ cursor: "pointer" }}>
+                Rank {sortConfig.key === "rank" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            <th onClick={() => handleSort("defense")} style={{ cursor: "pointer" }}>
+                Defense {sortConfig.key === "defense" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            <th onClick={() => handleSort("artgen")} style={{ cursor: "pointer" }}>
+                Arts Generation {sortConfig.key === "artGen" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            <th onClick={() => handleSort("damage")} style={{ cursor: "pointer" }}>
+                Damage {sortConfig.key === "damage" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            <th onClick={() => handleSort("buffs")} style={{ cursor: "pointer" }}>
+                Buffs {sortConfig.key === "buffs" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            <th onClick={() => handleSort("heal")} style={{ cursor: "pointer" }}>
+                Heal {sortConfig.key === "heal" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            <th onClick={() => handleSort("break")} style={{ cursor: "pointer" }}>
+                Break {sortConfig.key === "break" ? (sortConfig.direction === "asc" ? "↑" : "↓") : ""}
+            </th>
+            </tr>
+        </thead>
+        <tbody>
+            {data.map((char, index) => (
+            <tr key={index}>
+                <td>
+                    <DisplayUnit unit={char} imageSize={desktopWidth} fontSizing={desktopFont}/>
+                </td>
+                <td>{rankLabels[char.rank] ?? "Unranked"}</td>
+                <td>{char.tier.defense}</td>
+                <td>{char.tier.artgen}</td>
+                <td>{char.tier.damage}</td>
+                <td>{char.tier.buffs}</td>
+                <td>{char.tier.heal}</td>
+                <td>{char.tier.break}</td>
+            </tr>
+            ))}
+        </tbody>
+        </table>
+    );
 } 
 
 function DisplayHeader(){
@@ -254,50 +294,50 @@ function DisplayRank({unit, rank}) {
     const mobileFont = "12px";
     let ranking
 
-            switch({rank})
-                        {
-                                    case 13:
-                                                ranking = <h1><strong>SS</strong></h1> 
-                                                            break;
-                                    case 12:
-                                                ranking = <h1><strong>S</strong></h1> 
-                                                            break;
-                                    case 11:
-                                                ranking = <h1><strong>A+</strong></h1> 
-                                                            break;
-                                    case 10:
-                                                ranking = <h1><strong>A</strong></h1>
-                                                            break;
-                                    case 9:
-                                                ranking = <h1><strong>A-</strong></h1> 
-                                                            break;
-                                    case 8:
-                                                ranking = <h1><strong>B+</strong></h1> 
-                                                            break;
-                                    case 7:
-                                                ranking = <h1><strong>B</strong></h1> 
-                                                            break;
-                                    case 6:
-                                                ranking = <h1><strong>B-</strong></h1> 
-                                                            break;
-                                    case 5:
-                                                ranking = <h1><strong>C+</strong></h1> 
-                                                            break;
-                                    case 4:
-                                                ranking = <h1><strong>C</strong></h1> 
-                                                            break;
-                                    case 3:
-                                                ranking = <h1><strong>C-</strong></h1> 
-                                                            break;
-                                    case 2:
-                                                ranking = <h1><strong>D</strong></h1> 
-                                                            break;
-                                    case 1:
-                                                ranking = <h1><strong>F</strong></h1> 
-                                                            break;
-                                    default: 
-                                                ranking = null;
-                        }
+        switch({rank})
+            {
+                case 13:
+                            ranking = <h1><strong>SS</strong></h1> 
+                                        break;
+                case 12:
+                            ranking = <h1><strong>S</strong></h1> 
+                                        break;
+                case 11:
+                            ranking = <h1><strong>A+</strong></h1> 
+                                        break;
+                case 10:
+                            ranking = <h1><strong>A</strong></h1>
+                                        break;
+                case 9:
+                            ranking = <h1><strong>A-</strong></h1> 
+                                        break;
+                case 8:
+                            ranking = <h1><strong>B+</strong></h1> 
+                                        break;
+                case 7:
+                            ranking = <h1><strong>B</strong></h1> 
+                                        break;
+                case 6:
+                            ranking = <h1><strong>B-</strong></h1> 
+                                        break;
+                case 5:
+                            ranking = <h1><strong>C+</strong></h1> 
+                                        break;
+                case 4:
+                            ranking = <h1><strong>C</strong></h1> 
+                                        break;
+                case 3:
+                            ranking = <h1><strong>C-</strong></h1> 
+                                        break;
+                case 2:
+                            ranking = <h1><strong>D</strong></h1> 
+                                        break;
+                case 1:
+                            ranking = <h1><strong>F</strong></h1> 
+                                        break;
+                default: 
+                            ranking = null;
+            }
 
     return (
         <>
@@ -575,7 +615,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
         )
     }
 
-    if(unit.twrequire){
+    /* if(unit.twrequire){
         if(unit.twrequire === "reliance"){
             return (
                 <center>
@@ -592,7 +632,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                 </center>
             )
         }
-        /* if(unit.name === "Luahn") {
+        if(unit.name === "Luahn") {
             return (
                 <center>
                     <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px", margin: "0px"}}>
@@ -606,7 +646,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                     </Card>
                 </center>
             )
-        } */
+        } 
 
         return (
             <center>
@@ -623,10 +663,10 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                     </a>
                 </Card>
             </center>
-        )
-    }
+        ) 
+    } */
 
-    if(unit.lb7require === true){
+    /* if(unit.lb7require === true){
         return (
             <center>
                 <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px", margin: "0px"}}>
@@ -641,7 +681,7 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
                 </Card>
             </center>
         )
-    }
+    } */
 
     return (
         <center>
