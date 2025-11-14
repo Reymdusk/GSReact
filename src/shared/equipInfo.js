@@ -36580,7 +36580,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Young Emperor Isliid, increase own PhysicalDMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Last Miracle Isliid, increase own Physical DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `At Start of Battle, increase own Arts by 20 and refreshes this Equip's CT. Does not stack with Abilities of the same name.`
             },
         lore: `Currently unreleased in Global.`
@@ -36606,7 +36606,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 5000% Light DMG (Physical). Increase own PhysicalDMG by 60% for 10s. Additionally if user is Human, increase own Equip CT Speed by 30% for 10s.`,
+                skill: `50s CT - 5000% Light DMG (Physical). Increase own Physical DMG by 60% for 10s. Additionally if user is Human, increase own Equip CT Speed by 30% for 10s.`,
                 break: 300
             },
         passive: 
@@ -37940,6 +37940,37 @@ const EquipInformation = [
         passive:
             {
                 ability1: `If allies have 2 "-kyuon" equips equipped, increase own CRI DMG by 40%. If allies have 3 or more "-kyuon" equips equipped, increase own CRI DMG by 60% instead. Does not stack with Abilities of the same name.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113571,
+        name: `冥界杖『ディープコール』`,
+        translate: `Underworld Staff "Deep Call"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113571.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `50s CT - 7000% Dark DMG (Magic). For 10s, increase own Dark DMG by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When above 90% HP, increase own Accuracy by 20%.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
@@ -50541,9 +50572,9 @@ const EquipInformation = [
         image: 
             {
                 detail: ``,
-                detailmax: `/db/Equipment/Detail/item_detail_154060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154160.png`,
                 thumb: ``,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154060.png`
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154160.png`
             },
         stats:
             {
@@ -50993,7 +51024,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: "50s CT - 10000% Light DMG (Physical). Increase own PhysicalDMG and Light DMG by 50% for 10s.",
+                skill: "50s CT - 10000% Light DMG (Physical). Increase own Physical DMG and Light DMG by 50% for 10s.",
                 break: 600
             },
         passive: 
@@ -51055,7 +51086,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 6000% Water DMG (Physical). If own HP is 70% or above, increase own PhysicalDMG by 50% for 10s. If own HP is below 70%, heal 30% of MAX HP instead.`,
+                skill: `40s CT - 6000% Water DMG (Physical). If own HP is 70% or above, increase own Physical DMG by 50% for 10s. If own HP is below 70%, heal 30% of MAX HP instead.`,
                 break: 500
             },
         passive: 

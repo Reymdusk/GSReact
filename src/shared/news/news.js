@@ -3810,6 +3810,30 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 114,
+        date: `November 14, 2025`,
+        article: 
+        {
+            intro: `New Raid equip makes its appearance on JP, alongside Jay's brand new SP. Art! Meanwhile on Global, EP3 of Grand Crusade has been released with Venna!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`冥界杖『ディープコール』`, 113571]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Venna`, 103927311]
+                    ],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

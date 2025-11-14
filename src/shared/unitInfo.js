@@ -3782,7 +3782,7 @@ const UnitInformation = [
                 rank: 13,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 2.35,
+                damage: 2.49,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -27407,7 +27407,7 @@ const UnitInformation = [
                 rank: 3,
                 defense: 1.52,
                 artgen: 3.01,
-                damage: 2.43,
+                damage: 2.48,
                 buffs: 1.11,
                 heal: 0.00,
                 break: 0.00
@@ -28847,8 +28847,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103706212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103707212.png",
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_370_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103706212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103707212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103707212.png",
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_370_1.png`
             },
         slots: 
             {
@@ -28885,6 +28887,14 @@ const UnitInformation = [
                 ability1: `At the start of a Battle, increase own Arts by 200.`,
                 ability2: `Increase own Paralysis RES by 80%.`,
                 ability3: `When set as the Leader of the party, reduces Allies' DMG taken by 10%. When not set as the Leader of the party, increase own accuracy by 60%. Does not stack with Abilities of the same name.`
+            }, 
+        passiveJP: 
+            {
+                ability1: `At the start of a Battle, increase own Arts by 200.`,
+                ability2: `Increase own Paralysis RES by 80%.`,
+                ability3: `When set as the Leader of the party, reduces Allies' DMG taken by 10%. When not set as the Leader of the party, increase own accuracy by 60%. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When Jay's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Jay's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -29629,10 +29639,10 @@ const UnitInformation = [
         translate: `Wild Side Charlotte`,
         tier: 
             {
-                rank: 8,
+                rank: 6,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 2.34,
+                damage: 3.95,
                 buffs: 1.92,
                 heal: 0.00,
                 break: 0.00
@@ -30436,10 +30446,10 @@ const UnitInformation = [
         translate: `Cute Confectioner Liza`,
         tier: 
             {
-                rank: 5,
+                rank: 3,
                 defense: 0.00,
                 artgen: 1.96,
-                damage: 2.41,
+                damage: 2.57,
                 buffs: 1.50,
                 heal: 4.60,
                 break: 0.00
@@ -31064,10 +31074,9 @@ const UnitInformation = [
                 evosuper: "Missing Lore."
             }
     },
-    { //Venna - Missing Lore (JP)
+    { //Venna - Missing Lore
         id: 103927311,
         name: `Venna`,
-        translate: `Vena`,
         attribute: `Earth`,
         type: `Beast`,
         image: 
@@ -31122,13 +31131,13 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: `/db/Icons/dungeon_drops/material_thumbnail_134953.png`,
                     mat2amt: 20,
-                    hover2: `Vena Soulgem`,
+                    hover2: `Venna Soulgem`,
                 }
             },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     {
@@ -31987,11 +31996,11 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2500% Light DMG (PHY). Increase own Arts by 40.`,
                 skillbreak: 1000,
-                arts: `20000% Light DMG (PHY). For 20s, increase allies' Heal Equip CT Speed by 40% and allies' PHY RES by 30%.`,
+                arts: `20000% Light DMG (PHY). For 25s, increase allies' Heal Equip CT Speed by 40% and allies' PHY RES by 30%.`,
                 artsbreak:  1300,
                 truearts: `60000% Light DMG (PHY). For 45s, reduce enemies' DMG RES by 70% (stackable).`,
                 trueartsbreak: 2300,
-                superarts: `200000% Light DMG (PHY). For 30s, increase allies' PHY Equip CT Speed by 50% and allies' PHY DMG by 200%.`,
+                superarts: `220000% Light DMG (PHY). For 30s, increase allies' PHY Equip CT Speed by 50% and allies' PHY DMG by 200%.`,
                 superartsbreak: 3000
             },
         passive: 
@@ -32264,10 +32273,10 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Young Isliid - Missing Lore (JP)
+    { //Last Miracle Isliid - Missing Lore (JP)
         id: 104117412,
-        name: `Young Isliid`,
-        translate: `Young Emperor Isliid`,
+        name: `Last Miracle Isliid`,
+        translate: `Young Isliid`,
         attribute: `Light`,
         type: `Human`,
         image: 
@@ -32333,7 +32342,7 @@ const UnitInformation = [
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: `When equipped by Young Emperor Isliid, increase own PHY DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Last Miracle Isliid, increase own PHY DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                             ability2: `At Start of Battle, increase own Arts by 20 and refreshes this Equip's CT. Does not stack with Abilities of the same name.`
                         }
                 },
@@ -33759,7 +33768,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 1.65,
-                break: 0.74
+                break: 1.06
             },
         attribute: "Light",
         type: "Human",
@@ -34179,7 +34188,7 @@ const UnitInformation = [
                 rank: 10,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.42,
+                damage: 2.55,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -34455,10 +34464,10 @@ const UnitInformation = [
                 rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
-                damage: 2.37,
+                damage: 2.47,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.91
+                break: 2.92
             },
         attribute: "Dark",
         type: "Human",
@@ -34997,7 +35006,7 @@ const UnitInformation = [
                 rank: 8,
                 defense: 0.00,
                 artgen: 0.78,
-                damage: 2.35,
+                damage: 2.50,
                 buffs: 1.74,
                 heal: 0.00,
                 break: 0.00
@@ -39100,7 +39109,7 @@ const UnitInformation = [
                 rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
-                damage: 2.33,
+                damage: 2.56,
                 buffs: 1.47,
                 heal: 0.00,
                 break: 0.00
@@ -40058,7 +40067,7 @@ const UnitInformation = [
                 rank: 5,
                 defense: 0.99,
                 artgen: 2.43,
-                damage: 2.35,
+                damage: 3.03,
                 buffs: 2.62,
                 heal: 0.00,
                 break: 0.00
@@ -43518,7 +43527,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 1.35,
                 artgen: 3.33,
-                damage: 2.36,
+                damage: 3.29,
                 buffs: 2.86,
                 heal: 1.30,
                 break: 0.00
@@ -44525,6 +44534,16 @@ const UnitInformation = [
     { //Accelerator - Missing Lore
         id: 108187512,
         name: `Accelerator`,
+        tier: 
+            {
+                rank: 3,
+                defense: 0.00,
+                artgen: 3.47,
+                damage: 2.46,
+                buffs: 1.70,
+                heal: 0.00,
+                break: 5.00
+            },
         attribute: `Dark`,
         type: `Human`,
         image: 
@@ -44607,6 +44626,16 @@ const UnitInformation = [
     { //Index - Missing Lore
         id: 108197412,
         name: `Index`,
+        tier: 
+            {
+                rank: 4,
+                defense: 1.98,
+                artgen: 2.42,
+                damage: 3.34,
+                buffs: 3.13,
+                heal: 1.31,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Human`,
         image: 
