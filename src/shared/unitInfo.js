@@ -8348,7 +8348,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "Increase Allies' Poison RES by 30%. Increase Allies' Critical Rate by 50% against Poisoned Enemies. Does not stack with Abilities of the same name.",
+                ability1: "Increase Allies' Poison RES and Paralysis RES by 30%. Increase Allies' Critical Rate by 50% against Poisoned Enemies. Does not stack with Abilities of the same name.",
                 ability2: "Increase Paralysis RES by 70%.",
                 ability3: "Increase Equip CT REC by 10%."
             }, 
@@ -29653,10 +29653,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103776112.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103777112.png",
-                detailspecial: `/db/Units/Detail/unit_sp_detail_377_1.png`,
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_377_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103776112.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103777112.png",
-                thumbspecial: `/db/Units/Thumbnail/unit_sp_icon_377_1.png`
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_377_1.png`
             },
         slots: 
             {
@@ -29765,10 +29765,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103786212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103787212.png",
-                detailspecial: `/db/Units/Detail/unit_sp_detail_378_1.png`,
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_378_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103786212.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103787212.png",
-                thumbspecial: `/db/Units/Thumbnail/unit_sp_icon_378_1.png`
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_378_1.png`
             },
         slots: 
             {
@@ -29877,10 +29877,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_103796512.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103797512.png",
-                detailspecial: `/db/Units/Detail/unit_sp_detail_379_1.png`,
+                detailspecial: `/db/Units/Special/Detail/unit_sp_detail_379_1.png`,
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103796512.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103797512.png",
-                thumbspecial: `/db/Units/Thumbnail/unit_sp_icon_379_1.png`
+                thumbspecial: `/db/Units/Special/Thumbnail/unit_sp_icon_379_1.png`
             },
         slots: 
             {
