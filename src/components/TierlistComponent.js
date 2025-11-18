@@ -36,10 +36,10 @@ export default function Tierlist() {
                         </h2>
                         <p>We apologize for any inconvenience this may cause.</p>
                         <p>The Tierlist will be based on a document created by members of the GSOD team.</p>
-                        <p>To access the document, and also obtain a copy, click <a href="https://docs.google.com/spreadsheets/d/1J6b7ptaZPZYFkd1p28X_RiP8QpCRiaQnS0bfMpVtah8/">HERE</a></p>
-                        
-                        <CreateTable units={units} />
-                {/* <Nav pills justified>
+                        <p>Finishing Touches are steadily being added, until then, the displays may look a little wonky</p>
+                        {//
+}
+                <Nav pills justified>
                     <NavItem>
                         <NavLink 
                             className={classNames({ active: currentTab === '1' })}
@@ -62,9 +62,11 @@ export default function Tierlist() {
                         <DisplayAccordion unit={units} />
                     </TabPane>
                     <TabPane tabId="2">
-                        <DisplayDetail unit={units} />
+                        <center>
+                            <CreateTable units={units} />
+                        </center>
                     </TabPane>
-                </TabContent> */}
+                </TabContent>
             </Row>
         </Container>
     )
@@ -223,19 +225,6 @@ function DisplayHeader(){
                 <CardBody>
                         <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
                             <CardHeader style={cardHeaderColor}>
-                                <center><h4>LEGEND</h4></center>
-                            </CardHeader>
-                            <CardBody>
-                                <center>
-                                    <p><img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px"}} alt="True Weapon is Favorable for Unit" /> True Weapon Favorability (Bumped up 0-2 Subtiers)</p>
-                                    <p><img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px"}} alt="Unit is reliant on True Weapon" /> True Weapon Reliance (Bumped up 2+ subtiers)</p>
-                                    <p><img src="/db/Icons/skill/thumbnail/damage_up.png" style={{maxWidth: "20px"}} alt="Unit has a useful Cross Art with another unit" /> Notable Cross Arts Synergy</p>
-                                    <p><img src="/db/Icons/other/lb_7.png" style={{maxWidth: "20px"}} alt="Unit favors LB7" /> LB7 Favorability</p>
-                                </center>
-                            </CardBody>
-                        </Card>
-                        <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
-                            <CardHeader style={cardHeaderColor}>
                                 <center><h4>NOTE</h4></center>
                             </CardHeader>
                             <CardBody>
@@ -243,8 +232,9 @@ function DisplayHeader(){
                                 <p><center>This is simply meant to show the general analysis of each unit. </center></p>
                                 <p><center>Rankings were determined by players from the Grand Summoners <a href="https://discord.gg/grandsummoners">Official Discord</a> Server Staff.</center></p>
                                 <p><center>Be aware that the Rankings are based on their <b>most optimized</b> scenarios.</center></p>
-                                <p><center><b>NOTE: </b>The "General Unit's" tab does not include all Luck units. Only impactful Luck units will be displayed.</center></p>
-                                <p><center>The Luck Unit's tab will show all available (farmable) Luck Units.</center></p>
+                                <p><center><b>NOTE: </b>The "General Tierlist" tab displays all units.</center></p>
+                                <p><center>The Detailed Tierlist tab will show all determined ratings.</center></p>
+                                <p><center>To access the original document, and also obtain a copy, click <a href="https://docs.google.com/spreadsheets/d/1J6b7ptaZPZYFkd1p28X_RiP8QpCRiaQnS0bfMpVtah8/">HERE</a></center></p>
                             </CardBody>
                         </Card>
                 </CardBody>
@@ -254,21 +244,25 @@ function DisplayHeader(){
 }
 
 function DisplayAccordion({unit}) {
+    // Filter out unranked characters
+    const rankedData = unit
+        .filter(char => char.tier && typeof char.tier.rank === "number");
+
     return (
-        <UncontrolledAccordion flush defaultOpen={["SS", "S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F"]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
-            <DisplayRank unit={unit} rank={13} />
-            <DisplayRank unit={unit} rank={12} />
-            <DisplayRank unit={unit} rank={11} />
-            <DisplayRank unit={unit} rank={10} />
-            <DisplayRank unit={unit} rank={9} />
-            <DisplayRank unit={unit} rank={8} />
-            <DisplayRank unit={unit} rank={7} />
-            <DisplayRank unit={unit} rank={6} />
-            <DisplayRank unit={unit} rank={5} />
-            <DisplayRank unit={unit} rank={4} />
-            <DisplayRank unit={unit} rank={3} />
-            <DisplayRank unit={unit} rank={2} />
-            <DisplayRank unit={unit} rank={1} />
+        <UncontrolledAccordion flush defaultOpen={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]} stayOpen style={{marginTop: "3rem", width: "100%"}}>
+            <DisplayRank unit={rankedData} rank={1} />
+            <DisplayRank unit={rankedData} rank={2} />
+            <DisplayRank unit={rankedData} rank={3} />
+            <DisplayRank unit={rankedData} rank={4} />
+            <DisplayRank unit={rankedData} rank={5} />
+            <DisplayRank unit={rankedData} rank={6} />
+            <DisplayRank unit={rankedData} rank={7} />
+            <DisplayRank unit={rankedData} rank={8} />
+            <DisplayRank unit={rankedData} rank={9} />
+            <DisplayRank unit={rankedData} rank={10} />
+            <DisplayRank unit={rankedData} rank={11} />
+            <DisplayRank unit={rankedData} rank={12} />
+            <DisplayRank unit={rankedData} rank={13} />
         </UncontrolledAccordion>
     )
 }
@@ -294,62 +288,34 @@ function DisplayRank({unit, rank}) {
     const mobileFont = "12px";
     let ranking
 
-        switch({rank})
-            {
-                case 13:
-                            ranking = <h1><strong>SS</strong></h1> 
-                                        break;
-                case 12:
-                            ranking = <h1><strong>S</strong></h1> 
-                                        break;
-                case 11:
-                            ranking = <h1><strong>A+</strong></h1> 
-                                        break;
-                case 10:
-                            ranking = <h1><strong>A</strong></h1>
-                                        break;
-                case 9:
-                            ranking = <h1><strong>A-</strong></h1> 
-                                        break;
-                case 8:
-                            ranking = <h1><strong>B+</strong></h1> 
-                                        break;
-                case 7:
-                            ranking = <h1><strong>B</strong></h1> 
-                                        break;
-                case 6:
-                            ranking = <h1><strong>B-</strong></h1> 
-                                        break;
-                case 5:
-                            ranking = <h1><strong>C+</strong></h1> 
-                                        break;
-                case 4:
-                            ranking = <h1><strong>C</strong></h1> 
-                                        break;
-                case 3:
-                            ranking = <h1><strong>C-</strong></h1> 
-                                        break;
-                case 2:
-                            ranking = <h1><strong>D</strong></h1> 
-                                        break;
-                case 1:
-                            ranking = <h1><strong>F</strong></h1> 
-                                        break;
-                default: 
-                            ranking = null;
-            }
+    //Assign each number to a rank
+    const rankLabels = {
+        1: "SS",
+        2: "S",
+        3: "A+",
+        4: "A",
+        5: "A-",
+        6: "B+",
+        7: "B",
+        8: "B-",
+        9: "C+",
+        10: "C",
+        11: "C-",
+        12: "D",
+        13: "F"
+    };
 
     return (
         <>
             <AccordionHeader targetId={rank}>
-                        {ranking}
+                        <h1><strong>{rankLabels[rank]}</strong></h1>
             </AccordionHeader>
             <AccordionItem>
                 <AccordionBody accordionId={rank} style={accordionColor}>
                     <CardGroup>
                         <Default>
                             {unit.map(units => {
-                                if(units.rank === rank && units.attribute === "Fire"){
+                                if(units.tier.rank === rank && units.attribute === "Fire"){
                                     return (
                                         <DisplayUnit unit={units} imageSize={desktopWidth} fontSizing={desktopFont}/>
                                     )
@@ -357,7 +323,7 @@ function DisplayRank({unit, rank}) {
                                 return ""
                             })}
                             {unit.map(units => {
-                                if(units.rank === rank && units.attribute === "Earth"){
+                                if(units.tier.rank === rank && units.attribute === "Earth"){
                                     return (
                                         <DisplayUnit unit={units} imageSize={desktopWidth} fontSizing={desktopFont}/>
                                     )
@@ -365,7 +331,7 @@ function DisplayRank({unit, rank}) {
                                 return ""
                             })}
                             {unit.map(units => {
-                                if(units.rank === rank && units.attribute === "Water"){
+                                if(units.tier.rank === rank && units.attribute === "Water"){
                                     return (
                                         <DisplayUnit unit={units} imageSize={desktopWidth} fontSizing={desktopFont}/>
                                     )
@@ -373,7 +339,7 @@ function DisplayRank({unit, rank}) {
                                 return ""
                             })}
                             {unit.map(units => {
-                                if(units.rank === rank && units.attribute === "Light"){
+                                if(units.tier.rank === rank && units.attribute === "Light"){
                                     return (
                                         <DisplayUnit unit={units} imageSize={desktopWidth} fontSizing={desktopFont}/>
                                     )
@@ -381,7 +347,7 @@ function DisplayRank({unit, rank}) {
                                 return ""
                             })}
                             {unit.map(units => {
-                                if(units.rank === rank && units.attribute === "Dark"){
+                                if(units.tier.rank === rank && units.attribute === "Dark"){
                                     return (
                                         <DisplayUnit unit={units} imageSize={desktopWidth} fontSizing={desktopFont}/>
                                     )
@@ -393,7 +359,7 @@ function DisplayRank({unit, rank}) {
                             <Container>
                                 <Row>
                                 {unit.map((units) => {
-                                    if(units.rank === rank && units.attribute === "Fire"){
+                                    if(units.tier.rank === rank && units.attribute === "Fire"){
                                         return (
                                             <>
                                                 <Col xs="4">
@@ -405,7 +371,7 @@ function DisplayRank({unit, rank}) {
                                     return ""
                                 })}
                                 {unit.map((units) => {
-                                    if(units.rank === rank && units.attribute === "Earth"){
+                                    if(units.tier.rank === rank && units.attribute === "Earth"){
                                         return (
                                             <>
                                                 <Col xs="4">
@@ -417,7 +383,7 @@ function DisplayRank({unit, rank}) {
                                     return ""
                                 })}
                                 {unit.map((units) => {
-                                    if(units.rank === rank && units.attribute === "Water"){
+                                    if(units.tier.rank === rank && units.attribute === "Water"){
                                         return (
                                             <>
                                                 <Col xs="4">
@@ -429,7 +395,7 @@ function DisplayRank({unit, rank}) {
                                     return ""
                                 })}
                                 {unit.map((units) => {
-                                    if(units.rank === rank && units.attribute === "Light"){
+                                    if(units.tier.rank === rank && units.attribute === "Light"){
                                         return (
                                             <>
                                                 <Col xs="4">
@@ -441,7 +407,7 @@ function DisplayRank({unit, rank}) {
                                     return ""
                                 })}
                                 {unit.map((units) => {
-                                    if(units.rank === rank && units.attribute === "Dark"){
+                                    if(units.tier.rank === rank && units.attribute === "Dark"){
                                         return (
                                             <>
                                                 <Col xs="4">
