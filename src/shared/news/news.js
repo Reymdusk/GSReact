@@ -3834,6 +3834,36 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 115,
+        date: `November 20, 2025`,
+        article: 
+        {
+            intro: `On JP, the Rabbids saga has a new addition - Henrietta with her equips! Meanwhile on Global, Last Miracle Isliid makes his debut with his respective equips too!`,
+            new:
+                {
+                    units: [
+                        [`Henrietta`, 104197212]
+                    ],
+                    equips: [
+                        [`真『アルゴノウト』`, 113581],
+                        [`アルゴノウト・レプリカ`, 113591],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Last Miracle Isliid`, 104117412]
+                    ],  
+                    equips: [
+                        [`True "Amatsukado"`, 113131],
+                        [`Amatsukado`, 113141]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

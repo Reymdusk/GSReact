@@ -10396,7 +10396,7 @@ const UnitInformation = [
                 skillbreak: 240,
                 passive: 
                     {
-                        ability1: "When equipped by Freed, increase stats by 30% and increase Paralysis and Freeze RES by 100%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Freed or Henrietta, increase stats by 30% and increase Paralysis and Freeze RES by 100%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Arts DMG by 20%. If user is God, increase Equipment CT REC by 20%. Does not stack with Abilities of the same name."
                     }
             },
@@ -32273,7 +32273,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Last Miracle Isliid - Missing Lore (JP)
+    { //Last Miracle Isliid - Missing Lore
         id: 104117412,
         name: `Last Miracle Isliid`,
         translate: `Young Isliid`,
@@ -32335,7 +32335,7 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Heaven's Gate`,
+                    name: `Amatsukado`,
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "/db/Equipment/Detail/item_detail_113131.png",
                     skill: `60s CT - 10000% Light DMG (PHY). For 10s, reduce enemies' Light RES by 30%.`,
@@ -32348,8 +32348,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     {
@@ -32736,6 +32736,100 @@ const UnitInformation = [
                         ability2: "Increase own Accuracy by 10%."
                     }
             },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104197212,
+        name: `Henrietta`,
+        attribute: `Water`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104196212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104197212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104196212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104197212.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7042,
+                hpplus: 1296,
+                atk: 3581,
+                atkplus: 678,
+                def: 3417,
+                defplus: 660
+            },
+        skillset:
+            {
+                skill: `13s CT - 3000% Water DMG (PHY). For 8s, reduce enemies' Evasion rate by 20%.`,
+                skillbreak: 400,
+                arts: `17000% Water DMG (PHY). Increase allies' Arts (except self) by 50. For 12s, increase allies' Arts by 3/s (Type A). Additionally, for 12s, increase Water, Light, and Dark allies' Arts by an additional 2/s (Type C).\nNote: This unit's Arts Gen is Type A/C and will not stack with other Type A/C Arts Gen.`,
+                artsbreak: 800,
+                truearts: `30000% Water DMG (PHY). For 25s, reduce enemies' CRI RES, Water RES, Light RES, and Dark RES by 100%.`,
+                trueartsbreak: 1000,
+                superarts: `160000% Water DMG (PHY). Increase allies' next Super Arts DMG by 300%.`,
+                superartsbreak: 2200
+            },
+        passive:
+            {
+                ability1: `Increase allies' DMG by 60% against Giant Bosses and heal allies' DMG Taken by 20% against Giant Bosses. Does not stack with Abilities of the same name.`,
+                ability2: `At the start of a Quest, increase Allies' Arts by 50. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Heal Amount by 10%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Frostspite Soulgem"
+                }
+            },
+        trueweapon:
+        {
+            true1: 
+                {
+                    name: "Argonaut",
+                    slot: "/db/Mines/thumbnail/suppLB6.png",
+                    detail: "/db/Equipment/Detail/item_detail_113581.png",
+                    skill: "40s CT - 5000% Water DMG (Physical). Increase allies' Arts by 40. For 10s, increase allies' Physical DMG by 50%.",
+                    skillbreak: 300,
+                    passive:
+                        {
+                            ability1: "When equipped by Henrietta, increase own Arts by 3/s. Does not stack with Abilities of the same name.",
+                            ability2: "Increase own Accuracy by 10%."
+                        }
+                },
+            true2: 
+                {
+                    name: "Siegfried",
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_104301.png",
+                    skill: "3s CT - 900% Elementless DMG (PHY). Deal 1200% Elementless DMG (PHY) to Demon and God Enemies instead. If this attack hits an Enemy, heal own HP by 50 + For 3s, reduce own DEF by 20%.",
+                    skillbreak: 240,
+                    passive: 
+                        {
+                            ability1: "When equipped by Freed or Henrietta, increase stats by 30% and increase Paralysis and Freeze RES by 100%. Does not stack with Abilities of the same name.",
+                            ability2: "Increase Arts DMG by 20%. If user is God, increase Equipment CT REC by 20%. Does not stack with Abilities of the same name."
+                        }
+                }
+        },
         lore:
             {
                 evoawk: `Currently unreleased in Global.`,
@@ -44398,7 +44492,7 @@ const UnitInformation = [
                 artsbreak: 800,
                 truearts: `70000% Light DMG (MAG). For 30s, increase Light Allies' stats by 50% & reduce enemies' CRI RES by 100%. `,
                 trueartsbreak: 1500,
-                superarts: `200000% Light DMG (MAG). For 25s, reduce enemies' Light RES by 150%. Each time Super Arts is used, refresh own MAG Equips if the Equip's remaining CT is more than 50%.`,
+                superarts: `220000% Light DMG (MAG). For 25s, reduce enemies' Light RES by 150%. Additionally, refresh own MAG Equips if their remaining CT is greater than 50% when own Super Arts is used.`,
                 superartsbreak: 2000
             },
         passive: 

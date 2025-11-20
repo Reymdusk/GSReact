@@ -36554,10 +36554,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『天ツ門』 - JP Complete
+    { //True "Amatsukado" - Missing Lore
         id: 113131,
         name: `真『天ツ門』`,
-        translate: `True "Heaven's Gate"`,
+        translate: `True "Amatsukado"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36583,12 +36583,11 @@ const EquipInformation = [
                 ability1: `When equipped by Last Miracle Isliid, increase own Physical DMG by 70% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `At Start of Battle, increase own Arts by 20 and refreshes this Equip's CT. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //白眩の剣『天ツ門』 - JP Complete
+    { //Amatsukado - Missing Lore
         id: 113141,
-        name: `白眩の剣『天ツ門』`,
-        translate: `White Dazzling Blade "Heaven's Gate"`,
+        name: `Amatsukado`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36613,7 +36612,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Light resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //惨魂爪『リカーニングペイン』 - JP Complete
         id: 113151,
@@ -37971,6 +37970,68 @@ const EquipInformation = [
         passive:
             {
                 ability1: `When above 90% HP, increase own Accuracy by 20%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113581,
+        name: `真『アルゴノウト』`,
+        translate: `True "Argonaut"`,
+        type: `/db/Mines/thumbnail/suppLB6.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113581.png`
+            },
+        stats:
+            {
+                hp: 300,
+                atk: 150,
+                def: 150
+            },
+        skillset:
+            {
+                skill: `40s CT - 5000% Water DMG (Physical). Increase allies' Arts by 40. For 10s, increase allies' Physical DMG by 50%.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `When equipped by Henrietta, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113591,
+        name: `アルゴノウト・レプリカ`,
+        translate: `Argonaut Replica`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 4400% Water DMG (Physical). For 10s, increase own Water DMG and Accuracy by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
