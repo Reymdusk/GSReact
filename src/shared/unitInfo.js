@@ -31077,6 +31077,16 @@ const UnitInformation = [
     { //Venna - Missing Lore
         id: 103927311,
         name: `Venna`,
+        tier: 
+            {
+                rank: 9,
+                defense: 1.59,
+                artgen: 0.00,
+                damage: 2.04,
+                buffs: 1.70,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Earth`,
         type: `Beast`,
         image: 
@@ -32277,6 +32287,16 @@ const UnitInformation = [
         id: 104117412,
         name: `Last Miracle Isliid`,
         translate: `Young Isliid`,
+        tier: 
+            {
+                rank: 3,
+                defense: 1.04,
+                artgen: 1.66,
+                damage: 4.32,
+                buffs: 2.92,
+                heal: 0.82,
+                break: 0.00
+            },
         attribute: `Light`,
         type: `Human`,
         image: 
