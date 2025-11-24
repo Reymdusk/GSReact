@@ -2652,7 +2652,7 @@ const UnitInformation = [
         name: "Roy (Water)",
         tier: 
             {
-                rank: 10,
+                rank: 11,
                 defense: 1.86,
                 artgen: 0.00,
                 damage: 1.66,
@@ -5460,7 +5460,7 @@ const UnitInformation = [
         name: "Pola",
         tier: 
             {
-                rank: 11,
+                rank: 12,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 0.37,
@@ -25918,7 +25918,7 @@ const UnitInformation = [
         name: "Rosetta (Earth)",
         tier: 
             {
-                rank: 10,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.46,
@@ -30446,7 +30446,7 @@ const UnitInformation = [
         translate: `Cute Confectioner Liza`,
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 0.00,
                 artgen: 1.96,
                 damage: 2.57,
@@ -36433,7 +36433,7 @@ const UnitInformation = [
         name: "Rem (Re:Zero)",
         tier: 
             {
-                rank: 11,
+                rank: 12,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.82,
@@ -45459,7 +45459,7 @@ const UnitInformation = [
         name: `Jiji`,
         tier: 
             {
-                rank: 5,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.45,
                 damage: 3.60,
