@@ -27972,11 +27972,28 @@ const UnitInformation = [
                 superarts: `180000% Fire DMG (PHY). During own Super Arts, ignore 100% of Enemies' DEF. For 40s, increase own DMG by 50%.`,
                 superartsbreak: 2200
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2700% Fire DMG (PHY). For 8s, reduce Enemies' Fire RES by 60%.`,
+                skillbreak: 700,
+                arts: `20000% Fire DMG (PHY). Increase Fire Allies' Arts by 20. For 25s, increase Allies' stats by 30%. When this Arts is used in Magia Drive, activate Magia Unlimited for the remaning duration of Magia Drive.`,
+                artsbreak: 1200,
+                truearts: `For 180s, enter Magia Drive. When used during Magia Drive/Magia Drive: Unlimited: 70000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 200%.`,
+                trueartsbreak: 1900,
+                superarts: `200000% Fire DMG (PHY). During own Super Arts, ignore 100% of Enemies' DEF. For 40s, increase own DMG by 100%.`,
+                superartsbreak: 2200
+            },
         passive: 
             {
                 ability1: `Increase DMG against Earth Enemies by 25%.`,
                 ability2: `When in Magia Drive, increase own ATK by 100%.`,
                 ability3: `When in Magia Drive: Unlimited, increase own Arts DMG by 50%.`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase DMG against Earth Enemies by 25%.`,
+                ability2: `When in Magia Drive, increase own ATK by 100%.`,
+                ability3: `When in Magia Drive: Unlimited, increase own Arts DMG by 200%.`
             }, 
         evolution: 
             {
@@ -27999,6 +28016,19 @@ const UnitInformation = [
                 passive: 
                     {
                         ability1: `When equipped by Demon Edge Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase ATK by 5%.`
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: `Enmon Zanketsu`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110761.png",
+                skill: `60s CT - 10000% Fire DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If user is Fire, reduce Enemies' PHY RES by an additional 15%.`,
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: `When equipped by Demon Edge Berwick, increase Arts by 6/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
                         ability2: `Increase ATK by 5%.`
                     }
             },
@@ -44652,7 +44682,7 @@ const UnitInformation = [
             {
                 rank: 3,
                 defense: 0.00,
-                artgen: 3.47,
+                artgen: 3.36,
                 damage: 2.46,
                 buffs: 1.70,
                 heal: 0.00,
