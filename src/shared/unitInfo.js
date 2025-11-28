@@ -25673,7 +25673,7 @@ const UnitInformation = [
                 artgen: 3.37,
                 damage: 1.09,
                 buffs: 0.42,
-                heal: 1.70,
+                heal: 0.70,
                 break: 0.00
             },
         attribute: "Light",
@@ -29255,7 +29255,7 @@ const UnitInformation = [
                 artgen: 0.00,
                 damage: 3.22,
                 buffs: 1.45,
-                heal: 0.00,
+                heal: 1.74,
                 break: 0.00
             },
         attribute: `Water`,
