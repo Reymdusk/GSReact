@@ -12788,7 +12788,7 @@ const UnitInformation = [
                 evoawk: "The side of Marzex which embodies hate. The endlessly increasing powers of the Dark could eventually be used by the adventurer, who had been blessed by the merciful Marzex. How did the god feel,to help the adventurer who once defeated him? Hate still grows silently inside him, who stands beside the adventurer..."
             }
     },
-    { //Mako - Complete + JP ver
+    { //Mako - Complete
         id: 102206412,
         name: "Mako",
         tier: 
@@ -12816,15 +12816,6 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP:  
-            {
-                slot1: 6,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 5,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
@@ -12838,15 +12829,6 @@ const UnitInformation = [
                 defplus: 343
             },
         skillset: 
-            {
-                skill: "8s CT - 1800% Light DMG (PHY). Increase own Arts by 10.",
-                skillbreak: 1000,
-                arts: "18000% Light DMG (PHY). For 15s, increase own Skill CT REC by 150%, reduce Enemies' DMG RES and Movement Speed by 30%.",
-                artsbreak: 2200,
-                truearts: "For 15s, heal Allies' HP by 400/s, increase Allies' Arts by 4/s and Arts DMG by 130%.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
-                trueartsbreak: 0
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 1800% Light DMG (PHY). Increase own Arts by 15.",
                 skillbreak: 1000,
@@ -12927,7 +12909,7 @@ const UnitInformation = [
                 evoawk: "Mako Mankanshoku, Ryuko Matoi's best friend, has obtained the true powers of the Fight Club Spec Two-Star Goku Uniform. To maintain her social status, she fights evenly with Ryuko. However, once remembering why she fights, she is able to shake the earth with her fists. The ability shown when fighting Ryuko is but a shadow to her newly unleashed powers."
             }
     },
-    { //Satsuki - Complete + JP ver
+    { //Satsuki - Complete
         id: 102216212,
         name: "Satsuki",
         tier: 
@@ -12955,15 +12937,6 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
-                slot1: 6,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 5,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
@@ -12977,15 +12950,6 @@ const UnitInformation = [
                 defplus: 364
             },
         skillset: 
-            {
-                skill: "6s CT - 2200% Water DMG (PHY). Increase own Arts by 30.",
-                skillbreak: 2500,
-                arts: "22000% Water DMG (PHY). Increase Break PWR of this Arts by 250% during Enemy Arts. For 25s, reduce Enemies' Break RES by 35%.",
-                artsbreak: 4000,
-                truearts: "70000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze for 10s. For 30s, increase Status RES (except Faint) by 100% for self.",
-                trueartsbreak: 8500
-            },
-        skillsetJP: 
             {
                 skill: "6s CT - 2200% Water DMG (PHY). Increase own Arts by 30.",
                 skillbreak: 2500,
@@ -13014,40 +12978,6 @@ const UnitInformation = [
                 }
             },
         dream: {
-                water: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        mat2amt: 50,
-                        hover2: `Frostsprite Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
-                        mat3amt: 2,
-                        hover3: "Freydal",
-                    },
-                    passive: {
-                        ability1: `Increase own Break Power against Human enemies by 150%.`,
-                        ability2: `Increase own Arts by 2/s.`
-                    }
-                },
-                earth: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
-                        mat2amt: 50,
-                        hover2: `Smogdragon Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
-                        mat3amt: 2,
-                        hover3: "Goldola",
-                    },
-                    passive: {
-                        ability1: `Increase own Break Power against Earth enemies by 150%.`,
-                        ability2: `Increase own Skill CT Speed by 20%.`
-                    }
-                }
-            },
-        dreamJP: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -13100,7 +13030,7 @@ const UnitInformation = [
                 evoawk: "The student principal of Honnouji Academy. Through the fight against her true enemies and thanks to her encounter with Ryuko Matoi, she realizes the mistakes made in the past and recognizes the support of those close to her. With this newfound clarity, surely no one can defeat her."
             }
     },
-    { //Ryuko - Complete + JP ver
+    { //Ryuko - Complete
         id: 102226112,
         name: "Ryuko",
         tier: 
@@ -13128,15 +13058,6 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
-            {
-                slot1: 6,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 5,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
@@ -13153,27 +13074,12 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2200% Fire DMG (PHY). Increase BE generated by this Skill by 100%.",
                 skillbreak: 1200,
-                arts: "35000% Fire DMG (PHY). For 30s, increase own ATK by 200% & Skill CT REC by 100%.",
-                artsbreak: 2200,
-                truearts: "100000% Fire DMG (PHY). For 20s, increase own DMG by 200%, increase own DMG to Enemies in Break by 200%, increase Paralysis and Freeze RES by 100%.",
-                trueartsbreak: 4800
-            },
-        skillsetJP:
-            {
-                skill: "8s CT - 2200% Fire DMG (PHY). Increase BE generated by this Skill by 100%.",
-                skillbreak: 1200,
                 arts: "40000% Fire DMG (PHY). For 40s, increase own ATK by 200% & Skill CT REC by 100%.",
                 artsbreak: 3000,
                 truearts: "130000% Fire DMG (PHY). For 20s, increase own DMG by 250%, increase own DMG to Enemies in Break by 250%, increase Paralysis and Freeze RES by 100%.",
                 trueartsbreak: 5500
             },
         passive: 
-            {
-                ability1: "When near-death, increase Arts by 3/s.",
-                ability2: "When near-death, heal HP by 40/s.",
-                ability3: "Increase Accuracy by 100% and Arts DMG by 30%."
-            }, 
-        passiveJP: 
             {
                 ability1: "When near-death, increase Arts by 5/s.",
                 ability2: "When near-death, heal HP by 40/s.",
@@ -32370,7 +32276,9 @@ const UnitInformation = [
             {
                 ability1: `At Start of Battle, increase allies' Arts by 30. Does not stack with Abilities of the same name.`,
                 ability2: `When own HP is 80% or higher, increase own CRI rate by 100%.`,
-                ability3: `Increase own MAG RES by 10%.`
+                ability3: `Increase own MAG RES by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Last Miracle Isliid's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Last Miracle Isliid's SP. Art is owned)`
             }, 
         evolution: 
             {
@@ -38984,7 +38892,7 @@ const UnitInformation = [
                 author: `Praying Patrick`
             }
     },
-    { // Nui Harime - Complete + JP ver
+    { // Nui Harime - Complete
         id: 107596512,
         name: "Nui Harime",
         tier: 
@@ -39028,27 +38936,12 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 30.",
                 skillbreak: 500,
-                arts: "23000% Dark DMG (MAG). Every time this Arts is activated, increase Dark Allies' DMG by 50% (up to 200%). When this unit takes damage during this Arts, Enemies take 3000% Elementless DMG (MAG).",
-                artsbreak: 1000,
-                truearts: "82000% Dark DMG (MAG). For 20s, Allies ignore 100% of Enemies' DEF. Increase the Arts of the Ally with the least Arts (except self) by 200.",
-                trueartsbreak: 1300
-            },
-        skillsetJP: 
-            {
-                skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 30.",
-                skillbreak: 500,
                 arts: "28000% Dark DMG (MAG). Every time this Arts is activated, increase Dark Allies' DMG by 50% (up to 200%). When this unit takes damage during this Arts, Enemies take 10000% Elementless DMG (MAG).",
                 artsbreak: 1000,
                 truearts: "88000% Dark DMG (MAG). For 20s, Allies ignore 100% of Enemies' DEF. Increase the Arts of the Ally with the least Arts (except self) by 200.",
                 trueartsbreak: 1300
             },
         passive: 
-            {
-                ability1: "Increase allies' Defense Equip CT Speed by 10%.",
-                ability2: "Increase DMG to Human enemies by 60%.",
-                ability3: "Increase Curse RES and Evasion by 70%."
-            }, 
-        passiveJP: 
             {
                 ability1: "Increase allies' Defense Equip CT Speed by 25%.",
                 ability2: "Increase DMG to Human enemies by 60%.",
@@ -39068,40 +38961,6 @@ const UnitInformation = [
                 }
             },
         dream: {
-                fire: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
-                        mat2amt: 50,
-                        hover2: `Flametail Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
-                        mat3amt: 2,
-                        hover3: "Flogassa",
-                    },
-                    passive: {
-                        ability1: `Increase own DMG against Human enemies by 130%.`,
-                        ability2: `Increase own BE Output by 10%.`
-                    }
-                },
-                dark: {
-                    evolution: {
-                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
-                        mat1amt: 10,
-                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
-                        mat2amt: 50,
-                        hover2: `Sinflow Soulgem`,
-                        mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
-                        mat3amt: 2,
-                        hover3: "Oldeus",
-                    },
-                    passive: {
-                        ability1: `Increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase own Poison RES by 100%..`
-                    }
-                }
-            },
-        dreamJP: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -42315,7 +42174,7 @@ const UnitInformation = [
                 evosuper: "Her true identity is a Vampire Lord who has lived over two-hundred fifty years. That long life means she knows much more about the world than the members of Nazarick. When the Dark Hero Momon saved her life, she fell in love for the first time."
             }
     },
-    { //Uzu Sanageyama - Complete + JP ver
+    { //Uzu Sanageyama - Complete
         id: 107937312,
         name: `Uzu Sanageyama`,
         tier: 
@@ -42362,17 +42221,6 @@ const UnitInformation = [
             {
                 skill: `13s CT - 2000% Earth DMG (PHY). Increase own Arts by 30. If this Skill crits, increase own Arts by 60 instead.`,
                 skillbreak: 600,
-                arts: `30000% Earth DMG (PHY). For 35s, increase own DMG and Skill CT Speed by 130%.`,
-                artsbreak: 1000,
-                truearts: `80000% Earth DMG (PHY). Each time True Arts is used, permanently increase own Super CRI rate by 25% (MAX: 75%).`,
-                trueartsbreak: 1500,
-                superarts: `190000% Earth DMG (PHY). For 25s, increase own CRI rate by 100% and reduce enemies' PHY RES by 150%.`,
-                superartsbreak: 1800
-            },
-        skillsetJP: 
-            {
-                skill: `13s CT - 2000% Earth DMG (PHY). Increase own Arts by 30. If this Skill crits, increase own Arts by 60 instead.`,
-                skillbreak: 600,
                 arts: `30000% Earth DMG (PHY). For 40s, increase own DMG and Skill CT Speed by 150%.`,
                 artsbreak: 1000,
                 truearts: `80000% Earth DMG (PHY). Each time True Arts is used, permanently increase own Super CRI rate by 25% (MAX: 75%).`,
@@ -42381,14 +42229,6 @@ const UnitInformation = [
                 superartsbreak: 1800
             },
         passive: 
-            {
-                ability1: `When unaffected by Status ailments, increase own ATK and Accuracy by 100%. Does not stack with Abilities of the same name.`,
-                ability2: `Increase own Blind RES by 100%.`,
-                ability3: `When near-death, increase own Arts by 2/s.`,
-                ability4: `Unit EXP UP 20% UP. (When Uzu's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Uzu's SP. Art is owned)`
-            }, 
-        passiveJP: 
             {
                 ability1: `When unaffected by Status ailments, increase own ATK and Accuracy by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Blind RES by 100%.`,
@@ -42473,17 +42313,6 @@ const UnitInformation = [
             {
                 skill: `12s CT - Increase own Arts by 40. Heal ally with the lowest HP by 3000.`,
                 skillbreak: 0,
-                arts: `18000% Water DMG (MAG). For 20s, increase all allies' Accuracy by 50% and all Human allies' ATK by 100%.`,
-                artsbreak: 500,
-                truearts: `55000% Water DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and Water RES by 80%.`,
-                trueartsbreak: 1600,
-                superarts: `For 25s, increase all allies' Arts by 7/s and CRI DMG by 300%. Increase Leader's Arts by an additional 3/s for 25s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
-                superartsbreak: 0
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - Increase own Arts by 40. Heal ally with the lowest HP by 3000.`,
-                skillbreak: 0,
                 arts: `20000% Water DMG (MAG). For 20s, increase all allies' Accuracy by 50% and all Human allies' ATK by 100%.`,
                 artsbreak: 500,
                 truearts: `58000% Water DMG (MAG). For 25s, reduce enemies' CRI RES by 100% and Water RES by 80%.`,
@@ -42529,7 +42358,7 @@ const UnitInformation = [
                 evosuper: `The brains of Honnouji Academy, dressed in his personalized Goku Uniform. Touch panels line his arms, back, and upper legs, letting him type at high speeds even in the middle of battle to analyze his opponent's data. With accurate predictions and prompt feedback, he always holds the upper hand.`
             }
     },
-    { //Ira Gamagoori - Complete + JP ver
+    { //Ira Gamagoori - Complete
         id: 107957512,
         name: `Ira Gamagoori`,
         tier: 
@@ -42580,29 +42409,10 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: `50000% Dark DMG (PHY). For 30s, consume 2%/s of own Max HP. For 40s, increase own PHY RES by 30% and redirect Allies' DMG taken to self and gain a DMG barrier that negates 35000 DMG to self.`,
                 trueartsbreak: 1400,
-                superarts: `150000% Dark DMG (PHY). Ignores 100% of enemies' DEF for the duration of Super Arts. For 40s, increase own Freeze RES and Paralysis RES by 100%.`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
-                skill: `12s CT - 3000% Dark DMG (PHY). Increase own Arts by 40.`,
-                skillbreak: 700,
-                arts: `25000% Dark DMG (PHY). For 15s, reduce enemies' Dark RES by 50%.`,
-                artsbreak: 1000,
-                truearts: `50000% Dark DMG (PHY). For 30s, consume 2%/s of own Max HP. For 40s, increase own PHY RES by 30% and redirect Allies' DMG taken to self and gain a DMG barrier that negates 35000 DMG to self.`,
-                trueartsbreak: 1400,
                 superarts: `170000% Dark DMG (PHY). Ignores 100% of enemies' DEF for the duration of Super Arts. For 50s, increase own Freeze RES and Paralysis RES by 100%.`,
                 superartsbreak: 2000
             },
         passive: 
-            {
-                ability1: `Increase own DMG the lower own HP is (MAX: 200%). When taking lethal DMG for the first time, heal own HP by 50%. Does not stack with Abilities of the same name.`,
-                ability2: `When Near-death, increase own Equipment CT Speed by 20%.`,
-                ability3: `When Near-death, increase own DMG RES by 20%.`,
-                ability4: `Unit EXP UP 20% UP. (When Ira's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Ira's SP. Art is owned)`
-            }, 
-        passiveJP: 
             {
                 ability1: `Increase own DMG the lower own HP is (MAX: 250%). When taking lethal DMG for the first time, heal own HP by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `When Near-death, increase own Equipment CT Speed by 20%.`,
@@ -42640,7 +42450,7 @@ const UnitInformation = [
                 evosuper: `Honnouji Academy's disciplinary leader in his personal Goku Uniform. It has two forms: the Shackle Regalia built for defense, and the Scourge Regalia which returns all inflicted attacks through a storm of whips. Tough in body and spirit, he laughs even when under fierce enemy assault.`
             }
     },
-    { //Nonon Jakuzure - Complete + JP ver
+    { //Nonon Jakuzure - Complete
         id: 107967412,
         name: `Nonon Jakuzure`,
         tier: 
@@ -42684,17 +42494,6 @@ const UnitInformation = [
                 defplus: 606
             },
         skillset: 
-            {
-                skill: `13s CT - 2000% Light DMG (MAG). For 8s, increase own Arts by 4/s. Additionally, increase own Arts by 20 if own Skill hits the Boss (1 HIT).\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
-                skillbreak: 500,
-                arts: `25000% Light DMG (MAG). Each time own Arts is used, permanently increase Light allies' DMG by 40% (MAX: 200%).`,
-                artsbreak: 1000,
-                truearts: `70000% Light DMG (MAG). Increase own DMG against non-Boss enemies by 200% for the duration of own True Arts. For 35s, increase allies' ATK by 100%.`,
-                trueartsbreak: 1800,
-                superarts: `160000% Light DMG (MAG). For 25s, reduce enemies' MAG RES by 130% and Break RES by 50%.`,
-                superartsbreak: 3000
-            },
-        skillsetJP: 
             {
                 skill: `13s CT - 2000% Light DMG (MAG). For 8s, increase own Arts by 4/s. Additionally, increase own Arts by 20 if own Skill hits the Boss (1 HIT).\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 500,

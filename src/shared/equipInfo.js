@@ -52154,8 +52154,7 @@ const EquipInformation = [
     },
     {
         id: 154671,
-        name: `纏流子のぬいぐるみ`,
-        translate: `Ryuko Plushie`,
+        name: `Ryuko Plushie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -52181,12 +52180,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154681,
-        name: `鬼龍院皐月のぬいぐるみ`,
-        translate: `Satsuki Plushie`,
+        name: `Satsuki Plushie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -52212,12 +52210,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154691,
-        name: `満艦飾マコのぬいぐるみ`,
-        translate: `Mako Plushie`,
+        name: `Mako Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -52243,12 +52240,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154701,
-        name: `鮮血のぬいぐるみ`,
-        translate: `Senketsu Plushie`,
+        name: `Senketsu Plushie`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -52274,12 +52270,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154711,
-        name: `針目縫のぬいぐるみ`,
-        translate: `Nui Plushie`,
+        name: `Nui Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -52305,7 +52300,7 @@ const EquipInformation = [
                 ability1: `Increase own DEF by 5%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154721,

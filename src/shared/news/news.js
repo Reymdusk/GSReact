@@ -3864,6 +3864,32 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 116,
+        date: `November 28, 2025`,
+        article: 
+        {
+            intro: `KLK is back once again on Global with unit buffs and new equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [
+                        [`Ryuko Plushie`, 154671],
+                        [`Satsuki Plushie`, 154681],
+                        [`Mako Plushie`, 154691],
+                        [`Senketsu Plushie`, 154701],
+                        [`Nui Plushie`, 154711]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
