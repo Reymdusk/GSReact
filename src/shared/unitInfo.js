@@ -12793,11 +12793,11 @@ const UnitInformation = [
         name: "Mako",
         tier: 
             {
-                rank: 6,
+                rank: 5,
                 defense: 0.00,
-                artgen: 2.83,
-                damage: 0.35,
-                buffs: 1.80,
+                artgen: 3.41,
+                damage: 0.66,
+                buffs: 2.00,
                 heal: 2.06,
                 break: 0.00
             },
@@ -12917,7 +12917,7 @@ const UnitInformation = [
                 rank: 10,
                 defense: 1.04,
                 artgen: 0.00,
-                damage: 1.15,
+                damage: 1.08,
                 buffs: 0.00,
                 heal: 0.54,
                 break: 2.34
@@ -13038,10 +13038,10 @@ const UnitInformation = [
                 rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
-                damage: 2.94,
+                damage: 3.27,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.32
+                break: 1.33
             },
         attribute: "Fire",
         type: "Human",
@@ -38900,7 +38900,7 @@ const UnitInformation = [
                 rank: 7,
                 defense: 0.00,
                 artgen: 1.42,
-                damage: 1.95,
+                damage: 2.30,
                 buffs: 0.79,
                 heal: 0.00,
                 break: 0.00
@@ -42182,7 +42182,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 1.04,
                 artgen: 0.00,
-                damage: 4.18,
+                damage: 4.68,
                 buffs: 2.38,
                 heal: 0.00,
                 break: 0.00
@@ -42276,7 +42276,7 @@ const UnitInformation = [
                 rank: 1,
                 defense: 0.00,
                 artgen: 5.00,
-                damage: 2.14,
+                damage: 2.55,
                 buffs: 5.00,
                 heal: 0.52,
                 break: 0.00
@@ -42364,9 +42364,9 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.57,
+                defense: 4.82,
                 artgen: 0.00,
-                damage: 1.47,
+                damage: 2.13,
                 buffs: 0.17,
                 heal: 0.00,
                 break: 0.00
@@ -42459,7 +42459,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.40,
                 damage: 3.57,
-                buffs: 1.90,
+                buffs: 2.27,
                 heal: 0.00,
                 break: 1.83
             },
