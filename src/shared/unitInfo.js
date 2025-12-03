@@ -12920,7 +12920,7 @@ const UnitInformation = [
                 damage: 1.08,
                 buffs: 0.00,
                 heal: 0.54,
-                break: 2.34
+                break: 2.83
             },
         attribute: "Water",
         type: "Human",
@@ -42533,10 +42533,10 @@ const UnitInformation = [
         name: `Nonon Jakuzure`,
         tier: 
             {
-                rank: 6,
+                rank: 5,
                 defense: 0.00,
                 artgen: 0.40,
-                damage: 3.57,
+                damage: 4.22,
                 buffs: 2.27,
                 heal: 0.00,
                 break: 1.83
