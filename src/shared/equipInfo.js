@@ -38036,6 +38036,68 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113601,
+        name: `真『ミーナ・ミーナ・ミーナス』`,
+        translate: `True "Mena Mena Menas"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7500% Light DMG (Physical). For 10s, increase own Light DMG by 50% and reduce enemies' Physical RES by 30%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Etika, extend duration of Lord of Feathers Mode by 20s and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Heal Amount by 5% (excluding Lifesteal).`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113611,
+        name: `精霊姫の剣『ミーナ・ミーナ・ミーナス』`,
+        translate: `Spirit Princess Sword "Mena Mena Menas"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `35s CT - 3000% Light DMG (Physical). For 8s, increase own DMG against non-Boss enemies by 100%. Additionally if user is Spirit, increase own Arts by 10.`,
+                skillbreak: 200
+            },
+        passive:
+            {
+                ability1: `Increase own Heal Amount by 10% (excluding Lifesteal).`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,

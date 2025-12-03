@@ -3890,6 +3890,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 117,
+        date: `December 3, 2025`,
+        article: 
+        {
+            intro: `It's the 9th Anniversary for JP and Etika debuts alongside it with her equips!`,
+            new:
+                {
+                    units: [
+                        [`Etika`, 104207412]
+                    ],
+                    equips: [
+                        [`真『ミーナ・ミーナ・ミーナス』`, 113601],
+                        [`精霊姫の剣『ミーナ・ミーナ・ミーナス』`, 113611]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],  
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
