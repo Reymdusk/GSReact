@@ -30922,7 +30922,7 @@ const UnitInformation = [
                 evosuper: "A Demon who fights with a scythe made of blood. He hunts Rayas to carry out his mission of reclaiming the Moonchild. His disdain for all non-Demons is such that he does not even care to remember their names, including that of the Divine Knights' commander. Thus, him addressing the red-haired Human who he fought in La Riiz is an exception among exceptions."
             }
     },
-    { //Azel - Missing Lore
+    { //Azel - Complete
         id: 103917112,
         name: `Azel`,
         tier: 
@@ -31006,8 +31006,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "An expert Demon bounty hunter who insists on calling himself a pirate. He sails from island to island, collecting treasure only to offload his findings without a second thought. This is apparently because his true lifetime goal is the discovery of the legendary Prism Regalia.",
+                evosuper: "A self-styled Demon pirate seeking a legendary treasure called the Prism Regalia. Although his crew is diverse, there is no hostility among them as they all share an admiration for his straightfoward gallantry. He occasionally holds parties where he will ramble about his grand vision of the future. However, no amount of grog can get him to reveal his past."
             }
     },
     { //Venna - Missing Lore
@@ -33357,7 +33357,7 @@ const UnitInformation = [
                 rank: 6,
                 defense: 2.08,
                 artgen: 0.00,
-                damage: 2.18,
+                damage: 3.15,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -41130,7 +41130,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Yuzuriha - Missing Lore (GL), Review Done
+    { //Yuzuriha - Complete, Review Done
         id: 107817512,
         name: `Yuzuriha`,
         tier: 
@@ -41138,7 +41138,7 @@ const UnitInformation = [
                 rank: 5,
                 defense: 0.00,
                 artgen: 2.54,
-                damage: 2.18,
+                damage: 2.85,
                 buffs: 3.54,
                 heal: 0.00,
                 break: 0.00
@@ -41205,8 +41205,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Yuzuriha of the Keishu, one of the convicts sent to Shinsenkyo. Her offense was the massacre of every last retainer at Roh Castle.",
+                evosuper: "To be pardoned from her death sentence, she agreed to retrieve the elixir of life from the island. There, she met Gabimaru and joined forces with him. In true ninja fashion, she is cold and calculating, often hinting she could turn traitor on a whim."
             },
         review:
             {
