@@ -64,6 +64,11 @@ export default function GuidesMainPage () {
                                     <img src="/db/guides/MinesBanner.png" style={imageSize} alt="Magical Mines" />
                                 </Col>
                             </a>
+                            <a href="https://docs.google.com/document/d/16IorJQQXMksXIYcNlu3i8iwWTEKeooEpgZG7l-rt4nY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <Col lg="auto">
+                                    <img src="/db/guides/TribalRuinsBanner.png" style={imageSize} alt="Tribal Ruins" />
+                                </Col>
+                            </a>
                         </CardGroup>
                     </CardBody>
                 </Card>
