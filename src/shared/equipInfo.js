@@ -34123,10 +34123,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『斬塵如火』 - JP Complete
+    { //True "Zanjinjoka" - Missing Lore
         id: 112321,
-        name: `真『斬塵如火』`,
-        translate: `True "Fiery Decapitation"`,
+        name: `True "Zanjinjoka"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34152,12 +34151,11 @@ const EquipInformation = [
                 ability1: `When equipped by Lark, increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //緋燕刀『斬塵如火』 - JP Complete
+    { //Red Swallow "Zanjinjoka" - Missing Lore
         id: 112331,
-        name: `緋燕刀『斬塵如火』`,
-        translate: `Hien Katana "Fiery Decapitation"`,
+        name: `Red Swallow "Zanjinjoka"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34182,7 +34180,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Firmament Guards "Alveda" - Complete
         id: 112341,

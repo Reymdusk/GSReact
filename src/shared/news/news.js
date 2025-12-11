@@ -3915,6 +3915,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 118,
+        date: `December 11, 2025`,
+        article: 
+        {
+            intro: `Edram has finally awoken in Global! Morevoer, Lark makes his debut too with his respective equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Lark`, 103877112]
+                    ],
+                    equips: [
+                        [`True "Zanjinjoka"`, 112321],
+                        [`Red Swallow "Zanjinjoka"`, 112331]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

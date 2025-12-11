@@ -7841,7 +7841,7 @@ const UnitInformation = [
                 evoawk: "The ancient forest's master and its guardian spirit faced a terrible dilemma at the hands of a Demonic invasion. Their rescue, and the automaton's halt, came at the hands of a mage claiming to be the forest master's father. When he pleaded that he wanted to live with his daughter again, the spirit calmlhy asked if he was ready to give up everything and live as the forest's guardian. Questioned about concerns for the forest's future itself rather than for its master, the man shed tears for some time before finally nodding."
             }
     },
-    { //Edram - Complete (+ JP version)
+    { //Edram - Complete
         id: 101575412,
         name: "Edram",
         tier: 
@@ -7867,15 +7867,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -7884,15 +7875,6 @@ const UnitInformation = [
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
-            {
-                hp: 5366,
-                hpplus: 814,
-                atk: 2300,
-                atkplus: 355,
-                def: 1956,
-                defplus: 303
-            },
-        statsJP: 
             {
                 hp: 7650,
                 hpplus: 999,
@@ -7903,15 +7885,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - 2500% Light DMG (MAG). For 5s, reduce Enemies' DEF by 30%.",
-                skillbreak: 1300,
-                arts: "14000% Light DMG (MAG). 60% chance to inflict Paralysis for 4s.",
-                artsbreak: 1500,
-                truearts: "N/A",
-                trueartsbreak: 0
-            },
-        skillsetJP: 
-            {
                 skill: "12s CT - 3000% Light DMG (MAG). For 5s, reduce Enemies' DEF by 30%.",
                 skillbreak: 1400,
                 arts: "20000% Light DMG (MAG). 70% chance to inflict Paralysis for 4s.",
@@ -7920,12 +7893,6 @@ const UnitInformation = [
                 trueartsbreak: 2200
             },
         passive: 
-            {
-                ability1: "Each normal attack will increase own Arts by 10.",
-                ability2: "Increase Light Allies' Arts by 1/s.",
-                ability3: "Reduce Water RES by 50%."
-            },
-        passiveJP: 
             {
                 ability1: "Each normal attack will increase own Arts by 10.",
                 ability2: "Increase Light Allies' Arts by 2/s.",
@@ -7957,6 +7924,7 @@ const UnitInformation = [
             {   
                 evo4: "A mecha doll that was owned by a Demon during the first period of the Ancient War. Especially created for battle, he could wipe out a whole troop by itself. In order to perform efficient massacre, he had no ego and faithfully followed its master's orders. However, his master had vigorous powers and he was hardly used. At the end, he was given as a present to his master's daughter and now she was his new master.",
                 evo5: "The humanoid weapon that a Demon's daughter had during the first period of the Ancient War. For fun, she started to invade an ancient forest and when she was resisted she used him. Although that he was finally being able to use his battle abilities, a Spirit stood in his way and did not give up to fight despite the difference in their powers. This created something like a 'feeling' inside him. Although, he did not know how to handle this 'feeling', once he was ordered to use his last ultimate weapon, he became 'excited.'",
+                evoawk: "Missing Lore."
             }
     },
     { //Favelle - Complete
@@ -28822,12 +28790,6 @@ const UnitInformation = [
             {
                 ability1: `At the start of a Battle, increase own Arts by 200.`,
                 ability2: `Increase own Paralysis RES by 80%.`,
-                ability3: `When set as the Leader of the party, reduces Allies' DMG taken by 10%. When not set as the Leader of the party, increase own accuracy by 60%. Does not stack with Abilities of the same name.`
-            }, 
-        passiveJP: 
-            {
-                ability1: `At the start of a Battle, increase own Arts by 200.`,
-                ability2: `Increase own Paralysis RES by 80%.`,
                 ability3: `When set as the Leader of the party, reduces Allies' DMG taken by 10%. When not set as the Leader of the party, increase own accuracy by 60%. Does not stack with Abilities of the same name.`,
                 ability4: `Unit EXP UP 20% UP. (When Jay's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Jay's SP. Art is owned)`
@@ -30566,10 +30528,9 @@ const UnitInformation = [
                 evosuper: "To disprove her proud sister's claims, she is determined to make better sweets that her. Knowing that she lacked sheer talent, her approach was carefully selecting ingredients based on the preferences of the judges: her brothers. In imagining the smiling faces as they ate her perfectly crafted delicacies, the contests' purpose gradually shifted to simply enjoying time together."
             }
     },
-    { //Lark - Missing Lore (JP)
+    { //Lark - Missing Lore
         id: 103877112,
         name: `Lark`,
-        translate: `Crimson Enforcer Lark`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -30628,7 +30589,7 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Fiery Decapitation`,
+                    name: `Zanjinjoka`,
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "/db/Equipment/Detail/item_detail_112321.png",
                     skill: `50s CT - 10000% Fire DMG (PHY). For 10s, increase own PHY DMG and Fire DMG by 50%.`,
@@ -30641,8 +30602,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Elenore - Complete
