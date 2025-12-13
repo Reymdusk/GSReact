@@ -51005,9 +51005,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //True 'Hero Gloves' - Missing Lore
+    { //True "Hero Gloves" - Missing Lore
         id: 154271,
-        name: `???`,
+        name: `True "Hero Gloves"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
