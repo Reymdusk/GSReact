@@ -34,11 +34,6 @@ export default function GuidesMainPage () {
                         </CardGroup>
                         <h1 style={{color: "#e7f9fc"}}><b><center>Guide Categories</center></b></h1>
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
-                            <Link to="crest-guides" activeClassName="active">
-                                <Col lg="auto">
-                                    <img src="/db/guides/CrestGuidesBanner.png" style={imageSize} alt="Crest Guides" />
-                                </Col>
-                            </Link>
                             <a href="https://docs.google.com/document/d/1sTdmOg1K857H7MAuzZWUV4Kk-zwABDG3hl4anyPeAQA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/SRBanner.png" style={imageSize} alt="Summoners' Road" />
@@ -49,6 +44,11 @@ export default function GuidesMainPage () {
                                     <img src="/db/guides/DOTBanner.png" style={imageSize} alt="Dungeon of Trials" />
                                 </Col>
                             </Link>
+                            <a href="https://docs.google.com/document/d/16IorJQQXMksXIYcNlu3i8iwWTEKeooEpgZG7l-rt4nY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <Col lg="auto">
+                                    <img src="/db/guides/TribalRuinsBanner.png" style={imageSize} alt="Tribal Ruins" />
+                                </Col>
+                            </a>
                             <a href="https://docs.google.com/document/d/1OaGohMM8zZsCJ63MEosjiTP2aFStrMRZby7qKGEh6vw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/EleRuinsBanner.png" style={imageSize} alt="Elemental Ruins" />
@@ -64,11 +64,6 @@ export default function GuidesMainPage () {
                                     <img src="/db/guides/MinesBanner.png" style={imageSize} alt="Magical Mines" />
                                 </Col>
                             </a>
-                            <a href="https://docs.google.com/document/d/16IorJQQXMksXIYcNlu3i8iwWTEKeooEpgZG7l-rt4nY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-                                <Col lg="auto">
-                                    <img src="/db/guides/TribalRuinsBanner.png" style={imageSize} alt="Tribal Ruins" />
-                                </Col>
-                            </a>
                         </CardGroup>
                     </CardBody>
                 </Card>
@@ -78,6 +73,11 @@ export default function GuidesMainPage () {
 }
 
 /*
+                            <Link to="crest-guides" activeClassName="active">
+                                <Col lg="auto">
+                                    <img src="/db/guides/CrestGuidesBanner.png" style={imageSize} alt="Crest Guides" />
+                                </Col>
+                            </Link>
                             <Link to="reroll-guide" activeClassName="active">
                                 <Col lg="auto">
                                     <Card style={cardSize}>
