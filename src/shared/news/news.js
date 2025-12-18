@@ -3940,6 +3940,48 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 119,
+        date: `December 18, 2025`,
+        article: 
+        {
+            intro: `JP has gotten new Christmas-themed equips, as well as a new Mines boss' equip! Meanwhile on Global, Chapter 31 of the Main Story has been released, alongside Godspeed Crusader Platina and her equips! Moreover, new Christmas equips make their debut too!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`罪仮面『ダークヴァイザー』`, 113621],
+                        [`喧嘩上等サンタランス`, 113631],
+                        [`良妻賢姫サンタブレード`, 113641],
+                        [`鉄則遵守サンタソード`, 113651],
+                        [`叡智全開サンタララララララララ`, 113661],
+                        [`唯我独尊サンタナックル`, 113671],
+                        [`ベルキチ`, 113681],
+                        [`Stuffed Merry Rolly EV`, 113691],
+                        [`Divine Crown "Holy Jingle" EV`, 113701]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Godspeed Crusader Platina`, 104047412]
+                    ],
+                    equips: [
+                        [`True "Traumerei"`, 112651],
+                        [`Ethereal Edge "Traumerei"`, 112661],
+                        [`Echoing Dress "Campanella"`, 112671],
+                        [`Ordinary Reindeer Firyl`, 112761],
+                        [`Wild Santa Azel`, 112771],
+                        [`Fluffy Santa Venna`, 112781],
+                        [`Santa Bunny Luana`, 112791],
+                        [`Holy Sovereign`, 112801],
+                        [`Joining Blades "Snow-city"`, 112811],
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

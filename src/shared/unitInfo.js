@@ -10712,7 +10712,7 @@ const UnitInformation = [
         name: "Sonije",
         tier: 
             {
-                rank: 10,
+                rank: 11,
                 defense: 0.00,
                 artgen: 1.70,
                 damage: 0.00,
@@ -15893,7 +15893,7 @@ const UnitInformation = [
         name: "Celia (Dark)",
         tier: 
             {
-                rank: 10,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.65,
                 damage: 1.10,
@@ -30531,6 +30531,16 @@ const UnitInformation = [
     { //Lark - Missing Lore
         id: 103877112,
         name: `Lark`,
+        tier: 
+            {
+                rank: 4,
+                defense: 1.07,
+                artgen: 0.22,
+                damage: 3.91,
+                buffs: 2.50,
+                heal: 0.00,
+                break: 0.00
+            },
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -31473,9 +31483,10 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Phantom Saintess Platina - Missing Lore (JP)
+    { //Godspeed Crusader Platina - Missing Lore
         id: 104047412,
-        name: `Phantom Saintess Platina`,
+        name: `Godspeed Crusader Platina`,
+        translate: `Phantom Saintess Platina`,
         attribute: `Light`,
         type: `God`,
         image: 
@@ -31541,14 +31552,14 @@ const UnitInformation = [
                     skillbreak: 6000,
                     passive: 
                         {
-                            ability1: `When equipped by Phantom Saintess Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Godspeed Crusader Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own MAG RES by 5%.`
                         }
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Natasha: Spiritia 05 - Missing Lore (JP)
@@ -32200,8 +32211,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_104116412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_104117412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_411_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104116412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104117412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104117412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_411_1.png"
             },
         slots: 
             {
@@ -38323,7 +38336,7 @@ const UnitInformation = [
         name: "Natsu Dragneel",
         tier: 
             {
-                rank: 10,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.77,
@@ -42034,7 +42047,7 @@ const UnitInformation = [
         name: `Demiurge`,
         tier: 
             {
-                rank: 7,
+                rank: 8,
                 defense: 0.13,
                 artgen: 0.00,
                 damage: 3.15,
@@ -43691,11 +43704,11 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.04,
+                defense: 1.07,
                 artgen: 0.09,
                 damage: 3.60,
                 buffs: 2.37,
-                heal: 0.35,
+                heal: 0.62,
                 break: 0.00
             },
         attribute: `Earth`,
@@ -44242,7 +44255,7 @@ const UnitInformation = [
         name: `Hero Saitama`,
         tier: 
             {
-                rank: 2,
+                rank: 1,
                 defense: 3.26,
                 artgen: 0.00,
                 damage: 3.83,

@@ -10879,7 +10879,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `5s CT - Break Mode: Increases all Allies' Break Power by 30% for 10s. Heal Mode: Heals all Allies' HP by 20 for 10s.`,
+                skill: `5s CT - Switches between Break and Heal Mode on use. Break Mode: Increases all Allies' Break Power by 30% for 10s. Heal Mode: Heals all Allies' HP by 20 for 10s.`,
                 break: 0
             },
         passive: 
@@ -35102,10 +35102,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『トロイメライ』 - JP Complete
+    { //True "Traumerei" - Missing Lore
         id: 112651,
-        name: `真『トロイメライ』`,
-        translate: `True "Traumerei"`,
+        name: `True "Traumerei"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35128,15 +35127,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Phantom Saintess Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Godspeed Crusader Platina, increase own ATK by 40% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //幻聖剣『トロイメライ』 - JP Complete
+    { //Ethereal Edge "Traumerei" - Missing Lore
         id: 112661,
-        name: `幻聖剣『トロイメライ』`,
-        translate: `Phantom Holy Sword "Traumerei"`,
+        name: `Ethereal Edge "Traumerei"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35161,12 +35159,11 @@ const EquipInformation = [
             {
                 ability1: `When own HP is less than 80%, reduce own Arts by 1/s.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //共鳴装『カンパネラ』 - JP Complete
+    { //Echoing Dress "Campanella" - Missing Lore
         id: 112671,
-        name: `共鳴装『カンパネラ』`,
-        translate: `Echoing Outfit "Campanella"`,
+        name: `Echoing Dress "Campanella"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -35191,7 +35188,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『ライトニング・メアⅢ』 - JP Complete
         id: 112681,
@@ -35436,10 +35433,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //フィリルの平々トナカイ - JP Complete
+    { //Ordinary Reindeer Firyl - Missing Lore
         id: 112761,
-        name: `フィリルの平々トナカイ`,
-        translate: `Firil's Flat Reindeer`,
+        name: `Ordinary Reindeer Firyl`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35464,12 +35460,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //アズエルのワイルドサンタ - JP Complete
+    { //Wild Santa Azel - Missing Lore
         id: 112771,
-        name: `アズエルのワイルドサンタ`,
-        translate: `Wild Santa Azel`,
+        name: `Wild Santa Azel`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35494,12 +35489,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ヴェナのモフモフサンタ - JP Complete
+    { //Fluffy Santa Venna - Missing Lore
         id: 112781,
-        name: `ヴェナのモフモフサンタ`,
-        translate: `Fluffy Santa Vena`,
+        name: `Fluffy Santa Venna`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35524,12 +35518,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //ルアーナのうさンタドレス - JP Complete
+    { //Santa Bunny Luana - Missing Lore
         id: 112791,
-        name: `ルアーナのうさンタドレス`,
-        translate: `Luana's Bunny Dress`,
+        name: `Santa Bunny Luana`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35554,12 +35547,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //聖紋剣『ホーリーマスター』 - JP Complete
+    { //Holy Sovereign - Missing Lore
         id: 112801,
-        name: `聖紋剣『ホーリーマスター』`,
-        translate: `Holy Crest Sword "Holy Master"`,
+        name: `Holy Sovereign`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35584,12 +35576,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //雪逢刃『スノーシティ』 - JP Complete
+    { //Joining Blades "Snow-city" - Missing Lore
         id: 112811,
-        name: `雪逢刃『スノーシティ』`,
-        translate: `Snow Aiming Blade "Snow City"`,
+        name: `Joining Blades "Snow-city"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35614,7 +35605,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //翠輪装『ファイザード』 - JP Complete
         id: 112821,
@@ -38095,6 +38086,283 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113621,
+        name: `罪仮面『ダークヴァイザー』`,
+        translate: `Sinful Mask "Dark Visor"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 4000% Dark DMG (Magic). Consume 50% of own HP. For 10s, increase own Magic DMG and ATK by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113631,
+        name: `喧嘩上等サンタランス`,
+        translate: `Fightin' Santa Lance`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 7500% Fire DMG (Physical). For 90s, increase own Fire DMG by 150% (stackable).`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113641,
+        name: `良妻賢姫サンタブレード`,
+        translate: `The Good Wife and Wise Princess, Santa Blade`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 10000% Light DMG (Physical). For 20s, increase own Physical DMG by 200%. Additionally when used for the first time, for 20s, increase own Physical DMG by an additional 200%.`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113651,
+        name: `鉄則遵守サンタソード`,
+        translate: `Ironclad Santa Sword`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113641.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - Heal target's HP by 3000. Adds a token to revive Target Unit with 50% HP for 120s.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113661,
+        name: `叡智全開サンタララララララララ`,
+        translate: `Full Throttle, Santarararararararara`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113651.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `35s CT - Increase allies' Arts by 30. For 40s, increase Spirit allies' DMG by 20% (stackable).`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113671,
+        name: `唯我独尊サンタナックル`,
+        translate: `Peerless Santa Knuckle`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 8000% Fire DMG (Physical). For 12s, reduce enemies' Fire resistance by 40%. Additionally if user is Fire, for 12s, increase own Accuracy by 40%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113681,
+        name: `ベルキチ`,
+        translate: `Bellkich`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase own Arts by 10. For 20s, increase allies' Fire resistance and Water resistance by 25%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113691,
+        name: `Stuffed Merry Rolly EV`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_113691.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113691.png`
+            },
+            stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `5s CT - Switches between Break and Heal Mode on use. Break Mode: Increases all Allies' Break Power by 30% for 10s. Heal Mode: Heals all Allies' HP by 20 for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: [`Increase own DEF by 5%.`, `Increase own DEF by 10%.`, `Increase own MAX HP by 5%.`, `Increase own MAX HP by 10%.`, `Increase own Heal Amount by 10% (excluding Lifesteal).`, `Increase own Heal Amount by 15% (excluding Lifesteal).`]
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 113701,
+        name: `Divine Crown "Holy Jingle" EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_113701.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113701.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8500% Light DMG (PHY). If enemy is Dark, for 5s, increases own CRI rate by 100%.`,
+                break: 3000
+            },
+        passive: 
+            {
+                ability1: `Increase own Heal Amount by 15% (excluding Lifesteal).`,
+                ability2: [`Increase own ATK by 5%.`, `Increase own ATK by 10%.`, `At Start of Quest, increase own Arts by 10. Does not stack with Abilities of the same name.`, `At Start of Quest, increase own Arts by 20. Does not stack with Abilities of the same name.`, `Increase own CRI DMG by 20%. Does not stack with Abilities of the same name.`, `Increase own CRI DMG by 30%. Does not stack with Abilities of the same name.`]
+            },
+        lore: `Missing Lore.`
     },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
