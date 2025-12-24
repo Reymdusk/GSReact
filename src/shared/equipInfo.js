@@ -53139,6 +53139,285 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Missing Lore.`
+    },
+    {
+        id: 154891,
+        name: `真『まどかの弓』`,
+        translate: `True "Madoka's Bow"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 8000% Light DMG (Magic). For 12s, reduce enemies' Light resistance by 40%. Additionally if user is Light, for 12s, increase own Accuracy by 30%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `When equipped by Madoka, increase own Arts by 2/s and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154901,
+        name: `まどかの服`,
+        translate: `Madoka's Outfit`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6500% Light DMG (Magic). For 8s, increase own Arts DMG by 50%. Additionally if user is Light, increase own Arts by 40.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154911,
+        name: `まどかのリボン`,
+        translate: `Madoka's Ribbon`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154911.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - For 20s, increase allies' HP Recovery amount by 20% and Leader's HP Recovery amount by an additional 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154921,
+        name: `まどかの弓`,
+        translate: `Madoka's Bow`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 10000% Light DMG (Magic). Increase next Super Arts DMG by 200%. If user is Light, increase next Super Arts DMG by 250% instead.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154931,
+        name: `真『ほむらの盾』`,
+        translate: `True "Homura's Shield"`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154931.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `100s CT - Increase allies' Arts by 50.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `When equipped by Homura, increase own DMG by 30% and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154941,
+        name: `ほむらの服`,
+        translate: `Homura's Outfit`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154941.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 10s, increase allies' Arts by 4/s and Fire and Dark allies' DMG by 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154951,
+        name: `ほむらのハンドガン`,
+        translate: `Homura's Handgun`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 12000% Dark DMG (Physical). For 8s, reduce enemies' Dark resistance by 40% and Evasion rate by 30%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154961,
+        name: `ほむらの盾`,
+        translate: `Homura's Shield`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154961.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 12s, increase allies' CRI DMG by 70%. If user is Dark, increase allies' CRI DMG by 120% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154981,
+        name: `マミの服`,
+        translate: `Mami's Outfit`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154981.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:
+            {
+                skill: `45s CT - Increase target's Arts by 30. If user is Light, increase target's Arts by 40 instead. Additionally if target is Light, for 10s, increase target's ATK by 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own Skill CT Speed by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 

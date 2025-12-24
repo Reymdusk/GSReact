@@ -31496,6 +31496,15 @@ const UnitInformation = [
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104046412.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104047412.png"
             },
+        /*image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104046412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104047412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_404_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104046412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104047412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_404_1.png",
+            },*/
         slots: 
             {
                 slot1: 6,
@@ -31526,6 +31535,14 @@ const UnitInformation = [
                 superarts: `140000% Light DMG (PHY). For 20s, increase all allies' CRI rate by 100% and DMG against Enemies in Break by 200%.`,
                 superartsbreak: 15000
             },
+        /*passive: 
+            {
+                ability1: `When own HP is above 80%, increase own Freeze RES and Paralysis RES by 100%.`,
+                ability2: `Giant Boss' Break Bar is halved at the beginning of battle. Raid Bosses' Break Bars take 20000 Break DMG instead. Ability can only be activated once per Quest.`,
+                ability3: `Increase own Break Power by [2% × own ATK/100].`,
+                ability4: `Unit EXP UP 20% UP. (When Godspeed Crusader Platina's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Godspeed Crusader Platina's SP. Art is owned)`
+            },*/
         passive: 
             {
                 ability1: `When own HP is above 80%, increase own Freeze RES and Paralysis RES by 100%.`,
@@ -45445,6 +45462,170 @@ const UnitInformation = [
             {
                 evoawk: `Momo's childhood friend and classmate, handsome and outgoing. He asked for her help to solve the supernatural phenomenon at his family's home.`,
                 evosuper: `A child killed in a ritual sacrifice became a yokai known as the Evil Eye and put suicidal thoughts into the minds of everyone who lived there. After being possessed, he turns into a monster whenever he touches cold liquid.`
+            }
+    },
+    {
+        id: 108287412,
+        name: `Madoka`,
+        attribute: `Light`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108286412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108287412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_828_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108286412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108287412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_828_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats:
+            {
+                hp: 8694,
+                hpplus: 1557,
+                atk: 2514,
+                atkplus: 511,
+                def: 3522,
+                defplus: 657
+            },
+        skillset:
+            {
+                skill: `13s CT - 2400% Light DMG (MAG). Increase own Arts by 40. For 4s, heal allies' HP by 500/s.`,
+                skillbreak: 500,
+                arts: `17000% Light DMG (MAG). For 25s, increase allies' MAG RES by 25% and allies gain a DMG barrier that negates 12000 DMG.`,
+                artsbreak: 800,
+                truearts: `30000% Light DMG (MAG). Cure allies' Status ailments (except Faint). For 30s, increase allies' stats by 40%.`,
+                trueartsbreak: 1800,
+                superarts: `150000% Light DMG (MAG). Cleanse 1 DMG RES debuff from each ally. For 30s, increase allies' CRI rate and CRI DMG by 100%.`,
+                superartsbreak: 2400
+            },
+        passive:
+            {
+                ability1: `Increase allies' DMG RES by 30%. When an ally takes lethal DMG, heal ally's HP to 100% and increase ally's Arts by 200. Ability can only be activated once per Quest.`,
+                ability2: `When near-death, increase DMG by 15%.`,
+                ability3: `When near-death, increase DMG RES by 15%.`,
+                ability4: `Unit EXP UP 20% UP. (When Madoka's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Madoka's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Madoka's Bow",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154891.png",
+                skill: "45s CT - 8000% Light DMG (MAG). For 12s, reduce enemies' Light RES by 40%. Additionally if user is Light, for 12s, increase own Accuracy by 30%.",
+                skillbreak: 800,
+                passive:
+                    {
+                        ability1: "When equipped by Madoka, increase own Arts by 2/s and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Accuracy by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108297512,
+        name: `Homura`,
+        attribute: `Dark`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108296512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108297512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_829_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108296512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108297512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_829_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 7092,
+                hpplus: 1339,
+                atk: 3943,
+                atkplus: 718,
+                def: 3072,
+                defplus: 608
+            },
+        skillset:
+            {
+                skill: `13s CT - 3000% Dark DMG (PHY). Increase own Arts by [15 x # of Human allies in Party] (MAX: 60).`,
+                skillbreak: 500,
+                arts: `30000% Dark DMG (PHY). Each time Arts is used, permanently increase own True Arts DMG and Super Arts DMG by 75% (MAX: 600%). For 20s, reduce enemies' Dark RES and PHY RES by 20%.`,
+                artsbreak: 900,
+                truearts: `120000% Dark DMG (PHY). For 25s, increase allies' Equip CT Speed by 50%.`,
+                trueartsbreak: 1700,
+                superarts: `220000% Dark DMG (PHY). Increase own Super CRI rate by 40% for the duration of Super Arts. Additionally, refreshes all equips when Super Arts is used (MAX: 2 times).`,
+                superartsbreak: 2500
+            },
+        passive:
+            {
+                ability1: `When above 80% HP, increase own CRI rate by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Equip DMG by 20%.`,
+                ability3: `When near-death, increase evasion by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Homura's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Homura's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Homura's Shield",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154931.png",
+                skill: "100s CT - Increase allies' Arts by 50.",
+                skillbreak: 0,
+                passive:
+                    {
+                        ability1: "When equipped by Homura, increase own DMG by 30% and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Accuracy by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
             }
     },
 ];

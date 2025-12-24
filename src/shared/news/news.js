@@ -3982,6 +3982,39 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 120,
+        date: `December 24, 2025`,
+        article: 
+        {
+            intro: `Merry Christmas Eve! Madoka Magica has been revealed to be the latest new collab in JP, featuring new units and equips!`,
+            new:
+                {
+                    units: [
+                        [`Madoka`, 108287412],
+                        [`Homura`, 108297512]
+                    ],
+                    equips: [
+                        [`真『まどかの弓』`, 154891],
+                        [`まどかの服`, 154901],
+                        [`まどかのリボン`, 154911],
+                        [`まどかの弓`, 154921],
+                        [`真『ほむらの盾』`, 154931]
+                        [`ほむらの服`, 154941],
+                        [`ほむらのハンドガン`, 154951],
+                        [`ほむらの盾`, 154961],
+                        [`マミの服`, 154981],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
