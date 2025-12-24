@@ -4190,7 +4190,7 @@ const UnitInformation = [
                 rank: 10,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 0.02,
+                damage: 0.00,
                 buffs: 0.34,
                 heal: 0.00,
                 break: 2.52
@@ -11186,7 +11186,7 @@ const UnitInformation = [
                 rank: 13,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 0.05,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -17101,7 +17101,7 @@ const UnitInformation = [
                 rank: 13,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 0.01,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -19234,7 +19234,7 @@ const UnitInformation = [
                 rank: 13,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 0.06,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 0.27,
                 break: 0.00
@@ -27592,7 +27592,7 @@ const UnitInformation = [
                 rank: 3,
                 defense: 5.00,
                 artgen: 0.00,
-                damage: 0.10,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -37512,7 +37512,7 @@ const UnitInformation = [
                 rank: 10,
                 defense: 0.00,
                 artgen: 2.57,
-                damage: 0.05,
+                damage: 0.00,
                 buffs: 0.00,
                 heal: 1.62,
                 break: 0.00
