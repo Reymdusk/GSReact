@@ -4015,6 +4015,52 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 121,
+        date: `January 2, 2026`,
+        article: 
+        {
+            intro: `Happy New Years! Part 2 of the Madoka Magica collab has been released on JP with new Units and Equips alongside a new Raid! Meanwhile on Global, Menas has made her debut, alongside her equips and also new Elemental Ruins equipment!`,
+            new:
+                {
+                    units: [
+                        [`Mami Tomoe`, 108307412],
+                        [`Sayaka Miki`, 108317212],
+                        [`Kyoko Sakura`, 108327112]
+                    ],
+                    equips: [
+                        [`鳴紅剣『ゼノ・レゾナンス』`, 113711],
+                        [`極『ミゼラブルペイン』`, 113721],
+                        [`真『マミのマスケット銃』`, 154971],
+                        [`マミのマスケット銃`, 154991],
+                        [`マミの大砲`, 155001],
+                        [`真『さやかの剣』`, 155011],
+                        [`さやかの服`, 155021],
+                        [`さやかのブーツ`, 155031],
+                        [`さやかの剣`, 155041],
+                        [`真『杏子の槍』`, 155051],
+                        [`杏子の服`, 155061],
+                        [`杏子のブーツ`, 155071],
+                        [`杏子の槍`, 155081]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Menas`, 104077112]
+                    ],
+                    equips: [
+                        [`Magnid's Blade`, 112231],
+                        [`Ul-Megea's Earrings`, 112241],
+                        [`Romria's Shield`, 112251],
+                        [`True "Multiple"`, 112741],
+                        [`All-Purpose Blade "Multiple"`, 112751]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

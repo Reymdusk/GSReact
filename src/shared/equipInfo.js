@@ -33853,10 +33853,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //火竜神の剣 - JP Complete
+    { //Magnid's Blade - Missing Lore
         id: 112231,
-        name: `火竜神の剣`,
-        translate: `Fire Dragon God's Sword`,
+        name: `Magnid's Blade`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33881,12 +33880,11 @@ const EquipInformation = [
             {
                 ability1: `Increase Water resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //水竜神の耳飾り - JP Complete
+    { //Ul-Megea's Earrings - Missing Lore
         id: 112241,
-        name: `水竜神の耳飾り`,
-        translate: `Water Dragon God's Earrings`,
+        name: `Ul-Megea's Earrings`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33911,12 +33909,11 @@ const EquipInformation = [
             {
                 ability1: `Increase Earth resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //樹竜神の盾 - JP Complete
+    { //Romria's Shield - Missing Lore
         id: 112251,
-        name: `樹竜神の盾`,
-        translate: `Earth Dragon God's Shield`,
+        name: `Romria's Shield`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33941,7 +33938,7 @@ const EquipInformation = [
             {
                 ability1: `Increase Fire resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Silk Loving Broom 'Etoile V' - Missing Lore
         id: 112261,
@@ -35372,10 +35369,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『マルチプル』 - JP Complete
+    { //True "Multiple" - Missing Lore
         id: 112741,
-        name: `真『マルチプル』`,
-        translate: `True "Multiple"`,
+        name: `True "Multiple"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35401,12 +35397,11 @@ const EquipInformation = [
                 ability1: `When equipped by Menas, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //万能刃『マルチプル』 - JP Complete
+    { //All-Purpose Blade "Multiple" - Missing Lore
         id: 112751,
-        name: `万能刃『マルチプル』`,
-        translate: `Multi-purpose Blade "Multiple"`,
+        name: `All-Purpose Blade "Multiple"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35431,7 +35426,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Water resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Ordinary Reindeer Firyl - Missing Lore
         id: 112761,
@@ -38363,6 +38358,68 @@ const EquipInformation = [
                 ability2: [`Increase own ATK by 5%.`, `Increase own ATK by 10%.`, `At Start of Quest, increase own Arts by 10. Does not stack with Abilities of the same name.`, `At Start of Quest, increase own Arts by 20. Does not stack with Abilities of the same name.`, `Increase own CRI DMG by 20%. Does not stack with Abilities of the same name.`, `Increase own CRI DMG by 30%. Does not stack with Abilities of the same name.`]
             },
         lore: `Missing Lore.`
+    },
+    {
+        id: 113711,
+        name: `鳴紅剣『ゼノ・レゾナンス』`,
+        translate: `Crimson Sword "Xeno Resonance"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113711.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `60s CT - 7000% Dark DMG (Magic). Switches between Attack and Defence Mode on use. Attack Mode: For 10s, increase own Dark DMG by 50%. Defence Mode: For 10s, increase allies' Dark resistance by 25%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `Increase own Blind resistance by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113721,
+        name: `極『ミゼラブルペイン』`,
+        translate: `Whip "Miserable Pain" EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 4000% Typeless DMG (Physical). For 8s, reduce Giant Bosses' DMG resistance by 15%.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Increase own Disease resistance by 10%.`,
+                ability2: [`Increase own CRI DMG by 10%.`, `Increase own Lifesteal RES by 10%.`, `At Start of Quest, increase own Arts by 10. Does not stack with Abilities of the same name.`, `Increase own DMG against Machine enemies by 20%.`, `Increase own DMG against Dragon enemies by 20%.`, `Increase own DMG against Demon enemies by 20%.`]
+            },
+        lore: `Currently unreleased in Global.`
     },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
@@ -53389,6 +53446,37 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     {
+        id: 154971,
+        name: `真『マミのマスケット銃』`,
+        translate: `True "Mami's Musket"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 5000% Light DMG (PHY). For 10s, reduce enemies' Light RES by 40%. Additionally if user is Human, for 10s, increase own ATK by 40%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Mami, increase own Skill CT Speed and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Break Power by 8%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
         id: 154981,
         name: `マミの服`,
         translate: `Mami's Outfit`,
@@ -53415,6 +53503,316 @@ const EquipInformation = [
         passive:
             {
                 ability1: `Increase own Skill CT Speed by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 154991,
+        name: `マミのマスケット銃`,
+        translate: `Mami's Musket`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_154990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_154991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_154990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_154991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 10000% Light DMG (Physical). For 12s, increase own Physical DMG by [70 x # of times this equip has been used]% (MAX: 350%).`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155001,
+        name: `マミの大砲`,
+        translate: `Mami's Cannon`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 8500% Light DMG (Magic). For 10s, reduce enemies' Light resistance and Evasion rate by 30%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155011,
+        name: `真『さやかの剣』`,
+        translate: `True "Sayaka's Sword"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 8000% Water DMG (Physical). For 10s, increase own Water DMG and Skill CT Speed by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Sayaka, increase own stats by 20%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `When near-death, increase own Evasion rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155021,
+        name: `さやかの服`,
+        translate: `Sayaka's Outfit`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - Heal allies' Freeze. For 10s, increase allies' DMG resistance by 20% and Water resistance by 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155031,
+        name: `さやかのブーツ`,
+        translate: `Sayaka's Boots`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155031.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - Heal target's HP by 1200. Additionally if user is Water, increase target's Arts by 20.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155041,
+        name: `さやかの剣`,
+        translate: `Sayaka's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 6000% Water DMG (Physical). For 15s, increase own Physical RES by 20%.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155051,
+        name: `真『杏子の槍』`,
+        translate: `True "Kyoko's Spear"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 8000% Fire DMG (Physical). For 10s, increase own Fire DMG and Skill CT Speed by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Kyoko, increase own stats by 20%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `When above 90% HP, increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155061,
+        name: `杏子の服`,
+        translate: `Kyoko's Outfit`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155061.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - For 10s, increase allies' Arts by 3/s and Human allies' ATK by 50%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155071,
+        name: `杏子のブーツ`,
+        translate: `Kyoko's Boots`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155071.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase target's Arts by 80. For 12s, increase target's Physical DMG by 80%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155081,
+        name: `杏子の槍`,
+        translate: `Kyoko's Spear`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155081.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 8000% Fire DMG (Physical). For 10s, reduce enemies' Fire resistance by 40%. If user is Human, reduce enemies' Fire resistance by 60% instead.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`

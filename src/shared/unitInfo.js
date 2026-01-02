@@ -31493,18 +31493,11 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_104046412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_104047412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104046412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104047412.png"
-            },
-        /*image: 
-            {
-                detailawk: "/db/Units/Detail/unit_detail_104046412.png",
-                detailsuper: "/db/Units/Detail/unit_detail_104047412.png",
                 detailspecial: "/db/Units/Special/Detail/unit_sp_detail_404_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104046412.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104047412.png",
                 thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_404_1.png",
-            },*/
+            },
         slots: 
             {
                 slot1: 6,
@@ -31535,15 +31528,15 @@ const UnitInformation = [
                 superarts: `140000% Light DMG (PHY). For 20s, increase all allies' CRI rate by 100% and DMG against Enemies in Break by 200%.`,
                 superartsbreak: 15000
             },
-        /*passive: 
+            passive: 
             {
                 ability1: `When own HP is above 80%, increase own Freeze RES and Paralysis RES by 100%.`,
                 ability2: `Giant Boss' Break Bar is halved at the beginning of battle. Raid Bosses' Break Bars take 20000 Break DMG instead. Ability can only be activated once per Quest.`,
                 ability3: `Increase own Break Power by [2% × own ATK/100].`,
                 ability4: `Unit EXP UP 20% UP. (When Godspeed Crusader Platina's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Godspeed Crusader Platina's SP. Art is owned)`
-            },*/
-        passive: 
+            },
+        passiveJP: 
             {
                 ability1: `When own HP is above 80%, increase own Freeze RES and Paralysis RES by 100%.`,
                 ability2: `Giant Boss' Break Bar is halved at the beginning of battle. Raid Bosses' Break Bars take 20000 Break DMG instead. Ability can only be activated once per Quest.`,
@@ -31739,7 +31732,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Menas - Missing Lore (JP)
+    { //Menas - Missing Lore
         id: 104077112,
         name: `Menas`,
         attribute: `Fire`,
@@ -31813,8 +31806,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Star Swordswoman Rosetta - Missing Lore (JP)
@@ -32615,7 +32608,8 @@ const UnitInformation = [
     },
     {
         id: 104167112,
-        name: `Highlander`,
+        name: `Hylander`,
+        translate: `Highlander`,
         attribute: `Fire`,
         type: `Spirit`,
         image:
@@ -32681,7 +32675,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 passive:
                     {
-                        ability1: "When equipped by Highlander, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Hylander, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own Accuracy by 10%."
                     }
             },
@@ -32787,7 +32781,8 @@ const UnitInformation = [
     },
     {
         id: 104207412,
-        name: `Etika`,
+        name: `Echika`,
+        translate: `Etika`,
         attribute: `Light`,
         type: `Spirit`,
         image:
@@ -32853,7 +32848,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 passive:
                     {
-                        ability1: "When equipped by Etika, extend duration of Lord of Feathers Mode by 20s and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Echika, extend duration of Lord of Feathers Mode by 20s and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
                         ability2: "Increase own Heal Amount by 5% (excluding Lifesteal)."
                     }
             },
@@ -45620,6 +45615,253 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Homura, increase own DMG by 30% and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
                         ability2: "Increase own Accuracy by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108307412,
+        name: `Mami Tomoe`,
+        attribute: `Light`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108306412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108307412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_830_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108306412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108307412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_830_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 7430,
+                hpplus: 1376,
+                atk: 3616,
+                atkplus: 673,
+                def: 3143,
+                defplus: 616
+            },
+        skillset:
+            {
+                skill: `15s CT - 2700% Light DMG (PHY). Increase Human allies' Arts by 20. For 10s, gain a DMG barrier that negates 2000 DMG.`,
+                skillbreak: 700,
+                arts: `23000% Light DMG (PHY). Each time Arts is used, permanently increase own PHY DMG and Break Power by 50% (MAX: 500%).`,
+                artsbreak: 2000,
+                truearts: `100000% Light DMG (PHY). For 15s, reduce enemies' Light RES by 100%. Additionally if used when own HP is 100%, double the DMG Multiplier of current True Arts.`,
+                trueartsbreak: 5000,
+                superarts: `150000% Light DMG (PHY). For 45s, reduce enemies' Break RES by 20%. Additionally, increase own DMG against enemies under 50% HP by 300% and own DMG against Broken enemies by 200% for the duration of Super Arts.`,
+                superartsbreak: 6000
+            },
+        passive:
+            {
+                ability1: `When above 80% HP, increase own Arts by 1/s and ignore 100% of enemies' DEF. Does not stack with Abilities of the same name.`,
+                ability2: `When a barrier is active on self, increase own ATK by 40%.`,
+                ability3: `Increase own Break Power by [2% × own ATK/100].`,
+                ability4: `Unit EXP UP 20% UP. (When Mami Tomoe's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Mami Tomoe's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Mami's Musket",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_154971.png",
+                skill: "50s CT - 5000% Light DMG (PHY). For 10s, reduce enemies' Light RES by 40%. Additionally if user is Human, for 10s, increase own ATK by 40%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Mami, increase own Skill CT Speed and Equip CT Speed by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Break Power by 8%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108317212,
+        name: `Sayaka Miki`,
+        attribute: `Water`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108316212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108317212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_831_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108316212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108317212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_831_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 8571,
+                hpplus: 1553,
+                atk: 2450,
+                atkplus: 499,
+                def: 3638,
+                defplus: 677
+            },
+        skillset:
+            {
+                skill: `12s CT - 2500% Water DMG (PHY). Increase own Arts by 30. If own HP is below 40%, increase own Arts by 50 instead.`,
+                skillbreak: 700,
+                arts: `18000% Water DMG (PHY). For 25s, increase allies' DEF and Equip CT Speed by 30%.`,
+                artsbreak: 1000,
+                truearts: `43000% Water DMG (PHY). For 30s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 37000 DMG to self.`,
+                trueartsbreak: 1500,
+                superarts: `100000% Water DMG (PHY). For 45s, increase allies' ATK and PHY DMG based on how low own HP is (MAX: 300%).`,
+                superartsbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Increase Female allies' Arts by 4/s. When near-death, increase Female allies' Arts by 6/s instead. Does not stack with Abilities of the same name.`,
+                ability2: `When this unit takes lethal DMG, prevent HP from dropping below 1 HP for 3s and heal own HP by 100%. Ability can only be activated twice per Quest.`,
+                ability3: `When near-death, increase DMG RES by 35%.`,
+                ability4: `Increase Critical RES by 70%.`,
+                ability5: `Unit EXP UP 20% UP. (When Sayaka Miki's SP. Art is owned)`,
+                ability6: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sayaka Miki's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Frostspite Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Sayaka's Sword",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155011.png",
+                skill: "40s CT - 8000% Water DMG (PHY). For 10s, increase own Water DMG and Skill CT Speed by 50%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Sayaka, increase own stats by 20%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.",
+                        ability2: "When near-death, increase own Evasion rate by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108327112,
+        name: `Kyoko Sakura`,
+        attribute: `Fire`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108326112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108327112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_832_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108326112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108327112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_832_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 7316,
+                hpplus: 1356,
+                atk: 3949,
+                atkplus: 736,
+                def: 2941,
+                defplus: 575
+            },
+        skillset:
+            {
+                skill: `15s CT - 4300% Fire DMG (PHY). Increase own Arts by 30. If own HP is above 50%, increase own Arts by 50 instead.`,
+                skillbreak: 600,
+                arts: `25000% Fire DMG (PHY). For 15s, increase allies' Arts by 3/s (Type E) and Fire/Water allies' Arts by an additional 3/s (Type D/C).\nNote: This unit's Arts Gen is Type E / D / C and will not stack with other Type E / D / C Arts Gen.`,
+                artsbreak: 1100,
+                truearts: `80000% Fire DMG (PHY). 100% chance to inflict Paralysis for 6s. For 20s, reduce enemies' Fire RES and Water RES by 100%.`,
+                trueartsbreak: 1800,
+                superarts: `230000% Fire DMG (PHY). Increase own ATK and DMG based on how high own HP is for the duration of Super Arts (MAX: 300%).`,
+                superartsbreak: 2200
+            },
+        passive:
+            {
+                ability1: `Heal for 1% of own DMG dealt to enemies. Additionally, at Start of Battle, increase allies' Arts by 50. Does not stack with Abilities of the same name.`,
+                ability2: `Increase Hellfire RES by 50%.`,
+                ability3: `Increase own Burn RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Kyoko Sakura's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Kyoko Sakura's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Kyoko's Spear",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155051.png",
+                skill: "40s CT - 8000% Fire DMG (PHY). For 10s, increase own Fire DMG and Skill CT Speed by 50%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Kyoko, increase own stats by 20%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.",
+                        ability2: "When above 90% HP, increase own ATK by 5%."
                     }
             },
         lore:
