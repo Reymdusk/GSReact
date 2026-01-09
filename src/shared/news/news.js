@@ -4061,6 +4061,28 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 122,
+        date: `January 9, 2026`,
+        article: 
+        {
+            intro: `Small update this time - Global has finally gotten Gaia's Dream Awakening!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: [
+                        [`Gaia`, 101716211]
+                    ]
+                }
+        }
     }
 ]
 

@@ -9291,7 +9291,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Complete, Review done + JP ver
+    { //Gaia - Complete, Review done
         id: 101716211,
         name: "Gaia",
         tier: 
@@ -9319,15 +9319,6 @@ const UnitInformation = [
             {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
-            {
-                slot1: 6,
-                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 6,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
@@ -9343,15 +9334,6 @@ const UnitInformation = [
                 defplus: 436
             },
         skillset: 
-            {
-                skill: "8s CT - 2050% Water DMG (PHY). Heal own HP by 150.",
-                skillbreak: 1700,
-                arts: "12000% Water DMG (MAG). For 20s,  Allies gain a DMG barrier that negates [# of Water Allies x 1000] DMG.",
-                artsbreak: 2400,
-                truearts: "24000% Water DMG (MAG). For 20s, increase Allies' DMG RES by 20% and Water Allies' DMG by 30%.",
-                trueartsbreak: 2700
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 2050% Water DMG (PHY). Heal own HP by 150.",
                 skillbreak: 1700,
@@ -9388,7 +9370,7 @@ const UnitInformation = [
                     hover3: "Gaia",
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
