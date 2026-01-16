@@ -38121,10 +38121,10 @@ const EquipInformation = [
         star: 6,
         image:
             {
-                detail: `/db/Equipment/Detail/item_detail_113620.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_113621.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113620.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113621.png`
+                detail: `/db/Equipment/Detail/item_detail_113630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113631.png`
             },
         stats:
             {
@@ -38152,10 +38152,10 @@ const EquipInformation = [
         star: 6,
         image:
             {
-                detail: `/db/Equipment/Detail/item_detail_113630.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_113631.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113630.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113631.png`
+                detail: `/db/Equipment/Detail/item_detail_113640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113641.png`
             },
         stats:
             {
@@ -38183,10 +38183,10 @@ const EquipInformation = [
         star: 5,
         image:
             {
-                detail: `/db/Equipment/Detail/item_detail_113640.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_113641.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113640.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113641.png`
+                detail: `/db/Equipment/Detail/item_detail_113650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113651.png`
             },
         stats:
             {
@@ -38214,10 +38214,10 @@ const EquipInformation = [
         star: 5,
         image:
             {
-                detail: `/db/Equipment/Detail/item_detail_113650.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_113651.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113650.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113651.png`
+                detail: `/db/Equipment/Detail/item_detail_113660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113661.png`
             },
         stats:
             {
@@ -38245,10 +38245,10 @@ const EquipInformation = [
         star: 5,
         image:
             {
-                detail: `/db/Equipment/Detail/item_detail_113660.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_113661.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113660.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113661.png`
+                detail: `/db/Equipment/Detail/item_detail_113670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113671.png`
             },
         stats:
             {
@@ -38418,6 +38418,37 @@ const EquipInformation = [
             {
                 ability1: `Increase own Disease resistance by 10%.`,
                 ability2: [`Increase own CRI DMG by 10%.`, `Increase own Lifesteal RES by 10%.`, `At Start of Quest, increase own Arts by 10. Does not stack with Abilities of the same name.`, `Increase own DMG against Machine enemies by 20%.`, `Increase own DMG against Dragon enemies by 20%.`, `Increase own DMG against Demon enemies by 20%.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113731,
+        name: `真『フルスケイル』`,
+        translate: `True "Frigid Scales"`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `40s CT - Heal lowest HP ally's HP by 2000. Additionally for 20s, increase allies' Physical RES by 25%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `When equipped by Granith, increase own Arts by 2/s and Skill CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Heal own HP by 12/s.`
             },
         lore: `Currently unreleased in Global.`
     },

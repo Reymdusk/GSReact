@@ -14990,7 +14990,7 @@ const UnitInformation = [
                 evoawk: "When he went on a mission to execute a Dragon-killer with his second-in-command, he found on the other side the immoral Spirit he knew well, with a grin on his face. It was clear that the next \"masterpiece\" whose life he had chosen to play with was the Dragon-killer's. After a fierce battle, he learnt that the Dragon-killer, who was a childhood friend of his second-in-command, was actually the Spirit's apprentice, and he quit the Knights to fight him. No one knows what happened next..."
             }
     },
-    { //Granith - Complete
+    { //Granith - Complete + JP ver
         id: 102466211,
         name: "Granith",
         attribute: "Water",
@@ -15021,6 +15021,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6189,
@@ -15036,13 +15045,55 @@ const UnitInformation = [
                 skillbreak: 1000,
                 arts: "9800% Water DMG (MAG). For 8s, increase Allies' DMG by 20% and Water Allies' DMG by 30%.",
                 artsbreak: 2200,
-                truearts: "25000% Water DMG (MAG). 100% chance of inflicting Freeze for 8s. For 8s, increase DMG against Frozen Enemies by 80%.",
+                truearts: "25000% Water DMG (MAG). 100% chance of inflicting Freeze for 5s. For 8s, increase DMG against Frozen Enemies by 80%.",
+                trueartsbreak: 4500
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1900% Water DMG (MAG). For 5s, reduce Enemies' Freeze RES by 30%.",
+                skillbreak: 1000,
+                arts: "20000% Water DMG (MAG). For 20s, increase Allies' DMG by 40% and Water Allies' DMG by 40%.",
+                artsbreak: 2200,
+                truearts: "45000% Water DMG (MAG). 100% chance of inflicting Freeze for 5s. For 8s, increase DMG against Frozen Enemies by 150%.",
                 trueartsbreak: 4500
             },
         passive: 
             {
                 ability1: "Increase Critical Rate by 100% against Frozen Enemies."
             }, 
+        passiveJP: 
+            {
+                ability1: "Increase Critical Rate by 100% against Frozen Enemies.",
+                ability2: "Increase own Arts by 2/s."
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160752.png`,
+                        mat2amt: 100,
+                        hover2: `Granith Fragment`
+                    },
+                    passive: {
+                        ability1: `Increase allies' Elemental Advantage DMG RES by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `When HP is above 90%, increase own Arts by 3/s.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 100,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_160752.png`,
+                        mat2amt: 100,
+                        hover2: `Granith Fragment`
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 100%.`,
+                        ability2: `Increase own DMG against Dragon enemies by 100%.`
+                    }
+                }
+            },
         evolution: 
             {
                 evo5awk:

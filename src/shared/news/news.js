@@ -4083,6 +4083,30 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 123,
+        date: `January 17, 2026`,
+        article: 
+        {
+            intro: `Small update again - JP has revealed Granith's Dream Awakening!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`真『フルスケイル』`, 113731]
+                    ],
+                    dream: [
+                        [`Granith`, 102466211]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
