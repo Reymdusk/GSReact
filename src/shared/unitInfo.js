@@ -32085,7 +32085,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Misette - Missing Lore
+    { //Misette - Complete
         id: 104037412,
         name: `Misette`,
         attribute: `Light`,
@@ -32159,7 +32159,7 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "The original form of Iris, Rayas' travel companion. As one of Grimm Stella's Great Six Witches, she is known by \"The Supreme Witch\" or \"The Farworld Witch\". That world is believed to have a highly advanced civilization with giant iron mounts which soar at speeds exceeding sound and instant communication over long distances. Glimpses of her imcomprehensible power may be derived from its technology.",
+                evoawk: "The original form of Iris, Rayas' travel companion. As one of Grimm Stella's Great Six Witches, she is known by \"The Supreme Witch\" or \"The Farworld Witch\". That world is believed to have a highly advanced civilization with giant iron mounts which soar at speeds exceeding sound and instant communication over long distances. Glimpses of her incomprehensible power may be derived from its technology.",
                 evosuper: "The past form of Reigrad adventurer Iris. She remembers her identity and actions, but the seal prevents her from recalling the outcomes. Any attempt to envision what happened at the base of the World Tree that fateful day causes her to lose consciousness. She bears interminable solitude, waiting for someone to reach out through the darkness."
             }
     },
