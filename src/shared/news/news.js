@@ -4107,6 +4107,37 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 124,
+        date: `January 22, 2026`,
+        article: 
+        {
+            intro: `3 new Dream Awakenings make their debut on JP, alongside a new farmable equip! Meanwhile on Global, Misette has been released with her respective equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`虚構双刃`, 113741]
+                    ],
+                    dream: [
+                        [`Alma`, 101866312],
+                        [`Elizabeth`, 103396112],
+                        [`Beguiler Selia`, 103436212]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Misette`, 104037412]
+                    ],
+                    equips: [
+                        [`True "No Reply"`, 113001],
+                        [`Lunar Mask "No Reply"`, 113011]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -25844,7 +25844,7 @@ const EquipInformation = [
     },
 { //Kingdom's Blade 'Grand Scale' - Missing Lore
         id: 109491,
-        name: `Kingdom"s Blade 'Grand Scale"`,
+        name: `Kingdom's Blade "Grand Scale"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36144,10 +36144,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ノーリプライ』 - JP Complete
+    { //True "No Reply" - Missing Lore
         id: 113001,
-        name: `真『ノーリプライ』`,
-        translate: `True "No Reply"`,
+        name: `True "No Reply"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36173,12 +36172,11 @@ const EquipInformation = [
                 ability1: `When equipped by Misette, increase own HP Recovery by 20% (excluding Lifesteal) and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //月仮面『ノーリプライ』 - JP Complete
+    { //Lunar Mask "No Reply" - Missing Lore
         id: 113011,
-        name: `月仮面『ノーリプライ』`,
-        translate: `Moon Mask "No Reply"`,
+        name: `Lunar Mask "No Reply"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36203,7 +36201,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own MAX HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //侵蝕の杖『ディープレイ』 - JP Complete
         id: 113021,
@@ -38452,6 +38450,37 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113741,
+        name: `虚構双刃`,
+        translate: `Void Light Duo Blade`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 7000% Dark DMG (Physical). For 15s, increase own Physical DMG by 30%. Additionally if user is Dark, for 15s, increase own Arts by 1/s.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `Increase own DMG against Broken enemies by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,
@@ -38626,7 +38655,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Phantom Sword' - JP Complete
+{ //Ultra Relic 'Phantom Sword' - Missing Lore
         id: 140081,
         name: `Ultra Relic "Phantom Sword"`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -38653,9 +38682,9 @@ const EquipInformation = [
             {
                 ability1: `For 93s at Start of Quest, heal all Allies' HP by 25/s and Increase Own DEF by 21.1%. (At Passive Lv.101)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Phantom Core' - JP Complete
+{ //Ultra Relic 'Phantom Core' - Missing Lore
         id: 140091,
         name: `Ultra Relic "Phantom Core"`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -38682,7 +38711,7 @@ const EquipInformation = [
             {
                 ability1: `Reduce Own DMG resistance by 23%. For 79s after Start of Quest, increase Demon Units' DMG by 42.2%. (At Passive Lv.101)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore..`
     },
 { //Ultra Relic "Volkans" - JP Complete
         id: 140101,

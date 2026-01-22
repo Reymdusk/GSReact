@@ -10609,7 +10609,7 @@ const UnitInformation = [
                 evoawk: "She was once called Lapleh, and was employed as a caretaker and manager at the orphanage where Rayas and Roy were raised. The orphanage records included a person named Lapleh in hte rold of caretaker when it was first founded, and so as time went on the person who raised and ministered to the children was simply called 'Lapleh' which is a mark of tradition. For what it's worth, the person called Lapleh when Rayas was a child has passed on, and there is a new person in that role."
             }
     },
-    { //Alma - Complete
+    { //Alma - Complete + JP ver
         id: 101866312,
         name: "Alma",
         tier: 
@@ -10640,6 +10640,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 7082,
@@ -10656,6 +10665,15 @@ const UnitInformation = [
                 arts: "15500% Earth DMG (MAG). For 15s, reduce Enemies' MAG RES by 20%.",
                 artsbreak: 2000,
                 truearts: "24000% Earth DMG (MAG). For 15s, reduce Enemies' MAG RES by 50% + If an Enemy is Human, increase own Arts by 100.",
+                trueartsbreak: 3300
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2000% Earth DMG (MAG). For 9s, reduce Enemies' ATK by 10%.",
+                skillbreak: 1000,
+                arts: "22000% Earth DMG (MAG). For 90s, reduce Enemies' MAG RES by 20% (stackable).",
+                artsbreak: 2000,
+                truearts: "65000% Earth DMG (MAG). For 30s, reduce Enemies' MAG RES by 60% + If an Enemy is Human, increase own Arts by 100.",
                 trueartsbreak: 3300
             },
         passive: 
@@ -10681,6 +10699,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat5amt: 2,
                     hover5: "Goldola"
+                }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Human enemies by 150%.`,
+                        ability2: `Increase own Equip CT Speed by 25%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase allies' MAG DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 3/s.`
+                    }
                 }
             },
         lore: 
@@ -25142,7 +25194,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Elizabeth - Complete
+    { //Elizabeth - Complete + JP ver
         id: 103396112,
         name: "Elizabeth",
         tier: 
@@ -25173,6 +25225,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6550,
@@ -25191,9 +25252,24 @@ const UnitInformation = [
                 truearts: "32000% Fire DMG (MAG). 60% chance to Inflict Disease for 15s. For 15s, reduce Enemies' DMG RES by 50%, and reduce MAG RES of Enemies inflicted with Disease by this True Arts by 50%.",
                 trueartsbreak: 1000
             },
+        skillsetJP: 
+            {
+                skill: "13s CT - 1400% Fire DMG (MAG). For 8s, reduce Enemies' DMG by 10%.",
+                skillbreak: 400,
+                arts: "20000% Fire DMG (MAG). For 20s, Increase allies' MAX HP by 30% and reduce Enemies' Burn, Poison and Disease RES by 50%.",
+                artsbreak: 800,
+                truearts: "50000% Fire DMG (MAG). 80% chance to inflict Disease for 15s. For 15s, reduce enemies' DMG RES by 50%, and reduce MAG RES of Enemies inflicted with Disease by this True Arts by 100%.",
+                trueartsbreak: 1000
+            },
         passive: 
             {
                 ability1: "When unafflicted by Status Ailments, increase Arts by 2/s.",
+                ability2: "Increase Disease RES by 60%.",
+                ability3: "Increase Lifesteal RES by 40%."
+            },
+        passiveJP: 
+            {
+                ability1: "When unafflicted by Status Ailments, increase Arts by 4/s.",
                 ability2: "Increase Disease RES by 60%.",
                 ability3: "Increase Lifesteal RES by 40%."
             }, 
@@ -25214,6 +25290,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat5amt: 1,
                     hover5: "Radachne"
+                }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 2,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Arts DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `When HP is above 80%, increase own Arts by 2/s.`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 2,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Diseased enemies by 120%.`,
+                        ability2: `At Start of Quest, increase own Arts by 100. Does not stack with Abilities of the same name.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -25730,9 +25840,10 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { //Beguiler Selia - Complete
+    { //Beguiler Selia - Complete + JP ver
         id: 103436212,
         name: "Beguiler Selia",
+        translate: "Joker Selia",
         tier: 
             {
                 rank: 8,
@@ -25761,6 +25872,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6801,
@@ -25777,6 +25897,15 @@ const UnitInformation = [
                 arts: "13000% Water DMG (MAG). 80% chance to inflict Freeze for 6s. Increase Allies' Arts by 20 + Cleanse Allies' and Enemies' Burn.",
                 artsbreak: 1300,
                 truearts: "55000% Water DMG (MAG). For 20s, reduce Enemies' Critical RES by 100%, Freeze RES and Water RES by 50%.",
+                trueartsbreak: 1700
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1500% Water DMG (MAG). 30% chance to inflict Freeze for 2s.",
+                skillbreak: 700,
+                arts: "18000% Water DMG (MAG). 80% chance to inflict Freeze for 6s. Increase Allies' Arts by 20 + Cleanse Allies' and Enemies' Burn.",
+                artsbreak: 1300,
+                truearts: "70000% Water DMG (MAG). For 20s, reduce Enemies' Critical RES by 100%, Freeze RES and Water RES by 50%.",
                 trueartsbreak: 1700
             },
         passive: 
@@ -25799,6 +25928,40 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 2,
                     hover4: "Radachne",
+                }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                        mat3amt: 2,
+                        hover3: "Aerugraxes",
+                    },
+                    passive: {
+                        ability1: `Increase own Skill's Freeze chance to 40% instead.`,
+                        ability2: `Increase own DMG against Frozen enemies by 60%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase own True Arts' CRI RES debuff to 150% instead.`,
+                        ability2: `Increase own DMG by [1% x own ATK/ 100].`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -30645,8 +30808,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The imperial intelligence bureau's greatest hit man. None of his targets have purportedly survived. However, he loathes surprise attacks and prefers direct confrontation. Fanatical devotion to the blade drives him to demand the most preilous missions, frightening his colleagues. The only one who does not keep him at arm's length is also the only one he accepts as competent: Jay",
+                evosuper: "There were four historic styles of swordplay, each centered around fire, wind, water or land. Only the scourching Entei-Ryu, ironically the most rigorous of them all, survived to the present day. He is its last practitioner, having attained mastery by killing his mentor with the school's ultimate technique. Thorough understanding of its moves and stances let him further modify them for maximum lethality. In another ironic twist, these changes were so dramatic the original style could hardly be recognized beneath them."
             }
     },
     { //Elenore - Complete
@@ -31086,8 +31249,8 @@ const UnitInformation = [
             },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A Beast with soft fur and adorable ears. She is actually the leader of a plucky but rare species known as the Weapon-Ears, though she presently travels with Azel. Unlike he who wears his pirate status with pride, she prefers to be called a treasure hunter. The iron ball attached to her leg carries a gripping tale full of drama which she will gladly share with friends after a few drinks.",
+                evosuper: "The proud leader of the Weapon-Ears. Her entire colony was captured by hunters after their rare fur. They stackled an extremely heavy orb to her, but she was able to fight back and escape alone thanks to a number of errors on their part. First was underestimating her will to live and stave off extinction. Second was misjudging her incredible leg strength. Third was being unaware that orb was actually a Regalia of astounding offensive potential."
             }
     },
     {
@@ -31601,8 +31764,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The leader of the Divine Knights who oversees protection of the Divine Guardian Uther. She appeared in Altohelm after the Prisma Rain fell. Although she castigated the previous captain's decision to defend a Demon girl, she later accepted it as another way of life. The one responsible for this mental growth was the shield-bearing Human who admired her... and the piano she played between training sessions.",
+                evosuper: "Commander of the Divine Knights, also hailed as the Shining Knight. She laid low her enemies, Rayas included, with the sword Traumerei bestowed by Uther. The price of that power was losing a portion of her memories with each swing. Howeverm she was able to retain her most important one: the melody she and her Human compatriot played immediately before the Great Seal's formation separated them."
             }
     },
     { //Natasha: Spiritia 05 - Missing Lore (JP)
@@ -31839,8 +32002,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A mysterious girl who woke up without her memories in the Royal Academy's rose garden. According to the equally mysterious support mecha Yuzukichi, her full name is Mena-Mena Menas. Though she was unable to recall even that much, King Kayn welcomed her as a transfer student. However, school life proved to be anything but peaceful since she was named by the student council president Princess Echika as her betrothed.",
+                evosuper: "Despite suffering from amnesia, she is accustomed to scrapping. Already unbeatable in a one-on-one match, the metallic wings provided by Yuzukichi and the all-purpose weapon Multiple turn her into a force to be reckoned with. The belief burning deep in her heart ignites her spirit to soar across the blue skies, taking the students of the academy to destinations unknown."
             }
     },
     { //Star Swordswoman Rosetta - Missing Lore (JP)
@@ -31922,7 +32085,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Misette - Missing Lore (JP)
+    { //Misette - Missing Lore
         id: 104037412,
         name: `Misette`,
         attribute: `Light`,
@@ -31996,8 +32159,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "The original form of Iris, Rayas' travel companion. As one of Grimm Stella's Great Six Witches, she is known by \"The Supreme Witch\" or \"The Farworld Witch\". That world is believed to have a highly advanced civilization with giant iron mounts which soar at speeds exceeding sound and instant communication over long distances. Glimpses of her imcomprehensible power may be derived from its technology.",
+                evosuper: "The past form of Reigrad adventurer Iris. She remembers her identity and actions, but the seal prevents her from recalling the outcomes. Any attempt to envision what happened at the base of the World Tree that fateful day causes her to lose consciousness. She bears interminable solitude, waiting for someone to reach out through the darkness."
             }
     },
     { //Erens - Missing Lore (JP)
@@ -32191,11 +32354,11 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2400% Dark DMG (PHY). Increase own Arts by 20. If used when ownself is not affected by Status ailments, increase own Arts by an additional 20.`,
                 skillbreak: 800,
-                arts: `25000% Dark DMG (PHY). Increase allies' Arts by 25. For 20s, increase allies' Evasion rate by 25%.`,
+                arts: `25000% Dark DMG (PHY). Increase allies' Arts by 30. If used for the first time, increase allies' Arts by 100 instead. For 20s, increase allies' Evasion rate by 25%.`,
                 artsbreak: 1000,
-                truearts: `57000% Dark DMG (PHY). Each time own True Arts is used, permanently increase own Heal Equip CT Speed by 10% (MAX: 50%). For 30s, increase Spirit allies' stats by 50%.`,
+                truearts: `57000% Dark DMG (PHY). Each time own True Arts is used, permanently increase own Heal Equip CT Speed and Heal Amount (excluding Lifesteal) by 20% (MAX: 60%). For 30s, increase Spirit allies' stats by 50%.`,
                 trueartsbreak: 2000,
-                superarts: `170000% Dark DMG (PHY). Each time own Super Arts is used, permanently increase own Physical Equip CT Speed by 10% (MAX: 50%). For 25s, increase allies' PHY DMG by 200%.`,
+                superarts: `170000% Dark DMG (PHY). Each time own Super Arts is used, permanently increase own Physical Equip CT Speed by 20% (MAX: 60%). For 25s, increase allies' PHY DMG by 200%.`,
                 superartsbreak: 3000
             },
         passive: 
@@ -32323,8 +32486,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The youthful form of Isliid's emperor who would go on to destroy the Great Seal and plunge Raktehelm into chaos. He obtained his late father's knowledge and will via Succession of Isliid, which some call the last miracle of Humankind. That also included mastery in his preferred style of swordplay, the far eastern school of Sumera-ryu. However, the knight Roy refused to acknowledge his authority until he retrieved the missing Imperial Blades.",
+                evosuper: "The emperor of Isliid long before deciding to save Raktehelm at the cost of a third of the world's inhabitants. After obtaining Sky Light, one of the Imperial Blades, he could hear the voices of his predecessors. It foretold his individuality fading into their amassed consciousness. This brought him another step towards becoming the true emperor - towards his ultimate choice regarding the fate of the Eight Great Races."
             }
     },
     {
@@ -44475,8 +44638,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Third-strongest of the Level Fire espers in Academy City. She attends Tokiwadai Middle School, a prestigious instituition for young ladies, making her more normal among the eccentric Level Fives. Lovely, earnest, hard-working, and with a strong sense of justice, she does not hesitate to lend a helping hand. However, she has somewhat childish tastes, like her fondness of the Croaker character.",
+                evosuper: "The ace of Tokiwadai, also called the Electromaster. Her power has a wide array of applications, such as magnetizing iron in the ground to make weapons or hacking into electrical equipment. Her signature technique is the Railgun, able to pierce steel walls with ease. She was originally a Level One deficient, but hard work brought her near-matchless talent."
             }
     },
     { //Touma Kamijo - Missing Lore
@@ -44567,8 +44730,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A high school student living in Academy City. His right hand holds the Imagine Breaker, able to nullify any magical or superpowered technique, which has prompted numerous attempts on his life. However, he is officially considered a Level Zero impotent since even cutting-edge technology cannot measure its strength.",
+                evosuper: "The Imagine Breaker in his right hand has seen through many life-or-death battles. Good-natured to a fault, he cannot look away from anyone in need, even if they have incredible powers themselves like Index or Mikoto Misaka. He will risk it all against overwhelming odds with bravery and persistence in greater measure."
             }
     },
     { //Accelerator - Missing Lore
@@ -44659,8 +44822,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "The strongest of the seven Level Five espers in Academy City. He can take the vectors of any sort of energy and redirect them, including Mikoto's strongest attack the Railgun. He suffered heavy brain damage while protecting Last Order, leaving him unable to maintain a normal life without connecting to the Misaka network.",
+                evosuper: "Once the main focus of the Level Six Shift experiment which involved killing 20,000 of Mikoto Misaka's cloned \"sisters\". This was until Level Zero Touma Kamijo stopped that inhuman project by defeating him in a fight. While carrying the burden of his body count, he lurks in the shadows of society as a dark hero to find the right path."
             }
     },
     { //Index - Missing Lore
@@ -44751,8 +44914,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "Has 103,000 grimoires perfectly memorized, making her a living library of grimoires. She first met Touma Kamijo when she fell on the balcony of his dorm room. He not only gives her shelter, he is tasked with fulfilling her bottomless appetite. Despite this kindness, she tends to bite him repeatedly whenever he aggravates her. As a result, he is covered in her teeth marks at any given time.",
+                evosuper: "A nun belonging to Necessarius in the England Puritan church. The 103,000 grimoires inscribed within her memory gives her unparalleled magical knowledge, but she herself cannot use it. Instead John's Pen will activate whenever she is threatened and force her to cast the appropriate spells to rectify the situation."
             }
     },
     { //Frieren - Complete
