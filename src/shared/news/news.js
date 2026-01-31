@@ -4138,6 +4138,46 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 125,
+        date: `January 31, 2026`,
+        article: 
+        {
+            intro: `Grand Crusade EP6 is unveiled on JP, alongside Firil and his equips! Meanwhile on Global, Kingsoul Orvell makes his debut with his equips, as well as a bunch of Dream Awakenings!`,
+            new:
+                {
+                    units: [
+                        [`Firil`, 104217212]
+                    ],
+                    equips: [
+                        [`真『リベリオン・ギア』`, 113751]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Kingsoul Orvell`, 104067412]
+                    ],
+                    equips: [
+                        [`Super "Cross of Gran Verge"`, 112701],
+                        [`True "Cross of Gran Verge"`, 112711],
+                        [`Kingdom Duo "Cross of Gran Verge"`, 112721],
+                        [`Shining Royalty "Alphadyne"`, 112731]
+                    ],
+                    dream: [
+                        [`Cestina (Earth)`, 102986312],
+                        [`Liza`, 103006412],
+                        [`Orvell (Light)`, 103026412],
+                        [`Luahn`, 103046512],
+                        [`Bakoo`, 103086512],
+                        [`Victoire`, 103096412],
+                        [`Orvell (Fire)`, 103456112],
+                        [`Cestina (Light)`, 103466412]
+                    ]
+                }
+        }
     }
 ]
 

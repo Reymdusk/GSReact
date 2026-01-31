@@ -27867,10 +27867,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //腐刀『冥府ノ喉』 (WarGinzo Farmable) - JP Complete
+{ //Ebbing Katana "Hell's Throat" - Missing Lore
         id: 110191,
-        name: `腐刀『冥府ノ喉』`,
-        translate: `"Throat of the Underworld"`,
+        name: `Ebbing Katana "Hell's Throat"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27895,11 +27894,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //鬼忍装『紫紅』 (WarGinzo Farmable) - JP Complete
+{ //Oni Attire "Shikoh" - Missing Lore
         id: 110201,
-        name: `鬼忍装『紫紅』`,
+        name: `Oni Attire "Shikoh"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -27924,7 +27923,7 @@ const EquipInformation = [
             {
                 ability1: `Hellfire resistance 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Stronghold Armor "Geocradle" - Missing Lore
         id: 110211,
@@ -35248,10 +35247,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //超『エクス・クランベルジュ』 - JP Complete
+    { //Super "Cross of Gran Verge" - Missing Lore
         id: 112701,
-        name: `超『エクス・クランベルジュ』`,
-        translate: `Super "Ex Granverge"`,
+        name: `Super "Cross of Gran Verge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35276,12 +35274,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『エクス・クランベルジュ』 - JP Complete
+    { //True "Cross of Gran Verge" - Missing Lore
         id: 112711,
-        name: `真『エクス・クランベルジュ』`,
-        translate: `True "Ex Granverge"`,
+        name: `True "Cross of Gran Verge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35304,15 +35301,15 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Orvell D. Granverge, increase own DMG by 50%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Kingsoul Orvell, increase own DMG by 50%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //双王剣『エクス・クランベルジュ』 - JP Complete
+    { //Kingdom Duo "Cross of Gran Verge" - Missing Lore
         id: 112721,
         name: `双王剣『エクス・クランベルジュ』`,
-        translate: `Twin King Swords "Ex Granverge"`,
+        translate: `Kingdom Duo "Cross of Gran Verge"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35337,12 +35334,11 @@ const EquipInformation = [
             {
                 ability1: `Reduce own Arts by 2/s when HP is below 80%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //煌王鎧『アルファダイン』 - JP Complete
+    { //Shining Royalty "Alphadyne" - Missing Lore
         id: 112731,
-        name: `煌王鎧『アルファダイン』`,
-        translate: `Brilliant Jewel Armor "Alphadine"`,
+        name: `Shining Royalty "Alphadyne"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35365,9 +35361,9 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increase own DEF by 5%.  `
+                ability1: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True "Multiple" - Missing Lore
         id: 112741,
@@ -38478,6 +38474,37 @@ const EquipInformation = [
             {
                 ability1: `Increase own DMG against Broken enemies by 10%.`,
                 ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113751,
+        name: `真『リベリオン・ギア』`,
+        translate: `True "Rebellion Gear"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 8000% Water DMG (Magic). For 10s, reduce enemies' Water resistance by 30%. If user is God, reduce enemies' Water resistance by 50% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Firil, increase own Support Equip CT Speed by 25% and increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },

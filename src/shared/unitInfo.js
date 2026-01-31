@@ -20122,7 +20122,7 @@ const UnitInformation = [
                 evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The \"Imperial Gun Arts\" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
             }
     },
-    { //Cestina - Complete, Review done + JP ver
+    { //Cestina - Complete, Review done
         id: 102986312,
         name: "Cestina (Earth)",
         tier: 
@@ -20147,15 +20147,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -20173,17 +20164,6 @@ const UnitInformation = [
                 defplus: 413
             },
         skillset: 
-            {
-                skill: "8s CT - 2400% Earth DMG (PHY). For 3s, reduce Enemies’ Accuracy by 10%.",
-                skillbreak: 800,
-                arts: "16000% Earth DMG (PHY). Increase Allies’ Arts by 20 + For 20s, Allies gain a DMG barrier that negates 3000 DMG.",
-                artsbreak: 1200,
-                truearts: "42000% Earth DMG (PHY). For 15s, increase all Allies’ PHY DMG by 100%, reduce Enemies’ DMG RES by 30%.",
-                trueartsbreak: 2000,
-                crossarts: "100000% Fire & Earth DMG (PHY). For 25s, increase Cestina and Radak's DMG by 200%, increase Fire Allies’ Arts by 7/s, increase Earth Allies’ DMG by 200%.\n\nNote: This unit's Arts Gen is Type D and will not stack with other Type D Arts Gen.",
-                crossartsbreak: 5000
-            },
-        skillsetJP: 
             {
                 skill: "8s CT - 2400% Earth DMG (PHY). For 3s, reduce Enemies’ Accuracy by 10%.",
                 skillbreak: 800,
@@ -20216,7 +20196,7 @@ const UnitInformation = [
                     hover4: "Goldola",
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -20387,7 +20367,7 @@ const UnitInformation = [
                 author: `The True Pepe`
             }
     },
-    { //Liza - Complete, Review done + JP ver
+    { //Liza - Complete, Review done
         id: 103006412,
         name: "Liza",
         tier: 
@@ -20411,15 +20391,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/suppLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
@@ -20437,17 +20408,6 @@ const UnitInformation = [
                 defplus: 357
             },
         skillset: 
-            {
-                skill: "11s CT - 2000% Light DMG (MAG). For 5s, reduce Enemies' MAG RES by 10%.",
-                skillbreak: 400,
-                arts: "10000% Light DMG (MAG). For 10s, increase Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                artsbreak: 900,
-                truearts: "30000% Light DMG (MAG). For 20s, increase Allies' Equipment CT Speed by 50%, reduce Enemies' Light and MAG RES by 35%.",
-                trueartsbreak: 1800,
-                crossarts: "77000% Light DMG (MAG). Liza and Cygnet heal 50% of DMG taken during this Cross Arts + For 60s, increase Allies' DMG to Enemies they have an Elemental Advantage against by 250%.",
-                crossartsbreak: 3500
-            },
-        skillsetJP: 
             {
                 skill: "11s CT - 2000% Light DMG (MAG). For 5s, reduce Enemies' MAG RES by 10%.",
                 skillbreak: 400,
@@ -20480,7 +20440,7 @@ const UnitInformation = [
                     hover4: "Tonetaurus",
                 }
             },
-            dreamJP: {
+            dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -20645,7 +20605,7 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Orvell - Complete, Review done + JP Dream
+    { //Orvell - Complete, Review done
         id: 103026412,
         name: "Orvell (Light)",
         tier: 
@@ -20669,15 +20629,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -20698,17 +20649,6 @@ const UnitInformation = [
             {
                 skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
                 skillbreak: 700,
-                arts: "20000% Light DMG (PHY). For 15s, increase own Accuracy by 35% and reduce Enemies' PHY RES by 30%.",
-                artsbreak: 1200,
-                truearts: "65000% Light DMG (PHY). For 15s, increase stats by 50%. Additionally when there are 5 stacks of Testament to the King, for 15s, ignore 100% of Enemies' DEF.",
-                trueartsbreak: 1900,
-                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. If used when there are 5 stacks of both Testament to the King and Overlord's Squire, increase the DMG Multiplier of this Cross Arts by an additional 80000%.",
-                crossartsbreak: 4700
-            },
-        skillsetJP: 
-            {
-                skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
-                skillbreak: 700,
                 arts: "25000% Light DMG (PHY). For 15s, increase own Accuracy by 60% and reduce Enemies' PHY RES by 30%.",
                 artsbreak: 1200,
                 truearts: "80000% Light DMG (PHY). For 20s, increase stats by 50%. Additionally when there are 5 stacks of Testament to the King, for 15s, ignore 100% of Enemies' DEF.",
@@ -20717,12 +20657,6 @@ const UnitInformation = [
                 crossartsbreak: 4700
             },
         passive: 
-            {
-                ability1: "On use of Arts, gain a stack of Testament to the King (Max 5 stacks). For each stack, increase DMG by 40% and Skill CT Speed by 20%.",
-                ability2: "Increase Freeze and Paralyze RES by 100%. Less likely to be knocked back.",
-                ability3: "When near-death, increase DMG by 10%."
-            },
-        passiveJP: 
             {
                 ability1: "On use of Arts, gain a stack of Testament to the King (Max 5 stacks). For each stack, increase DMG by 60% and Skill CT Speed by 20%.",
                 ability2: "Increase Freeze and Paralyze RES by 100%. Less likely to be knocked back.",
@@ -20744,7 +20678,7 @@ const UnitInformation = [
                     hover4: "Flogassa",
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -20922,7 +20856,7 @@ const UnitInformation = [
                 author: `The True Pepe`
             }
     },
-    { //Luahn - Complete, Review done + JP Dream
+    { //Luahn - Complete, Review done
         id: 103046512,
         name: "Luahn",
         tier: 
@@ -20947,15 +20881,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -20974,17 +20899,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30 + Increase own Arts by 20 if this Skill crits.",
-                skillbreak: 600,
-                arts: "20000% Dark DMG (PHY). Inflicts a stack of Bleed (up to 3 stacks).",
-                artsbreak: 1200,
-                truearts: "48000% Dark DMG (PHY). Increase own Arts by 20. For 15s, increase Allies' Critical Rate by 100%.",
-                trueartsbreak: 2700,
-                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT Speed and ATK by 100%.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
-                crossartsbreak: 3000
-            },
-        skillsetJP: 
-            {
                 skill: "12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30 + Increase own Arts by 30 if this Skill crits.",
                 skillbreak: 600,
                 arts: "20000% Dark DMG (PHY). Inflicts a stack of Bleed (up to 3 stacks).",
@@ -20995,12 +20909,6 @@ const UnitInformation = [
                 crossartsbreak: 3000
             },
         passive: 
-            {
-                ability1: "Increase Allies' CRI DMG by 30%. Does not stack with Abilities of the same name.",
-                ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 100%.",
-                ability3: "Heal own HP by 1% of DMG dealt to Enemies with 3 stacks of Bleed."
-            }, 
-        passiveJP: 
             {
                 ability1: "Increase Allies' CRI DMG by 40%. Does not stack with Abilities of the same name.",
                 ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 150%.",
@@ -21022,7 +20930,7 @@ const UnitInformation = [
                     hover4: "Radachne",
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -21517,7 +21425,7 @@ const UnitInformation = [
                 author: `Berwick`
             }
     },
-    { //Bakoo - Complete, Review done + JP Dream
+    { //Bakoo - Complete, Review done
         id: 103086512,
         name: "Bakoo",
         tier: 
@@ -21541,15 +21449,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/suppLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -21567,15 +21466,6 @@ const UnitInformation = [
                 defplus: 389
             },
         skillset: 
-            {
-                skill: "11s CT - 2200% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 10%.",
-                skillbreak: 500,
-                arts: "16000% Dark DMG (MAG). For 10s, reduce Enemies' DEF and Dark RES by 30%.",
-                artsbreak: 1100,
-                truearts: "40000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 30 + For 15s, increase Allies' (except target) Arts by 4/s and MAG DMG by 200%.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.",
-                trueartsbreak: 1600
-            },
-        skillsetJP: 
             {
                 skill: "11s CT - 2200% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
                 skillbreak: 500,
@@ -21609,7 +21499,7 @@ const UnitInformation = [
                     hover5: "Mavroskia"
                 }
             },
-            dreamJP: {
+            dream: {
                 water: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -21693,7 +21583,7 @@ const UnitInformation = [
                 author: `Unex`
             }
     },
-    { //Victoire - Complete, Review done + JP ver
+    { //Victoire - Complete, Review done
         id: 103096412,
         name: "Victoire",
         tier: 
@@ -21718,15 +21608,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -21744,15 +21625,6 @@ const UnitInformation = [
                 defplus: 406
             },
         skillset: 
-            {
-                skill: "9s CT - 1300% Light DMG (MAG). For 10s, increase Allies' DMG by 10% (stackable).",
-                skillbreak: 600,
-                arts: "15000% Light DMG (MAG). For 15s, increase Allies' Skill CT REC by 80%, for Light Allies, increase Skill CT REC by 160% instead.",
-                artsbreak: 1000,
-                truearts: "36000% Light DMG (MAG). For 15s, increase Allies' stats and accuracy by 30%, for Light Allies, increase stats and accuracy by 60% instead.",
-                trueartsbreak: 1300
-            },
-        skillsetJP: 
             {
                 skill: "9s CT - 2400% Light DMG (MAG). For 10s, increase Allies' DMG by 10% (stackable).",
                 skillbreak: 600,
@@ -21785,7 +21657,7 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
-            dreamJP: {
+            dream: {
                 light: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -26131,7 +26003,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { // Orvell (Fire) - Complete, Review done + JP ver
+    { // Orvell (Fire) - Complete, Review done
         id: 103456112,
         name: "Orvell (Fire)",
         tier: 
@@ -26155,15 +26027,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/physLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -26181,19 +26044,6 @@ const UnitInformation = [
                 defplus: 365
             },
         skillset: 
-            {
-                skill: "10s CT - 2000% Fire DMG (MAG). For 7s, reduce Enemies' DMG RES by 10%.",
-                skillbreak: 800,
-                arts: "18000% Fire DMG (MAG). For 20s, increase Allies' Equipment DMG by 50%, and Fire Allies' Equipment DMG by an additional 50%.",
-                artsbreak: 1200,
-                truearts: `62000% Fire DMG (MAG). For 20s, replace the equipment in his first slot with Super Equip "Gramlude". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.`,
-                trueartsbreak: 1800,
-                superequip: "2s CT - 5000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
-                superequipbreak: 500,
-                superequiptype: "/db/Mines/thumbnail/magLB.png",
-                superequipname: "Gramlude"
-            },
-        skillsetJP: 
             {
                 skill: "10s CT - 2000% Fire DMG (MAG). For 7s, reduce Enemies' DMG RES by 10%.",
                 skillbreak: 800,
@@ -26228,7 +26078,7 @@ const UnitInformation = [
                     hover4: "Flogassa"
                 }
             },
-            dreamJP: {
+            dream: {
                 fire: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -26299,7 +26149,7 @@ const UnitInformation = [
                 author: `MOBofMetal`
             }
     },
-    { // Cestina (Light) - Complete (+ JP version), Review done
+    { // Cestina (Light) - Complete, Review done
         id: 103466412,
         name: "Cestina (Light)",
         tier: 
@@ -26323,15 +26173,6 @@ const UnitInformation = [
             },
         slots: 
             {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/suppLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        slotsJP: 
-            {
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
@@ -26349,19 +26190,6 @@ const UnitInformation = [
                 defplus: 383
             },
         skillset: 
-            {
-                skill: "9s CT - 1400% Light DMG (PHY). For 5s, increase own ATK by 15%.",
-                skillbreak: 600,
-                arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
-                artsbreak: 800,
-                truearts: `45000% Light DMG (PHY). For 15s, replace the equipment in her first slot with Ultra Equip "Eisenstern". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.`,
-                trueartsbreak: 1500,
-                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable).",
-                superequipbreak: 300,
-                superequiptype: "/db/Mines/thumbnail/physLB.png",
-                superequipname: "Eisenstern"
-            },  
-        skillsetJP: 
             {
                 skill: "9s CT - 1400% Light DMG (PHY). For 5s, increase own ATK by 15%.",
                 skillbreak: 600,
@@ -26396,7 +26224,7 @@ const UnitInformation = [
                     hover4: "Radachne"
                 }
             },
-            dreamJP: {
+            dream: {
                 earth: {
                     evolution: {
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
@@ -31846,17 +31674,20 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Orvell D. Granverge - Missing Lore (JP)
+    { //Kingsoul Orvell - Missing Lore
         id: 104067412,
-        name: `Orvell D. Granverge`,
+        name: `Kingsoul Orvell`,
+        translate: `Orvell D. Granverge`,
         attribute: `Light`,
         type: `God`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104066412.png",
                 detailsuper: "/db/Units/Detail/unit_detail_104067412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_406_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104066412.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104067412.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104067412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_406_1.png"
             },
         slots: 
             {
@@ -31885,14 +31716,22 @@ const UnitInformation = [
                 artsbreak:  1200,
                 truearts: `60000% Fire DMG (MAG). For 35s, increase all allies' stats by 30% and Allies ignore 100% of Enemies' DEF.`,
                 trueartsbreak: 1800,
-                superarts: `200000% Light DMG (PHY). For 25s, replace the equipment in his first slot with Super Equip "Ex Granverge".`,
+                superarts: `200000% Light DMG (PHY). For 25s, replace the equipment in his first slot with Super Equip "Cross of Gran Verge".`,
                 superartsbreak: 2400,
                 superequip: "6s CT - 20000% Light DMG (PHY). Increase all allies' Arts by 20.",
                 superequipbreak: 1000,
                 superequiptype: "/db/Mines/thumbnail/physLB.png",
-                superequipname: "Ex Granverge"
+                superequipname: "Cross of Gran Verge"
             },
         passive: 
+            {
+                ability1: `For each Light ally currently alive, increase own DMG by 80% (MAX: 320%). Does not stack with Abilities of the same name.`,
+                ability2: `For each Fire ally currently alive, increase own Arts by 4/s (MAX: 12/s). Does not stack with Abilities of the same name.`,
+                ability3: `Increase all allies' CRI RES by 30%. Does not stack with Abilities of the same name.`,
+                ability4: `Unit EXP UP 20% UP. (When Kingsoul Orvell's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Kingsoul Orvell's SP. Art is owned)`
+            }, 
+        passiveJP: 
             {
                 ability1: `For each Light ally currently alive, increase own DMG by 80% (MAX: 320%). Does not stack with Abilities of the same name.`,
                 ability2: `For each Fire ally currently alive, increase own Arts by 4/s (MAX: 12/s). Does not stack with Abilities of the same name.`,
@@ -31911,21 +31750,21 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Ex Granverge`,
+                    name: `Cross of Gran Verge`,
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "/db/Equipment/Detail/item_detail_112711.png",
                     skill: `60s CT - 10000% Light DMG (PHY). If user is Light, for 15s, reduce enemies' DMG RES by 20%. Additionally if used when own HP is above 80%, reduce enemies' DMG RES by an additional 15%.`,
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: `When equipped by Orvell D. Granverge, increase own DMG by 50%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Kingsoul Orvell, increase own DMG by 50%, and Freeze RES and Paralysis RES by 100%. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
                         }
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Menas - Missing Lore
@@ -33046,6 +32885,84 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Echika, extend duration of Lord of Feathers Mode by 20s and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
                         ability2: "Increase own Heal Amount by 5% (excluding Lifesteal)."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104217212,
+        name: `Firil`,
+        attribute: `Water`,
+        type: `God`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104216212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104217212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104216212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104217212.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats:
+            {
+                hp: 6945,
+                hpplus: 1290,
+                atk: 3749,
+                atkplus: 702,
+                def: 3393,
+                defplus: 656
+            },
+        skillset:
+            {
+                skill: `13s CT - 3000% Water DMG (MAG). Increase own Arts by 30 and Leader unit's Arts by 30.`,
+                skillbreak: 500,
+                arts: `Increase allies' Arts by 10. For 20s, allies gain a DMG barrier that negates [4000 DMG x # of times own Arts has been used] (MAX: 20000).`,
+                artsbreak: 0,
+                truearts: `70000% Water DMG (MAG). For 20s, increase allies' MAG DMG by 180% and Leader unit's MAG DMG by an additional 180%.`,
+                trueartsbreak: 1500,
+                superarts: `150000% Water DMG (MAG). 100% chance to inflict Blind for 30s. For 30s, increase allies' stats by 80%.`,
+                superartsbreak: 2000
+            },
+        passive:
+            {
+                ability1: `When ownself is Leader, increase own CRI rate by 100%. Otherwise, ignore 100% of enemies' DEF. Does not stack with Abilities of the same name.`,
+                ability2: `When "Miasma" Area Effect is active, increase Arts Over Time Effects by 50%.`,
+                ability3: `Increase own Poison RES by 100%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Frostspite Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Rebellion Gear",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113751.png",
+                skill: "50s CT - 8000% Water DMG (MAG). For 10s, reduce enemies' Water RES by 30%. If user is God, reduce enemies' Water RES by 50% instead.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Firil, increase own Support Equip CT Speed by 25% and increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
                     }
             },
         lore:
