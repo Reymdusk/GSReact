@@ -4178,6 +4178,61 @@ const NewsArticles = [
                     ]
                 }
         }
+    },
+    {
+        id: 126,
+        date: `February 13, 2026`,
+        article: 
+        {
+            intro: `Huge updates for both versions this time! On JP, there are new Dream awakenings and Valentines equips, and even buffs to Valentines units. Meanwhile on Global, Part 1 of the Madoka collab makes its debut, as well as new Human-themed Tribal Ruins equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`True "Priscilla's Cupid Brand"`, 113761],
+                        [`True "Miranda's Adolescence"`, 113771],
+                        [`True "Etoile V"`, 113781],
+                        [`真『シスのロマンスケーキカッター』`, 113791],
+                        [`プリシラの当たって砕けローファー`, 113801],
+                        [`ミランダのギリギリブレーザー`, 113811],
+                        [`シスのロマンスケーキカッター`, 113821],
+                        [`シスのミラクルパティシエール`, 113831],
+                        [`リザ姉のオラクルパティシエール`, 113841],
+                        [`ミランダのダークマター`, 113851]
+                    ],
+                    dream: [
+                        [`Keiones`, 101376512],
+                        [`Elmessio`, 101386212],
+                        [`Lione`, 101396112],
+                        [`Reyon`, 101406412],
+                        [`Nerim`, 101416312]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Madoka Kaname`, 108287412],
+                        [`Homura Akemi`, 108297512]
+                    ],
+                    equips: [
+                        [`Cane of Avidity "Wisdom Thirst"`, 112841],
+                        [`Human History "Lostpia"`, 112851],
+                        [`Sword of Reason "Maquina Interna"`, 112861],
+                        [`Vials of Wisdom "Odd Mark"`, 112871],
+                        [`Helmet of Quietude "Willseed"`, 112881],
+                        [`True "Madoka's Bow"`, 154891],
+                        [`Madoka's Dress`, 154901],
+                        [`Madoka's Ribbons`, 154911],
+                        [`Madoka's Bow`, 154921],
+                        [`True "Homura's Shield"`, 154931],
+                        [`Homura's Dress`, 154941],
+                        [`Homura's Handgun`, 154951],
+                        [`Homura's Shield`, 154961],
+                        [`Mami's Dress`, 154981]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

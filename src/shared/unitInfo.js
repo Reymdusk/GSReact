@@ -7231,7 +7231,7 @@ const UnitInformation = [
                 evoawk: "At constant war with its destructive urges, the Fire Dragon decided to allow a Human warrior to determine its fate. Against its own will, the Demon possessing the Dragon forced it to continue his rampage. Through the lens of what little consciousness it had left, it saw the barrel of the warrior's gun and the determination in his eyes. At the ominous sight, the Dragon felt not fear but a sense of relief."
             }
     },
-    { //Keiones - Complete
+    { //Keiones - Complete + JP ver
         id: 101376512,
         name: "Keiones",
         tier: 
@@ -7264,6 +7264,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6067,
@@ -7280,6 +7289,15 @@ const UnitInformation = [
                 arts: "10000% Dark DMG (MAG). Reduce Enemies' Arts by 20 + For 40s, increase own accuracy by 15% (stackable).",
                 artsbreak: 800,
                 truearts: "31000% Dark DMG (MAG). For 10s, increase own Critical Rate by 100% and Critical DMG by magnitude of accuracy buffs on self.",
+                trueartsbreak: 1800
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2500% Dark DMG (MAG). For 7s, increase own ATK by 30%.",
+                skillbreak: 1300,
+                arts: "20000% Dark DMG (MAG). Reduce Enemies' Arts by 20. For 90s, increase own Accuracy by 20% (stackable).",
+                artsbreak: 800,
+                truearts: "70000% Dark DMG (MAG). For 20s, increase own CRI rate by 100% and CRI DMG by [2 x own Accuracy rate buffs (%)].",
                 trueartsbreak: 1800
             },
         passive: 
@@ -7309,6 +7327,40 @@ const UnitInformation = [
                     hover3: "Valzandeth",
                 }
             },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 2,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Equip CT Speed by 20%.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase own Accuracy rate by 30%.`,
+                        ability2: `Increase own Arts by 3/s when above 90% HP.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo4: "A Human knight who fought for Bamint after the Ancient War. A war orphan, Keiones was recognized for his hard work and made a knight along with his childhood friend Reyon. Though his rigorously trained skills with a bow were accurate enough to earn him the nickname 'Bullseye,' he felt like Reyon was achieving more than him. When a Bamint VIP was assassinated and Reyon volunteered to help search for the culprit, Keiones had to raise his hand too.",
@@ -7316,7 +7368,7 @@ const UnitInformation = [
                 evoawk: "As the knight stood still, holding the deeply wounded girl in his arms, the girl muttered, \"It's all going to be OK. There will come a day where we can all sit and laugh together again.\" To put an end to the infighting, she sacrificed herself. And after letting out a grin marked with a hint of sadness, she gently closed her eyes and faded away. With complicated feelings of regret and determination, the knight shed tears over her serene face."
             }
     },
-    { //Elmessio - Complete
+    { //Elmessio - Complete + JP ver
         id: 101386212,
         name: "Elmessio",
         tier: 
@@ -7349,6 +7401,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6797,
@@ -7364,8 +7425,19 @@ const UnitInformation = [
                 skillbreak: 1700,
                 arts: "13000% Water and Earth DMG (MAG). Increase DMG of this Arts to Fire and Water Enemies by 60%, and swap Blessing of Midori Modes.",
                 artsbreak: 2300,
-                truearts1: "When in Water Mode: 35000% Water DMG (MAG). For 12s, increase own Critical Rate by 100%, increase Water Allies' DMG by 50%. ",
+                truearts1: "When in Water Mode: 35000% Water DMG (MAG). For 12s, increase own Critical Rate by 100%, increase Water Allies' DMG by 50%.",
                 truearts2: "When in Earth Mode: 28000% Earth DMG (MAG). 50% chance to inflict Disease for 8s.",
+                trueartsbreak1: 2300,
+                trueartsbreak2: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2300% Water DMG (MAG). For 6s, reduce enemies' Water RES and Earth RES by 20%.",
+                skillbreak: 1700,
+                arts: "22000% Water and Earth DMG (MAG). For 60s, increase own DMG against Fire and Water enemies by 100%. Additionally, swap Blessing of Midori Modes.",
+                artsbreak: 2300,
+                truearts1: "When in Water Mode: 65000% Water DMG (MAG). For 20s, increase own CRI rate by 100% and Water Allies' DMG by 100%.",
+                truearts2: "When in Earth Mode: 45000% Earth DMG (MAG). 100% Chance to inflict Disease for 12s.",
                 trueartsbreak1: 2300,
                 trueartsbreak2: 3000
             },
@@ -7374,6 +7446,12 @@ const UnitInformation = [
                 ability1: "Increase DMG to Dragon Enemies by 60%.",
                 ability2: "Increase Freeze RES by 100%.",
                 ability3: "Blessing of Midori: This unit has two modes, Water Mode and Earth Mode. While in Water Mode, heal own HP by 100/s. While in Earth Mode, increase Arts by 1/s, and increase DMG to Diseased Enemies by 30%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase DMG to Dragon Enemies by 60%.",
+                ability2: "Increase Freeze RES by 100%.",
+                ability3: "Blessing of Midori: This unit has two modes, Water Mode and Earth Mode. While in Water Mode, heal own HP by 300/s. While in Earth Mode, increase own Arts by 3/s and reduce enemies' DMG RES by 60% if True Arts inflicts Disease for 15s."
             }, 
         evolution: 
             {
@@ -7397,6 +7475,40 @@ const UnitInformation = [
                     hover3: "Freydal",
                 }
             },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Frostsprite Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                        mat3amt: 2,
+                        hover3: "Elpneumas",
+                    },
+                    passive: {
+                        ability1: `Increase own CRI DMG by 150%.`,
+                        ability2: `Increase Water allies' Arts by 3/s. Does not stack with Abilities of the same name.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                        mat3amt: 2,
+                        hover3: "Freydal",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG against Diseased enemies by 80%.`,
+                        ability2: `Increase Earth allies' Arts by 3/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo4: "A Spirit mercenary who has roamed all the post-War nations. He was raised in a village in what is now the Principality of Bamint along with his beloved adopted sister Lione, and now they are unrivaled partners in work as well. He usually plays a support role for his attacking sister, but his ever changing attacks are unstoppable, and if he takes the offensive, the enemy forces are doomed. When he learned of danger approaching his home, he and his sister assassinated the ringleader of the plot, a powerful offical.",
@@ -7404,7 +7516,7 @@ const UnitInformation = [
                 evoawk: "He had only meant to stop the fighting but inadvertently killed his childhood friend. When he threatened to be overcome by the weight of that loss, a slap from his sister brought him back to his senses. She was bravely holding back tears, which made him realize that death should not be in vain. Bidding a final farewell, he marched onward towards a future without war, a dream they all shared in their youth."
             }
     },
-    { //Lione - Complete
+    { //Lione - Complete + JP ver
         id: 101396112,
         name: "Lione",
         tier: 
@@ -7437,6 +7549,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 6971,
@@ -7453,6 +7574,15 @@ const UnitInformation = [
                 arts: "16000% Fire DMG (PHY). For 12s, increase Allies' DMG and evasion by 20%.",
                 artsbreak: 2400,
                 truearts: "30000% Fire DMG (PHY). For 15s, increase Fire Allies' ATK by 80%, increase Human and Beast Allies' Arts by 2/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
+                trueartsbreak: 4800
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2000% Fire DMG (PHY). When this attack hits an enemy, heal own HP by 40.",
+                skillbreak: 1900,
+                arts: "24000% Fire DMG (PHY). For 15s, increase allies' DMG and Evasion rate based on current HP% (MAX: 50%).",
+                artsbreak: 2400,
+                truearts: "65000% Fire DMG (PHY). For 20s, increase Fire Allies' ATK by 150%, and increase Human and Beast Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 trueartsbreak: 4800
             },
         passive: 
@@ -7482,6 +7612,40 @@ const UnitInformation = [
                     hover3: "Flogassa",
                 }
             },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flametail Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                        mat3amt: 2,
+                        hover3: "Degilmagna",
+                    },
+                    passive: {
+                        ability1: `Increase own DMG by [1% x own ATK / 100].`,
+                        ability2: `Increase Fire allies' DMG by 30%. Does not stack with Abilities of the same name.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power by [1% x own ATK / 100].`,
+                        ability2: `At Start of Quest, increase own Arts by 150. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo4: "A Beast mercenary who fought many battles after the Ancient War. She was a war orphan, but she had a happy childhood in the Principality of Bamint. Aspiring to become famous, she fought the fiercest battles with her fire and became known as 'Lion Fire Lione'. She accomplished many missions together with her step-brother Elmessio, but once they accidentally became aware of a secret. In order to prevent the unforgivable plan, the two decided by their own decision to assassinate the key man involved in this plan.",
@@ -7489,7 +7653,7 @@ const UnitInformation = [
                 evoawk: "The Spirit who slashed his childhood friend was now screaming with the lifeless remains in his arms. After all, he was also one of the orphans grown up in this village. After punching him only once, Lione proclaimed she would fulfill her friend’s dying wish and protect their hometown. And then she asked the remaining three childhood friends: “What will you do to accomplish the dream we had as children, and her dying wish?”"
             }
     },
-    { //Reyon - Complete
+    { //Reyon - Complete + JP ver
         id: 101406412,
         name: "Reyon",
         tier: 
@@ -7522,6 +7686,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 7332,
@@ -7540,9 +7713,24 @@ const UnitInformation = [
                 truearts: "26500% Light DMG (PHY). Increase this True Arts' DMG by 100% against Dark Enemies.",
                 trueartsbreak: 4600
             },
+        skillsetJP: 
+            {
+                skill: "7s CT - 1900% Light DMG (PHY). Permanently increase own ATK and Break Power by 20% each time own Skill is used (MAX: 200%).",
+                skillbreak: 1900,
+                arts: "20000% Light DMG (PHY). For 20s, increase allies' Skill CT Speed by 30%, and Light allies' Skill CT Speed by an additional 30%.",
+                artsbreak: 3500,
+                truearts: "50000% Light DMG (PHY). Increase this True Arts' DMG by 200% against Dark Enemies.",
+                trueartsbreak: 5500
+            },
         passive: 
             {
-                ability1: "Increase BE generation against Enemies in Break by 100%.",
+                ability1: "Increase BE Output against Enemies in Break by 100%.",
+                ability2: "Increase Freeze and Paralysis RES by 100%.",
+                ability3: "Increase DMG to Dragon Enemies by 80%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase BE Output against Enemies in Break by 200%.",
                 ability2: "Increase Freeze and Paralysis RES by 100%.",
                 ability3: "Increase DMG to Dragon Enemies by 80%."
             }, 
@@ -7574,6 +7762,40 @@ const UnitInformation = [
                     hover5: "Degilmagna"
                 }
             },
+        dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                        mat3amt: 2,
+                        hover3: "Fosradius",
+                    },
+                    passive: {
+                        ability1: `Increase allies' Break Power by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 3/s when above 90% HP.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinflow Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                        mat3amt: 2,
+                        hover3: "Valzandeth",
+                    },
+                    passive: {
+                        ability1: `Increase own Break Power against Dragon enemies by 100%.`,
+                        ability2: `Increase Human allies' Arts by 2/s. Does not stack with Abilities of the same name.`
+                    }
+                }
+            },
         lore: 
             {   
                 evo4: "A Bamint knight whose name rose to prominence after the end of the Great War. He grew up in a village with other war orphans, and was scouted for his talent. becoming a knight along with an archer friend of his. He improved quickly after joining, always analyzing situations calmly. and rumors spoke of his bright future. When he found out the person he owed his life to had been assassinated, however, he was the first to offer to hunt down the culprit.",
@@ -7581,7 +7803,7 @@ const UnitInformation = [
                 evoawk: "He fell into despair when he ended up slaying the person he treasured and wished to protect above all others, but in the end, she merely smiled up at him. She seemed happy if it meant her friends could all be together again. The childhood dream which she left him as she died burned itself into his heart. To defend their village, he decided to help create a country free of discrimination. He returned to his original ambition of finding success in the Principality of Bamint and left his village again."
             }
     },
-    { //Nerim - Complete
+    { //Nerim - Complete + JP ver
         id: 101416312,
         name: "Nerim",
         tier: 
@@ -7614,6 +7836,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 5702,
@@ -7629,7 +7860,16 @@ const UnitInformation = [
                 skillbreak: 1200,
                 arts: "13800% Earth DMG (PHY). For 9s, reduce Enemies' Poison, Blind and Paralysis RES by 30%.",
                 artsbreak: 2800,
-                truearts: "22900% Earth DMG (PHY). For 15s, increase own DMG to Enemies with Status Ailments by 70%, increase Earth Allies' DMG by 30%.",
+                truearts: "22900% Earth DMG (PHY). For 15s, increase own DMG to Enemies with Status Ailments by 70%, and increase Earth Allies' DMG by 30%.",
+                trueartsbreak: 4200
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1550% Earth DMG (PHY). 40% chance to inflict Poison for 8s.",
+                skillbreak: 1200,
+                arts: "18000% Earth DMG (PHY). For 15s, reduce Enemies' Poison RES, Blind RES and Paralysis RES by 40%.",
+                artsbreak: 2800,
+                truearts: "40000% Earth DMG (PHY). For 20s, increase own DMG against Enemies with Status Ailments by 150%, and increase Earth Allies' DMG by 50%.",
                 trueartsbreak: 4200
             },
         passive: 
@@ -7664,6 +7904,40 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragTonetaurus.png",
                     mat5amt: 3,
                     hover5: "Tonetaurus"
+                }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                        mat3amt: 2,
+                        hover3: "Goldola",
+                    },
+                    passive: {
+                        ability1: `Increase allies' HP Recovery Amount by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 3/s when not inflicted with Status ailment(s).`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglint Soulgem`,
+                        mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                        mat3amt: 2,
+                        hover3: "Radachne",
+                    },
+                    passive: {
+                        ability1: `Increase God allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Break Power against Demon enemies by 50%.`
+                    }
                 }
             },
         lore: 
@@ -28442,13 +28716,13 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: `12s CT - Heal all allies' HP by 1500. For 6s, increase own Arts by 8/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                skill: `12s CT - Heal all allies' HP by 1500. For 6s, increase own Arts by 10/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 0,
                 arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
                 artsbreak: 600,
-                truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison for 20s. For 25s, Allies ignore 100% of Enemies' DEF.`,
+                truearts: `99999% Light DMG (PHY). 100% chance to inflict Poison for 30s. For 30s, Allies ignore 100% of Enemies' DEF.`,
                 trueartsbreak: 1500,
-                superarts: `177777% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 120%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 240% instead.`,
+                superarts: `199999% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 150%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 350% instead.`,
                 superartsbreak: 1600
             },
         passive: 
@@ -28461,7 +28735,7 @@ const UnitInformation = [
             },
         passiveJP: 
             {
-                ability1: `Increase own DMG by 200% against Poisoned Enemies.`,
+                ability1: `Increase own DMG by 250% against Poisoned Enemies.`,
                 ability2: `Increase own Disease RES by 70%.`,
                 ability3: `Increase Healing Taken by 10%.`,
                 ability4: `Unit EXP UP 20% UP. (When Valentines Miranda's SP. Art is owned)`,
@@ -28477,6 +28751,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Eternaglint Soulgem"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: `Miranda's Adolescence`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113771.png",
+                skill: `45s CT - 3000% Light DMG (PHY). For 10s, reduce enemies' Poison RES, Burn RES and Disease RES by 30%.`,
+                skillbreak: 400,
+                passive: 
+                    {
+                        ability1: `When equipped by Valentine's Miranda, increase own Arts by 2/s and Arts DMG by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own ATK by 5%.`
+                    }
             },
         lore: 
             {   
@@ -28543,11 +28830,11 @@ const UnitInformation = [
             {
                 skill: `13s CT - 1300% Fire DMG (PHY). For 8s, increase Allies' accuracy by 20%.`,
                 skillbreak: 400,
-                arts: `Heal Allies by 50% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
+                arts: `Heal Allies by 55% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
                 artsbreak: 0,
-                truearts: `45000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                truearts: `50000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 1200,
-                superarts: `90000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
+                superarts: `90000% Fire DMG (PHY). For 35s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
                 superartsbreak: 1500
             },
         passive: 
@@ -28568,6 +28855,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: "Flametail Soulgem"
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: `Priscilla's Cupid Brand`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113761.png",
+                skill: `60s CT - 8000% Fire DMG (PHY). For 10s, reduce enemies' PHY RES 35%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Valentine's Priscilla, increase own MAX HP and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
             },
         lore: 
             {   
@@ -30362,7 +30662,7 @@ const UnitInformation = [
                 evosuper: "A magician strained by the sin of using the Phantom Bullet. The vermilion sorcery seal over his right arm appeared after firing his last one, allowing himself to shoot magic projectiles at sub-light speed even without his gun. Their bullet holes spread out like the blackened branches of the World Tree before fading without a trace."
             }
     },
-    { //Liza (Valentines) - Complete
+    { //Liza (Valentines) - Complete + JP ver
         id: 103857312,
         name: `Liza (Valentines)`,
         translate: `Cute Confectioner Liza`,
@@ -30419,11 +30719,11 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
                 artsbreak: 800,
-                truearts: `45000% Earth DMG (MAG). Increase all allies' Arts by 50. For 12s, heal all allies' HP by 10%/s.`,
+                truearts: `45000% Earth DMG (MAG). Increase all allies' Arts by 50. For 15s, heal all allies' HP by 10%/s.`,
                 trueartsbreak: 1200,
                 superarts: `180000% Earth DMG (MAG). For 30s, increase all allies' DMG by 120% and increase God allies' DMG by an additional 120%.`,
                 superartsbreak: 2000
@@ -30440,7 +30740,7 @@ const UnitInformation = [
             {
                 ability1: `Increase own Burn RES by 80%.`,
                 ability2: `When Near-death, increase own DMG RES by 20%.`,
-                ability3: `When self is Leader, increase all allies' HP Recovery by 30% for 120s. Does not stack with Abilities of the same name.`,
+                ability3: `When self is Leader, increase all allies' HP Recovery by 30% for 180s. Does not stack with Abilities of the same name.`,
                 ability4: `Unit EXP UP 20% UP. (When Valentines Liza's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Liza's SP. Art is owned)`
             }, 
@@ -30455,13 +30755,26 @@ const UnitInformation = [
                     hover2: `Smogdragon Soulgem`
                 }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: `Etoile V`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113781.png",
+                skill: `20s CT - 4000% Earth DMG (MAG). For 10s, reduce enemies' MAG RES by 30%. Additionally if user is God, increase own Arts by 10.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Valentine's Liza, increase own stats by 20% and Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
+            },
         lore:   
             {   
                 evoawk: "The first princess of Gran Verge outfitted by the Shiny Sphere for Valentine's Day. The same power that transformed her also provided the incredibly specific ability to turn Goldola ooze into a sweetener. Believing special occasions called for special methods, she decided to make chocolates with that. Cygnet's thorough taste (poison) testing paid off; her treats were indeed marvelous.",
                 evosuper: "She received a mint-green dress reminiscent of forest fairies after the Shiny Sphere observed her true essence. This also improved her alchemic talents with which she used to prepare the Valentine's chocolates. Regardless, she personally hoped for an ensemble with more mature charm."
             }
     },
-    { //Cestina (Valentines) - Complete
+    { //Cestina (Valentines) - Complete + JP ver
         id: 103867212,
         name: `Cestina (Valentines)`,
         translate: `Pretty Patissière Cestina`,
@@ -30518,13 +30831,13 @@ const UnitInformation = [
             },
         skillsetJP: 
             {
-                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 5/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 60%.`,
                 artsbreak: 1300,
                 truearts: `40000% Water DMG (PHY). For 35s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 36000 DMG to self.`,
                 trueartsbreak: 2100,
-                superarts: `100000% Water DMG (PHY). For 60s, increase all allies' DMG RES and MAG RES by 25% and Allies gain a DMG barrier that negates 9000 DMG.`,
+                superarts: `100000% Water DMG (PHY). For 60s, increase all allies' DMG RES and MAG RES by 30% and Allies gain a DMG barrier that negates 10000 DMG.`,
                 superartsbreak: 2800
             },
         passive: 
@@ -30532,6 +30845,14 @@ const UnitInformation = [
                 ability1: `Increase Paralysis RES by 100%.`,
                 ability2: `When Near-death, increase own Arts by 6/s.`,
                 ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`,
+                ability4: `Unit EXP UP 20% UP. (When Valentines Cestina's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Cestina's SP. Art is owned)`
+            },
+        passiveJP: 
+            {
+                ability1: `Increase Paralysis RES by 100%.`,
+                ability2: `When Near-death, increase own Arts by 6/s.`,
+                ability3: `When Near-death, heal own HP by 100% and for 20s, increase own DMG RES by 30%. Can only be activated once per quest.`,
                 ability4: `Unit EXP UP 20% UP. (When Valentines Cestina's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Cestina's SP. Art is owned)`
             }, 
@@ -30545,6 +30866,19 @@ const UnitInformation = [
                     mat2amt: 220,
                     hover2: `Frostsprite Soulgem`
                 }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: `Ces' Romance Cake Cutter`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113771.png",
+                skill: `55s CT - 10000% Water DMG (PHY). For 8s, reduce enemies' Water RES by 30%. Additionally if user is God, for 8s, increase own DMG RES by 20%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Valentine's Cestina, increase own stats by 20% and Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own DEF by 5%.`
+                    }
             },
         lore:   
             {   
@@ -45574,7 +45908,7 @@ const UnitInformation = [
     },
     {
         id: 108287412,
-        name: `Madoka`,
+        name: `Madoka Kaname`,
         attribute: `Light`,
         type: `Human`,
         image:
@@ -45650,13 +45984,13 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
         id: 108297512,
-        name: `Homura`,
+        name: `Homura Akemi`,
         attribute: `Dark`,
         type: `Human`,
         image:
@@ -45732,8 +46066,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {

@@ -20354,9 +20354,9 @@ const EquipInformation = [
             },
         lore: `It is only a sword. A sword made to take lives. It is no different from any other sword. You take it in your hand, brandish it, and cut with its blade. However, Prince Orvell once said that the sword became heavier the more he wielded it. While the weight of the sword cannot actually increase, there is a heaviness to it that can only be felt by those qualified for it. It asks its wielder to become worthy of its weight. That is the true value of this sword which raises kings.`
     },
-{ //Supreme Mantle 'Ailes Blanches - Complete
+{ //Supreme Mantle "Ailes Blanches" - Complete
         id: 107611,
-        name: `Supreme Mantle 'Ailes Blanches`,
+        name: `Supreme Mantle "Ailes Blanches"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -20860,7 +20860,7 @@ const EquipInformation = [
             },
         lore: `A streamlined version of the shield created by Humans to fight against larger races like Gods, Demons and Dragons. It's said if the user activates the blade-release mechanism with exact timing, it'll be launched at supersonic speed. It can also cause panic in enemies when they suddenly get torn to shreds by a target presumed to be on the defense.`
     },
-{ //Blazing Dragon Goblet 'Rubia Irae' - Missing Lore
+{ //Blazing Dragon Goblet "Rubia Irae" - Missing Lore
         id: 107781,
         name: `Blazing Dragon Goblet "Rubia Irae"`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -20922,7 +20922,7 @@ const EquipInformation = [
     },
 { //Sylvan Dragon Goblet "Granatum" - Missing Lore
         id: 107801,
-        name: `Sylvan Dragon Goblet 'Granatum`,
+        name: `Sylvan Dragon Goblet "Granatum"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28610,9 +28610,9 @@ const EquipInformation = [
             },
         lore: `Juno's vivid pareo-style bikini, only slightly altered. She tried it on one year later, and the strange snugness sent a chill down her spine. It was impossible she gained weight; her daily routine included and hour of rigorous exercise. Then, she remembered Riviera would be a reliable source of information on the matter. That struggle to regain composure made it clear she forgot some Demons were exceptionally late bloomers.`
     },
-{ //True 'Precious One-Piece - Complete
+{ //True "Precious One-Piece" - Complete
         id: 110441,
-        name: `True 'Precious One-Piece`,
+        name: `True "Precious One-Piece"`,
         location: `Alchemist - Exchange via Rainbow Gems (Limited)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -29023,9 +29023,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Beast Steel 'Trance Frenzy' Replica - Missing Lore
+{ //Beast Steel "Trance Frenzy" Replica - Missing Lore
         id: 110581,
-        name: `Beast Steel 'Trance Frenzy' Replica`,
+        name: `Beast Steel "Trance Frenzy" Replica`,
         type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         location: `Earth Summoner's Road`,
@@ -29053,9 +29053,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Beast Steel 'Trance Frenzy' Replica - Missing Lore
+{ //Beast Steel "Trance Frenzy" Replica - Missing Lore
         id: 110591,
-        name: `Beast Steel 'Trance Frenzy' Custom`,
+        name: `Beast Steel "Trance Frenzy" Custom`,
         type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         location: `Earth Summoner's Road`,
@@ -29265,7 +29265,7 @@ const EquipInformation = [
     },
 { //Yokai Sickle "Bloody Mikazuki" Replica (SR Equip) - Missing Lore
         id: 110661,
-        name: `Yokai Sickle 'Bloody Mikazuki' Replica`,
+        name: `Yokai Sickle "Bloody Mikazuki" Replica`,
         type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         location: `Fire Summoner's Road`,
@@ -29295,7 +29295,7 @@ const EquipInformation = [
     },
 { //Yokai Sickle "Bloody Mikazuki" Custom - Missing Lore
         id: 110671,
-        name: `Yokai Sickle 'Bloody Mikazuki' Custom`,
+        name: `Yokai Sickle "Bloody Mikazuki" Custom`,
         type: `/db/Mines/thumbnail/physLB6.png`,
         location: `Fire Summoner's Road`,
         star: 6,
@@ -29764,7 +29764,7 @@ const EquipInformation = [
     },
 { //Ever Flash "Fon Cruz" Replica - Missing Lore
         id: 110831,
-        name: `Ever Flash 'Fon Cruz' Replica`,
+        name: `Ever Flash "Fon Cruz" Replica`,
         type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         location: `Light Summoner's Road`,
@@ -29792,7 +29792,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ever Flash 'Fon Cruz' Custom - Missing Lore
+{ //Ever Flash "Fon Cruz" Custom - Missing Lore
         id: 110841,
         name: `Ever Flash 'Fon Cruz' Custom`,
         type: `/db/Mines/thumbnail/magLB6.png`,
@@ -30467,9 +30467,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Glacial Flail 'Dawn Devastator' Replica  - Missing Lore
+{ //Glacial Flail "Dawn Devastator" Replica  - Missing Lore
         id: 111071,
-        name: `Glacial Flail 'Dawn Devastator' Replica`,
+        name: `Glacial Flail "Dawn Devastator" Replica`,
         type: `/db/Mines/thumbnail/physLB6.png`,
         location: `Water Summoner's Road`,
         star: 6,
@@ -35658,10 +35658,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //渇望の杖『オウンサースト』 - JP Complete
+    { //Cane of Avidity "Wisdom Thirst" - Missing Lore
         id: 112841,
-        name: `渇望の杖『オウンサースト』`,
-        translate: `Staff of Desire "Own Thirst"`,
+        name: `Cane of Avidity "Wisdom Thirst"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35686,12 +35685,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //人族史書『ロストピア』 - JP Complete
+    { //Human History "Lostpia" - Missing Lore
         id: 112851,
-        name: `人族史書『ロストピア』`,
-        translate: `Book of Human History "Lostopia"`,
+        name: `Human History "Lostpia"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35716,12 +35714,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //合理の剣『アンダーマキナ』 - JP Complete
+    { //Sword of Reason "Maquina Interna" - Missing Lore
         id: 112861,
-        name: `合理の剣『アンダーマキナ』`,
-        translate: `Sword of Reason "Under Machina"`,
+        name: `Sword of Reason "Maquina Interna"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35746,12 +35743,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //叡智の薬瓶『オッドマーク』 - JP Complete
+    { //Vials of Wisdom "Odd Mark" - Missing Lore
         id: 112871,
-        name: `叡智の薬瓶『オッドマーク』`,
-        translate: `Vials of Wisdom "Odd Mark"`,
+        name: `Vials of Wisdom "Odd Mark"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -35776,12 +35772,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },  
-    { //静寂の兜『ウィルシード』 - JP Complete
+    { //Helmet of Quietude "Willseed" - Missing Lore
         id: 112881,
-        name: `静寂の兜『ウィルシード』`,
-        translate: `Silent Helmet "Will Seed"`,
+        name: `Helmet of Quietude "Willseed"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35806,7 +35801,7 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Human allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //絶耀具『マグナヘリオス』 - JP Complete
         id: 112891,
@@ -38505,6 +38500,313 @@ const EquipInformation = [
             {
                 ability1: `When equipped by Firil, increase own Support Equip CT Speed by 25% and increase own Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113761,
+        name: `True "Priscilla's Cupid Brand"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 8000% Fire DMG (Physical). For 10s, reduce enemies' Physical RES 35%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Valentine's Priscilla, increase own MAX HP and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113771,
+        name: `True "Miranda's Adolescence"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 3000% Light DMG (Physical). For 10s, reduce enemies' Poison RES, Burn resistance and Disease resistance by 30%.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `When equipped by Valentine's Miranda, increase own Arts by 2/s and Arts DMG by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113781,
+        name: `True "Etoile V"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `20s CT - 4000% Earth DMG (Magic). For 10s, reduce enemies' Magic RES by 30%. Additionally if user is God, increase own Arts by 10.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Valentine's Liza, increase own stats by 20% and Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113791,
+        name: `真『シスのロマンスケーキカッター』`,
+        translate: `True "Ces' Romance Cake Cutter"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 10000% Water DMG (Physical). For 8s, reduce enemies' Water resistance by 30%. Additionally if user is God, for 8s, increase own DMG resistance by 20%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Valentine's Cestina, increase own stats by 20% and Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113801,
+        name: `プリシラの当たって砕けローファー`,
+        translate: `Priscilla's Crushed Loafers`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113801.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase allies' Arts by 30. For 12s, increase Human and Beast allies' HP Recovery Amount by 60%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113811,
+        name: `ミランダのギリギリブレーザー`,
+        translate: `Miranda's Last-Minute Blazer`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `30s CT - 6666% Light DMG (Magic). For 10s, consume own MAX HP by 3%/s and increase own Magic DMG by 150%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113821,
+        name: `シスのロマンスケーキカッター`,
+        translate: `Ces' Romance Cake Cutter`,
+        type: `/db/Mines/thumbnail/defLB6.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 600
+            },
+        skillset:
+            {
+                skill: `40s CT - For 20s, increase allies' Magic RES by 30% and CRI resistance by 50%. Additionally for 20s, increase God allies' CRI resistance by an additional 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113831,
+        name: `シスのミラクルパティシエール`,
+        translate: `Ces' Miracle Patissiere`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 20s, increase allies' Magic RES by 30%. If user is God, increase allies' Magic RES by 45% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113841,
+        name: `リザ姉のオラクルパティシエール`,
+        translate: `Liza's Oracle Patissiere`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113841.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - For 10s, increase allies' Arts by 3/s and God allies' ATK by 50%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113851,
+        name: `ミランダのダークマター`,
+        translate: `Miranda's Dark Matter`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 3000% Light DMG (Magic). 50% chance to inflict Disease for 6s.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `Increase own DMG against Human enemies by 10%.`,
+                ability2: ``
             },
         lore: `Currently unreleased in Global.`
     },
@@ -53286,8 +53588,7 @@ const EquipInformation = [
     },
     {
         id: 154891,
-        name: `真『まどかの弓』`,
-        translate: `True "Madoka's Bow"`,
+        name: `True "Madoka's Bow"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -53313,12 +53614,11 @@ const EquipInformation = [
                 ability1: `When equipped by Madoka, increase own Arts by 2/s and Heal Amount by 20% (excluding Lifesteal). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154901,
-        name: `まどかの服`,
-        translate: `Madoka's Outfit`,
+        name: `Madoka's Dress`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -53344,12 +53644,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154911,
-        name: `まどかのリボン`,
-        translate: `Madoka's Ribbon`,
+        name: `Madoka's Ribbons`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -53375,12 +53674,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154921,
-        name: `まどかの弓`,
-        translate: `Madoka's Bow`,
+        name: `Madoka's Bow`,
         type: `/db/Mines/thumbnail/magLB6.png`,
         star: 6,
         image:
@@ -53406,12 +53704,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154931,
-        name: `真『ほむらの盾』`,
-        translate: `True "Homura's Shield"`,
+        name: `True "Homura's Shield"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -53437,12 +53734,11 @@ const EquipInformation = [
                 ability1: `When equipped by Homura, increase own DMG by 30% and increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Accuracy by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154941,
-        name: `ほむらの服`,
-        translate: `Homura's Outfit`,
+        name: `Homura's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -53468,12 +53764,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154951,
-        name: `ほむらのハンドガン`,
-        translate: `Homura's Handgun`,
+        name: `Homura's Handgun`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -53499,12 +53794,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154961,
-        name: `ほむらの盾`,
-        translate: `Homura's Shield`,
+        name: `Homura's Shield`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -53530,7 +53824,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154971,
@@ -53565,8 +53859,7 @@ const EquipInformation = [
     },
     {
         id: 154981,
-        name: `マミの服`,
-        translate: `Mami's Outfit`,
+        name: `Mami's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image:
@@ -53592,7 +53885,7 @@ const EquipInformation = [
                 ability1: `Increase own Skill CT Speed by 5%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154991,
