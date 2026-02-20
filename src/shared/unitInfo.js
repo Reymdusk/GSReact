@@ -30393,7 +30393,7 @@ const UnitInformation = [
                 artgen: 4.58,
                 damage: 3.80,
                 buffs: 4.33,
-                heal: 0.39,
+                heal: 0.49,
                 break: 0.75
             },
         type: `Human`,
