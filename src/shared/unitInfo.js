@@ -540,7 +540,7 @@ const UnitInformation = [
                 damage: 0.15,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.94
+                break: 0.89
             },
         attribute: "Earth",
         type: "Human",
@@ -1695,7 +1695,7 @@ const UnitInformation = [
                 damage: 1.22,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.56
+                break: 2.43
             },
         attribute: "Fire",
         type: "God",
@@ -1993,7 +1993,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.97
+                break: 0.92
             },
         attribute: "Earth",
         type: "Machine",
@@ -2140,7 +2140,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.81
+                break: 0.77
             },
         attribute: "Light",
         type: "Beast",
@@ -2937,7 +2937,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.81
+                break: 0.77
             },
         attribute: "Earth",
         type: "Human",
@@ -4193,7 +4193,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.34,
                 heal: 0.00,
-                break: 2.52
+                break: 2.39
             },
         attribute: "Water",
         type: "Human",
@@ -8298,7 +8298,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 1.09,
-                break: 1.11
+                break: 1.06
             },
         attribute: "Earth",
         type: "Beast",
@@ -8383,7 +8383,7 @@ const UnitInformation = [
                 damage: 0.37,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.15
+                break: 1.09
             },
         attribute: "Fire",
         type: "God",
@@ -8634,7 +8634,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.27,
-                break: 0.81
+                break: 0.77
             },
         attribute: "Light",
         type: "Spirit",
@@ -9125,7 +9125,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 3.60
+                break: 3.42
             },
         attribute: "Light",
         type: "God",
@@ -9890,7 +9890,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.69
+                break: 0.65
             },
         attribute: "Earth",
         type: "Dragon",
@@ -10381,7 +10381,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.26
+                break: 1.20
             },
         attribute: "Water",
         type: "Human",
@@ -11020,7 +11020,7 @@ const UnitInformation = [
         name: "Sonije",
         tier: 
             {
-                rank: 11,
+                rank: 10,
                 defense: 0.00,
                 artgen: 1.70,
                 damage: 0.00,
@@ -11348,7 +11348,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.21
+                break: 2.10
             },
         attribute: "Dark",
         type: "Demon",
@@ -12292,7 +12292,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.29
+                break: 2.17
             },
         attribute: "Earth",
         type: "Human",
@@ -12908,7 +12908,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.00
+                break: 0.95
             },
         attribute: "Dark",
         type: "Human",
@@ -13196,7 +13196,7 @@ const UnitInformation = [
                 damage: 1.10,
                 buffs: 0.00,
                 heal: 0.54,
-                break: 2.83
+                break: 2.69
             },
         attribute: "Water",
         type: "Human",
@@ -13317,7 +13317,7 @@ const UnitInformation = [
                 damage: 3.28,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.33
+                break: 1.27
             },
         attribute: "Fire",
         type: "Human",
@@ -13737,7 +13737,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.96
+                break: 0.91
             },
         attribute: "Earth",
         type: "Machine",
@@ -13810,7 +13810,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 0.83
+                break: 0.79
             },
         attribute: "Fire",
         type: "God",
@@ -14684,7 +14684,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.11
+                break: 1.05
             },
         attribute: "Dark",
         type: "Beast",
@@ -15247,7 +15247,7 @@ const UnitInformation = [
                 damage: 0.06,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.27
+                break: 2.15
             },
         attribute: "Dark",
         type: "Dragon",
@@ -15784,7 +15784,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.50
+                break: 1.43
             },
         twrequire: "favorable",
         attribute: "Water",
@@ -16040,7 +16040,7 @@ const UnitInformation = [
                 damage: 0.37,
                 buffs: 0.60,
                 heal: 0.00,
-                break: 3.98
+                break: 3.77
             },
         attribute: "Dark",
         type: "Demon",
@@ -16252,7 +16252,7 @@ const UnitInformation = [
         name: "Celia (Dark)",
         tier: 
             {
-                rank: 11,
+                rank: 10,
                 defense: 0.00,
                 artgen: 0.65,
                 damage: 0.89,
@@ -17895,7 +17895,7 @@ const UnitInformation = [
                 damage: 0.02,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 3.41
+                break: 3.24
             },
         attribute: "Water",
         type: "Beast",
@@ -19991,7 +19991,7 @@ const UnitInformation = [
                 damage: 0.21,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.26
+                break: 2.14
             },
         attribute: "Earth",
         type: "Human",
@@ -22828,7 +22828,7 @@ const UnitInformation = [
                 damage: 0.28,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 1.66
+                break: 1.58
             },
         attribute: "Fire",
         type: "Human",
@@ -28886,7 +28886,7 @@ const UnitInformation = [
                 damage: 0.95,
                 buffs: 1.04,
                 heal: 0.65,
-                break: 3.29
+                break: 3.12
             },
         attribute: "Water",
         type: "Spirit",
@@ -30091,7 +30091,7 @@ const UnitInformation = [
                 damage: 3.17,
                 buffs: 2.45,
                 heal: 0.00,
-                break: 1.01
+                break: 0.96
             },
         attribute: `Dark`,
         type: `Human`,
@@ -30394,7 +30394,7 @@ const UnitInformation = [
                 damage: 3.80,
                 buffs: 4.33,
                 heal: 0.39,
-                break: 0.79
+                break: 0.75
             },
         type: `Human`,
         image: 
@@ -31847,6 +31847,16 @@ const UnitInformation = [
         translate: `Phantom Saintess Platina`,
         attribute: `Light`,
         type: `God`,
+        tier: 
+            {
+                rank: 3,
+                defense: 0.52,
+                artgen: 0.00,
+                damage: 1.88,
+                buffs: 2.66,
+                heal: 0.00,
+                break: 5.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104046412.png",
@@ -32014,6 +32024,16 @@ const UnitInformation = [
         translate: `Orvell D. Granverge`,
         attribute: `Light`,
         type: `God`,
+        tier: 
+            {
+                rank: 4,
+                defense: 1.21,
+                artgen: 1.42,
+                damage: 3.70,
+                buffs: 0.39,
+                heal: 0.45,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104066412.png",
@@ -32106,6 +32126,16 @@ const UnitInformation = [
         name: `Menas`,
         attribute: `Fire`,
         type: `Spirit`,
+        tier: 
+            {
+                rank: 4,
+                defense: 1.04,
+                artgen: 2.66,
+                damage: 3.94,
+                buffs: 1.59,
+                heal: 0.00,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104076112.png",
@@ -32263,6 +32293,16 @@ const UnitInformation = [
         name: `Misette`,
         attribute: `Light`,
         type: `Human`,
+        tier: 
+            {
+                rank: 4,
+                defense: 1.87,
+                artgen: 0.00,
+                damage: 3.12,
+                buffs: 4.88,
+                heal: 0.61,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104036412.png",
@@ -34104,7 +34144,7 @@ const UnitInformation = [
                 damage: 0.91,
                 buffs: 0.25,
                 heal: 0.00,
-                break: 4.83
+                break: 4.58
             },
         attribute: "Earth",
         type: "Human",
@@ -34409,7 +34449,7 @@ const UnitInformation = [
                 damage: 0.00,
                 buffs: 0.00,
                 heal: 1.65,
-                break: 1.06
+                break: 1.00
             },
         attribute: "Light",
         type: "Human",
@@ -35108,7 +35148,7 @@ const UnitInformation = [
                 damage: 2.39,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.92
+                break: 2.77
             },
         attribute: "Dark",
         type: "Human",
@@ -38873,7 +38913,7 @@ const UnitInformation = [
         name: "Natsu Dragneel",
         tier: 
             {
-                rank: 11,
+                rank: 10,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.72,
@@ -40250,7 +40290,7 @@ const UnitInformation = [
                 damage: 1.42,
                 buffs: 1.56,
                 heal: 0.00,
-                break: 2.81
+                break: 2.67
             },
         attribute: "Fire",
         type: "Machine",
@@ -41233,7 +41273,7 @@ const UnitInformation = [
                 damage: 1.19,
                 buffs: 0.33,
                 heal: 0.00,
-                break: 4.09
+                break: 3.88
             },
         twrequire: "favorable",
         attribute: `Fire`,
@@ -41752,7 +41792,7 @@ const UnitInformation = [
                 damage: 2.94,
                 buffs: 0.00,
                 heal: 0.00,
-                break: 2.64
+                break: 2.50
             },
         attribute: `Light`,
         type: `Human`,
@@ -41962,7 +42002,7 @@ const UnitInformation = [
                 damage: 2.21,
                 buffs: 0.00,
                 heal: 0.64,
-                break: 2.58
+                break: 2.44
             },
         attribute: `Fire`,
         type: `Demon`,
@@ -42340,7 +42380,7 @@ const UnitInformation = [
                 damage: 2.82,
                 buffs: 0.27,
                 heal: 0.00,
-                break: 4.70
+                break: 4.46
             },
         attribute: `Dark`,
         type: `Human`,
@@ -43050,7 +43090,7 @@ const UnitInformation = [
                 damage: 4.17,
                 buffs: 2.27,
                 heal: 0.00,
-                break: 1.58
+                break: 1.50
             },
         attribute: `Light`,
         type: `Human`,
@@ -44798,7 +44838,7 @@ const UnitInformation = [
                 damage: 4.76,
                 buffs: 0.48,
                 heal: 0.00,
-                break: 1.77
+                break: 1.68
             },
         attribute: `Light`,
         type: `Human`,
@@ -45074,7 +45114,7 @@ const UnitInformation = [
                 damage: 2.46,
                 buffs: 1.70,
                 heal: 0.00,
-                break: 5.00
+                break: 4.74
             },
         attribute: `Dark`,
         type: `Human`,
@@ -45442,7 +45482,7 @@ const UnitInformation = [
                 damage: 4.47,
                 buffs: 2.46,
                 heal: 0.98,
-                break: 0.91
+                break: 0.86
             },
         attribute: `Fire`,
         type: `Human`,
@@ -45989,6 +46029,16 @@ const UnitInformation = [
         name: `Madoka Kaname`,
         attribute: `Light`,
         type: `Human`,
+        tier: 
+            {
+                rank: 4,
+                defense: 3.51,
+                artgen: 0.05,
+                damage: 2.15,
+                buffs: 2.34,
+                heal: 1.43,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108286412.png",
@@ -46071,6 +46121,16 @@ const UnitInformation = [
         name: `Homura Akemi`,
         attribute: `Dark`,
         type: `Human`,
+        tier: 
+            {
+                rank: 7,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.94,
+                buffs: 0.38,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108296512.png",
