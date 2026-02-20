@@ -38810,6 +38810,68 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113861,
+        name: `真『マルミエの白竜面』`,
+        translate: `True "Marumier's White Dragon Mask"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `15s CT - 3000% Light DMG (Magic). Heal own HP by 600. Additionally if user is Dragon, increase own Arts by 10.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Dantalia, increase own Equip CT Speed and Skill CT Speed by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own BE Output by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113871,
+        name: `マルミエの白竜面`,
+        translate: `Marumier's White Dragon Mask`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 5000% Light DMG (Magic). For 10s, increase allirs' BE Output by 30%. If user is Human or Dragon, increase allies' BE Output by 50% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own Magic RES by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,

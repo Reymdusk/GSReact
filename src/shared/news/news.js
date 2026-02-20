@@ -4233,6 +4233,31 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 127,
+        date: `February 21, 2026`,
+        article: 
+        {
+            intro: `A new Dragon unit after forever has been released in JP with her equips!`,
+            new:
+                {
+                    units: [
+                        [`Dantalia`, 104227412]
+                    ],
+                    equips: [
+                        [`真『マルミエの白竜面』`, 113861],
+                        [`マルミエの白竜面`, 113871]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
