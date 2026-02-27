@@ -38781,8 +38781,7 @@ const EquipInformation = [
     },
     {
         id: 113851,
-        name: `ミランダのダークマター`,
-        translate: `Miranda's Dark Matter`,
+        name: `Miranda's Dark Matter`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -38808,7 +38807,7 @@ const EquipInformation = [
                 ability1: `Increase own DMG against Human enemies by 10%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 113861,
@@ -38868,6 +38867,68 @@ const EquipInformation = [
         passive:
             {
                 ability1: `Increase own Magic RES by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113881,
+        name: `真『陰美璽振』`,
+        translate: `True "Shadowy Music Vibrations"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Water DMG (Physical). For 20s, increase own Water DMG by 70%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Morq, increase own ATK by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Heal own HP by 10/s.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113891,
+        name: `鋼線刃『陰美璽振』`,
+        translate: `Steel Wire Blades "Shadowy Music Vibrations"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 7000% Water DMG (Physical). If user is Water, for 10s, increase own CRI rate by 100%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `Increase own Accuracy rate by 10%.`,
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
@@ -53951,9 +54012,8 @@ const EquipInformation = [
     },
     {
         id: 154991,
-        name: `マミのマスケット銃`,
-        translate: `Mami's Musket`,
-        type: `/db/Mines/thumbnail/physLB.png`,
+        name: `Mami's Musket`,
+        type: `/db/Mines/thumbnail/physLB6.png`,
         star: 6,
         image:
             {
@@ -53978,12 +54038,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155001,
-        name: `マミの大砲`,
-        translate: `Mami's Cannon`,
+        name: `Mami's Cannon`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54009,12 +54068,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155011,
-        name: `真『さやかの剣』`,
-        translate: `True "Sayaka's Sword"`,
+        name: `True "Sayaka's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54040,12 +54098,11 @@ const EquipInformation = [
                 ability1: `When equipped by Sayaka, increase own stats by 20%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `When near-death, increase own Evasion rate by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155021,
-        name: `さやかの服`,
-        translate: `Sayaka's Outfit`,
+        name: `Sayaka's Dress`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -54071,12 +54128,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155031,
-        name: `さやかのブーツ`,
-        translate: `Sayaka's Boots`,
+        name: `Sayaka's Boots`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image:
@@ -54102,12 +54158,11 @@ const EquipInformation = [
                 ability1: `Increase own DEF by 5%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155041,
-        name: `さやかの剣`,
-        translate: `Sayaka's Sword`,
+        name: `Sayaka's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54133,12 +54188,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155051,
-        name: `真『杏子の槍』`,
-        translate: `True "Kyoko's Spear"`,
+        name: `True "Kyoko's Lance"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54164,12 +54218,11 @@ const EquipInformation = [
                 ability1: `When equipped by Kyoko, increase own stats by 20%, and Freeze resistance and Paralysis resistance by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `When above 90% HP, increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155061,
-        name: `杏子の服`,
-        translate: `Kyoko's Outfit`,
+        name: `Kyoko's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54195,12 +54248,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155071,
-        name: `杏子のブーツ`,
-        translate: `Kyoko's Boots`,
+        name: `Kyoko's Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54226,12 +54278,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155081,
-        name: `杏子の槍`,
-        translate: `Kyoko's Spear`,
+        name: `Kyoko's Lance`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54257,7 +54308,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     }
 ]
 

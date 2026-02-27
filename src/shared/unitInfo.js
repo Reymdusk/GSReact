@@ -28705,17 +28705,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - Heal all allies' HP by 1000. For 6s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
-                skillbreak: 0,
-                arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
-                artsbreak: 600,
-                truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison for 20s. For 25s, Allies ignore 100% of Enemies' DEF.`,
-                trueartsbreak: 1500,
-                superarts: `144444% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 80%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 160% instead.`,
-                superartsbreak: 1600
-            },
-        skillsetJP: 
-            {
                 skill: `12s CT - Heal all allies' HP by 1500. For 6s, increase own Arts by 10/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 0,
                 arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
@@ -28726,14 +28715,6 @@ const UnitInformation = [
                 superartsbreak: 1600
             },
         passive: 
-            {
-                ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
-                ability2: `Increase own Disease RES by 70%.`,
-                ability3: `Increase Healing Taken by 10%.`,
-                ability4: `Unit EXP UP 20% UP. (When Valentines Miranda's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Miranda's SP. Art is owned)`
-            },
-        passiveJP: 
             {
                 ability1: `Increase own DMG by 250% against Poisoned Enemies.`,
                 ability2: `Increase own Disease RES by 70%.`,
@@ -28816,17 +28797,6 @@ const UnitInformation = [
                 defplus: 589
             },
         skillset: 
-            {
-                skill: `13s CT - 1300% Fire DMG (PHY). For 6s, increase Allies' accuracy by 20%.`,
-                skillbreak: 400,
-                arts: `Heal Allies by 50% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
-                artsbreak: 0,
-                truearts: `40000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
-                trueartsbreak: 1200,
-                superarts: `80000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
-                superartsbreak: 1500
-            },
-        skillsetJP: 
             {
                 skill: `13s CT - 1300% Fire DMG (PHY). For 8s, increase Allies' accuracy by 20%.`,
                 skillbreak: 400,
@@ -30708,17 +30678,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
-                skillbreak: 400,
-                arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
-                artsbreak: 800,
-                truearts: `45000% Earth DMG (MAG). Increase all allies' Arts by 50. For 10s, heal all allies' HP by 10%/s.`,
-                trueartsbreak: 1200,
-                superarts: `180000% Earth DMG (MAG). For 30s, increase all allies' DMG by 100% and increase God allies' DMG by an additional 100%.`,
-                superartsbreak: 2000
-            },
-        skillsetJP: 
-            {
                 skill: `12s CT - 2300% Earth DMG (MAG). For 10s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `20000% Earth DMG (MAG). Cure all allies' Status Ailments (Except Faint). For 15s, reduce enemies' MAG RES by 30%.`,
@@ -30729,14 +30688,6 @@ const UnitInformation = [
                 superartsbreak: 2000
             },
         passive: 
-            {
-                ability1: `Increase own Burn RES by 80%.`,
-                ability2: `When Near-death, increase own DMG RES by 20%.`,
-                ability3: `When self is Leader, increase all allies' HP Recovery by 20% for 100s. Does not stack with Abilities of the same name.`,
-                ability4: `Unit EXP UP 20% UP. (When Valentines Liza's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Liza's SP. Art is owned)`
-            }, 
-        passiveJP: 
             {
                 ability1: `Increase own Burn RES by 80%.`,
                 ability2: `When Near-death, increase own DMG RES by 20%.`,
@@ -30820,17 +30771,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
-                skillbreak: 400,
-                arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 50%.`,
-                artsbreak: 1300,
-                truearts: `40000% Water DMG (PHY). For 35s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 36000 DMG to self.`,
-                trueartsbreak: 2100,
-                superarts: `80000% Water DMG (PHY). For 60s, increase all allies' DMG RES and MAG RES by 20% and Allies gain a DMG barrier that negates 6000 DMG.`,
-                superartsbreak: 2800
-            },
-        skillsetJP: 
-            {
                 skill: `12s CT - 2000% Water DMG (PHY). Heal own HP by 20%. For 10s, increase own Arts by 6/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 skillbreak: 400,
                 arts: `17000% Water DMG (PHY). Increase all allies' Arts by 25. For 20s, increase all allies' ATK and DEF by 60%.`,
@@ -30841,14 +30781,6 @@ const UnitInformation = [
                 superartsbreak: 2800
             },
         passive: 
-            {
-                ability1: `Increase Paralysis RES by 100%.`,
-                ability2: `When Near-death, increase own Arts by 6/s.`,
-                ability3: `When Near-death, heal own HP by 100% and for 10s, increase own DMG RES by 20%. Can only be activated once per quest.`,
-                ability4: `Unit EXP UP 20% UP. (When Valentines Cestina's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Valentines Cestina's SP. Art is owned)`
-            },
-        passiveJP: 
             {
                 ability1: `Increase Paralysis RES by 100%.`,
                 ability2: `When Near-death, increase own Arts by 6/s.`,
@@ -30871,7 +30803,7 @@ const UnitInformation = [
             {
                 name: `Ces' Romance Cake Cutter`,
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_113771.png",
+                detail: "/db/Equipment/Detail/item_detail_113791.png",
                 skill: `55s CT - 10000% Water DMG (PHY). For 8s, reduce enemies' Water RES by 30%. Additionally if user is God, for 8s, increase own DMG RES by 20%.`,
                 skillbreak: 500,
                 passive: 
@@ -33415,6 +33347,84 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Dantalia, increase own Equip CT Speed and Skill CT Speed by 20%. Does not stack with Abilities of the same name.",
                         ability2: "Increase own BE Output by 20%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104237212,
+        name: `Morq`,
+        attribute: `Water`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104236212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104237212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104236212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104237212.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 7312,
+                hpplus: 1355,
+                atk: 3760,
+                atkplus: 698,
+                def: 3011,
+                defplus: 592
+            },
+        skillset:
+            {
+                skill: `12s CT - 2000% Water DMG (PHY). Increase own Arts by 10. If this Skill crits, increase own Arts by an additional 30.`,
+                skillbreak: 1000,
+                arts: `30000% Water DMG (PHY). Each time own Arts is used, permanently increase own ATK by 25% (MAX: 250%), Super CRI rate by 5% (MAX: 50%), and permanently reduce own MAX HP by 9% (MAX: 90%).`,
+                artsbreak: 2700,
+                truearts: `70000% Water DMG (PHY). For 60s, reduce enemies' PHY RES by 50% (stackable). Additionally, for each enemy defeated by this True Arts, increase own Arts by 100.`,
+                trueartsbreak: 3000,
+                superarts: `200000% Water DMG (PHY). If there is another Spirit ally in party, increase own Arts by 50. For 30s, increase own CRI DMG by 200%.`,
+                superartsbreak: 4000
+            },
+        passive:
+            {
+                ability1: `If ownself is not affected by Status ailments, increase own CRI rate by 100% and Super CRI rate by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% × own ATK/100].`,
+                ability3: `Increase own Break Power by [1% × own ATK/100].`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Frostspite Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Shadowy Music Vibrations",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113881.png",
+                skill: "50s CT - 10000% Water DMG (PHY). For 20s, increase own Water DMG by 70%.",
+                skillbreak: 1000,
+                passive:
+                    {
+                        ability1: "When equipped by Morq, increase own ATK by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Heal own HP by 10/s."
                     }
             },
         lore:
@@ -46286,8 +46296,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -46369,8 +46379,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -46438,7 +46448,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Kyoko's Spear",
+                name: "Kyoko's Lance",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155051.png",
                 skill: "40s CT - 8000% Fire DMG (PHY). For 10s, increase own Fire DMG and Skill CT Speed by 50%.",
@@ -46451,8 +46461,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
 ];

@@ -4258,6 +4258,48 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 128,
+        date: `February 27, 2026`,
+        article: 
+        {
+            intro: `Chapter 6 of Menas Soars High has been released on JP with Morq as the latest addition with some new equips too! Meanwhile on Global, Part 2 of the Madoka Collab has been released, alongside some Valentines buffs and a new Valentines farmable equip!`,
+            new:
+                {
+                    units: [
+                        [`Morq`, 104237212]
+                    ],
+                    equips: [
+                        [`真『陰美璽振』`, 113881],
+                        [`鋼線刃『陰美璽振』`, 113891]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Mami Tomoe`, 108307412],
+                        [`Sayaka Miki`, 108317212],
+                        [`Kyoko Sakura`, 108327112]
+                    ],
+                    equips: [
+                        [`Miranda's Dark Matter`, 113851],
+                        [`Mami's Musket`, 154991],
+                        [`Mami's Cannon`, 155001],
+                        [`True "Sayaka's Sword"`, 155011],
+                        [`Sayaka's Dress`, 155021],
+                        [`Sayaka's Boots`, 155031],
+                        [`Sayaka's Sword`, 155041],
+                        [`True "Kyoko's Lance"`, 155051],
+                        [`Kyoko's Dress`, 155061],
+                        [`Kyoko's Boots`, 155071],
+                        [`Kyoko's Lance`, 155081]
+                        
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
