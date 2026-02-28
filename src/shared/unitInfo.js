@@ -28665,12 +28665,12 @@ const UnitInformation = [
         translate: "Valentines Miranda",
         tier: 
             {
-                rank: 8,
+                rank: 6,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 2.11,
+                damage: 3.09,
                 buffs: 1.54,
-                heal: 0.00,
+                heal: 0.54,
                 break: 0.00
             },
         attribute: "Light",
@@ -28763,7 +28763,7 @@ const UnitInformation = [
                 artgen: 2.50,
                 damage: 1.78,
                 buffs: 1.66,
-                heal: 3.29,
+                heal: 3.54,
                 break: 0.00
             },
         attribute: "Fire",
@@ -30642,8 +30642,8 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.96,
                 damage: 2.69,
-                buffs: 1.50,
-                heal: 4.60,
+                buffs: 1.74,
+                heal: 4.71,
                 break: 0.00
             },
         attribute: `Earth`,
@@ -30732,10 +30732,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.05,
+                defense: 4.41,
                 artgen: 1.52,
                 damage: 0.59,
-                buffs: 0.00,
+                buffs: 0.17,
                 heal: 0.00,
                 break: 0.00
             },
