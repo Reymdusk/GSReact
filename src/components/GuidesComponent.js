@@ -34,32 +34,32 @@ export default function GuidesMainPage () {
                         </CardGroup>
                         <h1 style={{color: "#e7f9fc"}}><b><center>Guide Categories</center></b></h1>
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
-                            <Link to="dungeon-of-trials">
+                            <a href="https://docs.google.com/document/d/13507_Wa1f7kwP1yoh0L6Js8becdDReofJEwN47v0U3M/" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/DOTBanner.png" style={imageSize} alt="Dungeon of Trials" />
                                 </Col>
-                            </Link>
-                            <a href="https://docs.google.com/document/d/1sTdmOg1K857H7MAuzZWUV4Kk-zwABDG3hl4anyPeAQA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            </a>
+                            <a href="https://docs.google.com/document/d/1sTdmOg1K857H7MAuzZWUV4Kk-zwABDG3hl4anyPeAQA/" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/SRBanner.png" style={imageSize} alt="Summoners' Road" />
                                 </Col>
                             </a>
-                            <a href="https://docs.google.com/document/d/16IorJQQXMksXIYcNlu3i8iwWTEKeooEpgZG7l-rt4nY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://docs.google.com/document/d/16IorJQQXMksXIYcNlu3i8iwWTEKeooEpgZG7l-rt4nY/" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/TribalRuinsBanner.png" style={imageSize} alt="Tribal Ruins" />
                                 </Col>
                             </a>
-                            <a href="https://docs.google.com/document/d/1OaGohMM8zZsCJ63MEosjiTP2aFStrMRZby7qKGEh6vw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://docs.google.com/document/d/1OaGohMM8zZsCJ63MEosjiTP2aFStrMRZby7qKGEh6vw/" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/EleRuinsBanner.png" style={imageSize} alt="Elemental Ruins" />
                                 </Col>
                             </a>
-                            <a href="https://docs.google.com/document/d/14ztpoBP4MUjuFB1guR0shvLpERMz1r2H4DpfUdcnBMI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://docs.google.com/document/d/14ztpoBP4MUjuFB1guR0shvLpERMz1r2H4DpfUdcnBMI/" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/GCBanner.png" style={imageSize} alt="Grand Crusade" />
                                 </Col>
                             </a>
-                            <a href="https://docs.google.com/document/d/1eERn4m-4WyBbaZIoCkgshY-BqZNpB5ey84uOQsnwv7I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://docs.google.com/document/d/1eERn4m-4WyBbaZIoCkgshY-BqZNpB5ey84uOQsnwv7I/" target="_blank" rel="noopener noreferrer">
                                 <Col lg="auto">
                                     <img src="/db/guides/MinesBanner.png" style={imageSize} alt="Magical Mines" />
                                 </Col>
