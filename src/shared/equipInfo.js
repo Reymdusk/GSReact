@@ -33587,10 +33587,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //マッドネスサイス - JP Complete (Groitz' raid equip)
+    { //Mad Scythe - Missing Lore
         id: 112141,
-        name: `マッドネスサイス`,
-        translate: `Madness Scythe`,
+        name: `Mad Scythe`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33615,7 +33614,7 @@ const EquipInformation = [
             {
                 ability1: `When own HP is 90% or higher, increase own Accuracy by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Exclusion Barrier "Azulveidt" - Missing Lore
         id: 112151,
@@ -34947,10 +34946,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『ディード・イクス・フラム』 - JP Complete
+    { //True "Ceed, Ix, Flamma" - Missing Lore
         id: 112601,
-        name: `真『ディード・イクス・フラム』`,
-        translate: `True "Deed, Ix, Flam"`,
+        name: `True "Ceed, Ix, Flamma"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34973,15 +34971,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Fiery Platoon Leader Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Kindled Heroine Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //地灼剣『ディード・イクス・フラム』 - JP Complete
+    { //Inner Spark "Ceed, Ix, Flamma" - Missing Lore
         id: 112611,
-        name: `地灼剣『ディード・イクス・フラム』`,
-        translate: `Earth-Shattering Sword "Deed, Ix, Flam"`,
+        name: `Inner Spark "Ceed, Ix, Flamma"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35006,7 +35003,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own BE Output by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True "Lotte's Fluffy Mitts" - Missing Lore
         id: 112621,

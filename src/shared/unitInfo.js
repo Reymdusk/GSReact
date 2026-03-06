@@ -31695,9 +31695,10 @@ const UnitInformation = [
                 evosuper: "The transcendent lady clad in the bikini most favored by her servants. Not only was this level of exposure noteworthy, the unimaginably stunning pose she struck while smiling was enough to enrapture any and all living things. Deeper than love at first sight, they were prepared to swear their immortal souls to her. Some servants still prefer her more proper side, however."
             }
     },
-    { //Fiery Platoon Leader Charlotte - Missing Lore (JP)
+    { //Kindled Heroine Charlotte - Missing Lore (JP)
         id: 104027112,
-        name: `Fiery Platoon Leader Charlotte`,
+        name: `Kindled Heroine Charlotte`,
+        translate: `Fiery Platoon Leader Charlotte`,
         attribute: `Fire`,
         type: `Human`,
         image: 
@@ -31756,14 +31757,14 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Deed, Ix, Flam`,
+                    name: `Ceed, Ix, Flamma`,
                     slot: "/db/Mines/thumbnail/magLB.png",
                     detail: "/db/Equipment/Detail/item_detail_112601.png",
                     skill: `55s CT - 10000% Fire DMG (MAG). For 8s, reduce enemies' Fire RES by 30%. Additionally if user is Human, for 8s, reduce enemies' DMG RES by 20%.`,
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: `When equipped by Fiery Platoon Leader Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Kindled Heroine Charlotte, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own MAG RES by 5%.`
                         }
                 },

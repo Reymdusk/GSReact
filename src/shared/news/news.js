@@ -4300,6 +4300,33 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 129,
+        date: `March 6, 2026`,
+        article: 
+        {
+            intro: `Kindled Heroine Charlotte makes her debut on Global, alongside a new Raid boss with its equip!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Kindled Heroine Charlotte`, 104027112]
+                    ],
+                    equips: [
+                        [`Mad Scythe`, 112141],
+                        [`True "Ceed, Ix, Flamma"`, 112601],
+                        [`Inner Spark "Ceed, Ix, Flamma"`, 112611]
+                        
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
