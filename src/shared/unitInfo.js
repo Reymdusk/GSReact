@@ -28665,10 +28665,10 @@ const UnitInformation = [
         translate: "Valentines Miranda",
         tier: 
             {
-                rank: 6,
+                rank: 4,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 3.09,
+                damage: 4.27,
                 buffs: 1.54,
                 heal: 0.54,
                 break: 0.00
@@ -28761,7 +28761,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 1.99,
                 artgen: 2.50,
-                damage: 1.78,
+                damage: 2.19,
                 buffs: 1.66,
                 heal: 3.54,
                 break: 0.00
@@ -46224,6 +46224,16 @@ const UnitInformation = [
         name: `Mami Tomoe`,
         attribute: `Light`,
         type: `Human`,
+        tier: 
+            {
+                rank: 8,
+                defense: 0.00,
+                artgen: 0.72,
+                damage: 3.17,
+                buffs: 0.33,
+                heal: 0.00,
+                break: 2.70
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108306412.png",
@@ -46306,6 +46316,16 @@ const UnitInformation = [
         name: `Sayaka Miki`,
         attribute: `Water`,
         type: `Human`,
+        tier: 
+            {
+                rank: 2,
+                defense: 3.67,
+                artgen: 1.01,
+                damage: 2.92,
+                buffs: 3.69,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108316212.png",
@@ -46389,6 +46409,16 @@ const UnitInformation = [
         name: `Kyoko Sakura`,
         attribute: `Fire`,
         type: `Human`,
+        tier: 
+            {
+                rank: 4,
+                defense: 0.00,
+                artgen: 2.99,
+                damage: 3.64,
+                buffs: 0.67,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108326112.png",
