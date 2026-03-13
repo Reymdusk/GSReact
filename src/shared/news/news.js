@@ -4327,6 +4327,47 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 130,
+        date: `March 13, 2026`,
+        article: 
+        {
+            intro: `Touhou LostWord units make their debut on JP with their latest collab, alongside many new equips! Meanwhile on Global, God ruins have introduced 5 new God-themed equips!`,
+            new:
+                {
+                    units: [
+                        [`Reimu Hakurei`, 108337112],
+                        [`Marisa Kirisame`, 108347412]
+                    ],
+                    equips: [
+                        [`真『博麗霊夢のお祓い棒』`, 155091],
+                        [`真『霧雨魔理沙の箒』`, 155101],
+                        [`博麗霊夢のお祓い棒`, 155111],
+                        [`博麗霊夢の服`, 155121],
+                        [`霧雨魔理沙の箒`, 155141],
+                        [`霧雨魔理沙の帽子`, 155151],
+                        [`霧雨魔理沙の服`, 155161],
+                        [`フランドール・スカーレットのぬいぐるみ`, 155261],
+                        [`レミリア・スカーレットのぬいぐるみ`, 155271],
+                        [`十六夜咲夜のぬいぐるみ`, 155281]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Cane of Stillness "Prying Dawn"`, 112931],
+                        [`God History "Legends"`, 112941],
+                        [`Sword of Flight "Heaven's Serena"`, 112951],
+                        [`Vials of Mystery "Hermit's Pain"`, 112961],
+                        [`Helmet of Providence "Allvisor"`, 112971]
+                        
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

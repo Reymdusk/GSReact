@@ -35921,10 +35921,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //沈黙の杖『ドーンプライヤー』 - JP Complete
+    { //Cane of Stillness "Prying Dawn" - Missing Lore
         id: 112931,
-        name: `沈黙の杖『ドーンプライヤー』`,
-        translate: `Staff of Silence "Dawnplier"`,
+        name: `Cane of Stillness "Prying Dawn"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35949,12 +35948,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //神族史書『レジェンズ』 - JP Complete
+    { //God History "Legends" - Missing Lore
         id: 112941,
-        name: `神族史書『レジェンズ』`,
-        translate: `Book of Gods "Legends"`,
+        name: `God History "Legends"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35979,12 +35977,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //比翼の剣『ヘブンズセレナ』 - JP Complete
+    { //Sword of Flight "Heaven's Serena" - Missing Lore
         id: 112951,
-        name: `比翼の剣『ヘブンズセレナ』`,
-        translate: `Sword of Dual Wings "Heaven's Serena"`,
+        name: `Sword of Flight "Heaven's Serena"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36009,12 +36006,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //神秘の秘薬『ハーミットペイン』 - JP Complete
+    { //Vials of Mystery "Hermit's Pain" - Missing Lore
         id: 112961,
-        name: `神秘の秘薬『ハーミットペイン』`,
-        translate: `Vials of Mystery "Hermit Pain"`,
+        name: `Vials of Mystery "Hermit's Pain"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -36039,12 +36035,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //摂理の兜『ヴィジョンズオール』 - JP Complete
+    { //Helmet of Providence "Allvisor" - Missing Lore
         id: 112971,
-        name: `摂理の兜『ヴィジョンズオール』`,
-        translate: `Providence Helmet "Visions All"`,
+        name: `Helmet of Providence "Allvisor"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36069,7 +36064,7 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase God allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //炎焔杖『アグニマグニ』 - JP Complete
         id: 112981,
@@ -54306,6 +54301,316 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Missing Lore.`
+    },
+    {
+        id: 155091,
+        name: `真『博麗霊夢のお祓い棒』`,
+        translate: `True "Reimu Hakurei's Purification Rod"`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155091.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase target's Arts by 80. For 12s, increase target's Fire DMG by 50%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `When equipped by Reimu, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155101,
+        name: `真『霧雨魔理沙の箒』`,
+        translate: `True "Marisa Kirisame's Broom"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Light DMG (Magic). For 10s, increase own Magic DMG by 50%. Additionally if user is Light, for 10s, increase own ATK by 50%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Marisa, increase own DMG by 30% and Arts by 1/s.`,
+                ability2: `Increase own Skill DMG by 20%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155111,
+        name: `博麗霊夢のお祓い棒`,
+        translate: `Reimu Hakurei's Purification Rod`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155111.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 12s, increase allies' CRI DMG by 70%. If user is Fire, increase allies' CRI DMG by 120% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155121,
+        name: `博麗霊夢の服`,
+        translate: `Reimu Hakurei's Dress`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 20s, increase target's Fire resistance by 30%. Additionally if used for the first time, increase target's Arts by 50.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155141,
+        name: `霧雨魔理沙の箒`,
+        translate: `Marisa Kirisame's Broom`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Light DMG (Magic). For 15s, increase own Light DMG by 60%. Additionally if used for the first time, increase own Arts by 80.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155151,
+        name: `霧雨魔理沙の帽子`,
+        translate: `Marisa Kirisame's Hat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 3000% Light DMG (Magic). For 10s, increase Light allies' ATK by 25%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own DMG against Giant Bosses by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155161,
+        name: `霧雨魔理沙の服`,
+        translate: `Marisa Kirisame's Dress`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 14000% Light DMG (Magic). For 15s, increase own Arts DMG by 60% and Light allies' DMG by 40%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155261,
+        name: `フランドール・スカーレットのぬいぐるみ`,
+        translate: `Flandre Scarlet Plush`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 3000% Fire DMG (Magic). 100% chance of Bleeding enemy. If enemy is already Bleeding, 50% chance of increasing Bleed Level by 1 (MAX: 3).`,
+                skillbreak: 2000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155271,
+        name: `レミリア・スカーレットのぬいぐるみ`,
+        translate: `Remilia Scarlet Plush`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 7000% Fire DMG (Physical). Heal for 2% of DMG dealt from this equip. For 10s, increase own CRI DMG by 100%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155281,
+        name: `十六夜咲夜のぬいぐるみ`,
+        translate: `Sakuya Izayoi Plush`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155281.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `45s CT - For 10s, increase allies' Arts by 3/s. Additionally if user is Human, for 10s, increase own Skill CT Speed by 120%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 

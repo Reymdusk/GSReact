@@ -31695,7 +31695,7 @@ const UnitInformation = [
                 evosuper: "The transcendent lady clad in the bikini most favored by her servants. Not only was this level of exposure noteworthy, the unimaginably stunning pose she struck while smiling was enough to enrapture any and all living things. Deeper than love at first sight, they were prepared to swear their immortal souls to her. Some servants still prefer her more proper side, however."
             }
     },
-    { //Kindled Heroine Charlotte - Missing Lore (JP)
+    { //Kindled Heroine Charlotte - Missing Lore
         id: 104027112,
         name: `Kindled Heroine Charlotte`,
         translate: `Fiery Platoon Leader Charlotte`,
@@ -31770,8 +31770,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Godspeed Crusader Platina - Missing Lore
@@ -46496,6 +46496,170 @@ const UnitInformation = [
                 evosuper: `Missing Lore.`
             }
     },
+    {
+        id: 108337112,
+        name: `Reimu Hakurei`,
+        attribute: `Fire`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108336112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108337112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_833_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108336112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108337112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_833_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 8080,
+                hpplus: 1467,
+                atk: 2472,
+                atkplus: 499,
+                def: 4065,
+                defplus: 757
+            },
+        skillset:
+            {
+                skill: `13s CT - 3000% Fire DMG (MAG). Increase own Arts by 30. When under a Barrier, increase own Arts by an additional 20.`,
+                skillbreak: 500,
+                arts: `20000% Fire DMG (MAG). Increase allies' Arts by 20. For 25s, reduce enemies' ATK and MAG DMG by 30%.`,
+                artsbreak: 500,
+                truearts: `50000% Fire DMG (MAG). For 20s, increase allies' Accuracy by 100% and Arts by [# of Human allies x 2]/s (MAX: 8/s).\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
+                trueartsbreak: 1700,
+                superarts: `160000% Fire DMG (MAG). For 30s, increase allies' stats by 30% and Allies gain a DMG barrier that negates 30000 DMG.`,
+                superartsbreak: 2300
+            },
+        passive:
+            {
+                ability1: `When own HP is above 80%, increase own Arts by 2/s. Whilst the BGM is playing "Amakakeru", increase own Arts by an additional 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 20% when under a DMG barrier.`,
+                ability3: `Increase own MAG RES by 10%.`,
+                ability4: `Unit EXP UP 20% UP. (When Reimu Hakurei's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Reimu Hakurei's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Reimu Hakurei's Purification Rod",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155091.png",
+                skill: "40s CT - Increase target's Arts by 80. For 12s, increase target's Fire DMG by 50%.",
+                skillbreak: 0,
+                passive:
+                    {
+                        ability1: "When equipped by Reimu, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own MAG RES by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108347412,
+        name: `Marisa Kirisame`,
+        attribute: `Light`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108346412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108347412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_834_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108346412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108347412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_834_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 7407,
+                hpplus: 1396,
+                atk: 3986,
+                atkplus: 725,
+                def: 2781,
+                defplus: 555
+            },
+        skillset:
+            {
+                skill: `12s CT - 4000% Light DMG (MAG). For 10s, increase own Arts by 5/s.`,
+                skillbreak: 500,
+                arts: `20000% Light DMG (MAG). For 20s, reduce enemies' MAG RES and Light RES by 35%.`,
+                artsbreak: 500,
+                truearts: `120000% Light DMG (MAG). For 60s, increase own DMG against Giant Bosses by 200% (stackable).`,
+                trueartsbreak: 1300,
+                superarts: `[Current HP x 33]% Light DMG (MAG).`,
+                superartsbreak: 3300
+            },
+        passive:
+            {
+                ability1: `Increase own CRI rate by 100% and Super CRI rate by 30% against Giant Bosses. Whilst the BGM is playing "Call me Witch", increase own DMG by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Equip CT Speed by 10%.`,
+                ability3: `Increase own Burn RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Marisa Kirisame's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Marisa Kirisame's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Marisa Kirisame's Broom Rod",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155101.png",
+                skill: "50s CT - 10000% Light DMG (MAG). For 10s, increase own MAG DMG by 50%. Additionally if user is Light, for 10s, increase own ATK by 50%.",
+                skillbreak: 1000,
+                passive:
+                    {
+                        ability1: "When equipped by Marisa, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Skill DMG by 20%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    }
 ];
 
 export function getUnits() {
