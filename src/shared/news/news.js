@@ -4285,6 +4285,8 @@ const NewsArticles = [
                     ],
                     equips: [
                         [`Miranda's Dark Matter`, 113851],
+                        [`True "Mami's Musket"`, 154971],
+                        [`Mami's Dress`, 154981],
                         [`Mami's Musket`, 154991],
                         [`Mami's Cannon`, 155001],
                         [`True "Sayaka's Sword"`, 155011],
@@ -4363,6 +4365,44 @@ const NewsArticles = [
                         [`Sword of Flight "Heaven's Serena"`, 112951],
                         [`Vials of Mystery "Hermit's Pain"`, 112961],
                         [`Helmet of Providence "Allvisor"`, 112971]
+                        
+                    ],
+                    dream: []
+                }
+        }
+    },
+    {
+        id: 131,
+        date: `March 21, 2026`,
+        article: 
+        {
+            intro: `Part 2 of the Touhou LostWord Collab has been released on JP! Meanwhile on Global, Ashleigh's event is finally released with 2 new equips!`,
+            new:
+                {
+                    units: [
+                        [`Youmu Konpaku`, 108357312],
+                        [`Yuyuko Saigyouji`, 108367512]
+                    ],
+                    equips: [
+                        [`博麗霊夢のリボン`, 155131],
+                        [`真『魂魄妖夢の楼観剣』`, 155171],
+                        [`真『西行寺幽々子の扇子』`, 155181],
+                        [`魂魄妖夢の白楼剣`, 155191],
+                        [`魂魄妖夢の楼観剣`, 155201],
+                        [`魂魄妖夢の服`, 155211],
+                        [`魂魄妖夢のカチューシャ`, 155221],
+                        [`西行寺幽々子の扇子`, 155231],
+                        [`西行寺幽々子の服`, 155241],
+                        [`西行寺幽々子の帽子`, 155251]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Passionblade "Scintilla"`, 107671],
+                        [`Passionblade "Brilliante"`, 107691]
                         
                     ],
                     dream: []

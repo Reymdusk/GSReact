@@ -20533,10 +20533,9 @@ const EquipInformation = [
             },
         lore: `The magical spear of the Demon Grad that hungers for vengeance against a certain swordsman. It absorbed Grad's desire for revenge over countless battles, gaining incredible lethality in the process. Although feared as a cursed spear that drives its wielder mad, causing them to fight until its foes are annihilated, Berserk has no such power. These rumors come from the lunatic appearance of Grad, who shouted crazed warcries as he wielded the spear on the battlefield.`
     },
-{ //絢爛細剣『シンティラ』 (Ashleigh's Farmable) - JP Complete
+{ //Passionblade "Scintilla" - Missing Lore
         id: 107671,
-        name: `絢爛細剣『シンティラ』`,
-        translate: `'Scintilla`,
+        name: `Passionblade "Scintilla"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20561,7 +20560,7 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True "Scintilla" - Missing Lore
         id: 107681,
@@ -20594,9 +20593,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //絢爛外套『ブリランテ』 (Ashleigh's Farmable) - JP Complete
+{ //Passionblade "Brilliante" - Missing Lore
         id: 107691,
-        name: `絢爛外套『ブリランテ』`,
+        name: `Passionblade "Brilliante"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -20621,7 +20620,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own DEF by 10% when under a DMG barrier.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //旗槍『バンディエーラ』 (Salyssa's Farmable) - JP Complete
         id: 107701,
@@ -53943,8 +53942,7 @@ const EquipInformation = [
     },
     {
         id: 154971,
-        name: `真『マミのマスケット銃』`,
-        translate: `True "Mami's Musket"`,
+        name: `True "Mami's Musket"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -53970,7 +53968,7 @@ const EquipInformation = [
                 ability1: `When equipped by Mami, increase own Skill CT Speed and Equip CT Speed by 20%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Break Power by 8%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 154981,
@@ -54427,6 +54425,37 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     {
+        id: 155131,
+        name: `博麗霊夢のリボン`,
+        translate: `Reimu Hakurei's Ribbon`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155131.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - Heal target's HP by 1200. Additionally if user is Fire, increase target's Arts by 20.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
         id: 155141,
         name: `霧雨魔理沙の箒`,
         translate: `Marisa Kirisame's Broom`,
@@ -54511,6 +54540,285 @@ const EquipInformation = [
             {
                 skill: `80s CT - 14000% Light DMG (Magic). For 15s, increase own Arts DMG by 60% and Light allies' DMG by 40%.`,
                 skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155171,
+        name: `真『魂魄妖夢の楼観剣』`,
+        translate: `True "Youmu Konpaku's Tower Sword"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 12000% Earth DMG (Physical). If user is Earth, for 10s, reduce enemies' DMG resistance by 20%. Additionally if user is above 80% HP, reduce enemies' DMG resistance by an additional 15%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `When equipped by Youmu, increase own ATK by 60%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155181,
+        name: `真『西行寺幽々子の扇子』`,
+        translate: `True "Yuyuko Saigyouji's Fan"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `35s CT - 4000% Dark DMG (Magic). For 10s, reduce enemies' Paralysis resistance by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Yuyuko, increase own ATK by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic DMG by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155191,
+        name: `魂魄妖夢の白楼剣`,
+        translate: `Youmu Konpaku's White Tower Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Earth DMG (Physical). For 12s, increase own Physical DMG by 60%. If used for the first time, increase own Arts by 50. Additionally if used for the first time and user is Earth, increase own Arts by 100 instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155201,
+        name: `魂魄妖夢の楼観剣`,
+        translate: `Youmu Konpaku's Tower Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `75s CT - 16000% Earth DMG (Physical). For 10s, increase own ATK by 80%. If user is Earth, increase own ATK by 130% instead.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155211,
+        name: `魂魄妖夢の服`,
+        translate: `Youmu Konpaku's Dress`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155211.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - For 10s, increase allies' Arts by 3/s and DMG by [30 x # of Earth allies]% (MAX: 120%).`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155221,
+        name: `魂魄妖夢のカチューシャ`,
+        translate: `Youmu Konpaku's Headband`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155221.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - For 10s, increase allies' Arts by 3/s and Spirit allies' ATK by 50%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155231,
+        name: `西行寺幽々子の扇子`,
+        translate: `Yuyuko Saigyouji's Fan`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 10000% Dark DMG (Magic). For 10s, reduce enemies' Dark resistance by [15 x # of Dark allies]% (MAX: 60%).`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155241,
+        name: `西行寺幽々子の服`,
+        translate: `Yuyuko Saigyouji's Dress`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 8500% Dark DMG (Magic). For 8s, increase own Arts DMG by 50%. Additionally if user is Dark, increase own Arts by 40.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155251,
+        name: `西行寺幽々子の帽子`,
+        translate: `Yuyuko Saigyouji's Hat`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155251.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - Heal target's Status ailments (except Faint). Adds a token to revive Target Unit with 50% HP for 120s.`,
+                skillbreak: 0
             },
         passive:
             {
