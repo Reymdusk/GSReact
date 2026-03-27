@@ -30641,7 +30641,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 0.00,
                 artgen: 1.96,
-                damage: 2.69,
+                damage: 2.82,
                 buffs: 1.74,
                 heal: 4.71,
                 break: 0.00
@@ -30734,7 +30734,7 @@ const UnitInformation = [
                 rank: 4,
                 defense: 4.41,
                 artgen: 1.52,
-                damage: 0.59,
+                damage: 1.04,
                 buffs: 0.17,
                 heal: 0.00,
                 break: 0.00
