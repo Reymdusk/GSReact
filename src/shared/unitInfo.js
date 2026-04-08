@@ -25155,7 +25155,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.65,
                 damage: 1.79,
-                buffs: 1.71,
+                buffs: 3.04,
                 heal: 0.00,
                 break: 0.00
             },
@@ -30059,7 +30059,7 @@ const UnitInformation = [
                 defense: 1.30,
                 artgen: 3.13,
                 damage: 3.17,
-                buffs: 2.45,
+                buffs: 2.75,
                 heal: 0.00,
                 break: 0.96
             },
@@ -34706,7 +34706,7 @@ const UnitInformation = [
                 artgen: 2.41,
                 damage: 0.80,
                 buffs: 0.08,
-                heal: 4.63,
+                heal: 4.76,
                 break: 0.00
             },
         attribute: "Water",
@@ -34890,7 +34890,7 @@ const UnitInformation = [
                 rank: 10,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.67,
+                damage: 3.03,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -35028,8 +35028,8 @@ const UnitInformation = [
                 rank: 7,
                 defense: 0.52,
                 artgen: 0.00,
-                damage: 3.21,
-                buffs: 1.12,
+                damage: 3.71,
+                buffs: 1.47,
                 heal: 0.00,
                 break: 0.00
             },
@@ -37393,9 +37393,9 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 2.00,
+                defense: 2.50,
                 artgen: 1.57,
-                damage: 1.62,
+                damage: 2.14,
                 buffs: 1.75,
                 heal: 0.00,
                 break: 0.00
@@ -37530,11 +37530,11 @@ const UnitInformation = [
         name: "Santa Milim",
         tier: 
             {
-                rank: 7,
+                rank: 6,
                 defense: 0.52,
-                artgen: 2.27,
-                damage: 1.82,
-                buffs: 1.25,
+                artgen: 3.00,
+                damage: 2.26,
+                buffs: 1.75,
                 heal: 0.00,
                 break: 0.00
             },
@@ -37671,7 +37671,7 @@ const UnitInformation = [
                 rank: 8,
                 defense: 1.04,
                 artgen: 0.00,
-                damage: 2.89,
+                damage: 3.35,
                 buffs: 0.00,
                 heal: 0.00,
                 break: 0.00
@@ -37810,8 +37810,8 @@ const UnitInformation = [
                 rank: 7,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.50,
-                buffs: 3.33,
+                damage: 2.62,
+                buffs: 3.81,
                 heal: 0.93,
                 break: 0.00
             },
@@ -37947,11 +37947,11 @@ const UnitInformation = [
         name: "New Years Milim",
         tier: 
             {
-                rank: 10,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.32,
-                damage: 1.82,
-                buffs: 0.41,
+                damage: 2.73,
+                buffs: 0.61,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41910,8 +41910,8 @@ const UnitInformation = [
                 rank: 3,
                 defense: 1.32,
                 artgen: 0.00,
-                damage: 4.07,
-                buffs: 3.42,
+                damage: 4.31,
+                buffs: 3.54,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42017,10 +42017,10 @@ const UnitInformation = [
         name: `Combat Form Milim`,
         tier: 
             {
-                rank: 10,
+                rank: 9,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.21,
+                damage: 3.32,
                 buffs: 0.00,
                 heal: 0.64,
                 break: 2.44
@@ -42130,8 +42130,8 @@ const UnitInformation = [
                 rank: 6,
                 defense: 1.46,
                 artgen: 1.44,
-                damage: 2.25,
-                buffs: 1.67,
+                damage: 3.11,
+                buffs: 2.09,
                 heal: 0.00,
                 break: 0.00
             },
@@ -44301,11 +44301,11 @@ const UnitInformation = [
         name: `Veldora`,
         tier: 
             {
-                rank: 5,
+                rank: 4,
                 defense: 1.07,
-                artgen: 0.09,
-                damage: 3.52,
-                buffs: 2.37,
+                artgen: 0.14,
+                damage: 3.82,
+                buffs: 2.85,
                 heal: 0.62,
                 break: 0.00
             },
@@ -44396,8 +44396,8 @@ const UnitInformation = [
                 rank: 4,
                 defense: 0.00,
                 artgen: 1.40,
-                damage: 3.96,
-                buffs: 2.15,
+                damage: 4.22,
+                buffs: 2.54,
                 heal: 0.00,
                 break: 0.00
             },
