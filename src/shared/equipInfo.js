@@ -54919,6 +54919,366 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155291,
+        name: `True "Rimuru's Spring Hat"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 6000% Dark DMG (MAG). For 8s, reduce enemies' Dark RES by 30%. Additionally if user is Demon, for 8s, reduce enemies' MAG RES by 30%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When equipped by Easter Rimuru, increase own stats by 20% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155301,
+        name: `True "Milim's Bunny Headband"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `25s CT - 5000% Fire DMG (Physical). For 15s, reduce enemies' Physical RES by 15% (stackable). Additionally if user is Fire, increase own Arts by 10.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Easter Milim, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by 10% against enemies in BREAK.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155311,
+        name: `Rimuru's Spring Hat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6000% Dark DMG (Magic). For 10s, increase own Magic DMG by 50%. If user is Leader, increase own Magic DMG by 100% instead.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155321,
+        name: `Rimuru's Spring Suit`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 20s, increase allies' Dark resistance by 30%. If user is Demon, increase allies' Dark resistance by 45% instead.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155331,
+        name: `Rimuru's Spring Boots`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155331.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - Increase Demon allies' Arts by 30. For 12s, increase Demon allies' DMG by 40%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155341,
+        name: `Slime-Mark Egg`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:
+            {
+                skill: `60s CT - For 20s, increase allies' DMG resistance by 10%, and Water resistance and Dark resistance by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155351,
+        name: `Milim's Bunny Headband`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Fire DMG (Physical). For 12s, increase own Physical DMG by 60%. If used for the first time, increase own Arts by 50. Additionally, if user is Demon, increase own Arts by 50.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155361,
+        name: `Milim's Pastel Streamers`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 5000% Fire DMG (Physical). For 10s, reduce enemies' Fire resistance by 40%. If used for the first time, reduce enemies' Fire resistance by 60% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155371,
+        name: `Milim's Breezy Step`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155371.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `30s CT - Heal allies' HP by 15% and cleanse allies' Blind and Seal.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155381,
+        name: `Slime-Mark Wreath`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 3000% Water DMG (Magic). For 10s, increase own Skill CT Speed by 20%. Additionally if user is Demon, increase own Arts by 10.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155391,
+        name: `Swirl-Eyed Egg`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155391.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:
+            {
+                skill: `30s CT - Increase allies' Arts by 10. Additionally, for 10s, increase allies' Heal Amount by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 155401,
+        name: `Spring Surprise`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155401.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase allies' Arts by 20. Additionally if user is Demon, for 15s, increase allies' DMG resistance by 15%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 

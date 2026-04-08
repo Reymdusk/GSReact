@@ -4408,6 +4408,43 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 132,
+        date: `April 8, 2026`,
+        article: 
+        {
+            intro: `Tensura Collab has returned to both JP and Global with new units and equips, alongside buffs to existing Tensura units!`,
+            new:
+                {
+                    units: [
+                        [`Easter Rimuru`, 108377512],
+                        [`Easter Milim`, 108387112]
+                    ],
+                    equips: [
+                        [`True "Rimuru's Spring Hat"`, 155291],
+                        [`True "Milim's Bunny Headband"`, 155301],
+                        [`Rimuru's Spring Hat`, 155311],
+                        [`Rimuru's Spring Suit`, 155321],
+                        [`Rimuru's Spring Boots`, 155331],
+                        [`Slime-Mark Egg`, 155341],
+                        [`Milim's Bunny Headband`, 155351],
+                        [`Milim's Pastel Streamers`, 155361],
+                        [`Milim's Breezy Step`, 155371],
+                        [`Slime-Mark Wreath`, 155381],
+                        [`Spring Surprise`, 155401]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [
+                        [`Swirl-Eyed Egg`, 155391]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

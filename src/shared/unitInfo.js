@@ -34740,9 +34740,9 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
                 skillbreak: 1200,
-                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 20s, increase Allies' Status RES (except Faint) by 100%.",
+                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 40% of their max HP + For 20s, increase Allies' Status RES (except Faint) by 100%.",
                 artsbreak: 0,
-                truearts: "50000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
+                truearts: "50000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 35%, increase Allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 3700
             },
         passive: 
@@ -34926,10 +34926,10 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
                 skillbreak: 1000,
-                arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
-                artsbreak: 3500,
-                truearts: "90000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
-                trueartsbreak: 7000
+                arts: "30000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 4/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.",
+                artsbreak: 4000,
+                truearts: "110000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
+                trueartsbreak: 8000
             },
         passive: 
             {
@@ -35062,11 +35062,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
+                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 40.",                
                 skillbreak: 900,
-                arts: "23000% Fire DMG (MAG). For 20s, increase all Allies' Skill CT REC by 50% and DMG by 50%.",                
+                arts: "23000% Fire DMG (MAG). For 20s, increase all Allies' Skill CT REC by 50% and DMG by 100%.",                
                 artsbreak: 1800,
-                truearts: "70000% Fire DMG (MAG). 100% chance to inflict Burn for 20s + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 130%.",
+                truearts: "70000% Fire DMG (MAG). 100% chance to inflict Burn for 20s + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 200%.",
                 trueartsbreak: 3900
             },
         passive: 
@@ -35088,7 +35088,7 @@ const UnitInformation = [
                         hover3: `Flogassa`
                     },
                     passive: {
-                        ability1: `Increase own CRI DMG by 150%.`,
+                        ability1: `Increase own CRI DMG by 200%.`,
                         ability2: `Increase own CRI rate by 50% against Burning enemies.`
                     }
                 },
@@ -35104,7 +35104,7 @@ const UnitInformation = [
                         hover3: `Ragsherum Phantom`
                     },
                     passive: {
-                        ability1: `Increase all allies' MAG DMG by 30%. Does not stack with abilities of the same name.`,
+                        ability1: `Increase all allies' MAG DMG by 50%. Does not stack with abilities of the same name.`,
                         ability2: `Increase all allies' Accuracy by 20%. Does not stack with abilities of the same name.`
                     }
                 }
@@ -37431,7 +37431,7 @@ const UnitInformation = [
             {
                 skill: "12s CT - On first use, increase Allies' Arts by 3/s for 7s. On second use, increase Allies' ATK by 30% for 7s. On third use, heal Allies' HP by 3%/s for 7s. Cycle repeats afterwards.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.",
                 skillbreak: 0,
-                arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
+                arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 40%.",
                 artsbreak: 1200,
                 truearts: "65000% Water DMG (MAG). For 20s, increase Allies' DMG and MAG DMG by 100%.",
                 trueartsbreak: 2300
@@ -37455,8 +37455,8 @@ const UnitInformation = [
                         hover3: `Freydal`
                     },
                     passive: {
-                        ability1: `Increase all Allies' Skill CT by 20%. Does not stack with Abilities of the same name.`,
-                        ability2: `Increase DMG to non-Boss Enemies under 30% HP by 50%.`
+                        ability1: `Increase all Allies' Skill CT by 25%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase DMG to non-Boss Enemies under 30% HP by 60%.`
                     }
                 },
                 light: {
@@ -37472,7 +37472,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `When an Ally dies (except self), revive that Ally with 50% HP. Ability can only be activated once per Quest.`,
-                        ability2: ``
+                        ability2: `Increase allies' Max HP by 10%.`
                     }
                 }
             },
@@ -37569,7 +37569,7 @@ const UnitInformation = [
             {
                 skill: "12s CT - Increase own Arts by 30 + For 10s, increase own stats by 10%.",
                 skillbreak: 0,
-                arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 40%.",
+                arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 40% (stackable).",
                 artsbreak: 1600,
                 truearts: "70000% Fire DMG (PHY). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.",
                 trueartsbreak: 3100
@@ -37578,7 +37578,7 @@ const UnitInformation = [
             {
                 ability1: "Increase Critical DMG by 40%.",
                 ability2: "Increase DMG to Enemies under 30% HP by 20%.",
-                ability3: "When HP is above 50%, increases Arts' and True Arts' buff durations by 50%."
+                ability3: "When HP is above 50%, increases Arts' and True Arts' buff durations by 100%."
             },
         dream: {
             fire: {
@@ -37593,8 +37593,8 @@ const UnitInformation = [
                     hover3: `Flogassa`
                 },
                 passive: {
-                    ability1: `Increase all Fire Allies' DMG by 30%. Does not stack with abilities of the same name.`,
-                    ability2: ``
+                    ability1: `Increase all Fire Allies' DMG by 50%. Does not stack with abilities of the same name.`,
+                    ability2: `Increase own Arts by 1/s.`
                 }
             },
             light: {
@@ -37609,8 +37609,8 @@ const UnitInformation = [
                     hover3: `Radachne`
                 },
                 passive: {
-                    ability1: `When own HP is 80% or higher, increase own ATK by 50%.`,
-                    ability2: `When own HP is 80% or higher, increase own Arts by 2/s.`
+                    ability1: `When own HP is 80% or higher, increase own ATK by 100%.`,
+                    ability2: `When own HP is 80% or higher, increase own Arts by 3/s.`
                 }
             }
         },
@@ -37707,16 +37707,16 @@ const UnitInformation = [
             {
                 skill: "14s CT - 6000% Dark DMG (PHY). Increase BE generation of this Skill by 100%.",
                 skillbreak: 400,
-                arts: "23000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
+                arts: "30000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
                 artsbreak: 1600,
-                truearts: "120000% Dark DMG (PHY). For 10s, increase own Accuracy by 120%.",
+                truearts: "150000% Dark DMG (PHY). For 10s, increase own Accuracy by 120%.",
                 trueartsbreak: 3500
             },
         passive: 
             {
                 ability1: "Increase Freeze RES by 100%.",
                 ability2: "While near-death, increase DMG RES by 10%.",
-                ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 60% (up to 240%)."
+                ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 60% (up to 300%)."
             },
         dream: {
                 earth: {
@@ -37731,7 +37731,7 @@ const UnitInformation = [
                         hover3: `Goldola`
                     },
                     passive: {
-                        ability1: `Increase own Arts by 100 at the start of quest.`,
+                        ability1: `Increase own Arts by 200 at the start of quest.`,
                         ability2: `Increase own Arts by 3/s.`
                     }
                 },
@@ -37748,7 +37748,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase DMG to Light Enemies by 100%.`,
-                        ability2: ``
+                        ability2: `Increase allies' Accuracy rate by 30%.`
                     }
                 }
             },
@@ -37846,9 +37846,9 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1700% Dark DMG (PHY). If this skill crits, increase own Arts by 60.",
                 skillbreak: 500,
-                arts: "22000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
+                arts: "30000% Dark DMG (PHY). For 10s, increase Allies' stats by 40%.",
                 artsbreak: 1600,
-                truearts: "75000% Dark DMG (PHY). For 60s, increase Allies' PHY DMG by 70% (stackable).",
+                truearts: "80000% Dark DMG (PHY). For 70s, increase Allies' PHY DMG by 80% (stackable).",
                 trueartsbreak: 2800
             },
         passive: 
@@ -37986,14 +37986,14 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2000% Light DMG (PHY). For 7s, increase own ATK by 20%.",
                 skillbreak: 500,
-                arts: "24000% Light DMG (PHY). For 20s, increase own Accuracy by 60% and own DMG by 60%.",
+                arts: "27000% Light DMG (PHY). For 20s, increase own Accuracy and DMG by 100%.",
                 artsbreak: 1300,
-                truearts: "85000% Light DMG (PHY). For 20s, reduce Enemies' Light RES by 80%.",
+                truearts: "85000% Light DMG (PHY). For 20s, reduce Enemies' Light RES by 100%.",
                 trueartsbreak: 2000
             },
         passive: 
             {
-                ability1: "At the start of a Quest, for 90s, increase Allies' ATK by 80%.",
+                ability1: "At the start of a Quest, for 120s, increase Allies' ATK by 100%.",
                 ability2: "At the start of a Quest, increase Allies' Arts by 50.",
                 ability3: "Increase MAG RES by 10%."
             },
@@ -38010,8 +38010,8 @@ const UnitInformation = [
                         hover3: `Ifrit`
                     },
                     passive: {
-                        ability1: `Increase all Allies' Accuracy by 20%. Does not stack with Abilities of the same name.`,
-                        ability2: ``
+                        ability1: `Increase all Allies' Accuracy by 40%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Arts by 1/s.`
                     }
                 },
                 light: {
@@ -38027,7 +38027,7 @@ const UnitInformation = [
                     },
                     passive: {
                         ability1: `Increase Light Allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
-                        ability2: ``
+                        ability2: `Increase Light allies' DMG by 30%.`
                     }
                 }
             },
@@ -41949,11 +41949,11 @@ const UnitInformation = [
             {
                 skill: `12s CT - 3000% Dark DMG (MAG). For 7s, increase own Stats by 20%.`,
                 skillbreak: 500,
-                arts: `17000% Dark DMG (MAG). For 45s, increase own CRI rate by 100%. The next time this unit's Super Arts is used, increase own Arts by 150.`,
+                arts: `20000% Dark DMG (MAG). For 45s, increase own CRI rate by 100%. The next time this unit's Super Arts is used, increase own Arts by 150.`,
                 artsbreak: 1000,
                 truearts: `60000% Dark DMG (MAG). For 40s, reduce enemies' DMG RES by 70% (stackable).`,
                 trueartsbreak: 1800,
-                superarts: `170000% Dark DMG (MAG). Increase own Super Critical Rate by 40% for the duration of Super Arts. For 30s, increase all allies' Dark DMG by 130% (stackable).`,
+                superarts: `170000% Dark DMG (MAG). Increase own Super Critical Rate by 40% for the duration of Super Arts. For 30s, increase all allies' Dark DMG by 150% (stackable).`,
                 superartsbreak: 2000
             },
         passive: 
@@ -42059,10 +42059,10 @@ const UnitInformation = [
             {
                 skill: `12s CT - 3000% Fire DMG (PHY). For 10s, reduce enemies' DMG RES by 10%.`,
                 skillbreak: 300,
-                arts: `22000% Fire DMG (PHY). Heals own Status ailments (except Faint, Paralysis, Seal, Freeze). For 20s, increase all allies' Paralysis RES & Freeze RES by 100%.`,
+                arts: `25000% Fire DMG (PHY). Heals own Status ailments (except Faint, Paralysis, Seal, Freeze). For 20s, increase all allies' Paralysis RES & Freeze RES by 100%.`,
                 artsbreak: 700,
-                truearts: `30000% Fire DMG (PHY). Each time True Arts is used, increase Break Power of this True Arts by 4000 (MAX: 20000). When Super Arts is used, resets the Break Power of this True Arts back to 4000.`,
-                trueartsbreak: 4000,
+                truearts: `30000% Fire DMG (PHY). Each time True Arts is used, increase Break Power of this True Arts by 5000 (MAX: 30000). When Super Arts is used, resets the Break Power of this True Arts back to 5000.`,
+                trueartsbreak: 5000,
                 superarts: `180000% Fire DMG (PHY). Each time Super Arts is used, increase the DMG Multiplier of this Super Arts by an additional 180000% (MAX: 540000%). When Arts or True Arts is used, resets the DMG Multiplier of this Super Arts back to 180000%.`,
                 superartsbreak: 1500
             },
@@ -42171,16 +42171,16 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: `17000% Dark DMG (PHY). For 20s, increase all Allies' DEF Equip CT Speed by 30% and reduce enemies' ATK by 30%.`,
                 artsbreak: 900,
-                truearts: `50000% Dark DMG (PHY). For 20s, reduce enemies' Evasion by 40% and PHY RES by 80%.`,
+                truearts: `50000% Dark DMG (PHY). For 20s, reduce enemies' Evasion by 50% and PHY RES by 100%.`,
                 trueartsbreak: 1500,
-                superarts: `150000% Dark DMG (PHY). 100% Chance to inflict Blind for 30s. For 30s, reduce enemies' Dark RES by 130%.`,
+                superarts: `150000% Dark DMG (PHY). 100% Chance to inflict Blind for 30s. For 30s, reduce enemies' Dark RES by 150%.`,
                 superartsbreak: 2000
             },
         passive: 
             {
                 ability1: `Seducer: When own HP is 80% or more, increase the Arts gauge of the units to the Left and Right of Diablo by 6/s. Does not stack with Abilities of the same name. (Lv. 1)`,
                 ability2: `Increase own Blind RES by 100%. (Lv. 110)`,
-                ability3: `Increase own DMG to Blinded Enemies by 80%. (Lv. 120)`,
+                ability3: `Increase own DMG to Blinded Enemies by 100%. (Lv. 120)`,
                 ability4: `Unit EXP UP 20% UP. (When Diablo's SP. Art is owned)`,
                 ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Diablo's SP. Art is owned)`
             },
@@ -44159,16 +44159,16 @@ const UnitInformation = [
             {
                 skill: `14s CT - 4500% Dark DMG (PHY). Increase own Arts by [20 x # of Demon allies alive in Party] (MAX: 80).`,
                 skillbreak: 700,
-                arts: `25000% Dark DMG (PHY). For 30s, increase all allies' MAX HP by 30%. Additionally, increase all allies' next Super Arts' DMG by 150%.`,
+                arts: `25000% Dark DMG (PHY). For 25s, increase all allies' MAX HP by 30%. Additionally, increase all allies' next Super Arts' DMG by 150%.`,
                 artsbreak: 1500,
-                truearts: `66000% Dark DMG (PHY). For 20s, increase >50% HP allies' Arts by 6/s and reduce enemies' PHY RES by 100%.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                truearts: `70000% Dark DMG (PHY). For 20s, increase >50% HP allies' Arts by 6/s and reduce enemies' PHY RES by 100%.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 2200,
                 superarts: `180000% Dark DMG (PHY). Increase the DMG Multiplier of the current Super Arts by 40000% for each ally above 80% HP (MAX: +160000%).`,
                 superartsbreak: 3500
             },
         passive: 
             {
-                ability1: `When self is Leader, at the start of a Quest, increase Allies' DMG RES by 20% for 70s. Does not stack with Abilities of the same name.`,
+                ability1: `When self is Leader, at the start of a Quest, increase Allies' DMG RES by 20% for 80s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Status RES by 50%.`,
                 ability3: `Increase own Lifesteal RES by 20%.`,
                 ability4: `Unit EXP UP 20% UP. (When Demon Lord Samurai Rimuru's SP. Art is owned)`,
@@ -44251,11 +44251,11 @@ const UnitInformation = [
             {
                 skill: `15s CT - Draw a random fortune (Good Luck / Great Luck / Incredible Luck). Based on the fortune drawn, increase own Arts by 40, 45 or 50 respectively.`,
                 skillbreak: 0,
-                arts: `Heal all allies by 50% of their MAX HP. For 15s, increase all allies' Dark RES by 20%.`,
+                arts: `Heal all allies by 50% of their MAX HP. For 20s, increase all allies' Dark RES by 25%.`,
                 artsbreak: 0,
                 truearts: `50000% Light DMG (MAG). Cure all allies' status ailments (except Faint). For 25s, increase all allies' Arts by 5/s and Demon Allies Arts by an additional 1/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
                 trueartsbreak: 800,
-                superarts: `130000% Light DMG (MAG). Revives 1 Fallen Ally with 100% of their MAX HP (60s CT). For 30s, reduce enemies' MAG RES by 150%.`,
+                superarts: `130000% Light DMG (MAG). Revives 1 Fallen Ally with 100% of their MAX HP (60s CT). For 40s, reduce enemies' MAG RES by 150%.`,
                 superartsbreak: 2700
             },
         passive: 
@@ -44341,18 +44341,18 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `8s CT - 4000% Earth DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.`,
+                skill: `8s CT - 4000% Earth DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 150%.`,
                 skillbreak: 700,
-                arts: `30000% Earth DMG (PHY). For 60s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
+                arts: `30000% Earth DMG (PHY). For 70s, increase own Arts by 7/s.\nNote: This unit's Arts Gen is Type EX1 and will stack with all other Arts Gen effects apart from the same unit.`,
                 artsbreak: 1000,
-                truearts: `80000% Earth DMG (MAG). For 30s, increase all allies' ATK by 200% and Earth allies' Paralysis RES and Freeze RES by 100%.`,
+                truearts: `80000% Earth DMG (MAG). For 40s, increase all allies' ATK by 200% and Earth allies' Paralysis RES and Freeze RES by 100%.`,
                 trueartsbreak: 2000,
-                superarts: `200000% Earth DMG (MAG). For 25s, allies ignore 100% of Enemies' DEF and increase Human, Dragon, and Demon Allies' DMG by 200%.`,
+                superarts: `200000% Earth DMG (MAG). For 25s, allies ignore 100% of Enemies' DEF and increase Human, Dragon, and Demon Allies' DMG by 250%.`,
                 superartsbreak: 2600
             },
         passive: 
             {
-                ability1: `When Near-Death, heal all allies' HP by 100% and increase all allies' Arts by 100. Can only be activated once per quest.`,
+                ability1: `When Near-Death, heal all allies' HP by 100% and increase all allies' Arts by 150. Can only be activated once per quest.`,
                 ability2: `Increase own DMG by [2% × own ATK/100].`,
                 ability3: `Increase Earth allies' BE Output by 10%.`,
                 ability4: `Unit EXP UP 20% UP. (When Veldora's SP. Art is owned)`,
@@ -44435,11 +44435,11 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2800% Fire DMG (MAG). Increase own Arts by 40 and heal ally with the lowest HP by 20%.`,
                 skillbreak: 700,
-                arts: `30000% Fire DMG (MAG). 100% chance to Burn enemies for 25s.`,
+                arts: `30000% Fire DMG (MAG). 100% chance to Burn enemies for 30s.`,
                 artsbreak: 1200,
-                truearts: `70000% Fire DMG (MAG). For 35s, increase all allies' MAG DMG by 180%.`,
+                truearts: `70000% Fire DMG (MAG). For 35s, increase all allies' MAG DMG by 200%.`,
                 trueartsbreak: 2000,
-                superarts: `170000% Fire DMG (MAG). Increase >80% HP Allies' Arts by 60. For 20s, reduce enemies' Fire RES by 160%. If enemy is Burning, reduce enemy's Fire RES by an additional 160%.`,
+                superarts: `170000% Fire DMG (MAG). Increase >80% HP Allies' Arts by 60. For 20s, reduce enemies' Fire RES by 200%. If enemy is Burning, reduce enemy's Fire RES by an additional 200%.`,
                 superartsbreak: 3000
             },
         passive: 
@@ -46826,6 +46826,170 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Yuyuko, increase own ATK by 20% and Arts by 3/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own MAG DMG by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108377512,
+        name: `Easter Rimuru`,
+        attribute: `Dark`,
+        type: `Demon`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108376512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108377512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_837_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108376512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108377512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_837_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats:
+            {
+                hp: 7239,
+                hpplus: 1320,
+                atk: 3427,
+                atkplus: 656,
+                def: 3526,
+                defplus: 674
+            },
+        skillset:
+            {
+                skill: `13s CT - 2500% Dark DMG (MAG). Increase own Arts by 40. Additionally if used when own Arts is below 100, increase own Arts by 60 instead.`,
+                skillbreak: 300,
+                arts: `20000% Dark DMG (MAG). For 25s, increase allies' Arts by 4/s.\nNote: This unit's Arts Gen is Type E and will not stack with other Type E Arts Gen.`,
+                artsbreak: 600,
+                truearts: `35000% Dark DMG (MAG). Cleanse allies' Status ailments (except Faint). For 20s, heal allies' HP by 5%/s.`,
+                trueartsbreak: 1500,
+                superarts: `130000% Dark DMG (MAG). For 45s, reduce enemies' Dark RES and MAG RES by 130%.`,
+                superartsbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Increase allies' MAX HP by 20%. Additionally if ownself is Leader, increase own Heal Amount by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Seal RES by 100%.`,
+                ability3: `Increase own Blind RES by 70%.`,
+                ability4: `Unit EXP UP 20% UP. (When Easter Rimuru's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Easter Rimuru's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Rimuru's Spring Hat",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155291.png",
+                skill: "60s CT - 6000% Dark DMG (MAG). For 8s, reduce enemies' Dark RES by 30%. Additionally if user is Demon, for 8s, reduce enemies' MAG RES by 30%.",
+                skillbreak: 600,
+                passive:
+                    {
+                        ability1: "When equipped by Easter Rimuru, increase own stats by 20% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108387112,
+        name: `Easter Milim`,
+        attribute: `Fire`,
+        type: `Demon`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108386112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108387112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_838_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108386112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108387112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_838_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 6981,
+                hpplus: 1285,
+                atk: 3944,
+                atkplus: 742,
+                def: 3016,
+                defplus: 588
+            },
+        skillset:
+            {
+                skill: `12s CT - 3000% Fire DMG (PHY). For 6s, reduce enemies' Evasion rate by 20%.`,
+                skillbreak: 600,
+                arts: `30000% Fire DMG (PHY). For 80s, increase allies' ATK by 40% (stackable).`,
+                artsbreak: 700,
+                truearts: `70000% Fire DMG (PHY). For 80s, increase Fire allies' DMG by 70% (stackable).`,
+                trueartsbreak: 1700,
+                superarts: `200000% Fire DMG (PHY). For 80s, reduce enemies' PHY RES by 100% (stackable).`,
+                superartsbreak: 2700
+            },
+        passive:
+            {
+                ability1: `Increase own Arts by [1 x # of Dragon/Demon allies]/s (MAX: 4/s). Does not stack with Abilities of the same name.`,
+                ability2: `Increase DMG against Enemies under 30% HP by 30%.`,
+                ability3: `Increase own Arts by 1/s.`,
+                ability4: `Unit EXP UP 20% UP. (When Easter Milim's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Easter Milim's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Milim's Bunny Headband",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155301.png",
+                skill: "25s CT - 5000% Fire DMG (PHY). For 15s, reduce enemies' PHY RES by 15% (stackable). Additionally if user is Fire, increase own Arts by 10.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Easter Milim, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DMG by 10% against enemies in BREAK."
                     }
             },
         lore:
