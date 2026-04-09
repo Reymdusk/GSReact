@@ -4440,7 +4440,7 @@ const NewsArticles = [
                 {
                     units: [],
                     equips: [
-                        [`Swirl-Eyed Egg`, 155391]
+                        [`Swirl-Dyed Egg`, 155391]
                     ],
                     dream: []
                 }
