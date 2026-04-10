@@ -55222,7 +55222,7 @@ const EquipInformation = [
     },
     {
         id: 155391,
-        name: `Swirl-Eyed Egg`,
+        name: `Swirl-Dyed Egg`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image:
