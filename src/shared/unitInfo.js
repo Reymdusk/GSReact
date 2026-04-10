@@ -22772,9 +22772,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2000% Dark DMG (MAG). For 5s, increase own MAG DMG by 10%.",
                 skillbreak: 1200,
-                arts: "15000% Dark DMG (MAG). For 15s, reduce Enemies' MAG RES by 15%.",
+                arts: "15000% Dark DMG (MAG). For 15s, reduce Enemies' MAG RES by 15%. (Stacks)",
                 artsbreak: 1400,
-                truearts: "44000% Dark DMG (MAG). For 30s, reduce Allies' DMG RES by 30%, and activations of own Arts will not deplete Arts Gauge.",
+                truearts: "44000% Dark DMG (MAG). For 30s, reduce Allies' DMG RES by 30% (Stacks), and activations of own Arts will not deplete Arts Gauge.",
                 trueartsbreak: 2300
             },
         passive: 
