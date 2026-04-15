@@ -4445,6 +4445,43 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 133,
+        date: `April 15, 2026`,
+        article: 
+        {
+            intro: `A new Mines equip has been released on JP, while the new Easter Tensura Units and Equips have made it to Global!`,
+            new:
+                {
+                    units: [],
+                    equips: [
+                        [`絶仮面『ゼロスヴァイザー』`, 113901]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Easter Rimuru`, 108377512],
+                        [`Easter Milim`, 108387112]
+                    ],
+                    equips: [
+                        [`True "Rimuru's Spring Hat"`, 155291],
+                        [`True "Milim's Bunny Headband"`, 155301],
+                        [`Rimuru's Spring Hat`, 155311],
+                        [`Rimuru's Spring Suit`, 155321],
+                        [`Rimuru's Spring Boots`, 155331],
+                        [`Slime-Mark Egg`, 155341],
+                        [`Milim's Bunny Headband`, 155351],
+                        [`Milim's Pastel Streamers`, 155361],
+                        [`Milim's Breezy Step`, 155371],
+                        [`Slime-Mark Wreath`, 155381],
+                        [`Spring Surprise`, 155401]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -22772,9 +22772,9 @@ const UnitInformation = [
             {
                 skill: "9s CT - 2000% Dark DMG (MAG). For 5s, increase own MAG DMG by 10%.",
                 skillbreak: 1200,
-                arts: "15000% Dark DMG (MAG). For 15s, reduce Enemies' MAG RES by 15%. (Stacks)",
+                arts: "15000% Dark DMG (MAG). For 15s, reduce Enemies' MAG RES by 15% (stackable).",
                 artsbreak: 1400,
-                truearts: "44000% Dark DMG (MAG). For 30s, reduce Allies' DMG RES by 30% (Stacks), and activations of own Arts will not deplete Arts Gauge.",
+                truearts: "44000% Dark DMG (MAG). For 30s, reduce Allies' DMG RES by 30% (stackable), and activations of own Arts will not deplete Arts Gauge.",
                 trueartsbreak: 2300
             },
         passive: 
@@ -46912,8 +46912,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -46994,8 +46994,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     }
 ];

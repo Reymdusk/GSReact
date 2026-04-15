@@ -38924,6 +38924,37 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113901,
+        name: `絶仮面『ゼロスヴァイザー』`,
+        translate: `Absolute Mask "Zeros Viser"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Dark DMG (MAG). Consume 70% of current HP. For 10s, increase own MAG DMG and ATK by 70%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When near-death, increase own DMG by 40%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,
@@ -54948,7 +54979,7 @@ const EquipInformation = [
                 ability1: `When equipped by Easter Rimuru, increase own stats by 20% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155301,
@@ -54978,7 +55009,7 @@ const EquipInformation = [
                 ability1: `When equipped by Easter Milim, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by 10% against enemies in BREAK.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155311,
@@ -55008,7 +55039,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155321,
@@ -55038,7 +55069,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155331,
@@ -55068,7 +55099,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155341,
@@ -55098,7 +55129,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155351,
@@ -55128,7 +55159,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155361,
@@ -55158,7 +55189,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155371,
@@ -55188,7 +55219,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155381,
@@ -55218,7 +55249,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155391,
@@ -55278,7 +55309,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     }
 ]
 
