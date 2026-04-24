@@ -32397,9 +32397,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Original Witch Selia - Missing Lore (JP)
+    { //Selia, Sourcescript Witch - Missing Lore
         id: 104107212,
-        name: `Original Witch Selia`,
+        name: `Selia, Sourcescript Witch`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -32465,14 +32465,14 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: `When equipped by Original Witch Selia, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Selia, Sourcescript Witch, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own MAG RES by 5%.`
                         }
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Huma - Missing Lore (JP)
@@ -46996,6 +46996,170 @@ const UnitInformation = [
             {
                 evoawk: `Missing Lore.`,
                 evosuper: `Missing Lore.`
+            }
+    },
+    {
+        id: 108397512,
+        name: `Sung Jin-woo`,
+        attribute: `Dark`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108396512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108397512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_839_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108396512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108397512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_839_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 6979,
+                hpplus: 1296,
+                atk: 3760,
+                atkplus: 698,
+                def: 3325,
+                defplus: 649
+            },
+        skillset:
+            {
+                skill: `13s CT - 3500% Dark DMG (PHY). For 10s, increase own Arts by 3/s.`,
+                skillbreak: 300,
+                arts: `24000% Dark DMG (PHY). For 60s, reduce enemies' PHY RES by 40% (stackable).`,
+                artsbreak: 700,
+                truearts: `80000% Dark DMG (PHY). For 25s, increase Dark allies' Arts by 4/s and >80% HP Dark allies' Arts by an additional 2/s.\nNote: This unit's Arts Gen is Type C and will not stack with other Type C Arts Gen.`,
+                trueartsbreak: 1700,
+                superarts: `200000% Dark DMG (PHY). Doubles Super Arts' DMG Multiplier against enemies under 50% HP. Additionally, doubles Super Arts' DMG Multiplier again against enemies under 25% HP.`,
+                superartsbreak: 2100
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 50% permanently each time Arts/True Arts/Super Arts is used (MAX: 500%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% x own ATK / 100].`,
+                ability3: `Increase own Poison RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Sung Jin-woo's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sung Jin-woo's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Demon King's Dagger",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155411.png",
+                skill: "50s CT - 6000% Dark DMG (PHY). For 10s, increase own Dark DMG by 60%. Additionally if used for the first time, increase own Arts by 50.",
+                skillbreak: 300,
+                passive:
+                    {
+                        ability1: "When equipped by Sung Jin-woo, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DMG against enemies in BREAK by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108417112,
+        name: `Choi Jong-in`,
+        attribute: `Fire`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108416112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108417112.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_841_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108416112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108417112.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_841_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 6898,
+                hpplus: 1271,
+                atk: 4149,
+                atkplus: 778,
+                def: 2931,
+                defplus: 573
+            },
+        skillset:
+            {
+                skill: `14s CT - 3000% Fire DMG (MAG). Increase own Arts by 30.`,
+                skillbreak: 400,
+                arts: `20000% Fire DMG (MAG). For 30s, reduce enemies' ATK, PHY DMG and Evasion rate by 30%.`,
+                artsbreak: 600,
+                truearts: `70000% Fire DMG (MAG). For 90s, reduce enemies' Fire RES by 50% (stackable).`,
+                trueartsbreak: 1600,
+                superarts: `180000% Fire DMG (MAG). For 30s, increase allies' MAG Equip CT Speed by 100%.`,
+                superartsbreak: 2000
+            },
+        passive:
+            {
+                ability1: `Increase allies' MAG DMG by 100%. If ownself is Leader, increase allies' MAG DMG by 150% instead. Does not stack with Abilities of the same name.`,
+                ability2: `When HP is above 80%, increase own Arts by 2/s.`,
+                ability3: `Increase own Accuracy rate by 30%.`,
+                ability4: `Unit EXP UP 20% UP. (When Choi Jong-in's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Choi Jong-in's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flametail Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Choi Jong-in's Coat",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155511.png",
+                skill: "75s CT - 10000% Fire DMG (MAG). For 10s, reduce enemies' Fire RES by 30%. If user is Human, reduce enemies' Fire RES by 60% instead.",
+                skillbreak: 1000,
+                passive:
+                    {
+                        ability1: "When equipped by Choi Jong-in, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
             }
     }
 ];

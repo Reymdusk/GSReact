@@ -28549,9 +28549,9 @@ const EquipInformation = [
             },
         lore: `Hart's favorite pair of boots. Their standard appearance belies a special composition designed for mages. Its magically charged laces fed the gravity-control spell in the soles for extra agility, or they can be wrapped around the wearer's arms for a boost of energy. However, his first attempt at the latter saw him immediately trip over the loosened flaps, so he never did it again.`
     },
-{ //魔双甲『ナルクラーゲン』 (Ragsherum Mines Equip) - Complete
+{ //Evil Pauldrons "Narcragen" - Missing Lore
         id: 110421,
-        name: `魔双甲『ナルクラーゲン』`,
+        name: `Evil Pauldrons "Narcragen"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -28576,7 +28576,7 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Seafoam Pareo' - Complete
         id: 110431,
@@ -30348,9 +30348,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //絶魔甲『ファントムベイン』 (Elite Ragsherum Mines Equip) - JP Complete
+{ //Fathomless Guard "Phantom Pain" - Missing Lore
         id: 111031,
-        name: `絶魔甲『ファントムベイン』`,
+        name: `Fathomless Guard "Phantom Pain"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30375,7 +30375,7 @@ const EquipInformation = [
             {
                 ability1: `Curse Time Reduction & Curse Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True "Yamata" - Missing Lore
         id: 111041,
@@ -36366,10 +36366,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『グリムステラ』 - JP Complete
+    { //True "Grimm Stella" - Missing Lore
         id: 113081,
-        name: `真『グリムステラ』`,
-        translate: `True "Grimm Stella"`,
+        name: `True "Grimm Stella"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36395,12 +36394,11 @@ const EquipInformation = [
                 ability1: `When equipped by Original Witch Selia, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //写本『グリムステラ』 - JP Complete
+    { //Manuscript "Grimm Stella" - Missing Lore
         id: 113091,
-        name: `写本『グリムステラ』`,
-        translate: `Manuscript "Grimm Stella"`,
+        name: `Manuscript "Grimm Stella"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36425,7 +36423,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own Magic DMG by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『ジャスティス』 - JP Complete
         id: 113101,
@@ -55310,6 +55308,316 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Missing Lore.`
+    },
+    {
+        id: 155411,
+        name: `真『悪魔王の短剣』`,
+        translate: `True "Demon King's Dagger"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 6000% Dark DMG (Physical). For 10s, increase own Dark DMG by 60%. Additionally if used for the first time, increase own Arts by 50.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `When equipped by Sung Jin-woo, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against enemies in BREAK by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155431,
+        name: `悪魔王の長剣`,
+        translate: `Demon King's Longsword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 13500% Dark DMG (Physical). For 10s, increase own ATK by 100%. If user is Human, increase own ATK by 160% instead.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155441,
+        name: `悪魔王の短剣`,
+        translate: `Demon King's Dagger`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `70s CT - 13000% Dark DMG (Physical). For 12s, reduce enemies' Physical RES by 20%. Additionally if user is Dark, increase own Arts by 80.`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155451,
+        name: `水篠 旬の服`,
+        translate: `Sung Jin-woo's Clothes`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155451.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `35s CT - For 10s, increase allies' Arts by 3/s and Dark allies' Skill CT Speed by 80%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155461,
+        name: `カサカの毒牙`,
+        translate: `Kasaka's Venomous Fang`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155461.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `55s CT - 5000% Dark DMG (Physical). For 15s, increase own Physical DMG by 70%. Additionally, 60% chance of inflicting Paralysis for 3s.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155471,
+        name: `ナイトキラー`,
+        translate: `Night Killer`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 2000% Dark DMG (Physical). For 5s, increase own Break Power by 60%.`,
+                skillbreak: 1800
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155511,
+        name: `真『最上 真のコート』`,
+        translate: `True "Choi Jong-in's Coat"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `75s CT - 10000% Fire DMG (Magic). For 10s, reduce enemies' Fire resistance by 30%. If user is Human, reduce enemies' Fire resistance by 60% instead.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Choi Jong-in, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155531,
+        name: `最上 真のメガネ`,
+        translate: `Choi Jong-in's Glasses`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Fire DMG (Magic). For 20s, increase own Magic DMG by 50%. Additionally if used for the first time, for 20s, increase own Equip DMG by 100%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155541,
+        name: `最上 真の服`,
+        translate: `Choi Jong-in's Clothes`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 10000% Fire DMG (Magic). For 10s, increase own stats by 25%. Additionally if user is Fire, for 10s, increase own ATK by 25%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155551,
+        name: `最上 真のコート`,
+        translate: `Choi Jong-in's Coat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 10000% Fire DMG (Magic). For 10s, increase Fire allies' BE Output by 80%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
     }
 ]
 

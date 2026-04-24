@@ -4482,6 +4482,47 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 134,
+        date: `April 24, 2026`,
+        article: 
+        {
+            intro: `Part 1 of the Solo Leveling collab debuts on JP with new units and equips! Meanwhile on Global, the final chapter of the Grimm Stella saga is released, alongside 2 new Mines bosses and equips!`,
+            new:
+                {
+                    units: [
+                        [`Sung Jin-woo`, 108397512],
+                        [`Choi Jong-in`, 108417112]
+                    ],
+                    equips: [
+                        [`真『悪魔王の短剣』`, 155411],
+                        [`悪魔王の長剣`, 155431],
+                        [`悪魔王の短剣`, 155441],
+                        [`水篠 旬の服`, 155451],
+                        [`カサカの毒牙`, 155461],
+                        [`ナイトキラー`, 155471],
+                        [`真『最上 真のコート』`, 155511],
+                        [`最上 真のメガネ`, 155531],
+                        [`最上 真の服`, 155541],
+                        [`最上 真のコート`, 155551]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Selia, Sourcescript Witch`, 104107212]
+                    ],
+                    equips: [
+                        [`Evil Pauldrons "Narcragen"`, 110421],
+                        [`Fathomless Guard "Phantom Pain"`, 111031],
+                        [`True "Grimm Stella"`, 113081],
+                        [`Manuscript "Grimm Stella"`, 113091]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
