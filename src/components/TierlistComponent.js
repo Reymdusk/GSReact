@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup, Uncontrolle
             TabContent, TabPane, Nav, NavItem, NavLink} from 'reactstrap';
 import { getUnits } from '../shared/unitInfo';
 import { Default, Mobile } from './MobileCheckComponent';
+import { CreateNukeTable } from './Tierlist/NukeTierlist';
 
 const cardHeaderColor = {
     backgroundColor: "#22bbff", 
@@ -56,6 +57,14 @@ export default function Tierlist() {
                             Detailed Tierlist
                         </NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink 
+                            className={classNames({ active: currentTab === '3' })}
+                            onClick={() => { toggle('3') }}
+                            >
+                            Nuke Tierlist
+                        </NavLink>
+                    </NavItem>
                 </Nav>
                 <TabContent activeTab={currentTab}>
                     <TabPane tabId="1">
@@ -64,6 +73,11 @@ export default function Tierlist() {
                     <TabPane tabId="2">
                         <center>
                             <CreateTable units={units} />
+                        </center>
+                    </TabPane>
+                    <TabPane tabId="3">
+                        <center>
+                            <CreateNukeTable />
                         </center>
                     </TabPane>
                 </TabContent>
