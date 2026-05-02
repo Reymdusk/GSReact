@@ -846,7 +846,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 0.70,
-                buffs: 1.27,
+                buffs: 0.72,
                 heal: 0.00,
                 break: 0.00
             },
@@ -1837,11 +1837,11 @@ const UnitInformation = [
         name: "Yomi",
         tier: 
             {
-                rank: 12,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.37,
-                buffs: 0.00,
+                buffs: 0.42,
                 heal: 0.00,
                 break: 0.00
             },
@@ -3540,7 +3540,7 @@ const UnitInformation = [
                 defense: 1.02,
                 artgen: 0.00,
                 damage: 2.03,
-                buffs: 1.11,
+                buffs: 0.56,
                 heal: 0.00,
                 break: 0.00
             },
@@ -15910,7 +15910,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 2.26,
-                buffs: 1.20,
+                buffs: 0.64,
                 heal: 2.69,
                 break: 0.00
             },
@@ -17333,7 +17333,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 2.84,
                 damage: 1.43,
-                buffs: 1.80,
+                buffs: 1.50,
                 heal: 0.00,
                 break: 0.00
             },
@@ -18072,7 +18072,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 0.79,
-                buffs: 0.69,
+                buffs: 0.84,
                 heal: 0.00,
                 break: 0.00
             },
@@ -19466,7 +19466,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.43,
                 damage: 1.44,
-                buffs: 0.30,
+                buffs: 0.52,
                 heal: 0.00,
                 break: 0.00
             },
@@ -21139,7 +21139,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.41,
-                buffs: 1.60,
+                buffs: 1.04,
                 heal: 0.00,
                 break: 0.00
             },
@@ -21704,7 +21704,7 @@ const UnitInformation = [
         name: "Bakoo",
         tier: 
             {
-                rank: 12,
+                rank: 11,
                 defense: 0.00,
                 artgen: 1.90,
                 damage: 1.63,
@@ -21866,7 +21866,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 0.02,
-                buffs: 0.00,
+                buffs: 0.15,
                 heal: 1.11,
                 break: 0.00
             },
@@ -22009,7 +22009,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.37,
                 damage: 0.87,
-                buffs: 0.76,
+                buffs: 0.81,
                 heal: 0.00,
                 break: 0.00
             },
@@ -22555,7 +22555,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.08,
-                buffs: 0.00,
+                buffs: 0.67,
                 heal: 0.00,
                 break: 0.00
             },
@@ -22645,7 +22645,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 0.23,
-                buffs: 0.00,
+                buffs: 0.33,
                 heal: 0.00,
                 break: 0.00
             },
@@ -22737,7 +22737,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 0.93,
-                buffs: 0.00,
+                buffs: 0.15,
                 heal: 0.00,
                 break: 0.00
             },
@@ -23050,7 +23050,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 1.36,
-                buffs: 0.10,
+                buffs: 0.13,
                 heal: 0.00,
                 break: 0.00
             },
@@ -23684,7 +23684,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 2.78,
                 damage: 0.63,
-                buffs: 0.66,
+                buffs: 0.72,
                 heal: 3.65,
                 break: 0.00
             },
@@ -24009,10 +24009,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.08,
+                defense: 3.64,
                 artgen: 0.00,
                 damage: 0.13,
-                buffs: 0.36,
+                buffs: 0.63,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24339,7 +24339,7 @@ const UnitInformation = [
                 defense: 4.76,
                 artgen: 0.00,
                 damage: 0.64,
-                buffs: 0.18,
+                buffs: 0.27,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24503,7 +24503,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.19,
-                buffs: 2.23,
+                buffs: 1.67,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24852,7 +24852,7 @@ const UnitInformation = [
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 1.07,
-                buffs: 0.40,
+                buffs: 0.52,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24962,7 +24962,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.18,
-                buffs: 2.99,
+                buffs: 2.56,
                 heal: 0.00,
                 break: 0.00
             },
@@ -25155,7 +25155,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.65,
                 damage: 1.79,
-                buffs: 3.04,
+                buffs: 2.48,
                 heal: 0.00,
                 break: 0.00
             },
@@ -25996,7 +25996,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.29,
                 damage: 1.63,
-                buffs: 1.28,
+                buffs: 0.72,
                 heal: 0.00,
                 break: 0.00
             },
@@ -26432,7 +26432,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 1.68,
-                buffs: 2.11,
+                buffs: 1.70,
                 heal: 2.92,
                 break: 0.00
             },
@@ -26884,7 +26884,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 3.15,
                 damage: 0.63,
-                buffs: 0.87,
+                buffs: 0.93,
                 heal: 0.00,
                 break: 0.00
             },
@@ -27426,11 +27426,11 @@ const UnitInformation = [
         name: "Summer Liza",
         tier: 
             {
-                rank: 8,
+                rank: 7,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.95,
-                buffs: 2.37,
+                buffs: 3.88,
                 heal: 0.00,
                 break: 0.00
             },
@@ -27580,7 +27580,7 @@ const UnitInformation = [
                 defense: 1.52,
                 artgen: 3.01,
                 damage: 2.79,
-                buffs: 1.11,
+                buffs: 0.56,
                 heal: 0.00,
                 break: 0.00
             },
@@ -27694,7 +27694,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.96,
-                buffs: 0.48,
+                buffs: 0.51,
                 heal: 0.00,
                 break: 0.00
             },
@@ -27784,7 +27784,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 1.40,
-                buffs: 0.38,
+                buffs: 0.84,
                 heal: 0.00,
                 break: 0.00
             },
@@ -28219,7 +28219,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 1.68,
-                buffs: 3.81,
+                buffs: 3.25,
                 heal: 0.00,
                 break: 0.00
             },
@@ -28307,7 +28307,7 @@ const UnitInformation = [
                 defense: 1.98,
                 artgen: 0.00,
                 damage: 3.18,
-                buffs: 1.76,
+                buffs: 2.21,
                 heal: 0.00,
                 break: 0.00
             },
@@ -28396,7 +28396,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.34,
                 damage: 2.68,
-                buffs: 2.01,
+                buffs: 2.57,
                 heal: 1.15,
                 break: 0.00
             },
@@ -28689,9 +28689,9 @@ const UnitInformation = [
                 slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot31type: "/db/Mines/thumbnail/defLB.png",
                 slot32type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
@@ -28854,7 +28854,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 2.35,
                 damage: 0.95,
-                buffs: 1.04,
+                buffs: 1.12,
                 heal: 0.65,
                 break: 3.12
             },
@@ -28943,8 +28943,8 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.49,
                 damage: 1.99,
-                buffs: 1.35,
-                heal: 0.63,
+                buffs: 0.79,
+                heal: 0.57,
                 break: 0.00
             },
         attribute: "Dark",
@@ -29127,7 +29127,7 @@ const UnitInformation = [
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.22,
-                buffs: 3.17,
+                buffs: 3.96,
                 heal: 0.00,
                 break: 0.00
             },
@@ -29416,7 +29416,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.15,
-                buffs: 1.45,
+                buffs: 0.89,
                 heal: 1.74,
                 break: 0.00
             },
@@ -29831,11 +29831,11 @@ const UnitInformation = [
         translate: `Wild Side Charlotte`,
         tier: 
             {
-                rank: 6,
+                rank: 5,
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 3.65,
-                buffs: 1.92,
+                buffs: 3.17,
                 heal: 0.00,
                 break: 0.00
             },
@@ -29947,7 +29947,7 @@ const UnitInformation = [
                 defense: 2.03,
                 artgen: 0.00,
                 damage: 3.65,
-                buffs: 2.10,
+                buffs: 0.88,
                 heal: 0.00,
                 break: 0.00
             },
@@ -31003,7 +31003,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.62,
-                buffs: 1.07,
+                buffs: 1.00,
                 heal: 0.33,
                 break: 0.00
             },
@@ -31192,7 +31192,7 @@ const UnitInformation = [
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.74,
-                buffs: 1.20,
+                buffs: 1.24,
                 heal: 0.00,
                 break: 0.00
             },
@@ -31435,7 +31435,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.52,
                 damage: 3.81,
-                buffs: 3.18,
+                buffs: 2.62,
                 heal: 0.00,
                 break: 0.00
             },
@@ -31701,6 +31701,16 @@ const UnitInformation = [
         translate: `Fiery Platoon Leader Charlotte`,
         attribute: `Fire`,
         type: `Human`,
+        tier: 
+            {
+                rank: 5,
+                defense: 0.00,
+                artgen: 0.43,
+                damage: 3.80,
+                buffs: 2.36,
+                heal: 0.41,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104026112.png",
@@ -31796,7 +31806,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 0.00,
                 damage: 1.88,
-                buffs: 2.66,
+                buffs: 2.10,
                 heal: 0.00,
                 break: 5.00
             },
@@ -32402,6 +32412,16 @@ const UnitInformation = [
         name: `Selia, Sourcescript Witch`,
         attribute: `Water`,
         type: `Human`,
+        tier: 
+            {
+                rank: 5,
+                defense: 1.30,
+                artgen: 3.20,
+                damage: 2.89,
+                buffs: 0.27,
+                heal: 0.40,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104106212.png",
@@ -35445,7 +35465,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 2.38,
-                buffs: 1.60,
+                buffs: 1.04,
                 heal: 0.00,
                 break: 0.00
             },
@@ -36780,7 +36800,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.57,
-                buffs: 0.00,
+                buffs: 0.08,
                 heal: 0.00,
                 break: 0.00
             },
@@ -37041,7 +37061,7 @@ const UnitInformation = [
         name: "Rem (Re:Zero)",
         tier: 
             {
-                rank: 12,
+                rank: 11,
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 1.84,
@@ -37534,7 +37554,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 3.00,
                 damage: 2.26,
-                buffs: 1.75,
+                buffs: 0.99,
                 heal: 0.00,
                 break: 0.00
             },
@@ -37668,7 +37688,7 @@ const UnitInformation = [
         name: "Santa Shion",
         tier: 
             {
-                rank: 8,
+                rank: 7,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 3.35,
@@ -37811,7 +37831,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 2.62,
-                buffs: 3.81,
+                buffs: 4.19,
                 heal: 0.93,
                 break: 0.00
             },
@@ -38242,7 +38262,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 2.37,
                 damage: 1.30,
-                buffs: 1.20,
+                buffs: 0.44,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39091,7 +39111,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.45,
                 damage: 1.54,
-                buffs: 2.02,
+                buffs: 0.92,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39551,7 +39571,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.42,
                 damage: 2.30,
-                buffs: 0.79,
+                buffs: 0.54,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39763,7 +39783,7 @@ const UnitInformation = [
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 2.67,
-                buffs: 1.47,
+                buffs: 0.92,
                 heal: 0.00,
                 break: 0.00
             },
@@ -39854,7 +39874,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.20,
                 damage: 1.84,
-                buffs: 3.65,
+                buffs: 2.72,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40127,7 +40147,7 @@ const UnitInformation = [
                 defense: 1.04,
                 artgen: 1.66,
                 damage: 1.80,
-                buffs: 1.50,
+                buffs: 0.80,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40397,10 +40417,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 3.15,
+                defense: 3.32,
                 artgen: 0.00,
                 damage: 1.05,
-                buffs: 0.00,
+                buffs: 0.02,
                 heal: 0.17,
                 break: 0.00
             },
@@ -40613,7 +40633,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 2.66,
                 damage: 2.73,
-                buffs: 2.71,
+                buffs: 2.15,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40828,7 +40848,7 @@ const UnitInformation = [
                 defense: 0.52,
                 artgen: 2.89,
                 damage: 3.50,
-                buffs: 1.28,
+                buffs: 0.72,
                 heal: 0.00,
                 break: 0.00
             },
@@ -40941,7 +40961,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.44,
                 damage: 3.30,
-                buffs: 4.30,
+                buffs: 4.07,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41517,7 +41537,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.43,
-                buffs: 1.41,
+                buffs: 0.86,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41711,7 +41731,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 2.54,
                 damage: 2.38,
-                buffs: 3.54,
+                buffs: 3.57,
                 heal: 0.00,
                 break: 0.00
             },
@@ -41911,7 +41931,7 @@ const UnitInformation = [
                 defense: 1.32,
                 artgen: 0.00,
                 damage: 4.31,
-                buffs: 3.54,
+                buffs: 2.51,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42238,10 +42258,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 0.21,
+                defense: 0.20,
                 artgen: 3.66,
                 damage: 3.38,
-                buffs: 1.91,
+                buffs: 1.35,
                 heal: 0.00,
                 break: 0.00
             },
@@ -42478,7 +42498,7 @@ const UnitInformation = [
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 4.34,
-                buffs: 2.37,
+                buffs: 2.45,
                 heal: 1.46,
                 break: 0.00
             },
@@ -42645,11 +42665,11 @@ const UnitInformation = [
         name: `Demiurge`,
         tier: 
             {
-                rank: 8,
+                rank: 7,
                 defense: 0.13,
                 artgen: 0.00,
                 damage: 3.00,
-                buffs: 0.70,
+                buffs: 0.78,
                 heal: 1.19,
                 break: 0.00
             },
@@ -43109,7 +43129,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.40,
                 damage: 4.17,
-                buffs: 2.27,
+                buffs: 2.01,
                 heal: 0.00,
                 break: 1.50
             },
@@ -43201,7 +43221,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 3.51,
-                buffs: 3.21,
+                buffs: 2.70,
                 heal: 0.00,
                 break: 0.00
             },
@@ -43293,7 +43313,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.30,
                 damage: 3.12,
-                buffs: 4.77,
+                buffs: 4.39,
                 heal: 0.00,
                 break: 0.00
             },
@@ -43753,7 +43773,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 1.87,
                 damage: 3.53,
-                buffs: 4.95,
+                buffs: 4.80,
                 heal: 0.54,
                 break: 0.00
             },
@@ -43845,8 +43865,8 @@ const UnitInformation = [
                 defense: 2.86,
                 artgen: 3.19,
                 damage: 1.77,
-                buffs: 2.56,
-                heal: 1.65,
+                buffs: 2.3,
+                heal: 1.49,
                 break: 0.00
             },
         attribute: `Water`,
@@ -43937,7 +43957,7 @@ const UnitInformation = [
                 defense: 0.06,
                 artgen: 3.47,
                 damage: 2.90,
-                buffs: 3.02,
+                buffs: 3.41,
                 heal: 0.79,
                 break: 0.00
             },
@@ -44029,7 +44049,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 4.32,
-                buffs: 0.33,
+                buffs: 0.42,
                 heal: 0.13,
                 break: 0.00
             },
@@ -44489,7 +44509,7 @@ const UnitInformation = [
                 defense: 2.50,
                 artgen: 3.05,
                 damage: 3.42,
-                buffs: 2.08,
+                buffs: 1.51,
                 heal: 0.00,
                 break: 0.00
             },
@@ -44949,7 +44969,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.00,
                 damage: 4.66,
-                buffs: 2.85,
+                buffs: 2.09,
                 heal: 0.61,
                 break: 0.00
             },
@@ -45133,7 +45153,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 3.36,
                 damage: 2.46,
-                buffs: 1.70,
+                buffs: 2.26,
                 heal: 0.00,
                 break: 4.74
             },
@@ -45317,7 +45337,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 4.06,
                 damage: 3.26,
-                buffs: 1.36,
+                buffs: 1.26,
                 heal: 0.20,
                 break: 0.00
             },
@@ -45594,7 +45614,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 3.57,
                 damage: 3.58,
-                buffs: 2.47,
+                buffs: 1.91,
                 heal: 0.00,
                 break: 0.00
             },
@@ -45686,7 +45706,7 @@ const UnitInformation = [
                 defense: 2.03,
                 artgen: 0.00,
                 damage: 5.00,
-                buffs: 4.98,
+                buffs: 5.00,
                 heal: 0.00,
                 break: 0.00
             },
@@ -45870,7 +45890,7 @@ const UnitInformation = [
                 defense: 2.34,
                 artgen: 1.99,
                 damage: 3.81,
-                buffs: 1.92,
+                buffs: 1.91,
                 heal: 0.00,
                 break: 0.00
             },
@@ -45962,7 +45982,7 @@ const UnitInformation = [
                 defense: 0.00,
                 artgen: 0.45,
                 damage: 3.58,
-                buffs: 1.07,
+                buffs: 0.33,
                 heal: 0.98,
                 break: 0.00
             },
@@ -46054,9 +46074,9 @@ const UnitInformation = [
             {
                 rank: 4,
                 defense: 3.51,
-                artgen: 0.05,
+                artgen: 0.18,
                 damage: 2.15,
-                buffs: 2.34,
+                buffs: 1.78,
                 heal: 1.43,
                 break: 0.00
             },
@@ -46332,7 +46352,7 @@ const UnitInformation = [
                 defense: 3.67,
                 artgen: 1.01,
                 damage: 2.92,
-                buffs: 3.69,
+                buffs: 4.21,
                 heal: 0.00,
                 break: 0.00
             },
@@ -46839,6 +46859,16 @@ const UnitInformation = [
         name: `Easter Rimuru`,
         attribute: `Dark`,
         type: `Demon`,
+        tier: 
+            {
+                rank: 5,
+                defense: 0.00,
+                artgen: 2.54,
+                damage: 3.26,
+                buffs: 1.74,
+                heal: 3.99,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108376512.png",
@@ -46921,6 +46951,16 @@ const UnitInformation = [
         name: `Easter Milim`,
         attribute: `Fire`,
         type: `Demon`,
+        tier: 
+            {
+                rank: 4,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 3.27,
+                buffs: 4.79,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108386112.png",
