@@ -4523,6 +4523,41 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 135,
+        date: `May 3, 2026`,
+        article: 
+        {
+            intro: `Part 2 of the Solo Leveling collab debuts on JP with new units and equips with a new Raid too!`,
+            new:
+                {
+                    units: [
+                        [`Cha Hae-In`, 108407412],
+                        [`Choi Jong-in`, 108417112]
+                    ],
+                    equips: [
+                        [`真『向坂 雫の剣』`, 155421],
+                        [`向坂 雫のガントレット`, 155481],
+                        [`向坂 雫の剣`, 155491],
+                        [`向坂 雫の鎧`, 155501],
+                        [`真『イグリットの剣』`, 155521],
+                        [`イグリットの剣`, 155561],
+                        [`イグリットの鎧`, 155571],
+                        [`アイアンの斧`, 155581],
+                        [`アイアンの盾`, 155591],
+                        [`ポーション(命の神水)`, 155601],
+                        [`極「ナイトキラー』`, 155611]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

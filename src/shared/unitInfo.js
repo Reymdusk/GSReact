@@ -47121,6 +47121,88 @@ const UnitInformation = [
             }
     },
     {
+        id: 108407412,
+        name: `Cha Hae-in`,
+        attribute: `Light`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108406412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108407412.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_840_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108406412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108407412.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_840_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 7223,
+                hpplus: 1317,
+                atk: 3388,
+                atkplus: 666,
+                def: 3566,
+                defplus: 670
+            },
+        skillset:
+            {
+                skill: `15s CT - 4000% Light DMG (PHY). Increase allies' Arts by 20.`,
+                skillbreak: 300,
+                arts: `18000% Light DMG (PHY). For 25s, increase allies' DMG RES and Dark RES by 20% + Allies gain a DMG barrier that negates 8000 DMG.`,
+                artsbreak: 800,
+                truearts: `70000% Light DMG (PHY). For 30s, increase allies' Skill CT Speed by 100% and Equip CT Speed by 50%.`,
+                trueartsbreak: 1500,
+                superarts: `170000% Light DMG (PHY). For 30s, increase allies' DMG by 250%. Additionally, increase allies' under a DMG barrier Arts by 50.`,
+                superartsbreak: 2200
+            },
+        passive:
+            {
+                ability1: `If unaffected by Status ailment(s), increase own Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Giant Bosses by 30%.`,
+                ability3: `Increase own Blind RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Cha Hae-in's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Cha Hae-in's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Cha Hae-in's Sword",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155421.png",
+                skill: "50s CT - 4000% Light DMG (PHY). For 60s, reduce enemies' Light RES by 20% (stackable).",
+                skillbreak: 400,
+                passive:
+                    {
+                        ability1: "When equipped by Cha Hae-in, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
         id: 108417112,
         name: `Choi Jong-in`,
         attribute: `Fire`,
@@ -47194,6 +47276,88 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Choi Jong-in, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own DEF by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108427512,
+        name: `Igris`,
+        attribute: `Dark`,
+        type: `Spirit`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108426512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108427512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_842_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108426512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108427512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_842_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats:
+            {
+                hp: 8257,
+                hpplus: 1498,
+                atk: 2713,
+                atkplus: 547,
+                def: 3605,
+                defplus: 671
+            },
+        skillset:
+            {
+                skill: `15s CT - 3800% Dark DMG (PHY). Increase own Arts by 50.`,
+                skillbreak: 800,
+                arts: `22000% Dark DMG (PHY). For 30s, increase allies' DMG RES by 30% and Leader unit's DMG RES by 20%.`,
+                artsbreak: 1000,
+                truearts: `67000% Dark DMG (PHY). For 45s, increase Dark allies' DMG by 150%. Additionally, increase own and Leader unit's Arts by 300 (MAX: 2 times).`,
+                trueartsbreak: 1900,
+                superarts: `160000% Dark DMG (PHY). For 25s, increase own and Leader unit's ATK by 150%, and reduce enemies' PHY RES by 150%.`,
+                superartsbreak: 2700
+            },
+        passive:
+            {
+                ability1: `Increase allies' Arts by 4/s. When Leader unit dies, revive Leader unit with 100% HP. Ability can only be activated once per Quest. Does not stack with Abilities of the same name.\nNote: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.`,
+                ability2: `Increase own Accuracy by 20%.`,
+                ability3: `Increase own DMG against enemies in BREAK by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Igris' SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Igris' SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Igris' Sword",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155521.png",
+                skill: "50s CT - 9000% Dark DMG (PHY). For 15s, increase own PHY DMG by 30%. If user is Spirit, increase own PHY DMG by 60% instead.",
+                skillbreak: 900,
+                passive:
+                    {
+                        ability1: "When equipped by Igris, increase own DMG by 30% and Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Dark RES by 5%."
                     }
             },
         lore:

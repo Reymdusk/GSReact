@@ -55341,6 +55341,37 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     {
+        id: 155421,
+        name: `真『向坂 雫の剣』`,
+        translate: `True "Cha Hae-in's Sword"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 4000% Light DMG (Physical). For 60s, reduce enemies' Light resistance by 20% (stackable).`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `When equipped by Cha Hae-in, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
         id: 155431,
         name: `悪魔王の長剣`,
         translate: `Demon King's Longsword`,
@@ -55496,6 +55527,99 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     {
+        id: 155481,
+        name: `向坂 雫のガントレット`,
+        translate: `Cha Hae-in's Gauntlets`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 20s, increase allies' Physical DMG and Light resistance by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155491,
+        name: `向坂 雫の剣`,
+        translate: `Cha Hae-in's Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 8000% Light DMG (Physical). For 12s, increase allies' Physical DMG by 30% and Light DMG by 20%.`,
+                skillbreak: 2000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155501,
+        name: `向坂 雫の鎧`,
+        translate: `Cha Hae-in's Armor`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `50s CT - For 15s, increase allies' DMG resistance by 25% and Human allies' stats by 20%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
         id: 155511,
         name: `真『最上 真のコート』`,
         translate: `True "Choi Jong-in's Coat"`,
@@ -55523,6 +55647,37 @@ const EquipInformation = [
             {
                 ability1: `When equipped by Choi Jong-in, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155521,
+        name: `真『イグリットの剣』`,
+        translate: `True "Igris' Sword"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 9000% Dark DMG (Physical). For 15s, increase own Physical DMG by 30%. If user is Spirit, increase own Physical DMG by 60% instead.`,
+                skillbreak: 900
+            },
+        passive:
+            {
+                ability1: `When equipped by Igris, increase own DMG by 30% and Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Dark resistance by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -55618,6 +55773,192 @@ const EquipInformation = [
                 ability2: ``
             },
         lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155561,
+        name: `イグリットの剣`,
+        translate: `Igris' Sword`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Dark DMG (Physical). For 12s, reduce enemies' Dark resistance by 30%. If user's HP is above 90%, reduce enemies' Dark resistance by 50% instead.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155571,
+        name: `イグリットの鎧`,
+        translate: `Igris' Armor`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 15s, increase allies' Physical RES by 30%. Additionally if used for the first time, increase Leader unit's Arts by 50.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155581,
+        name: `アイアンの斧`,
+        translate: `Iron Axe`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 10000% Dark DMG (Physical). For 18s, increase own Physical DMG by 60% and Dark allies' DMG by 40%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155591,
+        name: `アイアンの盾`,
+        translate: `Iron Shield`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:
+            {
+                skill: `40s CT - For 8s, increase allies' DMG resistance by 20% and negate 800 DMG dealt to all allies.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155601,
+        name: `ポーション(命の神水)`,
+        translate: `Holy Water of Life`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155601.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - Cleanse target's status ailments (except Faint) and heal target's HP by 100%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155611,
+        name: `極「ナイトキラー』`,
+        translate: `Night Killer EV`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_155611.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 2000% Dark DMG (PHY). For 5s, increase own Break Power by 60%.`,
+                break: 1800
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: [`Increase own Arts by 20 at Start of Quest. Does not stack with Abilities of the same name.`, `Increase own CRI DMG by 20%.`, `Increase own Equip DMG by 20%.`, `Increase own DMG against enemies in BREAK by 20%.`, `Increase own Break Power against Light enemies by 20%.`, `Increase own Break Power against Dark enemies by 20%.`]
+            },
+        lore: `Missing Lore.`
     }
 ]
 
