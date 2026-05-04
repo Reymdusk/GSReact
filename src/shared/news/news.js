@@ -4534,7 +4534,7 @@ const NewsArticles = [
                 {
                     units: [
                         [`Cha Hae-In`, 108407412],
-                        [`Choi Jong-in`, 108417112]
+                        [`Igris`, 108427512]
                     ],
                     equips: [
                         [`真『向坂 雫の剣』`, 155421],
