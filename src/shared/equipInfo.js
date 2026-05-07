@@ -54331,8 +54331,7 @@ const EquipInformation = [
     },
     {
         id: 155091,
-        name: `真『博麗霊夢のお祓い棒』`,
-        translate: `True "Reimu Hakurei's Purification Rod"`,
+        name: `True "Reimu's Purification Rod"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54358,12 +54357,11 @@ const EquipInformation = [
                 ability1: `When equipped by Reimu, increase own Arts by 200 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic RES by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155101,
-        name: `真『霧雨魔理沙の箒』`,
-        translate: `True "Marisa Kirisame's Broom"`,
+        name: `True "Marisa's Broom"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54389,12 +54387,11 @@ const EquipInformation = [
                 ability1: `When equipped by Marisa, increase own DMG by 30% and Arts by 1/s.`,
                 ability2: `Increase own Skill DMG by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155111,
-        name: `博麗霊夢のお祓い棒`,
-        translate: `Reimu Hakurei's Purification Rod`,
+        name: `Reimu's Purification Rod`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54420,12 +54417,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155121,
-        name: `博麗霊夢の服`,
-        translate: `Reimu Hakurei's Dress`,
+        name: `Reimu's Clothes`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -54451,7 +54447,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155131,
@@ -54486,8 +54482,7 @@ const EquipInformation = [
     },
     {
         id: 155141,
-        name: `霧雨魔理沙の箒`,
-        translate: `Marisa Kirisame's Broom`,
+        name: `Marisa's Broom`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54513,12 +54508,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155151,
-        name: `霧雨魔理沙の帽子`,
-        translate: `Marisa Kirisame's Hat`,
+        name: `Marisa's Hat`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image:
@@ -54544,12 +54538,11 @@ const EquipInformation = [
                 ability1: `Increase own DMG against Giant Bosses by 10%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155161,
-        name: `霧雨魔理沙の服`,
-        translate: `Marisa Kirisame's Dress`,
+        name: `Marisa's Dress`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54575,7 +54568,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155171,
@@ -54858,8 +54851,7 @@ const EquipInformation = [
     },
     {
         id: 155261,
-        name: `フランドール・スカーレットのぬいぐるみ`,
-        translate: `Flandre Scarlet Plush`,
+        name: `Flandre Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54885,12 +54877,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155271,
-        name: `レミリア・スカーレットのぬいぐるみ`,
-        translate: `Remilia Scarlet Plush`,
+        name: `Remilia Plushie`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54916,12 +54907,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155281,
-        name: `十六夜咲夜のぬいぐるみ`,
-        translate: `Sakuya Izayoi Plush`,
+        name: `Sakuya Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54947,7 +54937,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155291,

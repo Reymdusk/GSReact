@@ -46591,7 +46591,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Reimu Hakurei's Purification Rod",
+                name: "Reimu's Purification Rod",
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155091.png",
                 skill: "40s CT - Increase target's Arts by 80. For 12s, increase target's Fire DMG by 50%.",
@@ -46604,8 +46604,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -46673,7 +46673,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Marisa Kirisame's Broom Rod",
+                name: "Marisa's Broom",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155101.png",
                 skill: "50s CT - 10000% Light DMG (MAG). For 10s, increase own MAG DMG by 50%. Additionally if user is Light, for 10s, increase own ATK by 50%.",
@@ -46686,8 +46686,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {

@@ -4558,6 +4558,40 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 136,
+        date: `May 7, 2026`,
+        article: 
+        {
+            intro: `Touhou LostWord collab has arrived to Global, bringing along with it new units and equips!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Reimu Hakurei`, 108337112],
+                        [`Marisa Kirisame`, 108347412]
+                    ],
+                    equips: [
+                        [`True "Reimu's Purification Rod"`, 155091],
+                        [`True "Marisa's Broom"`, 155101],
+                        [`Reimu's Purification Rod`, 155111],
+                        [`Reimu's Clothes`, 155121],
+                        [`Marisa's Broom`, 155141],
+                        [`Marisa's Hat`, 155151],
+                        [`Marisa's Dress`, 155161],
+                        [`Flandre Plushie`, 155261],
+                        [`Remilia Plushie`, 155271],
+                        [`Sakuya Plushie`, 155281]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
