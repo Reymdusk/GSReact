@@ -21383,7 +21383,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - Recovers 20% of all allies' HP. Light units get an extra 20% & increases Spirit units' Arts gauge by 20.`,
+                skill: `60s CT - Recovers 20% of all allies' HP. If user is a Light Unit, recovers 40% instead. If user is Spirit, increases own Arts gauge by 20.`,
                 break: 0
             },
         passive: 
