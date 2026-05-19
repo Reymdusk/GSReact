@@ -193,7 +193,15 @@ export const CreateNukeTable = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td>
+                            <center>
+                                <a href={`/units/Duke`} >
+                                    <img src="/db/Units/Thumbnail/unit_thumbnail_102526512.png" className="unitThumb"/>
+                                    <br/>
+                                    <b>Duke</b>
+                                </a>
+                            </center>
+                        </td>
                         <td></td>
                         <td></td>
                         <td>
@@ -417,7 +425,7 @@ export const CreateNukeTable = () => {
                                 <a href={`/units/Santa Shion`} >
                                     <img src="/db/Units/Thumbnail/unit_thumbnail_107416512.png" className="unitThumb"/>
                                     <br/>
-                                    <b>Simon</b>
+                                    <b>Santa Shion</b>
                                 </a>
                             </center>
                         </td>
