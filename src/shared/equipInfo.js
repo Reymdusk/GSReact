@@ -38953,6 +38953,68 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113911,
+        name: `真『ベゼルスレイン』`,
+        translate: `True "Bezelstrain"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 6000% Fire DMG (Physical). For 8s, reduce enemies' Fire resistance by 30%. Additionally if user is Spirit, for 8s, reduce enemies' Physical RES by 30%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `When equipped by Jayn, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113921,
+        name: `無常剣『ベゼルスレイン』`,
+        translate: `Sword of Impermanence "Bezelstrain"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 4000% Fire DMG (Physical). For 10s, reduce enemies' Fire resistance by 30%. Additionally if used for the first time, increase own Arts by 50.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Increase own Physical RES by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,
@@ -55947,6 +56009,37 @@ const EquipInformation = [
             {
                 ability1: `Increase own ATK by 5%.`,
                 ability2: [`Increase own Arts by 20 at Start of Quest. Does not stack with Abilities of the same name.`, `Increase own CRI DMG by 20%.`, `Increase own Equip DMG by 20%.`, `Increase own DMG against enemies in BREAK by 20%.`, `Increase own Break Power against Light enemies by 20%.`, `Increase own Break Power against Dark enemies by 20%.`]
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 155621,
+        name: `極『アイアンの盾』`,
+        translate: `Iron Shield EV`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_155621.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `40s CT - For 8s, increase allies' DMG RES by 20% and negate 800 DMG dealt to all allies.`,
+                break: 0
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: [`Increase own Heal Amount by 10% (excluding Lifesteal).`, `Increase own PHY RES by 10%.`, `Increase own MAG RES by 10%.`, `Increase own Accuracy rate by 10%.`, `When HP is 90% or higher, increase own ATK by 20%.`, `When HP is 90% or higher, increase own ATK by 30%.`]
             },
         lore: `Missing Lore.`
     }

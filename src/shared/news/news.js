@@ -4592,6 +4592,32 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 137,
+        date: `May 19, 2026`,
+        article: 
+        {
+            intro: `Chapter 7 of Mena Soars High makes its debut on JP with a new unit and equips!`,
+            new:
+                {
+                    units: [
+                        [`Jayn`, 104257112]
+                    ],
+                    equips: [
+                        [`真『ベゼルスレイン』`, 113911],
+                        [`無常剣『ベゼルスレイン』`, 113921],
+                        [`極『アイアンの盾』`, 155621]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
