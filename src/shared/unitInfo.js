@@ -30958,6 +30958,17 @@ const UnitInformation = [
                 superarts: `For 30s, increase all allies' Skill CT Speed by [15 x # of times Super Arts has been used]% (MAX: 180%) and Equip CT Speed by [5 x # of times Super Arts has been used]% (MAX: 60%). Additionally, for 15s, increase all allies' DMG RES by 30%.`,
                 superartsbreak: 0
             },
+        skillsetJP: 
+            {
+                skill: `12s CT - 2500% Earth DMG (MAG). For 10s, increase own DMG by 20%.`,
+                skillbreak: 800,
+                arts: `20000% Earth DMG (MAG). For 30s, reduce enemies' Earth RES by 50%.`,
+                artsbreak: 1400,
+                truearts: `80000% Earth DMG (MAG). For 30s, increase all allies' MAG DMG by 200%.`,
+                trueartsbreak: 2000,
+                superarts: `For 30s, increase all allies' Skill CT Speed by [15 x # of times Super Arts has been used]% (MAX: 180%) and Equip CT Speed by [7 x # of times Super Arts has been used]% (MAX: 84%). Additionally, for 20s, increase all allies' DMG RES by 40%.`,
+                superartsbreak: 0
+            },
         passive: 
             {
                 ability1: `Increase own Arts by [2 x # of Earth allies alive in Party]/s (MAX: 8/s). Does not stack with Abilities of the same name.`,
@@ -30985,6 +30996,19 @@ const UnitInformation = [
                     passive: 
                         {
                             ability1: `When equipped by Elenore, the Skill CT Speed buff and Equip CT Speed buff from Super Arts will start at 60% and 20% respectively (MAX effect will not be affected). Does not stack with Abilities of the same name.`,
+                            ability2: `Increase own BE Output by 10%.`
+                        }
+                },
+        trueweaponJP: 
+                {
+                    name: `Festivilion`,
+                    slot: "/db/Mines/thumbnail/magLB.png",
+                    detail: "/db/Equipment/Detail/item_detail_112351.png",
+                    skill: `50s CT - 7000% Earth DMG (MAG). For 10s, increase own MAG DMG by 40% and reduce enemies' MAG RES by 30%.`,
+                    skillbreak: 900,
+                    passive: 
+                        {
+                            ability1: `When equipped by Elenore, the Skill CT Speed buff and Equip CT Speed buff from Super Arts will start at 60% and 28% respectively (MAX effect will not be affected). Does not stack with Abilities of the same name.`,
                             ability2: `Increase own BE Output by 10%.`
                         }
                 },
@@ -32464,6 +32488,14 @@ const UnitInformation = [
                 ability1: `Increase Human allies' Status ailment RES (except Faint) by 100%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own MAG RES by 20%.`,
                 ability3: `Increase DMG against Enemies under 30% HP by 20%.`
+            }, 
+        passiveJP: 
+            {
+                ability1: `Increase Human allies' Status ailment RES (except Faint) by 100%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own MAG RES by 20%.`,
+                ability3: `Increase DMG against Enemies under 30% HP by 20%.`,
+                ability4: `Unit EXP UP 20% UP. (When Selia, Sourcescript Witch's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Selia, Sourcescript Witch's SP. Art is owned)`
             }, 
         evolution: 
             {
