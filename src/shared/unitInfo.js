@@ -46833,7 +46833,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Youmu Konpaku's Tower Sword",
+                name: "Roukanken",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155171.png",
                 skill: "50s CT - 12000% Earth DMG (PHY). If user is Earth, for 10s, reduce enemies' DMG RES by 20%. Additionally if user is above 80% HP, reduce enemies' DMG RES by an additional 15%.",
@@ -46846,8 +46846,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -46915,7 +46915,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Yuyuko Saigyouji's Fan",
+                name: "Yuyuko's Fan",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155181.png",
                 skill: "35s CT - 4000% Dark DMG (MAG). For 10s, reduce enemies' Paralysis RES by 50%.",
@@ -46928,8 +46928,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {

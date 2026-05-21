@@ -4618,6 +4618,40 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 138,
+        date: `May 21, 2026`,
+        article: 
+        {
+            intro: `Part 2 of the Touhou LostWord Collab has arrived in Global!`,
+            new:
+                {
+                    units: [
+                        [`Youmu Konpaku`, 108357312],
+                        [`Yuyuko Saigyouji`, 108367512],
+                    ],
+                    equips: [
+                        [`Reimu's Ribbon`, 155131],
+                        [`True "Roukanken"`, 155171],
+                        [`True "Yuyuko's Fan"`, 155181],
+                        [`Hakurouken`, 155191],
+                        [`Roukanken`, 155201],
+                        [`Youmu's Dress`, 155211],
+                        [`Youmu's Hairband`, 155221],
+                        [`Yuyuko's Fan`, 155231],
+                        [`Yuyuko's Kimono`, 155241],
+                        [`Yuyuko's Hat`, 155251],
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -54513,8 +54513,7 @@ const EquipInformation = [
     },
     {
         id: 155131,
-        name: `博麗霊夢のリボン`,
-        translate: `Reimu Hakurei's Ribbon`,
+        name: `Reimu's Ribbon`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image:
@@ -54540,7 +54539,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155141,
@@ -54634,8 +54633,7 @@ const EquipInformation = [
     },
     {
         id: 155171,
-        name: `真『魂魄妖夢の楼観剣』`,
-        translate: `True "Youmu Konpaku's Tower Sword"`,
+        name: `True "Roukanken"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54661,12 +54659,11 @@ const EquipInformation = [
                 ability1: `When equipped by Youmu, increase own ATK by 60%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Physical RES by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155181,
-        name: `真『西行寺幽々子の扇子』`,
-        translate: `True "Yuyuko Saigyouji's Fan"`,
+        name: `True "Yuyuko's Fan"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54692,12 +54689,11 @@ const EquipInformation = [
                 ability1: `When equipped by Yuyuko, increase own ATK by 20% and Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Magic DMG by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155191,
-        name: `魂魄妖夢の白楼剣`,
-        translate: `Youmu Konpaku's White Tower Sword`,
+        name: `Hakurouken`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54723,12 +54719,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155201,
-        name: `魂魄妖夢の楼観剣`,
-        translate: `Youmu Konpaku's Tower Sword`,
+        name: `Roukanken`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -54754,12 +54749,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155211,
-        name: `魂魄妖夢の服`,
-        translate: `Youmu Konpaku's Dress`,
+        name: `Youmu's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54785,12 +54779,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155221,
-        name: `魂魄妖夢のカチューシャ`,
-        translate: `Youmu Konpaku's Headband`,
+        name: `Youmu's Hairband`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -54816,12 +54809,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155231,
-        name: `西行寺幽々子の扇子`,
-        translate: `Yuyuko Saigyouji's Fan`,
+        name: `Yuyuko's Fan`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54847,12 +54839,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155241,
-        name: `西行寺幽々子の服`,
-        translate: `Yuyuko Saigyouji's Dress`,
+        name: `Yuyuko's Kimono`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -54878,12 +54869,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155251,
-        name: `西行寺幽々子の帽子`,
-        translate: `Yuyuko Saigyouji's Hat`,
+        name: `Yuyuko's Hat`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image:
@@ -54909,7 +54899,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155261,
