@@ -4652,6 +4652,35 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 139,
+        date: `May 29, 2026`,
+        article: 
+        {
+            intro: `Chapter 37 has arrived to JP, featuring a new variant of Mizuki the 12th, alongside his respective equips and 3 new Elemental Ruins equips!`,
+            new:
+                {
+                    units: [
+                        [`Mizuki the 12th, Seven Heavens Armor`, 104267212]
+                    ],
+                    equips: [
+                        [`真『哭霧』`, 113931],
+                        [`シノビ七天装`, 113941],
+                        [`神樹の双剣『哭霧』`, 113951],
+                        [`行商戦槌「ヨイドーレ』`, 113961],
+                        [`行商拳銃「イラッシャー』`, 113971],
+                        [`行商賢杖「ソロヴァン』`, 113981]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

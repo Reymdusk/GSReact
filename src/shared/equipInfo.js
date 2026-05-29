@@ -39015,6 +39015,192 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113931,
+        name: `真『哭霧』`,
+        translate: `True "Weeping Mist"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 8000% Water DMG (Physical). For 8s, reduce enemies' Water resistance by 40%. Additionally if user is Human, for 8s, increase own DMG by 50%.`,
+                skillbreak: 1700
+            },
+        passive:
+            {
+                ability1: `When equipped by Mizuki the 12th, Seven Heavens Armor, increase own DMG by 50% and Third Eye duration by 30s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113941,
+        name: `シノビ七天装`,
+        translate: `Shinobi Seven Heavers Armor`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 3000% Water DMG (Physical). For 10s, increase own Skill CT Speed by 20%. Additionally if user is Human, increase own Arts by 10.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `Increase own Freeze resistance by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113951,
+        name: `神樹の双剣『哭霧』`,
+        translate: `Divine Tree's Twin Daggers "Weeping Mist"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `15s CT - 4000% Water DMG (Physical). Consume 15% of own MAX HP and increase own Arts by 15. For 10s, increase own CRI DMG by 50%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Increase own Evasion rate by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113961,
+        name: `行商戦槌「ヨイドーレ』`,
+        translate: `Peddler's Warhammer "Yoidore"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `100s CT - 7200% Fire DMG (Physical). For 25s, increase allies' Physical DMG by 40%. If user is Fire, increase allies' Physical DMG by 60% instead.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `Increase own Burn resistance by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113971,
+        name: `行商拳銃「イラッシャー』`,
+        translate: `Peddler's Pistol "Irasha"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 7000% Water DMG (Magic). Increase user's Arts by 15. Additionally if user is Water, for 15s, increase all stats by 15%.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `Increase own BE Output by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 113981,
+        name: `行商賢杖「ソロヴァン』`,
+        translate: `Peddler's Staff "Solovan"`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113981.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - For 12s, increase allies' stats by 30%. Additionally if user is Earth, for 12s, heal allies' HP by 400/s.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase allies' Skill CT Speed by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,

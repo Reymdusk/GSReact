@@ -32450,8 +32450,10 @@ const UnitInformation = [
             {
                 detailawk: "/db/Units/Detail/unit_detail_104106212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_104107212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_410_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104106212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104107212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104107212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_410_1.png"
             },
         slots: 
             {
@@ -32478,7 +32480,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: `20000% Water DMG (MAG). For 40s, increase allies' Equip CT Speed by 20%. Additionally when used for the first time, increase allies' Arts by 100.`,
                 artsbreak: 1200,
-                truearts: `55000% Water DMG (MAG). For 25s, reduce enemies' Water RES by 80% and increase >50% HP Allies' Arts by 5/s.\n>Note: This Unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                truearts: `55000% Water DMG (MAG). For 25s, reduce enemies' Water RES by 80% and increase >50% HP Allies' Arts by 5/s.\nNote: This Unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
                 trueartsbreak: 1800,
                 superarts: `160000% Water DMG (MAG). 100% chance to inflict Freeze for 5s. Increase own CRI rate by 100%, Super CRI rate by 50%, and Super CRI rate by an additional 50% against Frozen enemies for the duration of Super Arts.`,
                 superartsbreak: 2400
@@ -33566,6 +33568,84 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Jayn, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own PHY RES by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104267212,
+        name: `Mizuki the 12th, Seven Heavens Armor`,
+        attribute: `Water`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104266212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104267212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104266212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104267212.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats:
+            {
+                hp: 7086,
+                hpplus: 1315,
+                atk: 3912,
+                atkplus: 724,
+                def: 3185,
+                defplus: 624
+            },
+        skillset:
+            {
+                skill: `14s CT - 4000% Water DMG (PHY). Increase own Arts by 30. If used during Third Eye (Zero), increase own Arts by an additional 20.`,
+                skillbreak: 500,
+                arts: `25000% Water DMG (PHY). Increase allies' (except self) Arts by 20. Additionally if used during Third Eye (Zero), for 7s, increase >50% HP Allies' Arts by 5/s.\nNote: This unit's Arts Gen is Type F and will not stack with other Type F Arts Gen.`,
+                artsbreak: 800,
+                truearts: `100000% Water DMG (PHY). For 20s, reduce enemies' PHY RES by 150%.`,
+                trueartsbreak: 1300,
+                superarts: `For 180s, enter Third Eye. During Third Eye (Zero): 300000% Water DMG (PHY). For 20s, increase allies' CRI DMG by 300%. Additionally, reduce remaining Third Eye (Zero) duration by 30s.`,
+                superartsbreak: 2000
+            },
+        passive:
+            {
+                ability1: `When in Third Eye or Third Eye Zero, increase own CRI rate by 100% and Super CRI rate by 70%. Does not stack with Abilities of the same name.`,
+                ability2: `When Third Eye is activated, activate Third Eye Zero instead if there are no other Human allies (except self) in party. When in Third Eye Zero, increase own Super CRI rate by an additional 30% and stats by 30%. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Hellfire RES by 80%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Frostspite Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Weeping Mist",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113931.png",
+                skill: "60s CT - 8000% Water DMG (PHY). For 8s, reduce enemies' Water RES by 40%. Additionally if user is Human, for 8s, increase own DMG by 50%.",
+                skillbreak: 1700,
+                passive:
+                    {
+                        ability1: "When equipped by Mizuki the 12th, Seven Heavens Armor, increase own DMG by 50% and Third Eye duration by 30s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Accuracy by 10%."
                     }
             },
         lore:
