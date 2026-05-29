@@ -33156,6 +33156,7 @@ const UnitInformation = [
                 {
                     name: "Argonaut",
                     slot: "/db/Mines/thumbnail/suppLB6.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_113581.png",
                     detail: "/db/Equipment/Detail/item_detail_113581.png",
                     skill: "40s CT - 5000% Water DMG (Physical). Increase allies' Arts by 40. For 10s, increase allies' Physical DMG by 50%.",
                     skillbreak: 300,
@@ -33169,6 +33170,7 @@ const UnitInformation = [
                 {
                     name: "Siegfried",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_104301.png",
                     detail: "/db/Equipment/Detail/item_detail_104301.png",
                     skill: "3s CT - 900% Elementless DMG (PHY). Deal 1200% Elementless DMG (PHY) to Demon and God Enemies instead. If this attack hits an Enemy, heal own HP by 50 + For 3s, reduce own DEF by 20%.",
                     skillbreak: 240,
