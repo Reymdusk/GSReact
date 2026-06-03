@@ -35829,10 +35829,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //真『7thアルテミス』 - JP Complete
+    { //True "Seventh Artemis" - Missing Lore
         id: 112901,
-        name: `真『7thアルテミス』`,
-        translate: `True "7th Artemis"`,
+        name: `True "Seventh Artemis"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35855,15 +35854,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Star Swordswoman Rosetta, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Rosetta, Forger of Fortitude, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //星章剣『7thアルテミス』 - JP Complete
+    { //Star Sword "Seventh Artemis" - Missing Lore
         id: 112911,
-        name: `星章剣『7thアルテミス』`,
-        translate: `Star Sword "7th Artemis"`,
+        name: `Star Sword "Seventh Artemis"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35888,12 +35886,11 @@ const EquipInformation = [
             {
                 ability1: `Reduce own Status resistance by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //星翔衣『アルペンステラ』 - JP Complete
+    { //Comettail Dress "Alpen Stella" - Missing Lore
         id: 112921,
-        name: `星翔衣『アルペンステラ』`,
-        translate: `Star Costume "Alpine Stella"`,
+        name: `Comettail Dress "Alpen Stella"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -35918,7 +35915,7 @@ const EquipInformation = [
             {
                 ability1: `Increase own MAX HP by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //Cane of Stillness "Prying Dawn" - Missing Lore
         id: 112931,

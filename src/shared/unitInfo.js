@@ -32186,17 +32186,19 @@ const UnitInformation = [
                 evosuper: "Despite suffering from amnesia, she is accustomed to scrapping. Already unbeatable in a one-on-one match, the metallic wings provided by Yuzukichi and the all-purpose weapon Multiple turn her into a force to be reckoned with. The belief burning deep in her heart ignites her spirit to soar across the blue skies, taking the students of the academy to destinations unknown."
             }
     },
-    { //Star Swordswoman Rosetta - Missing Lore (JP)
+    { //Rosetta, Forger of Fortitude
         id: 104087212,
-        name: `Star Swordswoman Rosetta`,
+        name: `Rosetta, Forger of Fortitude`,
         attribute: `Water`,
         type: `Demon`,
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104086212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_104087212.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_408_1.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104086212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104087212.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104087212.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_408_1.png"
             },
         slots: 
             {
@@ -32221,18 +32223,18 @@ const UnitInformation = [
             {
                 skill: `12s CT - 2800% Water DMG (MAG). For 10s, reduce enemies' Evasion rate by 30%.`,
                 skillbreak: 700,
-                arts: `20000% Water DMG (MAG). For 15s, reduce enemies' MAG RES by 70%. If used during Magia Drive: Unlimited, reduce enemies' MAG RES by 140% instead.`,
+                arts: `20000% Water DMG (MAG). For 15s, reduce enemies' MAG RES by 70%. If used during Magia Drive Unlimited, reduce enemies' MAG RES by 140% instead.`,
                 artsbreak:  1200,
-                truearts: `55000% Water DMG (MAG). For 25s, increase allies' Arts by 4/s. Additionally if used during Magia Drive/Magia Drive: Unlimited, increase Water allies' Arts by 40.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
+                truearts: `55000% Water DMG (MAG). For 25s, increase allies' Arts by 4/s. Additionally if used during Magia Drive (Unlimited), increase Water allies' Arts by 40.\nNote: This unit's Arts Gen is Type B and will not stack with other Type B Arts Gen.`,
                 trueartsbreak: 2000,
-                superarts: `When used during Magia Drive: Unlimited: 170000% Water DMG (MAG). Each time Super Arts is used, permanently increase allies' MAG DMG by 100% (MAX: 300%).`,
+                superarts: `When used during Magia Drive (Unlimited): 170000% Water DMG (MAG). Each time Super Arts is used, permanently increase allies' MAG DMG by 100% (MAX: 300%).`,
                 superartsbreak: 2800
             },
         passive: 
             {
-                ability1: `If Super Arts is used while not in Magia Drive/Magia Drive: Unlimited, increase own Arts by 150 and enter Magia Drive. Enter Magia Drive: Unlimited instead if ownself is above 85% HP.`,
+                ability1: `If Super Arts is used while not in Magia Drive/Magia Drive Unlimited, increase own Arts by 150 and enter Magia Drive. Enter Magia Drive Unlimited instead if ownself is above 85% HP.`,
                 ability2: `During Magia Drive, increase own Arts by 7/s. When own HP falls below 30%, exit out of Magia Drive.`,
-                ability3: `During Magia Drive: Unlimited, increase own CRI rate and CRI DMG by 100%. When own HP falls below 60%, exit out of Magia Drive: Unlimited.`,
+                ability3: `During Magia Drive Unlimited, increase own CRI rate and CRI DMG by 100%. When own HP falls below 60%, exit out of Magia Drive Unlimited.`,
                 ability4: `Increase Demon allies' stats by 30%.`
             }, 
         evolution: 
@@ -32248,21 +32250,21 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `7th Artemis`,
+                    name: `Seventh Artemis`,
                     slot: "/db/Mines/thumbnail/magLB.png",
                     detail: "/db/Equipment/Detail/item_detail_112901.png",
                     skill: `55s CT - 8000% Water DMG (MAG). For 10s, increase own CRI DMG by 50%. If user is Water, increase own CRI DMG by 100% instead.`,
                     skillbreak: 800,
                     passive: 
                         {
-                            ability1: `When equipped by Star Swordswoman Rosetta, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                            ability1: `When equipped by Rosetta, Forger of Fortitude, increase own Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
                             ability2: `Increase own ATK by 5%.`
                         }
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Misette - Complete

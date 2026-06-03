@@ -4681,6 +4681,32 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 140,
+        date: `June 3, 2026`,
+        article: 
+        {
+            intro: `Chapter 33 of the Main Story has been released on Global!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Rosetta, Forger of Fortitude`, 104087212]
+                    ],
+                    equips: [
+                        [`True "Seventh Artemis"`, 112901],
+                        [`Star Sword "Seventh Artemis"`, 112911],
+                        [`Comettail Dress "Alpen Stella"`, 112921]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 
