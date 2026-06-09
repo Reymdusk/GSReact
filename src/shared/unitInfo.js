@@ -43965,7 +43965,7 @@ const UnitInformation = [
             {
                 rank: 4,
                 defense: 1.30,
-                artgen: 1.67,
+                artgen: 1.78,
                 damage: 3.66,
                 buffs: 2.57,
                 heal: 0.00,
