@@ -4707,6 +4707,32 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 141,
+        date: `June 9, 2026`,
+        article: 
+        {
+            intro: `Chapter 38 of the Main Story has been released on JP, featuring a new Rayas and his equips!`,
+            new:
+                {
+                    units: [
+                        [`Guild Master Rayas`, 104247412]
+                    ],
+                    equips: [
+                        [`真『グランスケル・アルビオン』`, 113991],
+                        [`ギルドマスターの服`, 114001],
+                        [`グランスケル・アルビオン`, 114011]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

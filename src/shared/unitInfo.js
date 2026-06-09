@@ -30372,9 +30372,11 @@ const UnitInformation = [
                 detailawk: "/db/Units/Detail/unit_detail_103826212.png",
                 detailsuper: "/db/Units/Detail/unit_detail_103827212.png",
                 detailspecial: "/db/Units/Special/Detail/unit_sp_detail_382_1.png",
+                detailspecial2: "/db/Units/Special/Detail/unit_sp_detail_382_2.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103826212.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103827212.png",
-                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_382_1.png"
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_382_1.png",
+                thumbspecial2: "/db/Units/Special/Thumbnail/unit_sp_icon_382_2.png"
             },
         slots: 
             {
@@ -33494,6 +33496,86 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Morq, increase own ATK by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Heal own HP by 10/s."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 104247412,
+        name: `Guild Master Rayas`,
+        attribute: `Light`,
+        type: `Human`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_104246412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_104247412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_104246412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_104247412.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats:
+            {
+                hp: 6937,
+                hpplus: 1277,
+                atk: 3787,
+                atkplus: 714,
+                def: 3337,
+                defplus: 646
+            },
+        skillset:
+            {
+                skill: `13s CT - 4000% Light DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 700,
+                arts: `24000% Light DMG (PHY). For 20s, increase allies' Light DMG by 50%. Additionally, each time Arts is used, permanently increase allies' MAX HP by 15% (MAX: 60%).`,
+                artsbreak: 1000,
+                truearts: `70000% Light DMG (PHY). Increase allies' Arts by 60. For 25s, increase allies' CRI rate by 100%.`,
+                trueartsbreak: 1800,
+                superarts: `170000% Light DMG (PHY). For 35s, increase Human allies' ATK by 150%. Additionally, each time Super Arts is used, permanently increase own Super CRI rate by 10% (MAX: 50%).`,
+                superartsbreak: 2400,
+                exarts: `Albion Blaze: 150s CT - 350000% Light DMG (PHY). Refresh allies' PHY Equip CT. For 30s, increase allies' Super CRI rate by 30%.`,
+                exartsbreak: 3000
+            },
+        passive:
+            {
+                ability1: `When ownself is Leader, increase allies' Arts by 3/s. Does not stack with Abilities of the same name. Note: This unit's Arts Gen is Type EX2 and will stack with all other Arts Gen effects apart from the same unit.`,
+                ability2: `Increase own DMG by 50% against Enemies under 30% HP.`,
+                ability3: `Increase own Dark RES by 25%.`,
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglint Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Grand Scale Albion",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_113991.png",
+                skill: "70s CT - 7000% Light DMG (PHY). For 15s, increase own Light DMG by 30%. Additionally if user is Human, for 15s, increase allies' PHY DMG by 40% (stackable).",
+                skillbreak: 700,
+                passive:
+                    {
+                        ability1: "When equipped by Guild Master Rayas, increase own Arts by 2/s and reduce EX - Albion Blaze's cooldown by 30s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
                     }
             },
         lore:

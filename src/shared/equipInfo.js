@@ -39198,6 +39198,99 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 113991,
+        name: `真『グランスケル・アルビオン』`,
+        translate: `True "Grand Scale Albion"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_113990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_113991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_113990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_113991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `70s CT - 7000% Light DMG (Physical). For 15s, increase own Light DMG by 30%. Additionally if user is Human, for 15s, increase allies' Physical DMG by 40% (stackable).`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: `When equipped by Guild Master Rayas, increase own Arts by 2/s and reduce EX - Albion Blaze's cooldown by 30s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114001,
+        name: `ギルドマスターの服`,
+        translate: `Guild Master's Clothes`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase own Arts by 10. For 20s, increase allies' Light resistance and Dark resistance by 25%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own DEF by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114011,
+        name: `グランスケル・アルビオン`,
+        translate: `Grand Scale Albion`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `180s CT - 16000% Light DMG (Physical). For 12s, increase own Physical DMG and CRI DMG by 70%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `Reduce own Status resistance by 70%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,
