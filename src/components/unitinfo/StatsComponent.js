@@ -143,6 +143,8 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                 </Row> 
             }
 
+
+
             { unitSkill.superequipname && 
                 <Row>
                     <h3><strong>Super "{unitSkill.superequipname}"</strong></h3>
@@ -169,6 +171,14 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                         unitReview.superarts && isReview && <UnitReviews review={unitReview.superarts} />
                     }
                 </Row> 
+            }
+
+            {
+                unitSkill.exarts && 
+                <Row>
+                    <h3><strong>EX ARTS</strong></h3>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.exartsbreak}</Badge> {unitSkill.exarts}</p></center>
+                </Row>
             }
             
         </center>
@@ -247,21 +257,38 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
                         <TabPane tabId="2">
                             <RenderDetail detail={unitImage.detailspecial} />
                         </TabPane>
+                        {
+                            unitImage.thumbspecial2 
+                            &&
+                            <TabPane tabId="3">
+                                <RenderDetail detail={unitImage.detailspecial2} />
+                            </TabPane> 
+                        }
                     </TabContent>
                     <p style={{marginTop: "2em"}}>This unit has a Special Illustration. <br/>You may toggle between the Super Artwork and the Special Artwork</p>
-                    <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"20rem"}}>
-                    <NavItem>
-                        <NavLink className={classnames({ active: specialShift === '1' })}
-                            onClick={() => {spToggle('1')}} >
-                                <Media src={unitImage.thumbsuper} object-fit="cover" id="unitName" style={{width: "75px" }}/>
-                        </NavLink> 
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className={classnames({ active: specialShift === '2' })}
-                            onClick={() => {spToggle('2')}} >
-                                <Media src={unitImage.thumbspecial} object-fit="cover" id="unitName" style={{width: "75px" }}/>
-                        </NavLink>
-                    </NavItem>
+                    <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"30rem"}}>
+                        <NavItem>
+                            <NavLink className={classnames({ active: specialShift === '1' })}
+                                onClick={() => {spToggle('1')}} >
+                                    <Media src={unitImage.thumbsuper} object-fit="cover" id="unitName" style={{width: "75px" }}/>
+                            </NavLink> 
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className={classnames({ active: specialShift === '2' })}
+                                onClick={() => {spToggle('2')}} >
+                                    <Media src={unitImage.thumbspecial} object-fit="cover" id="unitName" style={{width: "75px" }}/>
+                            </NavLink>
+                        </NavItem>
+                        {
+                            unitImage.thumbspecial2
+                            &&
+                            <NavItem>
+                                <NavLink className={classnames({ active: specialShift === '3' })}
+                                    onClick={() => {spToggle('3')}} >
+                                        <Media src={unitImage.thumbspecial2} object-fit="cover" id="unitName" style={{width: "75px" }}/>
+                                </NavLink>
+                            </NavItem>
+                        }
                     </Nav>
                 </>
                 :
