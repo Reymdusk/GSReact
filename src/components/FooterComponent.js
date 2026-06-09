@@ -22,6 +22,7 @@ function Footer () {
                     </center>
                 </Row>
  */
+    const currentYear = new Date().getFullYear();
     return (
         <React.Fragment>
             <Container>
@@ -31,7 +32,7 @@ function Footer () {
                         <Card md="3" style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
                             <p style={{paddingTop: "1rem", justifyItems: "center"}}><center><i>The website grandsummoners.info is not<br /> affiliated with nor endorsed by NextNinja. 
                                 <br />All images belong to NextNinja.</i></center></p> 
-                            <p><center><i><FaRegCopyright /> grandsummoners.info 2022</i></center></p>
+                            <p><center><i><FaRegCopyright /> grandsummoners.info {currentYear}</i></center></p>
                         </Card>
                         <Card md="3" style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
                             <Nav fill vertical>  
