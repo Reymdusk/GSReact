@@ -23685,7 +23685,7 @@ const UnitInformation = [
                 artgen: 2.78,
                 damage: 0.63,
                 buffs: 0.72,
-                heal: 3.65,
+                heal: 3.95,
                 break: 0.00
             },
         twrequire: "favorable",
@@ -27576,7 +27576,7 @@ const UnitInformation = [
         name: "War Hero Fen",
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 1.52,
                 artgen: 3.01,
                 damage: 2.79,
@@ -27695,7 +27695,7 @@ const UnitInformation = [
                 artgen: 0.00,
                 damage: 1.96,
                 buffs: 0.51,
-                heal: 0.00,
+                heal: 0.31,
                 break: 0.00
             },
         attribute: "Water",
@@ -27887,7 +27887,7 @@ const UnitInformation = [
         name: "Kirisame",
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 5.00,
                 artgen: 0.00,
                 damage: 0.00,
@@ -28303,7 +28303,7 @@ const UnitInformation = [
         name: "Hazuki",
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 1.98,
                 artgen: 0.00,
                 damage: 3.18,
@@ -29031,11 +29031,11 @@ const UnitInformation = [
         name: "Jay",
         tier: 
             {
-                rank: 3,
-                defense: 0.69,
+                rank: 4,
+                defense: 0.68,
                 artgen: 0.43,
                 damage: 3.63,
-                buffs: 1.34,
+                buffs: 1.33,
                 heal: 0.00,
                 break: 0.00
             },
@@ -30156,7 +30156,7 @@ const UnitInformation = [
         name: "Isliid, Human Pinnacle",
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 1.35,
                 artgen: 4.89,
                 damage: 1.92,
@@ -31219,7 +31219,7 @@ const UnitInformation = [
                 artgen: 0.00,
                 damage: 2.74,
                 buffs: 1.24,
-                heal: 0.00,
+                heal: 0.51,
                 break: 0.00
             },
         attribute: `Fire`,
@@ -31457,7 +31457,7 @@ const UnitInformation = [
         translate: `Sword God Luahn`,
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 0.00,
                 artgen: 0.52,
                 damage: 3.81,
@@ -32193,6 +32193,16 @@ const UnitInformation = [
         name: `Rosetta, Forger of Fortitude`,
         attribute: `Water`,
         type: `Demon`,
+        tier: 
+            {
+                rank: 4,
+                defense: 0.00,
+                artgen: 2.62,
+                damage: 3.15,
+                buffs: 3.38,
+                heal: 0.00,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104086212.png",
@@ -42770,7 +42780,7 @@ const UnitInformation = [
         name: `OiKatzo`,
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 1.04,
                 artgen: 0.00,
                 damage: 4.34,
@@ -45614,7 +45624,7 @@ const UnitInformation = [
                 artgen: 4.06,
                 damage: 3.26,
                 buffs: 1.26,
-                heal: 0.20,
+                heal: 1.28,
                 break: 0.00
             },
         attribute: `Light`,
@@ -46070,7 +46080,7 @@ const UnitInformation = [
         name: `Momo`,
         tier: 
             {
-                rank: 3,
+                rank: 4,
                 defense: 2.81,
                 artgen: 0.53,
                 damage: 3.76,
@@ -46807,6 +46817,16 @@ const UnitInformation = [
         name: `Reimu Hakurei`,
         attribute: `Fire`,
         type: `Human`,
+        tier: 
+            {
+                rank: 4,
+                defense: 2.39,
+                artgen: 3.65,
+                damage: 1.80,
+                buffs: 0.08,
+                heal: 0.29,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108336112.png",
@@ -46889,6 +46909,16 @@ const UnitInformation = [
         name: `Marisa Kirisame`,
         attribute: `Light`,
         type: `Human`,
+        tier: 
+            {
+                rank: 4,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 4.55,
+                buffs: 0.47,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108346412.png",
@@ -46971,6 +47001,16 @@ const UnitInformation = [
         name: `Youmu Konpaku`,
         attribute: `Earth`,
         type: `Spirit`,
+        tier: 
+            {
+                rank: 6,
+                defense: 0.00,
+                artgen: 1.25,
+                damage: 3.58,
+                buffs: 0.36,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108356312.png",
@@ -47053,6 +47093,16 @@ const UnitInformation = [
         name: `Yuyuko Saigyouji`,
         attribute: `Dark`,
         type: `Spirit`,
+        tier: 
+            {
+                rank: 6,
+                defense: 0.00,
+                artgen: 0.99,
+                damage: 3.34,
+                buffs: 2.15,
+                heal: 2.41,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108366512.png",
