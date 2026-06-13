@@ -265,7 +265,11 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
                             </TabPane> 
                         }
                     </TabContent>
-                    <p style={{marginTop: "2em"}}>This unit has a Special Illustration. <br/>You may toggle between the Super Artwork and the Special Artwork</p>
+                    {unitImage.thumbspecial2 ? (
+                        <p style={{marginTop: "2em"}}>This unit has 2 Special Illustrations. <br/>You may toggle between the Super Artwork and the Special Artworks</p>
+                    ) : (
+                        <p style={{marginTop: "2em"}}>This unit has a Special Illustration. <br/>You may toggle between the Super Artwork and the Special Artwork</p>
+                    )}
                     <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"30rem"}}>
                         <NavItem>
                             <NavLink className={classnames({ active: specialShift === '1' })}

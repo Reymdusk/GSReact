@@ -36182,10 +36182,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //侵蝕の杖『ディープレイ』 - JP Complete
+    {
         id: 113021,
-        name: `侵蝕の杖『ディープレイ』`,
-        translate: `Staff of Erosion "Deep Ray"`,
+        name: `Cane of Corrosion "Deep Ray"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36210,12 +36209,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //魔族史書『デスコード』 - JP Complete
+    {
         id: 113031,
-        name: `魔族史書『デスコード』`,
-        translate: `Book of Demon History "Death Code"`,
+        name: `Demon History "Discord"`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36240,12 +36238,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //千骸の剣『ウォークライ』 - JP Complete
+    {
         id: 113041,
-        name: `千骸の剣『ウォークライ』`,
-        translate: `Sword of Thousand Skeletons "Warcry"`,
+        name: `Sword of Corpses "War Cry"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36270,12 +36267,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //選定の薬瓶『アナザーワン』 - JP Complete
+    {
         id: 113051,
-        name: `選定の薬瓶『アナザーワン』`,
-        translate: `Vials of Choice "Another One"`,
+        name: `Vials of Selection "Blind Test"`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -36300,12 +36296,11 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //断絶の兜『ルナティックラグ』 - JP Complete
+    {
         id: 113061,
-        name: `断絶の兜『ルナティックラグ』`,
-        translate: `Disintegration Helmet "Lunatic Rag"`,
+        name: `Helmet of Isolation "Lunatic Lag"`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36330,7 +36325,7 @@ const EquipInformation = [
             {
                 ability1: `At Start of Quest, increase Demon allies' Arts by 10. Does not stack with Abilities of the same name.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //真『アースクレイム』 - JP Complete
         id: 113071,
@@ -55629,8 +55624,7 @@ const EquipInformation = [
     },
     {
         id: 155411,
-        name: `真『悪魔王の短剣』`,
-        translate: `True "Demon King's Dagger"`,
+        name: `True "Demon Monarch's Dagger"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55653,15 +55647,15 @@ const EquipInformation = [
             },
         passive:
             {
-                ability1: `When equipped by Sung Jin-woo, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Sung Jinwoo, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against enemies in BREAK by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155421,
         name: `真『向坂 雫の剣』`,
-        translate: `True "Cha Hae-in's Sword"`,
+        translate: `True "Cha Hae-In's Sword"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55684,15 +55678,14 @@ const EquipInformation = [
             },
         passive:
             {
-                ability1: `When equipped by Cha Hae-in, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Cha Hae-In, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
     {
         id: 155431,
-        name: `悪魔王の長剣`,
-        translate: `Demon King's Longsword`,
+        name: `Demon Monarch's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55718,12 +55711,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155441,
-        name: `悪魔王の短剣`,
-        translate: `Demon King's Dagger`,
+        name: `Demon Monarch's Dagger`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55749,12 +55741,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155451,
-        name: `水篠 旬の服`,
-        translate: `Sung Jin-woo's Clothes`,
+        name: `Jinwoo's Clothes`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -55780,12 +55771,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155461,
-        name: `カサカの毒牙`,
-        translate: `Kasaka's Venomous Fang`,
+        name: `Kasaka's Venom Fang`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image:
@@ -55811,12 +55801,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155471,
-        name: `ナイトキラー`,
-        translate: `Night Killer`,
+        name: `Knight Killer`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image:
@@ -55842,12 +55831,12 @@ const EquipInformation = [
                 ability1: `Increase own ATK by 5%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155481,
         name: `向坂 雫のガントレット`,
-        translate: `Cha Hae-in's Gauntlets`,
+        translate: `Cha Hae-In's Gauntlets`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -55878,7 +55867,7 @@ const EquipInformation = [
     {
         id: 155491,
         name: `向坂 雫の剣`,
-        translate: `Cha Hae-in's Sword`,
+        translate: `Cha Hae-In's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55909,7 +55898,7 @@ const EquipInformation = [
     {
         id: 155501,
         name: `向坂 雫の鎧`,
-        translate: `Cha Hae-in's Armor`,
+        translate: `Cha Hae-In's Armor`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -55939,8 +55928,7 @@ const EquipInformation = [
     },
     {
         id: 155511,
-        name: `真『最上 真のコート』`,
-        translate: `True "Choi Jong-in's Coat"`,
+        name: `True "Jong-In's Cloak"`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -55963,10 +55951,10 @@ const EquipInformation = [
             },
         passive:
             {
-                ability1: `When equipped by Choi Jong-in, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
+                ability1: `When equipped by Choi Jong-In, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155521,
@@ -56001,8 +55989,7 @@ const EquipInformation = [
     },
     {
         id: 155531,
-        name: `最上 真のメガネ`,
-        translate: `Choi Jong-in's Glasses`,
+        name: `Jong-In's Glasses`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -56028,12 +56015,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155541,
-        name: `最上 真の服`,
-        translate: `Choi Jong-in's Clothes`,
+        name: `Jong-In's Suit`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -56059,12 +56045,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155551,
-        name: `最上 真のコート`,
-        translate: `Choi Jong-in's Coat`,
+        name: `Jong-In's Cloak`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image:
@@ -56090,7 +56075,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155561,
@@ -56249,8 +56234,7 @@ const EquipInformation = [
     },
     {
         id: 155611,
-        name: `極「ナイトキラー』`,
-        translate: `Night Killer EV`,
+        name: `Knight Killer EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 

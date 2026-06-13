@@ -4733,6 +4733,41 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 142,
+        date: `June 13, 2026`,
+        article: 
+        {
+            intro: `Solo Leveling Collab has arrived to Global, with new units and equips from the anime!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Sung Jinwoo`, 108397512],
+                        [`Choi Jong-In`, 108417112]
+                    ],
+                    equips: [
+                        [`True "Demon Monarch's Dagger"`, 155411],
+                        [`Demon Monarch's Sword`, 155431],
+                        [`Demon Monarch's Dagger`, 155441],
+                        [`Jinwoo's Clothes`, 155451],
+                        [`Kasaka's Venom Fang`, 155461],
+                        [`Knight Killer`, 155471],
+                        [`True "Jong-In's Cloak"`, 155511],
+                        [`Jong-In's Glasses`, 155531],
+                        [`Jong-In's Suit`, 155541],
+                        [`Jong-In's Cloak`, 155551],
+                        [`Knight Killer EV`, 155611]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

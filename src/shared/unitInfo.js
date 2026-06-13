@@ -47366,7 +47366,7 @@ const UnitInformation = [
     },
     {
         id: 108397512,
-        name: `Sung Jin-woo`,
+        name: `Sung Jinwoo`,
         attribute: `Dark`,
         type: `Human`,
         image:
@@ -47413,8 +47413,8 @@ const UnitInformation = [
                 ability1: `Increase own ATK by 50% permanently each time Arts/True Arts/Super Arts is used (MAX: 500%). Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG by [1% x own ATK / 100].`,
                 ability3: `Increase own Poison RES by 100%.`,
-                ability4: `Unit EXP UP 20% UP. (When Sung Jin-woo's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sung Jin-woo's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Sung Jinwoo's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Sung Jinwoo's SP. Art is owned)`
             },
         evolution:
             {
@@ -47429,26 +47429,26 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Demon King's Dagger",
+                name: "Demon Monarch's Dagger",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155411.png",
                 skill: "50s CT - 6000% Dark DMG (PHY). For 10s, increase own Dark DMG by 60%. Additionally if used for the first time, increase own Arts by 50.",
                 skillbreak: 300,
                 passive:
                     {
-                        ability1: "When equipped by Sung Jin-woo, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Sung Jinwoo, increase own ATK by 50% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own DMG against enemies in BREAK by 10%."
                     }
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
         id: 108407412,
-        name: `Cha Hae-in`,
+        name: `Cha Hae-In`,
         attribute: `Light`,
         type: `Human`,
         image:
@@ -47495,8 +47495,8 @@ const UnitInformation = [
                 ability1: `If unaffected by Status ailment(s), increase own Skill CT Speed by 50%. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DMG against Giant Bosses by 30%.`,
                 ability3: `Increase own Blind RES by 100%.`,
-                ability4: `Unit EXP UP 20% UP. (When Cha Hae-in's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Cha Hae-in's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Cha Hae-In's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Cha Hae-In's SP. Art is owned)`
             },
         evolution:
             {
@@ -47511,14 +47511,14 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Cha Hae-in's Sword",
+                name: "Cha Hae-In's Sword",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155421.png",
                 skill: "50s CT - 4000% Light DMG (PHY). For 60s, reduce enemies' Light RES by 20% (stackable).",
                 skillbreak: 400,
                 passive:
                     {
-                        ability1: "When equipped by Cha Hae-in, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Cha Hae-In, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own DEF by 5%."
                     }
             },
@@ -47530,7 +47530,7 @@ const UnitInformation = [
     },
     {
         id: 108417112,
-        name: `Choi Jong-in`,
+        name: `Choi Jong-In`,
         attribute: `Fire`,
         type: `Human`,
         image:
@@ -47577,8 +47577,8 @@ const UnitInformation = [
                 ability1: `Increase allies' MAG DMG by 100%. If ownself is Leader, increase allies' MAG DMG by 150% instead. Does not stack with Abilities of the same name.`,
                 ability2: `When HP is above 80%, increase own Arts by 2/s.`,
                 ability3: `Increase own Accuracy rate by 30%.`,
-                ability4: `Unit EXP UP 20% UP. (When Choi Jong-in's SP. Art is owned)`,
-                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Choi Jong-in's SP. Art is owned)`
+                ability4: `Unit EXP UP 20% UP. (When Choi Jong-In's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Choi Jong-In's SP. Art is owned)`
             },
         evolution:
             {
@@ -47593,21 +47593,21 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Choi Jong-in's Coat",
+                name: "Jong-In's Cloak",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155511.png",
                 skill: "75s CT - 10000% Fire DMG (MAG). For 10s, reduce enemies' Fire RES by 30%. If user is Human, reduce enemies' Fire RES by 60% instead.",
                 skillbreak: 1000,
                 passive:
                     {
-                        ability1: "When equipped by Choi Jong-in, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Choi Jong-In, increase own DMG by 30% and Arts by 1/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own DEF by 5%."
                     }
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
