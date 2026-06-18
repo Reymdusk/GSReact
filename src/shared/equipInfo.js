@@ -30289,9 +30289,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Violet Murk Idol - Missing Lore
+    { //Golden Shrine Idol - Missing Lore
         id: 111011,
-        name: `Violet Murk Idol`,
+        name: `Golden Shrine Idol`,
         translate: `Violet Murk Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
@@ -30319,9 +30319,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Golden Shrine Idol - Missing Lore
+    { //Violet Murk Idol - Missing Lore
         id: 111021,
-        name: `Golden Shrine Idol`,
+        name: `Violet Murk Idol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -56292,7 +56292,255 @@ const EquipInformation = [
                 ability2: [`Increase own Heal Amount by 10% (excluding Lifesteal).`, `Increase own PHY RES by 10%.`, `Increase own MAG RES by 10%.`, `Increase own Accuracy rate by 10%.`, `When HP is 90% or higher, increase own ATK by 20%.`, `When HP is 90% or higher, increase own ATK by 30%.`]
             },
         lore: `Missing Lore.`
-    }
+    },
+    {
+        id: 155631,
+        name: `真『龍剣レイド』`,
+        translate: `True "Dragon Sword Reid"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 12000% Fire DMG (Physical). If user is Fire, for 10s, reduce enemies' DMG resistance by 20%. Additionally if user is above 80% HP, reduce enemies' DMG resistance by an additional 15%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `When equipped by Reinhard, increase own Accuracy rate by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Skill DMG by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155641,
+        name: `真『アイスブランド・アーツ』`,
+        translate: `True "Ice Brand Arts"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 7500% Water DMG (Magic). For 10s, increase own DMG by 50% and reduce enemies' Water resistance by 30%.`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: `When equipped by Bridal Emilia, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155651,
+        name: `『龍剣』レイド`,
+        translate: `Dragon Sword Reid`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 12000% Fire DMG (Physical). For 8s, reduce enemies' Fire resistance by 40% and Evasion rate by 30%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155661,
+        name: `近衛騎士の制服`,
+        translate: `Guard Knight Uniform`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 15s, increase allies' Fire resistance by 30%. Additionally if used for the first time, increase Human allies' Arts by 20.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155671,
+        name: `アイスブランド・アーツ`,
+        translate: `Ice Brand Arts`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6500% Water DMG (Magic). For 8s, increase own Arts DMG by 50%. Additionally if user is Water, increase own Arts by 40.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155681,
+        name: `エミリアの花嫁衣装`,
+        translate: `Emilia's Bridal Dress`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 6000% Water DMG (Magic). For 12s, increase own Magic DMG by 30%. Additionally if user's Arts gauge is below 200, increase own Arts by 50.`,
+                skillbreak: 700
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155691,
+        name: `パックのぬいぐるみ`,
+        translate: `Puck Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155691.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `30s CT - Increase allies' Arts by 20. For 10s, increase allies' MAX HP and DMG by 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155701,
+        name: `スバルの鞭`,
+        translate: `Subaru's Whip`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 3000% Fire DMG (Physical). For 10s, increase own Physical DMG by 20%. Additionally if used for the first time, increase own Arts by 20.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `Increase own Physical RES by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 ]
 
 export function getEquips() {

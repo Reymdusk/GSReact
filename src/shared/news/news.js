@@ -4768,6 +4768,43 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 143,
+        date: `June 18, 2026`,
+        article: 
+        {
+            intro: `The Re:Zero Collab has made a return to JP, featuring new units and equips, as well as Dream Awakenings for the existing Re:Zero units!`,
+            new:
+                {
+                    units: [
+                        [`Reinhard`, 108437112],
+                        [`Bridal Emilia`, 108467212]
+                    ],
+                    equips: [
+                        [`真『龍剣レイド』`, 155631],
+                        [`真『アイスブランド・アーツ』`, 155641],
+                        [`『龍剣』レイド`, 155651],
+                        [`近衛騎士の制服`, 155661],
+                        [`アイスブランド・アーツ`, 155671],
+                        [`エミリアの花嫁衣装`, 155681],
+                        [`パックのぬいぐるみ`, 155691],
+                        [`スバルの鞭`, 155701]
+                    ],
+                    dream: [
+                        [`Emilia`, 107346212],
+                        [`Rem (Re:Zero)`, 107356212],
+                        [`Ram`, 107366312],
+                        [`Beatrice`, 107376512]
+                    ]
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 
