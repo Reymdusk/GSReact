@@ -55654,8 +55654,7 @@ const EquipInformation = [
     },
     {
         id: 155421,
-        name: `真『向坂 雫の剣』`,
-        translate: `True "Cha Hae-In's Sword"`,
+        name: `True "Hae-In's Rapier"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55681,7 +55680,7 @@ const EquipInformation = [
                 ability1: `When equipped by Cha Hae-In, increase own DMG by 30% and Arts by 2/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own DEF by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155431,
@@ -55835,8 +55834,7 @@ const EquipInformation = [
     },
     {
         id: 155481,
-        name: `向坂 雫のガントレット`,
-        translate: `Cha Hae-In's Gauntlets`,
+        name: `Hae-In's Gauntlets`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -55862,12 +55860,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155491,
-        name: `向坂 雫の剣`,
-        translate: `Cha Hae-In's Sword`,
+        name: `Hae-In's Rapier`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55893,12 +55890,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155501,
-        name: `向坂 雫の鎧`,
-        translate: `Cha Hae-In's Armor`,
+        name: `Hae-In's Armor`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -55924,7 +55920,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155511,
@@ -55958,8 +55954,7 @@ const EquipInformation = [
     },
     {
         id: 155521,
-        name: `真『イグリットの剣』`,
-        translate: `True "Igris' Sword"`,
+        name: `True "Igris' Claymore"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -55985,7 +55980,7 @@ const EquipInformation = [
                 ability1: `When equipped by Igris, increase own DMG by 30% and Arts by 100 at Start of Quest. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own Dark resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155531,
@@ -56079,8 +56074,7 @@ const EquipInformation = [
     },
     {
         id: 155561,
-        name: `イグリットの剣`,
-        translate: `Igris' Sword`,
+        name: `Igris' Claymore`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -56106,12 +56100,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155571,
-        name: `イグリットの鎧`,
-        translate: `Igris' Armor`,
+        name: `Igris' Armor`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image:
@@ -56137,12 +56130,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155581,
-        name: `アイアンの斧`,
-        translate: `Iron Axe`,
+        name: `Iron's Axe`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image:
@@ -56168,12 +56160,11 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155591,
-        name: `アイアンの盾`,
-        translate: `Iron Shield`,
+        name: `Iron's Shield`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image:
@@ -56199,12 +56190,11 @@ const EquipInformation = [
                 ability1: `Increase own DEF by 5%.`,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155601,
-        name: `ポーション(命の神水)`,
-        translate: `Holy Water of Life`,
+        name: `Elixir of Life`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image:
@@ -56230,7 +56220,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     {
         id: 155611,
@@ -56264,8 +56254,7 @@ const EquipInformation = [
     },
     {
         id: 155621,
-        name: `極『アイアンの盾』`,
-        translate: `Iron Shield EV`,
+        name: `Iron's Shield EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -56541,6 +56530,254 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 155711,
+        name: `真『レムの棘鉄球』`,
+        translate: `True "Rem's Spiked Iron Ball"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 5000% Dark DMG (Physical). For 10s, reduce enemies' Dark resistance by 40%. Additionally if user is Demon, for 10s, increase own ATK by 40%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Demon Rem, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155721,
+        name: `真『強欲の魔女の服』`,
+        translate: `True "Greedy Witch's Outfit"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 10000% Earth DMG (Magic). For 8s, reduce enemies' Earth resistance by 30%. Additionally if user is God, for 10s, reduce enemies' DMG resistance by 20%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Echidna, increase own MAX HP, DEF and Heal Amount (excluding Lifesteal) by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Magic RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155731,
+        name: `レムの棘鉄球`,
+        translate: `Rem's Spiked Iron Ball`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `70s CT - 12000% Dark DMG (Physical). For 15s, increase own Physical DMG by 100% and reduce enemies' Dark resistance by 25%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155741,
+        name: `ラムの杖`,
+        translate: `Ram's Staff`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 10000% Earth DMG (Magic). For 10s, increase Earth allies' BE Output by 80%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155751,
+        name: `魔女のお茶`,
+        translate: `Witch's Tea`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155751.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - Heal allies' Status ailments (except Faint). For 20s, heal God allies' HP by 300/s.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155761,
+        name: `『強欲の魔女』の服`,
+        translate: `Greedy Witch's Outfit`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Earth DMG (Magic). For 15s, increase own Earth DMG by 60%. Additionally when used for the first time, increase own Arts by 80.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155771,
+        name: `ベアトリスの叡智の書`,
+        translate: `Beatrice's Book of Wisdom`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155771.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `40s CT - Increase allies' Arts by 30. For 12s, increase God and Spirit allies' HP Recovery amount by 60%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 155781,
+        name: `ペテルギウスのローブ`,
+        translate: `Betelgeuse's Robe`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_155780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_155781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_155780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_155781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 4200% Dark DMG (Magic). For 10s, reduce Giant Boss' Magic RES by 20%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    }
 ]
 
 export function getEquips() {

@@ -4805,6 +4805,53 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 144,
+        date: `June 24, 2026`,
+        article: 
+        {
+            intro: `Part 2 of the Re:Zero Collab rerun has come to JP, with new units and equips! Meanwhile on Global, Part 2 of the Solo Leveling Collab has arrived, bringing with it new units and equips!`,
+            new:
+                {
+                    units: [
+                        [`Echidna`, 108447312],
+                        [`Demon Rem`, 108457512]
+                    ],
+                    equips: [
+                        [`真『レムの棘鉄球』`, 155711],
+                        [`真『強欲の魔女の服』`, 155721],
+                        [`レムの棘鉄球`, 155731],
+                        [`ラムの杖`, 155741],
+                        [`魔女のお茶`, 155751],
+                        [`『強欲の魔女』の服`, 155761],
+                        [`ベアトリスの叡智の書`, 155771],
+                        [`ペテルギウスのローブ`, 155781]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Cha Hae-In`, 108407412],
+                        [`Igris`, 108427512]
+                    ],
+                    equips: [
+                        [`True "Hae-In's Rapier"`, 155421],
+                        [`Hae-In's Gauntlets`, 155481],
+                        [`Hae-In's Rapier`, 155491],
+                        [`Hae-In's Armor`, 155501],
+                        [`True "Igris' Claymore"`, 155521],
+                        [`Igris' Claymore`, 155561],
+                        [`Igris' Armor`, 155571],
+                        [`Iron's Axe`, 155581],
+                        [`Iron's Shield`, 155591],
+                        [`Elixir of Life`, 155601],
+                        [`Iron's Shield EV`, 155621]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

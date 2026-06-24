@@ -47700,7 +47700,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Cha Hae-In's Sword",
+                name: "Hae-In's Rapier",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155421.png",
                 skill: "50s CT - 4000% Light DMG (PHY). For 60s, reduce enemies' Light RES by 20% (stackable).",
@@ -47713,8 +47713,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -47874,7 +47874,7 @@ const UnitInformation = [
             },
         trueweapon:
             {
-                name: "Igris' Sword",
+                name: "Igris' Claymore",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_155521.png",
                 skill: "50s CT - 9000% Dark DMG (PHY). For 15s, increase own PHY DMG by 30%. If user is Spirit, increase own PHY DMG by 60% instead.",
@@ -47887,8 +47887,8 @@ const UnitInformation = [
             },
         lore:
             {
-                evoawk: `Currently unreleased in Global.`,
-                evosuper: `Currently unreleased in Global.`
+                evoawk: `Missing Lore.`,
+                evosuper: `Missing Lore.`
             }
     },
     {
@@ -47965,6 +47965,170 @@ const UnitInformation = [
                     {
                         ability1: "When equipped by Reinhard, increase own Accuracy rate by 30% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own Skill DMG by 10%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108447312,
+        name: `Echidna`,
+        attribute: `Earth`,
+        type: `God`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108446312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108447312.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_844_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108446312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108447312.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_844_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 8050,
+                hpplus: 1474,
+                atk: 3114,
+                atkplus: 596,
+                def: 3486,
+                defplus: 672
+            },
+        skillset:
+            {
+                skill: `15s CT - Heals own Status ailments (except Faint, Paralysis, Seal, Freeze). For 12s, increase own Arts by 3/s.`,
+                skillbreak: 0,
+                arts: `30000% Earth DMG (MAG). For 60s, reduce enemies' MAG RES by 40% (stackable).`,
+                artsbreak: 800,
+                truearts: `100000% Earth DMG (MAG). Each time True Arts is used, permanently increase own MAG DMG by 50% (MAX: 500%).`,
+                trueartsbreak: 1700,
+                superarts: `For 25s, increase allies' Arts by 8/s and heal allies' HP by 8%/s.`,
+                superartsbreak: 0
+            },
+        passive:
+            {
+                ability1: `When this unit takes lethal DMG, revive all allies with 50% HP and increase all allies' Arts by 100. Can only be activated once per quest.`,
+                ability2: `Increase own MAG RES by 30%.`,
+                ability3: `Increase own Seal RES by 100%.`,
+                ability4: `Unit EXP UP 20% UP. (When Echidna's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Echidna's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
+                    mat2amt: 100,
+                    hover2: "Smogdragon Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Greedy Witch's Outfit",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155721.png",
+                skill: "55s CT - 10000% Earth DMG (MAG). For 8s, reduce enemies' Earth RES by 30%. Additionally if user is God, for 10s, reduce enemies' DMG RES by 20%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Echidna, increase own MAX HP, DEF and Heal Amount (excluding Lifesteal) by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own MAG RES by 5%."
+                    }
+            },
+        lore:
+            {
+                evoawk: `Currently unreleased in Global.`,
+                evosuper: `Currently unreleased in Global.`
+            }
+    },
+    {
+        id: 108457512,
+        name: `Demon Rem`,
+        attribute: `Dark`,
+        type: `Demon`,
+        image:
+            {
+                detailawk: "/db/Units/Detail/unit_detail_108456512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_108457512.png",
+                detailspecial: "/db/Units/Special/Detail/unit_sp_detail_845_1.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_108456512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_108457512.png",
+                thumbspecial: "/db/Units/Special/Thumbnail/unit_sp_icon_845_1.png"
+            },
+        slots:
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats:
+            {
+                hp: 6964,
+                hpplus: 1293,
+                atk: 3742,
+                atkplus: 700,
+                def: 3381,
+                defplus: 653
+            },
+        skillset:
+            {
+                skill: `12s CT - 3200% Water DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 400,
+                arts: `For 30s, increase allies' PHY RES by 35% and Allies gain a DMG barrier that negates 15000 DMG.`,
+                artsbreak: 0,
+                truearts: `80000% Dark DMG (PHY). For 45s, ignore 100% of Enemies' DEF and reduce enemies' PHY RES by 70%.`,
+                trueartsbreak: 2000,
+                superarts: `200000% Dark DMG (PHY). When used for the first 3 times in a Quest, doubles own Super Arts DMG Multiplier. Additionally, when Super Arts is used, for 20s, reduce enemies' Dark RES based on how high current HP is (MAX: 200%).`,
+                superartsbreak: 2500
+            },
+        passive:
+            {
+                ability1: `Increase own ATK based on how high current HP is (MAX: 200%). Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG by [1% × own ATK/100].`,
+                ability3: `Increase DMG against Enemies in BREAK by 50%.`,
+                ability4: `Unit EXP UP 20% UP. (When Demon Rem's SP. Art is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Demon Rem's SP. Art is owned)`
+            },
+        evolution:
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinflow Soulgem"
+                }
+            },
+        trueweapon:
+            {
+                name: "Rem's Spiked Iron Ball",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_155711.png",
+                skill: "50s CT - 5000% Dark DMG (PHY). For 10s, reduce enemies' Dark RES by 40%. Additionally if user is Demon, for 10s, increase own ATK by 40%.",
+                skillbreak: 500,
+                passive:
+                    {
+                        ability1: "When equipped by Demon Rem, increase own Arts by 3/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own ATK by 5%."
                     }
             },
         lore:
