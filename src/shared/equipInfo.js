@@ -30368,7 +30368,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 2800% Dark DMG (Physical). Consumes 3% of own MAX HP for 15s. Increase own Break Power by 80% against Light enemies by 80% for 15s.`,
+                skill: `60s CT - 2800% Dark DMG (Physical). Consumes 3% of own MAX HP for 15s. Increase own Break Power against Light enemies by 80% for 15s.`,
                 break: 2800
             },
         passive: 
