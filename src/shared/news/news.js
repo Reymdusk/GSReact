@@ -4852,6 +4852,33 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 145,
+        date: `July 2, 2026`,
+        article: 
+        {
+            intro: `A new saga Cybermancy; Lostpia makes its debut on JP, alongside Azurite and his equips. Additionally, 2 new Elemental Ruins equips too!`,
+            new:
+                {
+                    units: [
+                        [`Azurite`, 104317212]
+                    ],
+                    equips: [
+                        [`真「アンダー・ナイト・ウィル』`, 114041],
+                        [`千年鎖の剣「アンダー・ナイト・ウィル』`, 114051],
+                        [`行商筆槍「ブレイブペンソー』`, 114061],
+                        [`行商箱盾「ヤミーパンク』`, 114071]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                }
+        }
     }
 ]
 

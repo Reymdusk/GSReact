@@ -39286,6 +39286,131 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    {
+        id: 114041,
+        name: `真「アンダー・ナイト・ウィル』`,
+        translate: `True "Under Night Will"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Water DMG (Physical). For 10s, increase own Physical DMG and Water DMG by 40%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `When equipped by Azurite, increase own Arts by 1/s. At Start of Quest, increase own Arts by 200. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Physical RES by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114051,
+        name: `千年鎖の剣「アンダー・ナイト・ウィル』`,
+        translate: `Millenium Chain Sword "Under Night Will"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 8000% Water DMG (Physical). For 10s, increase own CRI DMG by 50%. Additionally if user is Water, for 10s, increase own ATK by 30%.`,
+                skillbreak: 600
+            },
+        passive:
+            {
+                ability1: `Increase own DMG against enemies in BREAK by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114061,
+        name: `行商筆槍「ブレイブペンソー』`,
+        translate: `Peddler's Pen-Spear "Brave Pen-Sword"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `15s CT - 1000% Light DMG (Physical). For 10s, increase own Break Power by 20%. Additionally if used while Giant Boss is Broken, increase own Arts by 50.`,
+                skillbreak: 1500
+            },
+        passive:
+            {
+                ability1: `Increase own Curse resistance by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114071,
+        name: `行商箱盾「ヤミーパンク』`,
+        translate: `Peddler's Box Shield "Yummy Punk"`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `35s CT - For 15s, increase Dark allies' CRI DMG resistance by 40%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: `Increase own Blind resistance by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,
