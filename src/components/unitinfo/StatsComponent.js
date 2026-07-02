@@ -104,6 +104,13 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                 }
             </Row>
 
+            {
+                unitSkill.protagonize &&
+                <Row>
+                    <h3><strong>PROTAGONIZE</strong></h3>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.protagonizebreak}</Badge> {unitSkill.protagonize}</p></center>
+                </Row>
+            }    
 
             { unitSkill.trueartsbreak || unitSkill.trueartsbreak === 0 ? 
                 <Row>
