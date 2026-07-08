@@ -36327,10 +36327,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //真『アースクレイム』 - JP Complete
+    { //True "Earth Cry" - Missing Lore
         id: 113071,
-        name: `真『アースクレイム』`,
-        translate: `True "Earth Claim"`,
+        name: `True "Earth Cry"`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36356,7 +36355,7 @@ const EquipInformation = [
                 ability1: `When equipped by Erens, increase own Arts by 3/s. Does not stack with Abilities of the same name.`,
                 ability2: `Increase own ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
     { //True "Grimm Stella" - Missing Lore
         id: 113081,

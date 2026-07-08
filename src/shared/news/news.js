@@ -4879,6 +4879,30 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 146,
+        date: `July 9, 2026`,
+        article: 
+        {
+            intro: `Grand Crusade EP4 makes its debut to Global, featuring a new unit with his True Weapon!`,
+            new:
+                {
+                    units: [],
+                    equips: [],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Erens`, 104097312]
+                    ],
+                    equips: [
+                        [`True "Earth Cry"`, 113071]
+                    ],
+                    dream: []
+                }
+        }
     }
 ]
 

@@ -32367,7 +32367,7 @@ const UnitInformation = [
                 evosuper: "The past form of Reigrad adventurer Iris. She remembers her identity and actions, but the seal prevents her from recalling the outcomes. Any attempt to envision what happened at the base of the World Tree that fateful day causes her to lose consciousness. She bears interminable solitude, waiting for someone to reach out through the darkness."
             }
     },
-    { //Erens - Missing Lore (JP)
+    { //Erens - Missing Lore
         id: 104097312,
         name: `Erens`,
         attribute: `Earth`,
@@ -32428,7 +32428,7 @@ const UnitInformation = [
             },
         trueweapon: 
                 {
-                    name: `Earth Claim`,
+                    name: `Earth Cry`,
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "/db/Equipment/Detail/item_detail_113071.png",
                     skill: `50s CT - 8000% Earth DMG (PHY). For 10s, reduce enemies' Earth RES by 30%. If user is Dragon, reduce enemies' Earth RES by 50% instead.`,
@@ -32441,8 +32441,8 @@ const UnitInformation = [
                 },
         lore:   
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { //Selia, Sourcescript Witch - Missing Lore
