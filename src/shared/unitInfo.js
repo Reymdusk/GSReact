@@ -32372,6 +32372,16 @@ const UnitInformation = [
         name: `Erens`,
         attribute: `Earth`,
         type: `Dragon`,
+        tier: 
+            {
+                rank: 5,
+                defense: 0.00,
+                artgen: 0.54,
+                damage: 3.96,
+                buffs: 2.98,
+                heal: 1.05,
+                break: 0.00
+            },
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_104096312.png",
@@ -33282,7 +33292,8 @@ const UnitInformation = [
     },
     {
         id: 104217212,
-        name: `Firil`,
+        name: `Firyl`,
+        translate: `Firil`,
         attribute: `Water`,
         type: `God`,
         image:
@@ -47724,6 +47735,16 @@ const UnitInformation = [
         name: `Cha Hae-In`,
         attribute: `Light`,
         type: `Human`,
+        tier: 
+            {
+                rank: 4,
+                defense: 3.31,
+                artgen: 2.58,
+                damage: 2.96,
+                buffs: 2.50,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108406412.png",
@@ -47898,6 +47919,16 @@ const UnitInformation = [
         name: `Igris`,
         attribute: `Dark`,
         type: `Spirit`,
+        tier: 
+            {
+                rank: 3,
+                defense: 2.99,
+                artgen: 2.36,
+                damage: 3.59,
+                buffs: 2.78,
+                heal: 0.09,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_108426512.png",
