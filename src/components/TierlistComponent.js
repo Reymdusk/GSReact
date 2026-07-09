@@ -32,14 +32,6 @@ export default function Tierlist() {
         <Container style={{marginTop: "5rem"}}>
             <DisplayHeader />
             <Row>
-                <h2>
-                            Massive Tierlist Reorganization in Progress...
-                        </h2>
-                        <p>We apologize for any inconvenience this may cause.</p>
-                        <p>The Tierlist will be based on a document created by members of the GSOD team.</p>
-                        <p>Finishing Touches are steadily being added, until then, the displays may look a little wonky</p>
-                        {//
-}
                 <Nav pills justified>
                     <NavItem>
                         <NavLink 
