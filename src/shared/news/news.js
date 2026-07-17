@@ -4903,6 +4903,52 @@ const NewsArticles = [
                     dream: []
                 }
         }
+    },
+    {
+        id: 147,
+        date: `July 18, 2026`,
+        article: 
+        {
+            intro: `Summer Char & Valerie makes a splash onto JP, alongside new Summer-themed equips and a new Mines equip! Meanwhile on Global, Simon the Eradicator makes his exclusive debut with his equips, alongside a plethora of Phantom Snipers Dream Awakenings!`,
+            new:
+                {
+                    units: [
+                        [`Summer Char & Valerie`, 104337112]
+                    ],
+                    equips: [
+                        [`炎精槌『マグマトン』`, 114091],
+                        [`エモ・ウルトラ・フュージョンソード`, 114101],
+                        [`真『エモーション・イグナイター』`, 114111],
+                        [`プリマフレア・サマーパッション`, 114121],
+                        [`プリマノヴァ・サマークール`, 114131],
+                        [`アンリエッタのロードブルービキニ`, 114141],
+                        [`ナターシャのマーセナリービキニ`, 114151],
+                        [`エモ・ウルトラ・フュージョンソード`, 114161]
+                    ],
+                    dream: []
+                },
+            globalUpdate:
+                {
+                    units: [
+                        [`Simon the Eradicator`, 104307512]
+                    ],
+                    equips: [
+                        [`True "Black Mass"`, 114021],
+                        [`Soulcleaver "Black Mass"`, 114031],
+                        [`True "Dark Prayer"`, 114081]
+                    ],
+                    dream: [
+                        [`Hart (Earth)`, 103276312],
+                        [`Hart (Dark)`, 103286512],
+                        [`Miranda`, 103296412],
+                        [`Simon`, 103306512],
+                        [`Vultee (Earth)`, 103316312],
+                        [`Priscilla`, 103326112],
+                        [`Vutlee`, 103406212],
+                        [`Priscilla (Water)`, 103416212]
+                    ]
+                }
+        }
     }
 ]
 

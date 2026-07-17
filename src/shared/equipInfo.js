@@ -39286,6 +39286,66 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     {
+        id: 114021,
+        name: `True "Black Mass"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 10000% Dark DMG (Physical). For 8s, reduce enemies' Dark resistance by 30%. Additionally if user is Human, for 8s, reduce enemies' DMG resistance by 20%.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: `When equipped by Simon the Eradicator, increase Origin Bullet's usage count by 1. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own ATK by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 114031,
+        name: `Soulcleaver "Black Mass"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `55s CT - 4000% Dark DMG (Physical). For 10s, reduce enemies' Dark resistance by 30%. Additionally if used for the first time, increase own Arts by 50.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Increase own ATK by 5%.`,
+                ability2: ``
+            },
+        lore: `Missing Lore.`
+    },
+    {
         id: 114041,
         name: `真「アンダー・ナイト・ウィル』`,
         translate: `True "Under Night Will"`,
@@ -39409,7 +39469,284 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-
+    {
+        id: 114081,
+        name: `True "Dark Prayer"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 9000% Dark DMG (Magic). Increase own Arts by 30. Additionally if user is Dark, for 10s, increase own stats by 30%.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: `When equipped by Simon the Eradicator, increase own DMG by 20% and Arts by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DEF by 5%.`
+            },
+        lore: `Missing Lore.`
+    },
+    {
+        id: 114091,
+        name: `炎精槌『マグマトン』`,
+        translate: `Flame Spirit Hammer "Magmaton"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 7000% Fire DMG (Physical). For 25s, increase own CRI DMG by 50% and reduce own MAX HP by 30%.`,
+                skillbreak: 400
+            },
+        passive:
+            {
+                ability1: `Reduce own DEF by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114101,
+        name: `エモ・ウルトラ・フュージョンソード`,
+        translate: `Emo Ultra Fusion Sword`,
+        type: `/db/Mines/thumbnail/magLB6.png`,
+        star: 6,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 600,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `80s CT - 16000% Fire DMG (Magic). For 10s, increase own ATK by 150%. If user is Human, increase own ATK by 250% instead.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114111,
+        name: `真『エモーション・イグナイター』`,
+        translate: `True "Emotion Igniter"`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `50s CT - 10000% Fire DMG (Magic). For 10s, increase own Magic DMG by 50%. Additionally if user is Fire, for 10s, increase own ATK by 50%.`,
+                skillbreak: 1000
+            },
+        passive:
+            {
+                ability1: `When equipped by Summer Char & Valerie, increase own ATK by 30% and Arts by 150 at Start of Quest. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own Accuracy rate by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114121,
+        name: `プリマフレア・サマーパッション`,
+        translate: `Prima Flare Summer Passion`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `45s CT - 7000% Fire DMG (Physical). For 15s, increase own Fire DMG by 60%. Additionally if used for the first time, increase own Arts by 80.`,
+                skillbreak: 800
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114131,
+        name: `プリマノヴァ・サマークール`,
+        translate: `Prima Nova Summer School`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `60s CT - 6000% Water DMG (Physical). For 10s, reduce enemies' DMG resistance by 25%. If user is Human, reduce enemies' DMG resistance by 50% instead.`,
+                skillbreak: 500
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114141,
+        name: `アンリエッタのロードブルービキニ`,
+        translate: `Henrietta's Road Blue Bikini`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114141.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:
+            {
+                skill: `45s CT - For 10s, increase allies' Arts by 2/s and Human allies' DMG by 60%. Additionally if used for the first time, increase allies' Arts by 30.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114151,
+        name: `ナターシャのマーセナリービキニ`,
+        translate: `Natasha's Mercenary Bikini`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:
+            {
+                skill: `30s CT - For 10s, heal allies' HP by 200/s. For 20s, increase allies' Dark resistance by 30%.`,
+                skillbreak: 0
+            },
+        passive:
+            {
+                ability1: ``,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    {
+        id: 114161,
+        name: `エモ・ウルトラ・フュージョンソード`,
+        translate: `Emotion Igniter`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image:
+            {
+                detail: `/db/Equipment/Detail/item_detail_114160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_114161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_114160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_114161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `40s CT - 5000% Fire DMG (Magic). Increase own Arts by 15. Additionally if user is Fire, for 10s, increase own stats by 15%.`,
+                skillbreak: 300
+            },
+        passive:
+            {
+                ability1: `Increase own BE Output by 10%.`,
+                ability2: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
 { //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic "Zero=Recorder"`,
