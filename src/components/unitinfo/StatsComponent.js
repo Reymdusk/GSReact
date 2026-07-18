@@ -187,6 +187,14 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.exartsbreak}</Badge> {unitSkill.exarts}</p></center>
                 </Row>
             }
+
+            {
+                unitSkill.originbullet && 
+                <Row>
+                    <h3><strong>Origin Bullet</strong></h3>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.originbulletbreak}</Badge> {unitSkill.originbullet}</p></center>
+                </Row>
+            }
             
         </center>
     )
