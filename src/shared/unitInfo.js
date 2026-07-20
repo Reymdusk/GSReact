@@ -1292,7 +1292,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -1690,7 +1690,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 1.22,
                 buffs: 0.00,
@@ -2135,7 +2135,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 2.08,
+                defense: 2.10,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -2405,7 +2405,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 1.05,
                 buffs: 1.14,
@@ -2653,7 +2653,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 11,
-                defense: 1.86,
+                defense: 1.88,
                 artgen: 0.00,
                 damage: 1.58,
                 buffs: 0.00,
@@ -4904,7 +4904,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 11,
-                defense: 1.23,
+                defense: 1.22,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.72,
@@ -5179,7 +5179,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.78,
                 buffs: 0.00,
@@ -6154,7 +6154,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.09,
@@ -6297,7 +6297,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.56,
+                defense: 1.57,
                 artgen: 0.00,
                 damage: 0.05,
                 buffs: 0.00,
@@ -7237,7 +7237,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.38,
                 buffs: 0.00,
@@ -7953,7 +7953,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 11,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -8121,7 +8121,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 1.09,
                 damage: 1.02,
                 buffs: 0.00,
@@ -8207,7 +8207,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.55,
+                defense: 1.56,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -8293,7 +8293,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -8378,7 +8378,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.37,
                 buffs: 0.00,
@@ -8629,7 +8629,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -8804,7 +8804,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 0.71,
+                defense: 0.72,
                 artgen: 0.23,
                 damage: 0.17,
                 buffs: 0.00,
@@ -8965,7 +8965,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 3.31,
+                defense: 3.33,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -9120,7 +9120,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 8,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -9571,7 +9571,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 2.05,
+                defense: 2.07,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.06,
@@ -10112,7 +10112,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.61,
                 buffs: 0.00,
@@ -10376,7 +10376,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -11101,7 +11101,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.19,
+                defense: 1.20,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -12132,7 +12132,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 1.56,
+                defense: 1.58,
                 artgen: 0.58,
                 damage: 0.00,
                 buffs: 0.00,
@@ -12444,7 +12444,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 2.01,
+                defense: 1.99,
                 artgen: 0.53,
                 damage: 0.00,
                 buffs: 0.00,
@@ -12631,7 +12631,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 2.19,
                 damage: 0.10,
                 buffs: 0.04,
@@ -13188,10 +13188,11 @@ const UnitInformation = [
     { //Satsuki - Complete
         id: 102216212,
         name: "Satsuki",
+        translate: `Satsuki Kiryuin`,
         tier: 
             {
                 rank: 10,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 1.10,
                 buffs: 0.00,
@@ -13312,7 +13313,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 3.28,
                 buffs: 0.00,
@@ -13732,7 +13733,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -13991,7 +13992,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -14258,7 +14259,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.72,
                 buffs: 0.00,
@@ -14926,7 +14927,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 0.75,
+                defense: 0.74,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -15019,7 +15020,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.82,
+                defense: 1.84,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -15779,7 +15780,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.37,
+                defense: 4.33,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -16345,7 +16346,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.45,
                 damage: 0.00,
                 buffs: 0.00,
@@ -16734,7 +16735,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.24,
                 buffs: 0.00,
@@ -17202,7 +17203,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 8,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 1.77,
                 damage: 0.59,
                 buffs: 0.95,
@@ -18717,10 +18718,8 @@ const UnitInformation = [
         name: "Ginzo",
         tier: 
             {
-                rank: `C`,
-                luckrank: ``,
-                overall: 1.30,
-                defense: 1.37,
+                rank: 13,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.87,
                 buffs: 0.00,
@@ -19092,7 +19091,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 1.61,
                 buffs: 0.00,
@@ -19340,7 +19339,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.57,
+                defense: 1.58,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -19795,7 +19794,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 1.05,
+                defense: 1.06,
                 artgen: 0.37,
                 damage: 0.00,
                 buffs: 0.00,
@@ -19897,7 +19896,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 0.58,
+                defense: 0.59,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -19986,7 +19985,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.21,
                 buffs: 0.00,
@@ -20402,7 +20401,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.07,
+                defense: 1.08,
                 artgen: 1.22,
                 damage: 1.08,
                 buffs: 1.45,
@@ -20547,7 +20546,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.56,
+                defense: 1.57,
                 artgen: 0.00,
                 damage: 0.32,
                 buffs: 0.00,
@@ -20791,7 +20790,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.38,
                 buffs: 0.00,
@@ -21029,7 +21028,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.58,
                 buffs: 0.00,
@@ -21279,7 +21278,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 12,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.39,
                 buffs: 0.63,
@@ -21538,7 +21537,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 3.13,
+                defense: 3.04,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -22274,7 +22273,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -23682,9 +23681,9 @@ const UnitInformation = [
             {
                 rank: 5,
                 defense: 0.00,
-                artgen: 2.78,
-                damage: 0.63,
-                buffs: 0.72,
+                artgen: 3.37,
+                damage: 1.64,
+                buffs: 0.80,
                 heal: 3.95,
                 break: 0.00
             },
@@ -23826,11 +23825,11 @@ const UnitInformation = [
         translate: `Dark Hart`,
         tier: 
             {
-                rank: 12,
+                rank: 8,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 0.89,
-                buffs: 1.17,
+                damage: 3.26,
+                buffs: 2.50,
                 heal: 0.00,
                 break: 0.00
             },
@@ -23971,10 +23970,10 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 3.64,
+                defense: 4.00,
                 artgen: 0.00,
-                damage: 0.13,
-                buffs: 0.63,
+                damage: 0.88,
+                buffs: 0.54,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24115,8 +24114,8 @@ const UnitInformation = [
                 rank: 10,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 2.44,
-                buffs: 0.58,
+                damage: 2.80,
+                buffs: 0.86,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24260,9 +24259,9 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.76,
-                artgen: 0.00,
-                damage: 0.64,
+                defense: 5.00,
+                artgen: 0.17,
+                damage: 2.00,
                 buffs: 0.27,
                 heal: 0.00,
                 break: 0.00
@@ -24406,8 +24405,8 @@ const UnitInformation = [
                 rank: 13,
                 defense: 0.00,
                 artgen: 0.00,
-                damage: 1.19,
-                buffs: 1.67,
+                damage: 2.16,
+                buffs: 1.80,
                 heal: 0.00,
                 break: 0.00
             },
@@ -24735,7 +24734,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 1.07,
                 buffs: 0.52,
@@ -25382,11 +25381,11 @@ const UnitInformation = [
         name: "Vultee",
         tier: 
             {
-                rank: 12,
+                rank: 11,
                 defense: 0.52,
-                artgen: 0.00,
-                damage: 1.03,
-                buffs: 0.00,
+                artgen: 0.43,
+                damage: 2.04,
+                buffs: 1.00,
                 heal: 0.00,
                 break: 0.00
             },
@@ -25526,11 +25525,11 @@ const UnitInformation = [
         name: "Priscilla (Water)",
         tier: 
             {
-                rank: 10,
+                rank: 9,
                 defense: 0.00,
                 artgen: 2.80,
-                damage: 0.91,
-                buffs: 0.68,
+                damage: 3.11,
+                buffs: 0.91,
                 heal: 0.00,
                 break: 0.00
             },
@@ -25674,7 +25673,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.32,
+                defense: 1.33,
                 artgen: 3.37,
                 damage: 1.05,
                 buffs: 0.42,
@@ -26125,7 +26124,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 2.95,
                 buffs: 0.77,
@@ -26638,7 +26637,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.76,
                 buffs: 0.00,
@@ -27007,7 +27006,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.96,
                 buffs: 0.00,
@@ -27419,7 +27418,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.52,
+                defense: 1.53,
                 artgen: 3.01,
                 damage: 2.79,
                 buffs: 0.56,
@@ -27730,7 +27729,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 5.00,
+                defense: 4.95,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -27836,7 +27835,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.67,
                 buffs: 0.00,
@@ -28146,7 +28145,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.98,
+                defense: 1.99,
                 artgen: 0.00,
                 damage: 3.18,
                 buffs: 2.21,
@@ -28419,7 +28418,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 3.10,
                 buffs: 0.33,
@@ -28601,7 +28600,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.99,
+                defense: 2.01,
                 artgen: 2.50,
                 damage: 2.19,
                 buffs: 1.66,
@@ -28966,7 +28965,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 3.22,
                 buffs: 3.96,
@@ -29151,7 +29150,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.22,
+                defense: 1.23,
                 artgen: 0.81,
                 damage: 3.02,
                 buffs: 4.14,
@@ -29583,7 +29582,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 11,
-                defense: 1.56,
+                defense: 1.57,
                 artgen: 0.00,
                 damage: 3.25,
                 buffs: 0.10,
@@ -29794,7 +29793,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 2.03,
+                defense: 2.05,
                 artgen: 0.00,
                 damage: 3.65,
                 buffs: 0.88,
@@ -29906,7 +29905,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.30,
+                defense: 1.47,
                 artgen: 3.13,
                 damage: 3.17,
                 buffs: 2.75,
@@ -30007,7 +30006,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.67,
+                defense: 1.68,
                 artgen: 4.89,
                 damage: 3.10,
                 buffs: 1.20,
@@ -30209,7 +30208,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 1,
-                defense: 2.36,
+                defense: 2.38,
                 artgen: 4.58,
                 damage: 3.80,
                 buffs: 4.33,
@@ -30584,7 +30583,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.41,
+                defense: 4.36,
                 artgen: 1.52,
                 damage: 1.04,
                 buffs: 0.17,
@@ -30764,7 +30763,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 2.47,
+                defense: 2.56,
                 artgen: 0.00,
                 damage: 2.20,
                 buffs: 1.07,
@@ -30967,7 +30966,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.49,
+                defense: 1.50,
                 artgen: 0.00,
                 damage: 3.79,
                 buffs: 0.55,
@@ -31065,7 +31064,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 11,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 2.74,
                 buffs: 1.24,
@@ -31153,7 +31152,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 1.59,
+                defense: 1.60,
                 artgen: 0.00,
                 damage: 2.04,
                 buffs: 1.70,
@@ -31958,7 +31957,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 2.66,
                 damage: 3.94,
                 buffs: 1.59,
@@ -32137,7 +32136,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.87,
+                defense: 1.88,
                 artgen: 0.00,
                 damage: 3.12,
                 buffs: 3.87,
@@ -32313,7 +32312,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.30,
+                defense: 1.31,
                 artgen: 3.20,
                 damage: 2.89,
                 buffs: 0.27,
@@ -32488,7 +32487,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 1.66,
                 damage: 4.09,
                 buffs: 2.92,
@@ -33700,6 +33699,16 @@ const UnitInformation = [
         name: `Simon the Eradicator`,
         attribute: `Dark`,
         type: `Human`,
+        tier: 
+            {
+                rank: 8,
+                defense: 0.00,
+                artgen: 0.00,
+                damage: 4.02,
+                buffs: 0.25,
+                heal: 0.00,
+                break: 0.00
+            },
         image:
             {
                 detailawk: "/db/Units/Detail/unit_detail_104306512.png",
@@ -34356,7 +34365,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 2.08,
+                defense: 2.10,
                 artgen: 0.00,
                 damage: 3.45,
                 buffs: 0.00,
@@ -34820,7 +34829,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 0.44,
                 buffs: 0.00,
@@ -34894,7 +34903,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 9,
-                defense: 1.35,
+                defense: 1.36,
                 artgen: 1.45,
                 damage: 0.00,
                 buffs: 0.00,
@@ -35041,7 +35050,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 11,
-                defense: 2.08,
+                defense: 2.10,
                 artgen: 0.00,
                 damage: 0.39,
                 buffs: 0.84,
@@ -35593,7 +35602,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 2.39,
                 buffs: 0.00,
@@ -36010,7 +36019,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 8,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.31,
                 damage: 2.56,
                 buffs: 0.00,
@@ -36445,7 +36454,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 8,
-                defense: 2.24,
+                defense: 2.22,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -36880,7 +36889,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 2.75,
+                defense: 2.31,
                 artgen: 2.84,
                 damage: 1.64,
                 buffs: 2.66,
@@ -37354,7 +37363,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.65,
+                defense: 1.66,
                 artgen: 1.27,
                 damage: 1.60,
                 buffs: 0.55,
@@ -37678,7 +37687,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 8,
-                defense: 1.85,
+                defense: 1.86,
                 artgen: 0.00,
                 damage: 0.96,
                 buffs: 0.00,
@@ -38001,7 +38010,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 2.50,
+                defense: 2.52,
                 artgen: 1.57,
                 damage: 2.14,
                 buffs: 1.75,
@@ -38277,7 +38286,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 3.35,
                 buffs: 0.00,
@@ -38947,7 +38956,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.72,
                 damage: 0.68,
                 buffs: 0.65,
@@ -39321,7 +39330,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.32,
+                defense: 1.33,
                 artgen: 0.00,
                 damage: 1.46,
                 buffs: 0.00,
@@ -39395,7 +39404,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 8,
-                defense: 2.33,
+                defense: 2.35,
                 artgen: 1.27,
                 damage: 0.00,
                 buffs: 0.00,
@@ -39999,10 +40008,11 @@ const UnitInformation = [
     { //Erza - Complete (+ JP version), Review done
         id: 107586412,
         name: "Erza",
+        translate: `Erza Scarlet`,
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 2.87,
                 buffs: 0.13,
@@ -40368,7 +40378,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 2.67,
                 buffs: 0.92,
@@ -40550,7 +40560,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 10,
-                defense: 1.62,
+                defense: 1.63,
                 artgen: 0.00,
                 damage: 0.00,
                 buffs: 0.00,
@@ -40732,7 +40742,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 13,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 1.66,
                 damage: 1.80,
                 buffs: 0.80,
@@ -41005,7 +41015,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 3.32,
+                defense: 3.35,
                 artgen: 0.00,
                 damage: 1.05,
                 buffs: 0.02,
@@ -41326,7 +41336,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 0.99,
+                defense: 1.00,
                 artgen: 2.43,
                 damage: 2.98,
                 buffs: 2.62,
@@ -41780,7 +41790,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 2,
-                defense: 4.87,
+                defense: 4.90,
                 artgen: 0.00,
                 damage: 2.84,
                 buffs: 1.59,
@@ -42010,7 +42020,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 3.59,
                 buffs: 0.32,
@@ -42219,7 +42229,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 2.10,
                 damage: 2.39,
                 buffs: 1.11,
@@ -42416,7 +42426,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 2.94,
                 buffs: 0.00,
@@ -42516,7 +42526,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 1.32,
+                defense: 1.33,
                 artgen: 0.00,
                 damage: 4.31,
                 buffs: 2.51,
@@ -42736,7 +42746,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 6,
-                defense: 1.46,
+                defense: 1.47,
                 artgen: 1.44,
                 damage: 3.11,
                 buffs: 2.09,
@@ -42925,7 +42935,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.93,
+                defense: 1.94,
                 artgen: 0.71,
                 damage: 3.10,
                 buffs: 0.86,
@@ -43083,7 +43093,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 4.34,
                 buffs: 2.45,
@@ -43162,7 +43172,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 1.56,
+                defense: 1.57,
                 artgen: 0.00,
                 damage: 3.65,
                 buffs: 3.27,
@@ -43346,7 +43356,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.58,
+                defense: 1.60,
                 artgen: 3.49,
                 damage: 3.14,
                 buffs: 1.40,
@@ -43438,7 +43448,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 4.53,
                 buffs: 2.38,
@@ -43622,7 +43632,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 4.82,
+                defense: 4.81,
                 artgen: 0.00,
                 damage: 2.33,
                 buffs: 0.17,
@@ -44082,7 +44092,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 7,
-                defense: 1.04,
+                defense: 1.05,
                 artgen: 0.00,
                 damage: 3.31,
                 buffs: 0.35,
@@ -44174,7 +44184,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 0.05,
+                defense: 0.55,
                 artgen: 0.37,
                 damage: 3.56,
                 buffs: 4.71,
@@ -44266,7 +44276,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 1.30,
+                defense: 1.31,
                 artgen: 1.78,
                 damage: 3.66,
                 buffs: 2.57,
@@ -44450,7 +44460,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 2,
-                defense: 2.86,
+                defense: 2.88,
                 artgen: 3.19,
                 damage: 1.77,
                 buffs: 2.3,
@@ -44726,7 +44736,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.35,
+                defense: 1.36,
                 artgen: 3.33,
                 damage: 3.22,
                 buffs: 2.86,
@@ -44818,7 +44828,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 5,
-                defense: 0.00,
+                defense: 0.34,
                 artgen: 3.30,
                 damage: 1.87,
                 buffs: 1.50,
@@ -45094,7 +45104,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 2.50,
+                defense: 2.52,
                 artgen: 3.05,
                 damage: 3.42,
                 buffs: 1.51,
@@ -45370,7 +45380,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 0.21,
+                defense: 0.20,
                 artgen: 0.57,
                 damage: 4.17,
                 buffs: 2.91,
@@ -45462,7 +45472,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 1,
-                defense: 3.26,
+                defense: 3.23,
                 artgen: 0.00,
                 damage: 4.76,
                 buffs: 0.48,
@@ -45830,7 +45840,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.98,
+                defense: 1.99,
                 artgen: 2.42,
                 damage: 3.07,
                 buffs: 3.13,
@@ -46014,7 +46024,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.98,
+                defense: 1.99,
                 artgen: 0.43,
                 damage: 3.66,
                 buffs: 0.50,
@@ -46106,7 +46116,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 1.16,
+                defense: 1.17,
                 artgen: 0.09,
                 damage: 4.47,
                 buffs: 2.46,
@@ -46291,7 +46301,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 1,
-                defense: 2.03,
+                defense: 2.05,
                 artgen: 0.00,
                 damage: 5.00,
                 buffs: 5.00,
@@ -46383,7 +46393,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 2.81,
+                defense: 2.83,
                 artgen: 0.53,
                 damage: 3.76,
                 buffs: 0.57,
@@ -46475,7 +46485,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 2.34,
+                defense: 2.35,
                 artgen: 1.99,
                 damage: 3.81,
                 buffs: 1.91,
@@ -46661,7 +46671,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 3.51,
+                defense: 3.53,
                 artgen: 0.18,
                 damage: 2.15,
                 buffs: 1.78,
@@ -46937,7 +46947,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 2,
-                defense: 3.67,
+                defense: 3.73,
                 artgen: 1.01,
                 damage: 2.92,
                 buffs: 4.21,
@@ -47122,7 +47132,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 2.39,
+                defense: 2.40,
                 artgen: 3.65,
                 damage: 1.80,
                 buffs: 0.08,
@@ -47766,7 +47776,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 4,
-                defense: 3.31,
+                defense: 3.33,
                 artgen: 2.58,
                 damage: 2.96,
                 buffs: 2.50,
@@ -47950,7 +47960,7 @@ const UnitInformation = [
         tier: 
             {
                 rank: 3,
-                defense: 2.99,
+                defense: 3.02,
                 artgen: 2.36,
                 damage: 3.59,
                 buffs: 2.78,
